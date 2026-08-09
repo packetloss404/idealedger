@@ -22,14 +22,23 @@ function isWithin(parent, child) {
   return relative === '' || (!relative.startsWith('..') && !path.isAbsolute(relative));
 }
 
-function hasExactCase(repoRoot, relativePath) {
+function classifyPathCase(repoRoot, relativePath) {
   let current = repoRoot;
   for (const segment of toPosixPath(relativePath).split('/')) {
-    const entries = fs.readdirSync(current);
-    if (!entries.includes(segment)) return false;
+    let entries;
+    try {
+      entries = fs.readdirSync(current);
+    } catch {
+      return 'missing';
+    }
+    if (!entries.includes(segment)) {
+      const foldedSegment = segment.toLowerCase();
+      if (entries.some((entry) => entry.toLowerCase() === foldedSegment)) return 'mismatch';
+      return 'missing';
+    }
     current = path.join(current, segment);
   }
-  return true;
+  return 'exact';
 }
 
 export function validateSourceSemantics(repoRoot, source) {
@@ -73,12 +82,14 @@ export function validateSourceSemantics(repoRoot, source) {
         errors.push(`${label}.research: path escapes docs/: ${relativePath}`);
         continue;
       }
-      if (!fs.existsSync(resolved)) {
-        errors.push(`${label}.research: missing file: ${relativePath}`);
+      const pathCase = classifyPathCase(repoRoot, posixPath);
+      if (pathCase === 'mismatch') {
+        errors.push(`${label}.research: path case does not match disk: ${relativePath}`);
         continue;
       }
-      if (!hasExactCase(repoRoot, posixPath)) {
-        errors.push(`${label}.research: path case does not match disk: ${relativePath}`);
+      if (pathCase === 'missing' || !fs.existsSync(resolved)) {
+        errors.push(`${label}.research: missing file: ${relativePath}`);
+        continue;
       }
       const realPath = fs.realpathSync.native(resolved);
       if (!isWithin(realDocsRoot, realPath)) {
