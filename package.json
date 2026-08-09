@@ -2,6 +2,9 @@
   "name": "revenuecat",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@expo/ui": "~57.0.9",
     "expo": "~57.0.11",
@@ -29,7 +32,17 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
-    "typescript": "~6.0.3"
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "^57.0.1",
+    "github-slugger": "^2.0.0",
+    "mdast-util-to-string": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "typescript": "~6.0.3",
+    "unified": "^11.0.5",
+    "write-file-atomic": "^7.0.1"
   },
   "scripts": {
     "start": "expo start",
@@ -37,7 +50,14 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit",
+    "ideas:validate": "node scripts/idea-ledger/cli.mjs validate",
+    "ideas:generate": "node scripts/idea-ledger/cli.mjs generate",
+    "ideas:check": "node scripts/idea-ledger/cli.mjs check",
+    "ideas:test": "node --test scripts/idea-ledger/test/*.test.mjs",
+    "build:web": "npm run ideas:check && expo export --platform web",
+    "check": "npm run ideas:validate && npm run ideas:test && npm run ideas:check && npm run typecheck && npm run lint"
   },
   "private": true
 }

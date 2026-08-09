@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://idea-ledger.local/schemas/generated-artifacts.schema.json",
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+    "sourceFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "bytes"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "sha256": { "$ref": "#/$defs/hash" },
+        "bytes": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "generatorVersion",
+        "sourceSchemaVersion",
+        "sourceUpdatedAt",
+        "sourceHash",
+        "sourceFiles",
+        "counts"
+      ],
+      "properties": {
+        "generatorVersion": { "const": 1 },
+        "sourceSchemaVersion": { "const": 1 },
+        "sourceUpdatedAt": { "type": "string", "format": "date" },
+        "sourceHash": { "$ref": "#/$defs/hash" },
+        "sourceFiles": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceFile" }
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["ideas", "dossiers", "researchEdges", "searchDocuments"],
+          "properties": {
+            "ideas": { "type": "integer", "minimum": 1 },
+            "dossiers": { "type": "integer", "minimum": 0 },
+            "researchEdges": { "type": "integer", "minimum": 0 },
+            "searchDocuments": { "type": "integer", "minimum": 1 }
+          }
+        }
+      }
+    },
+    "generatedIdea": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "aliases",
+        "status",
+        "hackathon_fit",
+        "one_liner",
+        "decision_reason",
+        "resurrection_trigger",
+        "tags",
+        "research",
+        "route",
+        "dossierSlugs"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "status": { "type": "string", "minLength": 1 },
+        "hackathon_fit": { "type": "string", "minLength": 1 },
+        "one_liner": { "type": "string", "minLength": 1 },
+        "decision_reason": { "type": "string", "minLength": 1 },
+        "resurrection_trigger": { "type": "string", "minLength": 1 },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "research": { "type": "array", "items": { "type": "string" } },
+        "route": { "type": "string", "pattern": "^/ideas/" },
+        "dossierSlugs": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "catalog": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceSchemaVersion", "sourceHash", "statusDefinitions", "ideas"],
+      "properties": {
+        "sourceSchemaVersion": { "const": 1 },
+        "sourceHash": { "$ref": "#/$defs/hash" },
+        "statusDefinitions": { "type": "object" },
+        "ideas": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/generatedIdea" }
+        }
+      }
+    },
+    "heading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["depth", "text", "anchor"],
+      "properties": {
+        "depth": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "text": { "type": "string" },
+        "anchor": { "type": "string" }
+      }
+    },
+    "researchLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "text", "kind", "occurrences"],
+      "properties": {
+        "url": { "type": "string", "minLength": 1 },
+        "text": { "type": "string" },
+        "kind": { "enum": ["external", "local"] },
+        "occurrences": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "researchDocument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "path",
+        "route",
+        "title",
+        "markdown",
+        "plainText",
+        "headings",
+        "links",
+        "linkedIdeaIds",
+        "sha256"
+      ],
+      "properties": {
+        "slug": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "route": { "type": "string", "pattern": "^/research/" },
+        "title": { "type": "string", "minLength": 1 },
+        "markdown": { "type": "string" },
+        "plainText": { "type": "string" },
+        "headings": { "type": "array", "items": { "$ref": "#/$defs/heading" } },
+        "links": { "type": "array", "items": { "$ref": "#/$defs/researchLink" } },
+        "linkedIdeaIds": { "type": "array", "items": { "type": "string" } },
+        "sha256": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "researchDocuments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceHash", "documents"],
+      "properties": {
+        "sourceHash": { "$ref": "#/$defs/hash" },
+        "documents": { "type": "array", "items": { "$ref": "#/$defs/researchDocument" } }
+      }
+    },
+    "searchDocument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "type", "route", "title", "fields"],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["idea", "research"] },
+        "route": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "fields": {
+          "type": "object",
+          "additionalProperties": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ]
+          }
+        }
+      }
+    },
+    "searchDocuments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceHash", "normalizationVersion", "documents"],
+      "properties": {
+        "sourceHash": { "$ref": "#/$defs/hash" },
+        "normalizationVersion": { "const": 1 },
+        "documents": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/searchDocument" } }
+      }
+    },
+    "routes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceHash", "ideaIds", "researchSlugs", "ideaRoutes", "researchRoutes"],
+      "properties": {
+        "sourceHash": { "$ref": "#/$defs/hash" },
+        "ideaIds": { "type": "array", "items": { "type": "string" } },
+        "researchSlugs": { "type": "array", "items": { "type": "string" } },
+        "ideaRoutes": { "type": "array", "items": { "type": "string" } },
+        "researchRoutes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "qualityReport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceHash",
+        "counts",
+        "ideasWithoutResearch",
+        "headingMatchedIdeas",
+        "mentionOnlyIdeas",
+        "dossierRefsWithoutMention",
+        "multiRefIdeas",
+        "tagStats",
+        "singletonTags"
+      ],
+      "properties": {
+        "sourceHash": { "$ref": "#/$defs/hash" },
+        "counts": {
+          "type": "object",
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        },
+        "ideasWithoutResearch": { "type": "array", "items": { "type": "string" } },
+        "headingMatchedIdeas": { "type": "array", "items": { "type": "string" } },
+        "mentionOnlyIdeas": { "type": "array", "items": { "type": "string" } },
+        "dossierRefsWithoutMention": { "type": "array", "items": { "type": "string" } },
+        "multiRefIdeas": { "type": "array", "items": { "type": "string" } },
+        "tagStats": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["assignments", "unique", "singletons", "doubletons"],
+          "properties": {
+            "assignments": { "type": "integer", "minimum": 0 },
+            "unique": { "type": "integer", "minimum": 0 },
+            "singletons": { "type": "integer", "minimum": 0 },
+            "doubletons": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "singletonTags": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

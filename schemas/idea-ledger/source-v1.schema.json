@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://idea-ledger.local/schemas/source-v1.schema.json",
+  "title": "Idea Ledger source schema v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "updated_at",
+    "purpose",
+    "status_definitions",
+    "ideas"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status_definitions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw",
+        "validating",
+        "parked",
+        "passed_scope",
+        "passed_market",
+        "needs_reconstruction"
+      ],
+      "properties": {
+        "raw": { "type": "string", "minLength": 1 },
+        "validating": { "type": "string", "minLength": 1 },
+        "parked": { "type": "string", "minLength": 1 },
+        "passed_scope": { "type": "string", "minLength": 1 },
+        "passed_market": { "type": "string", "minLength": 1 },
+        "needs_reconstruction": { "type": "string", "minLength": 1 }
+      }
+    },
+    "ideas": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/idea" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "uniqueStrings": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "idea": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "aliases",
+        "status",
+        "hackathon_fit",
+        "one_liner",
+        "decision_reason",
+        "resurrection_trigger",
+        "tags",
+        "research"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": { "$ref": "#/$defs/nonEmptyString" },
+        "aliases": { "$ref": "#/$defs/uniqueStrings" },
+        "status": {
+          "enum": [
+            "raw",
+            "validating",
+            "parked",
+            "passed_scope",
+            "passed_market",
+            "needs_reconstruction"
+          ]
+        },
+        "hackathon_fit": {
+          "enum": ["low", "medium", "high", "unknown"]
+        },
+        "one_liner": { "$ref": "#/$defs/nonEmptyString" },
+        "decision_reason": { "$ref": "#/$defs/nonEmptyString" },
+        "resurrection_trigger": { "$ref": "#/$defs/nonEmptyString" },
+        "tags": {
+          "allOf": [
+            { "$ref": "#/$defs/uniqueStrings" },
+            { "type": "array", "minItems": 1 }
+          ]
+        },
+        "research": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^docs/[A-Za-z0-9][A-Za-z0-9._-]*\\.md$"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "counts": {
+    "dossiers": 12,
+    "ideas": 152,
+    "researchEdges": 145,
+    "searchDocuments": 164
+  },
+  "generatorVersion": 1,
+  "sourceFiles": [
+    {
+      "bytes": 27209,
+      "path": "docs/DINNER-DECISION-DEEP-DIVE.md",
+      "sha256": "sha256:f8e44d1adda9e813d8ff2725cf4a4af607fc72f26b45b4a8022a2c82e6a06eb6"
+    },
+    {
+      "bytes": 12315,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+      "sha256": "sha256:7626ebe20e1ae7c997af1a4bbec2f44ce364aa8bfbe1ddc479bc441da6c6aa41"
+    },
+    {
+      "bytes": 15407,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+      "sha256": "sha256:088c37957c55a4f17e12f9faf93fc7d489e223232d926b27e4983fe8974e30f0"
+    },
+    {
+      "bytes": 18361,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+      "sha256": "sha256:197a6b9fe8716ad1e45636da8f305141af9d70cd6d3ee117af496a78e9812e3d"
+    },
+    {
+      "bytes": 13261,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+      "sha256": "sha256:86f82ad504f6818721edb8f5d0246db31addd0531ba917dcf459e29407183678"
+    },
+    {
+      "bytes": 13207,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+      "sha256": "sha256:175ab5e3439feda6917e68a7f4ffd0ce3a943f08d00df64fe39f22d67367a890"
+    },
+    {
+      "bytes": 11618,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+      "sha256": "sha256:acc2aacfdfa222a93faee375e9dd967a64c61f5ba6906e9b02ebf141a9156f44"
+    },
+    {
+      "bytes": 11459,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+      "sha256": "sha256:8eacbb1e4e668a43c3d6c3a0afc386f9c15fedaecbbd96c8cbce622b89065d94"
+    },
+    {
+      "bytes": 27467,
+      "path": "docs/LIVE-ROLL-CONCEPT-DOSSIER.md",
+      "sha256": "sha256:fceddc8428050b94d10c0915eb97eb46b01678795f384831248e7ae2747fd3b3"
+    },
+    {
+      "bytes": 30936,
+      "path": "docs/PAIN-MINING-DOSSIER.md",
+      "sha256": "sha256:2b9a69e8b9fd038b861ff34ee89caa67c8c1ab279c1414af43cefaeb9a87f9b3"
+    },
+    {
+      "bytes": 24169,
+      "path": "docs/SOCIAL-APP-OPPORTUNITY-RESEARCH.md",
+      "sha256": "sha256:d8d966e6eb929e2b75315aa681fe7800373e08fec84c7230c883498f9dbba23d"
+    },
+    {
+      "bytes": 5162,
+      "path": "docs/UNTITLED-MICRO-HELP-NETWORK.md",
+      "sha256": "sha256:79addb28c01759837d3817163e4541f68ceb6a96116701cef22a16cfef82bfa6"
+    },
+    {
+      "bytes": 132435,
+      "path": "docs/idea-database.json",
+      "sha256": "sha256:8aac644aefc61b3562451ad92c118a5e8d80a54d2e7461f9949d52fff7bf2c5a"
+    }
+  ],
+  "sourceHash": "sha256:dfa56f93669e14493ff1eb81af64c08286b4e849eb67fd8cbcf2595d86d21461",
+  "sourceSchemaVersion": 1,
+  "sourceUpdatedAt": "2026-08-09"
+}
