@@ -14,6 +14,7 @@ export const OUTPUT_FILES = [
   'manifest.json',
   'quality-report.json',
   'research-documents.json',
+  'research-metadata.json',
   'routes.json',
   'search-documents.json',
 ];
@@ -22,37 +23,83 @@ function sorted(values) {
   return [...values].sort();
 }
 
+const RESEARCH_QUALITY_ORDER = new Map([
+  ['none', 0],
+  ['unmapped', 1],
+  ['mention', 2],
+  ['heading', 3],
+]);
+
+function matchesReviewedHeadingRule(normalizedHeading, candidate) {
+  return normalizedHeading.includes(candidate) || candidate.includes(normalizedHeading);
+}
+
+function buildResearchReferenceProvenance(idea, document) {
+  const candidates = [idea.name, ...idea.aliases].map(normalizeSearch).filter(Boolean);
+  const heading = document.headings.find((candidateHeading) => {
+    const normalizedHeading = normalizeSearch(candidateHeading.text);
+    return candidates.some((candidate) => matchesReviewedHeadingRule(normalizedHeading, candidate));
+  });
+
+  if (heading) {
+    return {
+      dossierSlug: document.slug,
+      path: document.path,
+      quality: 'heading',
+      heading: {
+        anchor: heading.anchor,
+        depth: heading.depth,
+        text: heading.text,
+      },
+    };
+  }
+
+  const normalizedMarkdown = normalizeSearch(document.markdown);
+  if (candidates.some((candidate) => normalizedMarkdown.includes(candidate))) {
+    return {
+      dossierSlug: document.slug,
+      path: document.path,
+      quality: 'mention',
+      heading: null,
+    };
+  }
+
+  return {
+    dossierSlug: document.slug,
+    path: document.path,
+    quality: 'unmapped',
+    heading: null,
+  };
+}
+
 function buildQualityReport(source, researchDocuments, sourceHash) {
   const documentsByPath = new Map(researchDocuments.map((document) => [document.path, document]));
-  const headingMatchedIdeas = [];
-  const mentionOnlyIdeas = [];
-  const dossierRefsWithoutMention = [];
-  const ideasWithoutResearch = [];
-  const multiRefIdeas = [];
+  const researchProvenance = source.ideas
+    .map((idea) => {
+      const references = idea.research
+        .map((relativePath) => buildResearchReferenceProvenance(idea, documentsByPath.get(relativePath)))
+        .sort((left, right) => (left.path < right.path ? -1 : left.path > right.path ? 1 : 0));
+      const quality = references.reduce(
+        (best, reference) =>
+          RESEARCH_QUALITY_ORDER.get(reference.quality) > RESEARCH_QUALITY_ORDER.get(best)
+            ? reference.quality
+            : best,
+        'none'
+      );
+      return { ideaId: idea.id, quality, references };
+    })
+    .sort((left, right) => (left.ideaId < right.ideaId ? -1 : left.ideaId > right.ideaId ? 1 : 0));
 
-  for (const idea of source.ideas) {
-    if (idea.research.length === 0) {
-      ideasWithoutResearch.push(idea.id);
-      continue;
+  const ideaQualityCounts = new Map();
+  const referenceQualityCounts = new Map();
+  for (const provenance of researchProvenance) {
+    ideaQualityCounts.set(provenance.quality, (ideaQualityCounts.get(provenance.quality) ?? 0) + 1);
+    for (const reference of provenance.references) {
+      referenceQualityCounts.set(
+        reference.quality,
+        (referenceQualityCounts.get(reference.quality) ?? 0) + 1
+      );
     }
-    if (idea.research.length > 1) multiRefIdeas.push(idea.id);
-
-    const candidates = [idea.name, ...idea.aliases].map(normalizeSearch).filter(Boolean);
-    const documents = idea.research.map((relativePath) => documentsByPath.get(relativePath));
-    const headingMatch = documents.some((document) =>
-      document.headings.some((heading) => {
-        const normalizedHeading = normalizeSearch(heading.text);
-        return candidates.some(
-          (candidate) => normalizedHeading.includes(candidate) || candidate.includes(normalizedHeading)
-        );
-      })
-    );
-    const normalizedMarkdown = normalizeSearch(documents.map((document) => document.markdown).join('\n'));
-    const mentionMatch = candidates.some((candidate) => normalizedMarkdown.includes(candidate));
-
-    if (headingMatch) headingMatchedIdeas.push(idea.id);
-    else if (mentionMatch) mentionOnlyIdeas.push(idea.id);
-    else dossierRefsWithoutMention.push(idea.id);
   }
 
   const tagCounts = new Map();
@@ -67,17 +114,16 @@ function buildQualityReport(source, researchDocuments, sourceHash) {
       ideas: source.ideas.length,
       dossiers: researchDocuments.length,
       researchEdges: source.ideas.reduce((total, idea) => total + idea.research.length, 0),
-      ideasWithoutResearch: ideasWithoutResearch.length,
-      headingMatchedIdeas: headingMatchedIdeas.length,
-      mentionOnlyIdeas: mentionOnlyIdeas.length,
-      dossierRefsWithoutMention: dossierRefsWithoutMention.length,
-      multiRefIdeas: multiRefIdeas.length,
+      ideasWithoutResearch: ideaQualityCounts.get('none') ?? 0,
+      headingMatchedIdeas: ideaQualityCounts.get('heading') ?? 0,
+      mentionOnlyIdeas: ideaQualityCounts.get('mention') ?? 0,
+      dossierRefsWithoutMention: referenceQualityCounts.get('unmapped') ?? 0,
+      multiRefIdeas: source.ideas.filter((idea) => idea.research.length > 1).length,
+      headingReferences: referenceQualityCounts.get('heading') ?? 0,
+      mentionReferences: referenceQualityCounts.get('mention') ?? 0,
+      unmappedReferences: referenceQualityCounts.get('unmapped') ?? 0,
     },
-    ideasWithoutResearch: sorted(ideasWithoutResearch),
-    headingMatchedIdeas: sorted(headingMatchedIdeas),
-    mentionOnlyIdeas: sorted(mentionOnlyIdeas),
-    dossierRefsWithoutMention: sorted(dossierRefsWithoutMention),
-    multiRefIdeas: sorted(multiRefIdeas),
+    researchProvenance,
     tagStats: {
       assignments: source.ideas.reduce((total, idea) => total + idea.tags.length, 0),
       unique: tagCounts.size,
@@ -133,6 +179,23 @@ function buildRoutes(source, researchDocuments, sourceHash) {
     researchSlugs,
     ideaRoutes: ideaIds.map((id) => `/ideas/${id}`),
     researchRoutes: researchSlugs.map((slug) => `/research/${slug}`),
+  };
+}
+
+function buildResearchMetadata(researchDocuments, sourceHash) {
+  return {
+    sourceHash,
+    documents: researchDocuments.map(
+      ({ headings, linkedIdeaIds, path: documentPath, route, sha256, slug, title }) => ({
+        headings,
+        linkedIdeaIds,
+        path: documentPath,
+        route,
+        sha256,
+        slug,
+        title,
+      })
+    ),
   };
 }
 
@@ -201,10 +264,11 @@ export async function buildArtifacts(repoRoot) {
     })),
   };
   const searchDocuments = buildSearchDocuments(source, researchDocuments, snapshot.sourceHash);
+  const researchMetadata = buildResearchMetadata(researchDocuments, snapshot.sourceHash);
   const routes = buildRoutes(source, researchDocuments, snapshot.sourceHash);
   const qualityReport = buildQualityReport(source, researchDocuments, snapshot.sourceHash);
   const manifest = {
-    generatorVersion: 1,
+    generatorVersion: 2,
     sourceSchemaVersion: 1,
     sourceUpdatedAt: source.updated_at,
     sourceHash: snapshot.sourceHash,
@@ -221,6 +285,7 @@ export async function buildArtifacts(repoRoot) {
     'manifest.json': manifest,
     'quality-report.json': qualityReport,
     'research-documents.json': { sourceHash: snapshot.sourceHash, documents: researchDocuments },
+    'research-metadata.json': researchMetadata,
     'routes.json': routes,
     'search-documents.json': searchDocuments,
   };

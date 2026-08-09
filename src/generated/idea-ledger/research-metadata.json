@@ -1,0 +1,1817 @@
+{
+  "documents": [
+    {
+      "headings": [
+        {
+          "anchor": "dinner-decision-deep-dive-and-adversarial-review",
+          "depth": 1,
+          "text": "Dinner Decision: Deep-Dive and Adversarial Review"
+        },
+        {
+          "anchor": "executive-verdict",
+          "depth": 2,
+          "text": "Executive verdict"
+        },
+        {
+          "anchor": "the-thesis-we-tested",
+          "depth": 2,
+          "text": "The thesis we tested"
+        },
+        {
+          "anchor": "pain-real-frequent-and-broader-than-choosing-food",
+          "depth": 2,
+          "text": "Pain: real, frequent, and broader than choosing food"
+        },
+        {
+          "anchor": "strongest-evidence",
+          "depth": 3,
+          "text": "Strongest evidence"
+        },
+        {
+          "anchor": "what-the-actual-job-includes",
+          "depth": 3,
+          "text": "What the actual job includes"
+        },
+        {
+          "anchor": "competitive-map",
+          "depth": 2,
+          "text": "Competitive map"
+        },
+        {
+          "anchor": "exact-household-dinner-products",
+          "depth": 3,
+          "text": "Exact household dinner products"
+        },
+        {
+          "anchor": "restaurant-decision-products",
+          "depth": 3,
+          "text": "Restaurant decision products"
+        },
+        {
+          "anchor": "scaled-adjacent-incumbents",
+          "depth": 3,
+          "text": "Scaled adjacent incumbents"
+        },
+        {
+          "anchor": "why-the-category-looks-like-an-app-graveyard",
+          "depth": 2,
+          "text": "Why the category looks like an app graveyard"
+        },
+        {
+          "anchor": "1-universal-complaint-weak-installation-event",
+          "depth": 3,
+          "text": "1. Universal complaint, weak installation event"
+        },
+        {
+          "anchor": "2-multi-user-activation-before-value",
+          "depth": 3,
+          "text": "2. Multi-user activation before value"
+        },
+        {
+          "anchor": "3-the-interaction-recreates-the-problem",
+          "depth": 3,
+          "text": "3. The interaction recreates the problem"
+        },
+        {
+          "anchor": "4-state-becomes-stale-immediately",
+          "depth": 3,
+          "text": "4. State becomes stale immediately"
+        },
+        {
+          "anchor": "5-recommendation-quality-is-judged-harshly",
+          "depth": 3,
+          "text": "5. Recommendation quality is judged harshly"
+        },
+        {
+          "anchor": "6-the-paid-value-is-bundled-elsewhere",
+          "depth": 3,
+          "text": "6. The paid value is bundled elsewhere"
+        },
+        {
+          "anchor": "7-search-and-store-differentiation-are-terrible",
+          "depth": 3,
+          "text": "7. Search and store differentiation are terrible"
+        },
+        {
+          "anchor": "8-the-software-has-almost-no-technical-moat",
+          "depth": 3,
+          "text": "8. The software has almost no technical moat"
+        },
+        {
+          "anchor": "what-survived-the-lazy-consensus-commitment-protocol",
+          "depth": 2,
+          "text": "What survived: the lazy-consensus commitment protocol"
+        },
+        {
+          "anchor": "the-proposed-loop",
+          "depth": 3,
+          "text": "The proposed loop"
+        },
+        {
+          "anchor": "why-this-is-materially-different",
+          "depth": 3,
+          "text": "Why this is materially different"
+        },
+        {
+          "anchor": "why-it-may-still-fail",
+          "depth": 3,
+          "text": "Why it may still fail"
+        },
+        {
+          "anchor": "best-initial-customer",
+          "depth": 2,
+          "text": "Best initial customer"
+        },
+        {
+          "anchor": "smallest-truthful-mvp",
+          "depth": 2,
+          "text": "Smallest truthful MVP"
+        },
+        {
+          "anchor": "explicitly-omit",
+          "depth": 3,
+          "text": "Explicitly omit"
+        },
+        {
+          "anchor": "technical-feasibility",
+          "depth": 2,
+          "text": "Technical feasibility"
+        },
+        {
+          "anchor": "monetization-verdict",
+          "depth": 2,
+          "text": "Monetization verdict"
+        },
+        {
+          "anchor": "subscription",
+          "depth": 3,
+          "text": "Subscription"
+        },
+        {
+          "anchor": "affiliate-revenue",
+          "depth": 3,
+          "text": "Affiliate revenue"
+        },
+        {
+          "anchor": "shipaton-fit",
+          "depth": 2,
+          "text": "Shipaton fit"
+        },
+        {
+          "anchor": "advantages",
+          "depth": 3,
+          "text": "Advantages"
+        },
+        {
+          "anchor": "disadvantages",
+          "depth": 3,
+          "text": "Disadvantages"
+        },
+        {
+          "anchor": "falsification-plan-before-code",
+          "depth": 2,
+          "text": "Falsification plan before code"
+        },
+        {
+          "anchor": "test-1-1014-day-concierge-pilot",
+          "depth": 3,
+          "text": "Test 1: 10–14 day concierge pilot"
+        },
+        {
+          "anchor": "test-2-head-to-head",
+          "depth": 3,
+          "text": "Test 2: head-to-head"
+        },
+        {
+          "anchor": "test-3-mechanism-comparison",
+          "depth": 3,
+          "text": "Test 3: mechanism comparison"
+        },
+        {
+          "anchor": "test-4-real-payment",
+          "depth": 3,
+          "text": "Test 4: real payment"
+        },
+        {
+          "anchor": "test-5-lane-truth",
+          "depth": 3,
+          "text": "Test 5: lane truth"
+        },
+        {
+          "anchor": "test-6-acquisition",
+          "depth": 3,
+          "text": "Test 6: acquisition"
+        },
+        {
+          "anchor": "final-decision",
+          "depth": 2,
+          "text": "Final decision"
+        },
+        {
+          "anchor": "kill",
+          "depth": 3,
+          "text": "Kill"
+        },
+        {
+          "anchor": "preserve-for-validation",
+          "depth": 3,
+          "text": "Preserve for validation"
+        },
+        {
+          "anchor": "recommendation",
+          "depth": 3,
+          "text": "Recommendation"
+        }
+      ],
+      "linkedIdeaIds": [
+        "dinner-decision"
+      ],
+      "path": "docs/DINNER-DECISION-DEEP-DIVE.md",
+      "route": "/research/dinner-decision-deep-dive",
+      "sha256": "sha256:f8e44d1adda9e813d8ff2725cf4a4af607fc72f26b45b4a8022a2c82e6a06eb6",
+      "slug": "dinner-decision-deep-dive",
+      "title": "Dinner Decision: Deep-Dive and Adversarial Review"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "idea-mining-loop--2026-08-08",
+          "depth": 1,
+          "text": "Idea Mining Loop — 2026-08-08"
+        },
+        {
+          "anchor": "result",
+          "depth": 2,
+          "text": "Result"
+        },
+        {
+          "anchor": "1-media-card-custody--conditional-go",
+          "depth": 3,
+          "text": "1. Media Card Custody — conditional go"
+        },
+        {
+          "anchor": "2-confirmed-spoken-details--conditional-co-design-test",
+          "depth": 3,
+          "text": "2. Confirmed Spoken Details — conditional co-design test"
+        },
+        {
+          "anchor": "3-two-source-solar-check--narrow-conditional",
+          "depth": 3,
+          "text": "3. Two-Source Solar Check — narrow conditional"
+        },
+        {
+          "anchor": "ideas-killed-or-demoted-in-this-loop",
+          "depth": 2,
+          "text": "Ideas killed or demoted in this loop"
+        },
+        {
+          "anchor": "decision",
+          "depth": 2,
+          "text": "Decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "basketcheck",
+        "classpass-credit-rescue",
+        "confirmed-spoken-details",
+        "holdwatch",
+        "media-card-custody",
+        "parking-evidence-appeal",
+        "reconnect-cable-map",
+        "rental-toll-window",
+        "spotify-playlist-time-machine",
+        "timer-lens",
+        "tipcheck",
+        "todoist-task-debt-reset",
+        "trade-in-proof",
+        "two-source-solar-check"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+      "route": "/research/idea-mining-loop-2026-08-08",
+      "sha256": "sha256:7626ebe20e1ae7c997af1a4bbec2f44ce364aa8bfbe1ddc479bc441da6c6aa41",
+      "slug": "idea-mining-loop-2026-08-08",
+      "title": "Idea Mining Loop — 2026-08-08"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "idea-mining-loop--2026-08-09-round-4",
+          "depth": 1,
+          "text": "Idea Mining Loop — 2026-08-09, Round 4"
+        },
+        {
+          "anchor": "verdict",
+          "depth": 2,
+          "text": "Verdict"
+        },
+        {
+          "anchor": "ranking",
+          "depth": 2,
+          "text": "Ranking"
+        },
+        {
+          "anchor": "shipaton",
+          "depth": 3,
+          "text": "Shipaton"
+        },
+        {
+          "anchor": "business",
+          "depth": 3,
+          "text": "Business"
+        },
+        {
+          "anchor": "fresh-survivor-cutbolt",
+          "depth": 2,
+          "text": "Fresh survivor: CutBolt"
+        },
+        {
+          "anchor": "thesis",
+          "depth": 3,
+          "text": "Thesis"
+        },
+        {
+          "anchor": "why-the-moment-exists",
+          "depth": 3,
+          "text": "Why the moment exists"
+        },
+        {
+          "anchor": "why-it-is-weaker-than-lotmatch",
+          "depth": 3,
+          "text": "Why it is weaker than LotMatch"
+        },
+        {
+          "anchor": "revenuecat-layer",
+          "depth": 3,
+          "text": "RevenueCat layer"
+        },
+        {
+          "anchor": "kill-test",
+          "depth": 3,
+          "text": "Kill test"
+        },
+        {
+          "anchor": "discovery-candidate-loadin-scout",
+          "depth": 2,
+          "text": "Discovery candidate: LoadIn Scout"
+        },
+        {
+          "anchor": "thesis-1",
+          "depth": 3,
+          "text": "Thesis"
+        },
+        {
+          "anchor": "honest-technical-boundary",
+          "depth": 3,
+          "text": "Honest technical boundary"
+        },
+        {
+          "anchor": "evidence-and-competition",
+          "depth": 3,
+          "text": "Evidence and competition"
+        },
+        {
+          "anchor": "revenuecat-layer-1",
+          "depth": 3,
+          "text": "RevenueCat layer"
+        },
+        {
+          "anchor": "kill-test-1",
+          "depth": 3,
+          "text": "Kill test"
+        },
+        {
+          "anchor": "resetframe-no-go-standalone",
+          "depth": 2,
+          "text": "ResetFrame: no-go standalone"
+        },
+        {
+          "anchor": "best-vertical-found",
+          "depth": 3,
+          "text": "Best vertical found"
+        },
+        {
+          "anchor": "why-it-still-fails",
+          "depth": 3,
+          "text": "Why it still fails"
+        },
+        {
+          "anchor": "only-resurrection-path",
+          "depth": 3,
+          "text": "Only resurrection path"
+        },
+        {
+          "anchor": "cakeride-no-go",
+          "depth": 2,
+          "text": "CakeRide: no-go"
+        },
+        {
+          "anchor": "other-last-inch-gates",
+          "depth": 2,
+          "text": "Other last-inch gates"
+        },
+        {
+          "anchor": "coatmatch--passed-market",
+          "depth": 3,
+          "text": "CoatMatch — passed market"
+        },
+        {
+          "anchor": "rollgate--passed-market",
+          "depth": 3,
+          "text": "RollGate — passed market"
+        },
+        {
+          "anchor": "resingate--passed-market",
+          "depth": 3,
+          "text": "ResinGate — passed market"
+        },
+        {
+          "anchor": "rodgate--passed-market",
+          "depth": 3,
+          "text": "RodGate — passed market"
+        },
+        {
+          "anchor": "formulagate--passed-market",
+          "depth": 3,
+          "text": "FormulaGate — passed market"
+        },
+        {
+          "anchor": "fluidgate--passed-market",
+          "depth": 3,
+          "text": "FluidGate — passed market"
+        },
+        {
+          "anchor": "stockgate--passed-market",
+          "depth": 3,
+          "text": "StockGate — passed market"
+        },
+        {
+          "anchor": "other-technical-screens",
+          "depth": 2,
+          "text": "Other technical screens"
+        },
+        {
+          "anchor": "unrelated-paid-pain-checks",
+          "depth": 2,
+          "text": "Unrelated paid-pain checks"
+        },
+        {
+          "anchor": "sold-sweep--passed-market",
+          "depth": 3,
+          "text": "Sold Sweep — passed market"
+        },
+        {
+          "anchor": "rotadiff--passed-market",
+          "depth": 3,
+          "text": "RotaDiff — passed market"
+        },
+        {
+          "anchor": "medication-room-temperature-clock--passed-market",
+          "depth": 3,
+          "text": "Medication Room-Temperature Clock — passed market"
+        },
+        {
+          "anchor": "replacement-part-vault--passed-market",
+          "depth": 3,
+          "text": "Replacement Part Vault — passed market"
+        },
+        {
+          "anchor": "re-attack-of-the-leaders",
+          "depth": 2,
+          "text": "Re-attack of the leaders"
+        },
+        {
+          "anchor": "weedcheck",
+          "depth": 3,
+          "text": "WeedCheck"
+        },
+        {
+          "anchor": "lotmatch",
+          "depth": 3,
+          "text": "LotMatch"
+        },
+        {
+          "anchor": "next-loop",
+          "depth": 2,
+          "text": "Next loop"
+        }
+      ],
+      "linkedIdeaIds": [
+        "event-hard-out-clock",
+        "event-signal-rehearsal",
+        "fabric-bolt-job-gate",
+        "film-stock-load-gate",
+        "fragile-cargo-motion-log",
+        "medication-room-temperature-clock",
+        "paint-can-job-gate",
+        "planar-control-reset-diff",
+        "print-media-roll-gate",
+        "replacement-part-vault",
+        "resale-sold-sweep",
+        "resin-profile-gate",
+        "roster-screenshot-diff",
+        "salon-formula-gate",
+        "vehicle-fluid-gate",
+        "vendor-load-in-scout",
+        "welding-filler-gate"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+      "route": "/research/idea-mining-loop-2026-08-09-round4",
+      "sha256": "sha256:088c37957c55a4f17e12f9faf93fc7d489e223232d926b27e4983fe8974e30f0",
+      "slug": "idea-mining-loop-2026-08-09-round4",
+      "title": "Idea Mining Loop — 2026-08-09, Round 4"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "idea-mining-loop--2026-08-09-round-5",
+          "depth": 1,
+          "text": "Idea Mining Loop — 2026-08-09, Round 5"
+        },
+        {
+          "anchor": "verdict",
+          "depth": 2,
+          "text": "Verdict"
+        },
+        {
+          "anchor": "encore",
+          "depth": 2,
+          "text": "Encore"
+        },
+        {
+          "anchor": "precise-positioning",
+          "depth": 3,
+          "text": "Precise positioning"
+        },
+        {
+          "anchor": "why-this-moment-is-real",
+          "depth": 3,
+          "text": "Why this moment is real"
+        },
+        {
+          "anchor": "competitive-boundary",
+          "depth": 3,
+          "text": "Competitive boundary"
+        },
+        {
+          "anchor": "honest-trust-boundary",
+          "depth": 3,
+          "text": "Honest trust boundary"
+        },
+        {
+          "anchor": "product-loop",
+          "depth": 3,
+          "text": "Product loop"
+        },
+        {
+          "anchor": "technical-mvp",
+          "depth": 3,
+          "text": "Technical MVP"
+        },
+        {
+          "anchor": "revenuecat-layer",
+          "depth": 3,
+          "text": "RevenueCat layer"
+        },
+        {
+          "anchor": "90-second-demo",
+          "depth": 3,
+          "text": "90-second demo"
+        },
+        {
+          "anchor": "falsification-gate",
+          "depth": 3,
+          "text": "Falsification gate"
+        },
+        {
+          "anchor": "shipaton-category-fit",
+          "depth": 3,
+          "text": "Shipaton category fit"
+        },
+        {
+          "anchor": "doorhold",
+          "depth": 2,
+          "text": "DoorHold"
+        },
+        {
+          "anchor": "thesis",
+          "depth": 3,
+          "text": "Thesis"
+        },
+        {
+          "anchor": "architecture-and-boundary",
+          "depth": 3,
+          "text": "Architecture and boundary"
+        },
+        {
+          "anchor": "monetization-and-gate",
+          "depth": 3,
+          "text": "Monetization and gate"
+        },
+        {
+          "anchor": "cancelby",
+          "depth": 2,
+          "text": "CancelBy"
+        },
+        {
+          "anchor": "thesis-1",
+          "depth": 3,
+          "text": "Thesis"
+        },
+        {
+          "anchor": "batchbaton",
+          "depth": 2,
+          "text": "BatchBaton"
+        },
+        {
+          "anchor": "exact-market-kills",
+          "depth": 2,
+          "text": "Exact-market kills"
+        },
+        {
+          "anchor": "contact-sentinel",
+          "depth": 3,
+          "text": "Contact Sentinel"
+        },
+        {
+          "anchor": "creator-rights-clock",
+          "depth": 3,
+          "text": "Creator Rights Clock"
+        },
+        {
+          "anchor": "sequential-waitlist-fill",
+          "depth": 3,
+          "text": "Sequential Waitlist Fill"
+        },
+        {
+          "anchor": "call-sheet-delta-acknowledgment",
+          "depth": 3,
+          "text": "Call-Sheet Delta Acknowledgment"
+        },
+        {
+          "anchor": "drawerduo--cashclose-witness",
+          "depth": 3,
+          "text": "DrawerDuo / CashClose Witness"
+        },
+        {
+          "anchor": "dwellack",
+          "depth": 3,
+          "text": "DwellAck"
+        },
+        {
+          "anchor": "scopetap-revisited",
+          "depth": 3,
+          "text": "ScopeTap revisited"
+        },
+        {
+          "anchor": "runner-relay",
+          "depth": 3,
+          "text": "Runner Relay"
+        },
+        {
+          "anchor": "readback",
+          "depth": 3,
+          "text": "ReadBack"
+        },
+        {
+          "anchor": "breakledger",
+          "depth": 3,
+          "text": "BreakLedger"
+        },
+        {
+          "anchor": "runsheet-pocket",
+          "depth": 3,
+          "text": "RunSheet Pocket"
+        },
+        {
+          "anchor": "cuepulse",
+          "depth": 3,
+          "text": "CuePulse"
+        },
+        {
+          "anchor": "soundlatch",
+          "depth": 3,
+          "text": "SoundLatch"
+        },
+        {
+          "anchor": "round-five-lesson",
+          "depth": 2,
+          "text": "Round-five lesson"
+        }
+      ],
+      "linkedIdeaIds": [
+        "appointment-cancel-by-clock",
+        "bakery-batch-handoff",
+        "call-sheet-delta-ack",
+        "cash-drawer-blind-close",
+        "contacts-change-sentinel",
+        "creator-usage-rights-clock",
+        "custom-appliance-sound-latch",
+        "event-coverage-extension-ack",
+        "event-runner-relay",
+        "haptic-cue-sequence",
+        "instruction-readback-handshake",
+        "live-runsheet-pocket",
+        "mobile-service-no-access-handshake",
+        "personal-break-ledger",
+        "sequential-slot-waitlist",
+        "truck-detention-ack"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+      "route": "/research/idea-mining-loop-2026-08-09-round5",
+      "sha256": "sha256:197a6b9fe8716ad1e45636da8f305141af9d70cd6d3ee117af496a78e9812e3d",
+      "slug": "idea-mining-loop-2026-08-09-round5",
+      "title": "Idea Mining Loop — 2026-08-09, Round 5"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "idea-mining-loop--2026-08-09-round-6",
+          "depth": 1,
+          "text": "Idea Mining Loop — 2026-08-09, Round 6"
+        },
+        {
+          "anchor": "verdict",
+          "depth": 2,
+          "text": "Verdict"
+        },
+        {
+          "anchor": "why-encore-was-demoted",
+          "depth": 2,
+          "text": "Why Encore was demoted"
+        },
+        {
+          "anchor": "the-moment-is-real",
+          "depth": 3,
+          "text": "The moment is real"
+        },
+        {
+          "anchor": "the-standalone-product-is-weak",
+          "depth": 3,
+          "text": "The standalone product is weak"
+        },
+        {
+          "anchor": "frequency-and-habit-are-the-fatal-risks",
+          "depth": 3,
+          "text": "Frequency and habit are the fatal risks"
+        },
+        {
+          "anchor": "pricing-and-reach",
+          "depth": 3,
+          "text": "Pricing and reach"
+        },
+        {
+          "anchor": "trust-boundary",
+          "depth": 3,
+          "text": "Trust boundary"
+        },
+        {
+          "anchor": "name-collision",
+          "depth": 3,
+          "text": "Name collision"
+        },
+        {
+          "anchor": "technical-truth-table",
+          "depth": 2,
+          "text": "Technical truth table"
+        },
+        {
+          "anchor": "cheap-falsification-before-any-resurrection",
+          "depth": 2,
+          "text": "Cheap falsification before any resurrection"
+        },
+        {
+          "anchor": "round-six-controls",
+          "depth": 2,
+          "text": "Round-six controls"
+        },
+        {
+          "anchor": "final-decision",
+          "depth": 2,
+          "text": "Final decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "barn-shift-baton",
+        "calendar-buffer-fence",
+        "contact-call-promise",
+        "cross-auction-lot-cue",
+        "event-coverage-extension-ack",
+        "household-ev-charge-turn",
+        "nfc-borrow-tag",
+        "recording-timestamp-marker",
+        "relative-vibration-compare",
+        "rental-turnover-ready-ack",
+        "resin-pot-life-clock",
+        "same-phone-agenda-timer",
+        "service-exit-closeout"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+      "route": "/research/idea-mining-loop-2026-08-09-round6",
+      "sha256": "sha256:86f82ad504f6818721edb8f5d0246db31addd0531ba917dcf459e29407183678",
+      "slug": "idea-mining-loop-2026-08-09-round6",
+      "title": "Idea Mining Loop — 2026-08-09, Round 6"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "idea-mining-loop--2026-08-09-round-7",
+          "depth": 1,
+          "text": "Idea Mining Loop — 2026-08-09, Round 7"
+        },
+        {
+          "anchor": "verdict",
+          "depth": 2,
+          "text": "Verdict"
+        },
+        {
+          "anchor": "cross-team-graveyard",
+          "depth": 2,
+          "text": "Cross-team graveyard"
+        },
+        {
+          "anchor": "payeelatch--vendor-payment-detail-change-gate",
+          "depth": 3,
+          "text": "PayeeLatch — vendor payment-detail change gate"
+        },
+        {
+          "anchor": "ratereplay--utility-tariff-replay",
+          "depth": 3,
+          "text": "RateReplay — utility tariff replay"
+        },
+        {
+          "anchor": "printgate--phone-side-g-code-preflight",
+          "depth": 3,
+          "text": "PrintGate — phone-side G-code preflight"
+        },
+        {
+          "anchor": "printflight--mobile-pdf-preflight",
+          "depth": 3,
+          "text": "PrintFlight — mobile PDF preflight"
+        },
+        {
+          "anchor": "other-technical-primitives",
+          "depth": 3,
+          "text": "Other technical primitives"
+        },
+        {
+          "anchor": "market-mined-candidates",
+          "depth": 2,
+          "text": "Market-mined candidates"
+        },
+        {
+          "anchor": "product-mined-candidates",
+          "depth": 2,
+          "text": "Product-mined candidates"
+        },
+        {
+          "anchor": "the-new-negative-pattern",
+          "depth": 2,
+          "text": "The new negative pattern"
+        },
+        {
+          "anchor": "final-decision",
+          "depth": 2,
+          "text": "Final decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "allergy-readback-handshake",
+        "auction-all-in-cap",
+        "boat-drain-plug-latch",
+        "car-out-the-door-lock",
+        "counter-personalization-approval",
+        "deafblind-tactile-phrase",
+        "gcode-printer-profile-preflight",
+        "grooming-scope-approval",
+        "local-tou-rate-replay",
+        "magnetic-interference-survey",
+        "moving-revised-scope-approval",
+        "pdf-print-preflight",
+        "phone-torque-angle",
+        "provider-network-double-check",
+        "rental-fuel-plan-calculator",
+        "reseller-net-floor-calculator",
+        "rideshare-return-mile-offer",
+        "spray-mix-final-tank",
+        "towing-margin-calculator",
+        "vendor-payment-detail-latch"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+      "route": "/research/idea-mining-loop-2026-08-09-round7",
+      "sha256": "sha256:175ab5e3439feda6917e68a7f4ffd0ce3a943f08d00df64fe39f22d67367a890",
+      "slug": "idea-mining-loop-2026-08-09-round7",
+      "title": "Idea Mining Loop — 2026-08-09, Round 7"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "idea-mining-loop--2026-08-09-round-8",
+          "depth": 1,
+          "text": "Idea Mining Loop — 2026-08-09, Round 8"
+        },
+        {
+          "anchor": "verdict",
+          "depth": 2,
+          "text": "Verdict"
+        },
+        {
+          "anchor": "conditional-survivor-crashtape",
+          "depth": 2,
+          "text": "Conditional survivor: CrashTape"
+        },
+        {
+          "anchor": "product-thesis",
+          "depth": 3,
+          "text": "Product thesis"
+        },
+        {
+          "anchor": "why-the-pain-is-real",
+          "depth": 3,
+          "text": "Why the pain is real"
+        },
+        {
+          "anchor": "existing-market-and-competition",
+          "depth": 3,
+          "text": "Existing market and competition"
+        },
+        {
+          "anchor": "technical-truth-line",
+          "depth": 3,
+          "text": "Technical truth line"
+        },
+        {
+          "anchor": "revenuecat-layer",
+          "depth": 3,
+          "text": "RevenueCat layer"
+        },
+        {
+          "anchor": "hard-falsification-gates",
+          "depth": 3,
+          "text": "Hard falsification gates"
+        },
+        {
+          "anchor": "product-and-platform-kills",
+          "depth": 2,
+          "text": "Product and platform kills"
+        },
+        {
+          "anchor": "round-conclusion",
+          "depth": 2,
+          "text": "Round conclusion"
+        }
+      ],
+      "linkedIdeaIds": [
+        "amazon-label-handoff",
+        "app-blocker-self-diagnostic",
+        "audible-playback-checkpoint",
+        "crash-recoverable-field-recorder",
+        "drum-lug-consistency",
+        "favorite-meal-quick-log",
+        "font-glyph-install-proof",
+        "forwarded-itinerary-claim",
+        "independent-jobber-shift-clock",
+        "offline-stage-autoscroll",
+        "parental-control-safe-channel",
+        "parking-zone-vehicle-guard",
+        "podcast-queue-snapshot",
+        "resumable-phone-browser-transfer",
+        "sonos-room-scene-control",
+        "third-party-offline-readiness",
+        "totp-recovery-ceremony",
+        "travel-esim-readiness",
+        "verified-audio-tag-edit",
+        "verified-lossless-metadata-scrub",
+        "ynab-reconciliation-combination"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+      "route": "/research/idea-mining-loop-2026-08-09-round8",
+      "sha256": "sha256:acc2aacfdfa222a93faee375e9dd967a64c61f5ba6906e9b02ebf141a9156f44",
+      "slug": "idea-mining-loop-2026-08-09-round8",
+      "title": "Idea Mining Loop — 2026-08-09, Round 8"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "idea-mining-loop--2026-08-09",
+          "depth": 1,
+          "text": "Idea Mining Loop — 2026-08-09"
+        },
+        {
+          "anchor": "current-result",
+          "depth": 2,
+          "text": "Current result"
+        },
+        {
+          "anchor": "1-lotmatch--strongest-business-candidate",
+          "depth": 3,
+          "text": "1. LotMatch — strongest business candidate"
+        },
+        {
+          "anchor": "2-weedcheck--strongest-shipaton-candidate",
+          "depth": 3,
+          "text": "2. WeedCheck — strongest Shipaton candidate"
+        },
+        {
+          "anchor": "existing-leaders-re-ranked",
+          "depth": 2,
+          "text": "Existing leaders re-ranked"
+        },
+        {
+          "anchor": "ideas-killed-or-demoted-in-this-round",
+          "depth": 2,
+          "text": "Ideas killed or demoted in this round"
+        },
+        {
+          "anchor": "current-decision",
+          "depth": 2,
+          "text": "Current decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "analog-pedal-reference-check",
+        "barbell-plate-symmetry",
+        "campaign-snapshot-window",
+        "embroidery-thread-gate",
+        "lot-match",
+        "multi-chair-process-clock",
+        "partial-rx-remainder",
+        "personal-wheelchair-ride-trace",
+        "pet-food-runway",
+        "planar-control-reset-diff",
+        "rekordbox-usb-preflight",
+        "replacement-part-pair",
+        "route-aware-appointment-gate",
+        "scope-request-budget",
+        "tattoo-stencil-check",
+        "trailer-light-self-test",
+        "visual-queue-watcher",
+        "water-softener-salt-runway",
+        "weed-check"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+      "route": "/research/idea-mining-loop-2026-08-09",
+      "sha256": "sha256:8eacbb1e4e668a43c3d6c3a0afc386f9c15fedaecbbd96c8cbce622b89065d94",
+      "slug": "idea-mining-loop-2026-08-09",
+      "title": "Idea Mining Loop — 2026-08-09"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "live-roll-concept-dossier",
+          "depth": 1,
+          "text": "Live Roll concept dossier"
+        },
+        {
+          "anchor": "executive-decision",
+          "depth": 2,
+          "text": "Executive decision"
+        },
+        {
+          "anchor": "product-thesis",
+          "depth": 2,
+          "text": "Product thesis"
+        },
+        {
+          "anchor": "what-the-product-is-not",
+          "depth": 2,
+          "text": "What the product is not"
+        },
+        {
+          "anchor": "market-findings",
+          "depth": 2,
+          "text": "Market findings"
+        },
+        {
+          "anchor": "crowded-live-delivery-and-proofing-market",
+          "depth": 3,
+          "text": "Crowded live-delivery and proofing market"
+        },
+        {
+          "anchor": "crowded-photo-social-market",
+          "depth": 3,
+          "text": "Crowded photo-social market"
+        },
+        {
+          "anchor": "less-occupied-selection-challenge-market",
+          "depth": 3,
+          "text": "Less-occupied selection-challenge market"
+        },
+        {
+          "anchor": "recommended-beachhead",
+          "depth": 2,
+          "text": "Recommended beachhead"
+        },
+        {
+          "anchor": "core-product-model",
+          "depth": 2,
+          "text": "Core product model"
+        },
+        {
+          "anchor": "roll",
+          "depth": 3,
+          "text": "Roll"
+        },
+        {
+          "anchor": "frame",
+          "depth": 3,
+          "text": "Frame"
+        },
+        {
+          "anchor": "circle",
+          "depth": 3,
+          "text": "Circle"
+        },
+        {
+          "anchor": "cut",
+          "depth": 3,
+          "text": "Cut"
+        },
+        {
+          "anchor": "develop",
+          "depth": 3,
+          "text": "Develop"
+        },
+        {
+          "anchor": "core-experiences",
+          "depth": 2,
+          "text": "Core experiences"
+        },
+        {
+          "anchor": "archived-blind-edit",
+          "depth": 3,
+          "text": "Archived Blind Edit"
+        },
+        {
+          "anchor": "live-roll-premiere",
+          "depth": 3,
+          "text": "Live Roll premiere"
+        },
+        {
+          "anchor": "live-broadcast-modes",
+          "depth": 3,
+          "text": "Live broadcast modes"
+        },
+        {
+          "anchor": "interaction-and-visual-language",
+          "depth": 2,
+          "text": "Interaction and visual language"
+        },
+        {
+          "anchor": "retention-and-growth-loops",
+          "depth": 2,
+          "text": "Retention and growth loops"
+        },
+        {
+          "anchor": "blind-edit-habit",
+          "depth": 3,
+          "text": "Blind Edit habit"
+        },
+        {
+          "anchor": "live-premiere-loop",
+          "depth": 3,
+          "text": "Live premiere loop"
+        },
+        {
+          "anchor": "taste-history",
+          "depth": 3,
+          "text": "Taste history"
+        },
+        {
+          "anchor": "creator-distribution",
+          "depth": 3,
+          "text": "Creator distribution"
+        },
+        {
+          "anchor": "content-seeding",
+          "depth": 2,
+          "text": "Content seeding"
+        },
+        {
+          "anchor": "revenuecat-pay-layers",
+          "depth": 2,
+          "text": "RevenueCat pay layers"
+        },
+        {
+          "anchor": "free",
+          "depth": 3,
+          "text": "Free"
+        },
+        {
+          "anchor": "live-roll-plus",
+          "depth": 3,
+          "text": "Live Roll Plus"
+        },
+        {
+          "anchor": "later-products",
+          "depth": 3,
+          "text": "Later products"
+        },
+        {
+          "anchor": "technical-feasibility",
+          "depth": 2,
+          "text": "Technical feasibility"
+        },
+        {
+          "anchor": "archived-first-mvp",
+          "depth": 3,
+          "text": "Archived-first MVP"
+        },
+        {
+          "anchor": "live-capture-feasibility",
+          "depth": 3,
+          "text": "Live capture feasibility"
+        },
+        {
+          "anchor": "suggested-live-backend",
+          "depth": 3,
+          "text": "Suggested live backend"
+        },
+        {
+          "anchor": "double-blind-integrity",
+          "depth": 2,
+          "text": "Double-blind integrity"
+        },
+        {
+          "anchor": "safety-privacy-and-rights",
+          "depth": 2,
+          "text": "Safety, privacy, and rights"
+        },
+        {
+          "anchor": "validation-plan",
+          "depth": 2,
+          "text": "Validation plan"
+        },
+        {
+          "anchor": "1-supply-test",
+          "depth": 3,
+          "text": "1. Supply test"
+        },
+        {
+          "anchor": "2-no-code-challenge-test",
+          "depth": 3,
+          "text": "2. No-code challenge test"
+        },
+        {
+          "anchor": "3-reasoning-test",
+          "depth": 3,
+          "text": "3. Reasoning test"
+        },
+        {
+          "anchor": "4-retention-test",
+          "depth": 3,
+          "text": "4. Retention test"
+        },
+        {
+          "anchor": "5-payment-test",
+          "depth": 3,
+          "text": "5. Payment test"
+        },
+        {
+          "anchor": "6-creator-repeat-test",
+          "depth": 3,
+          "text": "6. Creator repeat test"
+        },
+        {
+          "anchor": "7-live-incrementality-test",
+          "depth": 3,
+          "text": "7. Live incrementality test"
+        },
+        {
+          "anchor": "product-kill-criteria",
+          "depth": 2,
+          "text": "Product kill criteria"
+        },
+        {
+          "anchor": "seven-week-hackathon-scope",
+          "depth": 2,
+          "text": "Seven-week hackathon scope"
+        },
+        {
+          "anchor": "must-ship",
+          "depth": 3,
+          "text": "Must ship"
+        },
+        {
+          "anchor": "optional-only-after-core-quality",
+          "depth": 3,
+          "text": "Optional only after core quality"
+        },
+        {
+          "anchor": "explicitly-cut",
+          "depth": 3,
+          "text": "Explicitly cut"
+        },
+        {
+          "anchor": "two-minute-demo",
+          "depth": 3,
+          "text": "Two-minute demo"
+        },
+        {
+          "anchor": "shipaton-fit",
+          "depth": 2,
+          "text": "Shipaton fit"
+        },
+        {
+          "anchor": "working-names",
+          "depth": 2,
+          "text": "Working names"
+        },
+        {
+          "anchor": "open-questions-for-discussion",
+          "depth": 2,
+          "text": "Open questions for discussion"
+        },
+        {
+          "anchor": "final-recommendation",
+          "depth": 2,
+          "text": "Final recommendation"
+        }
+      ],
+      "linkedIdeaIds": [
+        "live-roll"
+      ],
+      "path": "docs/LIVE-ROLL-CONCEPT-DOSSIER.md",
+      "route": "/research/live-roll-concept-dossier",
+      "sha256": "sha256:fceddc8428050b94d10c0915eb97eb46b01678795f384831248e7ae2747fd3b3",
+      "slug": "live-roll-concept-dossier",
+      "title": "Live Roll concept dossier"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "shipaton-2026-pain-mining-dossier",
+          "depth": 1,
+          "text": "Shipaton 2026 Pain-Mining Dossier"
+        },
+        {
+          "anchor": "executive-conclusion",
+          "depth": 2,
+          "text": "Executive conclusion"
+        },
+        {
+          "anchor": "how-the-scan-was-judged",
+          "depth": 2,
+          "text": "How the scan was judged"
+        },
+        {
+          "anchor": "ranked-result",
+          "depth": 2,
+          "text": "Ranked result"
+        },
+        {
+          "anchor": "lead-concept-post-loss-recovery-from-evidence-already-on-the-phone",
+          "depth": 2,
+          "text": "Lead concept: post-loss recovery from evidence already on the phone"
+        },
+        {
+          "anchor": "working-promise",
+          "depth": 3,
+          "text": "Working promise"
+        },
+        {
+          "anchor": "the-painful-job-today",
+          "depth": 3,
+          "text": "The painful job today"
+        },
+        {
+          "anchor": "competitive-reality",
+          "depth": 3,
+          "text": "Competitive reality"
+        },
+        {
+          "anchor": "the-product-loop",
+          "depth": 3,
+          "text": "The product loop"
+        },
+        {
+          "anchor": "what-makes-the-demo-feel-new",
+          "depth": 3,
+          "text": "What makes the demo feel new"
+        },
+        {
+          "anchor": "mvp-boundary",
+          "depth": 3,
+          "text": "MVP boundary"
+        },
+        {
+          "anchor": "technical-feasibility-in-the-current-expo-project",
+          "depth": 3,
+          "text": "Technical feasibility in the current Expo project"
+        },
+        {
+          "anchor": "monetization",
+          "depth": 3,
+          "text": "Monetization"
+        },
+        {
+          "anchor": "risks-that-could-kill-it",
+          "depth": 3,
+          "text": "Risks that could kill it"
+        },
+        {
+          "anchor": "falsification-sprint",
+          "depth": 3,
+          "text": "Falsification sprint"
+        },
+        {
+          "anchor": "reserve-concept-visual-route-rehearsal-for-anxious-drivers",
+          "depth": 2,
+          "text": "Reserve concept: visual route rehearsal for anxious drivers"
+        },
+        {
+          "anchor": "pain-evidence",
+          "depth": 3,
+          "text": "Pain evidence"
+        },
+        {
+          "anchor": "surviving-wedge",
+          "depth": 3,
+          "text": "Surviving wedge"
+        },
+        {
+          "anchor": "why-it-is-only-a-reserve",
+          "depth": 3,
+          "text": "Why it is only a reserve"
+        },
+        {
+          "anchor": "reserve-concept-primary-source-receipts-for-news",
+          "depth": 2,
+          "text": "Reserve concept: primary-source receipts for news"
+        },
+        {
+          "anchor": "what-was-killed-and-why",
+          "depth": 2,
+          "text": "What was killed and why"
+        },
+        {
+          "anchor": "parent-school-message-organizer",
+          "depth": 3,
+          "text": "Parent school-message organizer"
+        },
+        {
+          "anchor": "renter-evidence-and-security-deposit-defense",
+          "depth": 3,
+          "text": "Renter evidence and security-deposit defense"
+        },
+        {
+          "anchor": "medical-bill-and-eob-auditing",
+          "depth": 3,
+          "text": "Medical-bill and EOB auditing"
+        },
+        {
+          "anchor": "co-parenting-software",
+          "depth": 3,
+          "text": "Co-parenting software"
+        },
+        {
+          "anchor": "family-caregiving-and-iep-advocacy",
+          "depth": 3,
+          "text": "Family caregiving and IEP advocacy"
+        },
+        {
+          "anchor": "shift-schedules-missing-wages-and-paycheck-verification",
+          "depth": 3,
+          "text": "Shift schedules, missing wages, and paycheck verification"
+        },
+        {
+          "anchor": "clothing-sizes-across-brands",
+          "depth": 3,
+          "text": "Clothing sizes across brands"
+        },
+        {
+          "anchor": "warranties-returns-and-receipt-tracking",
+          "depth": 3,
+          "text": "Warranties, returns, and receipt tracking"
+        },
+        {
+          "anchor": "consumer-ai-that-calls-customer-service",
+          "depth": 3,
+          "text": "Consumer AI that calls customer service"
+        },
+        {
+          "anchor": "live-fact-checking",
+          "depth": 3,
+          "text": "Live fact checking"
+        },
+        {
+          "anchor": "photomodel-releases-and-adult-creator-compliance",
+          "depth": 3,
+          "text": "Photo/model releases and adult-creator compliance"
+        },
+        {
+          "anchor": "the-larger-market-lesson",
+          "depth": 2,
+          "text": "The larger market lesson"
+        },
+        {
+          "anchor": "recommended-next-decision",
+          "depth": 2,
+          "text": "Recommended next decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "adult-compliance",
+        "clothing-size-translator",
+        "consumer-case-agent",
+        "coparenting-coordinator",
+        "driving-rehearsal",
+        "family-caregiving",
+        "freelancer-crm",
+        "iep-advocate",
+        "instant-fact-check",
+        "medical-bill-auditor",
+        "post-loss-recovery",
+        "pre-loss-home-inventory",
+        "primary-source-receipts",
+        "quote-comparison",
+        "school-message-organizer",
+        "security-deposit-evidence",
+        "shift-pay-checker",
+        "warranty-return-tracker"
+      ],
+      "path": "docs/PAIN-MINING-DOSSIER.md",
+      "route": "/research/pain-mining-dossier",
+      "sha256": "sha256:2b9a69e8b9fd038b861ff34ee89caa67c8c1ab279c1414af43cefaeb9a87f9b3",
+      "slug": "pain-mining-dossier",
+      "title": "Shipaton 2026 Pain-Mining Dossier"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "social-app-opportunity-research",
+          "depth": 1,
+          "text": "Social App Opportunity Research"
+        },
+        {
+          "anchor": "executive-verdict",
+          "depth": 2,
+          "text": "Executive verdict"
+        },
+        {
+          "anchor": "method-and-limitations",
+          "depth": 2,
+          "text": "Method and limitations"
+        },
+        {
+          "anchor": "what-users-still-valueand-what-they-reject",
+          "depth": 2,
+          "text": "What users still value—and what they reject"
+        },
+        {
+          "anchor": "current-landscape-what-is-already-occupied",
+          "depth": 2,
+          "text": "Current landscape: what is already occupied"
+        },
+        {
+          "anchor": "important-competitive-conclusion",
+          "depth": 3,
+          "text": "Important competitive conclusion"
+        },
+        {
+          "anchor": "opportunity-criteria",
+          "depth": 2,
+          "text": "Opportunity criteria"
+        },
+        {
+          "anchor": "concepts-tested",
+          "depth": 2,
+          "text": "Concepts tested"
+        },
+        {
+          "anchor": "1-finite-circle",
+          "depth": 3,
+          "text": "1. Finite Circle"
+        },
+        {
+          "anchor": "2-human-camera",
+          "depth": 3,
+          "text": "2. Human Camera"
+        },
+        {
+          "anchor": "3-open-now",
+          "depth": 3,
+          "text": "3. Open Now"
+        },
+        {
+          "anchor": "4-relationship-copilot",
+          "depth": 3,
+          "text": "4. Relationship Copilot"
+        },
+        {
+          "anchor": "5-copost",
+          "depth": 3,
+          "text": "5. CoPost"
+        },
+        {
+          "anchor": "6-loop",
+          "depth": 3,
+          "text": "6. Loop"
+        },
+        {
+          "anchor": "evidence-grounded-synthetic-focus-group",
+          "depth": 2,
+          "text": "Evidence-grounded synthetic focus group"
+        },
+        {
+          "anchor": "synthetic-panel-result",
+          "depth": 3,
+          "text": "Synthetic panel result"
+        },
+        {
+          "anchor": "weighted-opportunity-score",
+          "depth": 2,
+          "text": "Weighted opportunity score"
+        },
+        {
+          "anchor": "recommended-product-loop",
+          "depth": 2,
+          "text": "Recommended product: Loop"
+        },
+        {
+          "anchor": "positioning",
+          "depth": 3,
+          "text": "Positioning"
+        },
+        {
+          "anchor": "the-social-primitive",
+          "depth": 3,
+          "text": "The social primitive"
+        },
+        {
+          "anchor": "core-mvp-flow",
+          "depth": 3,
+          "text": "Core MVP flow"
+        },
+        {
+          "anchor": "what-the-mvp-must-not-include",
+          "depth": 3,
+          "text": "What the MVP must not include"
+        },
+        {
+          "anchor": "two-minute-hackathon-demo",
+          "depth": 3,
+          "text": "Two-minute hackathon demo"
+        },
+        {
+          "anchor": "revenuecat-and-business-model",
+          "depth": 2,
+          "text": "RevenueCat and business model"
+        },
+        {
+          "anchor": "free",
+          "depth": 3,
+          "text": "Free"
+        },
+        {
+          "anchor": "loop-plus--hypothesis-499month-or-3999year",
+          "depth": 3,
+          "text": "Loop Plus — hypothesis: $4.99/month or $39.99/year"
+        },
+        {
+          "anchor": "loop-family--later-not-mvp",
+          "depth": 3,
+          "text": "Loop Family — later, not MVP"
+        },
+        {
+          "anchor": "shipaton-fit",
+          "depth": 2,
+          "text": "Shipaton fit"
+        },
+        {
+          "anchor": "growth-loop",
+          "depth": 2,
+          "text": "Growth loop"
+        },
+        {
+          "anchor": "risks-and-kill-criteria",
+          "depth": 2,
+          "text": "Risks and kill criteria"
+        },
+        {
+          "anchor": "1-i-can-just-text-this",
+          "depth": 3,
+          "text": "1. “I can just text this”"
+        },
+        {
+          "anchor": "2-creation-feels-too-formal",
+          "depth": 3,
+          "text": "2. Creation feels too formal"
+        },
+        {
+          "anchor": "3-recipients-do-not-follow",
+          "depth": 3,
+          "text": "3. Recipients do not follow"
+        },
+        {
+          "anchor": "4-update-completion-is-too-low",
+          "depth": 3,
+          "text": "4. Update completion is too low"
+        },
+        {
+          "anchor": "5-frequency-cannot-support-subscription",
+          "depth": 3,
+          "text": "5. Frequency cannot support subscription"
+        },
+        {
+          "anchor": "6-safety-and-coercion",
+          "depth": 3,
+          "text": "6. Safety and coercion"
+        },
+        {
+          "anchor": "real-validation-study-to-run-next",
+          "depth": 2,
+          "text": "Real validation study to run next"
+        },
+        {
+          "anchor": "recruitment",
+          "depth": 3,
+          "text": "Recruitment"
+        },
+        {
+          "anchor": "interview-protocol",
+          "depth": 3,
+          "text": "Interview protocol"
+        },
+        {
+          "anchor": "gono-go-threshold",
+          "depth": 3,
+          "text": "Go/no-go threshold"
+        },
+        {
+          "anchor": "bottom-line",
+          "depth": 2,
+          "text": "Bottom line"
+        }
+      ],
+      "linkedIdeaIds": [
+        "american-tiktok-alternative",
+        "loop",
+        "micro-help-network"
+      ],
+      "path": "docs/SOCIAL-APP-OPPORTUNITY-RESEARCH.md",
+      "route": "/research/social-app-opportunity-research",
+      "sha256": "sha256:d8d966e6eb929e2b75315aa681fe7800373e08fec84c7230c883498f9dbba23d",
+      "slug": "social-app-opportunity-research",
+      "title": "Social App Opportunity Research"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "untitled-micro-help-network",
+          "depth": 1,
+          "text": "Untitled micro-help network"
+        },
+        {
+          "anchor": "one-line-concept",
+          "depth": 2,
+          "text": "One-line concept"
+        },
+        {
+          "anchor": "product-thesis",
+          "depth": 2,
+          "text": "Product thesis"
+        },
+        {
+          "anchor": "core-experience",
+          "depth": 2,
+          "text": "Core experience"
+        },
+        {
+          "anchor": "reciprocity-and-business-model",
+          "depth": 2,
+          "text": "Reciprocity and business model"
+        },
+        {
+          "anchor": "why-it-is-not-just-another-poll-app",
+          "depth": 2,
+          "text": "Why it is not just another poll app"
+        },
+        {
+          "anchor": "mvp-worth-building",
+          "depth": 2,
+          "text": "MVP worth building"
+        },
+        {
+          "anchor": "primary-risks",
+          "depth": 2,
+          "text": "Primary risks"
+        },
+        {
+          "anchor": "fast-validation-test",
+          "depth": 2,
+          "text": "Fast validation test"
+        }
+      ],
+      "linkedIdeaIds": [
+        "american-tiktok-alternative",
+        "micro-help-network"
+      ],
+      "path": "docs/UNTITLED-MICRO-HELP-NETWORK.md",
+      "route": "/research/untitled-micro-help-network",
+      "sha256": "sha256:79addb28c01759837d3817163e4541f68ceb6a96116701cef22a16cfef82bfa6",
+      "slug": "untitled-micro-help-network",
+      "title": "Untitled micro-help network"
+    }
+  ],
+  "sourceHash": "sha256:dfa56f93669e14493ff1eb81af64c08286b4e849eb67fd8cbcf2595d86d21461"
+}

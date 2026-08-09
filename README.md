@@ -1,56 +1,75 @@
-# Welcome to your Expo app 👋
+# Idea Ledger
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Idea Ledger is a read-only decision archive for searching product ideas, reviewing why they survived or died, and comparing their existing validation gates. It keeps rejected ideas visible so old work compounds instead of disappearing into an archive.
 
-## Get started
+The current corpus contains 152 ideas and 12 research dossiers. `docs/idea-database.json` and the linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
 
-1. Install dependencies
+## Stack
 
-   ```bash
-   npm install
-   ```
+- Vite 8, React 19, and React Router 7
+- Static, responsive web deployment
+- Deterministic Node-based validation and artifact generation
+- Vitest for domain tests and Playwright for browser acceptance tests
 
-2. Start the app
+Expo 57 was evaluated during Phase 0 and rejected for this frontend. The product is a keyboard-heavy, desktop-first ledger with dense comparisons and semantic Markdown, and it does not use a native mobile primitive. Responsive web is the smaller and more direct implementation.
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Run locally
 
 ```bash
-npm run reset-project
+npm ci
+npm run dev
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+The local server prints its URL in the terminal.
 
-### Other setup steps
+## Validate and test
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+npm run check
+npm run test:e2e
+```
 
-## Learn more
+`npm run check` validates the canonical corpus, runs the deterministic generator tests, verifies that committed generated artifacts are current, runs the domain suite, type-checks, and lints.
 
-To learn more about developing your project with Expo, look at the following resources:
+To regenerate artifacts after an intentional corpus change:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm run ideas:generate
+npm run ideas:check
+```
 
-## Join the community
+## Build
 
-Join our community of developers creating universal apps.
+```bash
+npm run build:web
+npm run check:export -- dist
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Set `VITE_BASE_PATH` when building for a project subpath such as GitHub Pages:
+
+```bash
+VITE_BASE_PATH=/idea-ledger/ npm run build:web
+```
+
+On PowerShell:
+
+```powershell
+$env:VITE_BASE_PATH='/idea-ledger/'
+npm run build:web
+```
+
+## Architecture
+
+- `docs/idea-database.json` — canonical structured records
+- `docs/*.md` — canonical research dossiers
+- `scripts/idea-ledger/` — schema validation, deterministic generation, and export checks
+- `src/generated/idea-ledger/` — committed generated catalog, routes, provenance, and search documents
+- `src/ledger/` — typed search, facets, URL state, comparison, and provenance domain
+- `src/web/` — responsive application UI
+- `tests/e2e/` — browser retrieval, routing, comparison, accessibility, and responsive acceptance tests
+
+Phase 1 is intentionally read-only. It does not infer confidence, evidence quality, active queues, or historical decisions that the v1 schema cannot support.
+
+## Release
+
+The GitHub Pages workflow accepts only an explicitly approved 40-character commit SHA. It runs the full validation and browser suite, scans the public export, records release evidence, and deploys the exact reviewed artifact.

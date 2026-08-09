@@ -1,179 +1,1993 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 11,
+    "dossierRefsWithoutMention": 13,
     "dossiers": 12,
     "headingMatchedIdeas": 50,
+    "headingReferences": 51,
     "ideas": 152,
     "ideasWithoutResearch": 11,
     "mentionOnlyIdeas": 80,
+    "mentionReferences": 81,
     "multiRefIdeas": 4,
-    "researchEdges": 145
+    "researchEdges": 145,
+    "unmappedReferences": 13
   },
-  "dossierRefsWithoutMention": [
-    "american-tiktok-alternative",
-    "clothing-size-translator",
-    "consumer-case-agent",
-    "coparenting-coordinator",
-    "family-caregiving",
-    "freelancer-crm",
-    "medical-bill-auditor",
-    "quote-comparison",
-    "security-deposit-evidence",
-    "shift-pay-checker",
-    "warranty-return-tracker"
-  ],
-  "headingMatchedIdeas": [
-    "adult-compliance",
-    "appointment-cancel-by-clock",
-    "bakery-batch-handoff",
-    "call-sheet-delta-ack",
-    "cash-drawer-blind-close",
-    "confirmed-spoken-details",
-    "contacts-change-sentinel",
-    "crash-recoverable-field-recorder",
-    "creator-usage-rights-clock",
-    "custom-appliance-sound-latch",
-    "dinner-decision",
-    "event-coverage-extension-ack",
-    "event-runner-relay",
-    "fabric-bolt-job-gate",
-    "film-stock-load-gate",
-    "fragile-cargo-motion-log",
-    "gcode-printer-profile-preflight",
-    "haptic-cue-sequence",
-    "instant-fact-check",
-    "instruction-readback-handshake",
-    "live-roll",
-    "live-runsheet-pocket",
-    "local-tou-rate-replay",
-    "loop",
-    "lot-match",
-    "media-card-custody",
-    "medication-room-temperature-clock",
-    "micro-help-network",
-    "mobile-service-no-access-handshake",
-    "paint-can-job-gate",
-    "pdf-print-preflight",
-    "personal-break-ledger",
-    "planar-control-reset-diff",
-    "post-loss-recovery",
-    "primary-source-receipts",
-    "print-media-roll-gate",
-    "replacement-part-vault",
-    "resale-sold-sweep",
-    "resin-profile-gate",
-    "roster-screenshot-diff",
-    "salon-formula-gate",
-    "school-message-organizer",
-    "sequential-slot-waitlist",
-    "truck-detention-ack",
-    "two-source-solar-check",
-    "vehicle-fluid-gate",
-    "vendor-load-in-scout",
-    "vendor-payment-detail-latch",
-    "weed-check",
-    "welding-filler-gate"
-  ],
-  "ideasWithoutResearch": [
-    "afterglow",
-    "creator-portability",
-    "ebay-replacement",
-    "handoff",
-    "instant-bank-transfer",
-    "legalese-translator",
-    "live-only-social-feed",
-    "local-coffee-discovery",
-    "pushback",
-    "resume-reuse",
-    "screenshot-inbox"
-  ],
-  "mentionOnlyIdeas": [
-    "allergy-readback-handshake",
-    "amazon-label-handoff",
-    "analog-pedal-reference-check",
-    "app-blocker-self-diagnostic",
-    "auction-all-in-cap",
-    "audible-playback-checkpoint",
-    "barbell-plate-symmetry",
-    "barn-shift-baton",
-    "basketcheck",
-    "boat-drain-plug-latch",
-    "calendar-buffer-fence",
-    "campaign-snapshot-window",
-    "car-out-the-door-lock",
-    "classpass-credit-rescue",
-    "contact-call-promise",
-    "counter-personalization-approval",
-    "cross-auction-lot-cue",
-    "deafblind-tactile-phrase",
-    "driving-rehearsal",
-    "drum-lug-consistency",
-    "embroidery-thread-gate",
-    "event-hard-out-clock",
-    "event-signal-rehearsal",
-    "favorite-meal-quick-log",
-    "font-glyph-install-proof",
-    "forwarded-itinerary-claim",
-    "grooming-scope-approval",
-    "holdwatch",
-    "household-ev-charge-turn",
-    "iep-advocate",
-    "independent-jobber-shift-clock",
-    "magnetic-interference-survey",
-    "moving-revised-scope-approval",
-    "multi-chair-process-clock",
-    "nfc-borrow-tag",
-    "offline-stage-autoscroll",
-    "parental-control-safe-channel",
-    "parking-evidence-appeal",
-    "parking-zone-vehicle-guard",
-    "partial-rx-remainder",
-    "personal-wheelchair-ride-trace",
-    "pet-food-runway",
-    "phone-torque-angle",
-    "podcast-queue-snapshot",
-    "pre-loss-home-inventory",
-    "provider-network-double-check",
-    "reconnect-cable-map",
-    "recording-timestamp-marker",
-    "rekordbox-usb-preflight",
-    "relative-vibration-compare",
-    "rental-fuel-plan-calculator",
-    "rental-toll-window",
-    "rental-turnover-ready-ack",
-    "replacement-part-pair",
-    "reseller-net-floor-calculator",
-    "resin-pot-life-clock",
-    "resumable-phone-browser-transfer",
-    "rideshare-return-mile-offer",
-    "route-aware-appointment-gate",
-    "same-phone-agenda-timer",
-    "scope-request-budget",
-    "service-exit-closeout",
-    "sonos-room-scene-control",
-    "spotify-playlist-time-machine",
-    "spray-mix-final-tank",
-    "tattoo-stencil-check",
-    "third-party-offline-readiness",
-    "timer-lens",
-    "tipcheck",
-    "todoist-task-debt-reset",
-    "totp-recovery-ceremony",
-    "towing-margin-calculator",
-    "trade-in-proof",
-    "trailer-light-self-test",
-    "travel-esim-readiness",
-    "verified-audio-tag-edit",
-    "verified-lossless-metadata-scrub",
-    "visual-queue-watcher",
-    "water-softener-salt-runway",
-    "ynab-reconciliation-combination"
-  ],
-  "multiRefIdeas": [
-    "american-tiktok-alternative",
-    "event-coverage-extension-ack",
-    "micro-help-network",
-    "planar-control-reset-diff"
+  "researchProvenance": [
+    {
+      "ideaId": "adult-compliance",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": {
+            "anchor": "photomodel-releases-and-adult-creator-compliance",
+            "depth": 3,
+            "text": "Photo/model releases and adult-creator compliance"
+          },
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "afterglow",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "allergy-readback-handshake",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "amazon-label-handoff",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "american-tiktok-alternative",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "social-app-opportunity-research",
+          "heading": null,
+          "path": "docs/SOCIAL-APP-OPPORTUNITY-RESEARCH.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "untitled-micro-help-network",
+          "heading": null,
+          "path": "docs/UNTITLED-MICRO-HELP-NETWORK.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "analog-pedal-reference-check",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "app-blocker-self-diagnostic",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "appointment-cancel-by-clock",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "cancelby",
+            "depth": 2,
+            "text": "CancelBy"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "auction-all-in-cap",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "audible-playback-checkpoint",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "bakery-batch-handoff",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "batchbaton",
+            "depth": 2,
+            "text": "BatchBaton"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "barbell-plate-symmetry",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "barn-shift-baton",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "basketcheck",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "boat-drain-plug-latch",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "calendar-buffer-fence",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "call-sheet-delta-ack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "call-sheet-delta-acknowledgment",
+            "depth": 3,
+            "text": "Call-Sheet Delta Acknowledgment"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "campaign-snapshot-window",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "car-out-the-door-lock",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "cash-drawer-blind-close",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "drawerduo--cashclose-witness",
+            "depth": 3,
+            "text": "DrawerDuo / CashClose Witness"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "classpass-credit-rescue",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "clothing-size-translator",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "confirmed-spoken-details",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": {
+            "anchor": "2-confirmed-spoken-details--conditional-co-design-test",
+            "depth": 3,
+            "text": "2. Confirmed Spoken Details — conditional co-design test"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "consumer-case-agent",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "contact-call-promise",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "contacts-change-sentinel",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "contact-sentinel",
+            "depth": 3,
+            "text": "Contact Sentinel"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "coparenting-coordinator",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "counter-personalization-approval",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "crash-recoverable-field-recorder",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": {
+            "anchor": "conditional-survivor-crashtape",
+            "depth": 2,
+            "text": "Conditional survivor: CrashTape"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "creator-portability",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "creator-usage-rights-clock",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "creator-rights-clock",
+            "depth": 3,
+            "text": "Creator Rights Clock"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "cross-auction-lot-cue",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "custom-appliance-sound-latch",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "soundlatch",
+            "depth": 3,
+            "text": "SoundLatch"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "deafblind-tactile-phrase",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "dinner-decision",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "dinner-decision-deep-dive",
+          "heading": {
+            "anchor": "dinner-decision-deep-dive-and-adversarial-review",
+            "depth": 1,
+            "text": "Dinner Decision: Deep-Dive and Adversarial Review"
+          },
+          "path": "docs/DINNER-DECISION-DEEP-DIVE.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "driving-rehearsal",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "drum-lug-consistency",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "ebay-replacement",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "embroidery-thread-gate",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "event-coverage-extension-ack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "encore",
+            "depth": 2,
+            "text": "Encore"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": {
+            "anchor": "why-encore-was-demoted",
+            "depth": 2,
+            "text": "Why Encore was demoted"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "event-hard-out-clock",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "event-runner-relay",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "runner-relay",
+            "depth": 3,
+            "text": "Runner Relay"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "event-signal-rehearsal",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "fabric-bolt-job-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "fresh-survivor-cutbolt",
+            "depth": 2,
+            "text": "Fresh survivor: CutBolt"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "family-caregiving",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "favorite-meal-quick-log",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "film-stock-load-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "stockgate--passed-market",
+            "depth": 3,
+            "text": "StockGate — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "font-glyph-install-proof",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "forwarded-itinerary-claim",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "fragile-cargo-motion-log",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "cakeride-no-go",
+            "depth": 2,
+            "text": "CakeRide: no-go"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "freelancer-crm",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "gcode-printer-profile-preflight",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": {
+            "anchor": "printgate--phone-side-g-code-preflight",
+            "depth": 3,
+            "text": "PrintGate — phone-side G-code preflight"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "grooming-scope-approval",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "handoff",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "haptic-cue-sequence",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "cuepulse",
+            "depth": 3,
+            "text": "CuePulse"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "holdwatch",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "household-ev-charge-turn",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "iep-advocate",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "independent-jobber-shift-clock",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "instant-bank-transfer",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "instant-fact-check",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": {
+            "anchor": "live-fact-checking",
+            "depth": 3,
+            "text": "Live fact checking"
+          },
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "instruction-readback-handshake",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "readback",
+            "depth": 3,
+            "text": "ReadBack"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "legalese-translator",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "live-only-social-feed",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "live-roll",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "live-roll-concept-dossier",
+          "heading": {
+            "anchor": "live-roll-concept-dossier",
+            "depth": 1,
+            "text": "Live Roll concept dossier"
+          },
+          "path": "docs/LIVE-ROLL-CONCEPT-DOSSIER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "live-runsheet-pocket",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "runsheet-pocket",
+            "depth": 3,
+            "text": "RunSheet Pocket"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "local-coffee-discovery",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "local-tou-rate-replay",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": {
+            "anchor": "ratereplay--utility-tariff-replay",
+            "depth": 3,
+            "text": "RateReplay — utility tariff replay"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "loop",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "social-app-opportunity-research",
+          "heading": {
+            "anchor": "6-loop",
+            "depth": 3,
+            "text": "6. Loop"
+          },
+          "path": "docs/SOCIAL-APP-OPPORTUNITY-RESEARCH.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "lot-match",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": {
+            "anchor": "1-lotmatch--strongest-business-candidate",
+            "depth": 3,
+            "text": "1. LotMatch — strongest business candidate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "magnetic-interference-survey",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "media-card-custody",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": {
+            "anchor": "1-media-card-custody--conditional-go",
+            "depth": 3,
+            "text": "1. Media Card Custody — conditional go"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "medical-bill-auditor",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "medication-room-temperature-clock",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "medication-room-temperature-clock--passed-market",
+            "depth": 3,
+            "text": "Medication Room-Temperature Clock — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "micro-help-network",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "social-app-opportunity-research",
+          "heading": null,
+          "path": "docs/SOCIAL-APP-OPPORTUNITY-RESEARCH.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "untitled-micro-help-network",
+          "heading": {
+            "anchor": "untitled-micro-help-network",
+            "depth": 1,
+            "text": "Untitled micro-help network"
+          },
+          "path": "docs/UNTITLED-MICRO-HELP-NETWORK.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "mobile-service-no-access-handshake",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "doorhold",
+            "depth": 2,
+            "text": "DoorHold"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "moving-revised-scope-approval",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "multi-chair-process-clock",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "nfc-borrow-tag",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "offline-stage-autoscroll",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "paint-can-job-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "coatmatch--passed-market",
+            "depth": 3,
+            "text": "CoatMatch — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "parental-control-safe-channel",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "parking-evidence-appeal",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "parking-zone-vehicle-guard",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "partial-rx-remainder",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "pdf-print-preflight",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": {
+            "anchor": "printflight--mobile-pdf-preflight",
+            "depth": 3,
+            "text": "PrintFlight — mobile PDF preflight"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "personal-break-ledger",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "breakledger",
+            "depth": 3,
+            "text": "BreakLedger"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "personal-wheelchair-ride-trace",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "pet-food-runway",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "phone-torque-angle",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "planar-control-reset-diff",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "resetframe-no-go-standalone",
+            "depth": 2,
+            "text": "ResetFrame: no-go standalone"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "podcast-queue-snapshot",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "post-loss-recovery",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": {
+            "anchor": "lead-concept-post-loss-recovery-from-evidence-already-on-the-phone",
+            "depth": 2,
+            "text": "Lead concept: post-loss recovery from evidence already on the phone"
+          },
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "pre-loss-home-inventory",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "primary-source-receipts",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": {
+            "anchor": "reserve-concept-primary-source-receipts-for-news",
+            "depth": 2,
+            "text": "Reserve concept: primary-source receipts for news"
+          },
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "print-media-roll-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "rollgate--passed-market",
+            "depth": 3,
+            "text": "RollGate — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "provider-network-double-check",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "pushback",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "quote-comparison",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "reconnect-cable-map",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "recording-timestamp-marker",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rekordbox-usb-preflight",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "relative-vibration-compare",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rental-fuel-plan-calculator",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rental-toll-window",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rental-turnover-ready-ack",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "replacement-part-pair",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "replacement-part-vault",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "replacement-part-vault--passed-market",
+            "depth": 3,
+            "text": "Replacement Part Vault — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "resale-sold-sweep",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "sold-sweep--passed-market",
+            "depth": 3,
+            "text": "Sold Sweep — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "reseller-net-floor-calculator",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "resin-pot-life-clock",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "resin-profile-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "resingate--passed-market",
+            "depth": 3,
+            "text": "ResinGate — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "resumable-phone-browser-transfer",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "resume-reuse",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "rideshare-return-mile-offer",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "roster-screenshot-diff",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "rotadiff--passed-market",
+            "depth": 3,
+            "text": "RotaDiff — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "route-aware-appointment-gate",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "salon-formula-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "formulagate--passed-market",
+            "depth": 3,
+            "text": "FormulaGate — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "same-phone-agenda-timer",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "school-message-organizer",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": {
+            "anchor": "parent-school-message-organizer",
+            "depth": 3,
+            "text": "Parent school-message organizer"
+          },
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "scope-request-budget",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "screenshot-inbox",
+      "quality": "none",
+      "references": []
+    },
+    {
+      "ideaId": "security-deposit-evidence",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "sequential-slot-waitlist",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "sequential-waitlist-fill",
+            "depth": 3,
+            "text": "Sequential Waitlist Fill"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "service-exit-closeout",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round6",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "shift-pay-checker",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "sonos-room-scene-control",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "spotify-playlist-time-machine",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "spray-mix-final-tank",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "tattoo-stencil-check",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "third-party-offline-readiness",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "timer-lens",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "tipcheck",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "todoist-task-debt-reset",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "totp-recovery-ceremony",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "towing-margin-calculator",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "trade-in-proof",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "trailer-light-self-test",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "travel-esim-readiness",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "truck-detention-ack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round5",
+          "heading": {
+            "anchor": "dwellack",
+            "depth": 3,
+            "text": "DwellAck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "two-source-solar-check",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-08",
+          "heading": {
+            "anchor": "3-two-source-solar-check--narrow-conditional",
+            "depth": 3,
+            "text": "3. Two-Source Solar Check — narrow conditional"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "vehicle-fluid-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "fluidgate--passed-market",
+            "depth": 3,
+            "text": "FluidGate — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "vendor-load-in-scout",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "discovery-candidate-loadin-scout",
+            "depth": 2,
+            "text": "Discovery candidate: LoadIn Scout"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "vendor-payment-detail-latch",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round7",
+          "heading": {
+            "anchor": "payeelatch--vendor-payment-detail-change-gate",
+            "depth": 3,
+            "text": "PayeeLatch — vendor payment-detail change gate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "verified-audio-tag-edit",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "verified-lossless-metadata-scrub",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "visual-queue-watcher",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "warranty-return-tracker",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "water-softener-salt-runway",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "weed-check",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09",
+          "heading": {
+            "anchor": "2-weedcheck--strongest-shipaton-candidate",
+            "depth": 3,
+            "text": "2. WeedCheck — strongest Shipaton candidate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "welding-filler-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round4",
+          "heading": {
+            "anchor": "rodgate--passed-market",
+            "depth": 3,
+            "text": "RodGate — passed market"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "ynab-reconciliation-combination",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-09-round8",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "mention"
+        }
+      ]
+    }
   ],
   "singletonTags": [
     "accelerometer",

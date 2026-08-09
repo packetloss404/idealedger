@@ -1,0 +1,185 @@
+name: Idea Ledger Pages release
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      approve_public_content:
+        description: I reviewed the exported idea and research corpus for public release
+        required: true
+        default: false
+        type: boolean
+      approved_commit:
+        description: Exact 40-character commit SHA whose public content was reviewed
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+# Serialize the entire reviewed release path so an older run cannot finish after
+# and overwrite a newer deployment. Pull-request verification remains independent.
+concurrency:
+  group: ${{ github.event_name == 'workflow_dispatch' && 'pages-release' || format('pages-verify-{0}', github.run_id) }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy_authorized: ${{ steps.authorization.outputs.authorized }}
+    env:
+      CI: true
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Resolve GitHub Pages base path
+        shell: bash
+        run: |
+          set -euo pipefail
+          owner_name="${GITHUB_REPOSITORY%%/*}"
+          repository_name="${GITHUB_REPOSITORY#*/}"
+          if [[ "${repository_name,,}" == "${owner_name,,}.github.io" ]]; then
+            pages_base="/"
+          else
+            pages_base="/${repository_name}/"
+          fi
+          printf 'VITE_BASE_PATH=%s\n' "$pages_base" >> "$GITHUB_ENV"
+          printf 'PUBLIC_BASE_PATH=%s\n' "$pages_base" >> "$GITHUB_ENV"
+
+      - name: Verify manual release authorization
+        id: authorization
+        if: github.event_name == 'workflow_dispatch'
+        shell: bash
+        env:
+          APPROVED_COMMIT: ${{ inputs.approved_commit }}
+          APPROVED_CONTENT: ${{ inputs.approve_public_content }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF" != "refs/heads/$DEFAULT_BRANCH" ]]; then
+            echo "Release dispatches must run from the reviewed default branch: $DEFAULT_BRANCH" >&2
+            exit 1
+          fi
+          if [[ "$APPROVED_CONTENT" != "true" ]]; then
+            echo "Public-content approval was not granted" >&2
+            exit 1
+          fi
+          if [[ ! "$APPROVED_COMMIT" =~ ^[0-9a-fA-F]{40}$ ]]; then
+            echo "approved_commit must be a full 40-character commit SHA" >&2
+            exit 1
+          fi
+          if [[ "${APPROVED_COMMIT,,}" != "${GITHUB_SHA,,}" ]]; then
+            echo "Reviewed commit $APPROVED_COMMIT does not match workflow commit $GITHUB_SHA" >&2
+            exit 1
+          fi
+          echo "authorized=true" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install clean dependencies
+        run: npm ci
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Validate source and generated artifacts
+        run: npm run check
+
+      - name: Run browser acceptance tests
+        run: npm run test:e2e
+
+      - name: Install optional WebKit browser
+        id: webkit-install
+        continue-on-error: true
+        run: npx playwright install --with-deps webkit
+
+      - name: Run WebKit desktop and mobile smoke tests
+        if: steps.webkit-install.outcome == 'success'
+        env:
+          PLAYWRIGHT_WEBKIT: true
+        run: >-
+          npx playwright test --project=webkit
+          tests/e2e/ledger.spec.ts
+          tests/e2e/responsive-keyboard.spec.ts
+
+      - name: Add GitHub Pages history fallback
+        shell: bash
+        run: |
+          if [[ ! -f dist/404.html ]]; then
+            cp dist/index.html dist/404.html
+          fi
+
+      - name: Check public export
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-evidence
+          set +e
+          node scripts/idea-ledger/check-export.mjs dist --base "$PUBLIC_BASE_PATH" \
+            > release-evidence/export-check.txt 2>&1
+          export_status=$?
+          set -e
+          cat release-evidence/export-check.txt
+          exit "$export_status"
+
+      - name: Record release evidence
+        shell: bash
+        run: |
+          git rev-parse HEAD > release-evidence/commit.txt
+          printf 'public_content_approved=%s\n' '${{ inputs.approve_public_content || false }}' \
+            > release-evidence/public-content-approval.txt
+          printf 'approved_commit=%s\n' '${{ inputs.approved_commit || '' }}' \
+            >> release-evidence/public-content-approval.txt
+          printf 'public_base_path=%s\n' "$PUBLIC_BASE_PATH" \
+            > release-evidence/public-base-path.txt
+          sha256sum docs/idea-database.json src/generated/idea-ledger/manifest.json \
+            > release-evidence/source-sha256.txt
+          find dist -type f -print0 | sort -z | xargs -0 sha256sum \
+            > release-evidence/dist-sha256.txt
+          npm ls --depth=0 > release-evidence/dependencies.txt
+
+      - name: Upload Pages artifact
+        if: steps.authorization.outputs.authorized == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Upload release evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-evidence-${{ github.run_id }}
+          path: |
+            release-evidence
+            playwright-report
+            test-results/playwright
+          if-no-files-found: warn
+          retention-days: 14
+
+  deploy:
+    if: needs.verify.outputs.deploy_authorized == 'true'
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Deploy exact verified artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -43,3 +43,19 @@ test('idea and dossier search documents remain separate', async () => {
     assert.deepEqual(Object.keys(research.fields).sort(), ['body', 'headings', 'title']);
   });
 });
+
+test('research metadata stays lightweight while preserving deterministic routes and headings', async () => {
+  await withFixture(async (root) => {
+    const result = await buildArtifacts(root);
+    const full = result.artifacts['research-documents.json'];
+    const metadata = result.artifacts['research-metadata.json'];
+    assert.equal(metadata.sourceHash, full.sourceHash);
+    assert.equal(metadata.documents.length, full.documents.length);
+    assert.deepEqual(
+      Object.keys(metadata.documents[0]).sort(),
+      ['headings', 'linkedIdeaIds', 'path', 'route', 'sha256', 'slug', 'title'].sort()
+    );
+    assert.equal('markdown' in metadata.documents[0], false);
+    assert.equal('plainText' in metadata.documents[0], false);
+  });
+});

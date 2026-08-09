@@ -36,6 +36,7 @@ export function validateGeneratedArtifacts(repoRoot, artifacts) {
     'manifest.json': 'manifest',
     'catalog.json': 'catalog',
     'research-documents.json': 'researchDocuments',
+    'research-metadata.json': 'researchMetadata',
     'search-documents.json': 'searchDocuments',
     'routes.json': 'routes',
     'quality-report.json': 'qualityReport',
