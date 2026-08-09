@@ -619,6 +619,10 @@ a:hover {
   text-decoration: none;
 }
 
+.database-overview h2 {
+  max-width: 760px;
+}
+
 .recommendation-thesis {
   max-width: 700px;
   margin: 0;
@@ -663,6 +667,31 @@ a:hover {
   margin: 10px 0 18px;
   font-size: 13px;
   line-height: 1.65;
+}
+
+.workflow-list {
+  display: grid;
+  gap: 0;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.workflow-list li {
+  display: grid;
+  gap: 3px;
+  border-top: 1px solid var(--border);
+  padding: 11px 0;
+}
+
+.workflow-list b {
+  font-size: 12px;
+}
+
+.workflow-list span {
+  color: var(--ink-secondary);
+  font-size: 11px;
+  line-height: 1.45;
 }
 
 .source-link {

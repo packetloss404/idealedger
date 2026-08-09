@@ -3,6 +3,8 @@
 **Date:** 2026-08-09  
 **Decision:** Build a thin custom, local-first decision cockpit over the existing JSON and Markdown. Do not build another generic database, roadmap, voting tool, or collaboration platform.
 
+> **Durable direction update:** The conversation remains the working room for brainstorming, research, attack, and judgment; the Ledger is the durable memory of those decisions. The Now page represents the database as a whole and must remain useful beyond any hackathon or research round. Round-specific homepage and shortlist references later in this original Phase 1 brief are superseded by that product direction.
+
 ## Product promise
 
 > Never forget an idea, never forget why it died, and never confuse an active idea with an actionable test.
@@ -253,4 +255,3 @@ Defer AI-generated ideas, semantic Q&A, automatic scoring, charts, collaboration
 6. If it fails, the decision records the result, blocker pattern and resurrection condition while preserving the prior validating decision.
 
 That workflow makes the archive productive instead of merely searchable.
-

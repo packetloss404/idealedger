@@ -1,137 +1,112 @@
 import { Link } from 'react-router-dom';
 
 import {
-  getIdea,
-  getResearchReferences,
   getStatusCounts,
   ideas,
+  mappingOptions,
+  researchMetadata,
   sourceMeta,
-  statusLabels,
 } from '../ledger-adapter';
-import { CompareToggle } from '../components/CompareToggle';
-import { EmptyState } from '../components/EmptyState';
 import { PageHeader } from '../components/PageHeader';
-import { FitLabel, StatusLabel } from '../components/StatusLabels';
-import { Icon } from '../ui/Icon';
 
-function CandidateRow({ id, position }: { id: string; position: string }) {
-  const idea = getIdea(id);
-  if (!idea) return null;
+interface DatabaseLensProps {
+  count: number;
+  description: string;
+  label: string;
+  to: string;
+}
+
+function DatabaseLens({ count, description, label, to }: DatabaseLensProps) {
   return (
-    <article className="candidate-row">
-      <div className="candidate-order">{position}</div>
-      <div className="candidate-main">
-        <div className="candidate-meta"><StatusLabel status={idea.status} /><FitLabel fit={idea.hackathon_fit} /></div>
-        <h3><Link to={idea.route}>{idea.name}</Link></h3>
-        <p>{idea.one_liner}</p>
-      </div>
-      <div className="candidate-decision">
-        <span className="mini-label">Gate</span>
-        <p>{idea.resurrection_trigger}</p>
-      </div>
-      <CompareToggle compact id={idea.id} name={idea.name} />
-    </article>
+    <Link to={to}>
+      <strong>{count}</strong>
+      <span><b>{label}</b><small>{description}</small></span>
+      <span aria-hidden="true">→</span>
+    </Link>
   );
 }
 
 export function DashboardPage() {
-  const crashTape = getIdea('crash-recoverable-field-recorder');
-  const crashReference = crashTape ? getResearchReferences(crashTape).find((reference) => reference.quality === 'heading') : undefined;
   const counts = getStatusCounts();
+  const unresolved = counts.raw + counts.needs_reconstruction;
+  const passed = counts.passed_market + counts.passed_scope;
   const noResearch = ideas.filter((idea) => !idea.dossierSlugs.length).length;
+  const linkedResearch = ideas.length - noResearch;
+  const exactSections = mappingOptions.find(({ value }) => value === 'heading')?.count ?? 0;
+  const researchEdges = ideas.reduce((total, idea) => total + idea.dossierSlugs.length, 0);
 
   return (
     <div className="page page-now">
       <PageHeader
-        eyebrow={<><span className="eyebrow-dot" /> Research snapshot · {sourceMeta.updatedAt}</>}
-        intro={<p>A frozen view of the Round-8 recommendation, two earlier shortlist lenses, and corpus gaps. This page does not infer an active test or live queue.</p>}
-        title="What survived Round 8?"
+        eyebrow={<><span className="eyebrow-dot" /> Living decision archive · {sourceMeta.updatedAt}</>}
+        intro={<p>A durable record of every idea we explore—what it is, why it moved forward or died, and what evidence would change the decision. Search first, then use the archive to choose the next question.</p>}
+        title="The idea database"
       />
 
-      {crashTape ? (
-        <section className="recommendation" aria-labelledby="recommendation-heading">
-          <div className="section-kicker">Frozen Round-8 recommendation</div>
-          <div className="recommendation-layout">
-            <div className="recommendation-main">
-              <div className="candidate-meta"><StatusLabel status={crashTape.status} /><FitLabel fit={crashTape.hackathon_fit} /></div>
-              <h2 id="recommendation-heading"><Link to={crashTape.route}>{crashTape.name}</Link></h2>
-              <p className="recommendation-thesis">{crashTape.one_liner}</p>
-              <p className="recommendation-reason">{crashTape.decision_reason}</p>
-              <div className="recommendation-actions">
-                <Link className="button button-primary" to={crashTape.route}>Review decision</Link>
-                <CompareToggle id={crashTape.id} name={crashTape.name} />
-              </div>
+      <section className="recommendation database-overview" aria-labelledby="database-overview-heading">
+        <div className="section-kicker">How this database works</div>
+        <div className="recommendation-layout">
+          <div className="recommendation-main">
+            <h2 id="database-overview-heading">Conversation creates the work. The ledger keeps the memory.</h2>
+            <p className="recommendation-thesis">We brainstorm and make judgments together in chat. The database preserves the resulting ideas, evidence, decisions, and reopening conditions so the next conversation starts further ahead.</p>
+            <p className="recommendation-reason">Every status remains searchable, including ideas we passed. Nothing becomes a winner because it is recent, and nothing disappears merely because it failed.</p>
+            <div className="recommendation-actions">
+              <Link className="button button-primary" to="/ideas">Browse all {ideas.length} ideas</Link>
+              <Link className="button button-secondary" to="/ideas?status=validating">Review validating ideas</Link>
             </div>
-            <aside className="gate-panel">
-              <span className="gate-number">01</span>
-              <div>
-                <span className="mini-label">Round-8 gate before promotion</span>
-                <p>{crashTape.resurrection_trigger}</p>
-                {crashReference?.document ? (
-                  <Link className="source-link" to={`/research/${crashReference.document.slug}${crashReference.anchor ? `#${crashReference.anchor}` : ''}`}>
-                    Round 8 dossier <Icon name="arrow-left" className="source-arrow" />
-                  </Link>
-                ) : null}
-              </div>
-            </aside>
           </div>
-        </section>
-      ) : (
-        <EmptyState
-          action={<Link className="button button-primary" to="/ideas?status=validating">Review validating ideas</Link>}
-          description="Schema v1 does not contain a canonical current test, and no latest recommendation could be mapped safely."
-          title="No active test is recorded"
-        />
-      )}
-
-      <section className="shortlist-section" aria-labelledby="shortlist-heading">
-        <div className="section-heading-row">
-          <div>
-            <div className="section-kicker">Frozen earlier-round shortlist</div>
-            <h2 id="shortlist-heading">Different strengths, explicit gates</h2>
-          </div>
-          <Link className="text-link" to="/ideas?status=validating">View all validating ideas</Link>
-        </div>
-        <div className="candidate-list">
-          <CandidateRow id="weed-check" position="Design / demo" />
-          <CandidateRow id="lot-match" position="Narrow business" />
+          <aside className="gate-panel workflow-panel" aria-label="Working loop">
+            <span className="gate-number">01</span>
+            <div>
+              <span className="mini-label">Working loop</span>
+              <ol className="workflow-list">
+                <li><b>Brainstorm</b><span>Explore the idea together in chat.</span></li>
+                <li><b>Research</b><span>Fan out focused evidence and adversarial checks.</span></li>
+                <li><b>Decide</b><span>Choose the status and the next falsification gate.</span></li>
+                <li><b>Record</b><span>Update the database, dossier, and searchable Ledger.</span></li>
+              </ol>
+            </div>
+          </aside>
         </div>
       </section>
 
-      <section className="review-inboxes" aria-labelledby="inboxes-heading">
+      <section className="review-inboxes" aria-labelledby="status-lenses-heading">
         <div className="section-heading-row">
           <div>
-            <div className="section-kicker">Review inboxes</div>
-            <h2 id="inboxes-heading">Known work, not progress theater</h2>
+            <div className="section-kicker">Browse the whole database</div>
+            <h2 id="status-lenses-heading">Every decision stays visible</h2>
           </div>
+          <Link className="text-link" to="/ideas">Open the full ledger</Link>
         </div>
         <div className="inbox-list">
-          <Link to="/ideas?status=validating">
-            <strong>{counts.validating}</strong>
-            <span><b>Validating</b><small>Ideas with a survived thesis and explicit gate</small></span>
-            <span aria-hidden="true">→</span>
-          </Link>
-          <Link to="/ideas?status=raw,needs_reconstruction">
-            <strong>{counts.raw + counts.needs_reconstruction}</strong>
-            <span><b>Unresolved</b><small>Raw ideas or concepts needing reconstruction</small></span>
-            <span aria-hidden="true">→</span>
-          </Link>
-          <Link to="/ideas?research=none">
-            <strong>{noResearch}</strong>
-            <span><b>No linked research</b><small>The record exists; provenance does not</small></span>
-            <span aria-hidden="true">→</span>
-          </Link>
-          <Link to="/ideas?status=passed_market,passed_scope&fit=high">
-            <strong>{ideas.filter((idea) => ['passed_market', 'passed_scope'].includes(idea.status) && idea.hackathon_fit === 'high').length}</strong>
-            <span><b>High-fit ideas we passed</b><small>Good demos with a decisive blocker</small></span>
-            <span aria-hidden="true">→</span>
-          </Link>
+          <DatabaseLens count={ideas.length} description="The complete searchable decision archive" label="All ideas" to="/ideas" />
+          <DatabaseLens count={counts.validating} description="Ideas with a surviving thesis and explicit gate" label="Validating" to="/ideas?status=validating" />
+          <DatabaseLens count={counts.parked} description="Ideas waiting for a named condition to change" label="Parked" to="/ideas?status=parked" />
+          <DatabaseLens count={unresolved} description="Raw concepts or records needing reconstruction" label="Unresolved" to="/ideas?status=raw,needs_reconstruction" />
+          <DatabaseLens count={passed} description="Decisions preserved so we do not repeat the work" label="Passed decisions" to="/ideas?status=passed_market,passed_scope" />
+          <DatabaseLens count={noResearch} description="Records that still need a defensible source trail" label="No linked research" to="/ideas?research=none" />
+        </div>
+      </section>
+
+      <section className="review-inboxes" aria-labelledby="research-coverage-heading">
+        <div className="section-heading-row">
+          <div>
+            <div className="section-kicker">Research coverage</div>
+            <h2 id="research-coverage-heading">What the archive can currently defend</h2>
+          </div>
+        </div>
+        <div className="inbox-list database-health-list">
+          <DatabaseLens count={linkedResearch} description="Records connected to at least one dossier" label="Ideas with research" to="/ideas?research=heading,mention,unmapped" />
+          <DatabaseLens count={exactSections} description="Ideas mapped to a precise dossier heading" label="Exact section mappings" to="/ideas?research=heading" />
+          <DatabaseLens count={researchMetadata.length} description={`${researchEdges} idea-to-dossier links across the archive`} label="Research dossiers" to="/ideas?research=heading,mention,unmapped" />
+          <DatabaseLens count={noResearch} description="The clearest provenance cleanup queue" label="Coverage gaps" to="/ideas?research=none" />
         </div>
       </section>
 
       <footer className="snapshot-footer">
         <span>{ideas.length} ideas</span>
-        <span>{statusLabels.passed_market}: {counts.passed_market}</span>
+        <span>{passed} preserved pass decisions</span>
+        <span>{researchMetadata.length} dossiers</span>
         <span>Schema v{sourceMeta.schemaVersion}</span>
         <span className="snapshot-hash" title={sourceMeta.hash}>{sourceMeta.hash.slice(7, 19)}</span>
       </footer>
