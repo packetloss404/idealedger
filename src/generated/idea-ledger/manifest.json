@@ -48,9 +48,9 @@
       "sha256": "sha256:8eacbb1e4e668a43c3d6c3a0afc386f9c15fedaecbbd96c8cbce622b89065d94"
     },
     {
-      "bytes": 26452,
+      "bytes": 26448,
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
-      "sha256": "sha256:b83c625b98f83f0ecf47b812166afbcf4d419de66d5e185ebca8b8abfa3b0f3f"
+      "sha256": "sha256:9f3ca39156d1e28b187554287e963780f040d60672790db98a1db351ad6f2e2d"
     },
     {
       "bytes": 18239,
@@ -83,7 +83,7 @@
       "sha256": "sha256:fe57d13df1b95bdac30a626a99f4a6fc02c3414abfa468345dac2a918e08dfc7"
     }
   ],
-  "sourceHash": "sha256:66d1e9819b7abe8aed3791b3298e14ca2572efaf3daab6a56777ba9737ceb5cb",
+  "sourceHash": "sha256:ada2c8aa013b4e35ad9364aa1f34682c1b88886d39170cb258a212561cdb5fbc",
   "sourceSchemaVersion": 1,
   "sourceUpdatedAt": "2026-08-10"
 }
