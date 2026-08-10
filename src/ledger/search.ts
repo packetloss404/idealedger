@@ -1,4 +1,4 @@
-import { getResearchMetadataForIdea, ideas } from './data';
+import { ideas } from './data';
 import { matchesFilters } from './filters';
 import { containsToken, createSearchSnippet, relationScore } from './match';
 import { compareSearchText, normalizeSearch, queryTokens } from './normalize';
@@ -70,22 +70,6 @@ function buildFields(idea: Idea): WeightedField[] {
     },
   ];
 
-  for (const document of getResearchMetadataForIdea(idea.id)) {
-    fields.push({
-      field: 'researchTitle',
-      original: document.title,
-      value: normalizeSearch(document.title),
-      weight: 8,
-    });
-    for (const heading of document.headings) {
-      fields.push({
-        field: 'researchHeading',
-        original: heading.text,
-        value: normalizeSearch(heading.text),
-        weight: 6,
-      });
-    }
-  }
   return fields;
 }
 

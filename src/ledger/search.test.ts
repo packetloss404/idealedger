@@ -39,11 +39,16 @@ describe('weighted idea search', () => {
     ).toBe(true);
   });
 
-  it('requires every query token and gives canonical fields more weight than dossiers', () => {
+  it('requires every query token and keeps dossier text out of canonical idea results', () => {
     const results = searchIdeas({ query: '4x6 label' });
     expect(results[0]?.idea.id).toBe('amazon-label-handoff');
     expect(results[0]?.matchedFields).toContain('alias');
     expect(results.every((result) => result.score > 0)).toBe(true);
+  });
+
+  it('does not fan a unique idea name across every idea linked to the same dossier', () => {
+    const results = searchIdeas({ query: 'CardReceipt' });
+    expect(results.map((result) => result.idea.id)).toEqual(['gift-card-receipt-match']);
   });
 
   it('combines facets as AND across groups and OR within a group', () => {

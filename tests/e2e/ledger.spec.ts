@@ -52,6 +52,17 @@ test.describe('decision retrieval', () => {
     await expect(ideaRow(page, 'amazon-label-handoff')).toContainText('LabelRelay');
   });
 
+  test('keeps a unique Round 9 name out of sibling idea results', async ({ page }) => {
+    await page.goto('ideas');
+    await search(page, 'CardReceipt');
+
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'gift-card-receipt-match')).toContainText('CardReceipt');
+    await expect(page.getByRole('region', { name: 'Research matches' })).toContainText(
+      'Idea Mining Loop — Round 9',
+    );
+  });
+
   test('searches decision reasons instead of only names', async ({ page }) => {
     await page.goto('ideas');
     await search(page, 'second app');
