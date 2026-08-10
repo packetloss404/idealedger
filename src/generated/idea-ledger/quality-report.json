@@ -1,16 +1,16 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 13,
-    "dossiers": 12,
-    "headingMatchedIdeas": 50,
-    "headingReferences": 51,
-    "ideas": 152,
+    "dossierRefsWithoutMention": 16,
+    "dossiers": 13,
+    "headingMatchedIdeas": 52,
+    "headingReferences": 53,
+    "ideas": 173,
     "ideasWithoutResearch": 11,
-    "mentionOnlyIdeas": 80,
-    "mentionReferences": 81,
-    "multiRefIdeas": 4,
-    "researchEdges": 145,
-    "unmappedReferences": 13
+    "mentionOnlyIdeas": 100,
+    "mentionReferences": 103,
+    "multiRefIdeas": 10,
+    "researchEdges": 172,
+    "unmappedReferences": 16
   },
   "researchProvenance": [
     {
@@ -97,6 +97,12 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -189,6 +195,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "boarding-pass-bag-tag-pair",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
         }
       ]
     },
@@ -200,6 +224,18 @@
           "dossierSlug": "idea-mining-loop-2026-08-09-round7",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "breaker-panel-atlas",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
         }
       ]
@@ -314,8 +350,14 @@
     },
     {
       "ideaId": "consumer-case-agent",
-      "quality": "unmapped",
+      "quality": "mention",
       "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        },
         {
           "dossierSlug": "pain-mining-dossier",
           "heading": null,
@@ -494,6 +536,18 @@
       ]
     },
     {
+      "ideaId": "dry-clean-garment-count",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "ebay-replacement",
       "quality": "none",
       "references": []
@@ -506,6 +560,30 @@
           "dossierSlug": "idea-mining-loop-2026-08-09",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "emergency-shutoff-card",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "equipment-return-receipt-pair",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
         }
       ]
@@ -633,6 +711,18 @@
       ]
     },
     {
+      "ideaId": "flight-disruption-claim-packet",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "font-glyph-install-proof",
       "quality": "mention",
       "references": [
@@ -685,6 +775,30 @@
       ]
     },
     {
+      "ideaId": "fuel-label-pump-pair",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "furniture-route-fit",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "gcode-printer-profile-preflight",
       "quality": "heading",
       "references": [
@@ -696,6 +810,22 @@
             "text": "PrintGate — phone-side G-code preflight"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "gift-card-receipt-match",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": {
+            "anchor": "cardreceipt--physical-gift-card--activation-receipt",
+            "depth": 3,
+            "text": "CardReceipt — physical gift card ↔ activation receipt"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "heading"
         }
       ]
@@ -815,6 +945,46 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "key-duplicate-visual-diff",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "large-delivery-path-record",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": {
+            "anchor": "pathwitness--large-delivery-route-record",
+            "depth": 3,
+            "text": "PathWitness — large-delivery route record"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "laundry-symbol-gate",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
         }
       ]
     },
@@ -954,6 +1124,18 @@
       ]
     },
     {
+      "ideaId": "medication-label-reminder",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "medication-room-temperature-clock",
       "quality": "heading",
       "references": [
@@ -1056,6 +1238,18 @@
       ]
     },
     {
+      "ideaId": "one-date-alarm",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "paint-can-job-gate",
       "quality": "heading",
       "references": [
@@ -1068,6 +1262,18 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "parcel-drop-receipt-match",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1164,6 +1370,18 @@
       ]
     },
     {
+      "ideaId": "personalized-invite-pair",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "pet-food-runway",
       "quality": "mention",
       "references": [
@@ -1205,6 +1423,18 @@
           "dossierSlug": "idea-mining-loop-2026-08-09",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "plant-crisis-triage",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
         }
       ]
@@ -1598,13 +1828,31 @@
     },
     {
       "ideaId": "security-deposit-evidence",
-      "quality": "unmapped",
+      "quality": "mention",
       "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        },
         {
           "dossierSlug": "pain-mining-dossier",
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "seller-pack-scan",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1680,6 +1928,18 @@
           "dossierSlug": "idea-mining-loop-2026-08-09-round7",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "takeout-package-count",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
         }
       ]
@@ -1777,6 +2037,12 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1788,6 +2054,18 @@
           "dossierSlug": "idea-mining-loop-2026-08-09",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "travel-credit-sentinel",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
         }
       ]
@@ -1925,6 +2203,12 @@
       "quality": "unmapped",
       "references": [
         {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "unmapped"
+        },
+        {
           "dossierSlug": "pain-mining-dossier",
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
@@ -1977,6 +2261,18 @@
       ]
     },
     {
+      "ideaId": "wildcard-call-block",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round9",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "ynab-reconciliation-combination",
       "quality": "mention",
       "references": [
@@ -1994,6 +2290,8 @@
     "acknowledgment",
     "adult",
     "agriculture",
+    "alarmkit",
+    "alarms",
     "amazon",
     "analytics",
     "animal-care",
@@ -2008,12 +2306,15 @@
     "auto",
     "autofill",
     "autoscroll",
+    "baggage",
     "bakeries",
     "bank-details",
     "banking",
     "barbell",
+    "barcodes",
     "barns",
     "beauty",
+    "before-after",
     "bidding",
     "bluetooth-pedal",
     "boating",
@@ -2024,24 +2325,29 @@
     "buffers",
     "cables",
     "cakes",
+    "call-blocking",
     "call-sheets",
     "calls",
     "cancellation-fees",
     "car-buying",
-    "caregiving",
+    "care",
+    "care-labels",
+    "cars",
     "cash",
     "cellular",
     "change-orders",
     "charging",
+    "checkout",
     "checkpoint",
     "checksums",
     "cinema",
-    "claims",
     "client-approval",
     "client-communication",
     "closeout",
+    "clothing",
     "coffee",
     "commerce",
+    "comparison",
     "compliance",
     "composites",
     "connectivity",
@@ -2050,6 +2356,7 @@
     "contractors",
     "contracts",
     "controls",
+    "counting",
     "coupons",
     "creative-tools",
     "creator",
@@ -2069,10 +2376,10 @@
     "dealers",
     "decision-making",
     "delisting",
-    "delivery",
     "detention",
     "devices",
     "diabetes",
+    "diagnosis",
     "diagnostics",
     "discovery",
     "dispatch",
@@ -2081,11 +2388,16 @@
     "drapery",
     "drivers",
     "drums",
+    "dry-cleaning",
     "ebooks",
+    "ecommerce",
+    "electrical",
     "electricity",
     "embroidery",
+    "emergency-preparedness",
     "engraving",
     "epoxy",
+    "equipment",
     "esim",
     "estimates",
     "exif",
@@ -2100,6 +2412,7 @@
     "filters",
     "fintech",
     "fit",
+    "flights",
     "flooring",
     "florists",
     "fluids",
@@ -2111,9 +2424,14 @@
     "food-logging",
     "formula",
     "fragile-cargo",
-    "fuel",
+    "fraud",
+    "fulfillment",
+    "furniture",
+    "garments",
     "gcode",
     "geofencing",
+    "geometry",
+    "gift-cards",
     "gig-work",
     "glp-1",
     "glyphs",
@@ -2123,6 +2441,7 @@
     "guitar",
     "hard-of-hearing",
     "hardware-state",
+    "health",
     "high-stakes",
     "home-services",
     "horses",
@@ -2135,13 +2454,15 @@
     "inspections",
     "installation",
     "interference",
+    "invitations",
     "invoice-fraud",
     "itinerary",
     "jobber",
     "jobs",
     "journalism",
     "judgment",
-    "labels",
+    "keys",
+    "laundry",
     "lending",
     "licensing",
     "live-streaming",
@@ -2153,11 +2474,13 @@
     "lock-screen",
     "logistics",
     "magnetometer",
+    "mail",
     "manufacturing",
+    "mapping",
     "maps",
     "marine",
     "markers",
-    "medication",
+    "measurements",
     "meetings",
     "mileage",
     "mixing",
@@ -2172,6 +2495,7 @@
     "nutrition",
     "offers",
     "on-device",
+    "orders",
     "organization",
     "overtime",
     "painting",
@@ -2182,12 +2506,13 @@
     "pedals",
     "performance",
     "personal-crm",
-    "personalization",
     "pesticides",
     "pet-grooming",
     "pets",
     "pharmacy",
+    "phone",
     "physical-state",
+    "plants",
     "platform-control",
     "platform-entitlement",
     "platform-risk",
@@ -2204,22 +2529,22 @@
     "proofing",
     "property-management",
     "provider-network",
+    "qr",
     "queue",
     "quick-entry",
     "quotes",
     "re-entry",
     "reference",
+    "regulation",
     "rehearsal",
     "rekordbox",
     "reliability",
-    "reminders",
     "renters",
     "replacement-parts",
     "replenishment",
     "reporting",
     "resin",
     "resumable",
-    "retail",
     "revenuecat",
     "rideshare",
     "rights",
@@ -2227,6 +2552,7 @@
     "routing",
     "run-of-show",
     "saas",
+    "safety-truth",
     "savings",
     "scenes",
     "schedules",
@@ -2234,6 +2560,8 @@
     "scope-creep",
     "screenshots",
     "seller-tools",
+    "sellers",
+    "serial-numbers",
     "service",
     "setlists",
     "shift-workers",
@@ -2245,12 +2573,14 @@
     "smart-home",
     "solar",
     "sonos",
+    "spam",
     "speech",
     "sponsorships",
     "spotify",
     "stencil",
     "streaming",
     "subscriptions",
+    "takeout",
     "teardown",
     "temperature",
     "thread",
@@ -2264,6 +2594,7 @@
     "tou",
     "towing",
     "traceability",
+    "tracking",
     "trade-in",
     "translation",
     "trucking",
@@ -2278,7 +2609,9 @@
     "venues",
     "vibration",
     "vinyl",
+    "vouchers",
     "waitlists",
+    "wallet",
     "warranty",
     "water-softener",
     "weights",
@@ -2289,11 +2622,11 @@
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:dfa56f93669e14493ff1eb81af64c08286b4e849eb67fd8cbcf2595d86d21461",
+  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591",
   "tagStats": {
-    "assignments": 671,
-    "doubletons": 64,
-    "singletons": 298,
-    "unique": 417
+    "assignments": 778,
+    "doubletons": 68,
+    "singletons": 335,
+    "unique": 468
   }
 }

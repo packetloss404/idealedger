@@ -1,9 +1,9 @@
 {
   "counts": {
-    "dossiers": 12,
-    "ideas": 152,
-    "researchEdges": 145,
-    "searchDocuments": 164
+    "dossiers": 13,
+    "ideas": 173,
+    "researchEdges": 172,
+    "searchDocuments": 186
   },
   "generatorVersion": 2,
   "sourceFiles": [
@@ -48,6 +48,11 @@
       "sha256": "sha256:8eacbb1e4e668a43c3d6c3a0afc386f9c15fedaecbbd96c8cbce622b89065d94"
     },
     {
+      "bytes": 18239,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+      "sha256": "sha256:db013889f324ed48f8935f0889c8412c4199984564624bc0f3d1b5c36e37855a"
+    },
+    {
       "bytes": 27467,
       "path": "docs/LIVE-ROLL-CONCEPT-DOSSIER.md",
       "sha256": "sha256:fceddc8428050b94d10c0915eb97eb46b01678795f384831248e7ae2747fd3b3"
@@ -68,12 +73,12 @@
       "sha256": "sha256:79addb28c01759837d3817163e4541f68ceb6a96116701cef22a16cfef82bfa6"
     },
     {
-      "bytes": 132435,
+      "bytes": 150897,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:8aac644aefc61b3562451ad92c118a5e8d80a54d2e7461f9949d52fff7bf2c5a"
+      "sha256": "sha256:da81b256d73f96c7043abddc5977581599d4ebaacbd7d44de6a7b6684860cd32"
     }
   ],
-  "sourceHash": "sha256:dfa56f93669e14493ff1eb81af64c08286b4e849eb67fd8cbcf2595d86d21461",
+  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591",
   "sourceSchemaVersion": 1,
-  "sourceUpdatedAt": "2026-08-09"
+  "sourceUpdatedAt": "2026-08-10"
 }

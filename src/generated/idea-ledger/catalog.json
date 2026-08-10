@@ -469,14 +469,16 @@
       ],
       "decision_reason": "The problem is real and demoable, but many exact apps exist and usage is episodic, weakening subscription economics.",
       "dossierSlugs": [
-        "pain-mining-dossier"
+        "pain-mining-dossier",
+        "idea-mining-loop-2026-08-10-round9"
       ],
       "hackathon_fit": "high",
       "id": "security-deposit-evidence",
       "name": "Security Deposit Evidence",
       "one_liner": "Create a time-stamped move-in and move-out evidence record that helps renters defend a security deposit.",
       "research": [
-        "docs/PAIN-MINING-DOSSIER.md"
+        "docs/PAIN-MINING-DOSSIER.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
       ],
       "resurrection_trigger": "Distribution through tenant groups, universities, or property partners plus a differentiated dispute packet or legal workflow.",
       "route": "/ideas/security-deposit-evidence",
@@ -605,14 +607,16 @@
       "aliases": [],
       "decision_reason": "The feature set is heavily copied, urgency is low between purchases, and inbox access creates a high trust burden.",
       "dossierSlugs": [
-        "pain-mining-dossier"
+        "pain-mining-dossier",
+        "idea-mining-loop-2026-08-10-round9"
       ],
       "hackathon_fit": "high",
       "id": "warranty-return-tracker",
       "name": "Warranty and Return Tracker",
       "one_liner": "Capture receipts and purchases automatically, then surface return, price-adjustment, and warranty deadlines before they expire.",
       "research": [
-        "docs/PAIN-MINING-DOSSIER.md"
+        "docs/PAIN-MINING-DOSSIER.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
       ],
       "resurrection_trigger": "Automatic measurable savings that consistently exceed the fee without requiring invasive inbox access.",
       "route": "/ideas/warranty-return-tracker",
@@ -630,14 +634,16 @@
       ],
       "decision_reason": "Automated call and complaint agents are already funded and shipping; telephony, consent, reliability, and adversarial business interactions add operational weight.",
       "dossierSlugs": [
-        "pain-mining-dossier"
+        "pain-mining-dossier",
+        "idea-mining-loop-2026-08-10-round9"
       ],
       "hackathon_fit": "low",
       "id": "consumer-case-agent",
       "name": "Consumer Case Agent",
       "one_liner": "Build and pursue a documented consumer complaint across calls, chats, evidence, deadlines, and escalation channels.",
       "research": [
-        "docs/PAIN-MINING-DOSSIER.md"
+        "docs/PAIN-MINING-DOSSIER.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
       ],
       "resurrection_trigger": "A document-first escalation niche with a deterministic path and no need to impersonate the consumer on calls.",
       "route": "/ideas/consumer-case-agent",
@@ -910,14 +916,16 @@
       ],
       "decision_reason": "The weekly savings pain is real, but Sundria is near-exact, Kroger does not expose the useful clipped-coupon or purchase data publicly, and receipt abbreviations make reliable matching fragile.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-08"
+        "idea-mining-loop-2026-08-08",
+        "idea-mining-loop-2026-08-10-round9"
       ],
       "hackathon_fit": "medium",
       "id": "basketcheck",
       "name": "BasketCheck",
       "one_liner": "Compare clipped grocery offers with the final receipt and identify a discount that failed to apply.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-08.md"
+        "docs/IDEA-MINING-LOOP-2026-08-08.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
       ],
       "resurrection_trigger": "Achieve greater than 90% line-to-offer matching across 30 real receipts without scraping or privileged retailer data.",
       "route": "/ideas/basketcheck",
@@ -1084,14 +1092,16 @@
       ],
       "decision_reason": "QH8 Asset Passport and Return Proof already cover much of the workflow, and evidence does not force a platform or carrier to reverse an adverse decision.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-08"
+        "idea-mining-loop-2026-08-08",
+        "idea-mining-loop-2026-08-10-round9"
       ],
       "hackathon_fit": "high",
       "id": "trade-in-proof",
       "name": "Trade-In Proof",
       "one_liner": "Guide a seller through device condition, serial, reset, packaging, weight, and shipment evidence before a mail-in trade.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-08.md"
+        "docs/IDEA-MINING-LOOP-2026-08-08.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
       ],
       "resurrection_trigger": "A trade-in partner accepts the generated protocol as authoritative or a focused merchant channel distributes it.",
       "route": "/ideas/trade-in-proof",
@@ -3809,14 +3819,16 @@
       ],
       "decision_reason": "It requires native FamilyControls, ManagedSettings, and DeviceActivity extensions plus Apple approval, can observe only its own controller state, and is an obvious feature for AppBlock, Refocus, or another incumbent.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-09-round8"
+        "idea-mining-loop-2026-08-09-round8",
+        "idea-mining-loop-2026-08-10-round9"
       ],
       "hackathon_fit": "low",
       "id": "app-blocker-self-diagnostic",
       "name": "BlockCanary",
       "one_liner": "Test whether an app-blocking schedule and authorization are functioning and explain why an expected block did not occur.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md"
+        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
       ],
       "resurrection_trigger": "A blocker vendor requests an embedded diagnostic surface and supplies the required entitlements and authoritative policy state.",
       "route": "/ideas/app-blocker-self-diagnostic",
@@ -3828,9 +3840,559 @@
         "familycontrols",
         "platform-entitlement"
       ]
+    },
+    {
+      "aliases": [
+        "Emergency Shutoff Card"
+      ],
+      "decision_reason": "A broader $4.99 home-maintenance app already stores shutoff locations, while a physical valve label or printed plan works when the phone is unavailable. The app cannot verify that the selected valve is correct, operable, or safe to touch.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "emergency-shutoff-card",
+      "name": "WaterCard",
+      "one_liner": "Save the household water or gas shutoff location, route, required tool, and a printable offline instruction card before an emergency.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A plumber, inspector, or insurer distributes the workflow and a field test proves households place, rehearse, retrieve, and pay for the artifact.",
+      "route": "/ideas/emergency-shutoff-card",
+      "status": "passed_market",
+      "tags": [
+        "home",
+        "emergency-preparedness",
+        "utilities",
+        "offline",
+        "documentation"
+      ]
+    },
+    {
+      "aliases": [
+        "Breaker Panel Map"
+      ],
+      "decision_reason": "Breaker Map already provides panel mapping, augmented-reality overlays, trip logs, and printable QR access, leaving no differentiated phone loop.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "breaker-panel-atlas",
+      "name": "BreakerAtlas",
+      "one_liner": "Photograph a breaker panel, map circuits to rooms and devices, and retrieve or print a searchable household circuit guide.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A new authoritative circuit-testing primitive becomes available and solves a job Breaker Map cannot perform.",
+      "route": "/ideas/breaker-panel-atlas",
+      "status": "passed_market",
+      "tags": [
+        "home",
+        "electrical",
+        "mapping",
+        "qr",
+        "maintenance"
+      ]
+    },
+    {
+      "aliases": [
+        "Furniture Route Fit"
+      ],
+      "decision_reason": "Roomspan already sells an exact route-fit product and models turns, removable parts, clearances, and safety margins. A simplified phone calculation risks false confidence at the expensive moment.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "furniture-route-fit",
+      "name": "DoorFit",
+      "one_liner": "Compare furniture or appliance packaging dimensions with doors, halls, elevators, and turns before delivery.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "Retailers supply authoritative package geometry and a validated route model can express uncertainty without false passes.",
+      "route": "/ideas/furniture-route-fit",
+      "status": "passed_market",
+      "tags": [
+        "furniture",
+        "appliances",
+        "delivery",
+        "measurements",
+        "geometry"
+      ]
+    },
+    {
+      "aliases": [
+        "Future-Date Alarm"
+      ],
+      "decision_reason": "AlarmKit immediately produced a swarm of exact utilities, and iOS 26.2 added alarms to Reminders. The alarm alone is too thin and too easily absorbed by the operating system.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "one-date-alarm",
+      "name": "DateAlarm",
+      "one_liner": "Schedule a full alarm for one future calendar date instead of relying on a normal notification.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A narrow recurring workflow emerges where the alarm is only the final payoff rather than the entire product.",
+      "route": "/ideas/one-date-alarm",
+      "status": "passed_market",
+      "tags": [
+        "alarms",
+        "reminders",
+        "ios",
+        "alarmkit",
+        "utilities"
+      ]
+    },
+    {
+      "aliases": [
+        "Phone Pattern Blocker"
+      ],
+      "decision_reason": "Number Shield, Phone Pattern Blocker, Call Ranger, and WideProtect already implement range and wildcard blocking, while native call screening continues to improve.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "wildcard-call-block",
+      "name": "PatternBlock",
+      "one_liner": "Block nuisance calls by phone-number range or wildcard pattern instead of adding individual numbers.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A sanctioned operating-system capability appears that current blockers do not use and enables a materially better intervention.",
+      "route": "/ideas/wildcard-call-block",
+      "status": "passed_market",
+      "tags": [
+        "phone",
+        "spam",
+        "call-blocking",
+        "privacy",
+        "ios"
+      ]
+    },
+    {
+      "aliases": [
+        "GiftCard Pair",
+        "Gift Card Receipt Match"
+      ],
+      "decision_reason": "A barcode-over-sticker attack can make the visible card code and receipt code agree while loading an attacker's account, so a technically correct match creates false reassurance. Honest wording collapses the paid value to a visual last-four comparison, and free gift-card wallets set a zero-dollar anchor.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "high",
+      "id": "gift-card-receipt-match",
+      "name": "CardReceipt",
+      "one_liner": "Before leaving checkout, compare a gift card's visible exterior identifier with the identifier printed on its activation receipt.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "An issuer or POS supplies an authenticated activation, balance, or tamper-aware token that survives seeded barcode-overlay attacks with zero positive results.",
+      "route": "/ideas/gift-card-receipt-match",
+      "status": "passed_market",
+      "tags": [
+        "gift-cards",
+        "receipts",
+        "barcode",
+        "checkout",
+        "fraud",
+        "verification"
+      ]
+    },
+    {
+      "aliases": [
+        "Parcel Label Receipt Match"
+      ],
+      "decision_reason": "USPS Rapid Drop, Whatnot, ReturnProof, and retailer flows own parts of the workflow. Consolidated returns, QR handoffs, final-mile carriers, merchant references, and tracking identifiers can legitimately differ, while matching proves neither contents nor custody.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "high",
+      "id": "parcel-drop-receipt-match",
+      "name": "DropMatch",
+      "one_liner": "Compare a prepaid parcel label tracking identifier with the identifier on the carrier's drop-off receipt immediately after handoff.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A named high-value return flow documents one invariant identifier and at least 80 percent of 100 real drops are directly comparable with zero false mismatches.",
+      "route": "/ideas/parcel-drop-receipt-match",
+      "status": "passed_market",
+      "tags": [
+        "returns",
+        "shipping",
+        "tracking",
+        "receipts",
+        "handoff"
+      ]
+    },
+    {
+      "aliases": [
+        "Key Duplicate Check"
+      ],
+      "decision_reason": "WhatKey, MyKeyFinder, and KeyMe already analyze keys, while a side image cannot prove blank or keyway geometry or that the copy turns the lock. The purchase price can also exceed the key copy itself.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "high",
+      "id": "key-duplicate-visual-diff",
+      "name": "KeyCopy Diff",
+      "one_liner": "Compare the silhouette of an original key with a fresh duplicate before leaving the kiosk or hardware store.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A retailer supplies a hardware capture fixture or authoritative functional test rather than relying on a two-dimensional silhouette.",
+      "route": "/ideas/key-duplicate-visual-diff",
+      "status": "passed_market",
+      "tags": [
+        "keys",
+        "camera",
+        "comparison",
+        "retail",
+        "computer-vision"
+      ]
+    },
+    {
+      "aliases": [
+        "Fuel Label Gate"
+      ],
+      "decision_reason": "Standardized symbols and direct visual comparison are faster, phone use at pumps is awkward, and a false pass can cause expensive property damage. The phone adds latency without stronger authority.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "fuel-label-pump-pair",
+      "name": "FuelPair",
+      "one_liner": "Compare an unfamiliar vehicle's fuel-flap label with the pump label before refueling.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "An OEM or rental partner supplies authoritative vehicle and fuel state and owns the resulting workflow.",
+      "route": "/ideas/fuel-label-pump-pair",
+      "status": "passed_market",
+      "tags": [
+        "cars",
+        "fuel",
+        "rental-cars",
+        "labels",
+        "safety-truth"
+      ]
+    },
+    {
+      "aliases": [
+        "Boarding Pass Bag Tag Check"
+      ],
+      "decision_reason": "Multi-leg, interline, customs-recheck, and destination semantics make differences ambiguous, while BagSnap and airline scanners already occupy adjacent capture and authoritative routing workflows.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "boarding-pass-bag-tag-pair",
+      "name": "BagTag Pair",
+      "one_liner": "Compare a boarding-pass itinerary with the airline bag tag before the checked bag enters the conveyor.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "An airline supplies sanctioned itinerary and baggage-routing state and asks for a passenger-visible gate.",
+      "route": "/ideas/boarding-pass-bag-tag-pair",
+      "status": "passed_market",
+      "tags": [
+        "travel",
+        "airlines",
+        "baggage",
+        "barcode",
+        "handoff"
+      ]
+    },
+    {
+      "aliases": [
+        "Seller Pack Verification"
+      ],
+      "decision_reason": "Shopify Scan to Verify, ScanKar, Scanpacker, ShipStation, and warehouse products already own the authoritative order and fulfillment workflow.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "seller-pack-scan",
+      "name": "PackMatch",
+      "one_liner": "Scan the order, each item, and the shipping label before an online seller seals a parcel.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A commerce platform exposes an underserved seller segment and its authoritative order state through a sanctioned integration.",
+      "route": "/ideas/seller-pack-scan",
+      "status": "passed_market",
+      "tags": [
+        "ecommerce",
+        "sellers",
+        "packing",
+        "barcodes",
+        "fulfillment"
+      ]
+    },
+    {
+      "aliases": [
+        "Care Label Check"
+      ],
+      "decision_reason": "iPhone Visual Look Up, Laundry Lens, GINETEX, and free laundry-symbol apps already perform the exact interpretation, leaving an easily copied utility with weak paid value.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "laundry-symbol-gate",
+      "name": "Laundry Gate",
+      "one_liner": "Decode a garment care label immediately before washing or drying an unfamiliar item.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A costly professional textile workflow requires authoritative care data not covered by consumer tools.",
+      "route": "/ideas/laundry-symbol-gate",
+      "status": "passed_market",
+      "tags": [
+        "laundry",
+        "clothing",
+        "care-labels",
+        "camera",
+        "household"
+      ]
+    },
+    {
+      "aliases": [
+        "Equipment Return Match"
+      ],
+      "decision_reason": "ItemProof, ReturnProof, provider return flows, and the existing Trade-In Proof thesis cover the event. The receipt still cannot prove eventual account credit or custody resolution.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "equipment-return-receipt-pair",
+      "name": "GearReturn Pair",
+      "one_liner": "Compare modem, router, or set-top-box serials with a provider return receipt before leaving the counter.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A provider accepts the pair directly and exposes authoritative returned-equipment credit state.",
+      "route": "/ideas/equipment-return-receipt-pair",
+      "status": "passed_market",
+      "tags": [
+        "equipment",
+        "returns",
+        "serial-numbers",
+        "receipts",
+        "utilities"
+      ]
+    },
+    {
+      "aliases": [
+        "Garment Pickup Check"
+      ],
+      "decision_reason": "Bags hide garments, appearance changes after cleaning, and manual counting adds a ritual. Cleaner systems already own garment-level barcodes, so a customer-side camera cannot close the state reliably.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "dry-clean-garment-count",
+      "name": "DryClean Count",
+      "one_liner": "Capture garments and the cleaner ticket at drop-off, then check that every garment returns at pickup.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "Cleaner-side integration exposes garment identifiers and customer-visible reconciliation at pickup.",
+      "route": "/ideas/dry-clean-garment-count",
+      "status": "passed_market",
+      "tags": [
+        "dry-cleaning",
+        "garments",
+        "handoff",
+        "counting",
+        "computer-vision"
+      ]
+    },
+    {
+      "aliases": [
+        "Invitation Insert Match"
+      ],
+      "decision_reason": "Many invitations have no personalized inner object, industrial mail matching already exists, and careful stack order is faster than repeated phone scans for a one-time event.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "personalized-invite-pair",
+      "name": "InviteMatch",
+      "one_liner": "Compare a personalized invitation insert with the addressed envelope while assembling a mailing.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A high-volume consumer personalization workflow exposes machine-readable names on both objects and users show frequent costly mismatches.",
+      "route": "/ideas/personalized-invite-pair",
+      "status": "passed_market",
+      "tags": [
+        "invitations",
+        "mail",
+        "personalization",
+        "ocr",
+        "events"
+      ]
+    },
+    {
+      "aliases": [
+        "Takeout Bag Check"
+      ],
+      "decision_reason": "One menu item can map to zero, one, or several containers, sealed bags hide the state, and delivery platforms already own remediation. A camera cannot deterministically close the item-to-package mapping.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "takeout-package-count",
+      "name": "Takeout Count",
+      "one_liner": "Compare a takeout receipt with the visible containers in the bag before leaving the restaurant.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "Restaurants issue machine-readable package-to-item identifiers or expose the authoritative order and packing state.",
+      "route": "/ideas/takeout-package-count",
+      "status": "passed_market",
+      "tags": [
+        "takeout",
+        "restaurants",
+        "orders",
+        "computer-vision",
+        "packing"
+      ]
+    },
+    {
+      "aliases": [
+        "Delivery Witness",
+        "Large Delivery Path Record"
+      ],
+      "decision_reason": "The record can remain truthful, but the retailer's signed document is the authoritative handoff, current $2.99 to $9.99 photo-proof tools already cover most of the mechanism, and discovery must happen before a rare event. A standalone $7.99 purchase lacks a viable channel and durable differentiation.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "high",
+      "id": "large-delivery-path-record",
+      "name": "PathWitness",
+      "one_liner": "Capture matched before-and-after views of a large item's delivery path and attach the signed delivery document before the crew leaves.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A retailer, installer, insurer, or marketplace embeds the flow in scheduled-delivery messages, accepts the packet in its claim workflow, and a real prepaid concierge test clears completion and acquisition gates.",
+      "route": "/ideas/large-delivery-path-record",
+      "status": "passed_market",
+      "tags": [
+        "delivery",
+        "home",
+        "before-after",
+        "documentation",
+        "photos",
+        "claims"
+      ]
+    },
+    {
+      "aliases": [
+        "Voucher Wallet"
+      ],
+      "decision_reason": "AwardWallet already has paid traction and manual voucher support, Cartava establishes a free wallet pattern, and a companion cannot verify balance, expiry changes, or redemption state without airline access.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "travel-credit-sentinel",
+      "name": "Travel Credit Sentinel",
+      "one_liner": "Import an airline voucher or travel credit, surface its amount and expiration, and present the code when booking.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "An airline-authorized API or travel partner supplies reliable credit and redemption state.",
+      "route": "/ideas/travel-credit-sentinel",
+      "status": "passed_market",
+      "tags": [
+        "travel",
+        "airlines",
+        "vouchers",
+        "wallet",
+        "reminders"
+      ]
+    },
+    {
+      "aliases": [
+        "Flight Disruption Claim Packet"
+      ],
+      "decision_reason": "AirHelp already offers free tracking and claim initiation, refund and compensation rules vary by jurisdiction, and a seven-week app cannot make reliable eligibility decisions without authoritative flight and claim state.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "low",
+      "id": "flight-disruption-claim-packet",
+      "name": "Flight Claim Companion",
+      "one_liner": "Capture a boarding pass, disruption notices, and expense receipts into a reimbursement or compensation packet during a disrupted trip.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A named airline and jurisdiction partner supplies authoritative disruption and claim status plus an accepted import format.",
+      "route": "/ideas/flight-disruption-claim-packet",
+      "status": "passed_market",
+      "tags": [
+        "travel",
+        "flights",
+        "claims",
+        "receipts",
+        "regulation"
+      ]
+    },
+    {
+      "aliases": [
+        "Prescription Label Reminder"
+      ],
+      "decision_reason": "Apple Health and Medisafe already provide mature medication scheduling and sharing. Prescription OCR errors are health-critical, the pharmacy remains authoritative, and the safety layer cannot ethically be the paid differentiator.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "low",
+      "id": "medication-label-reminder",
+      "name": "Medication Read-and-Remind",
+      "one_liner": "Scan a prescription label into a reminder schedule and optionally alert a caregiver after a missed dose.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A pharmacy or EHR integration supplies authoritative medication state and independently validated extraction approaches near-perfect accepted-field accuracy with zero dosage errors.",
+      "route": "/ideas/medication-label-reminder",
+      "status": "passed_market",
+      "tags": [
+        "medication",
+        "health",
+        "ocr",
+        "reminders",
+        "caregiving"
+      ]
+    },
+    {
+      "aliases": [
+        "Plant Rescue Camera"
+      ],
+      "decision_reason": "PictureThis, Planta, and mature plant databases already own camera diagnosis and care schedules. Diagnosis is not authoritative, bad advice can kill the plant, and a thin clone has no durable paid wedge.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round9"
+      ],
+      "hackathon_fit": "medium",
+      "id": "plant-crisis-triage",
+      "name": "Plant Crisis Triage",
+      "one_liner": "Photograph a distressed houseplant, identify a likely care mismatch, and turn the result into watering or light reminders.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"
+      ],
+      "resurrection_trigger": "A narrow expensive collection or professional greenhouse workflow contributes proprietary observations and demonstrates materially better expert-reviewed accuracy.",
+      "route": "/ideas/plant-crisis-triage",
+      "status": "passed_market",
+      "tags": [
+        "plants",
+        "camera",
+        "diagnosis",
+        "care",
+        "reminders"
+      ]
     }
   ],
-  "sourceHash": "sha256:dfa56f93669e14493ff1eb81af64c08286b4e849eb67fd8cbcf2595d86d21461",
+  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

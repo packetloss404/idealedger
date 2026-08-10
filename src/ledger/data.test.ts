@@ -16,13 +16,13 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(152);
-    expect(researchMetadata).toHaveLength(12);
+    expect(ideas).toHaveLength(173);
+    expect(researchMetadata).toHaveLength(13);
     expect(ledgerCounts).toEqual({
-      dossiers: 12,
-      ideas: 152,
-      researchEdges: 145,
-      searchDocuments: 164,
+      dossiers: 13,
+      ideas: 173,
+      researchEdges: 172,
+      searchDocuments: 186,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -49,7 +49,7 @@ describe('generated ledger repository', () => {
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(12);
+    expect(repository.documents).toHaveLength(13);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
@@ -83,6 +83,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(417);
+    expect(tagOptions).toHaveLength(468);
   });
 });

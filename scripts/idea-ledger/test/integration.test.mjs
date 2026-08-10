@@ -9,21 +9,21 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   const counts = result.artifacts['manifest.json'].counts;
   const quality = result.artifacts['quality-report.json'];
   assert.deepEqual(counts, {
-    ideas: 152,
-    dossiers: 12,
-    researchEdges: 145,
-    searchDocuments: 164,
+    ideas: 173,
+    dossiers: 13,
+    researchEdges: 172,
+    searchDocuments: 186,
   });
-  assert.equal(quality.counts.headingMatchedIdeas, 50);
-  assert.equal(quality.counts.mentionOnlyIdeas, 80);
-  assert.equal(quality.counts.dossierRefsWithoutMention, 13);
+  assert.equal(quality.counts.headingMatchedIdeas, 52);
+  assert.equal(quality.counts.mentionOnlyIdeas, 100);
+  assert.equal(quality.counts.dossierRefsWithoutMention, 16);
   assert.equal(quality.counts.ideasWithoutResearch, 11);
-  assert.equal(quality.counts.headingReferences, 51);
-  assert.equal(quality.counts.mentionReferences, 81);
-  assert.equal(quality.counts.unmappedReferences, 13);
-  assert.equal(quality.tagStats.assignments, 671);
-  assert.equal(quality.tagStats.unique, 417);
-  assert.equal(result.snapshot.sourceFiles.length, 13);
+  assert.equal(quality.counts.headingReferences, 53);
+  assert.equal(quality.counts.mentionReferences, 103);
+  assert.equal(quality.counts.unmappedReferences, 16);
+  assert.equal(quality.tagStats.assignments, 778);
+  assert.equal(quality.tagStats.unique, 468);
+  assert.equal(result.snapshot.sourceFiles.length, 14);
 
   const provenanceByIdea = new Map(
     quality.researchProvenance.map((provenance) => [provenance.ideaId, provenance])

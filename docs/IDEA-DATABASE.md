@@ -1,6 +1,6 @@
 # Idea Database
 
-This is the human-readable index for the product ideas explored during the RevenueCat Ship-a-ton search. The structured source of truth is [`idea-database.json`](idea-database.json).
+This is the human-readable index for product ideas explored through ongoing conversation, research, validation, hackathons, and later projects. The structured source of truth is [`idea-database.json`](idea-database.json).
 
 **Rule:** passing on an idea archives the decision; it does not delete the idea. Every serious concept keeps its pitch, decision reason, resurrection trigger, tags, and links to deeper research.
 
@@ -18,6 +18,8 @@ Round six demoted **Encore**: the exact day-of authorization moment is real and 
 Round seven promoted **zero** ideas. It established a new screening rule: a high-consequence moment plus a manual tap, timer, or approval is not enough. The phone must observe authoritative state automatically; otherwise the ritual gets skipped or creates false confidence.
 
 Round eight produced **one conditional engineering spike: CrashTape**. It is a recovery-first field recorder with a force-kill/relaunch/recover demo, but it has not earned business status. The differentiated custody layer must stay free, recorder pricing is modest, and production will likely require a native durable audio writer. CrashTape moves to the front of the week-one technical-test queue; **WeedCheck** remains the strongest Design/Most Viral thesis, **LotMatch** the strongest narrow business, and **Confirmed Spoken Details** the strongest Peace Prize path.
+
+Round nine promoted **zero** ideas after three independent research lanes and reciprocal cross-review. **CardReceipt** failed because a barcode-overlay attack can make the visible card and receipt identifiers agree while funds go to an attacker. **PathWitness** remained honest only as organized delivery documentation, but official delivery paperwork, current low-cost photo-proof tools, and pre-event discovery made the standalone $7.99 economics weak. The round established that “expensive mistake + camera + reminder + PDF” is now a commodity template unless the phone owns authoritative state or the product has a transaction-timed distribution channel.
 
 ## Catalog
 
@@ -158,6 +160,27 @@ Round eight produced **one conditional engineering spike: CrashTape**. It is a r
 | LugLine | Passed — market | Medium | Existing drum tuners own lug modes and the physical signal remains ambiguous | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
 | ResumeDrop | Passed — market | Low | Native/background complexity plus LocalSend, PairDrop, and Send Anywhere | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
 | BlockCanary | Passed — scope | Low | Requires Apple-managed entitlements and is an incumbent blocker diagnostic feature | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
+| WaterCard | Passed — market | Medium | A broader $4.99 tracker and physical labels beat a rare manual setup the phone cannot verify | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| BreakerAtlas | Passed — market | Medium | Breaker Map already provides mapping, AR overlays, trip logs, and QR access | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| DoorFit | Passed — market | Medium | Roomspan already models delivery-route geometry and a thinner model risks false confidence | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| DateAlarm | Passed — market | Medium | AlarmKit created an exact swarm and iOS Reminders absorbed the core utility | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| PatternBlock | Passed — market | Medium | Mature wildcard blockers and native call screening already occupy the loop | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| CardReceipt | Passed — market | High | Matching visible values can produce false reassurance during a barcode-overlay attack | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| DropMatch | Passed — market | High | Carrier and merchant identifiers can legitimately differ and matching proves neither contents nor custody | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| KeyCopy Diff | Passed — market | High | A two-dimensional key silhouette cannot prove keyway geometry or functional fit | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| FuelPair | Passed — market | Medium | Direct labels are faster and a false pass is property-damage critical | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| BagTag Pair | Passed — market | Medium | Multi-leg baggage-routing semantics make document differences ambiguous | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| PackMatch | Passed — market | Medium | Commerce and warehouse platforms already own the authoritative fulfillment workflow | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| Laundry Gate | Passed — market | Medium | Native visual lookup and free laundry-label apps already perform the exact job | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| GearReturn Pair | Passed — market | Medium | Existing return-proof tools cannot close eventual provider credit state | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| DryClean Count | Passed — market | Medium | Hidden garments and visual changes defeat a customer-side camera comparison | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| InviteMatch | Passed — market | Medium | The source pair is often absent and stack order beats repeated scanning | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| Takeout Count | Passed — market | Medium | Menu items do not map deterministically to visible containers | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| PathWitness | Passed — market | High | Official delivery paperwork and low-cost incumbents outrank a rare private photo ritual | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| Travel Credit Sentinel | Passed — market | Medium | Paid and free wallets exist while airline credit state remains unavailable | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| Flight Claim Companion | Passed — market | Low | AirHelp and jurisdiction-specific rules make a standalone claim packet weak and risky | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| Medication Read-and-Remind | Passed — market | Low | Apple Health and Medisafe own the category and OCR errors are health-critical | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| Plant Crisis Triage | Passed — market | Medium | Mature plant apps own the category and diagnosis remains uncertain | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
 
 ## Current shortlist to preserve
 

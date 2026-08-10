@@ -1057,6 +1057,89 @@
     {
       "headings": [
         {
+          "anchor": "idea-mining-loop--round-9",
+          "depth": 1,
+          "text": "Idea Mining Loop — Round 9"
+        },
+        {
+          "anchor": "outcome",
+          "depth": 2,
+          "text": "Outcome"
+        },
+        {
+          "anchor": "product-rules-applied",
+          "depth": 2,
+          "text": "Product rules applied"
+        },
+        {
+          "anchor": "cross-reviewed-finalists",
+          "depth": 2,
+          "text": "Cross-reviewed finalists"
+        },
+        {
+          "anchor": "cardreceipt--physical-gift-card--activation-receipt",
+          "depth": 3,
+          "text": "CardReceipt — physical gift card ↔ activation receipt"
+        },
+        {
+          "anchor": "pathwitness--large-delivery-route-record",
+          "depth": 3,
+          "text": "PathWitness — large-delivery route record"
+        },
+        {
+          "anchor": "candidate-graveyard",
+          "depth": 2,
+          "text": "Candidate graveyard"
+        },
+        {
+          "anchor": "paid-category-evidence",
+          "depth": 2,
+          "text": "Paid-category evidence"
+        },
+        {
+          "anchor": "reusable-decision-rules",
+          "depth": 2,
+          "text": "Reusable decision rules"
+        }
+      ],
+      "linkedIdeaIds": [
+        "app-blocker-self-diagnostic",
+        "basketcheck",
+        "boarding-pass-bag-tag-pair",
+        "breaker-panel-atlas",
+        "consumer-case-agent",
+        "dry-clean-garment-count",
+        "emergency-shutoff-card",
+        "equipment-return-receipt-pair",
+        "flight-disruption-claim-packet",
+        "fuel-label-pump-pair",
+        "furniture-route-fit",
+        "gift-card-receipt-match",
+        "key-duplicate-visual-diff",
+        "large-delivery-path-record",
+        "laundry-symbol-gate",
+        "medication-label-reminder",
+        "one-date-alarm",
+        "parcel-drop-receipt-match",
+        "personalized-invite-pair",
+        "plant-crisis-triage",
+        "security-deposit-evidence",
+        "seller-pack-scan",
+        "takeout-package-count",
+        "trade-in-proof",
+        "travel-credit-sentinel",
+        "warranty-return-tracker",
+        "wildcard-call-block"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+      "route": "/research/idea-mining-loop-2026-08-10-round9",
+      "sha256": "sha256:db013889f324ed48f8935f0889c8412c4199984564624bc0f3d1b5c36e37855a",
+      "slug": "idea-mining-loop-2026-08-10-round9",
+      "title": "Idea Mining Loop — Round 9"
+    },
+    {
+      "headings": [
+        {
           "anchor": "live-roll-concept-dossier",
           "depth": 1,
           "text": "Live Roll concept dossier"
@@ -1813,5 +1896,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:dfa56f93669e14493ff1eb81af64c08286b4e849eb67fd8cbcf2595d86d21461"
+  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591"
 }

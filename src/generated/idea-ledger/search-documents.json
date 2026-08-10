@@ -301,6 +301,28 @@
     {
       "fields": {
         "aliases": [
+          "boarding pass bag tag check"
+        ],
+        "decisionReason": "multi leg interline customs recheck and destination semantics make differences ambiguous while bagsnap and airline scanners already occupy adjacent capture and authoritative routing workflows",
+        "name": "bagtag pair",
+        "oneLiner": "compare a boarding pass itinerary with the airline bag tag before the checked bag enters the conveyor",
+        "resurrectionTrigger": "an airline supplies sanctioned itinerary and baggage routing state and asks for a passenger visible gate",
+        "tags": [
+          "travel",
+          "airlines",
+          "baggage",
+          "barcode",
+          "handoff"
+        ]
+      },
+      "key": "idea:boarding-pass-bag-tag-pair",
+      "route": "/ideas/boarding-pass-bag-tag-pair",
+      "title": "BagTag Pair",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "drain plug tap"
         ],
         "decisionReason": "a tap proves proximity not plug movement and can create catastrophic false confidence the 12 95 plugkeyper physically traps the ignition key with the removed plug and is a stronger battery free forcing function",
@@ -318,6 +340,28 @@
       "key": "idea:boat-drain-plug-latch",
       "route": "/ideas/boat-drain-plug-latch",
       "title": "PlugLatch",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "breaker panel map"
+        ],
+        "decisionReason": "breaker map already provides panel mapping augmented reality overlays trip logs and printable qr access leaving no differentiated phone loop",
+        "name": "breakeratlas",
+        "oneLiner": "photograph a breaker panel map circuits to rooms and devices and retrieve or print a searchable household circuit guide",
+        "resurrectionTrigger": "a new authoritative circuit testing primitive becomes available and solves a job breaker map cannot perform",
+        "tags": [
+          "home",
+          "electrical",
+          "mapping",
+          "qr",
+          "maintenance"
+        ]
+      },
+      "key": "idea:breaker-panel-atlas",
+      "route": "/ideas/breaker-panel-atlas",
+      "title": "BreakerAtlas",
       "type": "idea"
     },
     {
@@ -798,6 +842,28 @@
     {
       "fields": {
         "aliases": [
+          "garment pickup check"
+        ],
+        "decisionReason": "bags hide garments appearance changes after cleaning and manual counting adds a ritual cleaner systems already own garment level barcodes so a customer side camera cannot close the state reliably",
+        "name": "dryclean count",
+        "oneLiner": "capture garments and the cleaner ticket at drop off then check that every garment returns at pickup",
+        "resurrectionTrigger": "cleaner side integration exposes garment identifiers and customer visible reconciliation at pickup",
+        "tags": [
+          "dry cleaning",
+          "garments",
+          "handoff",
+          "counting",
+          "computer vision"
+        ]
+      },
+      "key": "idea:dry-clean-garment-count",
+      "route": "/ideas/dry-clean-garment-count",
+      "title": "DryClean Count",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "new ebay"
         ],
         "decisionReason": "the grievances are real but liquidity trust and safety payments disputes shipping and support make this a company scale operation rather than a hackathon app",
@@ -835,6 +901,50 @@
       "key": "idea:embroidery-thread-gate",
       "route": "/ideas/embroidery-thread-gate",
       "title": "Embroidery Thread Gate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "emergency shutoff card"
+        ],
+        "decisionReason": "a broader 4 99 home maintenance app already stores shutoff locations while a physical valve label or printed plan works when the phone is unavailable the app cannot verify that the selected valve is correct operable or safe to touch",
+        "name": "watercard",
+        "oneLiner": "save the household water or gas shutoff location route required tool and a printable offline instruction card before an emergency",
+        "resurrectionTrigger": "a plumber inspector or insurer distributes the workflow and a field test proves households place rehearse retrieve and pay for the artifact",
+        "tags": [
+          "home",
+          "emergency preparedness",
+          "utilities",
+          "offline",
+          "documentation"
+        ]
+      },
+      "key": "idea:emergency-shutoff-card",
+      "route": "/ideas/emergency-shutoff-card",
+      "title": "WaterCard",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "equipment return match"
+        ],
+        "decisionReason": "itemproof returnproof provider return flows and the existing trade in proof thesis cover the event the receipt still cannot prove eventual account credit or custody resolution",
+        "name": "gearreturn pair",
+        "oneLiner": "compare modem router or set top box serials with a provider return receipt before leaving the counter",
+        "resurrectionTrigger": "a provider accepts the pair directly and exposes authoritative returned equipment credit state",
+        "tags": [
+          "equipment",
+          "returns",
+          "serial numbers",
+          "receipts",
+          "utilities"
+        ]
+      },
+      "key": "idea:equipment-return-receipt-pair",
+      "route": "/ideas/equipment-return-receipt-pair",
+      "title": "GearReturn Pair",
       "type": "idea"
     },
     {
@@ -1013,6 +1123,28 @@
     {
       "fields": {
         "aliases": [
+          "flight disruption claim packet"
+        ],
+        "decisionReason": "airhelp already offers free tracking and claim initiation refund and compensation rules vary by jurisdiction and a seven week app cannot make reliable eligibility decisions without authoritative flight and claim state",
+        "name": "flight claim companion",
+        "oneLiner": "capture a boarding pass disruption notices and expense receipts into a reimbursement or compensation packet during a disrupted trip",
+        "resurrectionTrigger": "a named airline and jurisdiction partner supplies authoritative disruption and claim status plus an accepted import format",
+        "tags": [
+          "travel",
+          "flights",
+          "claims",
+          "receipts",
+          "regulation"
+        ]
+      },
+      "key": "idea:flight-disruption-claim-packet",
+      "route": "/ideas/flight-disruption-claim-packet",
+      "title": "Flight Claim Companion",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "glyph reality check"
         ],
         "decisionReason": "the app can prove rendering only inside itself not that a configuration profile installed or that google docs notes or procreate accepts the font the loop belongs as a feature in ifont or another installer",
@@ -1099,6 +1231,50 @@
     {
       "fields": {
         "aliases": [
+          "fuel label gate"
+        ],
+        "decisionReason": "standardized symbols and direct visual comparison are faster phone use at pumps is awkward and a false pass can cause expensive property damage the phone adds latency without stronger authority",
+        "name": "fuelpair",
+        "oneLiner": "compare an unfamiliar vehicle s fuel flap label with the pump label before refueling",
+        "resurrectionTrigger": "an oem or rental partner supplies authoritative vehicle and fuel state and owns the resulting workflow",
+        "tags": [
+          "cars",
+          "fuel",
+          "rental cars",
+          "labels",
+          "safety truth"
+        ]
+      },
+      "key": "idea:fuel-label-pump-pair",
+      "route": "/ideas/fuel-label-pump-pair",
+      "title": "FuelPair",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "furniture route fit"
+        ],
+        "decisionReason": "roomspan already sells an exact route fit product and models turns removable parts clearances and safety margins a simplified phone calculation risks false confidence at the expensive moment",
+        "name": "doorfit",
+        "oneLiner": "compare furniture or appliance packaging dimensions with doors halls elevators and turns before delivery",
+        "resurrectionTrigger": "retailers supply authoritative package geometry and a validated route model can express uncertainty without false passes",
+        "tags": [
+          "furniture",
+          "appliances",
+          "delivery",
+          "measurements",
+          "geometry"
+        ]
+      },
+      "key": "idea:furniture-route-fit",
+      "route": "/ideas/furniture-route-fit",
+      "title": "DoorFit",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "g code profile check"
         ],
         "decisionReason": "g code is modal and dialect specific and the saved phone profile becomes stale after physical hardware changes firmware slicers gcodeinfo askthenozzle and related tools own the authoritative checkpoint",
@@ -1116,6 +1292,30 @@
       "key": "idea:gcode-printer-profile-preflight",
       "route": "/ideas/gcode-printer-profile-preflight",
       "title": "PrintGate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "giftcard pair",
+          "gift card receipt match"
+        ],
+        "decisionReason": "a barcode over sticker attack can make the visible card code and receipt code agree while loading an attacker s account so a technically correct match creates false reassurance honest wording collapses the paid value to a visual last four comparison and free gift card wallets set a zero dollar anchor",
+        "name": "cardreceipt",
+        "oneLiner": "before leaving checkout compare a gift card s visible exterior identifier with the identifier printed on its activation receipt",
+        "resurrectionTrigger": "an issuer or pos supplies an authenticated activation balance or tamper aware token that survives seeded barcode overlay attacks with zero positive results",
+        "tags": [
+          "gift cards",
+          "receipts",
+          "barcode",
+          "checkout",
+          "fraud",
+          "verification"
+        ]
+      },
+      "key": "idea:gift-card-receipt-match",
+      "route": "/ideas/gift-card-receipt-match",
+      "title": "CardReceipt",
       "type": "idea"
     },
     {
@@ -1327,6 +1527,74 @@
       "key": "idea:instruction-readback-handshake",
       "route": "/ideas/instruction-readback-handshake",
       "title": "ReadBack",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "key duplicate check"
+        ],
+        "decisionReason": "whatkey mykeyfinder and keyme already analyze keys while a side image cannot prove blank or keyway geometry or that the copy turns the lock the purchase price can also exceed the key copy itself",
+        "name": "keycopy diff",
+        "oneLiner": "compare the silhouette of an original key with a fresh duplicate before leaving the kiosk or hardware store",
+        "resurrectionTrigger": "a retailer supplies a hardware capture fixture or authoritative functional test rather than relying on a two dimensional silhouette",
+        "tags": [
+          "keys",
+          "camera",
+          "comparison",
+          "retail",
+          "computer vision"
+        ]
+      },
+      "key": "idea:key-duplicate-visual-diff",
+      "route": "/ideas/key-duplicate-visual-diff",
+      "title": "KeyCopy Diff",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "delivery witness",
+          "large delivery path record"
+        ],
+        "decisionReason": "the record can remain truthful but the retailer s signed document is the authoritative handoff current 2 99 to 9 99 photo proof tools already cover most of the mechanism and discovery must happen before a rare event a standalone 7 99 purchase lacks a viable channel and durable differentiation",
+        "name": "pathwitness",
+        "oneLiner": "capture matched before and after views of a large item s delivery path and attach the signed delivery document before the crew leaves",
+        "resurrectionTrigger": "a retailer installer insurer or marketplace embeds the flow in scheduled delivery messages accepts the packet in its claim workflow and a real prepaid concierge test clears completion and acquisition gates",
+        "tags": [
+          "delivery",
+          "home",
+          "before after",
+          "documentation",
+          "photos",
+          "claims"
+        ]
+      },
+      "key": "idea:large-delivery-path-record",
+      "route": "/ideas/large-delivery-path-record",
+      "title": "PathWitness",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "care label check"
+        ],
+        "decisionReason": "iphone visual look up laundry lens ginetex and free laundry symbol apps already perform the exact interpretation leaving an easily copied utility with weak paid value",
+        "name": "laundry gate",
+        "oneLiner": "decode a garment care label immediately before washing or drying an unfamiliar item",
+        "resurrectionTrigger": "a costly professional textile workflow requires authoritative care data not covered by consumer tools",
+        "tags": [
+          "laundry",
+          "clothing",
+          "care labels",
+          "camera",
+          "household"
+        ]
+      },
+      "key": "idea:laundry-symbol-gate",
+      "route": "/ideas/laundry-symbol-gate",
+      "title": "Laundry Gate",
       "type": "idea"
     },
     {
@@ -1565,6 +1833,28 @@
     {
       "fields": {
         "aliases": [
+          "prescription label reminder"
+        ],
+        "decisionReason": "apple health and medisafe already provide mature medication scheduling and sharing prescription ocr errors are health critical the pharmacy remains authoritative and the safety layer cannot ethically be the paid differentiator",
+        "name": "medication read and remind",
+        "oneLiner": "scan a prescription label into a reminder schedule and optionally alert a caregiver after a missed dose",
+        "resurrectionTrigger": "a pharmacy or ehr integration supplies authoritative medication state and independently validated extraction approaches near perfect accepted field accuracy with zero dosage errors",
+        "tags": [
+          "medication",
+          "health",
+          "ocr",
+          "reminders",
+          "caregiving"
+        ]
+      },
+      "key": "idea:medication-label-reminder",
+      "route": "/ideas/medication-label-reminder",
+      "title": "Medication Read-and-Remind",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "pen temperature window"
         ],
         "decisionReason": "stash diabetes already tracks insulin and glp 1 inventory and room temperature expiration for free while manufacturer limits vary by formulation and geography and a phone cannot know the actual temperature excursion false reassurance would be medically unsafe",
@@ -1717,6 +2007,28 @@
     {
       "fields": {
         "aliases": [
+          "future date alarm"
+        ],
+        "decisionReason": "alarmkit immediately produced a swarm of exact utilities and ios 26 2 added alarms to reminders the alarm alone is too thin and too easily absorbed by the operating system",
+        "name": "datealarm",
+        "oneLiner": "schedule a full alarm for one future calendar date instead of relying on a normal notification",
+        "resurrectionTrigger": "a narrow recurring workflow emerges where the alarm is only the final payoff rather than the entire product",
+        "tags": [
+          "alarms",
+          "reminders",
+          "ios",
+          "alarmkit",
+          "utilities"
+        ]
+      },
+      "key": "idea:one-date-alarm",
+      "route": "/ideas/one-date-alarm",
+      "title": "DateAlarm",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "paint can gate"
         ],
         "decisionReason": "wrong color repaint pain is real but paintsight already stores approved color code sheen and surface while paintscan inventories labels printed field equality does not prove the tint contents and manually creating the baseline makes this an incumbent feature rather than a standalone product",
@@ -1733,6 +2045,28 @@
       "key": "idea:paint-can-job-gate",
       "route": "/ideas/paint-can-job-gate",
       "title": "CoatMatch",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "parcel label receipt match"
+        ],
+        "decisionReason": "usps rapid drop whatnot returnproof and retailer flows own parts of the workflow consolidated returns qr handoffs final mile carriers merchant references and tracking identifiers can legitimately differ while matching proves neither contents nor custody",
+        "name": "dropmatch",
+        "oneLiner": "compare a prepaid parcel label tracking identifier with the identifier on the carrier s drop off receipt immediately after handoff",
+        "resurrectionTrigger": "a named high value return flow documents one invariant identifier and at least 80 percent of 100 real drops are directly comparable with zero false mismatches",
+        "tags": [
+          "returns",
+          "shipping",
+          "tracking",
+          "receipts",
+          "handoff"
+        ]
+      },
+      "key": "idea:parcel-drop-receipt-match",
+      "route": "/ideas/parcel-drop-receipt-match",
+      "title": "DropMatch",
       "type": "idea"
     },
     {
@@ -1891,6 +2225,28 @@
     {
       "fields": {
         "aliases": [
+          "invitation insert match"
+        ],
+        "decisionReason": "many invitations have no personalized inner object industrial mail matching already exists and careful stack order is faster than repeated phone scans for a one time event",
+        "name": "invitematch",
+        "oneLiner": "compare a personalized invitation insert with the addressed envelope while assembling a mailing",
+        "resurrectionTrigger": "a high volume consumer personalization workflow exposes machine readable names on both objects and users show frequent costly mismatches",
+        "tags": [
+          "invitations",
+          "mail",
+          "personalization",
+          "ocr",
+          "events"
+        ]
+      },
+      "key": "idea:personalized-invite-pair",
+      "route": "/ideas/personalized-invite-pair",
+      "title": "InviteMatch",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "bag runway"
         ],
         "decisionReason": "pawlife furnote pawtion retailer subscriptions and connected scale products already cover the loop manual consumption logging is weaker than the existing substitutes",
@@ -1950,6 +2306,28 @@
       "key": "idea:planar-control-reset-diff",
       "route": "/ideas/planar-control-reset-diff",
       "title": "Planar Control Reset Diff",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "plant rescue camera"
+        ],
+        "decisionReason": "picturethis planta and mature plant databases already own camera diagnosis and care schedules diagnosis is not authoritative bad advice can kill the plant and a thin clone has no durable paid wedge",
+        "name": "plant crisis triage",
+        "oneLiner": "photograph a distressed houseplant identify a likely care mismatch and turn the result into watering or light reminders",
+        "resurrectionTrigger": "a narrow expensive collection or professional greenhouse workflow contributes proprietary observations and demonstrates materially better expert reviewed accuracy",
+        "tags": [
+          "plants",
+          "camera",
+          "diagnosis",
+          "care",
+          "reminders"
+        ]
+      },
+      "key": "idea:plant-crisis-triage",
+      "route": "/ideas/plant-crisis-triage",
+      "title": "Plant Crisis Triage",
       "type": "idea"
     },
     {
@@ -2635,6 +3013,28 @@
     {
       "fields": {
         "aliases": [
+          "seller pack verification"
+        ],
+        "decisionReason": "shopify scan to verify scankar scanpacker shipstation and warehouse products already own the authoritative order and fulfillment workflow",
+        "name": "packmatch",
+        "oneLiner": "scan the order each item and the shipping label before an online seller seals a parcel",
+        "resurrectionTrigger": "a commerce platform exposes an underserved seller segment and its authoritative order state through a sanctioned integration",
+        "tags": [
+          "ecommerce",
+          "sellers",
+          "packing",
+          "barcodes",
+          "fulfillment"
+        ]
+      },
+      "key": "idea:seller-pack-scan",
+      "route": "/ideas/seller-pack-scan",
+      "title": "PackMatch",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "slot relay"
         ],
         "decisionReason": "zenoti tattoo artist helper spot squid tattoowaitlist appointify waitq and snapfill already implement the exact progression reliable delivery and booking conflict resolution also require integration with the provider s real calendar and messaging stack",
@@ -2757,6 +3157,28 @@
       "key": "idea:spray-mix-final-tank",
       "route": "/ideas/spray-mix-final-tank",
       "title": "SprayMix Final Tank",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "takeout bag check"
+        ],
+        "decisionReason": "one menu item can map to zero one or several containers sealed bags hide the state and delivery platforms already own remediation a camera cannot deterministically close the item to package mapping",
+        "name": "takeout count",
+        "oneLiner": "compare a takeout receipt with the visible containers in the bag before leaving the restaurant",
+        "resurrectionTrigger": "restaurants issue machine readable package to item identifiers or expose the authoritative order and packing state",
+        "tags": [
+          "takeout",
+          "restaurants",
+          "orders",
+          "computer vision",
+          "packing"
+        ]
+      },
+      "key": "idea:takeout-package-count",
+      "route": "/ideas/takeout-package-count",
+      "title": "Takeout Count",
       "type": "idea"
     },
     {
@@ -2951,6 +3373,28 @@
       "key": "idea:trailer-light-self-test",
       "route": "/ideas/trailer-light-self-test",
       "title": "Trailer Light Self-Test",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "voucher wallet"
+        ],
+        "decisionReason": "awardwallet already has paid traction and manual voucher support cartava establishes a free wallet pattern and a companion cannot verify balance expiry changes or redemption state without airline access",
+        "name": "travel credit sentinel",
+        "oneLiner": "import an airline voucher or travel credit surface its amount and expiration and present the code when booking",
+        "resurrectionTrigger": "an airline authorized api or travel partner supplies reliable credit and redemption state",
+        "tags": [
+          "travel",
+          "airlines",
+          "vouchers",
+          "wallet",
+          "reminders"
+        ]
+      },
+      "key": "idea:travel-credit-sentinel",
+      "route": "/ideas/travel-credit-sentinel",
+      "title": "Travel Credit Sentinel",
       "type": "idea"
     },
     {
@@ -3233,6 +3677,28 @@
       "key": "idea:welding-filler-gate",
       "route": "/ideas/welding-filler-gate",
       "title": "RodGate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "phone pattern blocker"
+        ],
+        "decisionReason": "number shield phone pattern blocker call ranger and wideprotect already implement range and wildcard blocking while native call screening continues to improve",
+        "name": "patternblock",
+        "oneLiner": "block nuisance calls by phone number range or wildcard pattern instead of adding individual numbers",
+        "resurrectionTrigger": "a sanctioned operating system capability appears that current blockers do not use and enables a materially better intervention",
+        "tags": [
+          "phone",
+          "spam",
+          "call blocking",
+          "privacy",
+          "ios"
+        ]
+      },
+      "key": "idea:wildcard-call-block",
+      "route": "/ideas/wildcard-call-block",
+      "title": "PatternBlock",
       "type": "idea"
     },
     {
@@ -3524,6 +3990,27 @@
     },
     {
       "fields": {
+        "body": "idea mining loop round 9 date 2026 08 10 question which ordinary modern first world problem is painful enough to justify a 7 99 phone purchase under the idea ledger product rules pricing assumption prefer 7 99 lifetime use 7 99 year only when recurring value is real do not disguise a one event utility as a subscription outcome three independent research teams mined current consumer complaints transaction time mistakes and paid utility categories they then cross reviewed the two provisional finalists final verdict no validation winner and no build recommendation cardreceipt was the cleanest deterministic demo but it fails logically a barcode over sticker gift card attack can make the visible card identifier and receipt identifier agree while the buyer s funds go to an attacker honest wording collapses the paid value to a visual last four comparison pathwitness can make a truthful organized before after delivery record but it is already surrounded by 2 99 9 99 photo proof tools the official signed delivery document matters more and discovery must happen before a rare delivery it is worth only a no code payment test if a retailer or installer can distribute it the remaining candidates were exact incumbents ledger duplicates host state problems manual evidence filing thin os utilities or safety truth failures the result is useful negative knowledge expensive mistake camera reminder pdf is now a commodity template a new product needs an authoritative transaction time handoff a natural distribution channel or a deterministic phone only capability product rules applied a candidate survived only while it had all of the following one clear user trigger action and payoff a source of truth the phone can actually read or own a natural existing behavior not a second app ritual people will skip a useful output that does not imply safety legal force custody compatibility or eventual outcome immediate one person value without a network or unavailable host api a credible 7 99 purchase boundary and enough functionality for app store review a crisp phone native demonstration and a plausible seven week build cross reviewed finalists cardreceipt physical gift card activation receipt atomic loop before leaving checkout scan the gift card s visible exterior serial or barcode scan the activation receipt and return only visible identifiers match different or unreadable never capture the redemption pin why it initially survived the physical card and receipt are naturally present activation receipts often expose a masked card identifier the consequence can be 25 500 and the comparison makes a strong 30 second demo the ftc apple and google all tell buyers to retain the card and receipt when activation fails michigan s gift card guidance explicitly recommends comparing the receipt number with the returned card fatal truth failure the fbi s barcode warning describes an attacker covering a real card barcode with a fake one the cashier scans the fake visible barcode and the receipt prints that same attacker controlled identifier cardreceipt would truthfully report a match while the purchase is compromised a green result would be read as safe the fully honest message these two visible strings agree but this does not verify the card balance activation or tampering is not worth 7 99 market pressure free products such as cartava already scan and retain gift cards while quickscope scans gift card codes and receipts pos providers already own the authoritative activation event toast prints useful activation receipt details decision passed market truth do not code resurrection condition an issuer or pos supplies an authenticated activation balance signal or tamper aware token that cannot be defeated by a visible barcode overlay seeded overlay attacks must produce zero positive results pathwitness large delivery route record atomic loop the evening before a refrigerator washer sofa safe or fitness equipment delivery capture a short guided baseline of floors walls stairs and doorframes before the crew leaves replay the same viewpoints mark items for review capture the delivery document and export an organized personal record why it initially survived the damage can be expensive one 2025 homeowner described roughly 8 000 of flooring and doorframe damage followed by a denied claim a phone can truthfully own the user s before after images notes viewpoint pairing and exported record best buy s current delivery guide already tells customers to inspect the item and delivery path and record damage on the delivery document before signing fatal product pressure the signed retailer document remains the mandatory handoff and matters more than a private photo packet the app cannot establish causation complete route coverage liability or claim success current tools already sell most of the mechanism disputecam dwelltrack siteproof timemark timestamp it snapproof and fairspark sparse ratings across several new entrants are a weak demand warning not whitespace distribution failure search intent arrives after damage when a baseline is impossible app store acquisition cannot support a low ltv one event pass a retailer appliance reviewer inspector installer insurer or delivery booking flow must place it in front of the buyer before delivery decision passed market no build allow only a no code payment test if a real pre delivery channel is available no code test recruit 20 people with a real large item delivery scheduled within 14 days offer a real 7 99 concierge service before delivery send a five view guide pair the returned before after images attach the signed delivery document and return a local download pdf continue only if at least 5 pay before the event 16 complete the baseline 14 complete the exit capture before the crew leaves median baseline time is under three minutes at least half change what they inspect or write before signing and one repeatable channel acquires customers below roughly 2 or agrees to distribute the flow resurrection condition a retailer installer insurer or marketplace embeds the flow in the scheduled delivery message and accepts the resulting packet inside its official claim workflow candidate graveyard candidateatomic phone loopwhy it diedresurrection triggertagreceipt couponproofcapture a sale tag or offer and the receipt show a possible mismatch it is the existing basketcheck thesis sundria is near exact while receipt abbreviations weights loyalty identity exclusions and stacking make pairing ambiguous replacing unavailable retailer state with per item screenshots adds ceremony a retailer exposes the exact offer token on both display and receipt or a 30 basket blind test exceeds 95 correct matching with zero false accusations and real prepayment watercardsave the water gas shutoff location route tool and a printable card a 4 99 home maintenance tracker already stores shutoff locations a physical label is stronger during a power phone failure the app cannot verify the valve is correct or operable plumber inspector insurer distribution plus strong placement recall drill and payment behavior returnclockscan a receipt and remind the shopper before the return deadline kachng return hero return tracker returno clock proof returntrack and retailer apps already occupy the category the retailer remains authoritative about exceptions and refund state retailer authorized eligibility and refund state apis rentalproof rentalfuel diffguided pickup return vehicle and gauge capture not my dent snap drive rentalguard and rental platform workflows already own the loop a card issuer insurer or rental agency accepts the record directly breakeratlasphotograph and map a breaker panel print search circuit labels breaker map already provides mapping ar overlays trip logs and qr access a new authoritative circuit testing primitive unavailable to the incumbent doorfitenter furniture package and route dimensions to predict delivery fit roomspan already sells this at 12 99 and models turns doors halls elevators removable parts and safety margins a phone side model can create false confidence retailer provided packaging geometry plus a validated model with explicit uncertainty datealarmschedule one alarm for a future date alarmkit triggered a swarm of exact utilities and ios 26 2 added alarms to reminders the alarm alone is too thin a narrow workflow where the alarm is only the final payoff cancelreceipt quitproofpreserve cancellation evidence and alert if another charge appears renewalwatcher subscription trackers rocket money email and bank dispute flows cover it the app cannot authoritatively cancel or prove billing stopped provider or transaction integration that proves cancellation and charge state depositproofguided move in move out evidence capture existing security deposit evidence thesis door lease deposit shield tenant inspect and others are exact a tenant organization or jurisdiction mandates and accepts the format patternblockblock phone number ranges or wildcard patterns number shield phone pattern blocker call ranger wideprotect and native call screening already occupy it a new sanctioned os capability not used by incumbents dropmatchcompare a prepaid parcel label tracking id with the counter receipt id usps rapid drop whatnot returnproof and retailer return flows own pieces of it consolidated qr final mile merchant and tracking ids can legitimately differ matching proves neither contents nor custody a named high value return flow with a documented identifier invariant and at least 80 directly comparable real fixtures keycopy diffcompare original and freshly duplicated key silhouettes before leaving whatkey mykeyfinder and keyme are adjacent a side image cannot prove the blank keyway geometry or that the copy turns the lock 7 99 may exceed the copy price a hardware capture fixture or retailer partnership that validates function not silhouette fuelpaircompare an unfamiliar vehicle fuel label with the pump label standardized symbols and direct visual comparison are faster a false pass can cause expensive property damage and phone use at the pump is awkward an oem or rental partner supplies authoritative vehicle fuel state and assumes the workflow bagtag paircompare boarding pass itinerary with outbound bag tag multi leg interline customs recheck and destination semantics make differences ambiguous bagsnap and airline scanners are adjacent airline sanctioned itinerary and baggage routing data packmatchscan an order each item and the label before sealing a shipment shopify scan to verify scankar scanpacker shipstation and warehouse systems own the authoritative order workflow a platform partner exposes an underserved seller segment and order state laundry gatedecode a garment care label before washing iphone visual look up laundry lens ginetex and free symbol apps already do it a costly professional textile workflow with authoritative care data not covered by current tools gearreturn paircompare modem equipment serials with the provider return receipt itemproof returnproof provider flows and the existing trade in proof thesis cover the event the receipt does not prove eventual provider credit a provider accepts the pair directly and exposes credit state dryclean countcapture garments ticket at drop off and compare returned items bags hide garments visual appearance changes after cleaning and manual counting is a ritual cleaner systems already use garment level barcodes cleaner side integration with garment ids and customer visible reconciliation invitematchcompare personalized inserts with addressed envelopes while stuffing invitations many invitations have no personalized inner object industrial mail matching already exists and careful stack order is faster a high volume consumer personalization workflow with machine readable names on both objects takeout countcompare receipt items with visible containers before leaving one item maps to zero one or several containers sealed bags hide state and delivery platforms already own refunds restaurant issued package item identifiers or an order system integration travel credit sentinelimport a voucher surface its amount code expiry and remind the traveler awardwallet already has paid traction and manual voucher support cartava is free the app cannot verify balance expiry changes or redemption state airline authorized credit state or a travel partner flight disruption claim companioncapture boarding pass notices and receipts into a claim packet airhelp offers free tracking and claim initiation rules vary by jurisdiction and airline while dot refunds are authoritative a named jurisdiction airline partner supplying authoritative disruption and claim state chargeback evidence packerorganize merchant correspondence and receipts into an issuer sized bundle bank apps already accept and track disputes this repeats consumer case agent and adds sensitive financial data without authority over the outcome an issuer endorses a structured import format hard mode focus blockerapply stronger friction to distracting app overrides opal one sec freedom appblock and native screen time dominate apple entitlement approval is required a new platform capability or measured intervention incumbents do not provide medication read and remindscan a prescription label into reminders and caregiver alerts apple health and medisafe already provide mature medication scheduling sharing ocr errors are health critical and the pharmacy remains authoritative pharmacy ehr integration and independently validated near perfect extraction plant crisis triagephotograph a distressed plant and receive likely care guidance picturethis planta and mature databases own the category diagnosis is not authoritative and bad advice can kill the plant a narrow expensive collection or professional workflow with proprietary observations paid category evidence the round did find real willingness to pay in adjacent categories but mostly for mature or recurring products opal charges roughly 99 99 year for focus blocking and reports a large ratings base awardwallet charges 49 99 year and reports more than 25 000 paid travelers medisafe charges roughly 39 99 year not my dent launched at 9 99 lifetime but has very few ratings fairspark asks 7 99 month for delivery complaints but lacks enough ratings to establish traction returntrack asks 6 99 month or 39 99 year but also lacks meaningful visible traction founder set prices prove that the same opportunity is visible not that buyers convert for a 7 99 utility real prepayment during an actual event is the required evidence reusable decision rules a visible equality check is not a product when the attack can control both visible values cardreceipt is the clearest example replacing unavailable authoritative state with screenshots works only when capture is already natural and the comparison becomes deterministic otherwise it is manual evidence filing with ocr risk the signed or platform owned handoff outranks a private packet an app may help the user complete that handoff but should not imply that its export has equivalent authority rare preventive utilities have a discovery timing problem search usually happens after the loss when the required baseline cannot be created expensive mistake camera reminder pdf is a commodity template in 2026 a durable wedge needs transaction timed distribution authoritative data or a capability competitors cannot copy as a template zero promotions is a valid research outcome the ledger compounds when it prevents attractive demos from becoming misleading products",
+        "headings": [
+          "idea mining loop round 9",
+          "outcome",
+          "product rules applied",
+          "cross reviewed finalists",
+          "cardreceipt physical gift card activation receipt",
+          "pathwitness large delivery route record",
+          "candidate graveyard",
+          "paid category evidence",
+          "reusable decision rules"
+        ],
+        "title": "idea mining loop round 9"
+      },
+      "key": "research:idea-mining-loop-2026-08-10-round9",
+      "route": "/research/idea-mining-loop-2026-08-10-round9",
+      "title": "Idea Mining Loop — Round 9",
+      "type": "research"
+    },
+    {
+      "fields": {
         "body": "live roll concept dossier research date august 8 2026status conditional go for validationworking name live rollrecommended direction interactive contact sheet selection challenges with live capture as a premiere format executive decision the original concept was a live contact sheet a photographer begins a roll and each shutter progressively adds another still photograph for a remote audience to watch and select that horizontal product is not sufficiently differentiated capture one live picflow live evoto instant frame io camera to cloud spotmyphotos honcho snapflow photoshelter and event gallery products already provide most combinations of real time image delivery browser viewing ratings annotations client selection camera tethering and final delivery the differentiated product is the editorial decision itself circle the frames you would keep lock your edit then reveal what the photographer chose how they finished it and why the recommended product has two connected formats blind edit an evergreen archived contact sheet challenge that can be played at any time live roll an occasional premiere where a finite contact sheet fills while the photographer is shooting followed by the same independent selection and reveal ritual this is not a client gallery culling utility photo contest or generic photo social network it is an interactive photography learning and entertainment format built around visual judgment the current verdict is conditional go not build approval it becomes a go only if photographers will license revealing sequences containing outtakes and photography learners repeatedly complete the selection and reveal experience product thesis finished photographs hide most of the creative decision a contact sheet exposes the approaches hesitations variations misses and decisive moments that preceded the final image photography books exhibitions and classroom exercises use contact sheets specifically because the surrounding frames make a photographer s judgment visible magnum contact sheets morgan library hujar contact and the annenberg contact high educator guide are evidence of that educational and cultural interest live roll turns that normally hidden editorial process into an interaction the photographer made 36 frames you may circle 5 the photographer cannot see your circles you cannot see the photographer s cut both sides lock then the edits are revealed the photographer s cut is not treated as an objectively correct answer the reveal compares intent and taste what did the viewer notice what story was the photographer building where did the viewer and photographer agree why did the photographer reject the crowd favorite how did crop sequencing and development change the selected frame the concise positioning is live roll circle your picks reveal the photographer s cut an education oriented alternative is learn to see by editing alongside photographers you admire what the product is not live roll should not launch as any of the following a faster client proofing gallery a capture one or lightroom replacement a camera to cloud infrastructure company a wedding or event photo delivery product a shared guest camera roll another finished photo feed an ai culling product a popularity voting photo contest a raw storage service a universal dslr tethering app these boundaries are not temporary marketing language they protect the only differentiated behavior found in research market findings crowded live delivery and proofing market productexisting capabilitystrategic implicationcapture one livetethered captures appear automatically in a browser viewers follow new frames rate color tag and comment edits update livenear exact private client roll with a free session and a low paid price anchorpicflowlive watched folder gallery favorites approve reject comments drawing and literal circles freehand annotations selection limitseven the tactile client circle interaction is occupiedevoto instantmobile tethering across major camera brands live galleries ai culling editing favorites face search payments and tipsa mobile professional workflow an mvp cannot out featureframe io camera to cloudsupported cameras upload for near real time collaboration and reviewestablished camera to cloud infrastructurespotmyphotosfast camera to phone delivery private matching event headshot workflows retouching and salesevent delivery is mature and high servicehonchotethered live delivery face search live slideshows and photo saleslive event monetization is occupiedphotoshelter real timeftp to dam workflows automated tags and rapid stakeholder distributionnews sports and brand workflow is enterprise territorypixieset shootproof pic timebranded client galleries favorites notes downloads and printstraditional proofing is maturecamera vendor transfer toolsftp captioning rating and field deliverycapture transport continues to commoditize the conclusion is direct progressive image arrival remote ratings circles annotations and client selects are prior art and commodity features they are not a moat crowded photo social market vsco glass foto flickr 500px and irys provide finished photo community portfolio discovery or education irys explicitly positions itself as photography without video ads algorithms ai or visible follower counts irys features the failure pattern is also relevant photo networks can launch with strong nostalgia or anti instagram positioning and still fail to create a durable graph lapse removed major social features after scale and storage pressure and poparazzi shut down despite millions of installs and venture funding this makes a better place for photographers to post a poor thesis less occupied selection challenge market no direct photography product was found that combines a complete bounded contact sheet from one authored shoot a limited independent viewer edit a locked photographer edit a double blind reveal the photographer s finished crop sequence and explanation a longitudinal private record of the viewer s taste relationship with photographers taste trainer is the closest interaction found it lets users rank images and compare results with experts or the community but it is a generic art design ranking tool rather than contact sheet storytelling lightroom assisted culling aftershoot photo mechanic and similar tools optimize a photographer s own workflow gurushots and viewbug judge submitted finished images ai critique apps evaluate individual photographs none makes an expert s full sequence and independent editorial choice the media format this is real whitespace but there is an important caveat it may exist because licensing outtakes and persuading photographers to reveal rejected frames is difficult the content supply not the code is likely the hardest asset recommended beachhead start with serious photography hobbyists students and photographer educators strong initial genres street photography documentary photography travel portraiture fashion editorial music and controlled concert coverage architecture these genres benefit from interpreting timing gesture sequence composition and narrative they also have educators who already explain process through youtube patreon workshops books and courses do not initially target commercial studios and remote art directors weddings and general client proofing high volume sports news desks shared event albums conflict protest medical school or child focused photojournalism general consumers with no active interest in photography the target user is not trying to deliver files faster they want to develop visual judgment and understand how another photographer constructs a finished story core product model roll a bounded photographic sequence containing a title and assignment photographer identity genre and context a frame budget normally 12 24 or 36 a required select count an ordered photographer cut final developed variants short selection notes or commentary public unlisted private or classroom visibility rights retention and reuse rules frame a single numbered image in capture order for the first release a frame needs a compressed contact sheet proxy optional selected final developed image photographer note if selected no exposed gps or sensitive exif the app does not need raw originals for archived challenges circle a circle is a private editorial selection not a like each viewer receives a finite circle budget circles may be reassigned before locking other viewers circles remain hidden the photographer s selections remain hidden a submitted cut becomes immutable for that attempt cut an ordered set of selected frames viewer cutphotographer cutaudience cut the audience cut is descriptive not authoritative the photographer s cut preserves authorship develop the reveal may show more than frame ids final crop tonal color development sequence position caption one sentence or short audio note explaining why the photographer kept it optional explanation of a popular rejected frame live roll must not become a full photo editor development demonstrates the editorial result it does not replace lightroom core experiences archived blind edit this is the daily product and the recommended mvp center the user opens a roll and reads the assignment they inspect 12 36 unmarked images in chronological order they receive a fixed number of grease pencil style circles they circle their keepers and optionally sequence a short essay they lock the cut the photographer s circles animate onto the contact sheet the app distinguishes matches viewer only and photographer only choices the user sees the developed final essay and photographer reasoning the result contributes to a private taste history the user continues to another roll or follows the photographer the target session is three to six minutes live roll premiere live uses the same decision ritual with additional uncertainty a photographer schedules a finite roll and shares a poster link viewers join a lobby numbered preview frames progressively enter the fixed contact sheet grid viewers spend or move their limited circles while future frames remain unknown the photographer sees capture health and viewer count never frame level preferences the roll seals the photographer independently locks a cut and adds brief notes viewers receive a reveal notification the double blind comparison and final essay are revealed the roll becomes an evergreen blind edit for later users a live roll naturally creates two visits the shoot and the reveal live broadcast modes later live capture can support instant proxy appears after a short safety buffer delayed proxy appears after a defined interval recommended public default reveal the sheet remains hidden until the roll seals curated the photographer or assistant chooses which captures are broadcast modes must be labeled honestly a curated roll is not a complete contact sheet interaction and visual language the product should borrow from physical editorial practice rather than ordinary social media fixed numbered contact sheet grid grease pencil circles drawn by long press or drag frame count and circle count constraints darkroom development reveal animation contact sheet remains visible behind the finished essay as editorial evidence no hearts follower totals star ratings or public leaderboard no comments or chat in mvp no correct answer language suggested reveal layers your cut photographer s cut audience cut final essay matching selections should feel satisfying but disagreement is equally valuable when the photographer explains intent retention and growth loops blind edit habit daily roll independent selection photographer reveal reasoning next roll live premiere loop rsvp live contact sheet viewer locks cut photographer develops reveal notification comparison next rsvp taste history repeated rolls may reveal private patterns without claiming objective quality greater affinity for gesture than geometry preference for close frames over environmental frames strong match with a particular photographer or genre changes in selection behavior over time the first release can store overlap history without generating speculative personality labels creator distribution photographers share scheduled roll posters to existing audiences comparison cards link to the archived challenge final essays carry a subtle developed from 36 frames card educators assign a roll to students or cohorts the app launches with a programmed slate rather than an empty public feed content seeding the first useful release needs approximately 20 30 excellent rolls 3 5 photographers minimum 5 8 is preferable several genres and editing philosophies locked photographer cuts final developed selects concise reasoning explicit rights for every visible contact sheet frame the founder s own photography archive can seed the prototype and reduce cold start risk the value of the first library matters more than the number of profiles a strong launch program would include one block thirty six frames one hour several photographers interpret the same bounded assignment and publish independent rolls revenuecat pay layers one live roll plus entitlement is sufficient for the first release free one archived blind edit per day watch and participate in public live premieres basic private comparison follow photographers create one trial roll monthly live roll plus pricing hypothesis 4 99 monthly or 34 99 39 99 annually with a seven day annual trial viewer value unlimited archived blind edits full photographer notes and audio commentary private taste history creator by creator comparison saved roll collections classroom or themed series creator value additional rolls custom frame and circle budgets scheduled live premieres delayed reveal curated modes when live capture ships hd final essays longer interactive archives audience completion and post reveal analytics unlisted private invitations the primary paywall appears after a user completes the free daily roll and taps the next challenge a creator sees it only after completing a first successful roll and trying to publish or schedule another do not paywall the shutter basic camera access push notifications audience size data export or already earned history later products one time roll pass for an occasional creator educator cohort tier school or club license paid creator series or revenue sharing only after supply and audience are proven studio client plan only if a separate workflow test justifies entering the crowded proofing market technical feasibility archived first mvp the recommended archived challenge is technically low risk expo 57 ios app static or server backed web preview share surface standard jpeg webp proxies database records for rolls frames cuts circles and reveals revenuecat sdk revenuecatui paywalls and customer center onesignal or expo push for daily and reveal notifications it does not require camera apis realtime infrastructure background uploads or external hardware live capture feasibility the finite 24 36 frame format is feasible in expo 57 when added cameraview takepictureasync captures a temporary jpeg the app immediately copies it to a durable app directory sqlite records the local capture a small approximately 1280 pixel preview is generated preview uploads first and becomes visible original upload runs independently and resumes after interruption relaunch relevant versioned documentation expo 57 camera expo 57 sqlite and expo 57 filesystem do not promise burst or sustained sub one second capture raw proraw or universal heif capture through expo camera guaranteed upload completion after force quit universal dslr mirrorless tethering those require native avfoundation work vendor specific sdks desktop companion software or physical camera testing suggested live backend if live premieres graduate into the product cloudflare worker api durable object per active roll for authoritative state and hibernating websockets d1 for accounts catalog subscription cache and audit indices r2 for immutable proxies and final variants direct presigned uploads to avoid proxying images through application servers at 36 frames infrastructure cost is not the risk using 12 mb originals and 300 kb previews one roll is approximately 443 mb including originals r2 storage is roughly fractions of a cent per retained roll month while public preview egress is free under current r2 pricing r2 pricing the harder risks are local capture safety upstream speed battery thermal behavior rights and content supply double blind integrity the reveal must be enforced by server authorization not hidden only in the ui before the photographer locks a cut creator endpoints cannot read per frame audience totals creator realtime events may show viewer count and completed ballot count only viewers can read only their own circles no public crowd totals exist the reveal transaction atomically freezes the photographer cut closes viewer edits snapshots crowd totals changes read permissions broadcasts the reveal state this independence is the core product promise safety privacy and rights contact sheets contain the photographs creators normally discard that is central to the appeal and the largest supply side risk required rules photographer retains copyright hosting license is limited and explicit every visible frame not only the final select must be publishable strip gps and sensitive exif from broadcast proxies no precise live location public live mode defaults to a safety delay photographer can withdraw a frame during the safety window and abort a roll watermarks are deterrence not screenshot prevention public mvp prohibits minors and sexually explicit material provide report block removal and account deletion avoid conflict protest medical use in initial marketing label substantial compositing or generative modification do not expose user submitted public archives until moderation operations exist validation plan 1 supply test ask 20 working photographers for one complete 24 36 frame sequence containing misses plus the final developed cut and a short explanation proceed threshold at least 8 grant a 12 month app license kill threshold fewer than 40 agree 2 no code challenge test create ten realistic clickable blind edits using founder owned or licensed rolls recruit 100 serious hobbyists or photography students measure roll start frame inspection three or more selections cut lock reveal viewed next roll started targets 60 complete one roll 40 spend the full selection budget and median engaged session is at least six minutes 3 reasoning test randomize the reveal photographer selections only selections plus 60 90 seconds of reasoning target reasoning increases next roll starts by at least 20 4 retention test publish three rolls per week for four weeks conditional go thresholds d7 at least 25 d30 at least 12 and 30 of users complete five rolls 5 payment test after three free completions offer 4 99 monthly and 34 99 39 99 annual targets at least 5 trial start and 35 trial to paid or 20 hard annual preorders from the first 400 qualified users 6 creator repeat test at least three of the first five participating educators must voluntarily publish and promote a second roll 7 live incrementality test only after archived retention is visible run five scheduled live rolls targets 30 rsvp to attendance 12 minute median dwell 40 return for reveal compare against the same creator using a youtube instagram screen share workflow product kill criteria kill or substantially change the concept if photographers will not license complete sequences fewer than 30 40 of qualified viewers submit a cut the developed reasoning does not improve continued play archived challenges perform no better than browsing finished photos photographers find commentary too burdensome the product requires objective scoring to feel rewarding the only validated demand is private proofing if only the blind edit retains users remove live capture from the name and roadmap emphasis if only client proofing works treat it as a different company entering a heavily occupied market seven week hackathon scope the research backed hackathon mvp should be archived first must ship sign in with apple seeded library of 20 high quality licensed or founder owned rolls fixed contact sheet viewer limited grease pencil circles cut lock photographer cut reveal animation developed final essay and concise reasoning private taste overlap history daily free roll revenuecat plus entitlement monthly annual packages revenuecatui paywall restore and customer center onesignal campaign for daily roll or a scheduled flagship reveal shareable comparison card reporting rights notice account deletion and basic moderation optional only after core quality creator uploader private classroom code one simulated or real phone camera live roll premiere audio reasoning explicitly cut dslr tethering raw proraw client gallery crm print or licensing marketplace comments dms and chat ai culling or ai critique public user uploads without moderation recommendation feed leaderboards and streak punishment two minute demo open 12 frames at the fair receive three grease pencil circles inspect the complete unmarked roll circle an early frame move the circle to a stronger later frame lock the cut animate the photographer s three circles onto the sheet show two matches and one meaningful disagreement expand into the photographer s ordered developed essay play the photographer s brief explanation tap another roll and show the revenuecat plus paywall end on the scheduled flagship live roll poster this demo proves the original interaction learning value visual craft repeatable library and monetization without pretending a social network already exists shipaton fit live roll is strongest for revenuecat design award physical contact sheet language grease pencil gestures and the double blind reveal can be distinctive and polished onesignal keep them coming back daily roll and live premiere reveal notifications have product meaning rather than engagement spam layers growth loop result cards lead directly into playable archived challenges hamm the free daily roll and paid archive commentary create a clear packaging experiment buildinpublic can you find the frame a professional photographer chose is an excellent recurring public test grand prize is less likely unless the app launches early and generates real subscriptions because shortlisting considers revenuecat recorded revenue official shipaton rules working names all names require trademark domain and app store screening live roll watch the story develop first cut choose before you know open roll every frame before the final loupe see how photographers see circle mark the frames that matter uncut the shoot before the story contact edit alongside the photographer 36 thirty six chances one point of view proof find your frame roll call circle your picks reveal the cut because the recommended mvp is archived first live roll may overpromise synchronous capture keep it as the concept name while validation runs the strongest alternative product names are likely first cut loupe or 36 open questions for discussion does the founder have 10 20 complete sequences with rights to every frame and a clear final cut is the emotional hook learning comparison with a respected photographer or the suspense of a live shoot should the first library emphasize street documentary work or commercially polished portrait fashion work is commentary best as one sentence per selected frame or a 60 90 second audio note should the viewer select one decisive frame or sequence three to five frames into a story is the eventual creator business subscription software paid expert content or educator cohorts does the name need to retain live if synchronous rolls remain a secondary format final recommendation preserve live roll as a project and validate the interaction before implementing the camera stack the original real time gallery is a pass the refined product is worth a serious prototype a contact sheet challenge where you make the edit first then discover the photographer s point of view if people repeatedly complete that ritual and photographers willingly supply the material live premieres become a differentiated expansion if the ritual itself does not retain people no amount of realtime camera engineering will rescue the idea",
         "headings": [
           "live roll concept dossier",
@@ -3710,5 +4197,5 @@
     }
   ],
   "normalizationVersion": 1,
-  "sourceHash": "sha256:dfa56f93669e14493ff1eb81af64c08286b4e849eb67fd8cbcf2595d86d21461"
+  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591"
 }
