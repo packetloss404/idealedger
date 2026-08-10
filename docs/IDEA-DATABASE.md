@@ -27,7 +27,9 @@ Round ten, autonomous Loop 2, promoted **zero** builds after 29 serious screens.
 
 Round ten, autonomous Loop 3, promoted **zero builds** after 29 more serious screens. **Health Sync Canary** is parked for one paid four-week behavior test because native Health lacks a proactive source-identifier inbox, but the app must never label a sample duplicate or wrong. Durable HTTP requests, Git pushes, media export recovery, and PDF field reopening all had truthful observable state, but exact focused products or the activity's host already own the recovery surface. **RepairSerial** had a stable identifier without authority over legitimate replacement; **CommuterLoad Pair** had recurring pain without a stable invariant across payroll, benefits, and transit systems. Seven rediscoveries were merged rather than duplicated. The loop established that phone-owned state still needs an unowned transaction surface and that transport acknowledgment is not applied state.
 
-Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens. Twenty-eight ideas became new decisions—27 passes and one parked paid test—and ten rediscoveries were folded into nine existing records. **CaptionGap** earns one DHH/HoH co-designed test because no exact app-owned pipeline-health indicator surfaced and paid caption products establish willingness to pay; it must never claim caption completeness or identify omitted speech. Exact products still own playlist history, App Store watchlists, pet tags, many artifact checks, and household acknowledgments. **StemPack Gate** had the cleanest creator demo, but a $3.99 adjacent batch reporter plus free MediaInfo are strong substitutes for much of its observable metadata.
+Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens. Twenty-eight ideas became new decisions—27 passes and one parked test—and ten rediscoveries were folded into nine existing records. **CaptionGap** earns compensated DHH/HoH co-design followed by a separate paid-demand test because no exact app-owned pipeline-health indicator surfaced and paid caption products establish nearby willingness to pay; it must never claim caption completeness or identify omitted speech. Exact products still own playlist history, App Store watchlists, pet tags, many artifact checks, and household acknowledgments. **StemPack Gate** had the cleanest creator demo, but a $3.99 adjacent batch reporter plus free MediaInfo are strong substitutes for much of its observable metadata.
+
+The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) stops broad mining after 123 serious Round-10 screens. It funds five experiments rather than five builds: **LotMatch**, **WeedCheck**, **DoorHold**, compensated **CaptionGap** co-design plus an independent preorder cohort, and concierge **DeferralGap**. **CrashTape** remains the engineering reserve and **Confirmed Spoken Details** the mission-led accessibility track. The next promotion must clear payment, repeated behavior, authority, and distribution gates simultaneously.
 
 ## Catalog
 
@@ -68,7 +70,7 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 | PushBack | Needs reconstruction | Unknown | Existing app reference retained; thesis or repo link is missing here | — |
 | Instant Bank Transfer Layer | Passed — scope | Low | Infrastructure, licensing, fraud, and payment-rail access exceed hackathon scope | — |
 | Media Card Custody | Passed — scope | Medium | Phone QR state and ingest evidence cannot be machine-bound without a per-cycle nonce, desktop helper, or vendor integration | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
-| Confirmed Spoken Details | Validating | Medium | Novel two-person confirmation ritual; must be co-designed with DHH users and prove speech/token accuracy | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
+| Confirmed Spoken Details | Validating | Medium | Novel two-person confirmation ritual; must be co-designed with DHH users and prove speech/token accuracy | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
 | Two-Source Solar Check | Validating | Medium | A narrow second-source reconciliation gap exists, but only for one system/utility with real paired data | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | Todoist Task-Debt Reset | Parked | High | Real backlog-reset pain, but episodic value and native-feature copy risk | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | TipCheck | Passed — market | High | Rare delayed verification, no honest iOS automation, and a $0.99 exact app plus general receipt matchers | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
@@ -77,8 +79,8 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 | Rental Toll Window | Passed — market | High | Official/free toll apps already support rental plates and timed removal | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | Timer Lens | Passed — market | High | Siri is faster for most users; exact laundry scanner exists; accessibility OCR is the hard product | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | HoldWatch | Passed — market | High | Cannot verify released holds without bank access and collapses into a reminder | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
-| LotMatch | Validating | High | Strongest business candidate: exact carton-field comparison before irreversible installation; real label accuracy is the gate | [Round-three mining](IDEA-MINING-LOOP-2026-08-09.md) |
-| WeedCheck | Validating | High | Strongest Shipaton candidate: visible fix-rescan loop before a heat press; optical reliability and seller habit are the gates | [Round-three mining](IDEA-MINING-LOOP-2026-08-09.md) |
+| LotMatch | Validating | High | Strongest business candidate: exact carton-field comparison before irreversible installation; real label accuracy is the gate | [Round-three mining](IDEA-MINING-LOOP-2026-08-09.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
+| WeedCheck | Validating | High | Strongest visual candidate: visible fix-rescan loop before a heat press; optical reliability and seller habit are the gates | [Round-three mining](IDEA-MINING-LOOP-2026-08-09.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
 | Partial Prescription Remainder | Passed — market | Low | No authoritative pharmacy state and refill/runway apps own the surrounding workflow | [Round-three mining](IDEA-MINING-LOOP-2026-08-09.md) |
 | Replacement Part Pair | Passed — market | High | Legitimate replacement labels differ; exact comparison is noisy and semantic compatibility is incumbent territory | [Round-three mining](IDEA-MINING-LOOP-2026-08-09.md) |
 | Rekordbox USB Preflight | Passed — scope | Medium | Proprietary/versioned formats prevent an honest booth-readiness promise | [Round-three mining](IDEA-MINING-LOOP-2026-08-09.md) |
@@ -101,8 +103,8 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 | Medication Room-Temperature Clock | Passed — market | Low | Exact free feature exists and a phone cannot know real medication temperature history | [Round-four mining](IDEA-MINING-LOOP-2026-08-09-ROUND4.md) |
 | Replacement Part Vault | Passed — market | High | Parts & Filter Vault already covers exact replacement memory for free | [Round-four mining](IDEA-MINING-LOOP-2026-08-09-ROUND4.md) |
 | Encore | Passed — market | High | Exact paper authorization already exists, CRMs can absorb the T-15 interaction, extensions appear rare, and honest pricing is lifetime rather than recurring | [Round-six audit](IDEA-MINING-LOOP-2026-08-09-ROUND6.md) |
-| DoorHold | Validating | High | Real mobile-service lockout fees and a distinct decision handshake, but requires backend links and fights Jobber/Housecall workflow gravity | [Round-five mining](IDEA-MINING-LOOP-2026-08-09-ROUND5.md) |
-| CancelBy | Validating | High | No exact cross-provider fee-deadline app found; a recurring Calendar alert or urgent Reminder may make paid differentiation too thin | [Round-five mining](IDEA-MINING-LOOP-2026-08-09-ROUND5.md) |
+| DoorHold | Validating | High | Real mobile-service lockout fees and a distinct decision handshake, but requires backend links and fights Jobber/Housecall workflow gravity | [Round-five mining](IDEA-MINING-LOOP-2026-08-09-ROUND5.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
+| CancelBy | Validating | High | Cheap alternate test only; a recurring Calendar alert or urgent Reminder may make paid differentiation too thin | [Round-five mining](IDEA-MINING-LOOP-2026-08-09-ROUND5.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
 | BatchBaton | Passed — market | Medium | Bakery suites already make batch stages shared state; cross-device custody adds backend, hygiene, and food-safety burden | [Round-five mining](IDEA-MINING-LOOP-2026-08-09-ROUND5.md) |
 | Contact Sentinel | Passed — market | Medium | Contacts+ and Contacts Mover already provide change history and selective restore; ContactDelta adds no new wedge | [Round-five mining](IDEA-MINING-LOOP-2026-08-09-ROUND5.md), [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
 | Creator Rights Clock | Passed — market | High | Exact rights-expiry product swarm; detecting continued usage is the unsolved hard problem | [Round-five mining](IDEA-MINING-LOOP-2026-08-09-ROUND5.md) |
@@ -148,7 +150,7 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 | TorqueAngle | Passed — market | Low | Mount/drift/safety risk and exact FastenIQ incumbent | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
 | TactileBridge | Passed — market | Medium | Suppressible phone haptics, existing tools, weak paywall fit, and co-design requirements | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
 | CompassNest | Passed — market | Low | Phone magnetic readings are too device/mount/orientation-sensitive for installation guidance | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
-| CrashTape | Validating | High | Audio remains a severe recovery spike; fragmented video is only a separately gated feature because recorder incumbents already provide it | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md), [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| CrashTape | Validating | High | Best engineering reserve, not the lead commercial bet; recovery must remain free and premium recorder features are crowded | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md), [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
 | AudioPin | Passed — market | Low | Audible exposes no cross-app position API and already owns manual checkpoints | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
 | Offline Ready | Passed — scope | Low | iOS cannot verify another app's DRM, cache, or offline-license state | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
 | AirReady | Passed — scope | Low | Consumer apps cannot authoritatively inspect or control active eSIM state | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
@@ -235,7 +237,7 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 | ShortcutVault | Passed — market | Medium | Manual exports cannot prove completeness; native sync and free backup workflows dominate | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | PhotoCleanup Undo Map | Passed — market | High | Recently Deleted, cleaners, and metadata editors own undo; PhotoKit cannot promise full EXIF or iCloud propagation | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | StitchLatch | Passed — market | High | The phone knows taps rather than physical rows, and exact Lock Screen and Watch tools exist | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
-| DeferralGap | Parked | Medium | No exact matcher surfaced, but contribution timing and a repeated two-artifact ritual remain unproven | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| DeferralGap | Parked | Medium | Paid concierge test only; contribution timing and a repeated two-artifact ritual remain unproven | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
 | PaystubPair | Passed — market | High | ShiftWorth and DOL cover verification; bank deposits add asynchronous splits and reversals rather than a new invariant | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | ShipAdjust | Passed — market | Medium | Carrier invoice audit is an integration and gainshare market, not a phone screenshot utility | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | GigDeposit | Passed — market | Medium | Gridwise and Solo own sanctioned account reconciliation; screenshot state is incomplete | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
@@ -269,7 +271,7 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 | PassArchive | Passed — scope | High | PassKit cannot expose arbitrary issuer passes and manual files do not prove validity or later state | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
 | ControllerSession Tape | Passed — market | High | Foreground connection and sampled-battery logs cannot localize failure; a free tester owns adjacent diagnostics | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
 | AppWatch | Passed — market | High | AppRaven already owns share-sheet watchlists and storefront history with meaningful traction | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
-| CaptionGap | Parked | High | No exact pipeline-health indicator surfaced, but the app can claim only its own buffer and recognizer state and must pass a paid DHH/HoH test | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
+| CaptionGap | Parked | High | Bounded app-owned state must pass compensated DHH/HoH co-design and a separate non-compensated preorder cohort | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
 | AccessMode Receipt | Passed — market | High | App-visible accessibility flags are not a global audit and Apple owns the authoritative settings surface | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
 | WakeAck | Passed — market | High | Alarm stop time is observable but does not prove a person is awake or well; exact mission alarms exist | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
 | ArrivalAck | Passed — market | High | Phone location is not person safety, while Check In and Life360 own the multi-person workflow | [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
@@ -307,20 +309,17 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 | Personal Wheelchair Ride Trace | Passed — scope | Low | Mount variation, background capture, and implied safety require substantial technical and accessibility validation | [Idea mining](IDEA-MINING-LOOP-2026-08-09.md) |
 | Multi-Chair Process Clock | Passed — market | High | Salon suites already include timers and standalone paid pain remains unproven | [Idea mining](IDEA-MINING-LOOP-2026-08-09.md) |
 
-## Current shortlist to preserve
+## Current experiment portfolio
 
-These are the strongest current ideas to validate or reopen:
+The five funded validations are deliberately not production builds:
 
-1. **CrashTape** — best immediate engineering spike; pending 100/100 recovery fixtures, a likely native writer, and primary-recorder adoption.
-2. **WeedCheck** — best Design/Most Viral fit; pending a blind optical-accuracy test and real paid-seller usage.
-3. **LotMatch** — best narrow business; pending a multi-brand label corpus, zero false matches, and live crew compliance.
-4. **Confirmed Spoken Details** — strongest Peace Prize path; pending DHH co-design and a native speech spike.
-5. **CutBolt** — conditional workroom candidate; pending five interviews and proof that the job-token ritual is accepted.
-6. **Two-Source Solar Check** — real reconciliation gap; pending one-system/one-utility expert validation.
-7. **DoorHold** — conditional mobile-service niche; pending no-access incidence, response-time, and preorder proof.
-8. **CancelBy** — conditional local utility; pending proof it beats an ordinary recurring Calendar alert.
-9. **DeferralGap** — paid concierge test only; pending repeat two-artifact behavior and zero cases where `not yet locatable` is shown despite a supported visible match.
-10. **CaptionGap** — paid DHH/HoH co-design test only; pending ten real session-hours, zero false-healthy injected failures, and four refundable $7.99 preorders.
+1. **LotMatch** — strongest business probability; sell founder-years, collect 300 labels, and require zero false matches plus live crew adherence.
+2. **WeedCheck** — strongest visual experiment; pass the 100-piece blind fixture and collect seller prepayment before an app shell.
+3. **DoorHold** — cheapest business test; run signed web links and staged lockouts with no native code.
+4. **CaptionGap** — compensated DHH/HoH co-design plus a separate paid-demand test; prove bounded state changes action without false healthy results, then collect independent preorders.
+5. **DeferralGap** — paid concierge only; prove repeated artifact sharing and a low-false-hold cumulative model.
+
+**CrashTape** is the optional engineering reserve. **Confirmed Spoken Details** remains the mission-led accessibility track. **CancelBy** is an unfunded alternate whose only useful next step is a short blind test against a configured free Reminder. CutBolt, Two-Source Solar Check, Health Sync Canary, and the remaining parked ideas stay searchable with their resurrection gates, but they are not in the immediate funded queue.
 
 **Encore** is preserved as an event-CRM feature or technically safe demo fallback, not an active standalone product candidate.
 

@@ -832,14 +832,16 @@
       ],
       "decision_reason": "Captioning is crowded, but no exact two-person confirmation ritual surfaced. The social-impact payoff is strong, yet native speech accuracy, interaction awkwardness, OS copy risk, and the need for DHH co-design prevent a build commitment.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-08"
+        "idea-mining-loop-2026-08-08",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "medium",
       "id": "confirmed-spoken-details",
       "name": "Confirmed Spoken Details",
       "one_liner": "Extract a fragile spoken date, amount, address, name, or code into a large card that the current speaker explicitly edits or confirms on the same phone.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-08.md"
+        "docs/IDEA-MINING-LOOP-2026-08-08.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Co-design with 8–12 Deaf or hard-of-hearing users and prove at least 90% usable token capture, sub-1.2-second median card latency, and week-two reuse before building the full product.",
       "route": "/ideas/confirmed-spoken-details",
@@ -1167,14 +1169,16 @@
       ],
       "decision_reason": "No atomic installer-side carton comparator surfaced. The scan fits a natural repeated jobsite moment, exact token equality is auditable, and recent installers report costly tear-outs after mixed lots. It is the strongest fresh business candidate, but label variation and false-match risk must be beaten with real cartons.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-09"
+        "idea-mining-loop-2026-08-09",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "lot-match",
       "name": "LotMatch",
       "one_liner": "Scan each tile or flooring carton before it is opened and catch a different product, dye lot, shade, or caliber before installation makes the mistake expensive.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-09.md"
+        "docs/IDEA-MINING-LOOP-2026-08-09.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only after at least 300 real labels across 10 brands demonstrate over 99% accepted-token accuracy, zero false matches, and crews scan over 90% of cartons on live jobs.",
       "route": "/ideas/lot-match",
@@ -1195,14 +1199,16 @@
       ],
       "decision_reason": "No exact consumer/mobile QA product surfaced, the failure is irreversible, and the fix-rescan loop is unusually visual for a two-minute demo. The launch must stay narrow because glossy carriers, glitter, holographic material, SVG acquisition, and camera registration can destroy reliability.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-09"
+        "idea-mining-loop-2026-08-09",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "weed-check",
       "name": "WeedCheck",
       "one_liner": "Compare a weeded heat-transfer-vinyl sheet with its source design and highlight missed material before the heat press makes the error permanent.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-09.md"
+        "docs/IDEA-MINING-LOOP-2026-08-09.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only after a blind 100-piece test reaches at least 95% recall for seeded errors over 3 mm, under 5% false holds, under 10 seconds median, and paid sellers voluntarily check most eligible orders.",
       "route": "/ideas/weed-check",
@@ -2103,14 +2109,16 @@
       ],
       "decision_reason": "Mobile groomers and cleaners publish 10–15-minute grace periods followed by substantial fees. Jobber and Housecall Pro own on-my-way messaging and timers, but no exact independent grace-period decision card surfaced. The reachable niche may be solo providers priced out of full field-service suites, though incident frequency and SMS/link friction are existential risks.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-09-round5"
+        "idea-mining-loop-2026-08-09-round5",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "mobile-service-no-access-handshake",
       "name": "DoorHold",
       "one_liner": "When a solo mobile service provider cannot enter, start the agreed grace clock and give the absent client a no-app choice to provide access, authorize paid waiting, or accept the lockout outcome.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md"
+        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only if 20 solo providers report at least one no-access incident per 100 appointments, providers use the flow on at least 80% of staged incidents, at least 60% of clients respond within the grace window, median response is under five minutes, and four providers prepay about $24.99.",
       "route": "/ideas/mobile-service-no-access-handshake",
@@ -2130,14 +2138,16 @@
       ],
       "decision_reason": "No exact cross-provider consumer app surfaced, and the money-at-risk widget is more concrete than a generic appointment alert. However, an ordinary recurring Calendar or urgent Reminder is a brutal free substitute, the app cannot confirm external cancellation, and honest monetization is a small lifetime unlock rather than a strong subscription.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-09-round5"
+        "idea-mining-loop-2026-08-09-round5",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "appointment-cancel-by-clock",
       "name": "CancelBy",
       "one_liner": "Bind a provider's cancellation window, fee, and cancel URL to a recurring calendar series so each moved occurrence shows exactly when money becomes non-refundable.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md"
+        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only if at least 30% of 20 weekly therapy, PT, or lesson users paid a late-cancel fee in the prior year, at least half prefer the money-at-risk card over a recurring 49-hour alert, 80% configure a series in under one minute, and four prepay $14.99 lifetime.",
       "route": "/ideas/appointment-cancel-by-clock",
@@ -3338,7 +3348,8 @@
       "dossierSlugs": [
         "idea-mining-loop-2026-08-09-round8",
         "idea-mining-loop-2026-08-10-round10-loop1",
-        "idea-mining-loop-2026-08-10-round10-loop2"
+        "idea-mining-loop-2026-08-10-round10-loop2",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "crash-recoverable-field-recorder",
@@ -3347,7 +3358,8 @@
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
         "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Promote beyond validation only after 100 of 100 audio interruption fixtures preserve committed audio with at most two seconds of terminal loss, inaudible boundaries, no false verified state, and at least 10 of 20 field interviewers choose it as their primary recorder for two weeks. Any video expansion must separately reopen every committed fragment and never lose more than its displayed interval.",
       "route": "/ideas/crash-recoverable-field-recorder",
@@ -5636,14 +5648,16 @@
       ],
       "decision_reason": "No exact consumer matcher surfaced and the consequence can be large, but payroll date is not receipt or settlement date, contributions aggregate and correct, provider portals are the free authoritative substitute, and the two-artifact ritual is unproven. The only safe output is located, not yet locatable, or needs review.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop2"
+        "idea-mining-loop-2026-08-10-round10-loop2",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "medium",
       "id": "retirement-deferral-gap",
       "name": "DeferralGap",
       "one_liner": "Cumulatively compare employee elective-deferral deductions reported on paystubs with contribution entries visible in the retirement-plan account.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Thirty actively concerned employees pay $7.99; at least 20 complete both artifact shares in under 90 seconds and repeat monthly for three months; 100 real pairs produce zero cases where not yet locatable is shown while a supported match is already visible in supplied plan history, and three persistent review cases receive employer or provider confirmation.",
       "route": "/ideas/retirement-deferral-gap",
@@ -6504,16 +6518,18 @@
       ],
       "decision_reason": "The app cannot inspect Apple Live Captions or know whether speech was semantically omitted, but no exact app-owned pipeline-health indicator surfaced and paid caption tools prove recurring willingness to pay. Silence or no transcript update still has several nonfailure explanations, so only a bounded paid co-design test is justified.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop4"
+        "idea-mining-loop-2026-08-10-round10-loop4",
+        "hackathon-research-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "caption-pipeline-gap",
       "name": "CaptionGap",
       "one_liner": "Expose audio-buffer, transcript-result, interruption, and recognizer-error state inside an app-owned caption session.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
       ],
-      "resurrection_trigger": "Twelve DHH or hard-of-hearing users complete at least ten real session-hours; warnings stay under one false alert per hour; 100 injected failures produce zero false-healthy states; at least eight say the indicator changed their response; and four place refundable $7.99 preorders.",
+      "resurrection_trigger": "Twelve compensated DHH or hard-of-hearing co-designers complete at least ten real session-hours; warnings stay under one false alert per hour; 100 injected failures produce zero false-healthy states; and at least eight say the indicator changed their response. Then at least four of a separate 12-person target-buyer cohort receiving no study compensation place refundable $7.99 preorders after seeing the frozen demo and native/free alternatives.",
       "route": "/ideas/caption-pipeline-gap",
       "status": "parked",
       "tags": [
@@ -7071,7 +7087,7 @@
       ]
     }
   ],
-  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c",
+  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

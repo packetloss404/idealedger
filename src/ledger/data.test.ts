@@ -17,12 +17,12 @@ import {
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
     expect(ideas).toHaveLength(273);
-    expect(researchMetadata).toHaveLength(17);
+    expect(researchMetadata).toHaveLength(18);
     expect(ledgerCounts).toEqual({
-      dossiers: 17,
+      dossiers: 18,
       ideas: 273,
-      researchEdges: 294,
-      searchDocuments: 290,
+      researchEdges: 302,
+      searchDocuments: 291,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -44,26 +44,29 @@ describe('generated ledger repository', () => {
     expect(getResearchMetadataForIdea('afterglow')).toEqual([]);
     expect(getResearchMetadataForIdea('lot-match').map((document) => document.slug)).toEqual([
       'idea-mining-loop-2026-08-09',
+      'hackathon-research-synthesis-2026-08-10',
     ]);
   });
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(17);
+    expect(repository.documents).toHaveLength(18);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
 
   it.each([
-    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 3],
-    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 1],
-    ['lot-match', '1-lotmatch--strongest-business-candidate', 1],
+    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 4],
+    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 2],
+    ['lot-match', '1-lotmatch--strongest-business-candidate', 2],
     ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
   ])('exposes a generator-owned heading anchor for %s', (ideaId, expectedAnchor, count) => {
     const provenance = getResearchProvenance(ideaId);
     expect(provenance?.quality).toBe('heading');
     expect(provenance?.references).toHaveLength(count);
-    expect(provenance?.references[0]?.heading?.anchor).toBe(expectedAnchor);
+    expect(
+      provenance?.references.some((reference) => reference.heading?.anchor === expectedAnchor),
+    ).toBe(true);
   });
 
   it('does not collapse quality across a multi-dossier idea', () => {

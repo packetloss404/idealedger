@@ -441,7 +441,7 @@
       "decision_reason": "Captioning is crowded, but no exact two-person confirmation ritual surfaced. The social-impact payoff is strong, yet native speech accuracy, interaction awkwardness, OS copy risk, and the need for DHH co-design prevent a build commitment.",
       "resurrection_trigger": "Co-design with 8–12 Deaf or hard-of-hearing users and prove at least 90% usable token capture, sub-1.2-second median card latency, and week-two reuse before building the full product.",
       "tags": ["accessibility", "speech", "confirmation", "communication"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-08.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-08.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "two-source-solar-check",
@@ -597,7 +597,7 @@
       "decision_reason": "No atomic installer-side carton comparator surfaced. The scan fits a natural repeated jobsite moment, exact token equality is auditable, and recent installers report costly tear-outs after mixed lots. It is the strongest fresh business candidate, but label variation and false-match risk must be beaten with real cartons.",
       "resurrection_trigger": "Proceed only after at least 300 real labels across 10 brands demonstrate over 99% accepted-token accuracy, zero false matches, and crews scan over 90% of cartons on live jobs.",
       "tags": ["flooring", "tile", "trades", "ocr", "quality-control", "camera"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "weed-check",
@@ -609,7 +609,7 @@
       "decision_reason": "No exact consumer/mobile QA product surfaced, the failure is irreversible, and the fix-rescan loop is unusually visual for a two-minute demo. The launch must stay narrow because glossy carriers, glitter, holographic material, SVG acquisition, and camera registration can destroy reliability.",
       "resurrection_trigger": "Proceed only after a blind 100-piece test reaches at least 95% recall for seeded errors over 3 mm, under 5% false holds, under 10 seconds median, and paid sellers voluntarily check most eligible orders.",
       "tags": ["cricut", "silhouette", "vinyl", "computer-vision", "creator-business", "quality-control"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "partial-rx-remainder",
@@ -1029,7 +1029,7 @@
       "decision_reason": "Mobile groomers and cleaners publish 10–15-minute grace periods followed by substantial fees. Jobber and Housecall Pro own on-my-way messaging and timers, but no exact independent grace-period decision card surfaced. The reachable niche may be solo providers priced out of full field-service suites, though incident frequency and SMS/link friction are existential risks.",
       "resurrection_trigger": "Proceed only if 20 solo providers report at least one no-access incident per 100 appointments, providers use the flow on at least 80% of staged incidents, at least 60% of clients respond within the grace window, median response is under five minutes, and four providers prepay about $24.99.",
       "tags": ["mobile-services", "grooming", "cleaning", "client-communication", "live-activities"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "appointment-cancel-by-clock",
@@ -1041,7 +1041,7 @@
       "decision_reason": "No exact cross-provider consumer app surfaced, and the money-at-risk widget is more concrete than a generic appointment alert. However, an ordinary recurring Calendar or urgent Reminder is a brutal free substitute, the app cannot confirm external cancellation, and honest monetization is a small lifetime unlock rather than a strong subscription.",
       "resurrection_trigger": "Proceed only if at least 30% of 20 weekly therapy, PT, or lesson users paid a late-cancel fee in the prior year, at least half prefer the money-at-risk card over a recurring 49-hour alert, 80% configure a series in under one minute, and four prepay $14.99 lifetime.",
       "tags": ["appointments", "calendar", "cancellation-fees", "widgets", "consumer-finance"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "bakery-batch-handoff",
@@ -1593,7 +1593,7 @@
       "decision_reason": "It is the sole Round-8 survivor because the app owns the authoritative microphone and file state and has a dramatic force-kill recovery demo. It remains only a technical spike: the likely native writer must pass a severe durability matrix, recorder willingness to pay is modest, and the differentiated custody layer must stay free. Fragmented video is a plausible expansion fixture but already exists in Zella, Screen Recorder, Discreet, Mugen, and Blackmagic, so it adds no new payer or distribution wedge.",
       "resurrection_trigger": "Promote beyond validation only after 100 of 100 audio interruption fixtures preserve committed audio with at most two seconds of terminal loss, inaudible boundaries, no false verified state, and at least 10 of 20 field interviewers choose it as their primary recorder for two weeks. Any video expansion must separately reopen every committed fragment and never lose more than its displayed interval.",
       "tags": ["audio", "video", "recording", "recovery", "journalism", "local-first", "reliability", "revenuecat"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "audible-playback-checkpoint",
@@ -2637,7 +2637,7 @@
       "decision_reason": "No exact consumer matcher surfaced and the consequence can be large, but payroll date is not receipt or settlement date, contributions aggregate and correct, provider portals are the free authoritative substitute, and the two-artifact ritual is unproven. The only safe output is located, not yet locatable, or needs review.",
       "resurrection_trigger": "Thirty actively concerned employees pay $7.99; at least 20 complete both artifact shares in under 90 seconds and repeat monthly for three months; 100 real pairs produce zero cases where not yet locatable is shown while a supported match is already visible in supplied plan history, and three persistent review cases receive employer or provider confirmation.",
       "tags": ["retirement", "401k", "payroll", "benefits", "reconciliation", "consumer-finance"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "timecard-paystub-pair",
@@ -3031,9 +3031,9 @@
       "hackathon_fit": "high",
       "one_liner": "Expose audio-buffer, transcript-result, interruption, and recognizer-error state inside an app-owned caption session.",
       "decision_reason": "The app cannot inspect Apple Live Captions or know whether speech was semantically omitted, but no exact app-owned pipeline-health indicator surfaced and paid caption tools prove recurring willingness to pay. Silence or no transcript update still has several nonfailure explanations, so only a bounded paid co-design test is justified.",
-      "resurrection_trigger": "Twelve DHH or hard-of-hearing users complete at least ten real session-hours; warnings stay under one false alert per hour; 100 injected failures produce zero false-healthy states; at least eight say the indicator changed their response; and four place refundable $7.99 preorders.",
+      "resurrection_trigger": "Twelve compensated DHH or hard-of-hearing co-designers complete at least ten real session-hours; warnings stay under one false alert per hour; 100 injected failures produce zero false-healthy states; and at least eight say the indicator changed their response. Then at least four of a separate 12-person target-buyer cohort receiving no study compensation place refundable $7.99 preorders after seeing the frozen demo and native/free alternatives.",
       "tags": ["captions", "accessibility", "speech", "diagnostics", "false-confidence"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md", "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"]
     },
     {
       "id": "accessibility-mode-receipt",

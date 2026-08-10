@@ -551,6 +551,7 @@
   ],
   "researchRoutes": [
     "/research/dinner-decision-deep-dive",
+    "/research/hackathon-research-synthesis-2026-08-10",
     "/research/idea-mining-loop-2026-08-08",
     "/research/idea-mining-loop-2026-08-09",
     "/research/idea-mining-loop-2026-08-09-round4",
@@ -570,6 +571,7 @@
   ],
   "researchSlugs": [
     "dinner-decision-deep-dive",
+    "hackathon-research-synthesis-2026-08-10",
     "idea-mining-loop-2026-08-08",
     "idea-mining-loop-2026-08-09",
     "idea-mining-loop-2026-08-09-round4",
@@ -587,5 +589,5 @@
     "social-app-opportunity-research",
     "untitled-micro-help-network"
   ],
-  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c"
+  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243"
 }

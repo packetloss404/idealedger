@@ -235,6 +235,95 @@
     {
       "headings": [
         {
+          "anchor": "autonomous-research-synthesis--2026-08-10",
+          "depth": 1,
+          "text": "Autonomous Research Synthesis — 2026-08-10"
+        },
+        {
+          "anchor": "executive-verdict",
+          "depth": 2,
+          "text": "Executive verdict"
+        },
+        {
+          "anchor": "where-the-three-teams-agreed-and-disagreed",
+          "depth": 2,
+          "text": "Where the three teams agreed and disagreed"
+        },
+        {
+          "anchor": "lotmatch",
+          "depth": 2,
+          "text": "LotMatch"
+        },
+        {
+          "anchor": "weedcheck",
+          "depth": 2,
+          "text": "WeedCheck"
+        },
+        {
+          "anchor": "doorhold",
+          "depth": 2,
+          "text": "DoorHold"
+        },
+        {
+          "anchor": "captiongap",
+          "depth": 2,
+          "text": "CaptionGap"
+        },
+        {
+          "anchor": "deferralgap",
+          "depth": 2,
+          "text": "DeferralGap"
+        },
+        {
+          "anchor": "crashtape",
+          "depth": 2,
+          "text": "CrashTape"
+        },
+        {
+          "anchor": "confirmed-spoken-details",
+          "depth": 2,
+          "text": "Confirmed Spoken Details"
+        },
+        {
+          "anchor": "cancelby",
+          "depth": 2,
+          "text": "CancelBy"
+        },
+        {
+          "anchor": "ten-business-day-execution-order",
+          "depth": 2,
+          "text": "Ten-business-day execution order"
+        },
+        {
+          "anchor": "durable-rules-from-123-screens",
+          "depth": 2,
+          "text": "Durable rules from 123 screens"
+        },
+        {
+          "anchor": "final-decision",
+          "depth": 2,
+          "text": "Final decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "appointment-cancel-by-clock",
+        "caption-pipeline-gap",
+        "confirmed-spoken-details",
+        "crash-recoverable-field-recorder",
+        "lot-match",
+        "mobile-service-no-access-handshake",
+        "retirement-deferral-gap",
+        "weed-check"
+      ],
+      "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+      "route": "/research/hackathon-research-synthesis-2026-08-10",
+      "sha256": "sha256:01a667218c77f7e82fdbdbd2fbab31cc56a85dd667fc69a3de721000e87fd6d0",
+      "slug": "hackathon-research-synthesis-2026-08-10",
+      "title": "Autonomous Research Synthesis — 2026-08-10"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--2026-08-08",
           "depth": 1,
           "text": "Idea Mining Loop — 2026-08-08"
@@ -2006,7 +2095,7 @@
       ],
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
       "route": "/research/idea-mining-loop-2026-08-10-round10-loop4",
-      "sha256": "sha256:433e0cb8d98e2f44e1636d31103d55f58fb8e78b3e13cd22ed4678627a26036b",
+      "sha256": "sha256:bb1a07ab18e73657d48fce722d0db497f20c4be4b1e09294b56d4c32162f2ae6",
       "slug": "idea-mining-loop-2026-08-10-round10-loop4",
       "title": "Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts"
     },
@@ -2852,5 +2941,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c"
+  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243"
 }

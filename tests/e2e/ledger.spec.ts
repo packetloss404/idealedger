@@ -130,6 +130,16 @@ test.describe('decision retrieval', () => {
     ).toBeVisible();
     await expect(research).toContainText('Media Hash List');
   });
+
+  test('surfaces the final experiment synthesis as research', async ({ page }) => {
+    await page.goto('ideas');
+    await search(page, 'experiment saturation');
+
+    const research = page.getByRole('region', { name: 'Research matches' });
+    await expect(research).toBeVisible();
+    await expect(research.getByRole('link', { name: /Autonomous Research Synthesis/ })).toBeVisible();
+    await expect(research).toContainText('experiment saturation');
+  });
 });
 
 test.describe('filters and URL state', () => {

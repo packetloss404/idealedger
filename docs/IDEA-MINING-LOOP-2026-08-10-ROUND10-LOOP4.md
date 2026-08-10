@@ -10,7 +10,7 @@
 
 Loop 4 investigated 38 serious candidates and promoted zero builds. Twenty-eight concepts add new decisions—27 passes and one parked paid test—and ten rediscoveries merge into nine existing decisions because RouteTone and RouteTape both belong to Hearing Route Guard.
 
-The strongest pains were playlist loss, HomeKit automation history, pet-registry decay, unreliable live captions, malformed audio-stem deliveries, and rejected EPUBs. CaptionGap earned one paid co-design test because no exact pipeline-health incumbent surfaced; it did not earn a build. Exact 2026 products already own playlist and HomeKit history, universal pet-chip and system-caption state remains unavailable, and professional artifact correction still occurs inside a desktop host or a free validator.
+The strongest pains were playlist loss, HomeKit automation history, pet-registry decay, unreliable live captions, malformed audio-stem deliveries, and rejected EPUBs. CaptionGap earned compensated co-design plus a separate paid-demand test because no exact pipeline-health incumbent surfaced; it did not earn a build. Exact 2026 products already own playlist and HomeKit history, universal pet-chip and system-caption state remains unavailable, and professional artifact correction still occurs inside a desktop host or a free validator.
 
 ## Research statistics
 
@@ -89,7 +89,7 @@ PassKit access is entitlement-bound to cooperating issuers; an ordinary app cann
 
 Apple's [SpeechAnalyzer](https://developer.apple.com/videos/play/wwdc2025/277/) can support a new caption app, not inspect Apple Live Captions or identify omitted words. Apple [Live Captions](https://support.apple.com/guide/iphone/overview-accessibility-features-hearing-iphb210be03a/ios), [Live Transcribe](https://apps.apple.com/us/app/live-transcribe/id1471473738), and [Ava](https://apps.apple.com/us/app/ava-transcribe-voice-to-text/id1030067058) already own the conversation surface, but none surfaced as an exact pipeline-health indicator. No transcript update can mean silence, noise, unsupported language, or delayed decoding rather than failure.
 
-**Verdict:** `parked` for one paid co-design test, not a build. Twelve DHH or hard-of-hearing participants must use an instrumented app-owned session for at least ten real hours; warnings must stay under one false alert per hour; 100 injected buffer, interruption, and recognizer failures must produce zero false-healthy states; at least eight users must say the indicator changed their response; and at least four must place a refundable $7.99 preorder. The product may say only `audio observed`, `recognizer updating`, `interrupted`, or `no recent result`—never complete captions or semantic omission.
+**Verdict:** `parked` for compensated co-design plus a separate paid-demand test, not a build. Twelve compensated DHH or hard-of-hearing participants must use an instrumented app-owned session for at least ten real hours; warnings must stay under one false alert per hour; 100 injected buffer, interruption, and recognizer failures must produce zero false-healthy states; and at least eight users must say the indicator changed their response. After the prototype and copy are frozen, a different cohort of 12 qualified target buyers who receive no study compensation must see the demo and native/free alternatives, and at least four must place a refundable $7.99 preorder. The product may say only `audio observed`, `recognizer updating`, `interrupted`, or `no recent result`—never complete captions or semantic omission.
 
 ## AccessMode Receipt
 

@@ -1,15 +1,15 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 17,
+    "dossiers": 18,
     "headingMatchedIdeas": 161,
-    "headingReferences": 175,
+    "headingReferences": 183,
     "ideas": 273,
     "ideasWithoutResearch": 11,
     "mentionOnlyIdeas": 94,
     "mentionReferences": 103,
-    "multiRefIdeas": 29,
-    "researchEdges": 294,
+    "multiRefIdeas": 36,
+    "researchEdges": 302,
     "unmappedReferences": 16
   },
   "researchProvenance": [
@@ -190,6 +190,16 @@
       "ideaId": "appointment-cancel-by-clock",
       "quality": "heading",
       "references": [
+        {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "cancelby",
+            "depth": 2,
+            "text": "CancelBy"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
         {
           "dossierSlug": "idea-mining-loop-2026-08-09-round5",
           "heading": {
@@ -587,6 +597,16 @@
       "quality": "heading",
       "references": [
         {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "captiongap",
+            "depth": 2,
+            "text": "CaptionGap"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
           "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
           "heading": {
             "anchor": "captiongap",
@@ -767,6 +787,16 @@
       "quality": "heading",
       "references": [
         {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "confirmed-spoken-details",
+            "depth": 2,
+            "text": "Confirmed Spoken Details"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
           "dossierSlug": "idea-mining-loop-2026-08-08",
           "heading": {
             "anchor": "2-confirmed-spoken-details--conditional-co-design-test",
@@ -926,6 +956,16 @@
       "ideaId": "crash-recoverable-field-recorder",
       "quality": "heading",
       "references": [
+        {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "crashtape",
+            "depth": 2,
+            "text": "CrashTape"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
         {
           "dossierSlug": "idea-mining-loop-2026-08-09-round8",
           "heading": {
@@ -1962,6 +2002,16 @@
       "quality": "heading",
       "references": [
         {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "lotmatch",
+            "depth": 2,
+            "text": "LotMatch"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
           "dossierSlug": "idea-mining-loop-2026-08-09",
           "heading": {
             "anchor": "1-lotmatch--strongest-business-candidate",
@@ -2173,6 +2223,16 @@
       "ideaId": "mobile-service-no-access-handshake",
       "quality": "heading",
       "references": [
+        {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "doorhold",
+            "depth": 2,
+            "text": "DoorHold"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
         {
           "dossierSlug": "idea-mining-loop-2026-08-09-round5",
           "heading": {
@@ -3063,6 +3123,16 @@
       "ideaId": "retirement-deferral-gap",
       "quality": "heading",
       "references": [
+        {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "deferralgap",
+            "depth": 2,
+            "text": "DeferralGap"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
         {
           "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
           "heading": {
@@ -4053,6 +4123,16 @@
       "quality": "heading",
       "references": [
         {
+          "dossierSlug": "hackathon-research-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "weedcheck",
+            "depth": 2,
+            "text": "WeedCheck"
+          },
+          "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
           "dossierSlug": "idea-mining-loop-2026-08-09",
           "heading": {
             "anchor": "2-weedcheck--strongest-shipaton-candidate",
@@ -4568,7 +4648,7 @@
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c",
+  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243",
   "tagStats": {
     "assignments": 1288,
     "doubletons": 88,
