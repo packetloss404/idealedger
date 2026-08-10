@@ -2427,6 +2427,521 @@
     {
       "headings": [
         {
+          "anchor": "idea-mining-round-10--autonomous-loop-1",
+          "depth": 1,
+          "text": "Idea Mining Round 10 — Autonomous Loop 1"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "loop-statistics",
+          "depth": 2,
+          "text": "Loop statistics"
+        },
+        {
+          "anchor": "reusable-decision-rules",
+          "depth": 2,
+          "text": "Reusable decision rules"
+        },
+        {
+          "anchor": "consumer-friction-lane",
+          "depth": 2,
+          "text": "Consumer Friction lane"
+        },
+        {
+          "anchor": "chirphunt",
+          "depth": 2,
+          "text": "ChirpHunt"
+        },
+        {
+          "anchor": "lipsync-lens",
+          "depth": 2,
+          "text": "LipSync Lens"
+        },
+        {
+          "anchor": "meterstill",
+          "depth": 2,
+          "text": "MeterStill"
+        },
+        {
+          "anchor": "cabinsizer",
+          "depth": 2,
+          "text": "CabinSizer"
+        },
+        {
+          "anchor": "sharesweep",
+          "depth": 2,
+          "text": "ShareSweep"
+        },
+        {
+          "anchor": "zonepreview",
+          "depth": 2,
+          "text": "ZonePreview"
+        },
+        {
+          "anchor": "appburner",
+          "depth": 2,
+          "text": "AppBurner"
+        },
+        {
+          "anchor": "chargewiggle",
+          "depth": 2,
+          "text": "ChargeWiggle"
+        },
+        {
+          "anchor": "earflip",
+          "depth": 2,
+          "text": "EarFlip"
+        },
+        {
+          "anchor": "spinbalance",
+          "depth": 2,
+          "text": "SpinBalance"
+        },
+        {
+          "anchor": "physicaldigital-boundary-lane",
+          "depth": 2,
+          "text": "Physical/Digital Boundary lane"
+        },
+        {
+          "anchor": "copyfence",
+          "depth": 2,
+          "text": "CopyFence"
+        },
+        {
+          "anchor": "chargedrop",
+          "depth": 2,
+          "text": "ChargeDrop"
+        },
+        {
+          "anchor": "tagrun",
+          "depth": 2,
+          "text": "TagRun"
+        },
+        {
+          "anchor": "wedgecheck",
+          "depth": 2,
+          "text": "WedgeCheck"
+        },
+        {
+          "anchor": "displayproof",
+          "depth": 2,
+          "text": "DisplayProof"
+        },
+        {
+          "anchor": "rentalpurge",
+          "depth": 2,
+          "text": "RentalPurge"
+        },
+        {
+          "anchor": "sensorready",
+          "depth": 2,
+          "text": "SensorReady"
+        },
+        {
+          "anchor": "keydrill",
+          "depth": 2,
+          "text": "KeyDrill"
+        },
+        {
+          "anchor": "crashtape",
+          "depth": 2,
+          "text": "CrashTape"
+        },
+        {
+          "anchor": "workflow-failure--wtp-lane",
+          "depth": 2,
+          "text": "Workflow Failure / WTP lane"
+        },
+        {
+          "anchor": "automation-canary",
+          "depth": 2,
+          "text": "Automation Canary"
+        },
+        {
+          "anchor": "etsy-payoutlens",
+          "depth": 2,
+          "text": "Etsy PayoutLens"
+        },
+        {
+          "anchor": "mileage-exception-inbox",
+          "depth": 2,
+          "text": "Mileage Exception Inbox"
+        },
+        {
+          "anchor": "marketclose",
+          "depth": 2,
+          "text": "MarketClose"
+        },
+        {
+          "anchor": "batchtrace-lite",
+          "depth": 2,
+          "text": "BatchTrace Lite"
+        },
+        {
+          "anchor": "kitmanifest",
+          "depth": 2,
+          "text": "KitManifest"
+        },
+        {
+          "anchor": "coi-pocket",
+          "depth": 2,
+          "text": "COI Pocket"
+        },
+        {
+          "anchor": "fieldshot-gate",
+          "depth": 2,
+          "text": "FieldShot Gate"
+        },
+        {
+          "anchor": "consigndiff",
+          "depth": 2,
+          "text": "ConsignDiff"
+        },
+        {
+          "anchor": "cross-review-disposition",
+          "depth": 2,
+          "text": "Cross-review disposition"
+        },
+        {
+          "anchor": "next-loop-directions",
+          "depth": 2,
+          "text": "Next-loop directions"
+        },
+        {
+          "anchor": "build-recommendation",
+          "depth": 2,
+          "text": "Build recommendation"
+        }
+      ],
+      "linkedIdeaIds": [
+        "av-lip-sync-measurement",
+        "ble-sports-sensor-preflight",
+        "bluetooth-hid-preflight",
+        "calendar-timezone-preview",
+        "carry-on-ar-size-check",
+        "charge-drop-alarm",
+        "charging-continuity-log",
+        "coi-expiry-pocket",
+        "consignment-settlement-diff",
+        "craft-market-close-reconcile",
+        "crash-recoverable-field-recorder",
+        "earbud-asymmetry-isolation",
+        "etsy-payout-reconciliation",
+        "external-display-test-source",
+        "field-shot-requirement-gate",
+        "maker-batch-trace-lite",
+        "manual-water-meter-leak-test",
+        "mileage-exception-inbox",
+        "mystery-alarm-chirp-localizer",
+        "nfc-batch-readback",
+        "relative-vibration-compare",
+        "rental-infotainment-purge",
+        "rental-kit-manifest",
+        "screenshot-pii-preflight",
+        "security-key-readiness-drill",
+        "shortcuts-automation-canary",
+        "temporary-app-expiry",
+        "verified-phone-ssd-offload"
+      ],
+      "links": [
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "OWC Copy That Mobile",
+          "url": "https://apps.apple.com/gb/app/owc-copy-that-mobile/id1536830655"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ChirpHound",
+          "url": "https://apps.apple.com/nl/app/chirphound/id6777020126?l=en-GB"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "LipSync Test Tool",
+          "url": "https://apps.apple.com/sg/app/lipsync-test-tool/id6761455176"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Amperes 4",
+          "url": "https://apps.apple.com/us/app/amperes-4-battery-charge-info/id1245475416"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ApplianceDoc",
+          "url": "https://apps.apple.com/us/app/appliancedoc/id6779322946"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Automation Control",
+          "url": "https://apps.apple.com/us/app/automation-control/id6737158540"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "AV Aid",
+          "url": "https://apps.apple.com/us/app/av-aid-toolkit/id660072020"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Battery and charger test",
+          "url": "https://apps.apple.com/us/app/battery-and-charger-test/id1442110910"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "CompanyCam",
+          "url": "https://apps.apple.com/us/app/companycam/id960043499"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "FixMySync",
+          "url": "https://apps.apple.com/us/app/fixmysync/id6762895285"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Go Carry-On",
+          "url": "https://apps.apple.com/us/app/go-carry-on/id6771162196"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Hand Luggage",
+          "url": "https://apps.apple.com/us/app/hand-luggage-carry-on-size/id1045184136"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Headphone Check",
+          "url": "https://apps.apple.com/us/app/headphone-check/id418445917"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Headphone Sound Check",
+          "url": "https://apps.apple.com/us/app/headphone-sound-check/id6771039438"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Mimi Hearing Test",
+          "url": "https://apps.apple.com/us/app/mimi-hearing-test/id932496645"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Screenshot Editor Blur Text",
+          "url": "https://apps.apple.com/us/app/screenshot-editor-blur-text/id6757922494"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Fluvo",
+          "url": "https://apps.apple.com/us/app/water-meter-leak-fluvo/id6775553069"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "CCC Mobile Backup",
+          "url": "https://bombich.com/ccc-mobile-backup"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Cerno",
+          "url": "https://cernostudio.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Consigna",
+          "url": "https://consigna.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "FTC",
+          "url": "https://consumer.ftc.gov/articles/renting-car"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "CottageBatch",
+          "url": "https://cottagebatch.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Craftybase",
+          "url": "https://craftybase.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "FairPulse",
+          "url": "https://fairpulse.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "CabinFit",
+          "url": "https://getcabinfit.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Healthchecks.io",
+          "url": "https://healthchecks.io/pricing/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "free reconciliation procedure",
+          "url": "https://help.etsy.com/hc/en-us/articles/360016389113-How-to-Calculate-Your-Etsy-Payments-Deposit-Amount"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "MyGearVault",
+          "url": "https://mygearvault.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "NFC Studio",
+          "url": "https://nfcstudio.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "MaskShot",
+          "url": "https://play.google.com/store/apps/details?id=com.cdev.maskshot"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "AV Sync",
+          "url": "https://play.google.com/store/apps/details?id=com.stevedenheyer.avsync"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "NFC Check",
+          "url": "https://play.google.com/store/apps/details?id=joerikros.nfcchecker"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Privacy4Cars",
+          "url": "https://privacy4cars.com/aboutus/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ProMapper",
+          "url": "https://projectionmapping.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Scrub",
+          "url": "https://scrub.software/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Seller Profit Guard",
+          "url": "https://sellerprofitguard.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ShareWipe",
+          "url": "https://sharewipe.com/en"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Calendar Time Zone Override",
+          "url": "https://support.apple.com/en-gb/guide/iphone/iph69525c028/ios"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Wireless Audio Sync",
+          "url": "https://support.apple.com/en-kw/guide/tv/atvb228b7711/tvos"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "SynQR",
+          "url": "https://synqr.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "USB Backup",
+          "url": "https://usbbackup.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Reconcile Locally",
+          "url": "https://usereconly.com/etsy-payout-reconciliation/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "WhichBeep",
+          "url": "https://whichbeep.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Cheqroom",
+          "url": "https://www.cheqroom.com/pricing/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Pushcut",
+          "url": "https://www.pushcut.io/support/notifications"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Sortly",
+          "url": "https://www.sortly.com/pricing/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "TrustLayer",
+          "url": "https://www.trustlayer.io/plans"
+        }
+      ],
+      "markdown": "# Idea Mining Round 10 — Autonomous Loop 1\n\n**Research date:** 2026-08-10  \n**Method:** Three independent research lanes, a fourth integration lane, exact-product and platform searches, then reciprocal cross-review.  \n**Starting archive:** 173 ideas and 13 research dossiers.  \n**Outcome:** 27 serious candidates investigated, 26 new pass decisions, one duplicate merged into SpinBalance, one feature merged into CrashTape, and zero promotions.\n\n## Executive summary\n\nLoop 1 deliberately searched away from the archive's saturated `camera + reminder + PDF` pattern. Consumer Friction mined repeated household and device complaints. Physical/Digital Boundary looked for files, sensors, NFC, Bluetooth, interruption recovery, and real-world sequences the phone could observe directly. Workflow Failure/WTP examined recurring prosumer reconciliation and handoff jobs with existing paid behavior.\n\nThe result was not a shortage of real pain. Smoke-alarm chirps, water leaks, charging failures, lost media, Etsy payout confusion, missed Shortcuts automations, rental-kit discrepancies, and COI renewal all have credible current complaints or paid categories. The failure was product ownership: a mature utility already performed the exact loop, the operating system withheld the state needed to make the conclusion, or the authoritative record belonged to the platform, vendor, relying party, or vertical SaaS.\n\nThe strongest provisional lead, Automation Canary, was technically sound but commercially dead. A final background App Intent can record its own callback and re-arm a local deadline notification, but [Automation Control](https://apps.apple.com/us/app/automation-control/id6737158540) already logs Shortcuts automations and includes a `did not run in the last` condition, while [Pushcut](https://www.pushcut.io/support/notifications) already exposes identified schedule/cancel notification actions and [Healthchecks.io](https://healthchecks.io/pricing/) provides free heartbeat monitors. The honest remaining difference was setup convenience.\n\n## Loop statistics\n\n- Three independent discovery lanes plus one integration/red-team lane.\n- About 70 current complaint, product, platform, support, and pricing sources inspected.\n- 27 candidates received a truth, authority, frequency, natural-behavior, demo, feasibility, and market test.\n- 26 new ideas added to the rejection ledger.\n- One existing record, SpinBalance, absorbed the duplicate WasherVibe research.\n- CrashTape gained an external-input route-loss fixture; RouteLatch was not cloned into a separate idea.\n- Zero finalists, paid-validation promotions, or build recommendations.\n\n## Reusable decision rules\n\n1. **Authoritative observation is necessary, not sufficient.** CopyFence can compare bytes and Automation Canary can record its callback, but exact utilities already sell those truths cheaply.\n2. **A crisis-time search channel rewards instant tools and incumbents.** ChirpHunt, MeterStill, and ChargeWiggle are discovered during the problem, when a free web guide or established $1–$3 utility wins.\n3. **A phone testing itself may still observe the wrong endpoint.** A BLE sensor seen by the phone may still be unavailable to the bike computer; a security key authenticating to one relying party says nothing about another.\n4. **The paying party usually buys the system of record.** Rental houses buy equipment custody, contractors buy job-photo systems, galleries buy consignment ledgers, and bookkeepers buy settlement reconciliation.\n5. **Local-first and deterministic are no longer enough differentiation.** Current browser utilities already process sensitive CSVs locally, explain uncertainty, and charge little or nothing.\n6. **A feature merge is a valid research result.** Route-change observability strengthens CrashTape, but does not create a new payer or product.\n\n## Consumer Friction lane\n\n## ChirpHunt\n\n**Concept:** Sample an intermittent smoke/CO-style chirp at several positions and rank recordings by strength to help locate the device.\n\n**Why it looked promising:** Current users report searching for mystery chirps for hours or months, and the trigger is immediate. The phone directly owns microphone samples and the demonstration is excellent.\n\n**What killed it:** [WhichBeep](https://whichbeep.com/) already provides a free browser room-sampling flow, while [ChirpHound](https://apps.apple.com/nl/app/chirphound/id6777020126?l=en-GB) provides warmer/colder guidance, calibration, pattern presets, intervals, and multi-microphone features at a low one-time price. Reflections and automatic gain mean dBFS is not reliable distance or bearing, and Apple warns not to rely on Sound Recognition for high-risk alarms. The only safe claim is that a matching tone was recorded more strongly at one position.\n\n**Reopen when:** Blind multi-home tests materially beat both incumbents without diagnosing alarm type or safety state.\n\n**Verdict:** `passed_market` — exact incumbent, safety-adjacent authority boundary, and one-session retention.\n\n## LipSync Lens\n\n**Concept:** Use the phone camera and microphone to measure the offset between a flash and beep from a television or soundbar test clip.\n\n**What killed it:** [SynQR](https://synqr.app/), [AV Sync](https://play.google.com/store/apps/details?id=com.stevedenheyer.avsync), [LipSync Test Tool](https://apps.apple.com/sg/app/lipsync-test-tool/id6761455176), and [FixMySync](https://apps.apple.com/us/app/fixmysync/id6762895285) already implement the primitive; Apple TV also has [Wireless Audio Sync](https://support.apple.com/en-kw/guide/tv/atvb228b7711/tvos). The phone's own capture pipelines add latency, and a measured offset does not identify which source, television, eARC path, or soundbar setting should change.\n\n**Reopen when:** A target-device integration reads and writes the delay setting and demonstrates closed-loop convergence.\n\n**Verdict:** `passed_market` — exact swarm and non-authoritative correction.\n\n## MeterStill\n\n**Concept:** Photograph a water meter before and after a no-use interval and calculate implied flow and cost.\n\n**What killed it:** The current free [Fluvo](https://apps.apple.com/us/app/water-meter-leak-fluvo/id6775553069) already provides the guided interval, optional photos, leak rate, history, reminders, multi-property support, and projections. Utilities publish the same manual flow test for free. Meter movement is real, but it cannot locate a leak or exclude unnoticed use.\n\n**Reopen when:** A utility or insurer distributes an authoritative meter/account integration that adds a workflow Fluvo cannot provide.\n\n**Verdict:** `passed_market` — exact free incumbent.\n\n## CabinSizer\n\n**Concept:** Scan a carry-on or personal item with AR and compare its approximate envelope with a selected airline limit.\n\n**What killed it:** [Go Carry-On](https://apps.apple.com/us/app/go-carry-on/id6771162196), [Hand Luggage](https://apps.apple.com/us/app/hand-luggage-carry-on-size/id1045184136), and [CabinFit](https://getcabinfit.com/) already cover the loop. AR is not the boarding authority; compression, pockets, wheels, weight, fare, operating carrier, and agent enforcement remain outside the scan.\n\n**Reopen when:** An airline supplies accepted calibration or contractually recognizes the result.\n\n**Verdict:** `passed_market` — free exact products and false-pass risk.\n\n## ShareSweep\n\n**Concept:** At the share moment, highlight likely personal information in a screenshot and export a user-confirmed redacted copy.\n\n**What killed it:** [Screenshot Editor Blur Text](https://apps.apple.com/us/app/screenshot-editor-blur-text/id6757922494), [MaskShot](https://play.google.com/store/apps/details?id=com.cdev.maskshot), [Scrub](https://scrub.software/), [ShareWipe](https://sharewipe.com/en), and other 2025–2026 entrants form a dense exact swarm. `Nothing detected` can never mean `safe to share`; sensitive visual context may contain no recognizable text.\n\n**Reopen when:** A sanctioned pre-share interception surface or a narrow validated sensitive pattern is unavailable in current tools.\n\n**Verdict:** `passed_market` — commodity and dangerous false-negative semantics.\n\n## ZonePreview\n\n**Concept:** Render upcoming Calendar events as if the phone were already in a destination timezone so a traveler can inspect shifts before departure.\n\n**What killed it:** Apple already provides [Calendar Time Zone Override](https://support.apple.com/en-gb/guide/iphone/iph69525c028/ios), Google documents provider behavior, and mature world-clock/calendar products cover previewing. A companion cannot control external providers, invitation changes, or other participants' interpretations.\n\n**Reopen when:** A deterministic dry run across actual providers exposes failures native calendars cannot show.\n\n**Verdict:** `passed_market` — OS-native and crowded.\n\n## AppBurner\n\n**Concept:** Mark a temporary retailer, parking, ticket, or restaurant app for permission review and deletion after a short period.\n\n**What killed it:** An ordinary iOS app cannot enumerate arbitrary installed apps, observe installation time, revoke their permissions, or uninstall them. Apple exposes installed-app inventory through device management, while the consumer can already use Offload, App Library, Reminders, and Settings.\n\n**Reopen when:** Apple exposes sanctioned consumer installed-app and permission-management APIs.\n\n**Verdict:** `passed_scope` — the core action is unavailable.\n\n## ChargeWiggle\n\n**Concept:** During cable/brick/port swaps and a timed wiggle test, log the phone's charging-to-unplugged state transitions.\n\n**What killed it:** iOS exposes only coarse battery state and level, not negotiated wattage, current, cable identity, or port condition. A transition cannot isolate the cable, adapter, port, contamination, temperature, or software. Free [Battery and charger test](https://apps.apple.com/us/app/battery-and-charger-test/id1442110910) and the $2.99 [Amperes 4](https://apps.apple.com/us/app/amperes-4-battery-charge-info/id1245475416) already own the weaker inference.\n\n**Reopen when:** Apple exposes negotiated power plus stable accessory identity, or repair technicians pay for the transition log alone.\n\n**Verdict:** `passed_market` — insufficient state and cheap incumbents.\n\n## EarFlip\n\n**Concept:** Play controlled left/right/mono signals, swap earbuds between ears, and structure the user's observations about whether an imbalance follows the device or ear.\n\n**What killed it:** The test cannot separate hearing, seal, earwax, adaptive audio, source balance, Bluetooth state, or driver output. [Headphone Sound Check](https://apps.apple.com/us/app/headphone-sound-check/id6771039438), [Headphone Check](https://apps.apple.com/us/app/headphone-check/id418445917), [Mimi Hearing Test](https://apps.apple.com/us/app/mimi-hearing-test/id932496645), and Apple's balance, Custom Audio Setup, and Ear Tip Fit Test already occupy the surface.\n\n**Reopen when:** A manufacturer exposes calibrated per-bud acoustic self-test data or service centers accept a standardized protocol.\n\n**Verdict:** `passed_market` — exact/native substitutes and non-localizable cause.\n\n## SpinBalance\n\n**Round-10 duplicate:** WasherVibe proposed a phone-on-washer accelerometer/audio comparison across spin cycles. The existing SpinBalance record already captured this product shape.\n\n**New evidence:** `CMSensorRecorder` makes long background accelerometer capture technically possible, but the phone measures only its own acceleration at one placement. Load distribution, cycle stage, spin speed, flooring, case, pedestal, and mounting dominate the result. [ApplianceDoc](https://apps.apple.com/us/app/appliancedoc/id6779322946) now sells exact phone-on-appliance vibration/acoustic analysis, while generic vibration tools are cheaper.\n\n**Reopen when:** A manufacturer specifies the fixture, load, cycle, placement, and model thresholds and accepts the result in service.\n\n**Verdict:** Existing `passed_market` record reinforced; no duplicate created.\n\n## Physical/Digital Boundary lane\n\n## CopyFence\n\n**Concept:** Copy selected iPhone Photos or Files to an attached SSD, reopen and hash both sides, and offer source deletion only after the bytes read by the phone match.\n\n**Why it looked promising:** Both endpoints and the irreversible delete boundary live on the phone, making the observation unusually authoritative and the behavior natural.\n\n**What killed it:** [CCC Mobile Backup](https://bombich.com/ccc-mobile-backup) already copies, verifies, and conditionally removes source files for a few dollars; [OWC Copy That Mobile](https://apps.apple.com/gb/app/owc-copy-that-mobile/id1536830655) and [USB Backup](https://usbbackup.app/) occupy the same offload job. Equality at verification time also does not prove durable media health, complete Photos semantics, or sufficient backup redundancy.\n\n**Reopen when:** A blind head-to-head proves materially stronger handling of iCloud-optimized assets, Live Photos, interruptions, metadata, and large libraries, and 5/20 users prepay despite CCC.\n\n**Verdict:** `passed_market` — exact low-cost incumbent.\n\n## ChargeDrop\n\n**Concept:** Arm when the phone starts charging below a target and alarm if iOS later reports unplugged before that target.\n\n**What killed it:** Exact battery-alarm apps and Shortcuts already occupy the job, while iOS suspension prevents a consumer app from promising an immediate sleeping-state alarm. It can observe `unplugged`, not the reason for it.\n\n**Reopen when:** A sanctioned persistent battery-transition trigger works under suspension and 4/20 users prepay despite existing alarms.\n\n**Verdict:** `passed_market` — exact incumbent and platform reliability.\n\n## TagRun\n\n**Concept:** Import intended NFC payload rows, write the next tag, reread it, and advance only when the readback bytes match.\n\n**What killed it:** [NFC Studio](https://nfcstudio.app/) already markets batch writing, placeholders, write validation, and run validation, while [NFC Check](https://play.google.com/store/apps/details?id=joerikros.nfcchecker) has mass-market bulk writing and history. A readback still cannot prove correct physical placement or authenticity.\n\n**Reopen when:** A vertical asset system supplies a placement invariant unsupported by existing batch tools and distributes the workflow.\n\n**Verdict:** `passed_market` — exact current incumbent.\n\n## WedgeCheck\n\n**Concept:** Scan a known barcode through a Bluetooth HID scanner and show exact received characters, timing, suffix, and terminator.\n\n**What killed it:** Mintsoft's 2026 Scanner Test and Star's Quick Setup Utility already perform the diagnostic, and scanning into Notes is a three-second free substitute. The phone still cannot promise how a different POS host will interpret the scanner.\n\n**Reopen when:** A scanner-fleet provider requests a branded cross-model commissioning tool and supplies distribution.\n\n**Verdict:** `passed_market` — native substitute and incumbent-owned workflow.\n\n## DisplayProof\n\n**Concept:** Detect an external display, show the negotiated mode, and render grid, color, motion, and audio fixtures from the phone.\n\n**What killed it:** [AV Aid](https://apps.apple.com/us/app/av-aid-toolkit/id660072020) and [ProMapper](https://projectionmapping.app/) already cover detection and test patterns. If the event's actual source is a laptop, the phone also tests the wrong signal chain.\n\n**Reopen when:** The phone is the actual event source and a workflow unavailable in current test tools is identified.\n\n**Verdict:** `passed_market` — exact incumbent and source mismatch.\n\n## RentalPurge\n\n**Concept:** Guide a renter through model-specific infotainment deletion before vehicle return.\n\n**What killed it:** The phone cannot inspect or erase data retained by a generic vehicle head unit. The [FTC](https://consumer.ftc.gov/articles/renting-car) already advises renters to delete the device from vehicle settings, and [Privacy4Cars](https://privacy4cars.com/aboutus/) owns model-specific deletion procedures. A checklist cannot truthfully say the vehicle was purged.\n\n**Reopen when:** An OEM or rental-company integration exposes retained-data inventory and an authenticated wipe result.\n\n**Verdict:** `passed_market` — false authority and exact incumbent.\n\n## SensorReady\n\n**Concept:** Wake BLE cycling/running sensors and show whether the phone received live heart-rate, cadence, speed, power, or battery data.\n\n**What killed it:** Wahoo and free BLE tools already display this state. More importantly, a phone connection is not the target head unit's connection and may consume the sensor's only slot.\n\n**Reopen when:** A sanctioned head-unit integration exposes the actual target connection state.\n\n**Verdict:** `passed_market` — host-state mismatch and vendor feature.\n\n## KeyDrill\n\n**Concept:** Test whether a hardware security key can complete a WebAuthn challenge from the phone before the user depends on it for recovery.\n\n**What killed it:** A key authenticating to this app's relying-party identifier says nothing about enrollment at Apple, Google, Microsoft, or an employer. Free WebAuthn test sites and vendor utilities already test transport and key state, while the actual account must be tested in its authoritative system.\n\n**Reopen when:** An identity-provider integration supplies per-account enrollment and test state, with an audited employer-paid implementation.\n\n**Verdict:** `passed_market` — wrong relying party and security authority.\n\n## CrashTape\n\n**Feature merge:** Add external-input route loss to CrashTape's interruption matrix. Apple exposes previous/current audio routes and change reasons. On input loss, the recorder should immediately segment or pause and log an exact marker such as `USB microphone unavailable at 12:43:08; input changed to built-in microphone`.\n\nThis strengthens CrashTape's existing truth boundary; it does not create a separate product or payer. The route event cannot prove the transmitter, subject microphone, or captured quality remained healthy.\n\n## Workflow Failure / WTP lane\n\n## Automation Canary\n\n**Concept:** Put a final background App Intent in a recurring Shortcut. Each callback records completion and re-arms the next local missed-check-in notification.\n\n**Why it looked promising:** The loop is local, phone-owned, recurrent, technically feasible, and has a strong 60-second disable-and-alert demo.\n\n**What killed it:** Automation Control already logs automations and implements a `did not run in the last` condition. Pushcut already exposes schedule/cancel notification primitives, and Healthchecks offers free heartbeats. The safe claim is only `No Canary callback was recorded by the deadline, or monitoring could not re-arm`; it cannot verify previous side effects or guarantee notification delivery.\n\n**Reopen when:** Automation Control cannot provide independent missed-run alerts, Pushcut users reject its recipe, 4/20 qualified users prepay $7.99, and a 100-run physical-device matrix produces zero false-healthy states.\n\n**Verdict:** `passed_market` — exact host feature and free substitutes.\n\n## Etsy PayoutLens\n\n**Concept:** Share Etsy statement/order CSVs, select a bank deposit, and deterministically bridge sales, fees, refunds, reserves, and availability into matched, review, and unexplained rows.\n\n**What killed it:** Etsy publishes a [free reconciliation procedure](https://help.etsy.com/hc/en-us/articles/360016389113-How-to-Calculate-Your-Etsy-Payments-Deposit-Amount), [Seller Profit Guard](https://sellerprofitguard.com/) now performs the exact workflow locally in a free browser tool, [Reconcile Locally](https://usereconly.com/etsy-payout-reconciliation/) offers local files and inexpensive paid reconciliation, and connected accounting products own automation. Etsy is also changing the Payment Account, creating ongoing schema maintenance.\n\n**Reopen when:** Ten sellers prepay after using the exact free tools and the parser matches 100 real regional/reserve/refund deposits without a false match.\n\n**Verdict:** `passed_market` — exact free product and platform remediation.\n\n## Mileage Exception Inbox\n\n**Concept:** Compare exported mileage-tracker trips with Calendar events and flag missing, duplicate, overlapping, or fragmented candidates.\n\n**What killed it:** The two sources are incomplete; their absence cannot reconstruct a drive, distance, path, or business purpose. MileIQ and Everlance already charge for capture, manual repair, classification, and reports and can absorb the comparison.\n\n**Reopen when:** A tracker exposes signed raw location evidence or an accountant/employer adopts the exception report as a normal review artifact.\n\n**Verdict:** `passed_market` — non-authoritative reconciliation.\n\n## MarketClose\n\n**Concept:** At craft-market close, reconcile opening/closing cash with entered Square, Venmo, PayPal, Zelle, and expense totals.\n\n**What killed it:** [FairPulse](https://fairpulse.app/), Market, Evnt, and Square already cover offline sales, tenders, expenses, inventory, and event recaps at free or low monthly prices. Without direct imports, the product adds double entry and still cannot detect an unlogged sale.\n\n**Reopen when:** Automatic multi-rail imports become available and current market-vendor products still lack variance closeout.\n\n**Verdict:** `passed_market` — exact vertical apps.\n\n## BatchTrace Lite\n\n**Concept:** Scan ingredient lots into a cottage-food, soap, or cosmetics production batch and export the recorded trace chain.\n\n**What killed it:** [CottageBatch](https://cottagebatch.com/) already includes package scanning, ingredient lots, expiry, batch logs, labels, and recall reports; [Craftybase](https://craftybase.com/) owns broader maker inventory and traceability. A stripped local ledger carries nearly the same safety/compliance implication with less authority.\n\n**Reopen when:** Three paid producers complete 50 real batches with strong scan accuracy and explicitly prefer records-only software to the incumbents.\n\n**Verdict:** `passed_market` — exact products and compliance risk.\n\n## KitManifest\n\n**Concept:** Import a rental-equipment manifest, check every accessory at pickup and return, and show unmatched items before leaving the counter.\n\n**What killed it:** [Cheqroom](https://www.cheqroom.com/pricing/), [Sortly](https://www.sortly.com/pricing/), and [MyGearVault](https://mygearvault.com/) already cover kits, scanning, custody, and check-in/out. The rental house owns the authoritative issued/accepted state; a renter's private checklist cannot prevent a charge.\n\n**Reopen when:** A rental partner supplies manifests and acknowledges the completed return in its own system.\n\n**Verdict:** `passed_market` — system-of-record mismatch.\n\n## COI Pocket\n\n**Concept:** Extract vendor and expiry fields from Certificates of Insurance and show documents expiring before upcoming jobs.\n\n**What killed it:** [TrustLayer](https://www.trustlayer.io/plans) already provides expirations, renewals, messaging, reports, and document collection free for up to 50 vendors. A certificate states what a PDF says; it does not prove current coverage, endorsements, carrier standing, or contractual sufficiency.\n\n**Reopen when:** Carrier or broker access verifies live policy state with an insurance-backed authority boundary.\n\n**Verdict:** `passed_market` — exact free incumbent and liability boundary.\n\n## FieldShot Gate\n\n**Concept:** Require one photo in each trade-specific shot-template slot before a solo contractor closes or leaves a job.\n\n**What killed it:** [CompanyCam](https://apps.apple.com/us/app/companycam/id960043499) already combines time/location photos, checklists, templates, reports, and integrations with large paid traction; field-form products provide the same pattern. Filling a slot does not prove the photo satisfies a payer or inspector.\n\n**Reopen when:** A payer, franchise, or trade association mandates a narrow template and accepts the artifact.\n\n**Verdict:** `passed_market` — incumbent feature.\n\n## ConsignDiff\n\n**Concept:** Compare a mutually accepted consignment intake with later sales, returns, commission, and payout to flag missing units and settlement differences.\n\n**What killed it:** [Consigna](https://consigna.app/) already provides shared transfer acceptance, sales, returns, and locked closeout ledgers; [Cerno](https://cernostudio.com/) and other consignment systems own the workflow. A one-sided artist record lacks the authority that makes the comparison useful.\n\n**Reopen when:** A gallery, market, or retailer supplies a signed export/API and distributes the product to consignors.\n\n**Verdict:** `passed_market` — exact two-sided products and cold start.\n\n## Cross-review disposition\n\nThe reciprocal attack confirmed zero validation survivors:\n\n- **Automation Canary** ranked least dead because the technical state is real, but all three teams ultimately classified it as a host-feature/market pass after the Automation Control evidence.\n- **CopyFence** had the strongest natural irreversible boundary, but CCC already implements the same verification-and-delete loop below $7.99.\n- **ChirpHunt** had the best crisis-time discovery, but that channel favors WhichBeep's no-install browser tool and ChirpHound's low one-time price.\n- **ChargeWiggle** and **SpinBalance** can record real sensor transitions while still being unable to support the diagnosis users would buy.\n\n## Next-loop directions\n\n1. Naturally occurring two-party acknowledgments where neither side already owns a full vertical system.\n2. Phone-authored local state transitions with a recurring trigger, but only after exact utility searches.\n3. Interruption recovery outside recording, especially processes whose journal can be owned locally.\n4. Reconciliation based on two authoritative exports, provided the phone has a genuine capture/distribution advantage.\n5. Exception detection in hobbies and prosumer tools where the final target, not a proxy, is directly measurable.\n6. Accessibility workflows in which the user controls the truth boundary and co-design can replace inference.\n7. Small-device and accessory workflows newly enabled by current OS triggers, while treating native absorption as the default threat.\n\n## Build recommendation\n\nNone. Loop 1 improved the decision archive but did not produce a product that remained compelling after exact-product, authority, behavior, price, and cross-team attacks.\n",
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+      "plainText": "Idea Mining Round 10 — Autonomous Loop 1\nResearch date: 2026-08-10Method: Three independent research lanes, a fourth integration lane, exact-product and platform searches, then reciprocal cross-review.Starting archive: 173 ideas and 13 research dossiers.Outcome: 27 serious candidates investigated, 26 new pass decisions, one duplicate merged into SpinBalance, one feature merged into CrashTape, and zero promotions.\nExecutive summary\nLoop 1 deliberately searched away from the archive's saturated camera + reminder + PDF pattern. Consumer Friction mined repeated household and device complaints. Physical/Digital Boundary looked for files, sensors, NFC, Bluetooth, interruption recovery, and real-world sequences the phone could observe directly. Workflow Failure/WTP examined recurring prosumer reconciliation and handoff jobs with existing paid behavior.\nThe result was not a shortage of real pain. Smoke-alarm chirps, water leaks, charging failures, lost media, Etsy payout confusion, missed Shortcuts automations, rental-kit discrepancies, and COI renewal all have credible current complaints or paid categories. The failure was product ownership: a mature utility already performed the exact loop, the operating system withheld the state needed to make the conclusion, or the authoritative record belonged to the platform, vendor, relying party, or vertical SaaS.\nThe strongest provisional lead, Automation Canary, was technically sound but commercially dead. A final background App Intent can record its own callback and re-arm a local deadline notification, but Automation Control already logs Shortcuts automations and includes a did not run in the last condition, while Pushcut already exposes identified schedule/cancel notification actions and Healthchecks.io provides free heartbeat monitors. The honest remaining difference was setup convenience.\nLoop statistics\nThree independent discovery lanes plus one integration/red-team lane.About 70 current complaint, product, platform, support, and pricing sources inspected.27 candidates received a truth, authority, frequency, natural-behavior, demo, feasibility, and market test.26 new ideas added to the rejection ledger.One existing record, SpinBalance, absorbed the duplicate WasherVibe research.CrashTape gained an external-input route-loss fixture; RouteLatch was not cloned into a separate idea.Zero finalists, paid-validation promotions, or build recommendations.\nReusable decision rules\nAuthoritative observation is necessary, not sufficient. CopyFence can compare bytes and Automation Canary can record its callback, but exact utilities already sell those truths cheaply.A crisis-time search channel rewards instant tools and incumbents. ChirpHunt, MeterStill, and ChargeWiggle are discovered during the problem, when a free web guide or established $1–$3 utility wins.A phone testing itself may still observe the wrong endpoint. A BLE sensor seen by the phone may still be unavailable to the bike computer; a security key authenticating to one relying party says nothing about another.The paying party usually buys the system of record. Rental houses buy equipment custody, contractors buy job-photo systems, galleries buy consignment ledgers, and bookkeepers buy settlement reconciliation.Local-first and deterministic are no longer enough differentiation. Current browser utilities already process sensitive CSVs locally, explain uncertainty, and charge little or nothing.A feature merge is a valid research result. Route-change observability strengthens CrashTape, but does not create a new payer or product.\nConsumer Friction lane\nChirpHunt\nConcept: Sample an intermittent smoke/CO-style chirp at several positions and rank recordings by strength to help locate the device.\nWhy it looked promising: Current users report searching for mystery chirps for hours or months, and the trigger is immediate. The phone directly owns microphone samples and the demonstration is excellent.\nWhat killed it: WhichBeep already provides a free browser room-sampling flow, while ChirpHound provides warmer/colder guidance, calibration, pattern presets, intervals, and multi-microphone features at a low one-time price. Reflections and automatic gain mean dBFS is not reliable distance or bearing, and Apple warns not to rely on Sound Recognition for high-risk alarms. The only safe claim is that a matching tone was recorded more strongly at one position.\nReopen when: Blind multi-home tests materially beat both incumbents without diagnosing alarm type or safety state.\nVerdict: passed_market — exact incumbent, safety-adjacent authority boundary, and one-session retention.\nLipSync Lens\nConcept: Use the phone camera and microphone to measure the offset between a flash and beep from a television or soundbar test clip.\nWhat killed it: SynQR, AV Sync, LipSync Test Tool, and FixMySync already implement the primitive; Apple TV also has Wireless Audio Sync. The phone's own capture pipelines add latency, and a measured offset does not identify which source, television, eARC path, or soundbar setting should change.\nReopen when: A target-device integration reads and writes the delay setting and demonstrates closed-loop convergence.\nVerdict: passed_market — exact swarm and non-authoritative correction.\nMeterStill\nConcept: Photograph a water meter before and after a no-use interval and calculate implied flow and cost.\nWhat killed it: The current free Fluvo already provides the guided interval, optional photos, leak rate, history, reminders, multi-property support, and projections. Utilities publish the same manual flow test for free. Meter movement is real, but it cannot locate a leak or exclude unnoticed use.\nReopen when: A utility or insurer distributes an authoritative meter/account integration that adds a workflow Fluvo cannot provide.\nVerdict: passed_market — exact free incumbent.\nCabinSizer\nConcept: Scan a carry-on or personal item with AR and compare its approximate envelope with a selected airline limit.\nWhat killed it: Go Carry-On, Hand Luggage, and CabinFit already cover the loop. AR is not the boarding authority; compression, pockets, wheels, weight, fare, operating carrier, and agent enforcement remain outside the scan.\nReopen when: An airline supplies accepted calibration or contractually recognizes the result.\nVerdict: passed_market — free exact products and false-pass risk.\nShareSweep\nConcept: At the share moment, highlight likely personal information in a screenshot and export a user-confirmed redacted copy.\nWhat killed it: Screenshot Editor Blur Text, MaskShot, Scrub, ShareWipe, and other 2025–2026 entrants form a dense exact swarm. Nothing detected can never mean safe to share; sensitive visual context may contain no recognizable text.\nReopen when: A sanctioned pre-share interception surface or a narrow validated sensitive pattern is unavailable in current tools.\nVerdict: passed_market — commodity and dangerous false-negative semantics.\nZonePreview\nConcept: Render upcoming Calendar events as if the phone were already in a destination timezone so a traveler can inspect shifts before departure.\nWhat killed it: Apple already provides Calendar Time Zone Override, Google documents provider behavior, and mature world-clock/calendar products cover previewing. A companion cannot control external providers, invitation changes, or other participants' interpretations.\nReopen when: A deterministic dry run across actual providers exposes failures native calendars cannot show.\nVerdict: passed_market — OS-native and crowded.\nAppBurner\nConcept: Mark a temporary retailer, parking, ticket, or restaurant app for permission review and deletion after a short period.\nWhat killed it: An ordinary iOS app cannot enumerate arbitrary installed apps, observe installation time, revoke their permissions, or uninstall them. Apple exposes installed-app inventory through device management, while the consumer can already use Offload, App Library, Reminders, and Settings.\nReopen when: Apple exposes sanctioned consumer installed-app and permission-management APIs.\nVerdict: passed_scope — the core action is unavailable.\nChargeWiggle\nConcept: During cable/brick/port swaps and a timed wiggle test, log the phone's charging-to-unplugged state transitions.\nWhat killed it: iOS exposes only coarse battery state and level, not negotiated wattage, current, cable identity, or port condition. A transition cannot isolate the cable, adapter, port, contamination, temperature, or software. Free Battery and charger test and the $2.99 Amperes 4 already own the weaker inference.\nReopen when: Apple exposes negotiated power plus stable accessory identity, or repair technicians pay for the transition log alone.\nVerdict: passed_market — insufficient state and cheap incumbents.\nEarFlip\nConcept: Play controlled left/right/mono signals, swap earbuds between ears, and structure the user's observations about whether an imbalance follows the device or ear.\nWhat killed it: The test cannot separate hearing, seal, earwax, adaptive audio, source balance, Bluetooth state, or driver output. Headphone Sound Check, Headphone Check, Mimi Hearing Test, and Apple's balance, Custom Audio Setup, and Ear Tip Fit Test already occupy the surface.\nReopen when: A manufacturer exposes calibrated per-bud acoustic self-test data or service centers accept a standardized protocol.\nVerdict: passed_market — exact/native substitutes and non-localizable cause.\nSpinBalance\nRound-10 duplicate: WasherVibe proposed a phone-on-washer accelerometer/audio comparison across spin cycles. The existing SpinBalance record already captured this product shape.\nNew evidence: CMSensorRecorder makes long background accelerometer capture technically possible, but the phone measures only its own acceleration at one placement. Load distribution, cycle stage, spin speed, flooring, case, pedestal, and mounting dominate the result. ApplianceDoc now sells exact phone-on-appliance vibration/acoustic analysis, while generic vibration tools are cheaper.\nReopen when: A manufacturer specifies the fixture, load, cycle, placement, and model thresholds and accepts the result in service.\nVerdict: Existing passed_market record reinforced; no duplicate created.\nPhysical/Digital Boundary lane\nCopyFence\nConcept: Copy selected iPhone Photos or Files to an attached SSD, reopen and hash both sides, and offer source deletion only after the bytes read by the phone match.\nWhy it looked promising: Both endpoints and the irreversible delete boundary live on the phone, making the observation unusually authoritative and the behavior natural.\nWhat killed it: CCC Mobile Backup already copies, verifies, and conditionally removes source files for a few dollars; OWC Copy That Mobile and USB Backup occupy the same offload job. Equality at verification time also does not prove durable media health, complete Photos semantics, or sufficient backup redundancy.\nReopen when: A blind head-to-head proves materially stronger handling of iCloud-optimized assets, Live Photos, interruptions, metadata, and large libraries, and 5/20 users prepay despite CCC.\nVerdict: passed_market — exact low-cost incumbent.\nChargeDrop\nConcept: Arm when the phone starts charging below a target and alarm if iOS later reports unplugged before that target.\nWhat killed it: Exact battery-alarm apps and Shortcuts already occupy the job, while iOS suspension prevents a consumer app from promising an immediate sleeping-state alarm. It can observe unplugged, not the reason for it.\nReopen when: A sanctioned persistent battery-transition trigger works under suspension and 4/20 users prepay despite existing alarms.\nVerdict: passed_market — exact incumbent and platform reliability.\nTagRun\nConcept: Import intended NFC payload rows, write the next tag, reread it, and advance only when the readback bytes match.\nWhat killed it: NFC Studio already markets batch writing, placeholders, write validation, and run validation, while NFC Check has mass-market bulk writing and history. A readback still cannot prove correct physical placement or authenticity.\nReopen when: A vertical asset system supplies a placement invariant unsupported by existing batch tools and distributes the workflow.\nVerdict: passed_market — exact current incumbent.\nWedgeCheck\nConcept: Scan a known barcode through a Bluetooth HID scanner and show exact received characters, timing, suffix, and terminator.\nWhat killed it: Mintsoft's 2026 Scanner Test and Star's Quick Setup Utility already perform the diagnostic, and scanning into Notes is a three-second free substitute. The phone still cannot promise how a different POS host will interpret the scanner.\nReopen when: A scanner-fleet provider requests a branded cross-model commissioning tool and supplies distribution.\nVerdict: passed_market — native substitute and incumbent-owned workflow.\nDisplayProof\nConcept: Detect an external display, show the negotiated mode, and render grid, color, motion, and audio fixtures from the phone.\nWhat killed it: AV Aid and ProMapper already cover detection and test patterns. If the event's actual source is a laptop, the phone also tests the wrong signal chain.\nReopen when: The phone is the actual event source and a workflow unavailable in current test tools is identified.\nVerdict: passed_market — exact incumbent and source mismatch.\nRentalPurge\nConcept: Guide a renter through model-specific infotainment deletion before vehicle return.\nWhat killed it: The phone cannot inspect or erase data retained by a generic vehicle head unit. The FTC already advises renters to delete the device from vehicle settings, and Privacy4Cars owns model-specific deletion procedures. A checklist cannot truthfully say the vehicle was purged.\nReopen when: An OEM or rental-company integration exposes retained-data inventory and an authenticated wipe result.\nVerdict: passed_market — false authority and exact incumbent.\nSensorReady\nConcept: Wake BLE cycling/running sensors and show whether the phone received live heart-rate, cadence, speed, power, or battery data.\nWhat killed it: Wahoo and free BLE tools already display this state. More importantly, a phone connection is not the target head unit's connection and may consume the sensor's only slot.\nReopen when: A sanctioned head-unit integration exposes the actual target connection state.\nVerdict: passed_market — host-state mismatch and vendor feature.\nKeyDrill\nConcept: Test whether a hardware security key can complete a WebAuthn challenge from the phone before the user depends on it for recovery.\nWhat killed it: A key authenticating to this app's relying-party identifier says nothing about enrollment at Apple, Google, Microsoft, or an employer. Free WebAuthn test sites and vendor utilities already test transport and key state, while the actual account must be tested in its authoritative system.\nReopen when: An identity-provider integration supplies per-account enrollment and test state, with an audited employer-paid implementation.\nVerdict: passed_market — wrong relying party and security authority.\nCrashTape\nFeature merge: Add external-input route loss to CrashTape's interruption matrix. Apple exposes previous/current audio routes and change reasons. On input loss, the recorder should immediately segment or pause and log an exact marker such as USB microphone unavailable at 12:43:08; input changed to built-in microphone.\nThis strengthens CrashTape's existing truth boundary; it does not create a separate product or payer. The route event cannot prove the transmitter, subject microphone, or captured quality remained healthy.\nWorkflow Failure / WTP lane\nAutomation Canary\nConcept: Put a final background App Intent in a recurring Shortcut. Each callback records completion and re-arms the next local missed-check-in notification.\nWhy it looked promising: The loop is local, phone-owned, recurrent, technically feasible, and has a strong 60-second disable-and-alert demo.\nWhat killed it: Automation Control already logs automations and implements a did not run in the last condition. Pushcut already exposes schedule/cancel notification primitives, and Healthchecks offers free heartbeats. The safe claim is only No Canary callback was recorded by the deadline, or monitoring could not re-arm; it cannot verify previous side effects or guarantee notification delivery.\nReopen when: Automation Control cannot provide independent missed-run alerts, Pushcut users reject its recipe, 4/20 qualified users prepay $7.99, and a 100-run physical-device matrix produces zero false-healthy states.\nVerdict: passed_market — exact host feature and free substitutes.\nEtsy PayoutLens\nConcept: Share Etsy statement/order CSVs, select a bank deposit, and deterministically bridge sales, fees, refunds, reserves, and availability into matched, review, and unexplained rows.\nWhat killed it: Etsy publishes a free reconciliation procedure, Seller Profit Guard now performs the exact workflow locally in a free browser tool, Reconcile Locally offers local files and inexpensive paid reconciliation, and connected accounting products own automation. Etsy is also changing the Payment Account, creating ongoing schema maintenance.\nReopen when: Ten sellers prepay after using the exact free tools and the parser matches 100 real regional/reserve/refund deposits without a false match.\nVerdict: passed_market — exact free product and platform remediation.\nMileage Exception Inbox\nConcept: Compare exported mileage-tracker trips with Calendar events and flag missing, duplicate, overlapping, or fragmented candidates.\nWhat killed it: The two sources are incomplete; their absence cannot reconstruct a drive, distance, path, or business purpose. MileIQ and Everlance already charge for capture, manual repair, classification, and reports and can absorb the comparison.\nReopen when: A tracker exposes signed raw location evidence or an accountant/employer adopts the exception report as a normal review artifact.\nVerdict: passed_market — non-authoritative reconciliation.\nMarketClose\nConcept: At craft-market close, reconcile opening/closing cash with entered Square, Venmo, PayPal, Zelle, and expense totals.\nWhat killed it: FairPulse, Market, Evnt, and Square already cover offline sales, tenders, expenses, inventory, and event recaps at free or low monthly prices. Without direct imports, the product adds double entry and still cannot detect an unlogged sale.\nReopen when: Automatic multi-rail imports become available and current market-vendor products still lack variance closeout.\nVerdict: passed_market — exact vertical apps.\nBatchTrace Lite\nConcept: Scan ingredient lots into a cottage-food, soap, or cosmetics production batch and export the recorded trace chain.\nWhat killed it: CottageBatch already includes package scanning, ingredient lots, expiry, batch logs, labels, and recall reports; Craftybase owns broader maker inventory and traceability. A stripped local ledger carries nearly the same safety/compliance implication with less authority.\nReopen when: Three paid producers complete 50 real batches with strong scan accuracy and explicitly prefer records-only software to the incumbents.\nVerdict: passed_market — exact products and compliance risk.\nKitManifest\nConcept: Import a rental-equipment manifest, check every accessory at pickup and return, and show unmatched items before leaving the counter.\nWhat killed it: Cheqroom, Sortly, and MyGearVault already cover kits, scanning, custody, and check-in/out. The rental house owns the authoritative issued/accepted state; a renter's private checklist cannot prevent a charge.\nReopen when: A rental partner supplies manifests and acknowledges the completed return in its own system.\nVerdict: passed_market — system-of-record mismatch.\nCOI Pocket\nConcept: Extract vendor and expiry fields from Certificates of Insurance and show documents expiring before upcoming jobs.\nWhat killed it: TrustLayer already provides expirations, renewals, messaging, reports, and document collection free for up to 50 vendors. A certificate states what a PDF says; it does not prove current coverage, endorsements, carrier standing, or contractual sufficiency.\nReopen when: Carrier or broker access verifies live policy state with an insurance-backed authority boundary.\nVerdict: passed_market — exact free incumbent and liability boundary.\nFieldShot Gate\nConcept: Require one photo in each trade-specific shot-template slot before a solo contractor closes or leaves a job.\nWhat killed it: CompanyCam already combines time/location photos, checklists, templates, reports, and integrations with large paid traction; field-form products provide the same pattern. Filling a slot does not prove the photo satisfies a payer or inspector.\nReopen when: A payer, franchise, or trade association mandates a narrow template and accepts the artifact.\nVerdict: passed_market — incumbent feature.\nConsignDiff\nConcept: Compare a mutually accepted consignment intake with later sales, returns, commission, and payout to flag missing units and settlement differences.\nWhat killed it: Consigna already provides shared transfer acceptance, sales, returns, and locked closeout ledgers; Cerno and other consignment systems own the workflow. A one-sided artist record lacks the authority that makes the comparison useful.\nReopen when: A gallery, market, or retailer supplies a signed export/API and distributes the product to consignors.\nVerdict: passed_market — exact two-sided products and cold start.\nCross-review disposition\nThe reciprocal attack confirmed zero validation survivors:\nAutomation Canary ranked least dead because the technical state is real, but all three teams ultimately classified it as a host-feature/market pass after the Automation Control evidence.CopyFence had the strongest natural irreversible boundary, but CCC already implements the same verification-and-delete loop below $7.99.ChirpHunt had the best crisis-time discovery, but that channel favors WhichBeep's no-install browser tool and ChirpHound's low one-time price.ChargeWiggle and SpinBalance can record real sensor transitions while still being unable to support the diagnosis users would buy.\nNext-loop directions\nNaturally occurring two-party acknowledgments where neither side already owns a full vertical system.Phone-authored local state transitions with a recurring trigger, but only after exact utility searches.Interruption recovery outside recording, especially processes whose journal can be owned locally.Reconciliation based on two authoritative exports, provided the phone has a genuine capture/distribution advantage.Exception detection in hobbies and prosumer tools where the final target, not a proxy, is directly measurable.Accessibility workflows in which the user controls the truth boundary and co-design can replace inference.Small-device and accessory workflows newly enabled by current OS triggers, while treating native absorption as the default threat.\nBuild recommendation\nNone. Loop 1 improved the decision archive but did not produce a product that remained compelling after exact-product, authority, behavior, price, and cross-team attacks.",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop1",
+      "sha256": "sha256:b83c625b98f83f0ecf47b812166afbcf4d419de66d5e185ebca8b8abfa3b0f3f",
+      "slug": "idea-mining-loop-2026-08-10-round10-loop1",
+      "title": "Idea Mining Round 10 — Autonomous Loop 1"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--round-9",
           "depth": 1,
           "text": "Idea Mining Loop — Round 9"
@@ -4030,5 +4545,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591"
+  "sourceHash": "sha256:66d1e9819b7abe8aed3791b3298e14ca2572efaf3daab6a56777ba9737ceb5cb"
 }

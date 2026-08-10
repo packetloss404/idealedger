@@ -21,6 +21,8 @@ Round eight produced **one conditional engineering spike: CrashTape**. It is a r
 
 Round nine promoted **zero** ideas after three independent research lanes and reciprocal cross-review. **CardReceipt** failed because a barcode-overlay attack can make the visible card and receipt identifiers agree while funds go to an attacker. **PathWitness** remained honest only as organized delivery documentation, but official delivery paperwork, current low-cost photo-proof tools, and pre-event discovery made the standalone $7.99 economics weak. The round established that “expensive mistake + camera + reminder + PDF” is now a commodity template unless the phone owns authoritative state or the product has a transaction-timed distribution channel.
 
+Round ten, autonomous Loop 1, promoted **zero** ideas after 27 serious screens and reciprocal cross-review. **Automation Canary** was the least-dead new loop because a final App Intent can authoritatively record its callback, but Automation Control, Pushcut, and free heartbeat services already own the primitive. **CopyFence** had the strongest natural irreversible boundary, but CCC Mobile Backup already verifies phone-to-drive copies before deletion below the target price. WasherVibe was merged into **SpinBalance**, and external-input route-loss observability was merged into **CrashTape** rather than cloned into new records. The round reinforced that authoritative observation alone is not differentiation and that the paying party usually buys the system of record.
+
 ## Catalog
 
 | Idea | Status | Hackathon fit | Core reason | Research |
@@ -181,6 +183,32 @@ Round nine promoted **zero** ideas after three independent research lanes and re
 | Flight Claim Companion | Passed — market | Low | AirHelp and jurisdiction-specific rules make a standalone claim packet weak and risky | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
 | Medication Read-and-Remind | Passed — market | Low | Apple Health and Medisafe own the category and OCR errors are health-critical | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
 | Plant Crisis Triage | Passed — market | Medium | Mature plant apps own the category and diagnosis remains uncertain | [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md) |
+| ChirpHunt | Passed — market | High | WhichBeep and ChirpHound already own the crisis-time localization loop, while audio strength is not distance or alarm diagnosis | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| LipSync Lens | Passed — market | High | Exact measurement apps and Apple TV calibration exist, while the phone cannot identify which device setting should change | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| MeterStill | Passed — market | High | Free Fluvo already performs the exact guided water-meter test and utilities publish the manual method | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| CabinSizer | Passed — market | High | Free AR luggage tools exist and the physical airline sizer remains authoritative | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| ShareSweep | Passed — market | High | A dense screenshot-redaction swarm exists and no detector can imply that an image is safe to share | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| ZonePreview | Passed — market | Medium | Native calendar timezone controls and mature converters already own the surface | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| AppBurner | Passed — scope | Low | Consumer iOS apps cannot enumerate, revoke permissions from, or delete arbitrary installed apps | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| ChargeWiggle | Passed — market | Medium | iOS withholds the electrical state needed to isolate cable, adapter, or port faults and cheaper tools own the inference | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| EarFlip | Passed — market | Medium | The phone cannot localize hearing, fit, source, Bluetooth, and driver causes; exact/native tests exist | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| CopyFence | Passed — market | High | CCC and other low-cost tools already verify phone-to-drive copies before conditional deletion | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| ChargeDrop | Passed — market | Medium | Existing battery alarms and iOS suspension defeat a guaranteed overnight disconnect alert | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| TagRun | Passed — market | High | NFC Studio already provides batch writing and readback validation, which still cannot prove physical placement | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| WedgeCheck | Passed — market | High | Mintsoft and Star include scanner tests, while Notes is an adequate free substitute | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| DisplayProof | Passed — market | High | AV Aid and ProMapper own the test surface, and a phone may test the wrong source chain | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| RentalPurge | Passed — market | Medium | The phone cannot inspect vehicle-retained data and Privacy4Cars owns deletion procedures | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| SensorReady | Passed — market | Medium | A phone-side BLE connection is not the target head unit's state and vendor apps already show sensor status | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| KeyDrill | Passed — market | Low | A WebAuthn test for one relying party cannot prove enrollment or recovery at another | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| Automation Canary | Passed — market | High | Automation Control, Pushcut, and free heartbeat monitors already own missed-run detection primitives | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| Etsy PayoutLens | Passed — market | Medium | Seller Profit Guard and Reconcile Locally already perform the local reconciliation, while Etsy is improving its own account view | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| Mileage Exception Inbox | Passed — market | Medium | Differences between incomplete exports and Calendar cannot reconstruct authoritative mileage or business purpose | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| MarketClose | Passed — market | High | FairPulse, Market, Evnt, and Square already cover event sales and closeout; manual totals add double entry | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| BatchTrace Lite | Passed — market | Medium | CottageBatch and Craftybase own the traceability workflow with more authority and context | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| KitManifest | Passed — market | High | Rental and inventory systems own the authoritative issue/return state; a renter checklist is private evidence | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| COI Pocket | Passed — market | Medium | TrustLayer covers the low-volume workflow free and a PDF cannot prove current coverage | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| FieldShot Gate | Passed — market | High | CompanyCam and field-form products already own required-photo templates and reports | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| ConsignDiff | Passed — market | Medium | Consigna and other two-sided systems already provide shared acceptance and locked reconciliation | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
 
 ## Current shortlist to preserve
 

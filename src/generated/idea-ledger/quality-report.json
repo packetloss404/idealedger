@@ -1,15 +1,15 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 13,
-    "headingMatchedIdeas": 52,
-    "headingReferences": 53,
-    "ideas": 173,
+    "dossiers": 14,
+    "headingMatchedIdeas": 79,
+    "headingReferences": 81,
+    "ideas": 199,
     "ideasWithoutResearch": 11,
-    "mentionOnlyIdeas": 100,
+    "mentionOnlyIdeas": 99,
     "mentionReferences": 103,
-    "multiRefIdeas": 10,
-    "researchEdges": 172,
+    "multiRefIdeas": 12,
+    "researchEdges": 200,
     "unmappedReferences": 16
   },
   "researchProvenance": [
@@ -147,6 +147,22 @@
       ]
     },
     {
+      "ideaId": "av-lip-sync-measurement",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "lipsync-lens",
+            "depth": 2,
+            "text": "LipSync Lens"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "bakery-batch-handoff",
       "quality": "heading",
       "references": [
@@ -205,6 +221,38 @@
       ]
     },
     {
+      "ideaId": "ble-sports-sensor-preflight",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "sensorready",
+            "depth": 2,
+            "text": "SensorReady"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "bluetooth-hid-preflight",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "wedgecheck",
+            "depth": 2,
+            "text": "WedgeCheck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "boarding-pass-bag-tag-pair",
       "quality": "mention",
       "references": [
@@ -253,6 +301,22 @@
       ]
     },
     {
+      "ideaId": "calendar-timezone-preview",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "zonepreview",
+            "depth": 2,
+            "text": "ZonePreview"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "call-sheet-delta-ack",
       "quality": "heading",
       "references": [
@@ -293,6 +357,22 @@
       ]
     },
     {
+      "ideaId": "carry-on-ar-size-check",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "cabinsizer",
+            "depth": 2,
+            "text": "CabinSizer"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "cash-drawer-blind-close",
       "quality": "heading",
       "references": [
@@ -304,6 +384,38 @@
             "text": "DrawerDuo / CashClose Witness"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "charge-drop-alarm",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "chargedrop",
+            "depth": 2,
+            "text": "ChargeDrop"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "charging-continuity-log",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "chargewiggle",
+            "depth": 2,
+            "text": "ChargeWiggle"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
         }
       ]
@@ -333,6 +445,22 @@
       ]
     },
     {
+      "ideaId": "coi-expiry-pocket",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "coi-pocket",
+            "depth": 2,
+            "text": "COI Pocket"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "confirmed-spoken-details",
       "quality": "heading",
       "references": [
@@ -344,6 +472,22 @@
             "text": "2. Confirmed Spoken Details — conditional co-design test"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "consignment-settlement-diff",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "consigndiff",
+            "depth": 2,
+            "text": "ConsignDiff"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
         }
       ]
@@ -419,6 +563,22 @@
       ]
     },
     {
+      "ideaId": "craft-market-close-reconcile",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "marketclose",
+            "depth": 2,
+            "text": "MarketClose"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "crash-recoverable-field-recorder",
       "quality": "heading",
       "references": [
@@ -430,6 +590,16 @@
             "text": "Conditional survivor: CrashTape"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "crashtape",
+            "depth": 2,
+            "text": "CrashTape"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
         }
       ]
@@ -548,6 +718,22 @@
       ]
     },
     {
+      "ideaId": "earbud-asymmetry-isolation",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "earflip",
+            "depth": 2,
+            "text": "EarFlip"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "ebay-replacement",
       "quality": "none",
       "references": []
@@ -585,6 +771,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "etsy-payout-reconciliation",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "etsy-payoutlens",
+            "depth": 2,
+            "text": "Etsy PayoutLens"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -655,6 +857,22 @@
       ]
     },
     {
+      "ideaId": "external-display-test-source",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "displayproof",
+            "depth": 2,
+            "text": "DisplayProof"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "fabric-bolt-job-gate",
       "quality": "heading",
       "references": [
@@ -691,6 +909,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "field-shot-requirement-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "fieldshot-gate",
+            "depth": 2,
+            "text": "FieldShot Gate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1096,6 +1330,38 @@
       ]
     },
     {
+      "ideaId": "maker-batch-trace-lite",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "batchtrace-lite",
+            "depth": 2,
+            "text": "BatchTrace Lite"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "manual-water-meter-leak-test",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "meterstill",
+            "depth": 2,
+            "text": "MeterStill"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "media-card-custody",
       "quality": "heading",
       "references": [
@@ -1174,6 +1440,22 @@
       ]
     },
     {
+      "ideaId": "mileage-exception-inbox",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "mileage-exception-inbox",
+            "depth": 2,
+            "text": "Mileage Exception Inbox"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "mobile-service-no-access-handshake",
       "quality": "heading",
       "references": [
@@ -1210,6 +1492,38 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "mystery-alarm-chirp-localizer",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "chirphunt",
+            "depth": 2,
+            "text": "ChirpHunt"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "nfc-batch-readback",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "tagrun",
+            "depth": 2,
+            "text": "TagRun"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1578,13 +1892,23 @@
     },
     {
       "ideaId": "relative-vibration-compare",
-      "quality": "mention",
+      "quality": "heading",
       "references": [
         {
           "dossierSlug": "idea-mining-loop-2026-08-09-round6",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "spinbalance",
+            "depth": 2,
+            "text": "SpinBalance"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1597,6 +1921,38 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rental-infotainment-purge",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "rentalpurge",
+            "depth": 2,
+            "text": "RentalPurge"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "rental-kit-manifest",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "kitmanifest",
+            "depth": 2,
+            "text": "KitManifest"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1827,6 +2183,22 @@
       "references": []
     },
     {
+      "ideaId": "screenshot-pii-preflight",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "sharesweep",
+            "depth": 2,
+            "text": "ShareSweep"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "security-deposit-evidence",
       "quality": "mention",
       "references": [
@@ -1841,6 +2213,22 @@
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "security-key-readiness-drill",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "keydrill",
+            "depth": 2,
+            "text": "KeyDrill"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1893,6 +2281,22 @@
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "shortcuts-automation-canary",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "automation-canary",
+            "depth": 2,
+            "text": "Automation Canary"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1953,6 +2357,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "temporary-app-expiry",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "appburner",
+            "depth": 2,
+            "text": "AppBurner"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2187,6 +2607,22 @@
       ]
     },
     {
+      "ideaId": "verified-phone-ssd-offload",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop1",
+          "heading": {
+            "anchor": "copyfence",
+            "depth": 2,
+            "text": "CopyFence"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "visual-queue-watcher",
       "quality": "mention",
       "references": [
@@ -2291,21 +2727,26 @@
     "adult",
     "agriculture",
     "alarmkit",
-    "alarms",
     "amazon",
     "analytics",
     "animal-care",
     "anxiety",
+    "app-intents",
     "appeals",
+    "apps",
+    "artists",
     "assets",
     "audible",
     "audio-analysis",
     "audiobooks",
+    "augmented-reality",
     "authentication",
     "authorization-holds",
     "auto",
     "autofill",
+    "automation",
     "autoscroll",
+    "av",
     "baggage",
     "bakeries",
     "bank-details",
@@ -2333,27 +2774,24 @@
     "care",
     "care-labels",
     "cars",
-    "cash",
     "cellular",
     "change-orders",
-    "charging",
     "checkout",
     "checkpoint",
     "checksums",
     "cinema",
+    "cleanup",
     "client-approval",
     "client-communication",
-    "closeout",
     "clothing",
     "coffee",
     "commerce",
     "comparison",
-    "compliance",
     "composites",
     "connectivity",
     "consent",
+    "consignment",
     "consumer-protection",
-    "contractors",
     "contracts",
     "controls",
     "counting",
@@ -2367,8 +2805,10 @@
     "crm",
     "cross-device",
     "crowdsourcing",
+    "csv",
     "custom-goods",
     "customer-service",
+    "cycling",
     "data",
     "deadlines",
     "deaf",
@@ -2376,19 +2816,21 @@
     "dealers",
     "decision-making",
     "delisting",
+    "deployment",
     "detention",
     "devices",
     "diabetes",
     "diagnosis",
-    "diagnostics",
     "discovery",
     "dispatch",
+    "displays",
     "dj",
     "drain-plug",
     "drapery",
     "drivers",
     "drums",
     "dry-cleaning",
+    "earbuds",
     "ebooks",
     "ecommerce",
     "electrical",
@@ -2397,10 +2839,11 @@
     "emergency-preparedness",
     "engraving",
     "epoxy",
-    "equipment",
     "esim",
     "estimates",
+    "etsy",
     "exif",
+    "expiry",
     "fabric",
     "facilitation",
     "fact-checking",
@@ -2432,7 +2875,6 @@
     "geofencing",
     "geometry",
     "gift-cards",
-    "gig-work",
     "glp-1",
     "glyphs",
     "green-button",
@@ -2440,10 +2882,13 @@
     "grooming",
     "guitar",
     "hard-of-hearing",
+    "hardware-keys",
     "hardware-state",
     "health",
+    "hearing",
     "high-stakes",
     "home-services",
+    "home-theater",
     "horses",
     "host-feature",
     "households",
@@ -2463,6 +2908,7 @@
     "judgment",
     "keys",
     "laundry",
+    "leaks",
     "lending",
     "licensing",
     "live-streaming",
@@ -2471,18 +2917,22 @@
     "local-commerce",
     "local-first",
     "local-network",
+    "localization",
     "lock-screen",
     "logistics",
+    "luggage",
     "magnetometer",
     "mail",
+    "makers",
     "manufacturing",
     "mapping",
     "maps",
     "marine",
     "markers",
+    "markets",
     "measurements",
     "meetings",
-    "mileage",
+    "meters",
     "mixing",
     "mobile",
     "mobile-services",
@@ -2491,7 +2941,6 @@
     "navigation",
     "negotiation",
     "news",
-    "notifications",
     "nutrition",
     "offers",
     "on-device",
@@ -2503,8 +2952,10 @@
     "parents",
     "parsing",
     "parts",
+    "payouts",
     "pedals",
     "performance",
+    "permissions",
     "personal-crm",
     "pesticides",
     "pet-grooming",
@@ -2520,7 +2971,6 @@
     "playback",
     "pocket-casts",
     "podcasts",
-    "pos",
     "practice",
     "prescriptions",
     "presence",
@@ -2534,11 +2984,12 @@
     "quick-entry",
     "quotes",
     "re-entry",
+    "redaction",
     "reference",
     "regulation",
     "rehearsal",
     "rekordbox",
-    "reliability",
+    "rentals",
     "renters",
     "replacement-parts",
     "replenishment",
@@ -2558,18 +3009,18 @@
     "schedules",
     "school",
     "scope-creep",
-    "screenshots",
     "seller-tools",
-    "sellers",
     "serial-numbers",
     "service",
     "setlists",
+    "settlements",
+    "sharing",
     "shift-workers",
     "shifts",
     "shopping",
     "shortages",
+    "shortcuts",
     "silhouette",
-    "small-business",
     "smart-home",
     "solar",
     "sonos",
@@ -2581,19 +3032,20 @@
     "streaming",
     "subscriptions",
     "takeout",
+    "taxes",
     "teardown",
     "temperature",
     "thread",
     "tickets",
     "tile",
     "timelines",
+    "timezones",
     "todoist",
     "tolls",
     "torque-angle",
     "totp",
     "tou",
     "towing",
-    "traceability",
     "tracking",
     "trade-in",
     "translation",
@@ -2605,7 +3057,6 @@
     "usb",
     "vacation-rentals",
     "vehicles",
-    "vendors",
     "venues",
     "vibration",
     "vinyl",
@@ -2613,7 +3064,9 @@
     "waitlists",
     "wallet",
     "warranty",
+    "water",
     "water-softener",
+    "webauthn",
     "weights",
     "welding",
     "wheelchair",
@@ -2622,11 +3075,11 @@
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591",
+  "sourceHash": "sha256:66d1e9819b7abe8aed3791b3298e14ca2572efaf3daab6a56777ba9737ceb5cb",
   "tagStats": {
-    "assignments": 778,
-    "doubletons": 68,
-    "singletons": 335,
-    "unique": 468
+    "assignments": 908,
+    "doubletons": 75,
+    "singletons": 352,
+    "unique": 510
   }
 }

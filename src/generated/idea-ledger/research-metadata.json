@@ -1057,6 +1057,235 @@
     {
       "headings": [
         {
+          "anchor": "idea-mining-round-10--autonomous-loop-1",
+          "depth": 1,
+          "text": "Idea Mining Round 10 — Autonomous Loop 1"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "loop-statistics",
+          "depth": 2,
+          "text": "Loop statistics"
+        },
+        {
+          "anchor": "reusable-decision-rules",
+          "depth": 2,
+          "text": "Reusable decision rules"
+        },
+        {
+          "anchor": "consumer-friction-lane",
+          "depth": 2,
+          "text": "Consumer Friction lane"
+        },
+        {
+          "anchor": "chirphunt",
+          "depth": 2,
+          "text": "ChirpHunt"
+        },
+        {
+          "anchor": "lipsync-lens",
+          "depth": 2,
+          "text": "LipSync Lens"
+        },
+        {
+          "anchor": "meterstill",
+          "depth": 2,
+          "text": "MeterStill"
+        },
+        {
+          "anchor": "cabinsizer",
+          "depth": 2,
+          "text": "CabinSizer"
+        },
+        {
+          "anchor": "sharesweep",
+          "depth": 2,
+          "text": "ShareSweep"
+        },
+        {
+          "anchor": "zonepreview",
+          "depth": 2,
+          "text": "ZonePreview"
+        },
+        {
+          "anchor": "appburner",
+          "depth": 2,
+          "text": "AppBurner"
+        },
+        {
+          "anchor": "chargewiggle",
+          "depth": 2,
+          "text": "ChargeWiggle"
+        },
+        {
+          "anchor": "earflip",
+          "depth": 2,
+          "text": "EarFlip"
+        },
+        {
+          "anchor": "spinbalance",
+          "depth": 2,
+          "text": "SpinBalance"
+        },
+        {
+          "anchor": "physicaldigital-boundary-lane",
+          "depth": 2,
+          "text": "Physical/Digital Boundary lane"
+        },
+        {
+          "anchor": "copyfence",
+          "depth": 2,
+          "text": "CopyFence"
+        },
+        {
+          "anchor": "chargedrop",
+          "depth": 2,
+          "text": "ChargeDrop"
+        },
+        {
+          "anchor": "tagrun",
+          "depth": 2,
+          "text": "TagRun"
+        },
+        {
+          "anchor": "wedgecheck",
+          "depth": 2,
+          "text": "WedgeCheck"
+        },
+        {
+          "anchor": "displayproof",
+          "depth": 2,
+          "text": "DisplayProof"
+        },
+        {
+          "anchor": "rentalpurge",
+          "depth": 2,
+          "text": "RentalPurge"
+        },
+        {
+          "anchor": "sensorready",
+          "depth": 2,
+          "text": "SensorReady"
+        },
+        {
+          "anchor": "keydrill",
+          "depth": 2,
+          "text": "KeyDrill"
+        },
+        {
+          "anchor": "crashtape",
+          "depth": 2,
+          "text": "CrashTape"
+        },
+        {
+          "anchor": "workflow-failure--wtp-lane",
+          "depth": 2,
+          "text": "Workflow Failure / WTP lane"
+        },
+        {
+          "anchor": "automation-canary",
+          "depth": 2,
+          "text": "Automation Canary"
+        },
+        {
+          "anchor": "etsy-payoutlens",
+          "depth": 2,
+          "text": "Etsy PayoutLens"
+        },
+        {
+          "anchor": "mileage-exception-inbox",
+          "depth": 2,
+          "text": "Mileage Exception Inbox"
+        },
+        {
+          "anchor": "marketclose",
+          "depth": 2,
+          "text": "MarketClose"
+        },
+        {
+          "anchor": "batchtrace-lite",
+          "depth": 2,
+          "text": "BatchTrace Lite"
+        },
+        {
+          "anchor": "kitmanifest",
+          "depth": 2,
+          "text": "KitManifest"
+        },
+        {
+          "anchor": "coi-pocket",
+          "depth": 2,
+          "text": "COI Pocket"
+        },
+        {
+          "anchor": "fieldshot-gate",
+          "depth": 2,
+          "text": "FieldShot Gate"
+        },
+        {
+          "anchor": "consigndiff",
+          "depth": 2,
+          "text": "ConsignDiff"
+        },
+        {
+          "anchor": "cross-review-disposition",
+          "depth": 2,
+          "text": "Cross-review disposition"
+        },
+        {
+          "anchor": "next-loop-directions",
+          "depth": 2,
+          "text": "Next-loop directions"
+        },
+        {
+          "anchor": "build-recommendation",
+          "depth": 2,
+          "text": "Build recommendation"
+        }
+      ],
+      "linkedIdeaIds": [
+        "av-lip-sync-measurement",
+        "ble-sports-sensor-preflight",
+        "bluetooth-hid-preflight",
+        "calendar-timezone-preview",
+        "carry-on-ar-size-check",
+        "charge-drop-alarm",
+        "charging-continuity-log",
+        "coi-expiry-pocket",
+        "consignment-settlement-diff",
+        "craft-market-close-reconcile",
+        "crash-recoverable-field-recorder",
+        "earbud-asymmetry-isolation",
+        "etsy-payout-reconciliation",
+        "external-display-test-source",
+        "field-shot-requirement-gate",
+        "maker-batch-trace-lite",
+        "manual-water-meter-leak-test",
+        "mileage-exception-inbox",
+        "mystery-alarm-chirp-localizer",
+        "nfc-batch-readback",
+        "relative-vibration-compare",
+        "rental-infotainment-purge",
+        "rental-kit-manifest",
+        "screenshot-pii-preflight",
+        "security-key-readiness-drill",
+        "shortcuts-automation-canary",
+        "temporary-app-expiry",
+        "verified-phone-ssd-offload"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop1",
+      "sha256": "sha256:b83c625b98f83f0ecf47b812166afbcf4d419de66d5e185ebca8b8abfa3b0f3f",
+      "slug": "idea-mining-loop-2026-08-10-round10-loop1",
+      "title": "Idea Mining Round 10 — Autonomous Loop 1"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--round-9",
           "depth": 1,
           "text": "Idea Mining Loop — Round 9"
@@ -1896,5 +2125,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591"
+  "sourceHash": "sha256:66d1e9819b7abe8aed3791b3298e14ca2572efaf3daab6a56777ba9737ceb5cb"
 }

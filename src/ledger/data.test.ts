@@ -16,13 +16,13 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(173);
-    expect(researchMetadata).toHaveLength(13);
+    expect(ideas).toHaveLength(199);
+    expect(researchMetadata).toHaveLength(14);
     expect(ledgerCounts).toEqual({
-      dossiers: 13,
-      ideas: 173,
-      researchEdges: 172,
-      searchDocuments: 186,
+      dossiers: 14,
+      ideas: 199,
+      researchEdges: 200,
+      searchDocuments: 213,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -49,20 +49,20 @@ describe('generated ledger repository', () => {
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(13);
+    expect(repository.documents).toHaveLength(14);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
 
   it.each([
-    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape'],
-    ['weed-check', '2-weedcheck--strongest-shipaton-candidate'],
-    ['lot-match', '1-lotmatch--strongest-business-candidate'],
-    ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt'],
-  ])('exposes a generator-owned heading anchor for %s', (ideaId, expectedAnchor) => {
+    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 2],
+    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 1],
+    ['lot-match', '1-lotmatch--strongest-business-candidate', 1],
+    ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
+  ])('exposes a generator-owned heading anchor for %s', (ideaId, expectedAnchor, count) => {
     const provenance = getResearchProvenance(ideaId);
     expect(provenance?.quality).toBe('heading');
-    expect(provenance?.references).toHaveLength(1);
+    expect(provenance?.references).toHaveLength(count);
     expect(provenance?.references[0]?.heading?.anchor).toBe(expectedAnchor);
   });
 
@@ -83,6 +83,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(468);
+    expect(tagOptions).toHaveLength(510);
   });
 });

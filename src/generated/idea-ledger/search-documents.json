@@ -215,6 +215,28 @@
     {
       "fields": {
         "aliases": [
+          "tv audio delay meter"
+        ],
+        "decisionReason": "synqr av sync lipsync test tool fixmysync and apple tv wireless audio sync already occupy the measurement loop the phone adds its own capture latency and cannot identify which source television earc path or soundbar setting should change",
+        "name": "lipsync lens",
+        "oneLiner": "use the phone camera and microphone to estimate the offset between a flash and beep from a television or soundbar test clip",
+        "resurrectionTrigger": "a target device integration reads and writes the actual delay setting and proves closed loop convergence across sources and formats",
+        "tags": [
+          "audio",
+          "video",
+          "home theater",
+          "measurement",
+          "calibration"
+        ]
+      },
+      "key": "idea:av-lip-sync-measurement",
+      "route": "/ideas/av-lip-sync-measurement",
+      "title": "LipSync Lens",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "dough handoff"
         ],
         "decisionReason": "the custody handoff is clearer than a generic bakery timer but bakeonyx doughflow crown qms and other bakery systems already make production stages shared team state cross phone sync food safety expectations kitchen phone hygiene and shared tablet substitutes make the standalone team app weak",
@@ -296,6 +318,50 @@
       "key": "idea:basketcheck",
       "route": "/ideas/basketcheck",
       "title": "BasketCheck",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "ble sports sensor check"
+        ],
+        "decisionReason": "wahoo and free ble tools already display the state a phone connection is not the target head unit s connection and may consume the sensor s only available slot so the check can perturb the system it claims to preflight",
+        "name": "sensorready",
+        "oneLiner": "wake cycling or running sensors and show whether the phone received live heart rate cadence speed power or battery data",
+        "resurrectionTrigger": "a sanctioned head unit integration exposes the actual target connection state across vendors",
+        "tags": [
+          "bluetooth",
+          "fitness",
+          "cycling",
+          "sensors",
+          "preflight"
+        ]
+      },
+      "key": "idea:ble-sports-sensor-preflight",
+      "route": "/ideas/ble-sports-sensor-preflight",
+      "title": "SensorReady",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "bluetooth scanner test"
+        ],
+        "decisionReason": "mintsoft scanner test and star quick setup already perform the diagnostic and scanning into notes is a three second free substitute the phone still cannot promise how a different pos host will interpret the scanner",
+        "name": "wedgecheck",
+        "oneLiner": "scan a known barcode through a bluetooth hid scanner and show the exact received characters timing suffix and terminator",
+        "resurrectionTrigger": "a scanner fleet provider requests a branded cross model commissioning tool and supplies distribution and configuration data",
+        "tags": [
+          "bluetooth",
+          "barcode",
+          "hardware",
+          "preflight",
+          "pos"
+        ]
+      },
+      "key": "idea:bluetooth-hid-preflight",
+      "route": "/ideas/bluetooth-hid-preflight",
+      "title": "WedgeCheck",
       "type": "idea"
     },
     {
@@ -388,6 +454,28 @@
     {
       "fields": {
         "aliases": [
+          "travel calendar rehearsal"
+        ],
+        "decisionReason": "apple calendar time zone override google calendar behavior and mature world clock products already cover the surface a companion cannot control provider semantics invitation updates or how other participants interpret the event",
+        "name": "zonepreview",
+        "oneLiner": "render upcoming calendar events as if the phone were already in a destination timezone so a traveler can inspect shifts before departure",
+        "resurrectionTrigger": "a deterministic dry run across the user s real calendar providers reveals a failure native calendars cannot display",
+        "tags": [
+          "calendar",
+          "travel",
+          "timezones",
+          "preflight",
+          "events"
+        ]
+      },
+      "key": "idea:calendar-timezone-preview",
+      "route": "/ideas/calendar-timezone-preview",
+      "title": "ZonePreview",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "call delta"
         ],
         "decisionReason": "sethero epitome prod ai callsheet pro and callsheet crew calls already track delivery live changes versions and confirmations the remaining product still faces roster accuracy sms email delivery and production wide adoption",
@@ -452,6 +540,28 @@
     {
       "fields": {
         "aliases": [
+          "ar carry on precheck"
+        ],
+        "decisionReason": "go carry on hand luggage and cabinfit already cover the job ar is not the boarding authority and compression wheels weight fare class operating carrier route and gate agent enforcement can make a positive result misleading",
+        "name": "cabinsizer",
+        "oneLiner": "scan a carry on or personal item with ar and compare its approximate envelope with a selected airline limit",
+        "resurrectionTrigger": "an airline supplies accepted calibration or contractually recognizes the phone result at boarding",
+        "tags": [
+          "travel",
+          "luggage",
+          "augmented reality",
+          "airlines",
+          "measurement"
+        ]
+      },
+      "key": "idea:carry-on-ar-size-check",
+      "route": "/ideas/carry-on-ar-size-check",
+      "title": "CabinSizer",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "cashclose witness"
         ],
         "decisionReason": "cash count revenueregister and modern pos systems already support blind counts employee drawers and reconciliation same phone entry does not independently verify two people and the workflow belongs inside the authoritative pos ledger",
@@ -469,6 +579,50 @@
       "key": "idea:cash-drawer-blind-close",
       "route": "/ideas/cash-drawer-blind-close",
       "title": "DrawerDuo",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "charging stopped alarm"
+        ],
+        "decisionReason": "battery charge alarm android unplug alarms and shortcuts already occupy the job while ios suspension prevents a consumer app from guaranteeing the promised sleeping state alarm the phone can observe unplugged not why charging stopped",
+        "name": "chargedrop",
+        "oneLiner": "arm when the phone begins charging below a chosen target and alarm if ios later reports unplugged before that target",
+        "resurrectionTrigger": "a sanctioned persistent battery transition trigger works under suspension and at least 4 of 20 users prepay despite existing alarms",
+        "tags": [
+          "charging",
+          "alarms",
+          "battery",
+          "notifications",
+          "reliability"
+        ]
+      },
+      "key": "idea:charge-drop-alarm",
+      "route": "/ideas/charge-drop-alarm",
+      "title": "ChargeDrop",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "charging cable continuity test"
+        ],
+        "decisionReason": "ios exposes only coarse battery state not negotiated power current cable identity or port condition so transitions cannot isolate the cause battery and charger test and amperes already own the weaker comparison below 7 99",
+        "name": "chargewiggle",
+        "oneLiner": "during cable adapter and port swaps log the phone s charging to unplugged state transitions through a timed movement test",
+        "resurrectionTrigger": "apple exposes negotiated power plus stable accessory identity or repair technicians demonstrate paid demand for the transition log alone",
+        "tags": [
+          "charging",
+          "hardware",
+          "diagnostics",
+          "battery",
+          "usb c"
+        ]
+      },
+      "key": "idea:charging-continuity-log",
+      "route": "/ideas/charging-continuity-log",
+      "title": "ChargeWiggle",
       "type": "idea"
     },
     {
@@ -516,6 +670,28 @@
     {
       "fields": {
         "aliases": [
+          "certificate of insurance tracker"
+        ],
+        "decisionReason": "trustlayer already provides expirations renewals messaging reports and document collection free for up to 50 vendors a certificate states what a pdf says it does not prove current coverage endorsements carrier standing or contractual sufficiency",
+        "name": "coi pocket",
+        "oneLiner": "extract vendor and expiry fields from certificates of insurance and show documents expiring before upcoming jobs",
+        "resurrectionTrigger": "carrier or broker access verifies live policy state with an insurance backed authority boundary",
+        "tags": [
+          "insurance",
+          "documents",
+          "vendors",
+          "expiry",
+          "contractors"
+        ]
+      },
+      "key": "idea:coi-expiry-pocket",
+      "route": "/ideas/coi-expiry-pocket",
+      "title": "COI Pocket",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "confirm",
           "speaker confirmation handshake"
         ],
@@ -533,6 +709,28 @@
       "key": "idea:confirmed-spoken-details",
       "route": "/ideas/confirmed-spoken-details",
       "title": "Confirmed Spoken Details",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "artist consignment reconciliation"
+        ],
+        "decisionReason": "consigna already provides shared transfer acceptance sales returns and locked closeout ledgers while cerno and consignment systems own the workflow a one sided artist record lacks the authority that makes the comparison useful",
+        "name": "consigndiff",
+        "oneLiner": "compare an accepted consignment intake with later sales returns commission and payout to flag missing units and settlement differences",
+        "resurrectionTrigger": "a gallery market or retailer supplies a signed export or api and distributes the product to consignors",
+        "tags": [
+          "consignment",
+          "artists",
+          "inventory",
+          "settlements",
+          "reconciliation"
+        ]
+      },
+      "key": "idea:consignment-settlement-diff",
+      "route": "/ideas/consignment-settlement-diff",
+      "title": "ConsignDiff",
       "type": "idea"
     },
     {
@@ -637,6 +835,28 @@
       "key": "idea:counter-personalization-approval",
       "route": "/ideas/counter-personalization-approval",
       "title": "TypeLock",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "craft fair closeout"
+        ],
+        "decisionReason": "fairpulse market evnt and square already cover offline sales tenders expenses inventory and event recaps at free or low monthly prices without direct imports this adds double entry and still cannot detect an unlogged sale",
+        "name": "marketclose",
+        "oneLiner": "at craft market close reconcile opening and closing cash with entered card peer payment and expense totals",
+        "resurrectionTrigger": "automatic multi rail imports become available and existing market vendor products still lack a true variance closeout",
+        "tags": [
+          "markets",
+          "cash",
+          "payments",
+          "reconciliation",
+          "sellers"
+        ]
+      },
+      "key": "idea:craft-market-close-reconcile",
+      "route": "/ideas/craft-market-close-reconcile",
+      "title": "MarketClose",
       "type": "idea"
     },
     {
@@ -864,6 +1084,28 @@
     {
       "fields": {
         "aliases": [
+          "one earbud imbalance test"
+        ],
+        "decisionReason": "the phone cannot separate hearing fit earwax adaptive audio source balance bluetooth state and driver output exact headphone tests hearing test apps and apple s balance custom audio setup and ear tip fit test already occupy the workflow",
+        "name": "earflip",
+        "oneLiner": "play controlled stereo signals and guide an earbud swap to record whether a perceived imbalance follows the device or the ear",
+        "resurrectionTrigger": "a manufacturer exposes calibrated per bud acoustic self test data or service centers accept a standardized swap protocol",
+        "tags": [
+          "audio",
+          "earbuds",
+          "accessibility",
+          "diagnostics",
+          "hearing"
+        ]
+      },
+      "key": "idea:earbud-asymmetry-isolation",
+      "route": "/ideas/earbud-asymmetry-isolation",
+      "title": "EarFlip",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "new ebay"
         ],
         "decisionReason": "the grievances are real but liquidity trust and safety payments disputes shipping and support make this a company scale operation rather than a hackathon app",
@@ -945,6 +1187,28 @@
       "key": "idea:equipment-return-receipt-pair",
       "route": "/ideas/equipment-return-receipt-pair",
       "title": "GearReturn Pair",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "etsy deposit bridge"
+        ],
+        "decisionReason": "etsy publishes a free reconciliation method seller profit guard now performs the exact local workflow free in a browser reconcile locally offers inexpensive local processing and connected accounting tools own automation the native share sheet is only a convenience",
+        "name": "etsy payoutlens",
+        "oneLiner": "share etsy statement and order csvs select a deposit and bridge sales fees refunds reserves and availability into matched and unexplained rows",
+        "resurrectionTrigger": "ten sellers prepay after trying the exact free tools and the parser matches 100 real regional reserve refund and month boundary deposits without a false match",
+        "tags": [
+          "etsy",
+          "payouts",
+          "csv",
+          "reconciliation",
+          "small business"
+        ]
+      },
+      "key": "idea:etsy-payout-reconciliation",
+      "route": "/ideas/etsy-payout-reconciliation",
+      "title": "Etsy PayoutLens",
       "type": "idea"
     },
     {
@@ -1038,6 +1302,28 @@
     {
       "fields": {
         "aliases": [
+          "external display handshake"
+        ],
+        "decisionReason": "av aid and promapper already cover display detection and test patterns when the actual event source is a laptop or protected media app the phone also tests the wrong signal chain",
+        "name": "displayproof",
+        "oneLiner": "detect an external display show the negotiated mode and render grid color motion and audio fixtures from the phone",
+        "resurrectionTrigger": "the phone is the actual event source and an event workflow unavailable in current display test tools is identified",
+        "tags": [
+          "displays",
+          "av",
+          "events",
+          "preflight",
+          "calibration"
+        ]
+      },
+      "key": "idea:external-display-test-source",
+      "route": "/ideas/external-display-test-source",
+      "title": "DisplayProof",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "fabric bolt gate"
         ],
         "decisionReason": "cut fabric is commonly nonreturnable and a wrong bolt cut can force a full remake no exact lightweight first cut gate surfaced but roll tracking systems exist and the app must first manufacture a trusted job token making the ritual weaker than lotmatch s physical first carton baseline",
@@ -1096,6 +1382,28 @@
       "key": "idea:favorite-meal-quick-log",
       "route": "/ideas/favorite-meal-quick-log",
       "title": "FoodTile",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "required job photo closeout"
+        ],
+        "decisionReason": "companycam already combines timestamped photos checklists templates reports and integrations with large paid traction and field form tools implement the same pattern filling a slot does not prove the image satisfies a payer or inspector",
+        "name": "fieldshot gate",
+        "oneLiner": "require one photo in each trade specific template slot before a solo contractor closes or leaves a job",
+        "resurrectionTrigger": "a payer franchise or trade association mandates a narrow template and accepts the resulting artifact",
+        "tags": [
+          "contractors",
+          "photos",
+          "checklists",
+          "field service",
+          "closeout"
+        ]
+      },
+      "key": "idea:field-shot-requirement-gate",
+      "route": "/ideas/field-shot-requirement-gate",
+      "title": "FieldShot Gate",
       "type": "idea"
     },
     {
@@ -1792,6 +2100,50 @@
     {
       "fields": {
         "aliases": [
+          "local maker lot ledger"
+        ],
+        "decisionReason": "cottagebatch already includes package scanning lots expiry batch logs labels and recall reports while craftybase owns broader maker traceability a stripped ledger carries similar safety and compliance implications with less authority",
+        "name": "batchtrace lite",
+        "oneLiner": "scan ingredient lots into a cottage food soap or cosmetics production batch and export the recorded trace chain",
+        "resurrectionTrigger": "three paid producers complete 50 real batches with strong scan accuracy and explicitly prefer records only software to cottagebatch and craftybase",
+        "tags": [
+          "batch",
+          "traceability",
+          "makers",
+          "inventory",
+          "compliance"
+        ]
+      },
+      "key": "idea:maker-batch-trace-lite",
+      "route": "/ideas/maker-batch-trace-lite",
+      "title": "BatchTrace Lite",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "guided water meter test"
+        ],
+        "decisionReason": "fluvo already offers the exact guided interval photos leak rate calculation history reminders and multi property workflow for free while utilities publish the manual test meter movement cannot locate a leak or exclude unnoticed use",
+        "name": "meterstill",
+        "oneLiner": "photograph a water meter before and after a no use interval and calculate the observed usage rate and projection",
+        "resurrectionTrigger": "a utility or insurer distributes an authoritative account and meter integration that adds a workflow fluvo cannot provide",
+        "tags": [
+          "water",
+          "home",
+          "meters",
+          "leaks",
+          "reconciliation"
+        ]
+      },
+      "key": "idea:manual-water-meter-leak-test",
+      "route": "/ideas/manual-water-meter-leak-test",
+      "title": "MeterStill",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "cardsafe",
           "safe to format protocol"
         ],
@@ -1897,6 +2249,28 @@
     {
       "fields": {
         "aliases": [
+          "mileage export reconciliation"
+        ],
+        "decisionReason": "the two sources are incomplete so their differences cannot reconstruct an actual drive route distance or business purpose mileiq and everlance already own capture repair classification and reporting and can absorb the comparison",
+        "name": "mileage exception inbox",
+        "oneLiner": "compare exported mileage tracker trips with calendar events and flag missing duplicate overlapping or fragmented candidates",
+        "resurrectionTrigger": "a tracker exposes signed raw location evidence or an accountant or employer accepts the exception report as a normal review artifact",
+        "tags": [
+          "mileage",
+          "calendar",
+          "reconciliation",
+          "taxes",
+          "gig work"
+        ]
+      },
+      "key": "idea:mileage-exception-inbox",
+      "route": "/ideas/mileage-exception-inbox",
+      "title": "Mileage Exception Inbox",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "no access clock",
           "locked door decision"
         ],
@@ -1958,6 +2332,50 @@
       "key": "idea:multi-chair-process-clock",
       "route": "/ideas/multi-chair-process-clock",
       "title": "Multi-Chair Process Clock",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "mystery alarm chirp localizer"
+        ],
+        "decisionReason": "whichbeep already provides a free browser room sampling flow and chirphound sells the exact warmer or colder native workflow cheaply reflections and automatic gain also mean recorded strength is not authoritative distance bearing device identity or alarm diagnosis",
+        "name": "chirphunt",
+        "oneLiner": "sample an intermittent smoke or co style chirp at several positions and rank where the matching tone was recorded most strongly",
+        "resurrectionTrigger": "blind multi home tests materially beat both incumbents without making alarm type or safety claims and users pay despite the free browser option",
+        "tags": [
+          "audio",
+          "home",
+          "alarms",
+          "localization",
+          "safety"
+        ]
+      },
+      "key": "idea:mystery-alarm-chirp-localizer",
+      "route": "/ideas/mystery-alarm-chirp-localizer",
+      "title": "ChirpHunt",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "nfc write and readback run"
+        ],
+        "decisionReason": "nfc studio already markets batch writing placeholders write validation and run validation while nfc check owns bulk writing and history readback also cannot prove correct physical placement or authenticity",
+        "name": "tagrun",
+        "oneLiner": "import intended nfc payload rows write the next tag reread it and advance only when the readback bytes match",
+        "resurrectionTrigger": "a vertical asset system supplies a placement invariant unsupported by existing batch tools and distributes the workflow",
+        "tags": [
+          "nfc",
+          "quality control",
+          "readback",
+          "batch",
+          "deployment"
+        ]
+      },
+      "key": "idea:nfc-batch-readback",
+      "route": "/ideas/nfc-batch-readback",
+      "title": "TagRun",
       "type": "idea"
     },
     {
@@ -2566,12 +2984,13 @@
     {
       "fields": {
         "aliases": [
-          "before and after vibration"
+          "before and after vibration",
+          "washervibe"
         ],
-        "decisionReason": "seismo already targets washing machines with fft history and export and iphone measure supplies a level phone placement and load differences also make before and after vibration an unreliable diagnostic signal",
+        "decisionReason": "appliancedoc seismo vibration analysis and other tools already target phone on appliance vibration although ios can record background accelerometer data phone placement case load cycle stage spin speed and floor resonance make before and after readings non authoritative without a controlled fixture",
         "name": "spinbalance",
         "oneLiner": "use the phone accelerometer to compare relative appliance vibration before and after an adjustment",
-        "resurrectionTrigger": "an appliance manufacturer supplies a fixed mount and validated device specific thresholds for a supported model family",
+        "resurrectionTrigger": "an appliance manufacturer supplies a fixed mount standard load and cycle validated model specific thresholds and accepts the result in its service workflow",
         "tags": [
           "sensors",
           "vibration",
@@ -2604,6 +3023,50 @@
       "key": "idea:rental-fuel-plan-calculator",
       "route": "/ideas/rental-fuel-plan-calculator",
       "title": "FillItRight",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "rental car privacy closeout"
+        ],
+        "decisionReason": "the phone cannot inspect or erase data retained by a generic vehicle head unit ftc guidance already describes the manual deletion and privacy4cars owns model specific procedures so a checklist cannot truthfully report that the vehicle was purged",
+        "name": "rentalpurge",
+        "oneLiner": "guide a renter through model specific infotainment deletion before returning a connected rental car",
+        "resurrectionTrigger": "an oem or rental company integration exposes retained data inventory and returns an authenticated wipe result",
+        "tags": [
+          "rental cars",
+          "privacy",
+          "bluetooth",
+          "travel",
+          "closeout"
+        ]
+      },
+      "key": "idea:rental-infotainment-purge",
+      "route": "/ideas/rental-infotainment-purge",
+      "title": "RentalPurge",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "rental equipment case check"
+        ],
+        "decisionReason": "cheqroom sortly and mygearvault already cover kits scanning custody and check in and out the rental house owns the authoritative issued and accepted state while a renter s private checklist cannot prevent a charge",
+        "name": "kitmanifest",
+        "oneLiner": "import a rental equipment manifest check every accessory at pickup and return and show unmatched items before leaving the counter",
+        "resurrectionTrigger": "a rental partner supplies manifests and acknowledges the completed return in its own system",
+        "tags": [
+          "equipment",
+          "rentals",
+          "inventory",
+          "handoff",
+          "production"
+        ]
+      },
+      "key": "idea:rental-kit-manifest",
+      "route": "/ideas/rental-kit-manifest",
+      "title": "KitManifest",
       "type": "idea"
     },
     {
@@ -2993,6 +3456,28 @@
     {
       "fields": {
         "aliases": [
+          "screenshot privacy preflight"
+        ],
+        "decisionReason": "a dense 2025 and 2026 swarm already performs screenshot ocr masking blur and redaction an empty detector result cannot mean safe to share because sensitive visual context may contain no recognizable text",
+        "name": "sharesweep",
+        "oneLiner": "at the share moment highlight likely personal information in a screenshot and export a user confirmed redacted copy",
+        "resurrectionTrigger": "a sanctioned pre share interception surface or validated vertical sensitive pattern remains unavailable in current tools",
+        "tags": [
+          "screenshots",
+          "privacy",
+          "redaction",
+          "ocr",
+          "sharing"
+        ]
+      },
+      "key": "idea:screenshot-pii-preflight",
+      "route": "/ideas/screenshot-pii-preflight",
+      "title": "ShareSweep",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "move in defense"
         ],
         "decisionReason": "the problem is real and demoable but many exact apps exist and usage is episodic weakening subscription economics",
@@ -3008,6 +3493,28 @@
       "key": "idea:security-deposit-evidence",
       "route": "/ideas/security-deposit-evidence",
       "title": "Security Deposit Evidence",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "hardware security key recovery check"
+        ],
+        "decisionReason": "a key authenticating to this app s relying party identifier says nothing about enrollment at apple google microsoft or an employer free webauthn tests and vendor utilities cover transport while the real account remains the only authoritative test",
+        "name": "keydrill",
+        "oneLiner": "test whether a hardware security key can complete a webauthn challenge from the phone before the user depends on it for recovery",
+        "resurrectionTrigger": "an identity provider integration supplies authoritative per account enrollment and test state through an audited employer paid implementation",
+        "tags": [
+          "security",
+          "webauthn",
+          "hardware keys",
+          "recovery",
+          "identity"
+        ]
+      },
+      "key": "idea:security-key-readiness-drill",
+      "route": "/ideas/security-key-readiness-drill",
+      "title": "KeyDrill",
       "type": "idea"
     },
     {
@@ -3092,6 +3599,28 @@
       "key": "idea:shift-pay-checker",
       "route": "/ideas/shift-pay-checker",
       "title": "Shift Pay Checker",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "shortcuts missed run monitor"
+        ],
+        "decisionReason": "automation control already logs shortcuts and includes a did not run in the last condition pushcut already exposes identified schedule and cancel notification actions and healthchecks provides free heartbeats the safe callback only truth leaves setup convenience rather than a durable wedge",
+        "name": "automation canary",
+        "oneLiner": "put a final background app intent in a recurring shortcut so each callback records completion and re arms the next missed check in notification",
+        "resurrectionTrigger": "automation control cannot provide missed run alerts pushcut users reject its recipe at least 4 of 20 qualified users prepay 7 99 and a 100 run matrix produces zero false healthy states",
+        "tags": [
+          "shortcuts",
+          "automation",
+          "notifications",
+          "reliability",
+          "app intents"
+        ]
+      },
+      "key": "idea:shortcuts-automation-canary",
+      "route": "/ideas/shortcuts-automation-canary",
+      "title": "Automation Canary",
       "type": "idea"
     },
     {
@@ -3200,6 +3729,28 @@
       "key": "idea:tattoo-stencil-check",
       "route": "/ideas/tattoo-stencil-check",
       "title": "Tattoo Stencil Check",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "temporary retail app cleanup"
+        ],
+        "decisionReason": "an ordinary ios app cannot enumerate arbitrary installed apps detect installation time revoke permissions or uninstall them without managed device authority the product collapses to a branded reminder and settings instructions",
+        "name": "appburner",
+        "oneLiner": "mark a temporary retailer parking ticket or restaurant app for permission review and deletion after a short period",
+        "resurrectionTrigger": "apple exposes sanctioned installed app and permission management apis to consumer utilities",
+        "tags": [
+          "privacy",
+          "apps",
+          "permissions",
+          "cleanup",
+          "platform blocked"
+        ]
+      },
+      "key": "idea:temporary-app-expiry",
+      "route": "/ideas/temporary-app-expiry",
+      "title": "AppBurner",
       "type": "idea"
     },
     {
@@ -3571,6 +4122,28 @@
       "key": "idea:verified-lossless-metadata-scrub",
       "route": "/ideas/verified-lossless-metadata-scrub",
       "title": "CleanShare",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "verified phone to ssd copy"
+        ],
+        "decisionReason": "ccc mobile backup owc copy that mobile and usb backup already implement verified offload and conditional source deletion for only a few dollars equality at readback time does not prove durable media health complete photo library semantics or sufficient backup redundancy",
+        "name": "copyfence",
+        "oneLiner": "copy selected phone photos or files to attached storage reopen and hash both sides and offer source deletion only after the bytes match",
+        "resurrectionTrigger": "a blind head to head proves materially stronger handling of icloud assets live photos interruptions metadata and large libraries and 5 of 20 users prepay despite ccc",
+        "tags": [
+          "files",
+          "photos",
+          "backup",
+          "usb c",
+          "verification"
+        ]
+      },
+      "key": "idea:verified-phone-ssd-offload",
+      "route": "/ideas/verified-phone-ssd-offload",
+      "title": "CopyFence",
       "type": "idea"
     },
     {
@@ -3990,6 +4563,56 @@
     },
     {
       "fields": {
+        "body": "idea mining round 10 autonomous loop 1 research date 2026 08 10method three independent research lanes a fourth integration lane exact product and platform searches then reciprocal cross review starting archive 173 ideas and 13 research dossiers outcome 27 serious candidates investigated 26 new pass decisions one duplicate merged into spinbalance one feature merged into crashtape and zero promotions executive summary loop 1 deliberately searched away from the archive s saturated camera reminder pdf pattern consumer friction mined repeated household and device complaints physical digital boundary looked for files sensors nfc bluetooth interruption recovery and real world sequences the phone could observe directly workflow failure wtp examined recurring prosumer reconciliation and handoff jobs with existing paid behavior the result was not a shortage of real pain smoke alarm chirps water leaks charging failures lost media etsy payout confusion missed shortcuts automations rental kit discrepancies and coi renewal all have credible current complaints or paid categories the failure was product ownership a mature utility already performed the exact loop the operating system withheld the state needed to make the conclusion or the authoritative record belonged to the platform vendor relying party or vertical saas the strongest provisional lead automation canary was technically sound but commercially dead a final background app intent can record its own callback and re arm a local deadline notification but automation control already logs shortcuts automations and includes a did not run in the last condition while pushcut already exposes identified schedule cancel notification actions and healthchecks io provides free heartbeat monitors the honest remaining difference was setup convenience loop statistics three independent discovery lanes plus one integration red team lane about 70 current complaint product platform support and pricing sources inspected 27 candidates received a truth authority frequency natural behavior demo feasibility and market test 26 new ideas added to the rejection ledger one existing record spinbalance absorbed the duplicate washervibe research crashtape gained an external input route loss fixture routelatch was not cloned into a separate idea zero finalists paid validation promotions or build recommendations reusable decision rules authoritative observation is necessary not sufficient copyfence can compare bytes and automation canary can record its callback but exact utilities already sell those truths cheaply a crisis time search channel rewards instant tools and incumbents chirphunt meterstill and chargewiggle are discovered during the problem when a free web guide or established 1 3 utility wins a phone testing itself may still observe the wrong endpoint a ble sensor seen by the phone may still be unavailable to the bike computer a security key authenticating to one relying party says nothing about another the paying party usually buys the system of record rental houses buy equipment custody contractors buy job photo systems galleries buy consignment ledgers and bookkeepers buy settlement reconciliation local first and deterministic are no longer enough differentiation current browser utilities already process sensitive csvs locally explain uncertainty and charge little or nothing a feature merge is a valid research result route change observability strengthens crashtape but does not create a new payer or product consumer friction lane chirphunt concept sample an intermittent smoke co style chirp at several positions and rank recordings by strength to help locate the device why it looked promising current users report searching for mystery chirps for hours or months and the trigger is immediate the phone directly owns microphone samples and the demonstration is excellent what killed it whichbeep already provides a free browser room sampling flow while chirphound provides warmer colder guidance calibration pattern presets intervals and multi microphone features at a low one time price reflections and automatic gain mean dbfs is not reliable distance or bearing and apple warns not to rely on sound recognition for high risk alarms the only safe claim is that a matching tone was recorded more strongly at one position reopen when blind multi home tests materially beat both incumbents without diagnosing alarm type or safety state verdict passed market exact incumbent safety adjacent authority boundary and one session retention lipsync lens concept use the phone camera and microphone to measure the offset between a flash and beep from a television or soundbar test clip what killed it synqr av sync lipsync test tool and fixmysync already implement the primitive apple tv also has wireless audio sync the phone s own capture pipelines add latency and a measured offset does not identify which source television earc path or soundbar setting should change reopen when a target device integration reads and writes the delay setting and demonstrates closed loop convergence verdict passed market exact swarm and non authoritative correction meterstill concept photograph a water meter before and after a no use interval and calculate implied flow and cost what killed it the current free fluvo already provides the guided interval optional photos leak rate history reminders multi property support and projections utilities publish the same manual flow test for free meter movement is real but it cannot locate a leak or exclude unnoticed use reopen when a utility or insurer distributes an authoritative meter account integration that adds a workflow fluvo cannot provide verdict passed market exact free incumbent cabinsizer concept scan a carry on or personal item with ar and compare its approximate envelope with a selected airline limit what killed it go carry on hand luggage and cabinfit already cover the loop ar is not the boarding authority compression pockets wheels weight fare operating carrier and agent enforcement remain outside the scan reopen when an airline supplies accepted calibration or contractually recognizes the result verdict passed market free exact products and false pass risk sharesweep concept at the share moment highlight likely personal information in a screenshot and export a user confirmed redacted copy what killed it screenshot editor blur text maskshot scrub sharewipe and other 2025 2026 entrants form a dense exact swarm nothing detected can never mean safe to share sensitive visual context may contain no recognizable text reopen when a sanctioned pre share interception surface or a narrow validated sensitive pattern is unavailable in current tools verdict passed market commodity and dangerous false negative semantics zonepreview concept render upcoming calendar events as if the phone were already in a destination timezone so a traveler can inspect shifts before departure what killed it apple already provides calendar time zone override google documents provider behavior and mature world clock calendar products cover previewing a companion cannot control external providers invitation changes or other participants interpretations reopen when a deterministic dry run across actual providers exposes failures native calendars cannot show verdict passed market os native and crowded appburner concept mark a temporary retailer parking ticket or restaurant app for permission review and deletion after a short period what killed it an ordinary ios app cannot enumerate arbitrary installed apps observe installation time revoke their permissions or uninstall them apple exposes installed app inventory through device management while the consumer can already use offload app library reminders and settings reopen when apple exposes sanctioned consumer installed app and permission management apis verdict passed scope the core action is unavailable chargewiggle concept during cable brick port swaps and a timed wiggle test log the phone s charging to unplugged state transitions what killed it ios exposes only coarse battery state and level not negotiated wattage current cable identity or port condition a transition cannot isolate the cable adapter port contamination temperature or software free battery and charger test and the 2 99 amperes 4 already own the weaker inference reopen when apple exposes negotiated power plus stable accessory identity or repair technicians pay for the transition log alone verdict passed market insufficient state and cheap incumbents earflip concept play controlled left right mono signals swap earbuds between ears and structure the user s observations about whether an imbalance follows the device or ear what killed it the test cannot separate hearing seal earwax adaptive audio source balance bluetooth state or driver output headphone sound check headphone check mimi hearing test and apple s balance custom audio setup and ear tip fit test already occupy the surface reopen when a manufacturer exposes calibrated per bud acoustic self test data or service centers accept a standardized protocol verdict passed market exact native substitutes and non localizable cause spinbalance round 10 duplicate washervibe proposed a phone on washer accelerometer audio comparison across spin cycles the existing spinbalance record already captured this product shape new evidence cmsensorrecorder makes long background accelerometer capture technically possible but the phone measures only its own acceleration at one placement load distribution cycle stage spin speed flooring case pedestal and mounting dominate the result appliancedoc now sells exact phone on appliance vibration acoustic analysis while generic vibration tools are cheaper reopen when a manufacturer specifies the fixture load cycle placement and model thresholds and accepts the result in service verdict existing passed market record reinforced no duplicate created physical digital boundary lane copyfence concept copy selected iphone photos or files to an attached ssd reopen and hash both sides and offer source deletion only after the bytes read by the phone match why it looked promising both endpoints and the irreversible delete boundary live on the phone making the observation unusually authoritative and the behavior natural what killed it ccc mobile backup already copies verifies and conditionally removes source files for a few dollars owc copy that mobile and usb backup occupy the same offload job equality at verification time also does not prove durable media health complete photos semantics or sufficient backup redundancy reopen when a blind head to head proves materially stronger handling of icloud optimized assets live photos interruptions metadata and large libraries and 5 20 users prepay despite ccc verdict passed market exact low cost incumbent chargedrop concept arm when the phone starts charging below a target and alarm if ios later reports unplugged before that target what killed it exact battery alarm apps and shortcuts already occupy the job while ios suspension prevents a consumer app from promising an immediate sleeping state alarm it can observe unplugged not the reason for it reopen when a sanctioned persistent battery transition trigger works under suspension and 4 20 users prepay despite existing alarms verdict passed market exact incumbent and platform reliability tagrun concept import intended nfc payload rows write the next tag reread it and advance only when the readback bytes match what killed it nfc studio already markets batch writing placeholders write validation and run validation while nfc check has mass market bulk writing and history a readback still cannot prove correct physical placement or authenticity reopen when a vertical asset system supplies a placement invariant unsupported by existing batch tools and distributes the workflow verdict passed market exact current incumbent wedgecheck concept scan a known barcode through a bluetooth hid scanner and show exact received characters timing suffix and terminator what killed it mintsoft s 2026 scanner test and star s quick setup utility already perform the diagnostic and scanning into notes is a three second free substitute the phone still cannot promise how a different pos host will interpret the scanner reopen when a scanner fleet provider requests a branded cross model commissioning tool and supplies distribution verdict passed market native substitute and incumbent owned workflow displayproof concept detect an external display show the negotiated mode and render grid color motion and audio fixtures from the phone what killed it av aid and promapper already cover detection and test patterns if the event s actual source is a laptop the phone also tests the wrong signal chain reopen when the phone is the actual event source and a workflow unavailable in current test tools is identified verdict passed market exact incumbent and source mismatch rentalpurge concept guide a renter through model specific infotainment deletion before vehicle return what killed it the phone cannot inspect or erase data retained by a generic vehicle head unit the ftc already advises renters to delete the device from vehicle settings and privacy4cars owns model specific deletion procedures a checklist cannot truthfully say the vehicle was purged reopen when an oem or rental company integration exposes retained data inventory and an authenticated wipe result verdict passed market false authority and exact incumbent sensorready concept wake ble cycling running sensors and show whether the phone received live heart rate cadence speed power or battery data what killed it wahoo and free ble tools already display this state more importantly a phone connection is not the target head unit s connection and may consume the sensor s only slot reopen when a sanctioned head unit integration exposes the actual target connection state verdict passed market host state mismatch and vendor feature keydrill concept test whether a hardware security key can complete a webauthn challenge from the phone before the user depends on it for recovery what killed it a key authenticating to this app s relying party identifier says nothing about enrollment at apple google microsoft or an employer free webauthn test sites and vendor utilities already test transport and key state while the actual account must be tested in its authoritative system reopen when an identity provider integration supplies per account enrollment and test state with an audited employer paid implementation verdict passed market wrong relying party and security authority crashtape feature merge add external input route loss to crashtape s interruption matrix apple exposes previous current audio routes and change reasons on input loss the recorder should immediately segment or pause and log an exact marker such as usb microphone unavailable at 12 43 08 input changed to built in microphone this strengthens crashtape s existing truth boundary it does not create a separate product or payer the route event cannot prove the transmitter subject microphone or captured quality remained healthy workflow failure wtp lane automation canary concept put a final background app intent in a recurring shortcut each callback records completion and re arms the next local missed check in notification why it looked promising the loop is local phone owned recurrent technically feasible and has a strong 60 second disable and alert demo what killed it automation control already logs automations and implements a did not run in the last condition pushcut already exposes schedule cancel notification primitives and healthchecks offers free heartbeats the safe claim is only no canary callback was recorded by the deadline or monitoring could not re arm it cannot verify previous side effects or guarantee notification delivery reopen when automation control cannot provide independent missed run alerts pushcut users reject its recipe 4 20 qualified users prepay 7 99 and a 100 run physical device matrix produces zero false healthy states verdict passed market exact host feature and free substitutes etsy payoutlens concept share etsy statement order csvs select a bank deposit and deterministically bridge sales fees refunds reserves and availability into matched review and unexplained rows what killed it etsy publishes a free reconciliation procedure seller profit guard now performs the exact workflow locally in a free browser tool reconcile locally offers local files and inexpensive paid reconciliation and connected accounting products own automation etsy is also changing the payment account creating ongoing schema maintenance reopen when ten sellers prepay after using the exact free tools and the parser matches 100 real regional reserve refund deposits without a false match verdict passed market exact free product and platform remediation mileage exception inbox concept compare exported mileage tracker trips with calendar events and flag missing duplicate overlapping or fragmented candidates what killed it the two sources are incomplete their absence cannot reconstruct a drive distance path or business purpose mileiq and everlance already charge for capture manual repair classification and reports and can absorb the comparison reopen when a tracker exposes signed raw location evidence or an accountant employer adopts the exception report as a normal review artifact verdict passed market non authoritative reconciliation marketclose concept at craft market close reconcile opening closing cash with entered square venmo paypal zelle and expense totals what killed it fairpulse market evnt and square already cover offline sales tenders expenses inventory and event recaps at free or low monthly prices without direct imports the product adds double entry and still cannot detect an unlogged sale reopen when automatic multi rail imports become available and current market vendor products still lack variance closeout verdict passed market exact vertical apps batchtrace lite concept scan ingredient lots into a cottage food soap or cosmetics production batch and export the recorded trace chain what killed it cottagebatch already includes package scanning ingredient lots expiry batch logs labels and recall reports craftybase owns broader maker inventory and traceability a stripped local ledger carries nearly the same safety compliance implication with less authority reopen when three paid producers complete 50 real batches with strong scan accuracy and explicitly prefer records only software to the incumbents verdict passed market exact products and compliance risk kitmanifest concept import a rental equipment manifest check every accessory at pickup and return and show unmatched items before leaving the counter what killed it cheqroom sortly and mygearvault already cover kits scanning custody and check in out the rental house owns the authoritative issued accepted state a renter s private checklist cannot prevent a charge reopen when a rental partner supplies manifests and acknowledges the completed return in its own system verdict passed market system of record mismatch coi pocket concept extract vendor and expiry fields from certificates of insurance and show documents expiring before upcoming jobs what killed it trustlayer already provides expirations renewals messaging reports and document collection free for up to 50 vendors a certificate states what a pdf says it does not prove current coverage endorsements carrier standing or contractual sufficiency reopen when carrier or broker access verifies live policy state with an insurance backed authority boundary verdict passed market exact free incumbent and liability boundary fieldshot gate concept require one photo in each trade specific shot template slot before a solo contractor closes or leaves a job what killed it companycam already combines time location photos checklists templates reports and integrations with large paid traction field form products provide the same pattern filling a slot does not prove the photo satisfies a payer or inspector reopen when a payer franchise or trade association mandates a narrow template and accepts the artifact verdict passed market incumbent feature consigndiff concept compare a mutually accepted consignment intake with later sales returns commission and payout to flag missing units and settlement differences what killed it consigna already provides shared transfer acceptance sales returns and locked closeout ledgers cerno and other consignment systems own the workflow a one sided artist record lacks the authority that makes the comparison useful reopen when a gallery market or retailer supplies a signed export api and distributes the product to consignors verdict passed market exact two sided products and cold start cross review disposition the reciprocal attack confirmed zero validation survivors automation canary ranked least dead because the technical state is real but all three teams ultimately classified it as a host feature market pass after the automation control evidence copyfence had the strongest natural irreversible boundary but ccc already implements the same verification and delete loop below 7 99 chirphunt had the best crisis time discovery but that channel favors whichbeep s no install browser tool and chirphound s low one time price chargewiggle and spinbalance can record real sensor transitions while still being unable to support the diagnosis users would buy next loop directions naturally occurring two party acknowledgments where neither side already owns a full vertical system phone authored local state transitions with a recurring trigger but only after exact utility searches interruption recovery outside recording especially processes whose journal can be owned locally reconciliation based on two authoritative exports provided the phone has a genuine capture distribution advantage exception detection in hobbies and prosumer tools where the final target not a proxy is directly measurable accessibility workflows in which the user controls the truth boundary and co design can replace inference small device and accessory workflows newly enabled by current os triggers while treating native absorption as the default threat build recommendation none loop 1 improved the decision archive but did not produce a product that remained compelling after exact product authority behavior price and cross team attacks",
+        "headings": [
+          "idea mining round 10 autonomous loop 1",
+          "executive summary",
+          "loop statistics",
+          "reusable decision rules",
+          "consumer friction lane",
+          "chirphunt",
+          "lipsync lens",
+          "meterstill",
+          "cabinsizer",
+          "sharesweep",
+          "zonepreview",
+          "appburner",
+          "chargewiggle",
+          "earflip",
+          "spinbalance",
+          "physical digital boundary lane",
+          "copyfence",
+          "chargedrop",
+          "tagrun",
+          "wedgecheck",
+          "displayproof",
+          "rentalpurge",
+          "sensorready",
+          "keydrill",
+          "crashtape",
+          "workflow failure wtp lane",
+          "automation canary",
+          "etsy payoutlens",
+          "mileage exception inbox",
+          "marketclose",
+          "batchtrace lite",
+          "kitmanifest",
+          "coi pocket",
+          "fieldshot gate",
+          "consigndiff",
+          "cross review disposition",
+          "next loop directions",
+          "build recommendation"
+        ],
+        "title": "idea mining round 10 autonomous loop 1"
+      },
+      "key": "research:idea-mining-loop-2026-08-10-round10-loop1",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop1",
+      "title": "Idea Mining Round 10 — Autonomous Loop 1",
+      "type": "research"
+    },
+    {
+      "fields": {
         "body": "idea mining loop round 9 date 2026 08 10 question which ordinary modern first world problem is painful enough to justify a 7 99 phone purchase under the idea ledger product rules pricing assumption prefer 7 99 lifetime use 7 99 year only when recurring value is real do not disguise a one event utility as a subscription outcome three independent research teams mined current consumer complaints transaction time mistakes and paid utility categories they then cross reviewed the two provisional finalists final verdict no validation winner and no build recommendation cardreceipt was the cleanest deterministic demo but it fails logically a barcode over sticker gift card attack can make the visible card identifier and receipt identifier agree while the buyer s funds go to an attacker honest wording collapses the paid value to a visual last four comparison pathwitness can make a truthful organized before after delivery record but it is already surrounded by 2 99 9 99 photo proof tools the official signed delivery document matters more and discovery must happen before a rare delivery it is worth only a no code payment test if a retailer or installer can distribute it the remaining candidates were exact incumbents ledger duplicates host state problems manual evidence filing thin os utilities or safety truth failures the result is useful negative knowledge expensive mistake camera reminder pdf is now a commodity template a new product needs an authoritative transaction time handoff a natural distribution channel or a deterministic phone only capability product rules applied a candidate survived only while it had all of the following one clear user trigger action and payoff a source of truth the phone can actually read or own a natural existing behavior not a second app ritual people will skip a useful output that does not imply safety legal force custody compatibility or eventual outcome immediate one person value without a network or unavailable host api a credible 7 99 purchase boundary and enough functionality for app store review a crisp phone native demonstration and a plausible seven week build cross reviewed finalists cardreceipt physical gift card activation receipt atomic loop before leaving checkout scan the gift card s visible exterior serial or barcode scan the activation receipt and return only visible identifiers match different or unreadable never capture the redemption pin why it initially survived the physical card and receipt are naturally present activation receipts often expose a masked card identifier the consequence can be 25 500 and the comparison makes a strong 30 second demo the ftc apple and google all tell buyers to retain the card and receipt when activation fails michigan s gift card guidance explicitly recommends comparing the receipt number with the returned card fatal truth failure the fbi s barcode warning describes an attacker covering a real card barcode with a fake one the cashier scans the fake visible barcode and the receipt prints that same attacker controlled identifier cardreceipt would truthfully report a match while the purchase is compromised a green result would be read as safe the fully honest message these two visible strings agree but this does not verify the card balance activation or tampering is not worth 7 99 market pressure free products such as cartava already scan and retain gift cards while quickscope scans gift card codes and receipts pos providers already own the authoritative activation event toast prints useful activation receipt details decision passed market truth do not code resurrection condition an issuer or pos supplies an authenticated activation balance signal or tamper aware token that cannot be defeated by a visible barcode overlay seeded overlay attacks must produce zero positive results pathwitness large delivery route record atomic loop the evening before a refrigerator washer sofa safe or fitness equipment delivery capture a short guided baseline of floors walls stairs and doorframes before the crew leaves replay the same viewpoints mark items for review capture the delivery document and export an organized personal record why it initially survived the damage can be expensive one 2025 homeowner described roughly 8 000 of flooring and doorframe damage followed by a denied claim a phone can truthfully own the user s before after images notes viewpoint pairing and exported record best buy s current delivery guide already tells customers to inspect the item and delivery path and record damage on the delivery document before signing fatal product pressure the signed retailer document remains the mandatory handoff and matters more than a private photo packet the app cannot establish causation complete route coverage liability or claim success current tools already sell most of the mechanism disputecam dwelltrack siteproof timemark timestamp it snapproof and fairspark sparse ratings across several new entrants are a weak demand warning not whitespace distribution failure search intent arrives after damage when a baseline is impossible app store acquisition cannot support a low ltv one event pass a retailer appliance reviewer inspector installer insurer or delivery booking flow must place it in front of the buyer before delivery decision passed market no build allow only a no code payment test if a real pre delivery channel is available no code test recruit 20 people with a real large item delivery scheduled within 14 days offer a real 7 99 concierge service before delivery send a five view guide pair the returned before after images attach the signed delivery document and return a local download pdf continue only if at least 5 pay before the event 16 complete the baseline 14 complete the exit capture before the crew leaves median baseline time is under three minutes at least half change what they inspect or write before signing and one repeatable channel acquires customers below roughly 2 or agrees to distribute the flow resurrection condition a retailer installer insurer or marketplace embeds the flow in the scheduled delivery message and accepts the resulting packet inside its official claim workflow candidate graveyard candidateatomic phone loopwhy it diedresurrection triggertagreceipt couponproofcapture a sale tag or offer and the receipt show a possible mismatch it is the existing basketcheck thesis sundria is near exact while receipt abbreviations weights loyalty identity exclusions and stacking make pairing ambiguous replacing unavailable retailer state with per item screenshots adds ceremony a retailer exposes the exact offer token on both display and receipt or a 30 basket blind test exceeds 95 correct matching with zero false accusations and real prepayment watercardsave the water gas shutoff location route tool and a printable card a 4 99 home maintenance tracker already stores shutoff locations a physical label is stronger during a power phone failure the app cannot verify the valve is correct or operable plumber inspector insurer distribution plus strong placement recall drill and payment behavior returnclockscan a receipt and remind the shopper before the return deadline kachng return hero return tracker returno clock proof returntrack and retailer apps already occupy the category the retailer remains authoritative about exceptions and refund state retailer authorized eligibility and refund state apis rentalproof rentalfuel diffguided pickup return vehicle and gauge capture not my dent snap drive rentalguard and rental platform workflows already own the loop a card issuer insurer or rental agency accepts the record directly breakeratlasphotograph and map a breaker panel print search circuit labels breaker map already provides mapping ar overlays trip logs and qr access a new authoritative circuit testing primitive unavailable to the incumbent doorfitenter furniture package and route dimensions to predict delivery fit roomspan already sells this at 12 99 and models turns doors halls elevators removable parts and safety margins a phone side model can create false confidence retailer provided packaging geometry plus a validated model with explicit uncertainty datealarmschedule one alarm for a future date alarmkit triggered a swarm of exact utilities and ios 26 2 added alarms to reminders the alarm alone is too thin a narrow workflow where the alarm is only the final payoff cancelreceipt quitproofpreserve cancellation evidence and alert if another charge appears renewalwatcher subscription trackers rocket money email and bank dispute flows cover it the app cannot authoritatively cancel or prove billing stopped provider or transaction integration that proves cancellation and charge state depositproofguided move in move out evidence capture existing security deposit evidence thesis door lease deposit shield tenant inspect and others are exact a tenant organization or jurisdiction mandates and accepts the format patternblockblock phone number ranges or wildcard patterns number shield phone pattern blocker call ranger wideprotect and native call screening already occupy it a new sanctioned os capability not used by incumbents dropmatchcompare a prepaid parcel label tracking id with the counter receipt id usps rapid drop whatnot returnproof and retailer return flows own pieces of it consolidated qr final mile merchant and tracking ids can legitimately differ matching proves neither contents nor custody a named high value return flow with a documented identifier invariant and at least 80 directly comparable real fixtures keycopy diffcompare original and freshly duplicated key silhouettes before leaving whatkey mykeyfinder and keyme are adjacent a side image cannot prove the blank keyway geometry or that the copy turns the lock 7 99 may exceed the copy price a hardware capture fixture or retailer partnership that validates function not silhouette fuelpaircompare an unfamiliar vehicle fuel label with the pump label standardized symbols and direct visual comparison are faster a false pass can cause expensive property damage and phone use at the pump is awkward an oem or rental partner supplies authoritative vehicle fuel state and assumes the workflow bagtag paircompare boarding pass itinerary with outbound bag tag multi leg interline customs recheck and destination semantics make differences ambiguous bagsnap and airline scanners are adjacent airline sanctioned itinerary and baggage routing data packmatchscan an order each item and the label before sealing a shipment shopify scan to verify scankar scanpacker shipstation and warehouse systems own the authoritative order workflow a platform partner exposes an underserved seller segment and order state laundry gatedecode a garment care label before washing iphone visual look up laundry lens ginetex and free symbol apps already do it a costly professional textile workflow with authoritative care data not covered by current tools gearreturn paircompare modem equipment serials with the provider return receipt itemproof returnproof provider flows and the existing trade in proof thesis cover the event the receipt does not prove eventual provider credit a provider accepts the pair directly and exposes credit state dryclean countcapture garments ticket at drop off and compare returned items bags hide garments visual appearance changes after cleaning and manual counting is a ritual cleaner systems already use garment level barcodes cleaner side integration with garment ids and customer visible reconciliation invitematchcompare personalized inserts with addressed envelopes while stuffing invitations many invitations have no personalized inner object industrial mail matching already exists and careful stack order is faster a high volume consumer personalization workflow with machine readable names on both objects takeout countcompare receipt items with visible containers before leaving one item maps to zero one or several containers sealed bags hide state and delivery platforms already own refunds restaurant issued package item identifiers or an order system integration travel credit sentinelimport a voucher surface its amount code expiry and remind the traveler awardwallet already has paid traction and manual voucher support cartava is free the app cannot verify balance expiry changes or redemption state airline authorized credit state or a travel partner flight disruption claim companioncapture boarding pass notices and receipts into a claim packet airhelp offers free tracking and claim initiation rules vary by jurisdiction and airline while dot refunds are authoritative a named jurisdiction airline partner supplying authoritative disruption and claim state chargeback evidence packerorganize merchant correspondence and receipts into an issuer sized bundle bank apps already accept and track disputes this repeats consumer case agent and adds sensitive financial data without authority over the outcome an issuer endorses a structured import format hard mode focus blockerapply stronger friction to distracting app overrides opal one sec freedom appblock and native screen time dominate apple entitlement approval is required a new platform capability or measured intervention incumbents do not provide medication read and remindscan a prescription label into reminders and caregiver alerts apple health and medisafe already provide mature medication scheduling sharing ocr errors are health critical and the pharmacy remains authoritative pharmacy ehr integration and independently validated near perfect extraction plant crisis triagephotograph a distressed plant and receive likely care guidance picturethis planta and mature databases own the category diagnosis is not authoritative and bad advice can kill the plant a narrow expensive collection or professional workflow with proprietary observations paid category evidence the round did find real willingness to pay in adjacent categories but mostly for mature or recurring products opal charges roughly 99 99 year for focus blocking and reports a large ratings base awardwallet charges 49 99 year and reports more than 25 000 paid travelers medisafe charges roughly 39 99 year not my dent launched at 9 99 lifetime but has very few ratings fairspark asks 7 99 month for delivery complaints but lacks enough ratings to establish traction returntrack asks 6 99 month or 39 99 year but also lacks meaningful visible traction founder set prices prove that the same opportunity is visible not that buyers convert for a 7 99 utility real prepayment during an actual event is the required evidence reusable decision rules a visible equality check is not a product when the attack can control both visible values cardreceipt is the clearest example replacing unavailable authoritative state with screenshots works only when capture is already natural and the comparison becomes deterministic otherwise it is manual evidence filing with ocr risk the signed or platform owned handoff outranks a private packet an app may help the user complete that handoff but should not imply that its export has equivalent authority rare preventive utilities have a discovery timing problem search usually happens after the loss when the required baseline cannot be created expensive mistake camera reminder pdf is a commodity template in 2026 a durable wedge needs transaction timed distribution authoritative data or a capability competitors cannot copy as a template zero promotions is a valid research outcome the ledger compounds when it prevents attractive demos from becoming misleading products",
         "headings": [
           "idea mining loop round 9",
@@ -4197,5 +4820,5 @@
     }
   ],
   "normalizationVersion": 1,
-  "sourceHash": "sha256:24045806025f7a295a6dc751e555c8cf7aa24c4d264e212c035bcb252f5b5591"
+  "sourceHash": "sha256:66d1e9819b7abe8aed3791b3298e14ca2572efaf3daab6a56777ba9737ceb5cb"
 }

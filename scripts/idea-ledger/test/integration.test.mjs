@@ -9,34 +9,34 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   const counts = result.artifacts['manifest.json'].counts;
   const quality = result.artifacts['quality-report.json'];
   assert.deepEqual(counts, {
-    ideas: 173,
-    dossiers: 13,
-    researchEdges: 172,
-    searchDocuments: 186,
+    ideas: 199,
+    dossiers: 14,
+    researchEdges: 200,
+    searchDocuments: 213,
   });
-  assert.equal(quality.counts.headingMatchedIdeas, 52);
-  assert.equal(quality.counts.mentionOnlyIdeas, 100);
+  assert.equal(quality.counts.headingMatchedIdeas, 79);
+  assert.equal(quality.counts.mentionOnlyIdeas, 99);
   assert.equal(quality.counts.dossierRefsWithoutMention, 16);
   assert.equal(quality.counts.ideasWithoutResearch, 11);
-  assert.equal(quality.counts.headingReferences, 53);
+  assert.equal(quality.counts.headingReferences, 81);
   assert.equal(quality.counts.mentionReferences, 103);
   assert.equal(quality.counts.unmappedReferences, 16);
-  assert.equal(quality.tagStats.assignments, 778);
-  assert.equal(quality.tagStats.unique, 468);
-  assert.equal(result.snapshot.sourceFiles.length, 14);
+  assert.equal(quality.tagStats.assignments, 908);
+  assert.equal(quality.tagStats.unique, 510);
+  assert.equal(result.snapshot.sourceFiles.length, 15);
 
   const provenanceByIdea = new Map(
     quality.researchProvenance.map((provenance) => [provenance.ideaId, provenance])
   );
-  for (const [ideaId, anchor] of [
-    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape'],
-    ['weed-check', '2-weedcheck--strongest-shipaton-candidate'],
-    ['lot-match', '1-lotmatch--strongest-business-candidate'],
-    ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt'],
+  for (const [ideaId, anchor, referenceCount] of [
+    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 2],
+    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 1],
+    ['lot-match', '1-lotmatch--strongest-business-candidate', 1],
+    ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
   ]) {
     const provenance = provenanceByIdea.get(ideaId);
     assert.equal(provenance.quality, 'heading');
-    assert.equal(provenance.references.length, 1);
+    assert.equal(provenance.references.length, referenceCount);
     assert.equal(provenance.references[0].quality, 'heading');
     assert.equal(provenance.references[0].heading.anchor, anchor);
   }
