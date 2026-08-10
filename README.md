@@ -2,6 +2,8 @@
 
 Idea Ledger is a read-only decision archive for searching product ideas, reviewing why they survived or died, and comparing their existing validation gates. It keeps rejected ideas visible so old work compounds instead of disappearing into an archive.
 
+Live site: https://packetloss404.github.io/idealedger/
+
 The current corpus contains 152 ideas and 12 research dossiers. `docs/idea-database.json` and the linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
 
 ## Stack
@@ -48,13 +50,13 @@ npm run check:export -- dist
 Set `VITE_BASE_PATH` when building for a project subpath such as GitHub Pages:
 
 ```bash
-VITE_BASE_PATH=/idea-ledger/ npm run build:web
+VITE_BASE_PATH=/idealedger/ npm run build:web
 ```
 
 On PowerShell:
 
 ```powershell
-$env:VITE_BASE_PATH='/idea-ledger/'
+$env:VITE_BASE_PATH='/idealedger/'
 npm run build:web
 ```
 
@@ -72,4 +74,4 @@ Phase 1 is intentionally read-only. It does not infer confidence, evidence quali
 
 ## Release
 
-The GitHub Pages workflow accepts only an explicitly approved 40-character commit SHA. It runs the full validation and browser suite, scans the public export, records release evidence, and deploys the exact reviewed artifact.
+Every push to `main` runs the full validation and browser suite, scans the public export, records release evidence, and deploys the exact verified artifact to GitHub Pages. Manual releases remain available and require an explicitly approved 40-character commit SHA.

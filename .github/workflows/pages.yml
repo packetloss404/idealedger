@@ -2,6 +2,9 @@ name: Idea Ledger Pages release
 
 on:
   pull_request:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       approve_public_content:
@@ -20,7 +23,7 @@ permissions:
 # Serialize the entire reviewed release path so an older run cannot finish after
 # and overwrite a newer deployment. Pull-request verification remains independent.
 concurrency:
-  group: ${{ github.event_name == 'workflow_dispatch' && 'pages-release' || format('pages-verify-{0}', github.run_id) }}
+  group: ${{ github.event_name != 'pull_request' && 'pages-release' || format('pages-verify-{0}', github.run_id) }}
   cancel-in-progress: false
 
 jobs:
@@ -48,19 +51,24 @@ jobs:
           printf 'VITE_BASE_PATH=%s\n' "$pages_base" >> "$GITHUB_ENV"
           printf 'PUBLIC_BASE_PATH=%s\n' "$pages_base" >> "$GITHUB_ENV"
 
-      - name: Verify manual release authorization
+      - name: Authorize release
         id: authorization
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name != 'pull_request'
         shell: bash
         env:
           APPROVED_COMMIT: ${{ inputs.approved_commit }}
           APPROVED_CONTENT: ${{ inputs.approve_public_content }}
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           set -euo pipefail
           if [[ "$GITHUB_REF" != "refs/heads/$DEFAULT_BRANCH" ]]; then
-            echo "Release dispatches must run from the reviewed default branch: $DEFAULT_BRANCH" >&2
+            echo "Releases must run from the default branch: $DEFAULT_BRANCH" >&2
             exit 1
+          fi
+          if [[ "$EVENT_NAME" == "push" ]]; then
+            echo "authorized=true" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           if [[ "$APPROVED_CONTENT" != "true" ]]; then
             echo "Public-content approval was not granted" >&2
@@ -132,10 +140,12 @@ jobs:
         shell: bash
         run: |
           git rev-parse HEAD > release-evidence/commit.txt
+          printf 'release_event=%s\n' '${{ github.event_name }}' \
+            > release-evidence/release-authorization.txt
           printf 'public_content_approved=%s\n' '${{ inputs.approve_public_content || false }}' \
-            > release-evidence/public-content-approval.txt
+            >> release-evidence/release-authorization.txt
           printf 'approved_commit=%s\n' '${{ inputs.approved_commit || '' }}' \
-            >> release-evidence/public-content-approval.txt
+            >> release-evidence/release-authorization.txt
           printf 'public_base_path=%s\n' "$PUBLIC_BASE_PATH" \
             > release-evidence/public-base-path.txt
           sha256sum docs/idea-database.json src/generated/idea-ledger/manifest.json \
