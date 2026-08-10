@@ -23,6 +23,8 @@ Round nine promoted **zero** ideas after three independent research lanes and re
 
 Round ten, autonomous Loop 1, promoted **zero** ideas after 27 serious screens and reciprocal cross-review. **Automation Canary** was the least-dead new loop because a final App Intent can authoritatively record its callback, but Automation Control, Pushcut, and free heartbeat services already own the primitive. **CopyFence** had the strongest natural irreversible boundary, but CCC Mobile Backup already verifies phone-to-drive copies before deletion below the target price. WasherVibe was merged into **SpinBalance**, and external-input route-loss observability was merged into **CrashTape** rather than cloned into new records. The round reinforced that authoritative observation alone is not differentiation and that the paying party usually buys the system of record.
 
+Round ten, autonomous Loop 2, promoted **zero** builds after 29 serious screens. **DeferralGap** is parked for one paid concierge test because no exact consumer matcher surfaced, but it must use conservative cumulative matching and can only say a contribution is `not yet locatable`, never late or missing. **FormShield** failed on permission trust, setup, and demand; an exact $4.99 Safari app had recently existed but was delisted before release review. EOBBill, TipSlip Pair, TipPost, jobsite ScopeTap, and recoverable video were merged into **Medical Bill and EOB Auditor**, **Shift Pay Checker**, **TipCheck**, **Scope Request Budget**, and **CrashTape** instead of creating duplicates. The loop established that a local journal helps only when the app naturally owns the event stream and that two authoritative records still need a stable timing and aggregation invariant.
+
 ## Catalog
 
 | Idea | Status | Hackathon fit | Core reason | Research |
@@ -46,13 +48,13 @@ Round ten, autonomous Loop 1, promoted **zero** ideas after 27 serious screens a
 | eBay Replacement | Passed — scope | Low | Liquidity, support, payments, disputes, and safety make it company-scale | — |
 | Resume Reuse | Raw | High | Strong pain, but obvious autofill versions already exist | — |
 | Adult Creator Compliance | Passed — market | Low | Exact tools plus exceptional legal, security, and store risk | [Pain mining](PAIN-MINING-DOSSIER.md) |
-| Medical Bill and EOB Auditor | Passed — market | Low | Huge pain, funded competitors, and high-stakes data complexity | [Pain mining](PAIN-MINING-DOSSIER.md) |
+| Medical Bill and EOB Auditor | Passed — market | Low | OwedBack, BillHero, Billscope, FileBay, and funded competitors serve the high-stakes bill/EOB comparison | [Pain mining](PAIN-MINING-DOSSIER.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | Security Deposit Evidence | Passed — market | High | Exact apps exist and usage is episodic | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | School Message Organizer | Passed — market | High | Fragmented ingestion, emerging exact tools, uncertain willingness to pay | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Co-Parenting Coordinator | Passed — scope | Low | Real WTP, but two-party adoption and evidentiary expectations are heavy | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Family Caregiving Coordinator | Passed — market | Medium | Strong pain, crowded products, difficult multi-user onboarding | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | IEP Advocate | Passed — market | Low | High stakes and a wave of focused competitors | [Pain mining](PAIN-MINING-DOSSIER.md) |
-| Shift Pay Checker | Passed — market | High | Official free tools and a crowded tracker market | [Pain mining](PAIN-MINING-DOSSIER.md) |
+| Shift Pay Checker | Passed — market | High | Official tools and tip/paycheck trackers already cover the niche, while pooled-tip semantics defeat a generic invariant | [Pain mining](PAIN-MINING-DOSSIER.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | Warranty and Return Tracker | Passed — market | High | Crowded, low urgency, and invasive inbox access | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Consumer Case Agent | Passed — market | Low | Funded competitors plus telephony and adversarial reliability | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Quote Comparison | Passed — market | Medium | Needs deep expertise in one trade to be trustworthy | [Pain mining](PAIN-MINING-DOSSIER.md) |
@@ -65,7 +67,8 @@ Round ten, autonomous Loop 1, promoted **zero** ideas after 27 serious screens a
 | Confirmed Spoken Details | Validating | Medium | Novel two-person confirmation ritual; must be co-designed with DHH users and prove speech/token accuracy | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | Two-Source Solar Check | Validating | Medium | A narrow second-source reconciliation gap exists, but only for one system/utility with real paired data | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | Todoist Task-Debt Reset | Parked | High | Real backlog-reset pain, but episodic value and native-feature copy risk | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
-| TipCheck | Passed — market | High | Rare event plus a delayed second manual bank check; no honest iOS automation path | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
+| TipCheck | Passed — market | High | Rare delayed verification, no honest iOS automation, and a $0.99 exact app plus general receipt matchers | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| Scope Request Budget | Passed — market | High | Freelancer and contractor change-order tools own the workflow; useful approval belongs in the system of record | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | BasketCheck | Passed — market | Medium | Sundria is near-exact and Kroger's useful coupon/purchase data are gated | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | Rental Toll Window | Passed — market | High | Official/free toll apps already support rental plates and timed removal | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | Timer Lens | Passed — market | High | Siri is faster for most users; exact laundry scanner exists; accessibility OCR is the hard product | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
@@ -141,7 +144,7 @@ Round ten, autonomous Loop 1, promoted **zero** ideas after 27 serious screens a
 | TorqueAngle | Passed — market | Low | Mount/drift/safety risk and exact FastenIQ incumbent | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
 | TactileBridge | Passed — market | Medium | Suppressible phone haptics, existing tools, weak paywall fit, and co-design requirements | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
 | CompassNest | Passed — market | Low | Phone magnetic readings are too device/mount/orientation-sensitive for installation guidance | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
-| CrashTape | Validating | High | Strongest immediate engineering spike and recovery demo; must pass 100/100 interruption recovery and primary-recorder adoption | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
+| CrashTape | Validating | High | Audio remains a severe recovery spike; fragmented video is only a separately gated feature because recorder incumbents already provide it | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md), [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | AudioPin | Passed — market | Low | Audible exposes no cross-app position API and already owns manual checkpoints | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
 | Offline Ready | Passed — scope | Low | iOS cannot verify another app's DRM, cache, or offline-license state | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
 | AirReady | Passed — scope | Low | Consumer apps cannot authoritatively inspect or control active eSIM state | [Round-eight mining](IDEA-MINING-LOOP-2026-08-09-ROUND8.md) |
@@ -209,6 +212,30 @@ Round ten, autonomous Loop 1, promoted **zero** ideas after 27 serious screens a
 | COI Pocket | Passed — market | Medium | TrustLayer covers the low-volume workflow free and a PDF cannot prove current coverage | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
 | FieldShot Gate | Passed — market | High | CompanyCam and field-form products already own required-photo templates and reports | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
 | ConsignDiff | Passed — market | Medium | Consigna and other two-sided systems already provide shared acceptance and locked reconciliation | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| TransitionTile | Passed — market | High | Time Timer, Visual Countdown Timer, and mature routine tools already own visual transitions | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| PaceMirror | Passed — market | High | PaceCoach launched the exact live speaking-pace and Watch-haptic product at a one-time price | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| PhraseDeck | Passed — market | High | iOS Live Speech and established AAC apps already own saved fullscreen and spoken phrases | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| LineFocus | Passed — market | Medium | Accessibility Reader, Helperbird, and exact reading-lens tools cover the surface | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| StatusColor | Passed — market | Medium | ColorSight is an exact free incumbent and tiny LED camera truth remains fragile | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| BusyStand | Passed — market | High | The phone is the wrong placed artifact and loses to a sign, light, or BUSY Bar hardware | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| LinkLoss | Passed — market | Medium | Find My and BLE finders own the job; app disconnect state cannot establish loss or location | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| StepClock | Passed — market | High | Routinery, Time Timer, and native timers already provide labeled guided sequences | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| Hearing Route Guard | Passed — scope | Low | iOS exposes only the app's own audio-session route, not the system-wide state users need | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| GuestLink | Passed — market | High | iOS now displays native network QR codes and an exact app costs only $1.99 | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| FormShield | Passed — market | High | Permission trust and setup are fatal; exact paid Safari prior art was delisted with negligible visible traction | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| DraftKey | Passed — scope | Low | A keyboard sees only its own keystrokes, not the host document or complete edit history | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| Calendar Lifeboat | Passed — market | Medium | No dependable passive journal; iCloud already offers authoritative archive restore | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| FileTxn | Passed — market | High | BatchRename already offers transaction history and cloud-provider commits remain bounded | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| ShareShelf | Passed — market | High | Yoink and Shelve It own local handoff staging, which still cannot prove destination delivery | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| HomeKit Snapshot | Passed — market | Medium | Controller for HomeKit owns backup and deeper recovery context | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| ShortcutVault | Passed — market | Medium | Manual exports cannot prove completeness; native sync and free backup workflows dominate | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| PhotoCleanup Undo Map | Passed — market | High | Recently Deleted and full photo cleaners already own the recovery behavior | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| StitchLatch | Passed — market | High | The phone knows taps rather than physical rows, and exact Lock Screen and Watch tools exist | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| DeferralGap | Parked | Medium | No exact matcher surfaced, but contribution timing and a repeated two-artifact ritual remain unproven | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| PaystubPair | Passed — market | High | ShiftWorth and the free DOL Timesheet app already cover paycheck verification | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| ShipAdjust | Passed — market | Medium | Carrier invoice audit is an integration and gainshare market, not a phone screenshot utility | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| GigDeposit | Passed — market | Medium | Gridwise and Solo own sanctioned account reconciliation; screenshot state is incomplete | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| HotelFolio | Passed — market | Medium | Holds, deposits, credits, FX, and descriptors defeat simple matching; expense stacks own context | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 
 ## Current shortlist to preserve
 
@@ -222,6 +249,7 @@ These are the strongest current ideas to validate or reopen:
 6. **Two-Source Solar Check** — real reconciliation gap; pending one-system/one-utility expert validation.
 7. **DoorHold** — conditional mobile-service niche; pending no-access incidence, response-time, and preorder proof.
 8. **CancelBy** — conditional local utility; pending proof it beats an ordinary recurring Calendar alert.
+9. **DeferralGap** — paid concierge test only; pending repeat two-artifact behavior and zero cases where `not yet locatable` is shown despite a supported visible match.
 
 **Encore** is preserved as an event-CRM feature or technically safe demo fallback, not an active standalone product candidate.
 

@@ -43,8 +43,8 @@ test('presents the whole database as the durable home', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1, name: 'The idea database' })).toBeVisible();
   await expect(page.getByText('Conversation creates the work. The ledger keeps the memory.')).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'Every decision stays visible' })).toBeVisible();
-  await expect(page.getByRole('link', { name: /199 All ideas/ })).toBeVisible();
-  await expect(page.getByRole('link', { name: /176 Passed decisions/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /223 All ideas/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /199 Passed decisions/ })).toBeVisible();
   await expect(page.getByText(/Round-8 recommendation/i)).toHaveCount(0);
 });
 

@@ -1286,6 +1286,241 @@
     {
       "headings": [
         {
+          "anchor": "round-10-loop-2--transitions-recovery-and-reconciliation",
+          "depth": 1,
+          "text": "Round 10, Loop 2 — Transitions, Recovery, and Reconciliation"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "research-statistics",
+          "depth": 2,
+          "text": "Research statistics"
+        },
+        {
+          "anchor": "meta-analysis-after-loop-2",
+          "depth": 2,
+          "text": "Meta-analysis after Loop 2"
+        },
+        {
+          "anchor": "newly-discovered-failure-patterns",
+          "depth": 3,
+          "text": "Newly discovered failure patterns"
+        },
+        {
+          "anchor": "previously-rejected-patterns-confirmed-again",
+          "depth": 3,
+          "text": "Previously rejected patterns confirmed again"
+        },
+        {
+          "anchor": "search-directions-that-weakened",
+          "depth": 3,
+          "text": "Search directions that weakened"
+        },
+        {
+          "anchor": "directions-that-still-deserve-scrutiny",
+          "depth": 3,
+          "text": "Directions that still deserve scrutiny"
+        },
+        {
+          "anchor": "transitiontile",
+          "depth": 2,
+          "text": "TransitionTile"
+        },
+        {
+          "anchor": "pacemirror",
+          "depth": 2,
+          "text": "PaceMirror"
+        },
+        {
+          "anchor": "phrasedeck",
+          "depth": 2,
+          "text": "PhraseDeck"
+        },
+        {
+          "anchor": "linefocus",
+          "depth": 2,
+          "text": "LineFocus"
+        },
+        {
+          "anchor": "statuscolor",
+          "depth": 2,
+          "text": "StatusColor"
+        },
+        {
+          "anchor": "busystand",
+          "depth": 2,
+          "text": "BusyStand"
+        },
+        {
+          "anchor": "linkloss",
+          "depth": 2,
+          "text": "LinkLoss"
+        },
+        {
+          "anchor": "stepclock",
+          "depth": 2,
+          "text": "StepClock"
+        },
+        {
+          "anchor": "hearing-route-guard",
+          "depth": 2,
+          "text": "Hearing Route Guard"
+        },
+        {
+          "anchor": "guestlink",
+          "depth": 2,
+          "text": "GuestLink"
+        },
+        {
+          "anchor": "formshield",
+          "depth": 2,
+          "text": "FormShield"
+        },
+        {
+          "anchor": "draftkey",
+          "depth": 2,
+          "text": "DraftKey"
+        },
+        {
+          "anchor": "calendar-lifeboat",
+          "depth": 2,
+          "text": "Calendar Lifeboat"
+        },
+        {
+          "anchor": "filetxn",
+          "depth": 2,
+          "text": "FileTxn"
+        },
+        {
+          "anchor": "shareshelf",
+          "depth": 2,
+          "text": "ShareShelf"
+        },
+        {
+          "anchor": "homekit-snapshot",
+          "depth": 2,
+          "text": "HomeKit Snapshot"
+        },
+        {
+          "anchor": "shortcutvault",
+          "depth": 2,
+          "text": "ShortcutVault"
+        },
+        {
+          "anchor": "photocleanup-undo-map",
+          "depth": 2,
+          "text": "PhotoCleanup Undo Map"
+        },
+        {
+          "anchor": "stitchlatch",
+          "depth": 2,
+          "text": "StitchLatch"
+        },
+        {
+          "anchor": "deferralgap",
+          "depth": 2,
+          "text": "DeferralGap"
+        },
+        {
+          "anchor": "paystubpair",
+          "depth": 2,
+          "text": "PaystubPair"
+        },
+        {
+          "anchor": "eobbill--medical-bill-and-eob-auditor",
+          "depth": 2,
+          "text": "EOBBill → Medical Bill and EOB Auditor"
+        },
+        {
+          "anchor": "shipadjust",
+          "depth": 2,
+          "text": "ShipAdjust"
+        },
+        {
+          "anchor": "gigdeposit",
+          "depth": 2,
+          "text": "GigDeposit"
+        },
+        {
+          "anchor": "hotelfolio",
+          "depth": 2,
+          "text": "HotelFolio"
+        },
+        {
+          "anchor": "merged-evidence",
+          "depth": 2,
+          "text": "Merged evidence"
+        },
+        {
+          "anchor": "tipslip-pair--shift-pay-checker",
+          "depth": 3,
+          "text": "TipSlip Pair → Shift Pay Checker"
+        },
+        {
+          "anchor": "tippost--tipcheck",
+          "depth": 3,
+          "text": "TipPost → TipCheck"
+        },
+        {
+          "anchor": "scopetap--scope-request-budget",
+          "depth": 3,
+          "text": "ScopeTap → Scope Request Budget"
+        },
+        {
+          "anchor": "videotape--crashtape",
+          "depth": 3,
+          "text": "VideoTape → CrashTape"
+        },
+        {
+          "anchor": "loop-2-decision",
+          "depth": 2,
+          "text": "Loop 2 decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "ble-link-loss-alert",
+        "busy-status-stand",
+        "calendar-local-lifeboat",
+        "carrier-adjustment-diff",
+        "craft-row-checkpoint",
+        "crash-recoverable-field-recorder",
+        "cross-app-draft-keyboard",
+        "gig-payout-deposit-match",
+        "guest-wifi-qr",
+        "guided-routine-step-clock",
+        "hearing-aid-route-guard",
+        "homekit-configuration-snapshot",
+        "hotel-folio-settlement-match",
+        "medical-bill-auditor",
+        "photo-cleanup-undo-map",
+        "reading-line-focus",
+        "retirement-deferral-gap",
+        "safari-form-draft-recovery",
+        "saved-phrase-deck",
+        "scope-request-budget",
+        "share-handoff-shelf",
+        "shift-pay-checker",
+        "shortcuts-version-vault",
+        "speaking-pace-mirror",
+        "status-led-color-reader",
+        "timecard-paystub-pair",
+        "tipcheck",
+        "transactional-file-operations",
+        "transition-tile"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop2",
+      "sha256": "sha256:67b04801fe17a10b8d364ac34241dae08b1cb14dd4f47cc8457db8ae2bd6f8c0",
+      "slug": "idea-mining-loop-2026-08-10-round10-loop2",
+      "title": "Round 10, Loop 2 — Transitions, Recovery, and Reconciliation"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--round-9",
           "depth": 1,
           "text": "Idea Mining Loop — Round 9"
@@ -2125,5 +2360,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:ada2c8aa013b4e35ad9364aa1f34682c1b88886d39170cb258a212561cdb5fbc"
+  "sourceHash": "sha256:46523ca43f08cb7e10acc75f1776986d609eb5ad95b04ac5b660ffcdd781fc3a"
 }

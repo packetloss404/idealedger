@@ -16,13 +16,13 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(199);
-    expect(researchMetadata).toHaveLength(14);
+    expect(ideas).toHaveLength(223);
+    expect(researchMetadata).toHaveLength(15);
     expect(ledgerCounts).toEqual({
-      dossiers: 14,
-      ideas: 199,
-      researchEdges: 200,
-      searchDocuments: 213,
+      dossiers: 15,
+      ideas: 223,
+      researchEdges: 229,
+      searchDocuments: 238,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -49,13 +49,13 @@ describe('generated ledger repository', () => {
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(14);
+    expect(repository.documents).toHaveLength(15);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
 
   it.each([
-    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 2],
+    ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 3],
     ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 1],
     ['lot-match', '1-lotmatch--strongest-business-candidate', 1],
     ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
@@ -83,6 +83,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(510);
+    expect(tagOptions).toHaveLength(566);
   });
 });

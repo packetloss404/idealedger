@@ -2942,6 +2942,575 @@
     {
       "headings": [
         {
+          "anchor": "round-10-loop-2--transitions-recovery-and-reconciliation",
+          "depth": 1,
+          "text": "Round 10, Loop 2 — Transitions, Recovery, and Reconciliation"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "research-statistics",
+          "depth": 2,
+          "text": "Research statistics"
+        },
+        {
+          "anchor": "meta-analysis-after-loop-2",
+          "depth": 2,
+          "text": "Meta-analysis after Loop 2"
+        },
+        {
+          "anchor": "newly-discovered-failure-patterns",
+          "depth": 3,
+          "text": "Newly discovered failure patterns"
+        },
+        {
+          "anchor": "previously-rejected-patterns-confirmed-again",
+          "depth": 3,
+          "text": "Previously rejected patterns confirmed again"
+        },
+        {
+          "anchor": "search-directions-that-weakened",
+          "depth": 3,
+          "text": "Search directions that weakened"
+        },
+        {
+          "anchor": "directions-that-still-deserve-scrutiny",
+          "depth": 3,
+          "text": "Directions that still deserve scrutiny"
+        },
+        {
+          "anchor": "transitiontile",
+          "depth": 2,
+          "text": "TransitionTile"
+        },
+        {
+          "anchor": "pacemirror",
+          "depth": 2,
+          "text": "PaceMirror"
+        },
+        {
+          "anchor": "phrasedeck",
+          "depth": 2,
+          "text": "PhraseDeck"
+        },
+        {
+          "anchor": "linefocus",
+          "depth": 2,
+          "text": "LineFocus"
+        },
+        {
+          "anchor": "statuscolor",
+          "depth": 2,
+          "text": "StatusColor"
+        },
+        {
+          "anchor": "busystand",
+          "depth": 2,
+          "text": "BusyStand"
+        },
+        {
+          "anchor": "linkloss",
+          "depth": 2,
+          "text": "LinkLoss"
+        },
+        {
+          "anchor": "stepclock",
+          "depth": 2,
+          "text": "StepClock"
+        },
+        {
+          "anchor": "hearing-route-guard",
+          "depth": 2,
+          "text": "Hearing Route Guard"
+        },
+        {
+          "anchor": "guestlink",
+          "depth": 2,
+          "text": "GuestLink"
+        },
+        {
+          "anchor": "formshield",
+          "depth": 2,
+          "text": "FormShield"
+        },
+        {
+          "anchor": "draftkey",
+          "depth": 2,
+          "text": "DraftKey"
+        },
+        {
+          "anchor": "calendar-lifeboat",
+          "depth": 2,
+          "text": "Calendar Lifeboat"
+        },
+        {
+          "anchor": "filetxn",
+          "depth": 2,
+          "text": "FileTxn"
+        },
+        {
+          "anchor": "shareshelf",
+          "depth": 2,
+          "text": "ShareShelf"
+        },
+        {
+          "anchor": "homekit-snapshot",
+          "depth": 2,
+          "text": "HomeKit Snapshot"
+        },
+        {
+          "anchor": "shortcutvault",
+          "depth": 2,
+          "text": "ShortcutVault"
+        },
+        {
+          "anchor": "photocleanup-undo-map",
+          "depth": 2,
+          "text": "PhotoCleanup Undo Map"
+        },
+        {
+          "anchor": "stitchlatch",
+          "depth": 2,
+          "text": "StitchLatch"
+        },
+        {
+          "anchor": "deferralgap",
+          "depth": 2,
+          "text": "DeferralGap"
+        },
+        {
+          "anchor": "paystubpair",
+          "depth": 2,
+          "text": "PaystubPair"
+        },
+        {
+          "anchor": "eobbill--medical-bill-and-eob-auditor",
+          "depth": 2,
+          "text": "EOBBill → Medical Bill and EOB Auditor"
+        },
+        {
+          "anchor": "shipadjust",
+          "depth": 2,
+          "text": "ShipAdjust"
+        },
+        {
+          "anchor": "gigdeposit",
+          "depth": 2,
+          "text": "GigDeposit"
+        },
+        {
+          "anchor": "hotelfolio",
+          "depth": 2,
+          "text": "HotelFolio"
+        },
+        {
+          "anchor": "merged-evidence",
+          "depth": 2,
+          "text": "Merged evidence"
+        },
+        {
+          "anchor": "tipslip-pair--shift-pay-checker",
+          "depth": 3,
+          "text": "TipSlip Pair → Shift Pay Checker"
+        },
+        {
+          "anchor": "tippost--tipcheck",
+          "depth": 3,
+          "text": "TipPost → TipCheck"
+        },
+        {
+          "anchor": "scopetap--scope-request-budget",
+          "depth": 3,
+          "text": "ScopeTap → Scope Request Budget"
+        },
+        {
+          "anchor": "videotape--crashtape",
+          "depth": 3,
+          "text": "VideoTape → CrashTape"
+        },
+        {
+          "anchor": "loop-2-decision",
+          "depth": 2,
+          "text": "Loop 2 decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "ble-link-loss-alert",
+        "busy-status-stand",
+        "calendar-local-lifeboat",
+        "carrier-adjustment-diff",
+        "craft-row-checkpoint",
+        "crash-recoverable-field-recorder",
+        "cross-app-draft-keyboard",
+        "gig-payout-deposit-match",
+        "guest-wifi-qr",
+        "guided-routine-step-clock",
+        "hearing-aid-route-guard",
+        "homekit-configuration-snapshot",
+        "hotel-folio-settlement-match",
+        "medical-bill-auditor",
+        "photo-cleanup-undo-map",
+        "reading-line-focus",
+        "retirement-deferral-gap",
+        "safari-form-draft-recovery",
+        "saved-phrase-deck",
+        "scope-request-budget",
+        "share-handoff-shelf",
+        "shift-pay-checker",
+        "shortcuts-version-vault",
+        "speaking-pace-mirror",
+        "status-led-color-reader",
+        "timecard-paystub-pair",
+        "tipcheck",
+        "transactional-file-operations",
+        "transition-tile"
+      ],
+      "links": [
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Form History Control",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/form-history-control/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "BatchRename",
+          "url": "https://apps.apple.com/us/app/batchrename-bulk-file-renamer/id1176825911"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Billscope",
+          "url": "https://apps.apple.com/us/app/billscope/id6759691854"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Bluetooth Lost BLE Finder",
+          "url": "https://apps.apple.com/us/app/bluetooth-lost-ble-finder/id1527542438"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Checkout",
+          "url": "https://apps.apple.com/us/app/checkout-server-tip-tracker/id6759942669"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ColorSight",
+          "url": "https://apps.apple.com/us/app/colorsight-color-identifier/id6773807144"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Controller for HomeKit",
+          "url": "https://apps.apple.com/us/app/controller-for-homekit/id1198176727"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Dyslexia Reading Lens",
+          "url": "https://apps.apple.com/us/app/dyslexia-reading-lens/id6776156853"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Purgo",
+          "url": "https://apps.apple.com/us/app/gallery-cleaner-purgo/id6739306985"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Helperbird",
+          "url": "https://apps.apple.com/us/app/helperbird/id1589138053"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "KnitCounter",
+          "url": "https://apps.apple.com/us/app/knitcounter-row-counter/id6755443199"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "MyVisualRoutine",
+          "url": "https://apps.apple.com/us/app/myvisualroutine-autism-adhd/id6757563805"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Orato",
+          "url": "https://apps.apple.com/us/app/orato-ai-speech-coach/id6740540874"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "PaceCoach",
+          "url": "https://apps.apple.com/us/app/pacecoach/id6758337168"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "PalindReceipt",
+          "url": "https://apps.apple.com/us/app/palindreceipt/id6756069531"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Photo Cleaner",
+          "url": "https://apps.apple.com/us/app/photo-cleaner-swipe-cleanup/id6746700862"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Reclean",
+          "url": "https://apps.apple.com/us/app/photo-cleanup-delete-reclean/id6746572441"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Routinery",
+          "url": "https://apps.apple.com/us/app/routine-planner-habit-tracker/id1450486923"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Rows & Stitches",
+          "url": "https://apps.apple.com/us/app/rows-stitches-row-counter/id6778170499"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Shelve It",
+          "url": "https://apps.apple.com/us/app/shelve-it/id6761321021"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ShiftWorth",
+          "url": "https://apps.apple.com/us/app/shiftworth-paycheck-calc/id6761313309"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Speechability",
+          "url": "https://apps.apple.com/us/app/speechability-text-aac/id1526078022"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Spoken",
+          "url": "https://apps.apple.com/us/app/spoken-tap-to-talk-aac/id1034487817"
+        },
+        {
+          "kind": "external",
+          "occurrences": 2,
+          "text": "Time Timer",
+          "url": "https://apps.apple.com/us/app/time-timer/id332520417"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Visual Countdown Timer",
+          "url": "https://apps.apple.com/us/app/visual-countdown-timer/id541364004"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "WiFi QR",
+          "url": "https://apps.apple.com/us/app/wifi-qr-share-wifi-password/id6760225843"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Yoink",
+          "url": "https://apps.apple.com/us/app/yoink-improved-drag-and-drop/id1260915283"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "BUSY Bar",
+          "url": "https://busy.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "FormKeeper",
+          "url": "https://camlittle.com/formkeeper/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ChangeDesk",
+          "url": "https://changedesk.byalif.app/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Typio Form Recovery",
+          "url": "https://chromewebstore.google.com/detail/typio-form-recovery-reboo/hendjokhdihlhddjfjmenakapnhcaflg"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "the app's own audio session",
+          "url": "https://developer.apple.com/documentation/avfaudio/responding-to-audio-route-changes"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "movieFragmentInterval",
+          "url": "https://developer.apple.com/documentation/avfoundation/avassetwriter/moviefragmentinterval"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Gridwise",
+          "url": "https://help.gridwise.io/hc/en-us/articles/36781805772823-Supported-Work-Accounts-for-Automatic-Earnings-Syncing"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "JobAmend",
+          "url": "https://jobamend.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "MicBuddy",
+          "url": "https://micbuddy.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "OwedBack",
+          "url": "https://owedback.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Shipclaim",
+          "url": "https://shipclaim.co/ups-refund-audit"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Shipware",
+          "url": "https://shipware.com/solutions/invoice-audit-recovery/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "source-level NetBenefits contribution views",
+          "url": "https://sponsor.fidelity.com/pspublic/pca/psw/public/library/innovations/netbenefits_page_enhancements.html"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "iCloud Calendar archive restoration",
+          "url": "https://support.apple.com/en-gb/guide/icloud/mm7478c562f3/icloud"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Live Speech",
+          "url": "https://support.apple.com/en-gb/guide/iphone/iphcf92d2d9b/26/ios/26"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Find My separation alerts",
+          "url": "https://support.apple.com/en-ie/guide/iphone/iph5f53aeae0/ios"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Accessibility Reader",
+          "url": "https://support.apple.com/en-is/guide/iphone/iph406a46ab8/26/ios/26"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "sharing a Wi-Fi password and displaying a network QR",
+          "url": "https://support.apple.com/en-nz/guide/iphone/iph96e6aa9bb/ios"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Joist",
+          "url": "https://support.joistapp.com/en/articles/9212730-change-orders"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Synceipt",
+          "url": "https://synceipt.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "BillHero",
+          "url": "https://www.billhero.ai/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Department of Labor retirement-plan FAQ",
+          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/retirement-plans-and-erisa"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Timesheet app",
+          "url": "https://www.dol.gov/agencies/whd/timesheet-app"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "IRS fix-it guide",
+          "url": "https://www.irs.gov/retirement-plans/401k-plan-fix-it-guide-you-havent-timely-deposited-employee-elective-deferrals"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "LateShipment OneAudit",
+          "url": "https://www.lateshipment.com/platform/oneaudit/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "2026 missing-platform contribution report",
+          "url": "https://www.reddit.com/r/Retirement401k/comments/1rgnnl2/401k_deposit_missing_from_platform/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "multiple withheld deductions not contributed",
+          "url": "https://www.reddit.com/r/tax/comments/1r4ty3t/employer_made_a_mess_of_my_401k/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Solo",
+          "url": "https://www.worksolo.com/blog/solo-vs-gridwise"
+        }
+      ],
+      "markdown": "# Round 10, Loop 2 — Transitions, Recovery, and Reconciliation\n\n**Research date:** 2026-08-10\n\n**Method:** Three independent lanes searched current consumer transition/accessibility pain, phone-owned interruption recovery, and two-record reconciliation. Every provisional lead was then attacked for exact incumbents, source-of-truth limits, repeated behavior, and $7.99 willingness to pay.\n\n**Starting archive:** 199 ideas and 14 research dossiers.\n\n## Executive summary\n\nLoop 2 investigated 29 serious concepts. It produced no build recommendation and one deliberately narrow paid concierge test: **DeferralGap**, which compares employee elective-deferral deductions reported on paystubs with contribution entries visible in the retirement-plan account. It can only say `located`, `not yet locatable`, or `needs review`; it cannot say money is late, missing, illegal, or stolen. The product remains parked until actual users pay $7.99 and repeat the two-artifact workflow.\n\nThe apparent technical survivor, **FormShield**, died under trust, setup, and demand scrutiny. Research found that the exact $4.99 iPhone/iPad/Mac Safari extension FormKeeper had existed but was no longer available in Apple's live catalog at release review; free browser precedents remain. Five concepts were merged into existing records instead of creating duplicates: EOBBill into Medical Bill and EOB Auditor, TipSlip Pair into Shift Pay Checker, TipPost into TipCheck, ScopeTap evidence into Scope Request Budget, and VideoTape into CrashTape's interruption-recovery thesis.\n\n## Research statistics\n\n- Serious candidates investigated: 29\n- New Ledger decisions: 24\n- Evidence merges into prior ideas: 5\n- Parked for a paid behavior test: 1\n- Passed for market, native, or scope reasons: 24\n- Build recommendations: 0\n\n## Meta-analysis after Loop 2\n\n### Newly discovered failure patterns\n\n1. **Preventive insurance has a permission paradox.** Narrow permissions make a recovery tool trustworthy but require the user to foresee the failure; broad permissions make it useful but keylogger-shaped.\n2. **A local journal matters only when the app owns the event stream.** App-owned recording and file operations qualify. Calendar providers, third-party keyboards, and physical row counting do not.\n3. **The phone can own timing while still being the wrong artifact.** BusyStand knows its countdown, but a small primary phone is worse than a placed sign or light.\n4. **Two authoritative records do not guarantee a clean invariant.** Pay dates, settlement dates, aggregation, reversals, pooling, holds, and corrections can make honest mismatches noisy.\n5. **A free portal can beat a clever reconciliation product.** Remembering to look in the authoritative system may be easier than maintaining a second import ritual.\n\n### Previously rejected patterns confirmed again\n\n- Exact incumbent and native-feature competition dominated accessibility utilities.\n- A share-sheet completion is not delivery or destination acknowledgment.\n- Physical-state taps remain non-authoritative.\n- Vertical systems of record absorb narrow reconciliation features.\n- An excellent force-kill recovery demo does not create a new payer when the feature already exists.\n\n### Search directions that weakened\n\n- Generic timers, saved phrases, reading overlays, Bluetooth alerts, Wi-Fi sharing, file shelves, and local backup wrappers.\n- Two-document comparison without a stable one-to-one or cumulative invariant.\n- Preventive utilities discovered only after the loss they were meant to prevent.\n\n### Directions that still deserve scrutiny\n\n- Cumulative reconciliation where both records are user-accessible and the output can abstain.\n- Phone-owned event streams with explicit interruption boundaries.\n- Recurring exception detection attached to a natural payday, settlement, or handoff event.\n- Utilities distributed through an existing benefits, union, adviser, or professional channel rather than App Store search alone.\n\n## TransitionTile\n\n**Concept:** A visible `Now → Next` transition timer for ADHD and autistic users or families.\n\nThe phone authoritatively owns the countdown, and current users continue to discuss time blindness and difficult household transitions. The category is already mature: [Time Timer](https://apps.apple.com/us/app/time-timer/id332520417) has 14K ratings and a $9.95 unlock, [Visual Countdown Timer](https://apps.apple.com/us/app/visual-countdown-timer/id541364004) has roughly 40K ratings, and [MyVisualRoutine](https://apps.apple.com/us/app/myvisualroutine-autism-adhd/id6757563805) covers First-Then schedules.\n\n**Verdict:** `passed_market`. Reopen only if a side-by-side household trial produces a measurable improvement that the established timers do not.\n\n## PaceMirror\n\n**Concept:** Show a local, rolling speaking-rate band during practice and nudge only when pace exceeds the user's chosen range.\n\nThe demo and microphone authority are good, but [PaceCoach](https://apps.apple.com/us/app/pacecoach/id6758337168) launched the exact 2026 product with live color feedback, calibration, Watch haptics, history, and a $19.99 one-time price. [Orato](https://apps.apple.com/us/app/orato-ai-speech-coach/id6740540874) and [MicBuddy](https://micbuddy.com/) cover adjacent coaching.\n\n**Verdict:** `passed_market`. Existing price validates the category, not distribution for a copy.\n\n## PhraseDeck\n\n**Concept:** Tap a saved phrase to display it in huge type or speak it during an intermittent communication barrier.\n\nApple's current [Live Speech](https://support.apple.com/en-gb/guide/iphone/iphcf92d2d9b/26/ios/26) already supports typed speech, saved phrases, favorites, categories, calls, and in-person use. [Spoken](https://apps.apple.com/us/app/spoken-tap-to-talk-aac/id1034487817) and [Speechability](https://apps.apple.com/us/app/speechability-text-aac/id1526078022) occupy the same workflow.\n\n**Verdict:** `passed_market`. Reopen only around a repeated interaction that Live Speech demonstrably cannot perform.\n\n## LineFocus\n\n**Concept:** Import or capture text and use a movable reading ruler or mask to keep one's place.\n\nApple's [Accessibility Reader](https://support.apple.com/en-is/guide/iphone/iph406a46ab8/26/ios/26) provides a customizable reading surface and speech. [Helperbird](https://apps.apple.com/us/app/helperbird/id1589138053) is free, and [Dyslexia Reading Lens](https://apps.apple.com/us/app/dyslexia-reading-lens/id6776156853) is exact.\n\n**Verdict:** `passed_market`. The import ceremony and incumbent coverage eliminate a standalone wedge.\n\n## StatusColor\n\n**Concept:** Sample a tiny status LED and report the camera-observed color with a confidence band for color-vision-deficient users.\n\nCurrent users do report unreadable device LEDs, but [ColorSight](https://apps.apple.com/us/app/colorsight-color-identifier/id6773807144) already offers free live naming, zoom, focus, region sampling, color-vision profiles, and CVD color-confusion warnings. Glare, PWM, auto white balance, and blooming make tiny LEDs difficult; mapping color to device meaning would add non-authoritative model knowledge.\n\n**Verdict:** `passed_market`. Reopen only if a 100-LED blind test materially beats ColorSight with safe abstention.\n\n## BusyStand\n\n**Concept:** Place a charging phone in landscape and show `BUSY UNTIL 2:40` to housemates.\n\nThe pain is real in current work-from-home discussions, but the phone is the wrong physical signal. [BUSY Bar](https://busy.app/) puts a large outward-facing display where interrupters look and can integrate microphone, call, and calendar state. A door, paper sign, smart bulb, or headset light is cheaper and more visible. The user must surrender their primary phone, remember to deploy it, and keep it in the correct sightline.\n\n**Verdict:** `passed_market`. Reopen only if a two-week household test beats a free physical sign on deployment adherence and interruption reduction.\n\n## LinkLoss\n\n**Concept:** Notify when an app-managed BLE connection to a valuable accessory ends.\n\nApple [Find My separation alerts](https://support.apple.com/en-ie/guide/iphone/iph5f53aeae0/ios) cover supported items, and [Bluetooth Lost BLE Finder](https://apps.apple.com/us/app/bluetooth-lost-ble-finder/id1527542438) is a free exact utility. CoreBluetooth can observe disconnects only for peripherals the app owns; it cannot infer loss, location, battery failure, deliberate shutdown, or system ownership of classic/MFi devices.\n\n**Verdict:** `passed_market`.\n\n## StepClock\n\n**Concept:** Run a labeled, auto-advancing sequence for morning, cleaning, or leaving routines.\n\n[Routinery](https://apps.apple.com/us/app/routine-planner-habit-tracker/id1450486923) has 18K ratings and timed voice-guided sequences, [Time Timer](https://apps.apple.com/us/app/time-timer/id332520417) includes timer sequences, and Clock supports multiple labeled timers. The phone owns time, not physical task completion.\n\n**Verdict:** `passed_market`.\n\n## Hearing Route Guard\n\n**Concept:** Warn a hearing-aid user before audio unexpectedly routes to the phone speaker.\n\nApple exposes route changes for [the app's own audio session](https://developer.apple.com/documentation/avfaudio/responding-to-audio-route-changes), not a global authoritative route for every app, call, and system sound. An own-session demo would misrepresent the desired product.\n\n**Verdict:** `passed_scope`. Reopen only if Apple exposes a sanctioned global route-state transition API.\n\n## GuestLink\n\n**Concept:** Display a QR code for a saved Wi-Fi network.\n\nCurrent iOS directly supports [sharing a Wi-Fi password and displaying a network QR](https://support.apple.com/en-nz/guide/iphone/iph96e6aa9bb/ios). [WiFi QR](https://apps.apple.com/us/app/wifi-qr-share-wifi-password/id6760225843) is free with a $1.99 unlock, and printed QR cards are more durable for guests.\n\n**Verdict:** `passed_market`.\n\n## FormShield\n\n**Concept:** An opt-in Safari extension locally journals supported plain-text form fields and offers exact restoration after reload or tab loss.\n\nSafari Web Extensions can observe authorized page DOM and use per-site permissions, but the privacy/coverage tradeoff is structural. File inputs, closed shadow roots, cross-origin frames, React-controlled fields, private browsing, and sensitive free text complicate truthful protection. The exact iPhone/iPad/Mac Safari extension [FormKeeper](https://camlittle.com/formkeeper/) had offered the workflow for $4.99, reported no data collected, and supported `contenteditable`, but Apple's live catalog returned no listing during release review; that is historical prior art and a demand warning, not a current substitute. [Typio Form Recovery](https://chromewebstore.google.com/detail/typio-form-recovery-reboo/hendjokhdihlhddjfjmenakapnhcaflg) and [Form History Control](https://addons.mozilla.org/en-US/firefox/addon/form-history-control/) remain free browser precedents.\n\n**Verdict:** `passed_market`. Reopen only after a 100-fixture privacy/coverage test and real buyers choose $7.99 after seeing the permission dialog and incumbent.\n\n## DraftKey\n\n**Concept:** A custom keyboard keeps a local journal of its own generated keystrokes for recovery after a host app loses a draft.\n\nThe keyboard cannot see the host document, prior text, cursor edits, paste, dictation, or other keyboards. Apple cautions against retaining keystrokes beyond the keyboard's function, and secure fields switch away. The truthful result is a partial keystroke stream, not draft recovery.\n\n**Verdict:** `passed_scope`. Reopen only with a sanctioned complete host-document edit API.\n\n## Calendar Lifeboat\n\n**Concept:** Foreground EventKit snapshots provide a local comparison and limited recreation path after events disappear.\n\nThe app lacks a dependable continuous background journal, and recurrence, attendee, shared-calendar, read-only, and provider identifier semantics create duplicate or invitation risk. Apple already offers [iCloud Calendar archive restoration](https://support.apple.com/en-gb/guide/icloud/mm7478c562f3/icloud).\n\n**Verdict:** `passed_market`.\n\n## FileTxn\n\n**Concept:** Preview and journal every app-owned batch rename or move before mutation, then show completed, pending, error, and rollback states after interruption.\n\nThe app can verify that URLs reopen, not that a cloud provider durably committed or can reverse a remote mutation. [BatchRename](https://apps.apple.com/us/app/batchrename-bulk-file-renamer/id1176825911) already offers preview, detailed errors, transactional undo history, and low-priced upgrades.\n\n**Verdict:** `passed_market`.\n\n## ShareShelf\n\n**Concept:** Copy a shared item into local custody before sending it through an unreliable share-sheet destination.\n\nThis can truthfully preserve the staged source, but share completion does not prove upload, print, message, or destination acceptance. [Yoink](https://apps.apple.com/us/app/yoink-improved-drag-and-drop/id1260915283) costs $5.99 and already provides a share-extension shelf; [Shelve It](https://apps.apple.com/us/app/shelve-it/id6761321021) is free with a $3.99 lifetime unlock.\n\n**Verdict:** `passed_market`.\n\n## HomeKit Snapshot\n\n**Concept:** Snapshot supported scenes and automations, compare later, and recreate a missing supported subset.\n\nSnapshots cannot restore accessory pairing, physical devices, vendor state, every automation semantic, or a destroyed home graph. [Controller for HomeKit](https://apps.apple.com/us/app/controller-for-homekit/id1198176727) already provides backup/restore, logs, automation maintenance, setup-code storage, and broken-automation detection.\n\n**Verdict:** `passed_market`.\n\n## ShortcutVault\n\n**Concept:** Ingest manually exported `.shortcut` files, hash and version them, then expose earlier imports.\n\nThere is no public API for passively enumerating and versioning the complete Shortcuts library. iCloud sync, free backup-all Shortcuts, and emerging native restoration own the workflow; a manual export cannot prove completeness or currency.\n\n**Verdict:** `passed_market`. Reopen only with a sanctioned complete-library change/export API.\n\n## PhotoCleanup Undo Map\n\n**Concept:** Journal asset identifiers, album membership, and keep/delete decisions for cleanup operations the app owns.\n\nApple Photos already moves media to Recently Deleted for 30 days. [Photo Cleaner](https://apps.apple.com/us/app/photo-cleaner-swipe-cleanup/id6746700862), [Reclean](https://apps.apple.com/us/app/photo-cleanup-delete-reclean/id6746572441), and [Purgo](https://apps.apple.com/us/app/gallery-cleaner-purgo/id6739306985) include cleanup and undo behaviors. This is a feature of a full cleaner, not an independent product.\n\n**Verdict:** `passed_market`.\n\n## StitchLatch\n\n**Concept:** Save a knitting or crochet row/repeat counter immediately and expose it on Lock Screen or Watch after interruption.\n\nThe phone knows taps, not physical rows. [KnitCounter](https://apps.apple.com/us/app/knitcounter-row-counter/id6755443199) is free and automatically saves, while [Rows & Stitches](https://apps.apple.com/us/app/rows-stitches-row-counter/id6778170499) costs $5.99 lifetime and already includes Live Activity, Dynamic Island, Watch, undo, confirmation, and iCloud.\n\n**Verdict:** `passed_market`.\n\n## DeferralGap\n\n**Concept:** Compare employee elective-deferral deductions reported by a paystub with contribution entries visible in a retirement-plan account, using cumulative matching and a conservative user-established delay.\n\nCurrent complaints report deductions visible on paystubs but not in plan histories, including a [2026 missing-platform contribution report](https://www.reddit.com/r/Retirement401k/comments/1rgnnl2/401k_deposit_missing_from_platform/) and [multiple withheld deductions not contributed](https://www.reddit.com/r/tax/comments/1r4ty3t/employer_made_a_mess_of_my_401k/). The paystub is authoritative only that payroll reports a deduction; participant history is authoritative only for visible plan entries. Payroll date is not receipt, trade, or settlement date. Contributions can aggregate, split, reverse, or correct, and employer matching follows different timing. IRS guidance says elective deferrals must be deposited as soon as reasonably segregable; the fifteenth business day is a maximum, not a general safe harbor. [IRS fix-it guide](https://www.irs.gov/retirement-plans/401k-plan-fix-it-guide-you-havent-timely-deposited-employee-elective-deferrals), [Department of Labor retirement-plan FAQ](https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/retirement-plans-and-erisa).\n\nThe only safe output is `located`, `not yet locatable`, or `needs review`. Exclude employer matching. Separate pre-tax, Roth, after-tax, and loan repayment. Support aggregated deposits, split fund trades, reversals, and corrections. Suppress exceptions until a baseline exists and the conservative window has passed.\n\nNo exact consumer matcher surfaced. Fidelity and other plan portals already show contribution histories and are the strongest free substitute; Fidelity documents [source-level NetBenefits contribution views](https://sponsor.fidelity.com/pspublic/pca/psw/public/library/innovations/netbenefits_page_enhancements.html). A general parser is not weekend-sized; a concierge test precedes code.\n\n**Verdict:** `parked`. Recruit 30 people actively searching for missing contributions and charge $7.99. Require 20 to complete both artifact shares in under 90 seconds and repeat monthly for three months. Across 100 real pairs, allow zero cases where `not yet locatable` is shown while a supported matching contribution is already visible in the supplied plan history, and require three persistent review cases to be confirmed by employer or provider.\n\n## PaystubPair\n\n**Concept:** Compare employer-approved timecard hours and rates with paystub lines.\n\n[ShiftWorth](https://apps.apple.com/us/app/shiftworth-paycheck-calc/id6761313309) sells Verify and Compare Shifts for exactly $7.99, and the Department of Labor offers a free [Timesheet app](https://www.dol.gov/agencies/whd/timesheet-app).\n\n**Verdict:** `passed_market`.\n\n## EOBBill → Medical Bill and EOB Auditor\n\n**Concept:** Compare an insurer EOB and provider bill and highlight fields and amounts that do not reconcile.\n\nThe EOB is not a bill and the app cannot determine the amount legally owed. [OwedBack](https://owedback.com/) and [BillHero](https://www.billhero.ai/) offer free review; [Billscope](https://apps.apple.com/us/app/billscope/id6759691854) offers unlimited free scans and a $7.99 monthly tier, and FileBay performs exact comparison.\n\n**Verdict:** Merge this current evidence into the existing `Medical Bill and EOB Auditor` rejection; do not create a duplicate record.\n\n## ShipAdjust\n\n**Concept:** Compare a purchased shipping-label quote with a later carrier invoice adjustment and show changed dimensions, weight, surcharge, and amount.\n\nCarrier scan, contract, and surcharge tables determine validity. [Shipware](https://shipware.com/solutions/invoice-audit-recovery/), [LateShipment OneAudit](https://www.lateshipment.com/platform/oneaudit/), and [Shipclaim](https://shipclaim.co/ups-refund-audit) already own recurring invoice audit through integrations and gainshare. High-volume work is desktop/API-native; low-volume sellers have too few events.\n\n**Verdict:** `passed_market`.\n\n## GigDeposit\n\n**Concept:** Compare a finalized gig-platform payout record with a settled bank deposit and show unpaired records.\n\nThe model must handle instant-pay fees, cash offsets, adjustments, reversals, and bank delay. [Gridwise](https://help.gridwise.io/hc/en-us/articles/36781805772823-Supported-Work-Accounts-for-Automatic-Earnings-Syncing) already links 21 work accounts, while [Solo](https://www.worksolo.com/blog/solo-vs-gridwise) links work and bank accounts. There is no public sanctioned DoorDash payout API; screenshot reconciliation is inferior.\n\n**Verdict:** `passed_market`.\n\n## HotelFolio\n\n**Concept:** Compare a final hotel folio with settled card transactions and show unmatched amounts.\n\nHolds, advance deposits, split tenders, credits, refunds, foreign exchange, and merchant descriptors destroy simple equality. DimeProof and [Synceipt](https://synceipt.com/) already provide general receipt/bank matching, while business travelers use expense systems that own booking and folio context.\n\n**Verdict:** `passed_market`.\n\n## Merged evidence\n\n### TipSlip Pair → Shift Pay Checker\n\nThe recurrent server checkout-slip/paystub workflow is real, but pooled tips, cash/card tips, tip-outs, card fees, chargebacks, and period boundaries prevent a generic one-to-one invariant. [Checkout](https://apps.apple.com/us/app/checkout-server-tip-tracker/id6759942669) now explicitly includes paycheck reconciliation, and ServerLife has a paycheck workflow. This evidence strengthens the existing Shift Pay Checker rejection rather than creating another record.\n\n### TipPost → TipCheck\n\nSigned restaurant receipt versus settled charge remains a delayed two-step ritual. [PalindReceipt](https://apps.apple.com/us/app/palindreceipt/id6756069531) is a $0.99 exact app, and DimeProof, Synceipt, and Monarch cover receipt-to-transaction matching. Pending authorizations remain non-authoritative.\n\n### ScopeTap → Scope Request Budget\n\nThe on-site customer acknowledgment is a natural phone moment, but [Joist](https://support.joistapp.com/en/articles/9212730-change-orders), [JobAmend](https://jobamend.com/), [ChangeDesk](https://changedesk.byalif.app/), Change Order Pro, QuickCO, and ChangeSnap already occupy the jobsite change-order flow. A disconnected $7.99 signature/PDF tool loses the invoice and job total; the useful product belongs inside the contractor system of record.\n\n### VideoTape → CrashTape\n\nFragmented video has excellent authority and a force-kill demo. Apple's [`movieFragmentInterval`](https://developer.apple.com/documentation/avfoundation/avassetwriter/moviefragmentinterval) permits a partially written movie to reopen after interruption. Zella, Screen Recorder, Discreet, Mugen Camera, and Blackmagic already provide crash-safe or recoverable recording behavior. Treat it as a future CrashTape fixture, not a new product: 100 interruption tests, zero false verified states, every committed fragment decodable, and terminal loss never exceeding the displayed interval.\n\n## Loop 2 decision\n\n- **Build:** none\n- **Validate with code:** none\n- **Paid concierge falsification:** DeferralGap only\n- **Feature or evidence merges:** Shift Pay Checker, TipCheck, Scope Request Budget, CrashTape\n- **Archive:** all other Loop 2 concepts\n\nThe next loop should not chase another generic accessibility overlay, backup wrapper, or two-document OCR comparison. It should ask whether the phone owns a recurring event stream, whether the exception invariant survives aggregation and timing, and whether distribution exists before the failure occurs.\n",
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+      "plainText": "Round 10, Loop 2 — Transitions, Recovery, and Reconciliation\nResearch date: 2026-08-10\nMethod: Three independent lanes searched current consumer transition/accessibility pain, phone-owned interruption recovery, and two-record reconciliation. Every provisional lead was then attacked for exact incumbents, source-of-truth limits, repeated behavior, and $7.99 willingness to pay.\nStarting archive: 199 ideas and 14 research dossiers.\nExecutive summary\nLoop 2 investigated 29 serious concepts. It produced no build recommendation and one deliberately narrow paid concierge test: DeferralGap, which compares employee elective-deferral deductions reported on paystubs with contribution entries visible in the retirement-plan account. It can only say located, not yet locatable, or needs review; it cannot say money is late, missing, illegal, or stolen. The product remains parked until actual users pay $7.99 and repeat the two-artifact workflow.\nThe apparent technical survivor, FormShield, died under trust, setup, and demand scrutiny. Research found that the exact $4.99 iPhone/iPad/Mac Safari extension FormKeeper had existed but was no longer available in Apple's live catalog at release review; free browser precedents remain. Five concepts were merged into existing records instead of creating duplicates: EOBBill into Medical Bill and EOB Auditor, TipSlip Pair into Shift Pay Checker, TipPost into TipCheck, ScopeTap evidence into Scope Request Budget, and VideoTape into CrashTape's interruption-recovery thesis.\nResearch statistics\nSerious candidates investigated: 29New Ledger decisions: 24Evidence merges into prior ideas: 5Parked for a paid behavior test: 1Passed for market, native, or scope reasons: 24Build recommendations: 0\nMeta-analysis after Loop 2\nNewly discovered failure patterns\nPreventive insurance has a permission paradox. Narrow permissions make a recovery tool trustworthy but require the user to foresee the failure; broad permissions make it useful but keylogger-shaped.A local journal matters only when the app owns the event stream. App-owned recording and file operations qualify. Calendar providers, third-party keyboards, and physical row counting do not.The phone can own timing while still being the wrong artifact. BusyStand knows its countdown, but a small primary phone is worse than a placed sign or light.Two authoritative records do not guarantee a clean invariant. Pay dates, settlement dates, aggregation, reversals, pooling, holds, and corrections can make honest mismatches noisy.A free portal can beat a clever reconciliation product. Remembering to look in the authoritative system may be easier than maintaining a second import ritual.\nPreviously rejected patterns confirmed again\nExact incumbent and native-feature competition dominated accessibility utilities.A share-sheet completion is not delivery or destination acknowledgment.Physical-state taps remain non-authoritative.Vertical systems of record absorb narrow reconciliation features.An excellent force-kill recovery demo does not create a new payer when the feature already exists.\nSearch directions that weakened\nGeneric timers, saved phrases, reading overlays, Bluetooth alerts, Wi-Fi sharing, file shelves, and local backup wrappers.Two-document comparison without a stable one-to-one or cumulative invariant.Preventive utilities discovered only after the loss they were meant to prevent.\nDirections that still deserve scrutiny\nCumulative reconciliation where both records are user-accessible and the output can abstain.Phone-owned event streams with explicit interruption boundaries.Recurring exception detection attached to a natural payday, settlement, or handoff event.Utilities distributed through an existing benefits, union, adviser, or professional channel rather than App Store search alone.\nTransitionTile\nConcept: A visible Now → Next transition timer for ADHD and autistic users or families.\nThe phone authoritatively owns the countdown, and current users continue to discuss time blindness and difficult household transitions. The category is already mature: Time Timer has 14K ratings and a $9.95 unlock, Visual Countdown Timer has roughly 40K ratings, and MyVisualRoutine covers First-Then schedules.\nVerdict: passed_market. Reopen only if a side-by-side household trial produces a measurable improvement that the established timers do not.\nPaceMirror\nConcept: Show a local, rolling speaking-rate band during practice and nudge only when pace exceeds the user's chosen range.\nThe demo and microphone authority are good, but PaceCoach launched the exact 2026 product with live color feedback, calibration, Watch haptics, history, and a $19.99 one-time price. Orato and MicBuddy cover adjacent coaching.\nVerdict: passed_market. Existing price validates the category, not distribution for a copy.\nPhraseDeck\nConcept: Tap a saved phrase to display it in huge type or speak it during an intermittent communication barrier.\nApple's current Live Speech already supports typed speech, saved phrases, favorites, categories, calls, and in-person use. Spoken and Speechability occupy the same workflow.\nVerdict: passed_market. Reopen only around a repeated interaction that Live Speech demonstrably cannot perform.\nLineFocus\nConcept: Import or capture text and use a movable reading ruler or mask to keep one's place.\nApple's Accessibility Reader provides a customizable reading surface and speech. Helperbird is free, and Dyslexia Reading Lens is exact.\nVerdict: passed_market. The import ceremony and incumbent coverage eliminate a standalone wedge.\nStatusColor\nConcept: Sample a tiny status LED and report the camera-observed color with a confidence band for color-vision-deficient users.\nCurrent users do report unreadable device LEDs, but ColorSight already offers free live naming, zoom, focus, region sampling, color-vision profiles, and CVD color-confusion warnings. Glare, PWM, auto white balance, and blooming make tiny LEDs difficult; mapping color to device meaning would add non-authoritative model knowledge.\nVerdict: passed_market. Reopen only if a 100-LED blind test materially beats ColorSight with safe abstention.\nBusyStand\nConcept: Place a charging phone in landscape and show BUSY UNTIL 2:40 to housemates.\nThe pain is real in current work-from-home discussions, but the phone is the wrong physical signal. BUSY Bar puts a large outward-facing display where interrupters look and can integrate microphone, call, and calendar state. A door, paper sign, smart bulb, or headset light is cheaper and more visible. The user must surrender their primary phone, remember to deploy it, and keep it in the correct sightline.\nVerdict: passed_market. Reopen only if a two-week household test beats a free physical sign on deployment adherence and interruption reduction.\nLinkLoss\nConcept: Notify when an app-managed BLE connection to a valuable accessory ends.\nApple Find My separation alerts cover supported items, and Bluetooth Lost BLE Finder is a free exact utility. CoreBluetooth can observe disconnects only for peripherals the app owns; it cannot infer loss, location, battery failure, deliberate shutdown, or system ownership of classic/MFi devices.\nVerdict: passed_market.\nStepClock\nConcept: Run a labeled, auto-advancing sequence for morning, cleaning, or leaving routines.\nRoutinery has 18K ratings and timed voice-guided sequences, Time Timer includes timer sequences, and Clock supports multiple labeled timers. The phone owns time, not physical task completion.\nVerdict: passed_market.\nHearing Route Guard\nConcept: Warn a hearing-aid user before audio unexpectedly routes to the phone speaker.\nApple exposes route changes for the app's own audio session, not a global authoritative route for every app, call, and system sound. An own-session demo would misrepresent the desired product.\nVerdict: passed_scope. Reopen only if Apple exposes a sanctioned global route-state transition API.\nGuestLink\nConcept: Display a QR code for a saved Wi-Fi network.\nCurrent iOS directly supports sharing a Wi-Fi password and displaying a network QR. WiFi QR is free with a $1.99 unlock, and printed QR cards are more durable for guests.\nVerdict: passed_market.\nFormShield\nConcept: An opt-in Safari extension locally journals supported plain-text form fields and offers exact restoration after reload or tab loss.\nSafari Web Extensions can observe authorized page DOM and use per-site permissions, but the privacy/coverage tradeoff is structural. File inputs, closed shadow roots, cross-origin frames, React-controlled fields, private browsing, and sensitive free text complicate truthful protection. The exact iPhone/iPad/Mac Safari extension FormKeeper had offered the workflow for $4.99, reported no data collected, and supported contenteditable, but Apple's live catalog returned no listing during release review; that is historical prior art and a demand warning, not a current substitute. Typio Form Recovery and Form History Control remain free browser precedents.\nVerdict: passed_market. Reopen only after a 100-fixture privacy/coverage test and real buyers choose $7.99 after seeing the permission dialog and incumbent.\nDraftKey\nConcept: A custom keyboard keeps a local journal of its own generated keystrokes for recovery after a host app loses a draft.\nThe keyboard cannot see the host document, prior text, cursor edits, paste, dictation, or other keyboards. Apple cautions against retaining keystrokes beyond the keyboard's function, and secure fields switch away. The truthful result is a partial keystroke stream, not draft recovery.\nVerdict: passed_scope. Reopen only with a sanctioned complete host-document edit API.\nCalendar Lifeboat\nConcept: Foreground EventKit snapshots provide a local comparison and limited recreation path after events disappear.\nThe app lacks a dependable continuous background journal, and recurrence, attendee, shared-calendar, read-only, and provider identifier semantics create duplicate or invitation risk. Apple already offers iCloud Calendar archive restoration.\nVerdict: passed_market.\nFileTxn\nConcept: Preview and journal every app-owned batch rename or move before mutation, then show completed, pending, error, and rollback states after interruption.\nThe app can verify that URLs reopen, not that a cloud provider durably committed or can reverse a remote mutation. BatchRename already offers preview, detailed errors, transactional undo history, and low-priced upgrades.\nVerdict: passed_market.\nShareShelf\nConcept: Copy a shared item into local custody before sending it through an unreliable share-sheet destination.\nThis can truthfully preserve the staged source, but share completion does not prove upload, print, message, or destination acceptance. Yoink costs $5.99 and already provides a share-extension shelf; Shelve It is free with a $3.99 lifetime unlock.\nVerdict: passed_market.\nHomeKit Snapshot\nConcept: Snapshot supported scenes and automations, compare later, and recreate a missing supported subset.\nSnapshots cannot restore accessory pairing, physical devices, vendor state, every automation semantic, or a destroyed home graph. Controller for HomeKit already provides backup/restore, logs, automation maintenance, setup-code storage, and broken-automation detection.\nVerdict: passed_market.\nShortcutVault\nConcept: Ingest manually exported .shortcut files, hash and version them, then expose earlier imports.\nThere is no public API for passively enumerating and versioning the complete Shortcuts library. iCloud sync, free backup-all Shortcuts, and emerging native restoration own the workflow; a manual export cannot prove completeness or currency.\nVerdict: passed_market. Reopen only with a sanctioned complete-library change/export API.\nPhotoCleanup Undo Map\nConcept: Journal asset identifiers, album membership, and keep/delete decisions for cleanup operations the app owns.\nApple Photos already moves media to Recently Deleted for 30 days. Photo Cleaner, Reclean, and Purgo include cleanup and undo behaviors. This is a feature of a full cleaner, not an independent product.\nVerdict: passed_market.\nStitchLatch\nConcept: Save a knitting or crochet row/repeat counter immediately and expose it on Lock Screen or Watch after interruption.\nThe phone knows taps, not physical rows. KnitCounter is free and automatically saves, while Rows & Stitches costs $5.99 lifetime and already includes Live Activity, Dynamic Island, Watch, undo, confirmation, and iCloud.\nVerdict: passed_market.\nDeferralGap\nConcept: Compare employee elective-deferral deductions reported by a paystub with contribution entries visible in a retirement-plan account, using cumulative matching and a conservative user-established delay.\nCurrent complaints report deductions visible on paystubs but not in plan histories, including a 2026 missing-platform contribution report and multiple withheld deductions not contributed. The paystub is authoritative only that payroll reports a deduction; participant history is authoritative only for visible plan entries. Payroll date is not receipt, trade, or settlement date. Contributions can aggregate, split, reverse, or correct, and employer matching follows different timing. IRS guidance says elective deferrals must be deposited as soon as reasonably segregable; the fifteenth business day is a maximum, not a general safe harbor. IRS fix-it guide, Department of Labor retirement-plan FAQ.\nThe only safe output is located, not yet locatable, or needs review. Exclude employer matching. Separate pre-tax, Roth, after-tax, and loan repayment. Support aggregated deposits, split fund trades, reversals, and corrections. Suppress exceptions until a baseline exists and the conservative window has passed.\nNo exact consumer matcher surfaced. Fidelity and other plan portals already show contribution histories and are the strongest free substitute; Fidelity documents source-level NetBenefits contribution views. A general parser is not weekend-sized; a concierge test precedes code.\nVerdict: parked. Recruit 30 people actively searching for missing contributions and charge $7.99. Require 20 to complete both artifact shares in under 90 seconds and repeat monthly for three months. Across 100 real pairs, allow zero cases where not yet locatable is shown while a supported matching contribution is already visible in the supplied plan history, and require three persistent review cases to be confirmed by employer or provider.\nPaystubPair\nConcept: Compare employer-approved timecard hours and rates with paystub lines.\nShiftWorth sells Verify and Compare Shifts for exactly $7.99, and the Department of Labor offers a free Timesheet app.\nVerdict: passed_market.\nEOBBill → Medical Bill and EOB Auditor\nConcept: Compare an insurer EOB and provider bill and highlight fields and amounts that do not reconcile.\nThe EOB is not a bill and the app cannot determine the amount legally owed. OwedBack and BillHero offer free review; Billscope offers unlimited free scans and a $7.99 monthly tier, and FileBay performs exact comparison.\nVerdict: Merge this current evidence into the existing Medical Bill and EOB Auditor rejection; do not create a duplicate record.\nShipAdjust\nConcept: Compare a purchased shipping-label quote with a later carrier invoice adjustment and show changed dimensions, weight, surcharge, and amount.\nCarrier scan, contract, and surcharge tables determine validity. Shipware, LateShipment OneAudit, and Shipclaim already own recurring invoice audit through integrations and gainshare. High-volume work is desktop/API-native; low-volume sellers have too few events.\nVerdict: passed_market.\nGigDeposit\nConcept: Compare a finalized gig-platform payout record with a settled bank deposit and show unpaired records.\nThe model must handle instant-pay fees, cash offsets, adjustments, reversals, and bank delay. Gridwise already links 21 work accounts, while Solo links work and bank accounts. There is no public sanctioned DoorDash payout API; screenshot reconciliation is inferior.\nVerdict: passed_market.\nHotelFolio\nConcept: Compare a final hotel folio with settled card transactions and show unmatched amounts.\nHolds, advance deposits, split tenders, credits, refunds, foreign exchange, and merchant descriptors destroy simple equality. DimeProof and Synceipt already provide general receipt/bank matching, while business travelers use expense systems that own booking and folio context.\nVerdict: passed_market.\nMerged evidence\nTipSlip Pair → Shift Pay Checker\nThe recurrent server checkout-slip/paystub workflow is real, but pooled tips, cash/card tips, tip-outs, card fees, chargebacks, and period boundaries prevent a generic one-to-one invariant. Checkout now explicitly includes paycheck reconciliation, and ServerLife has a paycheck workflow. This evidence strengthens the existing Shift Pay Checker rejection rather than creating another record.\nTipPost → TipCheck\nSigned restaurant receipt versus settled charge remains a delayed two-step ritual. PalindReceipt is a $0.99 exact app, and DimeProof, Synceipt, and Monarch cover receipt-to-transaction matching. Pending authorizations remain non-authoritative.\nScopeTap → Scope Request Budget\nThe on-site customer acknowledgment is a natural phone moment, but Joist, JobAmend, ChangeDesk, Change Order Pro, QuickCO, and ChangeSnap already occupy the jobsite change-order flow. A disconnected $7.99 signature/PDF tool loses the invoice and job total; the useful product belongs inside the contractor system of record.\nVideoTape → CrashTape\nFragmented video has excellent authority and a force-kill demo. Apple's movieFragmentInterval permits a partially written movie to reopen after interruption. Zella, Screen Recorder, Discreet, Mugen Camera, and Blackmagic already provide crash-safe or recoverable recording behavior. Treat it as a future CrashTape fixture, not a new product: 100 interruption tests, zero false verified states, every committed fragment decodable, and terminal loss never exceeding the displayed interval.\nLoop 2 decision\nBuild: noneValidate with code: nonePaid concierge falsification: DeferralGap onlyFeature or evidence merges: Shift Pay Checker, TipCheck, Scope Request Budget, CrashTapeArchive: all other Loop 2 concepts\nThe next loop should not chase another generic accessibility overlay, backup wrapper, or two-document OCR comparison. It should ask whether the phone owns a recurring event stream, whether the exception invariant survives aggregation and timing, and whether distribution exists before the failure occurs.",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop2",
+      "sha256": "sha256:67b04801fe17a10b8d364ac34241dae08b1cb14dd4f47cc8457db8ae2bd6f8c0",
+      "slug": "idea-mining-loop-2026-08-10-round10-loop2",
+      "title": "Round 10, Loop 2 — Transitions, Recovery, and Reconciliation"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--round-9",
           "depth": 1,
           "text": "Idea Mining Loop — Round 9"
@@ -4545,5 +5114,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:ada2c8aa013b4e35ad9364aa1f34682c1b88886d39170cb258a212561cdb5fbc"
+  "sourceHash": "sha256:46523ca43f08cb7e10acc75f1776986d609eb5ad95b04ac5b660ffcdd781fc3a"
 }

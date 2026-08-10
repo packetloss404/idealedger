@@ -1,15 +1,15 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 14,
-    "headingMatchedIdeas": 79,
-    "headingReferences": 81,
-    "ideas": 199,
+    "dossiers": 15,
+    "headingMatchedIdeas": 107,
+    "headingReferences": 110,
+    "ideas": 223,
     "ideasWithoutResearch": 11,
-    "mentionOnlyIdeas": 99,
+    "mentionOnlyIdeas": 97,
     "mentionReferences": 103,
-    "multiRefIdeas": 12,
-    "researchEdges": 200,
+    "multiRefIdeas": 16,
+    "researchEdges": 229,
     "unmappedReferences": 16
   },
   "researchProvenance": [
@@ -221,6 +221,22 @@
       ]
     },
     {
+      "ideaId": "ble-link-loss-alert",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "linkloss",
+            "depth": 2,
+            "text": "LinkLoss"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "ble-sports-sensor-preflight",
       "quality": "heading",
       "references": [
@@ -289,6 +305,22 @@
       ]
     },
     {
+      "ideaId": "busy-status-stand",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "busystand",
+            "depth": 2,
+            "text": "BusyStand"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "calendar-buffer-fence",
       "quality": "mention",
       "references": [
@@ -297,6 +329,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "calendar-local-lifeboat",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "calendar-lifeboat",
+            "depth": 2,
+            "text": "Calendar Lifeboat"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -353,6 +401,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "carrier-adjustment-diff",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "shipadjust",
+            "depth": 2,
+            "text": "ShipAdjust"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -579,6 +643,22 @@
       ]
     },
     {
+      "ideaId": "craft-row-checkpoint",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "stitchlatch",
+            "depth": 2,
+            "text": "StitchLatch"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "crash-recoverable-field-recorder",
       "quality": "heading",
       "references": [
@@ -601,6 +681,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "videotape--crashtape",
+            "depth": 3,
+            "text": "VideoTape → CrashTape"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -621,6 +711,22 @@
             "text": "Creator Rights Clock"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "cross-app-draft-keyboard",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "draftkey",
+            "depth": 2,
+            "text": "DraftKey"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
           "quality": "heading"
         }
       ]
@@ -1065,6 +1171,22 @@
       ]
     },
     {
+      "ideaId": "gig-payout-deposit-match",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "gigdeposit",
+            "depth": 2,
+            "text": "GigDeposit"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "grooming-scope-approval",
       "quality": "mention",
       "references": [
@@ -1073,6 +1195,38 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "guest-wifi-qr",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "guestlink",
+            "depth": 2,
+            "text": "GuestLink"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "guided-routine-step-clock",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "stepclock",
+            "depth": 2,
+            "text": "StepClock"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1098,6 +1252,22 @@
       ]
     },
     {
+      "ideaId": "hearing-aid-route-guard",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "hearing-route-guard",
+            "depth": 2,
+            "text": "Hearing Route Guard"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "holdwatch",
       "quality": "mention",
       "references": [
@@ -1106,6 +1276,38 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "homekit-configuration-snapshot",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "homekit-snapshot",
+            "depth": 2,
+            "text": "HomeKit Snapshot"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "hotel-folio-settlement-match",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "hotelfolio",
+            "depth": 2,
+            "text": "HotelFolio"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1379,8 +1581,18 @@
     },
     {
       "ideaId": "medical-bill-auditor",
-      "quality": "unmapped",
+      "quality": "heading",
       "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "eobbill--medical-bill-and-eob-auditor",
+            "depth": 2,
+            "text": "EOBBill → Medical Bill and EOB Auditor"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        },
         {
           "dossierSlug": "pain-mining-dossier",
           "heading": null,
@@ -1720,6 +1932,22 @@
       ]
     },
     {
+      "ideaId": "photo-cleanup-undo-map",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "photocleanup-undo-map",
+            "depth": 2,
+            "text": "PhotoCleanup Undo Map"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "planar-control-reset-diff",
       "quality": "heading",
       "references": [
@@ -1851,6 +2079,22 @@
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "reading-line-focus",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "linefocus",
+            "depth": 2,
+            "text": "LineFocus"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2082,6 +2326,22 @@
       "references": []
     },
     {
+      "ideaId": "retirement-deferral-gap",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "deferralgap",
+            "depth": 2,
+            "text": "DeferralGap"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "rideshare-return-mile-offer",
       "quality": "mention",
       "references": [
@@ -2122,6 +2382,22 @@
       ]
     },
     {
+      "ideaId": "safari-form-draft-recovery",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "formshield",
+            "depth": 2,
+            "text": "FormShield"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "salon-formula-gate",
       "quality": "heading",
       "references": [
@@ -2150,6 +2426,22 @@
       ]
     },
     {
+      "ideaId": "saved-phrase-deck",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "phrasedeck",
+            "depth": 2,
+            "text": "PhraseDeck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "school-message-organizer",
       "quality": "heading",
       "references": [
@@ -2167,13 +2459,23 @@
     },
     {
       "ideaId": "scope-request-budget",
-      "quality": "mention",
+      "quality": "heading",
       "references": [
         {
           "dossierSlug": "idea-mining-loop-2026-08-09",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "scopetap--scope-request-budget",
+            "depth": 3,
+            "text": "ScopeTap → Scope Request Budget"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2273,9 +2575,35 @@
       ]
     },
     {
-      "ideaId": "shift-pay-checker",
-      "quality": "unmapped",
+      "ideaId": "share-handoff-shelf",
+      "quality": "heading",
       "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "shareshelf",
+            "depth": 2,
+            "text": "ShareShelf"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "shift-pay-checker",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "tipslip-pair--shift-pay-checker",
+            "depth": 3,
+            "text": "TipSlip Pair → Shift Pay Checker"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        },
         {
           "dossierSlug": "pain-mining-dossier",
           "heading": null,
@@ -2301,6 +2629,22 @@
       ]
     },
     {
+      "ideaId": "shortcuts-version-vault",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "shortcutvault",
+            "depth": 2,
+            "text": "ShortcutVault"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "sonos-room-scene-control",
       "quality": "mention",
       "references": [
@@ -2309,6 +2653,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "speaking-pace-mirror",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "pacemirror",
+            "depth": 2,
+            "text": "PaceMirror"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2333,6 +2693,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "status-led-color-reader",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "statuscolor",
+            "depth": 2,
+            "text": "StatusColor"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2389,6 +2765,22 @@
       ]
     },
     {
+      "ideaId": "timecard-paystub-pair",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "paystubpair",
+            "depth": 2,
+            "text": "PaystubPair"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "timer-lens",
       "quality": "mention",
       "references": [
@@ -2402,13 +2794,23 @@
     },
     {
       "ideaId": "tipcheck",
-      "quality": "mention",
+      "quality": "heading",
       "references": [
         {
           "dossierSlug": "idea-mining-loop-2026-08-08",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "tippost--tipcheck",
+            "depth": 3,
+            "text": "TipPost → TipCheck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2475,6 +2877,38 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "transactional-file-operations",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "filetxn",
+            "depth": 2,
+            "text": "FileTxn"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "transition-tile",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop2",
+          "heading": {
+            "anchor": "transitiontile",
+            "depth": 2,
+            "text": "TransitionTile"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2722,41 +3156,50 @@
     }
   ],
   "singletonTags": [
+    "401k",
+    "aac",
     "accelerometer",
+    "accessories",
     "acknowledgment",
     "adult",
     "agriculture",
     "alarmkit",
+    "albums",
     "amazon",
     "analytics",
     "animal-care",
     "anxiety",
     "app-intents",
     "appeals",
+    "approvals",
     "apps",
     "artists",
     "assets",
     "audible",
     "audio-analysis",
+    "audio-route",
     "audiobooks",
     "augmented-reality",
     "authentication",
     "authorization-holds",
+    "autism",
     "auto",
     "autofill",
     "automation",
+    "automations",
     "autoscroll",
     "av",
     "baggage",
     "bakeries",
     "bank-details",
-    "banking",
     "barbell",
     "barcodes",
     "barns",
     "beauty",
     "before-after",
+    "benefits",
     "bidding",
+    "ble",
     "bluetooth-pedal",
     "boating",
     "breakage",
@@ -2773,6 +3216,7 @@
     "car-buying",
     "care",
     "care-labels",
+    "carriers",
     "cars",
     "cellular",
     "change-orders",
@@ -2780,11 +3224,13 @@
     "checkpoint",
     "checksums",
     "cinema",
-    "cleanup",
     "client-approval",
     "client-communication",
     "clothing",
+    "cloud-storage",
+    "coaching",
     "coffee",
+    "color-vision",
     "commerce",
     "comparison",
     "composites",
@@ -2794,15 +3240,18 @@
     "consumer-protection",
     "contracts",
     "controls",
+    "counter",
     "counting",
     "coupons",
     "creative-tools",
     "creator",
     "creator-business",
+    "credit-cards",
     "credits",
     "crews",
     "cricut",
     "crm",
+    "crochet",
     "cross-device",
     "crowdsourcing",
     "csv",
@@ -2818,18 +3267,20 @@
     "delisting",
     "deployment",
     "detention",
-    "devices",
     "diabetes",
     "diagnosis",
     "discovery",
     "dispatch",
+    "display",
     "displays",
     "dj",
+    "drafts",
     "drain-plug",
     "drapery",
     "drivers",
     "drums",
     "dry-cleaning",
+    "dyslexia",
     "earbuds",
     "ebooks",
     "ecommerce",
@@ -2838,12 +3289,15 @@
     "embroidery",
     "emergency-preparedness",
     "engraving",
+    "eob",
     "epoxy",
     "esim",
     "estimates",
     "etsy",
+    "eventkit",
     "exif",
     "expiry",
+    "extension",
     "fabric",
     "facilitation",
     "fact-checking",
@@ -2859,12 +3313,13 @@
     "flooring",
     "florists",
     "fluids",
-    "focus",
+    "folios",
     "follow-up",
     "fonts",
     "food",
     "food-allergies",
     "food-logging",
+    "forms",
     "formula",
     "fragile-cargo",
     "fraud",
@@ -2880,17 +3335,23 @@
     "green-button",
     "groceries",
     "grooming",
+    "guests",
     "guitar",
     "hard-of-hearing",
     "hardware-keys",
     "hardware-state",
     "health",
     "hearing",
+    "hearing-aids",
     "high-stakes",
+    "hobbies",
     "home-services",
     "home-theater",
+    "homekit",
     "horses",
+    "hospitality",
     "host-feature",
+    "hotels",
     "households",
     "housing",
     "hvac",
@@ -2899,23 +3360,27 @@
     "inspections",
     "installation",
     "interference",
+    "interruption",
     "invitations",
     "invoice-fraud",
+    "invoices",
     "itinerary",
     "jobber",
     "jobs",
     "journalism",
     "judgment",
+    "keyboard",
     "keys",
+    "knitting",
     "laundry",
     "leaks",
+    "led",
     "lending",
     "licensing",
     "live-streaming",
     "load-in",
     "local",
     "local-commerce",
-    "local-first",
     "local-network",
     "localization",
     "lock-screen",
@@ -2952,7 +3417,7 @@
     "parents",
     "parsing",
     "parts",
-    "payouts",
+    "paychecks",
     "pedals",
     "performance",
     "permissions",
@@ -2979,16 +3444,20 @@
     "proofing",
     "property-management",
     "provider-network",
-    "qr",
+    "proximity",
+    "public-speaking",
     "queue",
     "quick-entry",
     "quotes",
     "re-entry",
+    "reading",
     "redaction",
     "reference",
     "regulation",
     "rehearsal",
     "rekordbox",
+    "remote-work",
+    "rename",
     "rentals",
     "renters",
     "replacement-parts",
@@ -2996,14 +3465,18 @@
     "reporting",
     "resin",
     "resumable",
+    "retirement",
     "revenuecat",
     "rideshare",
     "rights",
     "routes",
+    "routines",
     "routing",
     "run-of-show",
     "saas",
+    "safari",
     "safety-truth",
+    "saved-phrases",
     "savings",
     "scenes",
     "schedules",
@@ -3014,20 +3487,17 @@
     "service",
     "setlists",
     "settlements",
-    "sharing",
     "shift-workers",
     "shifts",
     "shopping",
     "shortages",
-    "shortcuts",
     "silhouette",
-    "smart-home",
     "solar",
     "sonos",
     "spam",
-    "speech",
     "sponsorships",
     "spotify",
+    "status",
     "stencil",
     "streaming",
     "subscriptions",
@@ -3035,11 +3505,14 @@
     "taxes",
     "teardown",
     "temperature",
+    "text",
     "thread",
     "tickets",
     "tile",
+    "timecards",
     "timelines",
     "timezones",
+    "tips",
     "todoist",
     "tolls",
     "torque-angle",
@@ -3048,16 +3521,18 @@
     "towing",
     "tracking",
     "trade-in",
+    "transactions",
+    "transitions",
     "translation",
     "trucking",
     "tuning",
     "typography",
-    "undo",
     "upholstery",
     "usb",
     "vacation-rentals",
     "vehicles",
     "venues",
+    "versions",
     "vibration",
     "vinyl",
     "vouchers",
@@ -3071,15 +3546,15 @@
     "welding",
     "wheelchair",
     "wide-format",
-    "workers",
+    "wifi",
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:ada2c8aa013b4e35ad9364aa1f34682c1b88886d39170cb258a212561cdb5fbc",
+  "sourceHash": "sha256:46523ca43f08cb7e10acc75f1776986d609eb5ad95b04ac5b660ffcdd781fc3a",
   "tagStats": {
-    "assignments": 908,
-    "doubletons": 75,
-    "singletons": 352,
-    "unique": 510
+    "assignments": 1036,
+    "doubletons": 81,
+    "singletons": 393,
+    "unique": 566
   }
 }

@@ -242,14 +242,14 @@
     {
       "id": "medical-bill-auditor",
       "name": "Medical Bill and EOB Auditor",
-      "aliases": [],
+      "aliases": ["EOBBill"],
       "status": "passed_market",
       "hackathon_fit": "low",
       "one_liner": "Compare medical bills, EOBs, codes, and benefits to flag likely errors and prepare an appeal or call script.",
-      "decision_reason": "The savings pain is enormous, but the category has well-funded competitors and carries medical, financial, privacy, and data-access complexity.",
+      "decision_reason": "The savings pain is enormous, but OwedBack, BillHero, Billscope, FileBay, and well-funded competitors already provide free or low-priced bill and EOB review. An EOB is not a bill, and the workflow carries medical, financial, privacy, and data-access complexity without determining what is legally owed.",
       "resurrection_trigger": "A narrow bill type, partner data access, or an evidence-backed workflow that stops short of unsupported conclusions.",
-      "tags": ["healthcare", "billing", "consumer-advocacy"],
-      "research": ["docs/PAIN-MINING-DOSSIER.md"]
+      "tags": ["healthcare", "billing", "consumer-advocacy", "eob", "reconciliation"],
+      "research": ["docs/PAIN-MINING-DOSSIER.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
     },
     {
       "id": "security-deposit-evidence",
@@ -314,14 +314,14 @@
     {
       "id": "shift-pay-checker",
       "name": "Shift Pay Checker",
-      "aliases": [],
+      "aliases": ["TipSlip Pair"],
       "status": "passed_market",
       "hackathon_fit": "high",
       "one_liner": "Let hourly workers independently record shifts, tips, breaks, and promised rates, then compare expected pay with the paycheck.",
-      "decision_reason": "The pain is concrete, but official free tools and many time/pay trackers already exist; differentiation would require a narrower worker segment.",
-      "resurrection_trigger": "A complex-pay niche such as tipped, piece-rate, gig, or union work where existing calculators repeatedly fail.",
-      "tags": ["workers", "payroll", "time-tracking"],
-      "research": ["docs/PAIN-MINING-DOSSIER.md"]
+      "decision_reason": "The pain is concrete, but official free tools and many time/pay trackers already exist. The tipped-worker niche is now occupied too: Checkout added paycheck reconciliation and ServerLife has a paycheck workflow, while tip pools, tip-outs, fees, chargebacks, cash, and pay-period boundaries prevent a universal slip-to-paystub invariant.",
+      "resurrection_trigger": "A complex-pay niche produces a stable invariant that existing calculators repeatedly fail, with zero false holds across 100 real payroll fixtures and real prepayment after buyers see the named incumbents.",
+      "tags": ["workers", "payroll", "time-tracking", "tips", "reconciliation"],
+      "research": ["docs/PAIN-MINING-DOSSIER.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
     },
     {
       "id": "warranty-return-tracker",
@@ -470,14 +470,14 @@
     {
       "id": "tipcheck",
       "name": "TipCheck",
-      "aliases": ["Restaurant Settlement Check"],
+      "aliases": ["Restaurant Settlement Check", "TipPost"],
       "status": "passed_market",
       "hackathon_fit": "high",
       "one_liner": "Capture the restaurant total a diner approved and later compare it with the posted card charge.",
-      "decision_reason": "The loss can be infuriating but is rare; every meal becomes an insurance ritual followed by a second manual bank check days later, and iOS cannot honestly automate settlement observation.",
+      "decision_reason": "The loss can be infuriating but is rare; every meal becomes an insurance ritual followed by a second manual bank check days later, and iOS cannot honestly automate settlement observation. PalindReceipt now offers an exact $0.99 reconciliation flow, while DimeProof, Synceipt, and Monarch cover the broader receipt-to-transaction job.",
       "resurrection_trigger": "Across 120 real meals, retain more than 70% capture by meal four, more than 50% delayed verification, and more than 15% real prepayment.",
       "tags": ["restaurants", "payments", "receipts", "consumer"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-08.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-08.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
     },
     {
       "id": "basketcheck",
@@ -725,11 +725,11 @@
       "aliases": ["ScopeTap"],
       "status": "passed_market",
       "hackathon_fit": "high",
-      "one_liner": "Share a client's requested revision into a project and show whether it consumes the agreed revision budget or needs a change order.",
-      "decision_reason": "Work Scope Tracker is a near-exact low-priced iOS app, while ScopeFrame and Backstop Kit cover the broader workflow; the remaining problem is enforcing the boundary, not capturing it.",
+      "one_liner": "Capture a client-requested revision or jobsite scope change and show whether it is included or needs a paid change order.",
+      "decision_reason": "Work Scope Tracker is a near-exact low-priced iOS app, while Joist, JobAmend, ChangeDesk, Change Order Pro, QuickCO, ScopeFrame, Backstop Kit, and ChangeSnap cover the jobsite approval workflow. A disconnected signature or PDF loses invoice and job totals; the useful product belongs in the contractor system of record.",
       "resurrection_trigger": "A vertical service workflow has a platform integration that can turn detection into an accepted paid change order.",
-      "tags": ["freelancers", "scope-creep", "change-orders", "share-sheet"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09.md"]
+      "tags": ["freelancers", "contractors", "scope-creep", "change-orders", "approvals", "share-sheet"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
     },
     {
       "id": "analog-pedal-reference-check",
@@ -1586,14 +1586,14 @@
     {
       "id": "crash-recoverable-field-recorder",
       "name": "CrashTape",
-      "aliases": ["Recovery-First Recorder", "Journaled Field Recorder"],
+      "aliases": ["Recovery-First Recorder", "Journaled Field Recorder", "VideoTape"],
       "status": "validating",
       "hackathon_fit": "high",
       "one_liner": "A field recorder that commits short audio segments, reconstructs a take after app termination, and never reports it verified until the output reopens successfully.",
-      "decision_reason": "It is the sole Round-8 survivor because the app owns the authoritative microphone and file state and has a dramatic force-kill recovery demo. It remains only a technical spike: the likely native writer must pass a severe durability matrix, recorder willingness to pay is modest, and the differentiated custody layer must stay free.",
-      "resurrection_trigger": "Promote beyond validation only after 100 of 100 interruption fixtures preserve committed audio with at most two seconds of terminal loss, inaudible boundaries, no false verified state, and at least 10 of 20 field interviewers choose it as their primary recorder for two weeks.",
-      "tags": ["audio", "recording", "recovery", "journalism", "local-first", "reliability", "revenuecat"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md"]
+      "decision_reason": "It is the sole Round-8 survivor because the app owns the authoritative microphone and file state and has a dramatic force-kill recovery demo. It remains only a technical spike: the likely native writer must pass a severe durability matrix, recorder willingness to pay is modest, and the differentiated custody layer must stay free. Fragmented video is a plausible expansion fixture but already exists in Zella, Screen Recorder, Discreet, Mugen, and Blackmagic, so it adds no new payer or distribution wedge.",
+      "resurrection_trigger": "Promote beyond validation only after 100 of 100 audio interruption fixtures preserve committed audio with at most two seconds of terminal loss, inaudible boundaries, no false verified state, and at least 10 of 20 field interviewers choose it as their primary recorder for two weeks. Any video expansion must separately reopen every committed fragment and never lose more than its displayed interval.",
+      "tags": ["audio", "video", "recording", "recovery", "journalism", "local-first", "reliability", "revenuecat"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
     },
     {
       "id": "audible-playback-checkpoint",
@@ -2398,6 +2398,294 @@
       "resurrection_trigger": "A gallery, market, or retailer supplies a signed export or API and distributes the product to consignors.",
       "tags": ["consignment", "artists", "inventory", "settlements", "reconciliation"],
       "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md"]
+    },
+    {
+      "id": "transition-tile",
+      "name": "TransitionTile",
+      "aliases": ["Now Next Timer"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Show a large visual Now-to-Next countdown for a repeated household or personal transition.",
+      "decision_reason": "The phone owns the timer and the need is real, but Time Timer, Visual Countdown Timer, MyVisualRoutine, and other mature visual-timer products already own presets, sequences, and transition boards.",
+      "resurrection_trigger": "A side-by-side household trial finds a distinct interaction that materially improves transitions over the established visual timers and users prepay after trying them.",
+      "tags": ["accessibility", "adhd", "autism", "timers", "transitions"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "speaking-pace-mirror",
+      "name": "PaceMirror",
+      "aliases": ["Live Speaking Pace Nudge"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Measure local speaking pace during practice and nudge when it exceeds the user's chosen range.",
+      "decision_reason": "PaceCoach launched the exact 2026 product with live color feedback, personal calibration, Watch haptics, history, and a $19.99 one-time price, while Orato and MicBuddy cover adjacent coaching.",
+      "resurrection_trigger": "A target speaking niche prepays after seeing PaceCoach and a blind trial shows materially better pacing outcomes across accents and noisy rooms.",
+      "tags": ["speech", "public-speaking", "audio", "coaching", "accessibility"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "saved-phrase-deck",
+      "name": "PhraseDeck",
+      "aliases": ["Fullscreen Communication Phrases"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Tap a saved phrase to display it in huge type or speak it during a communication barrier.",
+      "decision_reason": "iOS Live Speech already supports typed and saved phrases, favorites, categories, calls, and in-person use, while Spoken, Speechability, and established AAC apps own the broader workflow.",
+      "resurrection_trigger": "Accessibility co-design uncovers a frequent communication interaction that Live Speech and current AAC tools cannot perform.",
+      "tags": ["accessibility", "aac", "speech", "communication", "saved-phrases"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "reading-line-focus",
+      "name": "LineFocus",
+      "aliases": ["Reading Ruler"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Import or capture text and use a movable ruler or mask to keep one's place while reading.",
+      "decision_reason": "Apple Accessibility Reader already supplies a customizable reading surface, Helperbird is free, Dyslexia Reading Lens is exact, and arbitrary third-party text still requires an import or extension ceremony.",
+      "resurrection_trigger": "A user study proves a repeatable reading-time or line-loss improvement that Accessibility Reader and the exact apps do not provide.",
+      "tags": ["accessibility", "reading", "dyslexia", "focus", "text"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "status-led-color-reader",
+      "name": "StatusColor",
+      "aliases": ["Status LED Reader"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Sample a tiny device status LED and report only the camera-observed color with an uncertainty band.",
+      "decision_reason": "ColorSight already offers the exact free live color, zoom, region, color-vision-profile, and CVD confusion-warning workflow, while glare, PWM, white balance, and blooming make tiny LEDs fragile and device meaning remains non-authoritative.",
+      "resurrection_trigger": "A 100-LED blind test materially beats ColorSight under real lighting with safe abstention and target users prepay after comparison.",
+      "tags": ["accessibility", "color-vision", "camera", "led", "devices"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "busy-status-stand",
+      "name": "BusyStand",
+      "aliases": ["Busy Until Display"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Turn a charging landscape phone into a large BUSY or AVAILABLE countdown for nearby housemates.",
+      "decision_reason": "The phone owns the countdown but is the wrong physical artifact: it consumes the primary device, is small and poorly placed, retains the forgotten-deployment ritual, and loses to a door, paper sign, smart light, or the exact placed BUSY Bar hardware.",
+      "resurrection_trigger": "A two-week household test beats a free physical sign on deployment adherence and reduces interruptions by at least 30 percent without missed state changes.",
+      "tags": ["remote-work", "household", "status", "focus", "display"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "ble-link-loss-alert",
+      "name": "LinkLoss",
+      "aliases": ["BLE Separation Alert"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Notify when an app-managed Bluetooth Low Energy connection to a valuable accessory ends.",
+      "decision_reason": "Find My and Bluetooth Lost BLE Finder already cover supported separation and finding, while an app observes only its own connection ending and cannot infer loss, location, battery failure, shutdown, or system-owned classic and MFi devices.",
+      "resurrection_trigger": "A valuable unsupported BLE category achieves greater than 95 percent true notifications and less than one percent false alerts in field use.",
+      "tags": ["bluetooth", "ble", "accessories", "alerts", "proximity"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "guided-routine-step-clock",
+      "name": "StepClock",
+      "aliases": ["Labeled Routine Timer"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Run a labeled, auto-advancing timer sequence for a morning, cleaning, or leaving routine.",
+      "decision_reason": "Routinery, Time Timer, FlowStack, Brili, and native multiple labeled timers already occupy the workflow, and elapsed time does not prove the physical step was completed.",
+      "resurrection_trigger": "A repeated routine performs materially better than Routinery and Time Timer in a paid target-user trial.",
+      "tags": ["adhd", "routines", "timers", "productivity", "accessibility"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "hearing-aid-route-guard",
+      "name": "Hearing Route Guard",
+      "aliases": ["Hearing RouteLatch"],
+      "status": "passed_scope",
+      "hackathon_fit": "low",
+      "one_liner": "Warn a hearing-aid user before another app, call, or system sound unexpectedly routes to the phone speaker.",
+      "decision_reason": "Apple exposes route changes only for the app's own audio session; an ordinary app cannot globally inspect or intercept the final route used by every other app, call, and system sound. An own-session demo would misrepresent the desired product.",
+      "resurrection_trigger": "Apple exposes a sanctioned global audio-route state and transition API, or a manufacturer supplies equivalent integration.",
+      "tags": ["hearing-aids", "accessibility", "audio-route", "privacy", "platform-blocked"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "guest-wifi-qr",
+      "name": "GuestLink",
+      "aliases": ["Wi-Fi Guest QR"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Display a QR code that lets a guest join a saved Wi-Fi network.",
+      "decision_reason": "Current iOS natively displays a network QR, WiFi QR offers the exact app for free with a $1.99 unlock, and a printed QR card is a more durable guest-facing artifact.",
+      "resurrection_trigger": "A cross-platform captive-portal or managed-network flow exposes a sanctioned provisioning gap that native sharing does not address.",
+      "tags": ["wifi", "guests", "qr", "sharing", "hospitality"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "safari-form-draft-recovery",
+      "name": "FormShield",
+      "aliases": ["Safari Form Recovery"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Opt in per Safari site to journal supported plain-text form fields locally and restore them after reload or tab loss.",
+      "decision_reason": "A recently delisted $4.99 iPhone, iPad, and Mac Safari app had already implemented the exact workflow, while free browser alternatives remain. Narrow permissions add a ritual before unpredictable loss; broad access creates keylogger-shaped privacy risk, dynamic forms cannot be universally protected, and the delisting with negligible visible traction is a demand warning rather than current competition.",
+      "resurrection_trigger": "A 100-fixture privacy and coverage test has zero false protected states or excluded capture, and 20 users prepay $7.99 after seeing the permission dialog, free browser precedents, and the delisted exact Safari prior art.",
+      "tags": ["safari", "forms", "recovery", "privacy", "extension"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "cross-app-draft-keyboard",
+      "name": "DraftKey",
+      "aliases": ["Draft Recovery Keyboard"],
+      "status": "passed_scope",
+      "hackathon_fit": "low",
+      "one_liner": "Use a custom keyboard to retain a local stream of its own generated keystrokes for recovery after a host app loses text.",
+      "decision_reason": "The keyboard cannot see the host document, prior text, cursor edits, paste, dictation, or other keyboards, and Apple discourages retaining keystrokes. The truthful output is a partial keystroke log, not a recoverable draft.",
+      "resurrection_trigger": "A sanctioned text-service API exposes the complete current host document and edit history without broad keyboard access.",
+      "tags": ["keyboard", "drafts", "recovery", "privacy", "platform-blocked"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "calendar-local-lifeboat",
+      "name": "Calendar Lifeboat",
+      "aliases": ["EventKit Snapshot Recovery"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Take local EventKit snapshots and later compare or recreate a limited supported subset of missing events.",
+      "decision_reason": "A consumer app lacks a dependable continuous background journal, recurrence and attendee restoration can duplicate or resend invitations, and Apple already offers free iCloud Calendar archive restoration.",
+      "resurrection_trigger": "A sanctioned continuous change journal supports lossless restore of recurrence, attendees, and provider identity without duplicates or invitations.",
+      "tags": ["calendar", "backup", "recovery", "eventkit", "native-competition"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "transactional-file-operations",
+      "name": "FileTxn",
+      "aliases": ["File Operation Journal"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Journal each app-owned batch file rename or move before mutation and offer bounded recovery after interruption.",
+      "decision_reason": "BatchRename already supplies live preview, detailed errors, transactional undo history, and low-priced upgrades. A phone can verify only that a provider URL reopens, not that a cloud mutation durably committed or remains reversible.",
+      "resurrection_trigger": "One thousand local and cloud-provider operations produce zero false success or journal loss, rollback always succeeds when offered, and users prepay after trying BatchRename.",
+      "tags": ["files", "transactions", "recovery", "rename", "cloud-storage"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "share-handoff-shelf",
+      "name": "ShareShelf",
+      "aliases": ["Crash-Safe Share Staging"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Copy a shared item into local custody before handing it to an unreliable share-sheet destination.",
+      "decision_reason": "The app can preserve its staged copy but cannot infer destination delivery or acceptance. Yoink and Shelve It already sell the exact share-extension shelf and local backup behavior for $3.99 to $5.99.",
+      "resurrection_trigger": "A high-value named destination exposes signed acknowledgment so the product can distinguish staged from destination-confirmed state.",
+      "tags": ["share-sheet", "files", "handoff", "recovery", "local-first"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "homekit-configuration-snapshot",
+      "name": "HomeKit Snapshot",
+      "aliases": ["Home Automation Lifeboat"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Snapshot supported HomeKit scenes and automations, compare later, and recreate a missing supported subset.",
+      "decision_reason": "Controller for HomeKit already provides backup, restore, logs, setup-code storage, and broken-automation detection. A snapshot cannot recreate accessory pairing, vendor state, physical devices, every automation semantic, or a destroyed home identity graph.",
+      "resurrection_trigger": "Lossless round trips across 100 supported fixtures reveal a distribution or recovery advantage Controller does not provide.",
+      "tags": ["homekit", "smart-home", "backup", "automations", "recovery"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "shortcuts-version-vault",
+      "name": "ShortcutVault",
+      "aliases": ["Shortcut Version Archive"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Hash and version manually exported Shortcut files and expose earlier imports after loss.",
+      "decision_reason": "There is no sanctioned complete-library enumeration or change API, so manual exports cannot prove completeness or currency. iCloud sync, free backup-all Shortcuts, and emerging native restoration own the workflow.",
+      "resurrection_trigger": "Apple exposes a complete-library enumeration, change, export, and stable restore contract.",
+      "tags": ["shortcuts", "backup", "versions", "files", "native-competition"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "photo-cleanup-undo-map",
+      "name": "PhotoCleanup Undo Map",
+      "aliases": ["Reversible Photo Cleanup"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Journal PhotoKit asset identifiers, album membership, and keep or delete choices for cleanup operations the app owns.",
+      "decision_reason": "Photos already provides Recently Deleted, while Photo Cleaner, Reclean, Purgo, and other cleaners include undo and app-trash behavior. This is a feature of a full cleaner, not an independent utility.",
+      "resurrection_trigger": "A paid cleanup product demonstrates exact identity and album restoration across 500 iCloud assets with a distribution wedge beyond existing cleaners.",
+      "tags": ["photos", "cleanup", "undo", "albums", "recovery"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "craft-row-checkpoint",
+      "name": "StitchLatch",
+      "aliases": ["Knitting Row Checkpoint"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Save a knitting or crochet row or repeat counter immediately and expose it on Lock Screen or Watch after interruption.",
+      "decision_reason": "The phone knows taps, not physical rows. KnitCounter is free and auto-saves, while Rows & Stitches already offers Live Activity, Dynamic Island, Watch, undo, confirmation, and iCloud for $5.99 lifetime.",
+      "resurrection_trigger": "A passive sensor or supported knitting device produces authoritative physical row transitions with a clear payer.",
+      "tags": ["knitting", "crochet", "counter", "interruption", "hobbies"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "retirement-deferral-gap",
+      "name": "DeferralGap",
+      "aliases": ["401k Contribution Locator"],
+      "status": "parked",
+      "hackathon_fit": "medium",
+      "one_liner": "Cumulatively compare employee elective-deferral deductions reported on paystubs with contribution entries visible in the retirement-plan account.",
+      "decision_reason": "No exact consumer matcher surfaced and the consequence can be large, but payroll date is not receipt or settlement date, contributions aggregate and correct, provider portals are the free authoritative substitute, and the two-artifact ritual is unproven. The only safe output is located, not yet locatable, or needs review.",
+      "resurrection_trigger": "Thirty actively concerned employees pay $7.99; at least 20 complete both artifact shares in under 90 seconds and repeat monthly for three months; 100 real pairs produce zero cases where not yet locatable is shown while a supported match is already visible in supplied plan history, and three persistent review cases receive employer or provider confirmation.",
+      "tags": ["retirement", "401k", "payroll", "benefits", "reconciliation", "consumer-finance"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "timecard-paystub-pair",
+      "name": "PaystubPair",
+      "aliases": ["Timecard Paycheck Check"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Compare employer-approved timecard hours and rates with paystub lines and show arithmetic differences.",
+      "decision_reason": "ShiftWorth sells Verify and Compare Shifts for exactly $7.99, and the Department of Labor supplies a free Timesheet app. The basic timecard-to-paystub verification job is already served without a new invariant.",
+      "resurrection_trigger": "A narrow wage structure achieves zero false discrepancy across 100 fixtures and users prepay after seeing the named apps.",
+      "tags": ["payroll", "timecards", "workers", "paychecks", "reconciliation"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "carrier-adjustment-diff",
+      "name": "ShipAdjust",
+      "aliases": ["Shipping Invoice Adjustment Diff"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Compare a purchased shipping-label quote with a carrier adjustment and show changed dimensions, weight, surcharge, and amount.",
+      "decision_reason": "Carrier scan, contract, and surcharge tables determine validity, while Shipware, LateShipment OneAudit, Shipclaim, and other integration or gainshare products own recurring invoice audit. High-volume work is desktop and API native; low-volume events are rare.",
+      "resurrection_trigger": "Sanctioned carrier feeds yield more than 95 percent valid-claim precision across 100 adjustments and small sellers prepay despite gainshare incumbents.",
+      "tags": ["shipping", "carriers", "invoices", "sellers", "reconciliation"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "gig-payout-deposit-match",
+      "name": "GigDeposit",
+      "aliases": ["Gig Payout Bank Match"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Compare a finalized gig-platform payout record with a settled bank deposit and show unpaired records.",
+      "decision_reason": "Gridwise and Solo already link gig and bank accounts, while no public sanctioned DoorDash payout API exists. Screenshots cannot reliably model instant-pay fees, cash offsets, adjustments, reversals, or bank delay and are inferior to the incumbent integrations.",
+      "resurrection_trigger": "Sanctioned platform and bank feeds produce zero false alerts across 100 payouts and workers prepay after trying Gridwise and Solo.",
+      "tags": ["gig-work", "payouts", "banking", "reconciliation", "workers"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "hotel-folio-settlement-match",
+      "name": "HotelFolio",
+      "aliases": ["Hotel Folio Card Match"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Compare a final hotel folio with settled card transactions and show unmatched amounts.",
+      "decision_reason": "Holds, deposits, split tenders, credits, refunds, foreign exchange, and merchant descriptors destroy simple equality. DimeProof and Synceipt own general receipt-to-bank matching, while business travelers use expense systems with booking context.",
+      "resurrection_trigger": "One hundred real stays produce less than one percent false mismatch and leisure travelers prepay despite general receipt matchers.",
+      "tags": ["travel", "hotels", "folios", "credit-cards", "reconciliation"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
     }
   ]
 }

@@ -29,7 +29,7 @@ test.describe('decision retrieval', () => {
     await page.goto('ideas');
 
     await expect(page.getByRole('heading', { level: 1, name: 'Idea ledger' })).toBeVisible();
-    await expect(page.locator('tbody tr')).toHaveCount(199);
+    await expect(page.locator('tbody tr')).toHaveCount(223);
     await expect(page.getByText('Every status included')).toBeVisible();
     await expect(ideaRow(page, 'amazon-label-handoff')).toBeVisible();
 
@@ -61,6 +61,19 @@ test.describe('decision retrieval', () => {
     await expect(page.getByRole('region', { name: 'Research matches' })).toContainText(
       'Idea Mining Loop — Round 9',
     );
+  });
+
+  test('retrieves the Loop 2 parked test and its deduplicated EOB evidence', async ({ page }) => {
+    await page.goto('ideas');
+    await search(page, 'DeferralGap');
+
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'retirement-deferral-gap')).toContainText('Parked');
+    await expect(ideaRow(page, 'retirement-deferral-gap')).toContainText('not yet locatable');
+
+    await search(page, 'EOBBill');
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'medical-bill-auditor')).toContainText('Medical Bill and EOB Auditor');
   });
 
   test('searches decision reasons instead of only names', async ({ page }) => {
@@ -112,13 +125,13 @@ test.describe('filters and URL state', () => {
     await expect(page.locator('tbody tr')).toHaveCount(6);
 
     await page.getByRole('button', { name: 'Clear filters' }).click();
-    await expect(page.locator('tbody tr')).toHaveCount(199);
+    await expect(page.locator('tbody tr')).toHaveCount(223);
   });
 
   test('ignores invalid filter values and still renders a stable ledger', async ({ page }) => {
     await page.goto('ideas?status=not-a-status&fit=impossible&tag=not-a-real-tag');
 
-    await expect(page.locator('tbody tr')).toHaveCount(199);
+    await expect(page.locator('tbody tr')).toHaveCount(223);
     await expect(page.getByText('Every status included')).toBeVisible();
   });
 });

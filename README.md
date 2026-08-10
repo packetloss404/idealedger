@@ -4,7 +4,7 @@ Idea Ledger is a read-only decision archive for searching product ideas, reviewi
 
 Live site: https://packetloss404.github.io/idealedger/
 
-The current corpus contains 199 ideas and 14 research dossiers. `docs/idea-database.json` and the linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
+The current corpus contains 223 ideas and 15 research dossiers. `docs/idea-database.json` and the linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
 
 ## Stack
 
