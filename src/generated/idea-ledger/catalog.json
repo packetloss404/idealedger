@@ -1032,18 +1032,21 @@
     },
     {
       "aliases": [
-        "Playlist Backup"
+        "Playlist Backup",
+        "MusicLibrary Filmstrip"
       ],
-      "decision_reason": "PlaylistHistory is exact, restoration/transfer tools are mature, and Spotify's 2026 development-mode and extended-quota rules make a new consumer product technically hostage to the platform.",
+      "decision_reason": "PlaylistHistory and Hezel already provide playlist or Apple Music history and restoration, mature transfer tools cover recovery, and platform quota and library-access rules make a new consumer product hostage to its host.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-08"
+        "idea-mining-loop-2026-08-08",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "low",
       "id": "spotify-playlist-time-machine",
       "name": "Spotify Playlist Time Machine",
       "one_liner": "Take nightly track-level snapshots of Spotify playlists and show exactly what disappeared or changed.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-08.md"
+        "docs/IDEA-MINING-LOOP-2026-08-08.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "A sanctioned partner path or user-controlled export source removes the quota and followed-playlist restrictions.",
       "route": "/ideas/spotify-playlist-time-machine",
@@ -2175,18 +2178,21 @@
     },
     {
       "aliases": [
-        "Contact Undo"
+        "Contact Undo",
+        "ContactDelta"
       ],
-      "decision_reason": "Contacts+ already provides edit, addition, deletion, merge, and per-contact restore history, while Contacts Mover previews changes and retains extensive sync histories. Local-only privacy is positioning rather than a differentiated atomic job.",
+      "decision_reason": "Contacts+ already provides edit, addition, deletion, merge, and per-contact restore history, while Contacts Mover previews changes and retains extensive sync histories. A read-only change journal does not escape those exact incumbents; local-only privacy is positioning rather than a differentiated atomic job.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-09-round5"
+        "idea-mining-loop-2026-08-09-round5",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "medium",
       "id": "contacts-change-sentinel",
       "name": "Contact Sentinel",
       "one_liner": "Keep a local field-level history of contact additions, edits, merges, and deletions and selectively undo a bad change.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md"
+        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "Apple or current incumbents remove selective restore while a privacy-sensitive paid cohort rejects cloud contact managers.",
       "route": "/ideas/contacts-change-sentinel",
@@ -2564,18 +2570,21 @@
     },
     {
       "aliases": [
-        "Horse Exception Handoff"
+        "Horse Exception Handoff",
+        "PetVisit Baton"
       ],
-      "decision_reason": "BarnBeacon and BarnOps already integrate shift handoff with feed, medication, treatment and records. A stripped-down second app is less trustworthy and inherits animal-safety expectations without authoritative care state.",
+      "decision_reason": "BarnBeacon, BarnOps, and pet-care platforms already integrate handoff with feed, medication, visits, treatment, and authoritative records. A stripped-down second app is less trustworthy and inherits animal-safety expectations without authoritative care state.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-09-round6"
+        "idea-mining-loop-2026-08-09-round6",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "low",
       "id": "barn-shift-baton",
       "name": "BarnBaton",
       "one_liner": "Transfer unresolved horse-care exceptions from the outgoing barn worker to an incoming worker who explicitly accepts them.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md"
+        "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "A barn-management platform requests a focused native handoff surface inside its authoritative records.",
       "route": "/ideas/barn-shift-baton",
@@ -4716,18 +4725,21 @@
     },
     {
       "aliases": [
-        "NFC Write and Readback Run"
+        "NFC Write and Readback Run",
+        "QR Print Pair"
       ],
-      "decision_reason": "NFC Studio already markets batch writing, placeholders, write validation, and run validation, while NFC Check owns bulk writing and history. Readback also cannot prove correct physical placement or authenticity.",
+      "decision_reason": "NFC Studio and NFC Check own batch write/readback, while current QR checking tools and ordinary camera decoding cover printed-code readability. Readback cannot prove correct physical placement, destination, or authenticity.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop1"
+        "idea-mining-loop-2026-08-10-round10-loop1",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "high",
       "id": "nfc-batch-readback",
       "name": "TagRun",
       "one_liner": "Import intended NFC payload rows, write the next tag, reread it, and advance only when the readback bytes match.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "A vertical asset system supplies a placement invariant unsupported by existing batch tools and distributes the workflow.",
       "route": "/ideas/nfc-batch-readback",
@@ -5314,18 +5326,22 @@
     },
     {
       "aliases": [
-        "Hearing RouteLatch"
+        "Hearing RouteLatch",
+        "RouteTape",
+        "RouteTone"
       ],
-      "decision_reason": "Apple exposes route changes only for the app's own audio session; an ordinary app cannot globally inspect or intercept the final route used by every other app, call, and system sound. An own-session demo would misrepresent the desired product.",
+      "decision_reason": "Apple exposes route changes only for the app's own audio session; an ordinary app cannot globally inspect or intercept the final route used by every other app, call, system sound, or hearing-device handoff. Own-session logs or test tones would misrepresent the desired global guarantee.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop2"
+        "idea-mining-loop-2026-08-10-round10-loop2",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "low",
       "id": "hearing-aid-route-guard",
       "name": "Hearing Route Guard",
       "one_liner": "Warn a hearing-aid user before another app, call, or system sound unexpectedly routes to the phone speaker.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "Apple exposes a sanctioned global audio-route state and transition API, or a manufacturer supplies equivalent integration.",
       "route": "/ideas/hearing-aid-route-guard",
@@ -5419,12 +5435,14 @@
     {
       "aliases": [
         "EventKit Snapshot Recovery",
-        "CalendarTxn"
+        "CalendarTxn",
+        "ReminderUndo Journal"
       ],
-      "decision_reason": "A consumer app lacks a dependable continuous background journal, recurrence and attendee restoration can duplicate or resend invitations, and Apple already offers free iCloud Calendar archive restoration. EventKit batch commit verifies only the local database, while Backup Calendar, Seamless Calendar, and DupliCal own batch and restore surfaces.",
+      "decision_reason": "A consumer app lacks a dependable continuous background journal, recurrence and attendee restoration can duplicate or resend invitations, and Apple already offers Calendar archive recovery plus a native 30-day Recently Deleted surface for reminders. EventKit batch commit verifies only the local database, while existing backup tools own batch and restore.",
       "dossierSlugs": [
         "idea-mining-loop-2026-08-10-round10-loop2",
-        "idea-mining-loop-2026-08-10-round10-loop3"
+        "idea-mining-loop-2026-08-10-round10-loop3",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "medium",
       "id": "calendar-local-lifeboat",
@@ -5432,7 +5450,8 @@
       "one_liner": "Take local EventKit snapshots and later compare or recreate a limited supported subset of missing events.",
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "A sanctioned continuous change journal supports lossless restore of recurrence, attendees, and provider identity without duplicates or invitations.",
       "route": "/ideas/calendar-local-lifeboat",
@@ -5503,18 +5522,21 @@
     },
     {
       "aliases": [
-        "Home Automation Lifeboat"
+        "Home Automation Lifeboat",
+        "HomeAction Tape"
       ],
-      "decision_reason": "Controller for HomeKit already provides backup, restore, logs, setup-code storage, and broken-automation detection. A snapshot cannot recreate accessory pairing, vendor state, physical devices, every automation semantic, or a destroyed home identity graph.",
+      "decision_reason": "Controller for HomeKit and HomeSnap already provide configuration snapshots, diffs, logs, broken-automation checks, or restore workflows. A companion cannot recreate accessory pairing, vendor state, physical devices, every automation semantic, or a destroyed home identity graph.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop2"
+        "idea-mining-loop-2026-08-10-round10-loop2",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "medium",
       "id": "homekit-configuration-snapshot",
       "name": "HomeKit Snapshot",
       "one_liner": "Snapshot supported HomeKit scenes and automations, compare later, and recreate a missing supported subset.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "Lossless round trips across 100 supported fixtures reveal a distribution or recovery advantage Controller does not provide.",
       "route": "/ideas/homekit-configuration-snapshot",
@@ -5900,18 +5922,21 @@
     },
     {
       "aliases": [
-        "Password Migration CSV Check"
+        "Password Migration CSV Check",
+        "CSV Contract"
       ],
-      "decision_reason": "The tool cannot detect fields omitted by the exporter, handles extremely sensitive plaintext, and serves a one-off migration. Native direct credential exchange is replacing CSV and password managers own the trustworthy migration surface.",
+      "decision_reason": "Generic CSV validators already check schema and rows, while this tool cannot detect fields omitted by an exporter, handles extremely sensitive plaintext in its password use case, and often serves a one-off migration. Host systems own the trustworthy import contract.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop3"
+        "idea-mining-loop-2026-08-10-round10-loop3",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "medium",
       "id": "password-csv-audit",
       "name": "Vault CSV Audit",
       "one_liner": "Inspect a user-selected password-manager CSV for expected columns, empty values, duplicate keys, and malformed target-schema rows.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "A credential manager embeds the audit in its sanctioned migration workflow and supplies exact source and target schemas without retaining plaintext.",
       "route": "/ideas/password-csv-audit",
@@ -5926,18 +5951,21 @@
     },
     {
       "aliases": [
-        "File Type Reality Check"
+        "File Type Reality Check",
+        "MediaSpec Gate"
       ],
-      "decision_reason": "UTType and Quick Look own the platform surface, while free file-type identifiers, MediaInfo, archive tools, and viewers already exist. The rare diagnostic cannot repair system-wide Quick Look failures or proprietary formats.",
+      "decision_reason": "UTType and Quick Look own the platform surface, while MediaInfo and other free file-type, codec, archive, and viewing tools already expose objective container facts. The rare diagnostic cannot repair delivery semantics, system-wide Quick Look failures, or proprietary formats.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop3"
+        "idea-mining-loop-2026-08-10-round10-loop3",
+        "idea-mining-loop-2026-08-10-round10-loop4"
       ],
       "hackathon_fit": "high",
       "id": "file-kind-probe",
       "name": "FileKind Probe",
       "one_liner": "Compare a shared file's extension, UTI, magic bytes, container parse, and Quick Look result.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
       ],
       "resurrection_trigger": "One high-value format has a deterministic repair action that existing viewers and format tools do not provide.",
       "route": "/ideas/file-kind-probe",
@@ -6313,9 +6341,737 @@
         "lockers",
         "host-feature"
       ]
+    },
+    {
+      "aliases": [
+        "Parking Transition History"
+      ],
+      "decision_reason": "Apple Maps already drops a parked-car marker, while Find My Car GPS Auto Park adds automatic history and Watch support. An ordinary app lacks a universal Bluetooth or CarPlay disconnect stream, and a callback or heuristic locates the phone at transition, not the car's later position or garage level.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "park-trace",
+      "name": "ParkTrace",
+      "one_liner": "Record location, accuracy, and time from a configured CarPlay Shortcut callback or an app-observed heuristic parking stop.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Frequent garage parkers materially prefer transition history to Apple Maps and at least five of twenty prepay after comparing the exact incumbent.",
+      "route": "/ideas/park-trace",
+      "status": "passed_market",
+      "tags": [
+        "parking",
+        "location",
+        "carplay",
+        "history",
+        "native-competition"
+      ]
+    },
+    {
+      "aliases": [
+        "QR and NFC Scan History"
+      ],
+      "decision_reason": "Free scanners already include local history, and an ordinary app cannot observe native Camera scans. The user must replace the fastest native behavior before an unpredictable future need.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "scan-history-tape",
+      "name": "ScanTape",
+      "one_liner": "Retain payload, timestamp, and a label for QR or NFC scans performed inside the app.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Paid users route at least 80 percent of real scans through the app for four weeks despite native Camera and current free scanners.",
+      "route": "/ideas/scan-history-tape",
+      "status": "passed_market",
+      "tags": [
+        "qr",
+        "nfc",
+        "history",
+        "scanning",
+        "manual-ritual"
+      ]
+    },
+    {
+      "aliases": [
+        "Explicit Clipboard History"
+      ],
+      "decision_reason": "iOS exposes no sanctioned passive history of cross-app copies, and ClipBox-style managers own the feasible manual path. The honest product records only items users remember to capture.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "clipboard-explicit-history",
+      "name": "ClipTape",
+      "one_liner": "Preserve text explicitly imported through a keyboard, Paste control, or share extension before another copy overwrites it.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Apple exposes a sanctioned clipboard-change stream or a paid cohort demonstrates durable adherence to explicit capture.",
+      "route": "/ideas/clipboard-explicit-history",
+      "status": "passed_scope",
+      "tags": [
+        "clipboard",
+        "history",
+        "ios",
+        "share-extension",
+        "platform-blocked"
+      ]
+    },
+    {
+      "aliases": [
+        "Wallet Pass History"
+      ],
+      "decision_reason": "PassKit access is limited to cooperating issuers, so an ordinary app cannot become a universal historian for third-party Wallet passes. Manual files prove only supplied bytes, not validity, redemption, or issuer updates.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "wallet-pass-archive",
+      "name": "PassArchive",
+      "one_liner": "Archive a user-shared pass file or screenshot before Wallet later hides or removes it.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Wallet grants user-authorized export access to all nonpayment passes or an issuer distributes the archive.",
+      "route": "/ideas/wallet-pass-archive",
+      "status": "passed_scope",
+      "tags": [
+        "wallet",
+        "passes",
+        "archive",
+        "passkit",
+        "platform-access"
+      ]
+    },
+    {
+      "aliases": [
+        "Game Controller Event Journal"
+      ],
+      "decision_reason": "iOS exposes connection notifications and point-in-time battery properties, not a battery-change event or a general passive background journal. The trace cannot identify whether the controller, radio, game, Remote Play service, or OS caused failure, while a current free Gamepad Tester covers adjacent foreground diagnostics.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "controller-session-tape",
+      "name": "ControllerSession Tape",
+      "one_liner": "Journal controller connection notifications and sampled battery readings during an app-foreground diagnostic session.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "The trace changes real vendor-support outcomes and affected gamers prepay despite the adjacent free foreground tester.",
+      "route": "/ideas/controller-session-tape",
+      "status": "passed_market",
+      "tags": [
+        "gaming",
+        "controllers",
+        "bluetooth",
+        "diagnostics",
+        "event-log"
+      ]
+    },
+    {
+      "aliases": [
+        "App Store Change Watcher"
+      ],
+      "decision_reason": "AppRaven already accepts share-sheet additions, provides price, update, IAP, and availability history, has meaningful traction, and charges for the workflow. Reliable monitoring also requires backend polling and storefront normalization.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "app-store-watch",
+      "name": "AppWatch",
+      "one_liner": "Watch shared App Store pages for storefront price, update, and availability changes.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "One named workflow remains unsupported and current AppRaven users prepay for it.",
+      "route": "/ideas/app-store-watch",
+      "status": "passed_market",
+      "tags": [
+        "app-store",
+        "monitoring",
+        "prices",
+        "wishlists",
+        "backend"
+      ]
+    },
+    {
+      "aliases": [
+        "Caption Pipeline Receipt"
+      ],
+      "decision_reason": "The app cannot inspect Apple Live Captions or know whether speech was semantically omitted, but no exact app-owned pipeline-health indicator surfaced and paid caption tools prove recurring willingness to pay. Silence or no transcript update still has several nonfailure explanations, so only a bounded paid co-design test is justified.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "caption-pipeline-gap",
+      "name": "CaptionGap",
+      "one_liner": "Expose audio-buffer, transcript-result, interruption, and recognizer-error state inside an app-owned caption session.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Twelve DHH or hard-of-hearing users complete at least ten real session-hours; warnings stay under one false alert per hour; 100 injected failures produce zero false-healthy states; at least eight say the indicator changed their response; and four place refundable $7.99 preorders.",
+      "route": "/ideas/caption-pipeline-gap",
+      "status": "parked",
+      "tags": [
+        "captions",
+        "accessibility",
+        "speech",
+        "diagnostics",
+        "false-confidence"
+      ]
+    },
+    {
+      "aliases": [
+        "Accessibility Settings Check"
+      ],
+      "decision_reason": "UIKit exposes only app-relevant state, not a complete global accessibility audit. Apple already owns Accessibility Shortcut, per-app settings, Assistive Access, and the authoritative settings surface.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "accessibility-mode-receipt",
+      "name": "AccessMode Receipt",
+      "one_liner": "Compare accessibility flags visible to the app with a saved desired set and name the differences.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Apple exposes a complete sanctioned readback and users demonstrate a recurring configuration failure not solved by native settings.",
+      "route": "/ideas/accessibility-mode-receipt",
+      "status": "passed_market",
+      "tags": [
+        "accessibility",
+        "settings",
+        "readback",
+        "ios",
+        "host-feature"
+      ]
+    },
+    {
+      "aliases": [
+        "Alarm Stop Receipt"
+      ],
+      "decision_reason": "AlarmKit can identify the app alarm and action, but stopping it does not prove a person is awake, standing, or well. Alarmy already owns task and photo dismissal missions, and stronger assurance would be false.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "alarm-stop-ack",
+      "name": "WakeAck",
+      "one_liner": "Record the exact time an app-created alarm was stopped or snoozed.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A valuable workflow needs only the bounded alarm-action record and users prepay without interpreting it as welfare assurance.",
+      "route": "/ideas/alarm-stop-ack",
+      "status": "passed_market",
+      "tags": [
+        "alarms",
+        "alarmkit",
+        "acknowledgment",
+        "safety",
+        "false-confidence"
+      ]
+    },
+    {
+      "aliases": [
+        "Arrival Window Receipt"
+      ],
+      "decision_reason": "The app observes an authorized phone, not who carried it or whether a person is safe. Apple Check In and Life360 No Show Alerts already own the multi-person workflow, which also violates the no-cold-start constraint.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "arrival-window-ack",
+      "name": "ArrivalAck",
+      "one_liner": "Report location observed, not observed, or unavailable during a recurring arrival window.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A single-user workflow values only device-location evidence and avoids participant onboarding and safety claims.",
+      "route": "/ideas/arrival-window-ack",
+      "status": "passed_market",
+      "tags": [
+        "arrival",
+        "location",
+        "family",
+        "cold-start",
+        "safety"
+      ]
+    },
+    {
+      "aliases": [
+        "Senior Daily Check-In"
+      ],
+      "decision_reason": "Daily OK and TaskConnect already provide one-tap check-ins, tasks, and escalation. The event proves only a device or account action, not that the person is okay.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "daily-ok-checkin",
+      "name": "DailyOkay",
+      "one_liner": "Let an older adult send a daily timestamped response with missed-response escalation to family.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A distribution partner needs the bounded response event and current exact incumbents fail a demonstrated paid workflow.",
+      "route": "/ideas/daily-ok-checkin",
+      "status": "passed_market",
+      "tags": [
+        "seniors",
+        "check-in",
+        "family",
+        "caregiving",
+        "exact-incumbent"
+      ]
+    },
+    {
+      "aliases": [
+        "Microchip Registry Check"
+      ],
+      "decision_reason": "The phone cannot scan the implanted chip, AAHA searches only participating registries and may return only a manufacturer, and Animal-ID's partner API is not a universal or AAHA-wide cross-registry source. The app cannot verify or update owner data.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "low",
+      "id": "pet-chip-registry-pulse",
+      "name": "PetChip Pulse",
+      "one_liner": "Repeat a known pet-microchip lookup and report participating-registry candidates or lookup limitations.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A sanctioned API reaches parity across 1,000 chip fixtures and owners pay for carefully bounded status-only language.",
+      "route": "/ideas/pet-chip-registry-pulse",
+      "status": "passed_scope",
+      "tags": [
+        "pets",
+        "microchip",
+        "registries",
+        "api",
+        "platform-access"
+      ]
+    },
+    {
+      "aliases": [
+        "Pet Tag Readback"
+      ],
+      "decision_reason": "NFC Tools, ByteTag, PetHub, and an ordinary browser already own the readback surface. A successful open cannot prove a finder will notice the tag or contact the owner.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "pet-tag-tap-test",
+      "name": "PetTag TapTest",
+      "one_liner": "Tap an NFC or QR pet tag and report its URI, reachability, and expected contact text.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A tag vendor distributes a test that checks authoritative hosted profile state unavailable through the ordinary browser.",
+      "route": "/ideas/pet-tag-tap-test",
+      "status": "passed_market",
+      "tags": [
+        "pets",
+        "nfc",
+        "qr",
+        "tags",
+        "readback"
+      ]
+    },
+    {
+      "aliases": [
+        "Pet Food Recall Text Match"
+      ],
+      "decision_reason": "Free Snacco added recall checks and alerts, while inconsistent recall descriptions and lot formats make a negative text match dangerous if interpreted as safety. The FDA data source does not create a unique paid surface.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "pet-recall-match",
+      "name": "PetRecall Match",
+      "one_liner": "Compare scanned pet-food product and lot text with current FDA animal-food recall descriptions.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A complete authoritative identifier feed and zero-false-negative fixture set support a differentiated partner-distributed workflow.",
+      "route": "/ideas/pet-recall-match",
+      "status": "passed_market",
+      "tags": [
+        "pets",
+        "recalls",
+        "food",
+        "fda",
+        "false-confidence"
+      ]
+    },
+    {
+      "aliases": [
+        "Smart Feeder Dispense Receipt"
+      ],
+      "decision_reason": "Without sanctioned vendor APIs there is no observable state, and a command or motor event does not prove food reached the bowl or was eaten. Petlibro and other host apps already own device logs and notifications.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "low",
+      "id": "smart-feeder-ack",
+      "name": "FeederAck",
+      "one_liner": "Report vendor-observed smart-feeder dispense, failure, offline state, or missing fresh state.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Multiple sanctioned vendor integrations plus physical dispense fixtures support a bounded device-state product.",
+      "route": "/ideas/smart-feeder-ack",
+      "status": "passed_scope",
+      "tags": [
+        "pets",
+        "feeders",
+        "iot",
+        "api",
+        "device-state"
+      ]
+    },
+    {
+      "aliases": [
+        "Laundry Cycle Claim"
+      ],
+      "decision_reason": "LG ThinQ, SmartThings, and Home Assistant already expose cycle completion. The only new state is a self-reported household claim that still does not prove laundry or dishes were moved.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "appliance-cycle-claim",
+      "name": "ApplianceTurn",
+      "one_liner": "Open a short household claim window after a vendor-reported appliance cycle completes.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Households repeatedly pay for the coordination layer despite host notifications and complete claims with low friction.",
+      "route": "/ideas/appliance-cycle-claim",
+      "status": "passed_market",
+      "tags": [
+        "appliances",
+        "household",
+        "handoff",
+        "notifications",
+        "manual-claim"
+      ]
+    },
+    {
+      "aliases": [
+        "Household Task Claim"
+      ],
+      "decision_reason": "Apple Shared Reminders already supports lists, assignment, completion, and completion notifications. The tap is not proof of physical work and the flow requires participant adoption.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "shared-list-claim",
+      "name": "SharedListClaim",
+      "one_liner": "Assign a household task and notify the owner when the assignee marks it complete.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A natural single-device ritual supplies authoritative completion evidence absent from shared reminder tools.",
+      "route": "/ideas/shared-list-claim",
+      "status": "passed_market",
+      "tags": [
+        "household",
+        "tasks",
+        "reminders",
+        "shared-lists",
+        "host-feature"
+      ]
+    },
+    {
+      "aliases": [
+        "Assistive Aid Left-Behind Alert"
+      ],
+      "decision_reason": "The app knows only its connection, not whether the aid is needed, who has it, or whether background delivery was timely. Find My already provides Notify When Left Behind for AirTags and supported accessories.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "assistive-aid-latch",
+      "name": "AidLatch",
+      "one_liner": "Warn when a beacon attached to an assistive aid disconnects as the user leaves.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A hardware or aid manufacturer provides authoritative presence state and distributes a bounded workflow.",
+      "route": "/ideas/assistive-aid-latch",
+      "status": "passed_market",
+      "tags": [
+        "accessibility",
+        "bluetooth",
+        "assistive-devices",
+        "left-behind",
+        "hardware"
+      ]
+    },
+    {
+      "aliases": [
+        "Scheduled Guest Access Check"
+      ],
+      "decision_reason": "Apple Home already supports scheduled guest access. Accessory state does not prove the physical door secured correctly or the intended guest entered.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "guest-access-receipt",
+      "name": "GuestKey Receipt",
+      "one_liner": "Create scheduled guest access and show command or accessory-state acknowledgment for a supported entry device.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A lock or access partner exposes authoritative entry events and a paid coordination gap not covered by Apple Home.",
+      "route": "/ideas/guest-access-receipt",
+      "status": "passed_market",
+      "tags": [
+        "homekit",
+        "guest-access",
+        "locks",
+        "acknowledgment",
+        "host-feature"
+      ]
+    },
+    {
+      "aliases": [
+        "Audio Stem Delivery Preflight"
+      ],
+      "decision_reason": "A $3.99 adjacent batch reporter plus free MediaInfo cover much of the observable metadata, and correction still lives in the DAW. Equal headers and duration cannot prove common start alignment, intended content, or correct creative delivery.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "stem-pack-gate",
+      "name": "StemPack Gate",
+      "one_liner": "Compare audio-stem headers, duration, naming, and channels with a saved delivery profile.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "Paid engineers identify repeated actionable issues absent from their DAW and current metadata or batch-reporting substitutes, then prepay for the bounded check.",
+      "route": "/ideas/stem-pack-gate",
+      "status": "passed_market",
+      "tags": [
+        "audio",
+        "stems",
+        "preflight",
+        "delivery",
+        "strong-substitute"
+      ]
+    },
+    {
+      "aliases": [
+        "Mobile EPUB Conformance"
+      ],
+      "decision_reason": "Official EPUBCheck is free and canonical but depends on Java and schema tooling, while free mobile-web services already run it exactly. A partial weekend Swift checker creates false-green risk.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "pocket-epub-check",
+      "name": "Pocket EPUBCheck",
+      "one_liner": "Share an EPUB and run canonical package, manifest, navigation, schema, and link conformance checks locally.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A local implementation agrees with the entire official regression corpus and repeat creators prepay for phone-native use over free web validators.",
+      "route": "/ideas/pocket-epub-check",
+      "status": "passed_scope",
+      "tags": [
+        "epub",
+        "publishing",
+        "validation",
+        "standards",
+        "scope"
+      ]
+    },
+    {
+      "aliases": [
+        "Subtitle Timing Preflight"
+      ],
+      "decision_reason": "Subtitle Timing Tools costs $2.99 and free browser validators already perform structural checks. Those checks cannot establish synchronization, translation quality, or real readability.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "subtitle-gate",
+      "name": "Subtitle Gate",
+      "one_liner": "Check subtitle parsing, cue order, overlaps, negative timestamps, and video bounds.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A repeat creator workflow exposes an objective mobile-only failure that current validators and editors miss.",
+      "route": "/ideas/subtitle-gate",
+      "status": "passed_market",
+      "tags": [
+        "subtitles",
+        "video",
+        "timing",
+        "validation",
+        "exact-incumbent"
+      ]
+    },
+    {
+      "aliases": [
+        "Embroidery File Preflight"
+      ],
+      "decision_reason": "StitchBuddy HD supports hoop centering and resizing, while Embroidery File Viewer exposes stitch count, color blocks, and layout. Encoded bounds cannot establish tension, density quality, fabric behavior, or safe resizing.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "embroidery-hoop-gate",
+      "name": "HoopGate",
+      "one_liner": "Compare embroidery-file dimensions, stitches, colors, and format with a saved machine or hoop profile.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A machine partner supplies authoritative constraints and users prepay for a deterministic gap absent from current viewers.",
+      "route": "/ideas/embroidery-hoop-gate",
+      "status": "passed_market",
+      "tags": [
+        "embroidery",
+        "files",
+        "preflight",
+        "crafts",
+        "exact-incumbent"
+      ]
+    },
+    {
+      "aliases": [
+        "STL and 3MF Preflight"
+      ],
+      "decision_reason": "Free SolidMesh and browser repair tools already inspect or fix topology, while the slicer owns consequential preview. Mesh facts cannot prove material behavior, strength, or printability.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "mesh-preflight-gate",
+      "name": "MeshGate",
+      "one_liner": "Inspect mesh manifoldness, holes, normals, degenerate geometry, and dimensions before slicing.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A printer or slicer exposes a deterministic phone-only failure that current mesh tools cannot test.",
+      "route": "/ideas/mesh-preflight-gate",
+      "status": "passed_market",
+      "tags": [
+        "3d-printing",
+        "mesh",
+        "stl",
+        "preflight",
+        "exact-incumbent"
+      ]
+    },
+    {
+      "aliases": [
+        "Laser Cut File Preflight"
+      ],
+      "decision_reason": "Free web preflights and LightBurn's own diagnostics already inspect geometry. A validator cannot know whether an open line is intentional or which kerf and material settings are correct.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "laser-svg-gate",
+      "name": "LaserSVG Gate",
+      "one_liner": "Detect open contours, duplicate paths, live text, tiny features, bounds, and color mismatches in cut artwork.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A laser platform supplies authoritative operation semantics and creators prepay for a missing deterministic check.",
+      "route": "/ideas/laser-svg-gate",
+      "status": "passed_market",
+      "tags": [
+        "laser-cutting",
+        "svg",
+        "dxf",
+        "preflight",
+        "host-feature"
+      ]
+    },
+    {
+      "aliases": [
+        "PDF Invoice Arithmetic Check"
+      ],
+      "decision_reason": "Invoice creators already own structured calculation, while arbitrary layouts, rounding, tax-inclusive pricing, discounts, and currency turn an independent verifier into general OCR and semantic inference.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "invoice-math-reopen",
+      "name": "InvoiceMath Reopen",
+      "one_liner": "Recompute visible quantity, rate, subtotal, discount, tax, and total fields from a born-digital PDF invoice.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "One narrow invoice standard supplies machine-readable fields and repeated paid demand for independent arithmetic readback.",
+      "route": "/ideas/invoice-math-reopen",
+      "status": "passed_scope",
+      "tags": [
+        "invoices",
+        "pdf",
+        "arithmetic",
+        "ocr",
+        "scope"
+      ]
+    },
+    {
+      "aliases": [
+        "Audiobook Delivery Preflight"
+      ],
+      "decision_reason": "AudioBinder already organizes, renames, and exports audiobook files on iPhone, while MediaInfo covers file facts. The app cannot establish intended chapter content or retailer acceptance, and creators use it infrequently.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "audiobook-pack",
+      "name": "AudiobookPack",
+      "one_liner": "Check audiobook chapter gaps, duplicates, file format, sample rate, channels, cover dimensions, and duration.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A retailer publishes a sanctioned machine-readable profile and repeat producers prepay for a missing mobile check.",
+      "route": "/ideas/audiobook-pack",
+      "status": "passed_market",
+      "tags": [
+        "audiobooks",
+        "audio",
+        "publishing",
+        "preflight",
+        "low-frequency"
+      ]
+    },
+    {
+      "aliases": [
+        "Affiliate URL Identity Check"
+      ],
+      "decision_reason": "Amazon provides Link Checker and Mobile GetLink. URL equality cannot prove commission attribution after redirects, cookies, locale, or eligibility rules.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round10-loop4"
+      ],
+      "hackathon_fit": "high",
+      "id": "affiliate-tag-guard",
+      "name": "AffiliateTag Guard",
+      "one_liner": "Compare an affiliate URL's domain, associate ID, and tracking tokens with a saved identity.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+      ],
+      "resurrection_trigger": "A sanctioned affiliate API returns final attribution state and current platform tools leave a demonstrated paid gap.",
+      "route": "/ideas/affiliate-tag-guard",
+      "status": "passed_market",
+      "tags": [
+        "affiliate",
+        "urls",
+        "amazon",
+        "tracking",
+        "host-feature"
+      ]
     }
   ],
-  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8",
+  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

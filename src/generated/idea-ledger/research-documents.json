@@ -4063,6 +4063,644 @@
     {
       "headings": [
         {
+          "anchor": "round-10-loop-4--unowned-transitions-household-handshakes-and-phone-received-artifacts",
+          "depth": 1,
+          "text": "Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "research-statistics",
+          "depth": 2,
+          "text": "Research statistics"
+        },
+        {
+          "anchor": "meta-analysis-after-loop-4",
+          "depth": 2,
+          "text": "Meta-analysis after Loop 4"
+        },
+        {
+          "anchor": "directions-to-stop-mining",
+          "depth": 3,
+          "text": "Directions to stop mining"
+        },
+        {
+          "anchor": "parktrace",
+          "depth": 2,
+          "text": "ParkTrace"
+        },
+        {
+          "anchor": "scantape",
+          "depth": 2,
+          "text": "ScanTape"
+        },
+        {
+          "anchor": "cliptape",
+          "depth": 2,
+          "text": "ClipTape"
+        },
+        {
+          "anchor": "passarchive",
+          "depth": 2,
+          "text": "PassArchive"
+        },
+        {
+          "anchor": "controllersession-tape",
+          "depth": 2,
+          "text": "ControllerSession Tape"
+        },
+        {
+          "anchor": "appwatch",
+          "depth": 2,
+          "text": "AppWatch"
+        },
+        {
+          "anchor": "captiongap",
+          "depth": 2,
+          "text": "CaptionGap"
+        },
+        {
+          "anchor": "accessmode-receipt",
+          "depth": 2,
+          "text": "AccessMode Receipt"
+        },
+        {
+          "anchor": "wakeack",
+          "depth": 2,
+          "text": "WakeAck"
+        },
+        {
+          "anchor": "arrivalack",
+          "depth": 2,
+          "text": "ArrivalAck"
+        },
+        {
+          "anchor": "dailyokay",
+          "depth": 2,
+          "text": "DailyOkay"
+        },
+        {
+          "anchor": "petchip-pulse",
+          "depth": 2,
+          "text": "PetChip Pulse"
+        },
+        {
+          "anchor": "pettag-taptest",
+          "depth": 2,
+          "text": "PetTag TapTest"
+        },
+        {
+          "anchor": "petrecall-match",
+          "depth": 2,
+          "text": "PetRecall Match"
+        },
+        {
+          "anchor": "feederack",
+          "depth": 2,
+          "text": "FeederAck"
+        },
+        {
+          "anchor": "applianceturn",
+          "depth": 2,
+          "text": "ApplianceTurn"
+        },
+        {
+          "anchor": "sharedlistclaim",
+          "depth": 2,
+          "text": "SharedListClaim"
+        },
+        {
+          "anchor": "aidlatch",
+          "depth": 2,
+          "text": "AidLatch"
+        },
+        {
+          "anchor": "guestkey-receipt",
+          "depth": 2,
+          "text": "GuestKey Receipt"
+        },
+        {
+          "anchor": "stempack-gate",
+          "depth": 2,
+          "text": "StemPack Gate"
+        },
+        {
+          "anchor": "pocket-epubcheck",
+          "depth": 2,
+          "text": "Pocket EPUBCheck"
+        },
+        {
+          "anchor": "subtitle-gate",
+          "depth": 2,
+          "text": "Subtitle Gate"
+        },
+        {
+          "anchor": "hoopgate",
+          "depth": 2,
+          "text": "HoopGate"
+        },
+        {
+          "anchor": "meshgate",
+          "depth": 2,
+          "text": "MeshGate"
+        },
+        {
+          "anchor": "lasersvg-gate",
+          "depth": 2,
+          "text": "LaserSVG Gate"
+        },
+        {
+          "anchor": "invoicemath-reopen",
+          "depth": 2,
+          "text": "InvoiceMath Reopen"
+        },
+        {
+          "anchor": "audiobookpack",
+          "depth": 2,
+          "text": "AudiobookPack"
+        },
+        {
+          "anchor": "affiliatetag-guard",
+          "depth": 2,
+          "text": "AffiliateTag Guard"
+        },
+        {
+          "anchor": "evidence-merges",
+          "depth": 2,
+          "text": "Evidence merges"
+        },
+        {
+          "anchor": "contactdelta--contact-sentinel",
+          "depth": 3,
+          "text": "ContactDelta → Contact Sentinel"
+        },
+        {
+          "anchor": "musiclibrary-filmstrip--spotify-playlist-time-machine",
+          "depth": 3,
+          "text": "MusicLibrary Filmstrip → Spotify Playlist Time Machine"
+        },
+        {
+          "anchor": "homeaction-tape--homekit-snapshot",
+          "depth": 3,
+          "text": "HomeAction Tape → HomeKit Snapshot"
+        },
+        {
+          "anchor": "routetape-and-routetone--hearing-route-guard",
+          "depth": 3,
+          "text": "RouteTape and RouteTone → Hearing Route Guard"
+        },
+        {
+          "anchor": "reminderundo-journal--calendar-lifeboat",
+          "depth": 3,
+          "text": "ReminderUndo Journal → Calendar Lifeboat"
+        },
+        {
+          "anchor": "petvisit-baton--barnbaton",
+          "depth": 3,
+          "text": "PetVisit Baton → BarnBaton"
+        },
+        {
+          "anchor": "qr-print-pair--tagrun",
+          "depth": 3,
+          "text": "QR Print Pair → TagRun"
+        },
+        {
+          "anchor": "mediaspec-gate--filekind-probe",
+          "depth": 3,
+          "text": "MediaSpec Gate → FileKind Probe"
+        },
+        {
+          "anchor": "csv-contract--vault-csv-audit",
+          "depth": 3,
+          "text": "CSV Contract → Vault CSV Audit"
+        },
+        {
+          "anchor": "loop-4-decision",
+          "depth": 2,
+          "text": "Loop 4 decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "accessibility-mode-receipt",
+        "affiliate-tag-guard",
+        "alarm-stop-ack",
+        "app-store-watch",
+        "appliance-cycle-claim",
+        "arrival-window-ack",
+        "assistive-aid-latch",
+        "audiobook-pack",
+        "barn-shift-baton",
+        "calendar-local-lifeboat",
+        "caption-pipeline-gap",
+        "clipboard-explicit-history",
+        "contacts-change-sentinel",
+        "controller-session-tape",
+        "daily-ok-checkin",
+        "embroidery-hoop-gate",
+        "file-kind-probe",
+        "guest-access-receipt",
+        "hearing-aid-route-guard",
+        "homekit-configuration-snapshot",
+        "invoice-math-reopen",
+        "laser-svg-gate",
+        "mesh-preflight-gate",
+        "nfc-batch-readback",
+        "park-trace",
+        "password-csv-audit",
+        "pet-chip-registry-pulse",
+        "pet-recall-match",
+        "pet-tag-tap-test",
+        "pocket-epub-check",
+        "scan-history-tape",
+        "shared-list-claim",
+        "smart-feeder-ack",
+        "spotify-playlist-time-machine",
+        "stem-pack-gate",
+        "subtitle-gate",
+        "wallet-pass-archive"
+      ],
+      "links": [
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Link Checker",
+          "url": "https://affiliate-program.amazon.com/help/node/topic/G6253GFSARDQENZR"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Mobile GetLink",
+          "url": "https://affiliate-program.amazon.com/help/node/topic/GH37MDS5PLQ9Z366"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Animal-ID Open Platform",
+          "url": "https://animal-id.net/us/en/open-platform"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Alarmy",
+          "url": "https://apps.apple.com/ph/app/alarmy-routine-alarm-clock/id1163786766"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "AppRaven",
+          "url": "https://apps.apple.com/us/app/appraven-apps-gone-free/id1490607195"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "AudioBinder",
+          "url": "https://apps.apple.com/us/app/audiobinder/id6760090418"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Ava",
+          "url": "https://apps.apple.com/us/app/ava-transcribe-voice-to-text/id1030067058"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ByteTag",
+          "url": "https://apps.apple.com/us/app/bytetag/id1634260065"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "ClipBox",
+          "url": "https://apps.apple.com/us/app/clipbox-clipboard-manager/id1036140929"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "CodecAudit",
+          "url": "https://apps.apple.com/us/app/codecaudit-media-metadata/id6759266682"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Daily OK",
+          "url": "https://apps.apple.com/us/app/daily-ok-senior-check-in/id6760836697"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Embroidery File Viewer",
+          "url": "https://apps.apple.com/us/app/embroidery-file-viewer/id6759555519"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Find My Car GPS Auto Park",
+          "url": "https://apps.apple.com/us/app/find-my-car-gps-auto-park/id815542507"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Gamepad Tester",
+          "url": "https://apps.apple.com/us/app/gamepad-tester-input-drift/id6785837892"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Hezel",
+          "url": "https://apps.apple.com/us/app/hezel-for-apple-music/id6472612361"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "HomeSnap",
+          "url": "https://apps.apple.com/us/app/homesnap-smart-home-insights/id6761507152"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Live Transcribe",
+          "url": "https://apps.apple.com/us/app/live-transcribe/id1471473738"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Loudness Report Local",
+          "url": "https://apps.apple.com/us/app/loudness-report-local/id6789875089"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "MediaInfo",
+          "url": "https://apps.apple.com/us/app/mediainfo/id1448983823"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "NFC Tools",
+          "url": "https://apps.apple.com/us/app/nfc-tools/id1252962749"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Petlibro app",
+          "url": "https://apps.apple.com/us/app/petlibro/id1586120661"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "QR Check",
+          "url": "https://apps.apple.com/us/app/qr-check-fast-code-previewing/id6756632601"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "QR Scanner",
+          "url": "https://apps.apple.com/us/app/qr-scanner-code-reader/id6759408630"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Snacco",
+          "url": "https://apps.apple.com/us/app/snacco-pet-food-scanner/id6778288521"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Snowflower EPUB Validator",
+          "url": "https://apps.apple.com/us/app/snowflower-epub-validator/id1273603904"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "SolidMesh",
+          "url": "https://apps.apple.com/us/app/solidmesh/id6758917253"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "StitchBuddy HD",
+          "url": "https://apps.apple.com/us/app/stitchbuddy-hd/id522499369"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Subtitle Timing Tools",
+          "url": "https://apps.apple.com/us/app/subtitle-timing-tools/id6762040603"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "TaskConnect",
+          "url": "https://apps.apple.com/us/app/taskconnect-parent-check-in/id6757977934"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Walkies",
+          "url": "https://apps.apple.com/us/app/walkies-pet-sitting-walking/id1336482131"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Live Activities",
+          "url": "https://companion.home-assistant.io/docs/notifications/live-activities/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "CSV Workbench",
+          "url": "https://csvworkbench.com/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "AlarmKit",
+          "url": "https://developer.apple.com/documentation/AlarmKit"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "GCController",
+          "url": "https://developer.apple.com/documentation/GameController/GCController"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "AVAudioSession",
+          "url": "https://developer.apple.com/documentation/avfaudio/responding-to-audio-route-changes"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "reader sessions",
+          "url": "https://developer.apple.com/documentation/corenfc"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "GCDeviceBattery",
+          "url": "https://developer.apple.com/documentation/gamecontroller/gcdevicebattery"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "isVoiceOverRunning",
+          "url": "https://developer.apple.com/documentation/uikit/uiaccessibility/isvoiceoverrunning"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "UIPasteboard",
+          "url": "https://developer.apple.com/documentation/uikit/uipasteboard"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "PassKit access guide",
+          "url": "https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/Apps.html"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "SpeechAnalyzer",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/277/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "shape diagnostics",
+          "url": "https://docs.lightburnsoftware.com/2.0/Troubleshooting/PreviewWindow/MissingShapes/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "EPUBCheck.net",
+          "url": "https://epubcheck.net/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "W3C EPUBCheck",
+          "url": "https://github.com/w3c/epubcheck"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "openFDA enforcement data",
+          "url": "https://open.fda.gov/apis/food/enforcement/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "sparq.tools",
+          "url": "https://sparq.tools/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Recently Deleted",
+          "url": "https://support.apple.com/en-euro/guide/iphone/iph51b488c05/26/ios/26"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Shared Reminders",
+          "url": "https://support.apple.com/en-gb/105124"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Check In",
+          "url": "https://support.apple.com/en-ie/guide/iphone/iphc143bb7e9/ios"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "scheduled guest access",
+          "url": "https://support.apple.com/en-ke/guide/iphone/iphcbaf7e8f3/26/ios/26"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "CarPlay connect or disconnect trigger",
+          "url": "https://support.apple.com/en-mide/guide/shortcuts/apd8ebfc4e8e/ios"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Apple's current support flow",
+          "url": "https://support.apple.com/en-sg/101587"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Live Captions",
+          "url": "https://support.apple.com/guide/iphone/overview-accessibility-features-hearing-iphb210be03a/ios"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "No Show Alerts",
+          "url": "https://support.life360.com/hc/en-us/articles/34106208950935-No-Show-Alerts"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "TimedSubs",
+          "url": "https://timedsubs.com/en/tools/subtitle-checker"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "lookup tool",
+          "url": "https://www.aaha.org/for-veterinary-professionals/microchip-registry-lookup-tool-aaha-find-your-pets-microchip-registry/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Accessibility features",
+          "url": "https://www.apple.com/accessibility/features/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Notify When Left Behind",
+          "url": "https://www.apple.com/icloud/find-my/"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "Bonny Creations' validator",
+          "url": "https://www.bonnycreations.com/tools/cut-file-validator"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "animal recalls",
+          "url": "https://www.fda.gov/animal-veterinary/safety-health/recalls-withdrawals"
+        },
+        {
+          "kind": "external",
+          "occurrences": 1,
+          "text": "LG ThinQ",
+          "url": "https://www.lg.com/us/lg-thinq"
+        }
+      ],
+      "markdown": "# Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts\n\n**Research date:** 2026-08-10\n\n**Method:** Three independent lanes searched the 245-record Ledger before mining: consumer transitions whose host lacks useful history, low-friction accessibility/household/pet acknowledgments, and prosumer artifacts naturally received on a phone. Every apparent lead was attacked for authoritative-state limits, current native or exact incumbents, pre-loss distribution, repeated behavior, weekend truth, and real $7.99 willingness to pay.\n\n**Starting archive:** 245 ideas and 16 research dossiers.\n\n## Executive summary\n\nLoop 4 investigated 38 serious candidates and promoted zero builds. Twenty-eight concepts add new decisions—27 passes and one parked paid test—and ten rediscoveries merge into nine existing decisions because RouteTone and RouteTape both belong to Hearing Route Guard.\n\nThe strongest pains were playlist loss, HomeKit automation history, pet-registry decay, unreliable live captions, malformed audio-stem deliveries, and rejected EPUBs. CaptionGap earned one paid co-design test because no exact pipeline-health incumbent surfaced; it did not earn a build. Exact 2026 products already own playlist and HomeKit history, universal pet-chip and system-caption state remains unavailable, and professional artifact correction still occurs inside a desktop host or a free validator.\n\n## Research statistics\n\n- Serious candidates: 38\n- New Ledger decisions: 28\n- Evidence merges: 10 candidates into 9 existing records\n- Paid validation candidates: 1 — CaptionGap\n- Build recommendations: 0\n\n## Meta-analysis after Loop 4\n\n1. **A sanctioned event still needs causal meaning.** A HomeKit characteristic change does not identify the automation; a controller disconnect does not identify the failing component.\n2. **Replacing a native habit merely to create history is usually fatal.** QR, clipboard, parking, and scan-history tools must win before the first event, while the free system path already owns behavior.\n3. **An acknowledgment is not the physical outcome.** An alarm stop, feeder command, household task tap, or accessory event cannot prove waking, feeding, completion, or security.\n4. **Receiving a professional artifact on a phone is insufficient.** The paid correction and acceptance step still lives in the DAW, NLE, slicer, publishing tool, or platform uploader.\n5. **Structural validity is not semantic validity.** File headers, EPUB schemas, subtitle timestamps, mesh topology, and URL tags can be checked exactly without proving alignment, acceptance, printability, or attribution.\n\n### Directions to stop mining\n\n- Generic transition journals that require replacing a native habit.\n- Accessibility or household “proof” that observes only a button tap or app-local session.\n- Phone preflight wrappers for artifacts whose canonical free validator or desktop host already owns correction.\n- Universal operator or hardware state without a sanctioned API.\n\n## ParkTrace\n\n**Concept:** Record timestamp, horizontal accuracy, and location from an explicitly configured CarPlay Shortcut callback or an app-observed heuristic stop, then retain a short parking-transition history.\n\nApple Maps already drops a parked-car marker in [Apple's current support flow](https://support.apple.com/en-sg/101587), while Shortcuts exposes a user-configured [CarPlay connect or disconnect trigger](https://support.apple.com/en-mide/guide/shortcuts/apd8ebfc4e8e/ios); ordinary Bluetooth automation documents connection rather than a universal disconnect stream. [Find My Car GPS Auto Park](https://apps.apple.com/us/app/find-my-car-gps-auto-park/id815542507) already adds history, Watch support, and automatic parking with a $24.99 Premium IAP. The phone knows where a callback or heuristic fired, not whether the car remained there or which garage level it occupies.\n\n**Verdict:** `passed_market`. Reopen only if frequent garage parkers materially prefer transition history to Apple Maps and five of twenty prepay after comparing the exact incumbent.\n\n## ScanTape\n\n**Concept:** Retain exact QR or NFC payload, timestamp, and label for scans performed inside this app.\n\nCore NFC supports explicit [reader sessions](https://developer.apple.com/documentation/corenfc), but an ordinary app cannot observe native Camera scans. A free [QR Scanner](https://apps.apple.com/us/app/qr-scanner-code-reader/id6759408630) already includes local history. The user must replace the native Camera before an unpredictable future need.\n\n**Verdict:** `passed_market`. Reopen only if paid users route at least 80 percent of real scans through the app for four weeks.\n\n## ClipTape\n\n**Concept:** Preserve text the user explicitly imports through a keyboard, Paste control, or share extension so it can be restored after another copy overwrites the pasteboard.\n\nApple's [`UIPasteboard`](https://developer.apple.com/documentation/uikit/uipasteboard) does not expose a sanctioned passive history of every cross-app copy. [ClipBox](https://apps.apple.com/us/app/clipbox-clipboard-manager/id1036140929) and other keyboard/share managers own the feasible manual path. Honest copy therefore collapses from “clipboard history” to “things you remembered to clip.”\n\n**Verdict:** `passed_scope`. Reopen only with a sanctioned clipboard-change stream or strong paid adherence to the manual capture ritual.\n\n## PassArchive\n\n**Concept:** Archive a user-shared `.pkpass` or screenshot before Wallet later hides or removes it.\n\nPassKit access is entitlement-bound to cooperating issuers; an ordinary app cannot become a universal historian for third-party Wallet passes. Apple's [PassKit access guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/Apps.html) makes that boundary explicit. Manual files prove only the bytes supplied, never validity, redemption, or issuer updates.\n\n**Verdict:** `passed_scope`. Reopen only if Wallet grants user-authorized export access to all nonpayment passes or an issuer distributes the archive.\n\n## ControllerSession Tape\n\n**Concept:** During an app-foreground diagnostic session, journal controller connection and disconnection notifications plus sampled battery readings.\n\n[`GCController`](https://developer.apple.com/documentation/GameController/GCController) exposes connection notifications and point-in-time [`GCDeviceBattery`](https://developer.apple.com/documentation/gamecontroller/gcdevicebattery) properties, but no battery-change event; background controller monitoring is not a general iOS utility path. The trace cannot identify whether the controller, radio, game, Remote Play service, or OS caused failure. A free [Gamepad Tester](https://apps.apple.com/us/app/gamepad-tester-input-drift/id6785837892) already checks input, drift, rumble, and battery in an adjacent foreground diagnostic.\n\n**Verdict:** `passed_market`. Reopen only if the trace changes real vendor-support outcomes and affected gamers prepay despite the adjacent free foreground tester.\n\n## AppWatch\n\n**Concept:** Share an App Store page into a watcher that records storefront price, updates, and availability changes.\n\n[AppRaven](https://apps.apple.com/us/app/appraven-apps-gone-free/id1490607195) already accepts share-sheet additions, provides wishlists and price/update/IAP/availability history, has thousands of ratings, and charges $11.99/year or $29.99 lifetime. Reliable monitoring also requires backend polling and storefront normalization.\n\n**Verdict:** `passed_market`. Reopen only around one named workflow current AppRaven users will prepay for.\n\n## CaptionGap\n\n**Concept:** In an app-owned caption session, expose exact audio-buffer, transcript-result, interruption, and recognizer-error state without judging semantic completeness.\n\nApple's [SpeechAnalyzer](https://developer.apple.com/videos/play/wwdc2025/277/) can support a new caption app, not inspect Apple Live Captions or identify omitted words. Apple [Live Captions](https://support.apple.com/guide/iphone/overview-accessibility-features-hearing-iphb210be03a/ios), [Live Transcribe](https://apps.apple.com/us/app/live-transcribe/id1471473738), and [Ava](https://apps.apple.com/us/app/ava-transcribe-voice-to-text/id1030067058) already own the conversation surface, but none surfaced as an exact pipeline-health indicator. No transcript update can mean silence, noise, unsupported language, or delayed decoding rather than failure.\n\n**Verdict:** `parked` for one paid co-design test, not a build. Twelve DHH or hard-of-hearing participants must use an instrumented app-owned session for at least ten real hours; warnings must stay under one false alert per hour; 100 injected buffer, interruption, and recognizer failures must produce zero false-healthy states; at least eight users must say the indicator changed their response; and at least four must place a refundable $7.99 preorder. The product may say only `audio observed`, `recognizer updating`, `interrupted`, or `no recent result`—never complete captions or semantic omission.\n\n## AccessMode Receipt\n\n**Concept:** Compare accessibility flags visible to this app with a saved desired set and name the differences.\n\nUIKit exposes app-relevant state such as [`isVoiceOverRunning`](https://developer.apple.com/documentation/uikit/uiaccessibility/isvoiceoverrunning), not a complete global accessibility audit. Apple already provides Accessibility Shortcut, per-app settings, Assistive Access, and [Accessibility features](https://www.apple.com/accessibility/features/). A local receipt looks global while its authority is incomplete.\n\n**Verdict:** `passed_market`.\n\n## WakeAck\n\n**Concept:** Record the exact time an app-created alarm was stopped or snoozed.\n\n[AlarmKit](https://developer.apple.com/documentation/AlarmKit) can identify the app alarm and action, but stopping an alarm does not prove a person is awake, standing, or well. [Alarmy](https://apps.apple.com/ph/app/alarmy-routine-alarm-clock/id1163786766) already owns task and photo dismissal missions.\n\n**Verdict:** `passed_market`. Strengthening the truthful `alarm stopped` event creates false welfare assurance.\n\n## ArrivalAck\n\n**Concept:** For a recurring arrival window, report `location observed`, `not observed`, or `location unavailable`.\n\nThe app can observe its authorized phone location, not who carried it or whether a person is safe. Apple [Check In](https://support.apple.com/en-ie/guide/iphone/iphc143bb7e9/ios) and Life360 [No Show Alerts](https://support.life360.com/hc/en-us/articles/34106208950935-No-Show-Alerts) already own the multi-person workflow for free.\n\n**Verdict:** `passed_market`. It also violates the no-cold-start constraint.\n\n## DailyOkay\n\n**Concept:** An older adult taps a daily response and a family member receives the timestamp or missed-response escalation.\n\n[Daily OK](https://apps.apple.com/us/app/daily-ok-senior-check-in/id6760836697) and [TaskConnect](https://apps.apple.com/us/app/taskconnect-parent-check-in/id6757977934) already provide one-tap check-ins, tasks, and escalation. The event proves only a device/account action, not that the person is okay.\n\n**Verdict:** `passed_market`.\n\n## PetChip Pulse\n\n**Concept:** Periodically repeat a known pet-microchip lookup and report only participating-registry candidates, manufacturer-only result, lookup failure, or not checked.\n\nAAHA says its [lookup tool](https://www.aaha.org/for-veterinary-professionals/microchip-registry-lookup-tool-aaha-find-your-pets-microchip-registry/) searches only participating registries, may return a manufacturer, and cannot expose or update owner data. [Animal-ID Open Platform](https://animal-id.net/us/en/open-platform) exposes a documented partner API, but no sanctioned universal or AAHA-wide cross-registry API surfaced after the Save This Life registry shutdown, and the phone cannot scan the implanted chip.\n\n**Verdict:** `passed_scope`. Reopen only with a sanctioned API, parity across 1,000 chip fixtures, and paid demand for status-only language.\n\n## PetTag TapTest\n\n**Concept:** Tap an NFC or QR pet tag and report the decoded URI, network reachability, and whether expected contact text appeared.\n\nFree [NFC Tools](https://apps.apple.com/us/app/nfc-tools/id1252962749), [ByteTag](https://apps.apple.com/us/app/bytetag/id1634260065), and PetHub already own the tag/profile surface. Opening the URL in a browser is itself the test; the result cannot prove a finder will notice or contact the owner.\n\n**Verdict:** `passed_market`.\n\n## PetRecall Match\n\n**Concept:** Compare scanned product and lot text with current FDA animal-food recall descriptions using `possible match`, `no text match in checked records`, or `unreadable`.\n\nThe FDA publishes [animal recalls](https://www.fda.gov/animal-veterinary/safety-health/recalls-withdrawals) and [openFDA enforcement data](https://open.fda.gov/apis/food/enforcement/). Free [Snacco](https://apps.apple.com/us/app/snacco-pet-food-scanner/id6778288521) launched recall checks and alerts in 2026. Inconsistent descriptions and lot formats make a negative match dangerous if interpreted as safety.\n\n**Verdict:** `passed_market`.\n\n## FeederAck\n\n**Concept:** For a scheduled smart-feeder meal, report vendor-observed dispense, failure, offline state, or no fresh state.\n\nWithout a sanctioned vendor API there is no observable state; even a command or motor event does not prove food reached the bowl or was eaten. The [Petlibro app](https://apps.apple.com/us/app/petlibro/id1586120661) already owns device state, schedules, logs, notifications, and camera or weight-aware hardware.\n\n**Verdict:** `passed_scope`. Reopen only through multiple sanctioned vendor integrations with physical dispense fixtures.\n\n## ApplianceTurn\n\n**Concept:** A vendor-reported appliance-cycle completion opens a short household window for someone to claim responsibility.\n\n[LG ThinQ](https://www.lg.com/us/lg-thinq), Samsung SmartThings, and Home Assistant [Live Activities](https://companion.home-assistant.io/docs/notifications/live-activities/) already expose cycle completion. The only new state is a self-reported claim that still does not prove laundry was moved.\n\n**Verdict:** `passed_market`.\n\n## SharedListClaim\n\n**Concept:** Assign a household task and notify the owner when the assignee marks it complete.\n\nApple [Shared Reminders](https://support.apple.com/en-gb/105124) already supports shared lists, assignment, completion, and completion notifications. The tap is not proof of physical work and the flow requires participant adoption.\n\n**Verdict:** `passed_market`.\n\n## AidLatch\n\n**Concept:** Warn when a BLE beacon attached to a cane, walker, communication device, or other aid disconnects as the user leaves.\n\nThe app can know its own connection, not whether the aid is needed, who has it, or guarantee timely background delivery. Apple Find My already provides [Notify When Left Behind](https://www.apple.com/icloud/find-my/) for AirTags and supported accessories.\n\n**Verdict:** `passed_market`. An honest version is a hardware or manufacturer-partnership product, not a $7.99 app.\n\n## GuestKey Receipt\n\n**Concept:** Create scheduled guest access and show command or accessory-state acknowledgment for a supported lock or garage door.\n\nApple Home already supports [scheduled guest access](https://support.apple.com/en-ke/guide/iphone/iphcbaf7e8f3/26/ios/26). Accessory state does not prove the physical door secured correctly or the intended guest entered.\n\n**Verdict:** `passed_market`.\n\n## StemPack Gate\n\n**Concept:** Compare WAV or AIFF sample rate, bit depth, channels, duration, names, and conformity to a saved stem-delivery profile.\n\nCurrent delivery guidance still requires matching sample rate and common start, but equal headers and duration cannot prove alignment or intended content. [Loudness Report Local](https://apps.apple.com/us/app/loudness-report-local/id6789875089) is a $3.99 adjacent batch reporter for duration, channels, sample rate, LUFS, and true peak; free [MediaInfo](https://apps.apple.com/us/app/mediainfo/id1448983823) covers additional metadata. Neither supplies the whole saved-profile loop, but together they are strong substitutes and correction still lives in the DAW.\n\n**Verdict:** `passed_market`. Reopen only if paid engineers identify repeated actionable issues absent from the DAW and current metadata or batch-reporting substitutes.\n\n## Pocket EPUBCheck\n\n**Concept:** Share an EPUB and run canonical package, manifest, navigation, identifier, schema, and link conformance checks locally.\n\nOfficial [W3C EPUBCheck](https://github.com/w3c/epubcheck) is free and canonical but depends on Java and schema tooling. Free [EPUBCheck.net](https://epubcheck.net/) and other mobile-web validators already run the exact standard, while local Mac [Snowflower EPUB Validator](https://apps.apple.com/us/app/snowflower-epub-validator/id1273603904) costs $29.99. A partial weekend Swift checker risks a false green.\n\n**Verdict:** `passed_scope`. Reopen only with exact agreement across the official regression corpus and repeated paid phone use.\n\n## Subtitle Gate\n\n**Concept:** Check SRT or VTT parsing, cue ordering, overlaps, negative timestamps, video bounds, and optional reading profiles.\n\n[Subtitle Timing Tools](https://apps.apple.com/us/app/subtitle-timing-tools/id6762040603) costs $2.99, and free browser tools such as [TimedSubs](https://timedsubs.com/en/tools/subtitle-checker) already validate timing. Structural checks cannot judge synchronization, translation, or readability.\n\n**Verdict:** `passed_market`.\n\n## HoopGate\n\n**Concept:** Compare embroidery-file dimensions, stitch count, color changes, and format with a saved machine or hoop profile.\n\n[StitchBuddy HD](https://apps.apple.com/us/app/stitchbuddy-hd/id522499369) supports hoop centering and resizing, while [Embroidery File Viewer](https://apps.apple.com/us/app/embroidery-file-viewer/id6759555519) exposes stitch count, color blocks, and layout. Encoded bounds do not establish tension, density quality, fabric behavior, or safe resizing.\n\n**Verdict:** `passed_market`.\n\n## MeshGate\n\n**Concept:** Inspect STL or 3MF manifoldness, holes, normals, degenerate geometry, and dimensions before moving to a slicer.\n\nFree [SolidMesh](https://apps.apple.com/us/app/solidmesh/id6758917253) and browser repair tools already inspect or fix topology, while the slicer owns the consequential preview. Mesh facts cannot prove material behavior, structural strength, or printability.\n\n**Verdict:** `passed_market`.\n\n## LaserSVG Gate\n\n**Concept:** Detect open contours, duplicate paths, non-outlined text, tiny features, bounds, and operation-color mismatches in SVG or DXF artwork.\n\nFree [sparq.tools](https://sparq.tools/) and [Bonny Creations' validator](https://www.bonnycreations.com/tools/cut-file-validator) already preflight files; LightBurn documents its own [shape diagnostics](https://docs.lightburnsoftware.com/2.0/Troubleshooting/PreviewWindow/MissingShapes/). Geometry cannot reveal whether an open line is intentional or which kerf and material settings are correct.\n\n**Verdict:** `passed_market`.\n\n## InvoiceMath Reopen\n\n**Concept:** Recompute visible quantity times rate, subtotals, discounts, tax, and total from a born-digital PDF invoice.\n\nInvoice creators already own structured calculation. Arbitrary layouts, rounding, tax-inclusive pricing, discounts, and currency turn the verifier into general OCR and semantic inference. A narrow template demo cannot truthfully generalize.\n\n**Verdict:** `passed_scope`.\n\n## AudiobookPack\n\n**Concept:** Check audiobook chapter numbering gaps, duplicates, format, sample rate, channels, cover dimensions, and total duration.\n\n[AudioBinder](https://apps.apple.com/us/app/audiobinder/id6760090418) already organizes, renames, and exports audiobook files on iPhone; MediaInfo covers file facts. The app cannot establish intended chapter content or retailer acceptance, and solo producers repeat the workflow infrequently.\n\n**Verdict:** `passed_market`.\n\n## AffiliateTag Guard\n\n**Concept:** Compare an affiliate URL's domain, associate ID, and tracking tokens with a saved identity.\n\nAmazon provides [Link Checker](https://affiliate-program.amazon.com/help/node/topic/G6253GFSARDQENZR) and native [Mobile GetLink](https://affiliate-program.amazon.com/help/node/topic/GH37MDS5PLQ9Z366). URL equality cannot prove commission attribution after redirects, cookies, eligibility, or locale behavior.\n\n**Verdict:** `passed_market`.\n\n## Evidence merges\n\n### ContactDelta → Contact Sentinel\n\nContacts change history can report local events but not remote cause; iCloud's archive restore and exact history tools reinforce the existing decision.\n\n### MusicLibrary Filmstrip → Spotify Playlist Time Machine\n\n[Hezel](https://apps.apple.com/us/app/hezel-for-apple-music/id6472612361) is the exact Apple Music snapshot, diff, and restore product. Preserve it as another platform-specific proof that the playlist-time-machine surface is occupied.\n\n### HomeAction Tape → HomeKit Snapshot\n\n[HomeSnap](https://apps.apple.com/us/app/homesnap-smart-home-insights/id6761507152) now snapshots configuration, diffs changes, records characteristics, and exports history. Characteristic events still do not identify automation cause.\n\n### RouteTape and RouteTone → Hearing Route Guard\n\n[`AVAudioSession`](https://developer.apple.com/documentation/avfaudio/responding-to-audio-route-changes) reports only the app-owned session. A tone acknowledgment cannot certify the next app, call, hearing-aid fit, or comprehension.\n\n### ReminderUndo Journal → Calendar Lifeboat\n\nApple now exposes a 30-day [Recently Deleted](https://support.apple.com/en-euro/guide/iphone/iph51b488c05/26/ios/26) list for ordinary reminder deletion; catastrophic sync recovery retains the existing EventKit authority limits.\n\n### PetVisit Baton → BarnBaton\n\n[Walkies](https://apps.apple.com/us/app/walkies-pet-sitting-walking/id1336482131) and Time To Pet already own GPS visits and report cards. A no-install baton remains a human claim, not proof of care.\n\n### QR Print Pair → TagRun\n\nFree [QR Check](https://apps.apple.com/us/app/qr-check-fast-code-previewing/id6756632601) already compares printed or displayed QR payloads. Exact decode equality cannot guarantee print reliability, redirect durability, or a whole production run.\n\n### MediaSpec Gate → FileKind Probe\n\nFree MediaInfo and cheap [CodecAudit](https://apps.apple.com/us/app/codecaudit-media-metadata/id6759266682) already inspect media streams. Profile equality does not prove upload acceptance or content quality.\n\n### CSV Contract → Vault CSV Audit\n\nFree local-browser validators such as [CSV Workbench](https://csvworkbench.com/) already check user-supplied schemas. A saved schema cannot prove a destination platform's current business semantics.\n\n## Loop 4 decision\n\n- **Build:** none\n- **Paid validation:** CaptionGap only\n- **New decisions:** 28 — 27 passes and one parked test\n- **Evidence merges:** 10 candidates into 9 existing records\n\nThe next synthesis should rank the surviving paid tests already in the Ledger rather than mine more variants of transition history, acknowledgments, or artifact preflight.\n",
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+      "plainText": "Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts\nResearch date: 2026-08-10\nMethod: Three independent lanes searched the 245-record Ledger before mining: consumer transitions whose host lacks useful history, low-friction accessibility/household/pet acknowledgments, and prosumer artifacts naturally received on a phone. Every apparent lead was attacked for authoritative-state limits, current native or exact incumbents, pre-loss distribution, repeated behavior, weekend truth, and real $7.99 willingness to pay.\nStarting archive: 245 ideas and 16 research dossiers.\nExecutive summary\nLoop 4 investigated 38 serious candidates and promoted zero builds. Twenty-eight concepts add new decisions—27 passes and one parked paid test—and ten rediscoveries merge into nine existing decisions because RouteTone and RouteTape both belong to Hearing Route Guard.\nThe strongest pains were playlist loss, HomeKit automation history, pet-registry decay, unreliable live captions, malformed audio-stem deliveries, and rejected EPUBs. CaptionGap earned one paid co-design test because no exact pipeline-health incumbent surfaced; it did not earn a build. Exact 2026 products already own playlist and HomeKit history, universal pet-chip and system-caption state remains unavailable, and professional artifact correction still occurs inside a desktop host or a free validator.\nResearch statistics\nSerious candidates: 38New Ledger decisions: 28Evidence merges: 10 candidates into 9 existing recordsPaid validation candidates: 1 — CaptionGapBuild recommendations: 0\nMeta-analysis after Loop 4\nA sanctioned event still needs causal meaning. A HomeKit characteristic change does not identify the automation; a controller disconnect does not identify the failing component.Replacing a native habit merely to create history is usually fatal. QR, clipboard, parking, and scan-history tools must win before the first event, while the free system path already owns behavior.An acknowledgment is not the physical outcome. An alarm stop, feeder command, household task tap, or accessory event cannot prove waking, feeding, completion, or security.Receiving a professional artifact on a phone is insufficient. The paid correction and acceptance step still lives in the DAW, NLE, slicer, publishing tool, or platform uploader.Structural validity is not semantic validity. File headers, EPUB schemas, subtitle timestamps, mesh topology, and URL tags can be checked exactly without proving alignment, acceptance, printability, or attribution.\nDirections to stop mining\nGeneric transition journals that require replacing a native habit.Accessibility or household “proof” that observes only a button tap or app-local session.Phone preflight wrappers for artifacts whose canonical free validator or desktop host already owns correction.Universal operator or hardware state without a sanctioned API.\nParkTrace\nConcept: Record timestamp, horizontal accuracy, and location from an explicitly configured CarPlay Shortcut callback or an app-observed heuristic stop, then retain a short parking-transition history.\nApple Maps already drops a parked-car marker in Apple's current support flow, while Shortcuts exposes a user-configured CarPlay connect or disconnect trigger; ordinary Bluetooth automation documents connection rather than a universal disconnect stream. Find My Car GPS Auto Park already adds history, Watch support, and automatic parking with a $24.99 Premium IAP. The phone knows where a callback or heuristic fired, not whether the car remained there or which garage level it occupies.\nVerdict: passed_market. Reopen only if frequent garage parkers materially prefer transition history to Apple Maps and five of twenty prepay after comparing the exact incumbent.\nScanTape\nConcept: Retain exact QR or NFC payload, timestamp, and label for scans performed inside this app.\nCore NFC supports explicit reader sessions, but an ordinary app cannot observe native Camera scans. A free QR Scanner already includes local history. The user must replace the native Camera before an unpredictable future need.\nVerdict: passed_market. Reopen only if paid users route at least 80 percent of real scans through the app for four weeks.\nClipTape\nConcept: Preserve text the user explicitly imports through a keyboard, Paste control, or share extension so it can be restored after another copy overwrites the pasteboard.\nApple's UIPasteboard does not expose a sanctioned passive history of every cross-app copy. ClipBox and other keyboard/share managers own the feasible manual path. Honest copy therefore collapses from “clipboard history” to “things you remembered to clip.”\nVerdict: passed_scope. Reopen only with a sanctioned clipboard-change stream or strong paid adherence to the manual capture ritual.\nPassArchive\nConcept: Archive a user-shared .pkpass or screenshot before Wallet later hides or removes it.\nPassKit access is entitlement-bound to cooperating issuers; an ordinary app cannot become a universal historian for third-party Wallet passes. Apple's PassKit access guide makes that boundary explicit. Manual files prove only the bytes supplied, never validity, redemption, or issuer updates.\nVerdict: passed_scope. Reopen only if Wallet grants user-authorized export access to all nonpayment passes or an issuer distributes the archive.\nControllerSession Tape\nConcept: During an app-foreground diagnostic session, journal controller connection and disconnection notifications plus sampled battery readings.\nGCController exposes connection notifications and point-in-time GCDeviceBattery properties, but no battery-change event; background controller monitoring is not a general iOS utility path. The trace cannot identify whether the controller, radio, game, Remote Play service, or OS caused failure. A free Gamepad Tester already checks input, drift, rumble, and battery in an adjacent foreground diagnostic.\nVerdict: passed_market. Reopen only if the trace changes real vendor-support outcomes and affected gamers prepay despite the adjacent free foreground tester.\nAppWatch\nConcept: Share an App Store page into a watcher that records storefront price, updates, and availability changes.\nAppRaven already accepts share-sheet additions, provides wishlists and price/update/IAP/availability history, has thousands of ratings, and charges $11.99/year or $29.99 lifetime. Reliable monitoring also requires backend polling and storefront normalization.\nVerdict: passed_market. Reopen only around one named workflow current AppRaven users will prepay for.\nCaptionGap\nConcept: In an app-owned caption session, expose exact audio-buffer, transcript-result, interruption, and recognizer-error state without judging semantic completeness.\nApple's SpeechAnalyzer can support a new caption app, not inspect Apple Live Captions or identify omitted words. Apple Live Captions, Live Transcribe, and Ava already own the conversation surface, but none surfaced as an exact pipeline-health indicator. No transcript update can mean silence, noise, unsupported language, or delayed decoding rather than failure.\nVerdict: parked for one paid co-design test, not a build. Twelve DHH or hard-of-hearing participants must use an instrumented app-owned session for at least ten real hours; warnings must stay under one false alert per hour; 100 injected buffer, interruption, and recognizer failures must produce zero false-healthy states; at least eight users must say the indicator changed their response; and at least four must place a refundable $7.99 preorder. The product may say only audio observed, recognizer updating, interrupted, or no recent result—never complete captions or semantic omission.\nAccessMode Receipt\nConcept: Compare accessibility flags visible to this app with a saved desired set and name the differences.\nUIKit exposes app-relevant state such as isVoiceOverRunning, not a complete global accessibility audit. Apple already provides Accessibility Shortcut, per-app settings, Assistive Access, and Accessibility features. A local receipt looks global while its authority is incomplete.\nVerdict: passed_market.\nWakeAck\nConcept: Record the exact time an app-created alarm was stopped or snoozed.\nAlarmKit can identify the app alarm and action, but stopping an alarm does not prove a person is awake, standing, or well. Alarmy already owns task and photo dismissal missions.\nVerdict: passed_market. Strengthening the truthful alarm stopped event creates false welfare assurance.\nArrivalAck\nConcept: For a recurring arrival window, report location observed, not observed, or location unavailable.\nThe app can observe its authorized phone location, not who carried it or whether a person is safe. Apple Check In and Life360 No Show Alerts already own the multi-person workflow for free.\nVerdict: passed_market. It also violates the no-cold-start constraint.\nDailyOkay\nConcept: An older adult taps a daily response and a family member receives the timestamp or missed-response escalation.\nDaily OK and TaskConnect already provide one-tap check-ins, tasks, and escalation. The event proves only a device/account action, not that the person is okay.\nVerdict: passed_market.\nPetChip Pulse\nConcept: Periodically repeat a known pet-microchip lookup and report only participating-registry candidates, manufacturer-only result, lookup failure, or not checked.\nAAHA says its lookup tool searches only participating registries, may return a manufacturer, and cannot expose or update owner data. Animal-ID Open Platform exposes a documented partner API, but no sanctioned universal or AAHA-wide cross-registry API surfaced after the Save This Life registry shutdown, and the phone cannot scan the implanted chip.\nVerdict: passed_scope. Reopen only with a sanctioned API, parity across 1,000 chip fixtures, and paid demand for status-only language.\nPetTag TapTest\nConcept: Tap an NFC or QR pet tag and report the decoded URI, network reachability, and whether expected contact text appeared.\nFree NFC Tools, ByteTag, and PetHub already own the tag/profile surface. Opening the URL in a browser is itself the test; the result cannot prove a finder will notice or contact the owner.\nVerdict: passed_market.\nPetRecall Match\nConcept: Compare scanned product and lot text with current FDA animal-food recall descriptions using possible match, no text match in checked records, or unreadable.\nThe FDA publishes animal recalls and openFDA enforcement data. Free Snacco launched recall checks and alerts in 2026. Inconsistent descriptions and lot formats make a negative match dangerous if interpreted as safety.\nVerdict: passed_market.\nFeederAck\nConcept: For a scheduled smart-feeder meal, report vendor-observed dispense, failure, offline state, or no fresh state.\nWithout a sanctioned vendor API there is no observable state; even a command or motor event does not prove food reached the bowl or was eaten. The Petlibro app already owns device state, schedules, logs, notifications, and camera or weight-aware hardware.\nVerdict: passed_scope. Reopen only through multiple sanctioned vendor integrations with physical dispense fixtures.\nApplianceTurn\nConcept: A vendor-reported appliance-cycle completion opens a short household window for someone to claim responsibility.\nLG ThinQ, Samsung SmartThings, and Home Assistant Live Activities already expose cycle completion. The only new state is a self-reported claim that still does not prove laundry was moved.\nVerdict: passed_market.\nSharedListClaim\nConcept: Assign a household task and notify the owner when the assignee marks it complete.\nApple Shared Reminders already supports shared lists, assignment, completion, and completion notifications. The tap is not proof of physical work and the flow requires participant adoption.\nVerdict: passed_market.\nAidLatch\nConcept: Warn when a BLE beacon attached to a cane, walker, communication device, or other aid disconnects as the user leaves.\nThe app can know its own connection, not whether the aid is needed, who has it, or guarantee timely background delivery. Apple Find My already provides Notify When Left Behind for AirTags and supported accessories.\nVerdict: passed_market. An honest version is a hardware or manufacturer-partnership product, not a $7.99 app.\nGuestKey Receipt\nConcept: Create scheduled guest access and show command or accessory-state acknowledgment for a supported lock or garage door.\nApple Home already supports scheduled guest access. Accessory state does not prove the physical door secured correctly or the intended guest entered.\nVerdict: passed_market.\nStemPack Gate\nConcept: Compare WAV or AIFF sample rate, bit depth, channels, duration, names, and conformity to a saved stem-delivery profile.\nCurrent delivery guidance still requires matching sample rate and common start, but equal headers and duration cannot prove alignment or intended content. Loudness Report Local is a $3.99 adjacent batch reporter for duration, channels, sample rate, LUFS, and true peak; free MediaInfo covers additional metadata. Neither supplies the whole saved-profile loop, but together they are strong substitutes and correction still lives in the DAW.\nVerdict: passed_market. Reopen only if paid engineers identify repeated actionable issues absent from the DAW and current metadata or batch-reporting substitutes.\nPocket EPUBCheck\nConcept: Share an EPUB and run canonical package, manifest, navigation, identifier, schema, and link conformance checks locally.\nOfficial W3C EPUBCheck is free and canonical but depends on Java and schema tooling. Free EPUBCheck.net and other mobile-web validators already run the exact standard, while local Mac Snowflower EPUB Validator costs $29.99. A partial weekend Swift checker risks a false green.\nVerdict: passed_scope. Reopen only with exact agreement across the official regression corpus and repeated paid phone use.\nSubtitle Gate\nConcept: Check SRT or VTT parsing, cue ordering, overlaps, negative timestamps, video bounds, and optional reading profiles.\nSubtitle Timing Tools costs $2.99, and free browser tools such as TimedSubs already validate timing. Structural checks cannot judge synchronization, translation, or readability.\nVerdict: passed_market.\nHoopGate\nConcept: Compare embroidery-file dimensions, stitch count, color changes, and format with a saved machine or hoop profile.\nStitchBuddy HD supports hoop centering and resizing, while Embroidery File Viewer exposes stitch count, color blocks, and layout. Encoded bounds do not establish tension, density quality, fabric behavior, or safe resizing.\nVerdict: passed_market.\nMeshGate\nConcept: Inspect STL or 3MF manifoldness, holes, normals, degenerate geometry, and dimensions before moving to a slicer.\nFree SolidMesh and browser repair tools already inspect or fix topology, while the slicer owns the consequential preview. Mesh facts cannot prove material behavior, structural strength, or printability.\nVerdict: passed_market.\nLaserSVG Gate\nConcept: Detect open contours, duplicate paths, non-outlined text, tiny features, bounds, and operation-color mismatches in SVG or DXF artwork.\nFree sparq.tools and Bonny Creations' validator already preflight files; LightBurn documents its own shape diagnostics. Geometry cannot reveal whether an open line is intentional or which kerf and material settings are correct.\nVerdict: passed_market.\nInvoiceMath Reopen\nConcept: Recompute visible quantity times rate, subtotals, discounts, tax, and total from a born-digital PDF invoice.\nInvoice creators already own structured calculation. Arbitrary layouts, rounding, tax-inclusive pricing, discounts, and currency turn the verifier into general OCR and semantic inference. A narrow template demo cannot truthfully generalize.\nVerdict: passed_scope.\nAudiobookPack\nConcept: Check audiobook chapter numbering gaps, duplicates, format, sample rate, channels, cover dimensions, and total duration.\nAudioBinder already organizes, renames, and exports audiobook files on iPhone; MediaInfo covers file facts. The app cannot establish intended chapter content or retailer acceptance, and solo producers repeat the workflow infrequently.\nVerdict: passed_market.\nAffiliateTag Guard\nConcept: Compare an affiliate URL's domain, associate ID, and tracking tokens with a saved identity.\nAmazon provides Link Checker and native Mobile GetLink. URL equality cannot prove commission attribution after redirects, cookies, eligibility, or locale behavior.\nVerdict: passed_market.\nEvidence merges\nContactDelta → Contact Sentinel\nContacts change history can report local events but not remote cause; iCloud's archive restore and exact history tools reinforce the existing decision.\nMusicLibrary Filmstrip → Spotify Playlist Time Machine\nHezel is the exact Apple Music snapshot, diff, and restore product. Preserve it as another platform-specific proof that the playlist-time-machine surface is occupied.\nHomeAction Tape → HomeKit Snapshot\nHomeSnap now snapshots configuration, diffs changes, records characteristics, and exports history. Characteristic events still do not identify automation cause.\nRouteTape and RouteTone → Hearing Route Guard\nAVAudioSession reports only the app-owned session. A tone acknowledgment cannot certify the next app, call, hearing-aid fit, or comprehension.\nReminderUndo Journal → Calendar Lifeboat\nApple now exposes a 30-day Recently Deleted list for ordinary reminder deletion; catastrophic sync recovery retains the existing EventKit authority limits.\nPetVisit Baton → BarnBaton\nWalkies and Time To Pet already own GPS visits and report cards. A no-install baton remains a human claim, not proof of care.\nQR Print Pair → TagRun\nFree QR Check already compares printed or displayed QR payloads. Exact decode equality cannot guarantee print reliability, redirect durability, or a whole production run.\nMediaSpec Gate → FileKind Probe\nFree MediaInfo and cheap CodecAudit already inspect media streams. Profile equality does not prove upload acceptance or content quality.\nCSV Contract → Vault CSV Audit\nFree local-browser validators such as CSV Workbench already check user-supplied schemas. A saved schema cannot prove a destination platform's current business semantics.\nLoop 4 decision\nBuild: nonePaid validation: CaptionGap onlyNew decisions: 28 — 27 passes and one parked testEvidence merges: 10 candidates into 9 existing records\nThe next synthesis should rank the surviving paid tests already in the Ledger rather than mine more variants of transition history, acknowledgments, or artifact preflight.",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop4",
+      "sha256": "sha256:433e0cb8d98e2f44e1636d31103d55f58fb8e78b3e13cd22ed4678627a26036b",
+      "slug": "idea-mining-loop-2026-08-10-round10-loop4",
+      "title": "Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--round-9",
           "depth": 1,
           "text": "Idea Mining Loop — Round 9"
@@ -5666,5 +6304,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8"
+  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c"
 }

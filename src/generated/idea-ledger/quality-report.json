@@ -1,18 +1,34 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 16,
-    "headingMatchedIdeas": 131,
-    "headingReferences": 138,
-    "ideas": 245,
+    "dossiers": 17,
+    "headingMatchedIdeas": 161,
+    "headingReferences": 175,
+    "ideas": 273,
     "ideasWithoutResearch": 11,
-    "mentionOnlyIdeas": 96,
+    "mentionOnlyIdeas": 94,
     "mentionReferences": 103,
-    "multiRefIdeas": 21,
-    "researchEdges": 257,
+    "multiRefIdeas": 29,
+    "researchEdges": 294,
     "unmappedReferences": 16
   },
   "researchProvenance": [
+    {
+      "ideaId": "accessibility-mode-receipt",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "accessmode-receipt",
+            "depth": 2,
+            "text": "AccessMode Receipt"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
     {
       "ideaId": "adult-compliance",
       "quality": "heading",
@@ -30,9 +46,41 @@
       ]
     },
     {
+      "ideaId": "affiliate-tag-guard",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "affiliatetag-guard",
+            "depth": 2,
+            "text": "AffiliateTag Guard"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "afterglow",
       "quality": "none",
       "references": []
+    },
+    {
+      "ideaId": "alarm-stop-ack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "wakeack",
+            "depth": 2,
+            "text": "WakeAck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
     },
     {
       "ideaId": "allergy-readback-handshake",
@@ -107,6 +155,38 @@
       ]
     },
     {
+      "ideaId": "app-store-watch",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "appwatch",
+            "depth": 2,
+            "text": "AppWatch"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "appliance-cycle-claim",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "applianceturn",
+            "depth": 2,
+            "text": "ApplianceTurn"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "appointment-cancel-by-clock",
       "quality": "heading",
       "references": [
@@ -118,6 +198,38 @@
             "text": "CancelBy"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "arrival-window-ack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "arrivalack",
+            "depth": 2,
+            "text": "ArrivalAck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "assistive-aid-latch",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "aidlatch",
+            "depth": 2,
+            "text": "AidLatch"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
         }
       ]
@@ -159,6 +271,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "audiobook-pack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "audiobookpack",
+            "depth": 2,
+            "text": "AudiobookPack"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -208,13 +336,23 @@
     },
     {
       "ideaId": "barn-shift-baton",
-      "quality": "mention",
+      "quality": "heading",
       "references": [
         {
           "dossierSlug": "idea-mining-loop-2026-08-09-round6",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "petvisit-baton--barnbaton",
+            "depth": 3,
+            "text": "PetVisit Baton → BarnBaton"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -371,6 +509,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "reminderundo-journal--calendar-lifeboat",
+            "depth": 3,
+            "text": "ReminderUndo Journal → Calendar Lifeboat"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -431,6 +579,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "caption-pipeline-gap",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "captiongap",
+            "depth": 2,
+            "text": "CaptionGap"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -535,6 +699,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "clipboard-explicit-history",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "cliptape",
+            "depth": 2,
+            "text": "ClipTape"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -656,6 +836,32 @@
             "text": "Contact Sentinel"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "contactdelta--contact-sentinel",
+            "depth": 3,
+            "text": "ContactDelta → Contact Sentinel"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "controller-session-tape",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "controllersession-tape",
+            "depth": 2,
+            "text": "ControllerSession Tape"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
         }
       ]
@@ -818,6 +1024,22 @@
       ]
     },
     {
+      "ideaId": "daily-ok-checkin",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "dailyokay",
+            "depth": 2,
+            "text": "DailyOkay"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "deafblind-tactile-phrase",
       "quality": "mention",
       "references": [
@@ -901,6 +1123,22 @@
       "ideaId": "ebay-replacement",
       "quality": "none",
       "references": []
+    },
+    {
+      "ideaId": "embroidery-hoop-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "hoopgate",
+            "depth": 2,
+            "text": "HoopGate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
     },
     {
       "ideaId": "embroidery-thread-gate",
@@ -1121,6 +1359,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "mediaspec-gate--filekind-probe",
+            "depth": 3,
+            "text": "MediaSpec Gate → FileKind Probe"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1305,6 +1553,22 @@
       ]
     },
     {
+      "ideaId": "guest-access-receipt",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "guestkey-receipt",
+            "depth": 2,
+            "text": "GuestKey Receipt"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "guest-wifi-qr",
       "quality": "heading",
       "references": [
@@ -1386,6 +1650,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "routetape-and-routetone--hearing-route-guard",
+            "depth": 3,
+            "text": "RouteTape and RouteTone → Hearing Route Guard"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1413,6 +1687,16 @@
             "text": "HomeKit Snapshot"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "homeaction-tape--homekit-snapshot",
+            "depth": 3,
+            "text": "HomeAction Tape → HomeKit Snapshot"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
         }
       ]
@@ -1523,6 +1807,22 @@
       ]
     },
     {
+      "ideaId": "invoice-math-reopen",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "invoicemath-reopen",
+            "depth": 2,
+            "text": "InvoiceMath Reopen"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "key-duplicate-visual-diff",
       "quality": "mention",
       "references": [
@@ -1546,6 +1846,22 @@
             "text": "PathWitness — large-delivery route record"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "laser-svg-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "lasersvg-gate",
+            "depth": 2,
+            "text": "LaserSVG Gate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
         }
       ]
@@ -1784,6 +2100,22 @@
       ]
     },
     {
+      "ideaId": "mesh-preflight-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "meshgate",
+            "depth": 2,
+            "text": "MeshGate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "micro-help-network",
       "quality": "heading",
       "references": [
@@ -1906,6 +2238,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "qr-print-pair--tagrun",
+            "depth": 3,
+            "text": "QR Print Pair → TagRun"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2002,6 +2344,22 @@
       ]
     },
     {
+      "ideaId": "park-trace",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "parktrace",
+            "depth": 2,
+            "text": "ParkTrace"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "parking-evidence-appeal",
       "quality": "mention",
       "references": [
@@ -2049,6 +2407,16 @@
             "text": "Vault CSV Audit"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "csv-contract--vault-csv-audit",
+            "depth": 3,
+            "text": "CSV Contract → Vault CSV Audit"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
         }
       ]
@@ -2126,6 +2494,22 @@
       ]
     },
     {
+      "ideaId": "pet-chip-registry-pulse",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "petchip-pulse",
+            "depth": 2,
+            "text": "PetChip Pulse"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "pet-food-runway",
       "quality": "mention",
       "references": [
@@ -2134,6 +2518,38 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "pet-recall-match",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "petrecall-match",
+            "depth": 2,
+            "text": "PetRecall Match"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "pet-tag-tap-test",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "pettag-taptest",
+            "depth": 2,
+            "text": "PetTag TapTest"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2238,6 +2654,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "pocket-epub-check",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "pocket-epubcheck",
+            "depth": 2,
+            "text": "Pocket EPUBCheck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2760,6 +3192,22 @@
       ]
     },
     {
+      "ideaId": "scan-history-tape",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "scantape",
+            "depth": 2,
+            "text": "ScanTape"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "school-message-organizer",
       "quality": "heading",
       "references": [
@@ -2919,6 +3367,22 @@
       ]
     },
     {
+      "ideaId": "shared-list-claim",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "sharedlistclaim",
+            "depth": 2,
+            "text": "SharedListClaim"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "shift-pay-checker",
       "quality": "heading",
       "references": [
@@ -3005,6 +3469,22 @@
       ]
     },
     {
+      "ideaId": "smart-feeder-ack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "feederack",
+            "depth": 2,
+            "text": "FeederAck"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "sonos-room-scene-control",
       "quality": "mention",
       "references": [
@@ -3034,13 +3514,23 @@
     },
     {
       "ideaId": "spotify-playlist-time-machine",
-      "quality": "mention",
+      "quality": "heading",
       "references": [
         {
           "dossierSlug": "idea-mining-loop-2026-08-08",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "musiclibrary-filmstrip--spotify-playlist-time-machine",
+            "depth": 3,
+            "text": "MusicLibrary Filmstrip → Spotify Playlist Time Machine"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
         }
       ]
     },
@@ -3089,6 +3579,22 @@
       ]
     },
     {
+      "ideaId": "stem-pack-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "stempack-gate",
+            "depth": 2,
+            "text": "StemPack Gate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "storage-close-ack",
       "quality": "heading",
       "references": [
@@ -3100,6 +3606,22 @@
             "text": "StorageClose Ack"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "subtitle-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "subtitle-gate",
+            "depth": 2,
+            "text": "Subtitle Gate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
         }
       ]
@@ -3471,6 +3993,22 @@
       ]
     },
     {
+      "ideaId": "wallet-pass-archive",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop4",
+          "heading": {
+            "anchor": "passarchive",
+            "depth": 2,
+            "text": "PassArchive"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "warranty-return-tracker",
       "quality": "heading",
       "references": [
@@ -3573,25 +4111,28 @@
     "accelerometer",
     "accessories",
     "adult",
+    "affiliate",
     "agriculture",
     "airprint",
-    "alarmkit",
     "albums",
-    "amazon",
     "analytics",
     "animal-care",
     "anxiety",
     "app-intents",
+    "app-store",
     "appeals",
     "approvals",
     "apps",
+    "archive",
+    "arithmetic",
+    "arrival",
     "artists",
     "assets",
+    "assistive-devices",
     "atm",
     "audible",
     "audio-analysis",
     "audio-route",
-    "audiobooks",
     "augmented-reality",
     "authentication",
     "authorization-holds",
@@ -3601,6 +4142,7 @@
     "automations",
     "autoscroll",
     "av",
+    "backend",
     "background",
     "baggage",
     "bakeries",
@@ -3625,23 +4167,28 @@
     "call-sheets",
     "calls",
     "cancellation-fees",
+    "captions",
     "car-buying",
     "care",
     "care-labels",
+    "carplay",
     "carriers",
     "cars",
     "cellular",
     "change-orders",
+    "check-in",
     "checkout",
     "checkpoint",
     "checksums",
     "cinema",
     "client-approval",
     "client-communication",
+    "clipboard",
     "clothing",
     "cloud-storage",
     "coaching",
     "coffee",
+    "cold-start",
     "color-vision",
     "commerce",
     "commuting",
@@ -3653,10 +4200,12 @@
     "consignment",
     "consumer-protection",
     "contracts",
+    "controllers",
     "controls",
     "counter",
     "counting",
     "coupons",
+    "crafts",
     "creative-tools",
     "creator",
     "creator-business",
@@ -3683,6 +4232,7 @@
     "deployment",
     "detection",
     "detention",
+    "device-state",
     "diabetes",
     "diagnosis",
     "discovery",
@@ -3697,6 +4247,7 @@
     "drivers",
     "drums",
     "dry-cleaning",
+    "dxf",
     "dyslexia",
     "earbuds",
     "ebooks",
@@ -3704,14 +4255,15 @@
     "electrical",
     "electricity",
     "electronics",
-    "embroidery",
     "emergency-preparedness",
     "engraving",
     "eob",
     "epoxy",
+    "epub",
     "esim",
     "estimates",
     "etsy",
+    "event-log",
     "exceptions",
     "exif",
     "expiry",
@@ -3724,6 +4276,8 @@
     "familycontrols",
     "fashion",
     "fasteners",
+    "fda",
+    "feeders",
     "file-sharing",
     "file-transfer",
     "filters",
@@ -3736,7 +4290,6 @@
     "folios",
     "follow-up",
     "fonts",
-    "food",
     "food-allergies",
     "food-logging",
     "formats",
@@ -3745,6 +4298,7 @@
     "fraud",
     "fulfillment",
     "furniture",
+    "gaming",
     "garments",
     "gcode",
     "geofencing",
@@ -3756,6 +4310,7 @@
     "green-button",
     "groceries",
     "grooming",
+    "guest-access",
     "guests",
     "guitar",
     "hard-of-hearing",
@@ -3769,7 +4324,6 @@
     "hobbies",
     "home-services",
     "home-theater",
-    "homekit",
     "horses",
     "hospitality",
     "hotels",
@@ -3789,7 +4343,7 @@
     "interruption",
     "invitations",
     "invoice-fraud",
-    "invoices",
+    "iot",
     "itinerary",
     "jobber",
     "jobs",
@@ -3798,9 +4352,11 @@
     "keyboard",
     "keys",
     "knitting",
+    "laser-cutting",
     "laundry",
     "leaks",
     "led",
+    "left-behind",
     "lending",
     "licensing",
     "live-streaming",
@@ -3811,11 +4367,15 @@
     "localization",
     "lock-screen",
     "lockers",
+    "locks",
     "logistics",
+    "low-frequency",
     "luggage",
     "magnetometer",
     "mail",
     "makers",
+    "manual-claim",
+    "manual-ritual",
     "manufacturing",
     "mapping",
     "maps",
@@ -3824,11 +4384,14 @@
     "markets",
     "measurements",
     "meetings",
+    "mesh",
     "meters",
+    "microchip",
     "midi",
     "mixing",
     "mobile",
     "mobile-services",
+    "monitoring",
     "move-out",
     "musicians",
     "myfitnesspal",
@@ -3848,6 +4411,8 @@
     "parents",
     "parsing",
     "parts",
+    "passes",
+    "passkit",
     "passwords",
     "paychecks",
     "pedals",
@@ -3855,7 +4420,6 @@
     "personal-crm",
     "pesticides",
     "pet-grooming",
-    "pets",
     "pharmacy",
     "phone",
     "physical-state",
@@ -3870,6 +4434,7 @@
     "practice",
     "prescriptions",
     "presence",
+    "prices",
     "pricing",
     "profit",
     "proofing",
@@ -3882,9 +4447,11 @@
     "quick-look",
     "quotes",
     "re-entry",
+    "recalls",
     "reconnect",
     "redaction",
     "reference",
+    "registries",
     "regulation",
     "rehearsal",
     "rekordbox",
@@ -3910,17 +4477,22 @@
     "safety-truth",
     "saved-phrases",
     "savings",
+    "scanning",
     "scenes",
     "schedules",
     "school",
     "scope-creep",
     "scroll",
     "seller-tools",
+    "seniors",
     "serial-number",
     "serial-numbers",
     "service",
     "setlists",
+    "settings",
     "settlements",
+    "share-extension",
+    "shared-lists",
     "shift-workers",
     "shifts",
     "shopping",
@@ -3932,11 +4504,18 @@
     "sponsorships",
     "spotify",
     "ssh",
+    "standards",
     "status",
+    "stems",
     "stencil",
+    "stl",
     "storage",
     "streaming",
+    "strong-substitute",
     "subscriptions",
+    "subtitles",
+    "svg",
+    "tags",
     "takeout",
     "taxes",
     "teardown",
@@ -3949,6 +4528,7 @@
     "timecards",
     "timelines",
     "timezones",
+    "timing",
     "tips",
     "todoist",
     "tolls",
@@ -3964,6 +4544,7 @@
     "tuning",
     "typography",
     "upholstery",
+    "urls",
     "usb",
     "uti",
     "vacation-rentals",
@@ -3974,7 +4555,6 @@
     "vinyl",
     "vouchers",
     "waitlists",
-    "wallet",
     "warranty",
     "water",
     "water-softener",
@@ -3984,14 +4564,15 @@
     "wheelchair",
     "wide-format",
     "wifi",
+    "wishlists",
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8",
+  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c",
   "tagStats": {
-    "assignments": 1148,
-    "doubletons": 86,
-    "singletons": 418,
-    "unique": 611
+    "assignments": 1288,
+    "doubletons": 88,
+    "singletons": 461,
+    "unique": 671
   }
 }

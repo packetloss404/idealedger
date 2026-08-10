@@ -29,7 +29,7 @@ test.describe('decision retrieval', () => {
     await page.goto('ideas');
 
     await expect(page.getByRole('heading', { level: 1, name: 'Idea ledger' })).toBeVisible();
-    await expect(page.locator('tbody tr')).toHaveCount(245);
+    await expect(page.locator('tbody tr')).toHaveCount(273);
     await expect(page.getByText('Every status included')).toBeVisible();
     await expect(ideaRow(page, 'amazon-label-handoff')).toBeVisible();
 
@@ -88,6 +88,20 @@ test.describe('decision retrieval', () => {
     await expect(ideaRow(page, 'share-handoff-shelf')).toContainText('ShareShelf');
   });
 
+  test('retrieves a Loop 4 rejection and its merged playlist variant', async ({ page }) => {
+    await page.goto('ideas');
+    await search(page, 'StemPack Gate');
+
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'stem-pack-gate')).toContainText('adjacent batch reporter');
+
+    await search(page, 'MusicLibrary Filmstrip');
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'spotify-playlist-time-machine')).toContainText(
+      'Spotify Playlist Time Machine',
+    );
+  });
+
   test('searches decision reasons instead of only names', async ({ page }) => {
     await page.goto('ideas');
     await search(page, 'second app');
@@ -137,13 +151,13 @@ test.describe('filters and URL state', () => {
     await expect(page.locator('tbody tr')).toHaveCount(6);
 
     await page.getByRole('button', { name: 'Clear filters' }).click();
-    await expect(page.locator('tbody tr')).toHaveCount(245);
+    await expect(page.locator('tbody tr')).toHaveCount(273);
   });
 
   test('ignores invalid filter values and still renders a stable ledger', async ({ page }) => {
     await page.goto('ideas?status=not-a-status&fit=impossible&tag=not-a-real-tag');
 
-    await expect(page.locator('tbody tr')).toHaveCount(245);
+    await expect(page.locator('tbody tr')).toHaveCount(273);
     await expect(page.getByText('Every status included')).toBeVisible();
   });
 });

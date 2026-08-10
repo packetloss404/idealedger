@@ -3,6 +3,28 @@
     {
       "fields": {
         "aliases": [
+          "accessibility settings check"
+        ],
+        "decisionReason": "uikit exposes only app relevant state not a complete global accessibility audit apple already owns accessibility shortcut per app settings assistive access and the authoritative settings surface",
+        "name": "accessmode receipt",
+        "oneLiner": "compare accessibility flags visible to the app with a saved desired set and name the differences",
+        "resurrectionTrigger": "apple exposes a complete sanctioned readback and users demonstrate a recurring configuration failure not solved by native settings",
+        "tags": [
+          "accessibility",
+          "settings",
+          "readback",
+          "ios",
+          "host feature"
+        ]
+      },
+      "key": "idea:accessibility-mode-receipt",
+      "route": "/ideas/accessibility-mode-receipt",
+      "title": "AccessMode Receipt",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "model release and 2257 vault"
         ],
         "decisionReason": "exact products exist while sensitive identity storage changing law security and app store constraints create outsized risk",
@@ -23,6 +45,28 @@
     },
     {
       "fields": {
+        "aliases": [
+          "affiliate url identity check"
+        ],
+        "decisionReason": "amazon provides link checker and mobile getlink url equality cannot prove commission attribution after redirects cookies locale or eligibility rules",
+        "name": "affiliatetag guard",
+        "oneLiner": "compare an affiliate url s domain associate id and tracking tokens with a saved identity",
+        "resurrectionTrigger": "a sanctioned affiliate api returns final attribution state and current platform tools leave a demonstrated paid gap",
+        "tags": [
+          "affiliate",
+          "urls",
+          "amazon",
+          "tracking",
+          "host feature"
+        ]
+      },
+      "key": "idea:affiliate-tag-guard",
+      "route": "/ideas/affiliate-tag-guard",
+      "title": "AffiliateTag Guard",
+      "type": "idea"
+    },
+    {
+      "fields": {
         "aliases": [],
         "decisionReason": "mentioned positively during ideation but it cannot be scored until the original concept is reconstructed",
         "name": "afterglow",
@@ -35,6 +79,28 @@
       "key": "idea:afterglow",
       "route": "/ideas/afterglow",
       "title": "Afterglow",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "alarm stop receipt"
+        ],
+        "decisionReason": "alarmkit can identify the app alarm and action but stopping it does not prove a person is awake standing or well alarmy already owns task and photo dismissal missions and stronger assurance would be false",
+        "name": "wakeack",
+        "oneLiner": "record the exact time an app created alarm was stopped or snoozed",
+        "resurrectionTrigger": "a valuable workflow needs only the bounded alarm action record and users prepay without interpreting it as welfare assurance",
+        "tags": [
+          "alarms",
+          "alarmkit",
+          "acknowledgment",
+          "safety",
+          "false confidence"
+        ]
+      },
+      "key": "idea:alarm-stop-ack",
+      "route": "/ideas/alarm-stop-ack",
+      "title": "WakeAck",
       "type": "idea"
     },
     {
@@ -148,6 +214,50 @@
     {
       "fields": {
         "aliases": [
+          "app store change watcher"
+        ],
+        "decisionReason": "appraven already accepts share sheet additions provides price update iap and availability history has meaningful traction and charges for the workflow reliable monitoring also requires backend polling and storefront normalization",
+        "name": "appwatch",
+        "oneLiner": "watch shared app store pages for storefront price update and availability changes",
+        "resurrectionTrigger": "one named workflow remains unsupported and current appraven users prepay for it",
+        "tags": [
+          "app store",
+          "monitoring",
+          "prices",
+          "wishlists",
+          "backend"
+        ]
+      },
+      "key": "idea:app-store-watch",
+      "route": "/ideas/app-store-watch",
+      "title": "AppWatch",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "laundry cycle claim"
+        ],
+        "decisionReason": "lg thinq smartthings and home assistant already expose cycle completion the only new state is a self reported household claim that still does not prove laundry or dishes were moved",
+        "name": "applianceturn",
+        "oneLiner": "open a short household claim window after a vendor reported appliance cycle completes",
+        "resurrectionTrigger": "households repeatedly pay for the coordination layer despite host notifications and complete claims with low friction",
+        "tags": [
+          "appliances",
+          "household",
+          "handoff",
+          "notifications",
+          "manual claim"
+        ]
+      },
+      "key": "idea:appliance-cycle-claim",
+      "route": "/ideas/appliance-cycle-claim",
+      "title": "ApplianceTurn",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "fee deadline",
           "protected calendar"
         ],
@@ -166,6 +276,50 @@
       "key": "idea:appointment-cancel-by-clock",
       "route": "/ideas/appointment-cancel-by-clock",
       "title": "CancelBy",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "arrival window receipt"
+        ],
+        "decisionReason": "the app observes an authorized phone not who carried it or whether a person is safe apple check in and life360 no show alerts already own the multi person workflow which also violates the no cold start constraint",
+        "name": "arrivalack",
+        "oneLiner": "report location observed not observed or unavailable during a recurring arrival window",
+        "resurrectionTrigger": "a single user workflow values only device location evidence and avoids participant onboarding and safety claims",
+        "tags": [
+          "arrival",
+          "location",
+          "family",
+          "cold start",
+          "safety"
+        ]
+      },
+      "key": "idea:arrival-window-ack",
+      "route": "/ideas/arrival-window-ack",
+      "title": "ArrivalAck",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "assistive aid left behind alert"
+        ],
+        "decisionReason": "the app knows only its connection not whether the aid is needed who has it or whether background delivery was timely find my already provides notify when left behind for airtags and supported accessories",
+        "name": "aidlatch",
+        "oneLiner": "warn when a beacon attached to an assistive aid disconnects as the user leaves",
+        "resurrectionTrigger": "a hardware or aid manufacturer provides authoritative presence state and distributes a bounded workflow",
+        "tags": [
+          "accessibility",
+          "bluetooth",
+          "assistive devices",
+          "left behind",
+          "hardware"
+        ]
+      },
+      "key": "idea:assistive-aid-latch",
+      "route": "/ideas/assistive-aid-latch",
+      "title": "AidLatch",
       "type": "idea"
     },
     {
@@ -237,6 +391,28 @@
     {
       "fields": {
         "aliases": [
+          "audiobook delivery preflight"
+        ],
+        "decisionReason": "audiobinder already organizes renames and exports audiobook files on iphone while mediainfo covers file facts the app cannot establish intended chapter content or retailer acceptance and creators use it infrequently",
+        "name": "audiobookpack",
+        "oneLiner": "check audiobook chapter gaps duplicates file format sample rate channels cover dimensions and duration",
+        "resurrectionTrigger": "a retailer publishes a sanctioned machine readable profile and repeat producers prepay for a missing mobile check",
+        "tags": [
+          "audiobooks",
+          "audio",
+          "publishing",
+          "preflight",
+          "low frequency"
+        ]
+      },
+      "key": "idea:audiobook-pack",
+      "route": "/ideas/audiobook-pack",
+      "title": "AudiobookPack",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "tv audio delay meter"
         ],
         "decisionReason": "synqr av sync lipsync test tool fixmysync and apple tv wireless audio sync already occupy the measurement loop the phone adds its own capture latency and cannot identify which source television earc path or soundbar setting should change",
@@ -302,9 +478,10 @@
     {
       "fields": {
         "aliases": [
-          "horse exception handoff"
+          "horse exception handoff",
+          "petvisit baton"
         ],
-        "decisionReason": "barnbeacon and barnops already integrate shift handoff with feed medication treatment and records a stripped down second app is less trustworthy and inherits animal safety expectations without authoritative care state",
+        "decisionReason": "barnbeacon barnops and pet care platforms already integrate handoff with feed medication visits treatment and authoritative records a stripped down second app is less trustworthy and inherits animal safety expectations without authoritative care state",
         "name": "barnbaton",
         "oneLiner": "transfer unresolved horse care exceptions from the outgoing barn worker to an incoming worker who explicitly accepts them",
         "resurrectionTrigger": "a barn management platform requests a focused native handoff surface inside its authoritative records",
@@ -521,9 +698,10 @@
       "fields": {
         "aliases": [
           "eventkit snapshot recovery",
-          "calendartxn"
+          "calendartxn",
+          "reminderundo journal"
         ],
-        "decisionReason": "a consumer app lacks a dependable continuous background journal recurrence and attendee restoration can duplicate or resend invitations and apple already offers free icloud calendar archive restoration eventkit batch commit verifies only the local database while backup calendar seamless calendar and duplical own batch and restore surfaces",
+        "decisionReason": "a consumer app lacks a dependable continuous background journal recurrence and attendee restoration can duplicate or resend invitations and apple already offers calendar archive recovery plus a native 30 day recently deleted surface for reminders eventkit batch commit verifies only the local database while existing backup tools own batch and restore",
         "name": "calendar lifeboat",
         "oneLiner": "take local eventkit snapshots and later compare or recreate a limited supported subset of missing events",
         "resurrectionTrigger": "a sanctioned continuous change journal supports lossless restore of recurrence attendees and provider identity without duplicates or invitations",
@@ -625,6 +803,28 @@
       "key": "idea:campaign-snapshot-window",
       "route": "/ideas/campaign-snapshot-window",
       "title": "Campaign Snapshot Window",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "caption pipeline receipt"
+        ],
+        "decisionReason": "the app cannot inspect apple live captions or know whether speech was semantically omitted but no exact app owned pipeline health indicator surfaced and paid caption tools prove recurring willingness to pay silence or no transcript update still has several nonfailure explanations so only a bounded paid co design test is justified",
+        "name": "captiongap",
+        "oneLiner": "expose audio buffer transcript result interruption and recognizer error state inside an app owned caption session",
+        "resurrectionTrigger": "twelve dhh or hard of hearing users complete at least ten real session hours warnings stay under one false alert per hour 100 injected failures produce zero false healthy states at least eight say the indicator changed their response and four place refundable 7 99 preorders",
+        "tags": [
+          "captions",
+          "accessibility",
+          "speech",
+          "diagnostics",
+          "false confidence"
+        ]
+      },
+      "key": "idea:caption-pipeline-gap",
+      "route": "/ideas/caption-pipeline-gap",
+      "title": "CaptionGap",
       "type": "idea"
     },
     {
@@ -782,6 +982,28 @@
     {
       "fields": {
         "aliases": [
+          "explicit clipboard history"
+        ],
+        "decisionReason": "ios exposes no sanctioned passive history of cross app copies and clipbox style managers own the feasible manual path the honest product records only items users remember to capture",
+        "name": "cliptape",
+        "oneLiner": "preserve text explicitly imported through a keyboard paste control or share extension before another copy overwrites it",
+        "resurrectionTrigger": "apple exposes a sanctioned clipboard change stream or a paid cohort demonstrates durable adherence to explicit capture",
+        "tags": [
+          "clipboard",
+          "history",
+          "ios",
+          "share extension",
+          "platform blocked"
+        ]
+      },
+      "key": "idea:clipboard-explicit-history",
+      "route": "/ideas/clipboard-explicit-history",
+      "title": "ClipTape",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "brand to brand sizing"
         ],
         "decisionReason": "the pain is obvious but accurate sku level size and fit data are the product a superficial chart converter would not earn trust",
@@ -934,9 +1156,10 @@
     {
       "fields": {
         "aliases": [
-          "contact undo"
+          "contact undo",
+          "contactdelta"
         ],
-        "decisionReason": "contacts already provides edit addition deletion merge and per contact restore history while contacts mover previews changes and retains extensive sync histories local only privacy is positioning rather than a differentiated atomic job",
+        "decisionReason": "contacts already provides edit addition deletion merge and per contact restore history while contacts mover previews changes and retains extensive sync histories a read only change journal does not escape those exact incumbents local only privacy is positioning rather than a differentiated atomic job",
         "name": "contact sentinel",
         "oneLiner": "keep a local field level history of contact additions edits merges and deletions and selectively undo a bad change",
         "resurrectionTrigger": "apple or current incumbents remove selective restore while a privacy sensitive paid cohort rejects cloud contact managers",
@@ -950,6 +1173,28 @@
       "key": "idea:contacts-change-sentinel",
       "route": "/ideas/contacts-change-sentinel",
       "title": "Contact Sentinel",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "game controller event journal"
+        ],
+        "decisionReason": "ios exposes connection notifications and point in time battery properties not a battery change event or a general passive background journal the trace cannot identify whether the controller radio game remote play service or os caused failure while a current free gamepad tester covers adjacent foreground diagnostics",
+        "name": "controllersession tape",
+        "oneLiner": "journal controller connection notifications and sampled battery readings during an app foreground diagnostic session",
+        "resurrectionTrigger": "the trace changes real vendor support outcomes and affected gamers prepay despite the adjacent free foreground tester",
+        "tags": [
+          "gaming",
+          "controllers",
+          "bluetooth",
+          "diagnostics",
+          "event log"
+        ]
+      },
+      "key": "idea:controller-session-tape",
+      "route": "/ideas/controller-session-tape",
+      "title": "ControllerSession Tape",
       "type": "idea"
     },
     {
@@ -1177,6 +1422,28 @@
     {
       "fields": {
         "aliases": [
+          "senior daily check in"
+        ],
+        "decisionReason": "daily ok and taskconnect already provide one tap check ins tasks and escalation the event proves only a device or account action not that the person is okay",
+        "name": "dailyokay",
+        "oneLiner": "let an older adult send a daily timestamped response with missed response escalation to family",
+        "resurrectionTrigger": "a distribution partner needs the bounded response event and current exact incumbents fail a demonstrated paid workflow",
+        "tags": [
+          "seniors",
+          "check in",
+          "family",
+          "caregiving",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:daily-ok-checkin",
+      "route": "/ideas/daily-ok-checkin",
+      "title": "DailyOkay",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "preset haptic phrases"
         ],
         "decisionReason": "phone haptics can be suppressed by device state and expo does not guarantee custom language quality patterns the product requires deafblind co design and near perfect distinguishability existing apps hardware occupy the job and the core accessibility loop should not be paywalled",
@@ -1322,6 +1589,28 @@
       "key": "idea:ebay-replacement",
       "route": "/ideas/ebay-replacement",
       "title": "eBay Replacement",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "embroidery file preflight"
+        ],
+        "decisionReason": "stitchbuddy hd supports hoop centering and resizing while embroidery file viewer exposes stitch count color blocks and layout encoded bounds cannot establish tension density quality fabric behavior or safe resizing",
+        "name": "hoopgate",
+        "oneLiner": "compare embroidery file dimensions stitches colors and format with a saved machine or hoop profile",
+        "resurrectionTrigger": "a machine partner supplies authoritative constraints and users prepay for a deterministic gap absent from current viewers",
+        "tags": [
+          "embroidery",
+          "files",
+          "preflight",
+          "crafts",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:embroidery-hoop-gate",
+      "route": "/ideas/embroidery-hoop-gate",
+      "title": "HoopGate",
       "type": "idea"
     },
     {
@@ -1632,9 +1921,10 @@
     {
       "fields": {
         "aliases": [
-          "file type reality check"
+          "file type reality check",
+          "mediaspec gate"
         ],
-        "decisionReason": "uttype and quick look own the platform surface while free file type identifiers mediainfo archive tools and viewers already exist the rare diagnostic cannot repair system wide quick look failures or proprietary formats",
+        "decisionReason": "uttype and quick look own the platform surface while mediainfo and other free file type codec archive and viewing tools already expose objective container facts the rare diagnostic cannot repair delivery semantics system wide quick look failures or proprietary formats",
         "name": "filekind probe",
         "oneLiner": "compare a shared file s extension uti magic bytes container parse and quick look result",
         "resurrectionTrigger": "one high value format has a deterministic repair action that existing viewers and format tools do not provide",
@@ -1939,6 +2229,28 @@
     {
       "fields": {
         "aliases": [
+          "scheduled guest access check"
+        ],
+        "decisionReason": "apple home already supports scheduled guest access accessory state does not prove the physical door secured correctly or the intended guest entered",
+        "name": "guestkey receipt",
+        "oneLiner": "create scheduled guest access and show command or accessory state acknowledgment for a supported entry device",
+        "resurrectionTrigger": "a lock or access partner exposes authoritative entry events and a paid coordination gap not covered by apple home",
+        "tags": [
+          "homekit",
+          "guest access",
+          "locks",
+          "acknowledgment",
+          "host feature"
+        ]
+      },
+      "key": "idea:guest-access-receipt",
+      "route": "/ideas/guest-access-receipt",
+      "title": "GuestKey Receipt",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "wi fi guest qr"
         ],
         "decisionReason": "current ios natively displays a network qr wifi qr offers the exact app for free with a 1 99 unlock and a printed qr card is a more durable guest facing artifact",
@@ -2049,9 +2361,11 @@
     {
       "fields": {
         "aliases": [
-          "hearing routelatch"
+          "hearing routelatch",
+          "routetape",
+          "routetone"
         ],
-        "decisionReason": "apple exposes route changes only for the app s own audio session an ordinary app cannot globally inspect or intercept the final route used by every other app call and system sound an own session demo would misrepresent the desired product",
+        "decisionReason": "apple exposes route changes only for the app s own audio session an ordinary app cannot globally inspect or intercept the final route used by every other app call system sound or hearing device handoff own session logs or test tones would misrepresent the desired global guarantee",
         "name": "hearing route guard",
         "oneLiner": "warn a hearing aid user before another app call or system sound unexpectedly routes to the phone speaker",
         "resurrectionTrigger": "apple exposes a sanctioned global audio route state and transition api or a manufacturer supplies equivalent integration",
@@ -2091,9 +2405,10 @@
     {
       "fields": {
         "aliases": [
-          "home automation lifeboat"
+          "home automation lifeboat",
+          "homeaction tape"
         ],
-        "decisionReason": "controller for homekit already provides backup restore logs setup code storage and broken automation detection a snapshot cannot recreate accessory pairing vendor state physical devices every automation semantic or a destroyed home identity graph",
+        "decisionReason": "controller for homekit and homesnap already provide configuration snapshots diffs logs broken automation checks or restore workflows a companion cannot recreate accessory pairing vendor state physical devices every automation semantic or a destroyed home identity graph",
         "name": "homekit snapshot",
         "oneLiner": "snapshot supported homekit scenes and automations compare later and recreate a missing supported subset",
         "resurrectionTrigger": "lossless round trips across 100 supported fixtures reveal a distribution or recovery advantage controller does not provide",
@@ -2283,6 +2598,28 @@
     {
       "fields": {
         "aliases": [
+          "pdf invoice arithmetic check"
+        ],
+        "decisionReason": "invoice creators already own structured calculation while arbitrary layouts rounding tax inclusive pricing discounts and currency turn an independent verifier into general ocr and semantic inference",
+        "name": "invoicemath reopen",
+        "oneLiner": "recompute visible quantity rate subtotal discount tax and total fields from a born digital pdf invoice",
+        "resurrectionTrigger": "one narrow invoice standard supplies machine readable fields and repeated paid demand for independent arithmetic readback",
+        "tags": [
+          "invoices",
+          "pdf",
+          "arithmetic",
+          "ocr",
+          "scope"
+        ]
+      },
+      "key": "idea:invoice-math-reopen",
+      "route": "/ideas/invoice-math-reopen",
+      "title": "InvoiceMath Reopen",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "key duplicate check"
         ],
         "decisionReason": "whatkey mykeyfinder and keyme already analyze keys while a side image cannot prove blank or keyway geometry or that the copy turns the lock the purchase price can also exceed the key copy itself",
@@ -2324,6 +2661,28 @@
       "key": "idea:large-delivery-path-record",
       "route": "/ideas/large-delivery-path-record",
       "title": "PathWitness",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "laser cut file preflight"
+        ],
+        "decisionReason": "free web preflights and lightburn s own diagnostics already inspect geometry a validator cannot know whether an open line is intentional or which kerf and material settings are correct",
+        "name": "lasersvg gate",
+        "oneLiner": "detect open contours duplicate paths live text tiny features bounds and color mismatches in cut artwork",
+        "resurrectionTrigger": "a laser platform supplies authoritative operation semantics and creators prepay for a missing deterministic check",
+        "tags": [
+          "laser cutting",
+          "svg",
+          "dxf",
+          "preflight",
+          "host feature"
+        ]
+      },
+      "key": "idea:laser-svg-gate",
+      "route": "/ideas/laser-svg-gate",
+      "title": "LaserSVG Gate",
       "type": "idea"
     },
     {
@@ -2698,6 +3057,28 @@
     {
       "fields": {
         "aliases": [
+          "stl and 3mf preflight"
+        ],
+        "decisionReason": "free solidmesh and browser repair tools already inspect or fix topology while the slicer owns consequential preview mesh facts cannot prove material behavior strength or printability",
+        "name": "meshgate",
+        "oneLiner": "inspect mesh manifoldness holes normals degenerate geometry and dimensions before slicing",
+        "resurrectionTrigger": "a printer or slicer exposes a deterministic phone only failure that current mesh tools cannot test",
+        "tags": [
+          "3d printing",
+          "mesh",
+          "stl",
+          "preflight",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:mesh-preflight-gate",
+      "route": "/ideas/mesh-preflight-gate",
+      "title": "MeshGate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "five second judgment network"
         ],
         "decisionReason": "interesting interaction primitive but no single high value beachhead was selected",
@@ -2850,9 +3231,10 @@
     {
       "fields": {
         "aliases": [
-          "nfc write and readback run"
+          "nfc write and readback run",
+          "qr print pair"
         ],
-        "decisionReason": "nfc studio already markets batch writing placeholders write validation and run validation while nfc check owns bulk writing and history readback also cannot prove correct physical placement or authenticity",
+        "decisionReason": "nfc studio and nfc check own batch write readback while current qr checking tools and ordinary camera decoding cover printed code readability readback cannot prove correct physical placement destination or authenticity",
         "name": "tagrun",
         "oneLiner": "import intended nfc payload rows write the next tag reread it and advance only when the readback bytes match",
         "resurrectionTrigger": "a vertical asset system supplies a placement invariant unsupported by existing batch tools and distributes the workflow",
@@ -3025,6 +3407,28 @@
     {
       "fields": {
         "aliases": [
+          "parking transition history"
+        ],
+        "decisionReason": "apple maps already drops a parked car marker while find my car gps auto park adds automatic history and watch support an ordinary app lacks a universal bluetooth or carplay disconnect stream and a callback or heuristic locates the phone at transition not the car s later position or garage level",
+        "name": "parktrace",
+        "oneLiner": "record location accuracy and time from a configured carplay shortcut callback or an app observed heuristic parking stop",
+        "resurrectionTrigger": "frequent garage parkers materially prefer transition history to apple maps and at least five of twenty prepay after comparing the exact incumbent",
+        "tags": [
+          "parking",
+          "location",
+          "carplay",
+          "history",
+          "native competition"
+        ]
+      },
+      "key": "idea:park-trace",
+      "route": "/ideas/park-trace",
+      "title": "ParkTrace",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "parkproof"
         ],
         "decisionReason": "a current exact app already uses the parkproof name and offers ticket ocr evidence storage reminders and pdf appeal ticketplea and wherescar add close substitutes",
@@ -3091,9 +3495,10 @@
     {
       "fields": {
         "aliases": [
-          "password migration csv check"
+          "password migration csv check",
+          "csv contract"
         ],
-        "decisionReason": "the tool cannot detect fields omitted by the exporter handles extremely sensitive plaintext and serves a one off migration native direct credential exchange is replacing csv and password managers own the trustworthy migration surface",
+        "decisionReason": "generic csv validators already check schema and rows while this tool cannot detect fields omitted by an exporter handles extremely sensitive plaintext in its password use case and often serves a one off migration host systems own the trustworthy import contract",
         "name": "vault csv audit",
         "oneLiner": "inspect a user selected password manager csv for expected columns empty values duplicate keys and malformed target schema rows",
         "resurrectionTrigger": "a credential manager embeds the audit in its sanctioned migration workflow and supplies exact source and target schemas without retaining plaintext",
@@ -3222,6 +3627,28 @@
     {
       "fields": {
         "aliases": [
+          "microchip registry check"
+        ],
+        "decisionReason": "the phone cannot scan the implanted chip aaha searches only participating registries and may return only a manufacturer and animal id s partner api is not a universal or aaha wide cross registry source the app cannot verify or update owner data",
+        "name": "petchip pulse",
+        "oneLiner": "repeat a known pet microchip lookup and report participating registry candidates or lookup limitations",
+        "resurrectionTrigger": "a sanctioned api reaches parity across 1 000 chip fixtures and owners pay for carefully bounded status only language",
+        "tags": [
+          "pets",
+          "microchip",
+          "registries",
+          "api",
+          "platform access"
+        ]
+      },
+      "key": "idea:pet-chip-registry-pulse",
+      "route": "/ideas/pet-chip-registry-pulse",
+      "title": "PetChip Pulse",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "bag runway"
         ],
         "decisionReason": "pawlife furnote pawtion retailer subscriptions and connected scale products already cover the loop manual consumption logging is weaker than the existing substitutes",
@@ -3238,6 +3665,50 @@
       "key": "idea:pet-food-runway",
       "route": "/ideas/pet-food-runway",
       "title": "Pet Food Runway",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "pet food recall text match"
+        ],
+        "decisionReason": "free snacco added recall checks and alerts while inconsistent recall descriptions and lot formats make a negative text match dangerous if interpreted as safety the fda data source does not create a unique paid surface",
+        "name": "petrecall match",
+        "oneLiner": "compare scanned pet food product and lot text with current fda animal food recall descriptions",
+        "resurrectionTrigger": "a complete authoritative identifier feed and zero false negative fixture set support a differentiated partner distributed workflow",
+        "tags": [
+          "pets",
+          "recalls",
+          "food",
+          "fda",
+          "false confidence"
+        ]
+      },
+      "key": "idea:pet-recall-match",
+      "route": "/ideas/pet-recall-match",
+      "title": "PetRecall Match",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "pet tag readback"
+        ],
+        "decisionReason": "nfc tools bytetag pethub and an ordinary browser already own the readback surface a successful open cannot prove a finder will notice the tag or contact the owner",
+        "name": "pettag taptest",
+        "oneLiner": "tap an nfc or qr pet tag and report its uri reachability and expected contact text",
+        "resurrectionTrigger": "a tag vendor distributes a test that checks authoritative hosted profile state unavailable through the ordinary browser",
+        "tags": [
+          "pets",
+          "nfc",
+          "qr",
+          "tags",
+          "readback"
+        ]
+      },
+      "key": "idea:pet-tag-tap-test",
+      "route": "/ideas/pet-tag-tap-test",
+      "title": "PetTag TapTest",
       "type": "idea"
     },
     {
@@ -3370,6 +3841,28 @@
       "key": "idea:plant-crisis-triage",
       "route": "/ideas/plant-crisis-triage",
       "title": "Plant Crisis Triage",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "mobile epub conformance"
+        ],
+        "decisionReason": "official epubcheck is free and canonical but depends on java and schema tooling while free mobile web services already run it exactly a partial weekend swift checker creates false green risk",
+        "name": "pocket epubcheck",
+        "oneLiner": "share an epub and run canonical package manifest navigation schema and link conformance checks locally",
+        "resurrectionTrigger": "a local implementation agrees with the entire official regression corpus and repeat creators prepay for phone native use over free web validators",
+        "tags": [
+          "epub",
+          "publishing",
+          "validation",
+          "standards",
+          "scope"
+        ]
+      },
+      "key": "idea:pocket-epub-check",
+      "route": "/ideas/pocket-epub-check",
+      "title": "Pocket EPUBCheck",
       "type": "idea"
     },
     {
@@ -4178,6 +4671,28 @@
     {
       "fields": {
         "aliases": [
+          "qr and nfc scan history"
+        ],
+        "decisionReason": "free scanners already include local history and an ordinary app cannot observe native camera scans the user must replace the fastest native behavior before an unpredictable future need",
+        "name": "scantape",
+        "oneLiner": "retain payload timestamp and a label for qr or nfc scans performed inside the app",
+        "resurrectionTrigger": "paid users route at least 80 percent of real scans through the app for four weeks despite native camera and current free scanners",
+        "tags": [
+          "qr",
+          "nfc",
+          "history",
+          "scanning",
+          "manual ritual"
+        ]
+      },
+      "key": "idea:scan-history-tape",
+      "route": "/ideas/scan-history-tape",
+      "title": "ScanTape",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "parent school inbox"
         ],
         "decisionReason": "pain is widespread but ingestion is messy schools use fragmented systems exact assistants are emerging and parent willingness to pay appears limited",
@@ -4394,6 +4909,28 @@
     {
       "fields": {
         "aliases": [
+          "household task claim"
+        ],
+        "decisionReason": "apple shared reminders already supports lists assignment completion and completion notifications the tap is not proof of physical work and the flow requires participant adoption",
+        "name": "sharedlistclaim",
+        "oneLiner": "assign a household task and notify the owner when the assignee marks it complete",
+        "resurrectionTrigger": "a natural single device ritual supplies authoritative completion evidence absent from shared reminder tools",
+        "tags": [
+          "household",
+          "tasks",
+          "reminders",
+          "shared lists",
+          "host feature"
+        ]
+      },
+      "key": "idea:shared-list-claim",
+      "route": "/ideas/shared-list-claim",
+      "title": "SharedListClaim",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "tipslip pair"
         ],
         "decisionReason": "the pain is concrete but official free tools and many time pay trackers already exist the tipped worker niche is now occupied too checkout added paycheck reconciliation and serverlife has a paycheck workflow while tip pools tip outs fees chargebacks cash and pay period boundaries prevent a universal slip to paystub invariant",
@@ -4504,6 +5041,28 @@
     {
       "fields": {
         "aliases": [
+          "smart feeder dispense receipt"
+        ],
+        "decisionReason": "without sanctioned vendor apis there is no observable state and a command or motor event does not prove food reached the bowl or was eaten petlibro and other host apps already own device logs and notifications",
+        "name": "feederack",
+        "oneLiner": "report vendor observed smart feeder dispense failure offline state or missing fresh state",
+        "resurrectionTrigger": "multiple sanctioned vendor integrations plus physical dispense fixtures support a bounded device state product",
+        "tags": [
+          "pets",
+          "feeders",
+          "iot",
+          "api",
+          "device state"
+        ]
+      },
+      "key": "idea:smart-feeder-ack",
+      "route": "/ideas/smart-feeder-ack",
+      "title": "FeederAck",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "sonos room scene"
         ],
         "decisionReason": "soro and orto already provide widgets live activities grouping and presets while sonos is actively repairing and adding its own controls",
@@ -4548,9 +5107,10 @@
     {
       "fields": {
         "aliases": [
-          "playlist backup"
+          "playlist backup",
+          "musiclibrary filmstrip"
         ],
-        "decisionReason": "playlisthistory is exact restoration transfer tools are mature and spotify s 2026 development mode and extended quota rules make a new consumer product technically hostage to the platform",
+        "decisionReason": "playlisthistory and hezel already provide playlist or apple music history and restoration mature transfer tools cover recovery and platform quota and library access rules make a new consumer product hostage to its host",
         "name": "spotify playlist time machine",
         "oneLiner": "take nightly track level snapshots of spotify playlists and show exactly what disappeared or changed",
         "resurrectionTrigger": "a sanctioned partner path or user controlled export source removes the quota and followed playlist restrictions",
@@ -4635,6 +5195,28 @@
     {
       "fields": {
         "aliases": [
+          "audio stem delivery preflight"
+        ],
+        "decisionReason": "a 3 99 adjacent batch reporter plus free mediainfo cover much of the observable metadata and correction still lives in the daw equal headers and duration cannot prove common start alignment intended content or correct creative delivery",
+        "name": "stempack gate",
+        "oneLiner": "compare audio stem headers duration naming and channels with a saved delivery profile",
+        "resurrectionTrigger": "paid engineers identify repeated actionable issues absent from their daw and current metadata or batch reporting substitutes then prepay for the bounded check",
+        "tags": [
+          "audio",
+          "stems",
+          "preflight",
+          "delivery",
+          "strong substitute"
+        ]
+      },
+      "key": "idea:stem-pack-gate",
+      "route": "/ideas/stem-pack-gate",
+      "title": "StemPack Gate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "storage move out acknowledgment"
         ],
         "decisionReason": "the facility account and closure receipt are authoritative and operator platforms already put verification and confirmation in the host move out flow a third party app cannot close the account or compel acknowledgment",
@@ -4652,6 +5234,28 @@
       "key": "idea:storage-close-ack",
       "route": "/ideas/storage-close-ack",
       "title": "StorageClose Ack",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "subtitle timing preflight"
+        ],
+        "decisionReason": "subtitle timing tools costs 2 99 and free browser validators already perform structural checks those checks cannot establish synchronization translation quality or real readability",
+        "name": "subtitle gate",
+        "oneLiner": "check subtitle parsing cue order overlaps negative timestamps and video bounds",
+        "resurrectionTrigger": "a repeat creator workflow exposes an objective mobile only failure that current validators and editors miss",
+        "tags": [
+          "subtitles",
+          "video",
+          "timing",
+          "validation",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:subtitle-gate",
+      "route": "/ideas/subtitle-gate",
+      "title": "Subtitle Gate",
       "type": "idea"
     },
     {
@@ -5205,6 +5809,28 @@
     {
       "fields": {
         "aliases": [
+          "wallet pass history"
+        ],
+        "decisionReason": "passkit access is limited to cooperating issuers so an ordinary app cannot become a universal historian for third party wallet passes manual files prove only supplied bytes not validity redemption or issuer updates",
+        "name": "passarchive",
+        "oneLiner": "archive a user shared pass file or screenshot before wallet later hides or removes it",
+        "resurrectionTrigger": "wallet grants user authorized export access to all nonpayment passes or an issuer distributes the archive",
+        "tags": [
+          "wallet",
+          "passes",
+          "archive",
+          "passkit",
+          "platform access"
+        ]
+      },
+      "key": "idea:wallet-pass-archive",
+      "route": "/ideas/wallet-pass-archive",
+      "title": "PassArchive",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "refundtender readback"
         ],
         "decisionReason": "the feature set is heavily copied urgency is low between purchases and inbox access creates a high trust burden merchant receipts and bank apps already expose refund initiation and settlement while returntrack and exact tools own the delayed tracking workflow",
@@ -5749,6 +6375,62 @@
     },
     {
       "fields": {
+        "body": "round 10 loop 4 unowned transitions household handshakes and phone received artifacts research date 2026 08 10 method three independent lanes searched the 245 record ledger before mining consumer transitions whose host lacks useful history low friction accessibility household pet acknowledgments and prosumer artifacts naturally received on a phone every apparent lead was attacked for authoritative state limits current native or exact incumbents pre loss distribution repeated behavior weekend truth and real 7 99 willingness to pay starting archive 245 ideas and 16 research dossiers executive summary loop 4 investigated 38 serious candidates and promoted zero builds twenty eight concepts add new decisions 27 passes and one parked paid test and ten rediscoveries merge into nine existing decisions because routetone and routetape both belong to hearing route guard the strongest pains were playlist loss homekit automation history pet registry decay unreliable live captions malformed audio stem deliveries and rejected epubs captiongap earned one paid co design test because no exact pipeline health incumbent surfaced it did not earn a build exact 2026 products already own playlist and homekit history universal pet chip and system caption state remains unavailable and professional artifact correction still occurs inside a desktop host or a free validator research statistics serious candidates 38new ledger decisions 28evidence merges 10 candidates into 9 existing recordspaid validation candidates 1 captiongapbuild recommendations 0 meta analysis after loop 4 a sanctioned event still needs causal meaning a homekit characteristic change does not identify the automation a controller disconnect does not identify the failing component replacing a native habit merely to create history is usually fatal qr clipboard parking and scan history tools must win before the first event while the free system path already owns behavior an acknowledgment is not the physical outcome an alarm stop feeder command household task tap or accessory event cannot prove waking feeding completion or security receiving a professional artifact on a phone is insufficient the paid correction and acceptance step still lives in the daw nle slicer publishing tool or platform uploader structural validity is not semantic validity file headers epub schemas subtitle timestamps mesh topology and url tags can be checked exactly without proving alignment acceptance printability or attribution directions to stop mining generic transition journals that require replacing a native habit accessibility or household proof that observes only a button tap or app local session phone preflight wrappers for artifacts whose canonical free validator or desktop host already owns correction universal operator or hardware state without a sanctioned api parktrace concept record timestamp horizontal accuracy and location from an explicitly configured carplay shortcut callback or an app observed heuristic stop then retain a short parking transition history apple maps already drops a parked car marker in apple s current support flow while shortcuts exposes a user configured carplay connect or disconnect trigger ordinary bluetooth automation documents connection rather than a universal disconnect stream find my car gps auto park already adds history watch support and automatic parking with a 24 99 premium iap the phone knows where a callback or heuristic fired not whether the car remained there or which garage level it occupies verdict passed market reopen only if frequent garage parkers materially prefer transition history to apple maps and five of twenty prepay after comparing the exact incumbent scantape concept retain exact qr or nfc payload timestamp and label for scans performed inside this app core nfc supports explicit reader sessions but an ordinary app cannot observe native camera scans a free qr scanner already includes local history the user must replace the native camera before an unpredictable future need verdict passed market reopen only if paid users route at least 80 percent of real scans through the app for four weeks cliptape concept preserve text the user explicitly imports through a keyboard paste control or share extension so it can be restored after another copy overwrites the pasteboard apple s uipasteboard does not expose a sanctioned passive history of every cross app copy clipbox and other keyboard share managers own the feasible manual path honest copy therefore collapses from clipboard history to things you remembered to clip verdict passed scope reopen only with a sanctioned clipboard change stream or strong paid adherence to the manual capture ritual passarchive concept archive a user shared pkpass or screenshot before wallet later hides or removes it passkit access is entitlement bound to cooperating issuers an ordinary app cannot become a universal historian for third party wallet passes apple s passkit access guide makes that boundary explicit manual files prove only the bytes supplied never validity redemption or issuer updates verdict passed scope reopen only if wallet grants user authorized export access to all nonpayment passes or an issuer distributes the archive controllersession tape concept during an app foreground diagnostic session journal controller connection and disconnection notifications plus sampled battery readings gccontroller exposes connection notifications and point in time gcdevicebattery properties but no battery change event background controller monitoring is not a general ios utility path the trace cannot identify whether the controller radio game remote play service or os caused failure a free gamepad tester already checks input drift rumble and battery in an adjacent foreground diagnostic verdict passed market reopen only if the trace changes real vendor support outcomes and affected gamers prepay despite the adjacent free foreground tester appwatch concept share an app store page into a watcher that records storefront price updates and availability changes appraven already accepts share sheet additions provides wishlists and price update iap availability history has thousands of ratings and charges 11 99 year or 29 99 lifetime reliable monitoring also requires backend polling and storefront normalization verdict passed market reopen only around one named workflow current appraven users will prepay for captiongap concept in an app owned caption session expose exact audio buffer transcript result interruption and recognizer error state without judging semantic completeness apple s speechanalyzer can support a new caption app not inspect apple live captions or identify omitted words apple live captions live transcribe and ava already own the conversation surface but none surfaced as an exact pipeline health indicator no transcript update can mean silence noise unsupported language or delayed decoding rather than failure verdict parked for one paid co design test not a build twelve dhh or hard of hearing participants must use an instrumented app owned session for at least ten real hours warnings must stay under one false alert per hour 100 injected buffer interruption and recognizer failures must produce zero false healthy states at least eight users must say the indicator changed their response and at least four must place a refundable 7 99 preorder the product may say only audio observed recognizer updating interrupted or no recent result never complete captions or semantic omission accessmode receipt concept compare accessibility flags visible to this app with a saved desired set and name the differences uikit exposes app relevant state such as isvoiceoverrunning not a complete global accessibility audit apple already provides accessibility shortcut per app settings assistive access and accessibility features a local receipt looks global while its authority is incomplete verdict passed market wakeack concept record the exact time an app created alarm was stopped or snoozed alarmkit can identify the app alarm and action but stopping an alarm does not prove a person is awake standing or well alarmy already owns task and photo dismissal missions verdict passed market strengthening the truthful alarm stopped event creates false welfare assurance arrivalack concept for a recurring arrival window report location observed not observed or location unavailable the app can observe its authorized phone location not who carried it or whether a person is safe apple check in and life360 no show alerts already own the multi person workflow for free verdict passed market it also violates the no cold start constraint dailyokay concept an older adult taps a daily response and a family member receives the timestamp or missed response escalation daily ok and taskconnect already provide one tap check ins tasks and escalation the event proves only a device account action not that the person is okay verdict passed market petchip pulse concept periodically repeat a known pet microchip lookup and report only participating registry candidates manufacturer only result lookup failure or not checked aaha says its lookup tool searches only participating registries may return a manufacturer and cannot expose or update owner data animal id open platform exposes a documented partner api but no sanctioned universal or aaha wide cross registry api surfaced after the save this life registry shutdown and the phone cannot scan the implanted chip verdict passed scope reopen only with a sanctioned api parity across 1 000 chip fixtures and paid demand for status only language pettag taptest concept tap an nfc or qr pet tag and report the decoded uri network reachability and whether expected contact text appeared free nfc tools bytetag and pethub already own the tag profile surface opening the url in a browser is itself the test the result cannot prove a finder will notice or contact the owner verdict passed market petrecall match concept compare scanned product and lot text with current fda animal food recall descriptions using possible match no text match in checked records or unreadable the fda publishes animal recalls and openfda enforcement data free snacco launched recall checks and alerts in 2026 inconsistent descriptions and lot formats make a negative match dangerous if interpreted as safety verdict passed market feederack concept for a scheduled smart feeder meal report vendor observed dispense failure offline state or no fresh state without a sanctioned vendor api there is no observable state even a command or motor event does not prove food reached the bowl or was eaten the petlibro app already owns device state schedules logs notifications and camera or weight aware hardware verdict passed scope reopen only through multiple sanctioned vendor integrations with physical dispense fixtures applianceturn concept a vendor reported appliance cycle completion opens a short household window for someone to claim responsibility lg thinq samsung smartthings and home assistant live activities already expose cycle completion the only new state is a self reported claim that still does not prove laundry was moved verdict passed market sharedlistclaim concept assign a household task and notify the owner when the assignee marks it complete apple shared reminders already supports shared lists assignment completion and completion notifications the tap is not proof of physical work and the flow requires participant adoption verdict passed market aidlatch concept warn when a ble beacon attached to a cane walker communication device or other aid disconnects as the user leaves the app can know its own connection not whether the aid is needed who has it or guarantee timely background delivery apple find my already provides notify when left behind for airtags and supported accessories verdict passed market an honest version is a hardware or manufacturer partnership product not a 7 99 app guestkey receipt concept create scheduled guest access and show command or accessory state acknowledgment for a supported lock or garage door apple home already supports scheduled guest access accessory state does not prove the physical door secured correctly or the intended guest entered verdict passed market stempack gate concept compare wav or aiff sample rate bit depth channels duration names and conformity to a saved stem delivery profile current delivery guidance still requires matching sample rate and common start but equal headers and duration cannot prove alignment or intended content loudness report local is a 3 99 adjacent batch reporter for duration channels sample rate lufs and true peak free mediainfo covers additional metadata neither supplies the whole saved profile loop but together they are strong substitutes and correction still lives in the daw verdict passed market reopen only if paid engineers identify repeated actionable issues absent from the daw and current metadata or batch reporting substitutes pocket epubcheck concept share an epub and run canonical package manifest navigation identifier schema and link conformance checks locally official w3c epubcheck is free and canonical but depends on java and schema tooling free epubcheck net and other mobile web validators already run the exact standard while local mac snowflower epub validator costs 29 99 a partial weekend swift checker risks a false green verdict passed scope reopen only with exact agreement across the official regression corpus and repeated paid phone use subtitle gate concept check srt or vtt parsing cue ordering overlaps negative timestamps video bounds and optional reading profiles subtitle timing tools costs 2 99 and free browser tools such as timedsubs already validate timing structural checks cannot judge synchronization translation or readability verdict passed market hoopgate concept compare embroidery file dimensions stitch count color changes and format with a saved machine or hoop profile stitchbuddy hd supports hoop centering and resizing while embroidery file viewer exposes stitch count color blocks and layout encoded bounds do not establish tension density quality fabric behavior or safe resizing verdict passed market meshgate concept inspect stl or 3mf manifoldness holes normals degenerate geometry and dimensions before moving to a slicer free solidmesh and browser repair tools already inspect or fix topology while the slicer owns the consequential preview mesh facts cannot prove material behavior structural strength or printability verdict passed market lasersvg gate concept detect open contours duplicate paths non outlined text tiny features bounds and operation color mismatches in svg or dxf artwork free sparq tools and bonny creations validator already preflight files lightburn documents its own shape diagnostics geometry cannot reveal whether an open line is intentional or which kerf and material settings are correct verdict passed market invoicemath reopen concept recompute visible quantity times rate subtotals discounts tax and total from a born digital pdf invoice invoice creators already own structured calculation arbitrary layouts rounding tax inclusive pricing discounts and currency turn the verifier into general ocr and semantic inference a narrow template demo cannot truthfully generalize verdict passed scope audiobookpack concept check audiobook chapter numbering gaps duplicates format sample rate channels cover dimensions and total duration audiobinder already organizes renames and exports audiobook files on iphone mediainfo covers file facts the app cannot establish intended chapter content or retailer acceptance and solo producers repeat the workflow infrequently verdict passed market affiliatetag guard concept compare an affiliate url s domain associate id and tracking tokens with a saved identity amazon provides link checker and native mobile getlink url equality cannot prove commission attribution after redirects cookies eligibility or locale behavior verdict passed market evidence merges contactdelta contact sentinel contacts change history can report local events but not remote cause icloud s archive restore and exact history tools reinforce the existing decision musiclibrary filmstrip spotify playlist time machine hezel is the exact apple music snapshot diff and restore product preserve it as another platform specific proof that the playlist time machine surface is occupied homeaction tape homekit snapshot homesnap now snapshots configuration diffs changes records characteristics and exports history characteristic events still do not identify automation cause routetape and routetone hearing route guard avaudiosession reports only the app owned session a tone acknowledgment cannot certify the next app call hearing aid fit or comprehension reminderundo journal calendar lifeboat apple now exposes a 30 day recently deleted list for ordinary reminder deletion catastrophic sync recovery retains the existing eventkit authority limits petvisit baton barnbaton walkies and time to pet already own gps visits and report cards a no install baton remains a human claim not proof of care qr print pair tagrun free qr check already compares printed or displayed qr payloads exact decode equality cannot guarantee print reliability redirect durability or a whole production run mediaspec gate filekind probe free mediainfo and cheap codecaudit already inspect media streams profile equality does not prove upload acceptance or content quality csv contract vault csv audit free local browser validators such as csv workbench already check user supplied schemas a saved schema cannot prove a destination platform s current business semantics loop 4 decision build nonepaid validation captiongap onlynew decisions 28 27 passes and one parked testevidence merges 10 candidates into 9 existing records the next synthesis should rank the surviving paid tests already in the ledger rather than mine more variants of transition history acknowledgments or artifact preflight",
+        "headings": [
+          "round 10 loop 4 unowned transitions household handshakes and phone received artifacts",
+          "executive summary",
+          "research statistics",
+          "meta analysis after loop 4",
+          "directions to stop mining",
+          "parktrace",
+          "scantape",
+          "cliptape",
+          "passarchive",
+          "controllersession tape",
+          "appwatch",
+          "captiongap",
+          "accessmode receipt",
+          "wakeack",
+          "arrivalack",
+          "dailyokay",
+          "petchip pulse",
+          "pettag taptest",
+          "petrecall match",
+          "feederack",
+          "applianceturn",
+          "sharedlistclaim",
+          "aidlatch",
+          "guestkey receipt",
+          "stempack gate",
+          "pocket epubcheck",
+          "subtitle gate",
+          "hoopgate",
+          "meshgate",
+          "lasersvg gate",
+          "invoicemath reopen",
+          "audiobookpack",
+          "affiliatetag guard",
+          "evidence merges",
+          "contactdelta contact sentinel",
+          "musiclibrary filmstrip spotify playlist time machine",
+          "homeaction tape homekit snapshot",
+          "routetape and routetone hearing route guard",
+          "reminderundo journal calendar lifeboat",
+          "petvisit baton barnbaton",
+          "qr print pair tagrun",
+          "mediaspec gate filekind probe",
+          "csv contract vault csv audit",
+          "loop 4 decision"
+        ],
+        "title": "round 10 loop 4 unowned transitions household handshakes and phone received artifacts"
+      },
+      "key": "research:idea-mining-loop-2026-08-10-round10-loop4",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop4",
+      "title": "Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts",
+      "type": "research"
+    },
+    {
+      "fields": {
         "body": "idea mining loop round 9 date 2026 08 10 question which ordinary modern first world problem is painful enough to justify a 7 99 phone purchase under the idea ledger product rules pricing assumption prefer 7 99 lifetime use 7 99 year only when recurring value is real do not disguise a one event utility as a subscription outcome three independent research teams mined current consumer complaints transaction time mistakes and paid utility categories they then cross reviewed the two provisional finalists final verdict no validation winner and no build recommendation cardreceipt was the cleanest deterministic demo but it fails logically a barcode over sticker gift card attack can make the visible card identifier and receipt identifier agree while the buyer s funds go to an attacker honest wording collapses the paid value to a visual last four comparison pathwitness can make a truthful organized before after delivery record but it is already surrounded by 2 99 9 99 photo proof tools the official signed delivery document matters more and discovery must happen before a rare delivery it is worth only a no code payment test if a retailer or installer can distribute it the remaining candidates were exact incumbents ledger duplicates host state problems manual evidence filing thin os utilities or safety truth failures the result is useful negative knowledge expensive mistake camera reminder pdf is now a commodity template a new product needs an authoritative transaction time handoff a natural distribution channel or a deterministic phone only capability product rules applied a candidate survived only while it had all of the following one clear user trigger action and payoff a source of truth the phone can actually read or own a natural existing behavior not a second app ritual people will skip a useful output that does not imply safety legal force custody compatibility or eventual outcome immediate one person value without a network or unavailable host api a credible 7 99 purchase boundary and enough functionality for app store review a crisp phone native demonstration and a plausible seven week build cross reviewed finalists cardreceipt physical gift card activation receipt atomic loop before leaving checkout scan the gift card s visible exterior serial or barcode scan the activation receipt and return only visible identifiers match different or unreadable never capture the redemption pin why it initially survived the physical card and receipt are naturally present activation receipts often expose a masked card identifier the consequence can be 25 500 and the comparison makes a strong 30 second demo the ftc apple and google all tell buyers to retain the card and receipt when activation fails michigan s gift card guidance explicitly recommends comparing the receipt number with the returned card fatal truth failure the fbi s barcode warning describes an attacker covering a real card barcode with a fake one the cashier scans the fake visible barcode and the receipt prints that same attacker controlled identifier cardreceipt would truthfully report a match while the purchase is compromised a green result would be read as safe the fully honest message these two visible strings agree but this does not verify the card balance activation or tampering is not worth 7 99 market pressure free products such as cartava already scan and retain gift cards while quickscope scans gift card codes and receipts pos providers already own the authoritative activation event toast prints useful activation receipt details decision passed market truth do not code resurrection condition an issuer or pos supplies an authenticated activation balance signal or tamper aware token that cannot be defeated by a visible barcode overlay seeded overlay attacks must produce zero positive results pathwitness large delivery route record atomic loop the evening before a refrigerator washer sofa safe or fitness equipment delivery capture a short guided baseline of floors walls stairs and doorframes before the crew leaves replay the same viewpoints mark items for review capture the delivery document and export an organized personal record why it initially survived the damage can be expensive one 2025 homeowner described roughly 8 000 of flooring and doorframe damage followed by a denied claim a phone can truthfully own the user s before after images notes viewpoint pairing and exported record best buy s current delivery guide already tells customers to inspect the item and delivery path and record damage on the delivery document before signing fatal product pressure the signed retailer document remains the mandatory handoff and matters more than a private photo packet the app cannot establish causation complete route coverage liability or claim success current tools already sell most of the mechanism disputecam dwelltrack siteproof timemark timestamp it snapproof and fairspark sparse ratings across several new entrants are a weak demand warning not whitespace distribution failure search intent arrives after damage when a baseline is impossible app store acquisition cannot support a low ltv one event pass a retailer appliance reviewer inspector installer insurer or delivery booking flow must place it in front of the buyer before delivery decision passed market no build allow only a no code payment test if a real pre delivery channel is available no code test recruit 20 people with a real large item delivery scheduled within 14 days offer a real 7 99 concierge service before delivery send a five view guide pair the returned before after images attach the signed delivery document and return a local download pdf continue only if at least 5 pay before the event 16 complete the baseline 14 complete the exit capture before the crew leaves median baseline time is under three minutes at least half change what they inspect or write before signing and one repeatable channel acquires customers below roughly 2 or agrees to distribute the flow resurrection condition a retailer installer insurer or marketplace embeds the flow in the scheduled delivery message and accepts the resulting packet inside its official claim workflow candidate graveyard candidateatomic phone loopwhy it diedresurrection triggertagreceipt couponproofcapture a sale tag or offer and the receipt show a possible mismatch it is the existing basketcheck thesis sundria is near exact while receipt abbreviations weights loyalty identity exclusions and stacking make pairing ambiguous replacing unavailable retailer state with per item screenshots adds ceremony a retailer exposes the exact offer token on both display and receipt or a 30 basket blind test exceeds 95 correct matching with zero false accusations and real prepayment watercardsave the water gas shutoff location route tool and a printable card a 4 99 home maintenance tracker already stores shutoff locations a physical label is stronger during a power phone failure the app cannot verify the valve is correct or operable plumber inspector insurer distribution plus strong placement recall drill and payment behavior returnclockscan a receipt and remind the shopper before the return deadline kachng return hero return tracker returno clock proof returntrack and retailer apps already occupy the category the retailer remains authoritative about exceptions and refund state retailer authorized eligibility and refund state apis rentalproof rentalfuel diffguided pickup return vehicle and gauge capture not my dent snap drive rentalguard and rental platform workflows already own the loop a card issuer insurer or rental agency accepts the record directly breakeratlasphotograph and map a breaker panel print search circuit labels breaker map already provides mapping ar overlays trip logs and qr access a new authoritative circuit testing primitive unavailable to the incumbent doorfitenter furniture package and route dimensions to predict delivery fit roomspan already sells this at 12 99 and models turns doors halls elevators removable parts and safety margins a phone side model can create false confidence retailer provided packaging geometry plus a validated model with explicit uncertainty datealarmschedule one alarm for a future date alarmkit triggered a swarm of exact utilities and ios 26 2 added alarms to reminders the alarm alone is too thin a narrow workflow where the alarm is only the final payoff cancelreceipt quitproofpreserve cancellation evidence and alert if another charge appears renewalwatcher subscription trackers rocket money email and bank dispute flows cover it the app cannot authoritatively cancel or prove billing stopped provider or transaction integration that proves cancellation and charge state depositproofguided move in move out evidence capture existing security deposit evidence thesis door lease deposit shield tenant inspect and others are exact a tenant organization or jurisdiction mandates and accepts the format patternblockblock phone number ranges or wildcard patterns number shield phone pattern blocker call ranger wideprotect and native call screening already occupy it a new sanctioned os capability not used by incumbents dropmatchcompare a prepaid parcel label tracking id with the counter receipt id usps rapid drop whatnot returnproof and retailer return flows own pieces of it consolidated qr final mile merchant and tracking ids can legitimately differ matching proves neither contents nor custody a named high value return flow with a documented identifier invariant and at least 80 directly comparable real fixtures keycopy diffcompare original and freshly duplicated key silhouettes before leaving whatkey mykeyfinder and keyme are adjacent a side image cannot prove the blank keyway geometry or that the copy turns the lock 7 99 may exceed the copy price a hardware capture fixture or retailer partnership that validates function not silhouette fuelpaircompare an unfamiliar vehicle fuel label with the pump label standardized symbols and direct visual comparison are faster a false pass can cause expensive property damage and phone use at the pump is awkward an oem or rental partner supplies authoritative vehicle fuel state and assumes the workflow bagtag paircompare boarding pass itinerary with outbound bag tag multi leg interline customs recheck and destination semantics make differences ambiguous bagsnap and airline scanners are adjacent airline sanctioned itinerary and baggage routing data packmatchscan an order each item and the label before sealing a shipment shopify scan to verify scankar scanpacker shipstation and warehouse systems own the authoritative order workflow a platform partner exposes an underserved seller segment and order state laundry gatedecode a garment care label before washing iphone visual look up laundry lens ginetex and free symbol apps already do it a costly professional textile workflow with authoritative care data not covered by current tools gearreturn paircompare modem equipment serials with the provider return receipt itemproof returnproof provider flows and the existing trade in proof thesis cover the event the receipt does not prove eventual provider credit a provider accepts the pair directly and exposes credit state dryclean countcapture garments ticket at drop off and compare returned items bags hide garments visual appearance changes after cleaning and manual counting is a ritual cleaner systems already use garment level barcodes cleaner side integration with garment ids and customer visible reconciliation invitematchcompare personalized inserts with addressed envelopes while stuffing invitations many invitations have no personalized inner object industrial mail matching already exists and careful stack order is faster a high volume consumer personalization workflow with machine readable names on both objects takeout countcompare receipt items with visible containers before leaving one item maps to zero one or several containers sealed bags hide state and delivery platforms already own refunds restaurant issued package item identifiers or an order system integration travel credit sentinelimport a voucher surface its amount code expiry and remind the traveler awardwallet already has paid traction and manual voucher support cartava is free the app cannot verify balance expiry changes or redemption state airline authorized credit state or a travel partner flight disruption claim companioncapture boarding pass notices and receipts into a claim packet airhelp offers free tracking and claim initiation rules vary by jurisdiction and airline while dot refunds are authoritative a named jurisdiction airline partner supplying authoritative disruption and claim state chargeback evidence packerorganize merchant correspondence and receipts into an issuer sized bundle bank apps already accept and track disputes this repeats consumer case agent and adds sensitive financial data without authority over the outcome an issuer endorses a structured import format hard mode focus blockerapply stronger friction to distracting app overrides opal one sec freedom appblock and native screen time dominate apple entitlement approval is required a new platform capability or measured intervention incumbents do not provide medication read and remindscan a prescription label into reminders and caregiver alerts apple health and medisafe already provide mature medication scheduling sharing ocr errors are health critical and the pharmacy remains authoritative pharmacy ehr integration and independently validated near perfect extraction plant crisis triagephotograph a distressed plant and receive likely care guidance picturethis planta and mature databases own the category diagnosis is not authoritative and bad advice can kill the plant a narrow expensive collection or professional workflow with proprietary observations paid category evidence the round did find real willingness to pay in adjacent categories but mostly for mature or recurring products opal charges roughly 99 99 year for focus blocking and reports a large ratings base awardwallet charges 49 99 year and reports more than 25 000 paid travelers medisafe charges roughly 39 99 year not my dent launched at 9 99 lifetime but has very few ratings fairspark asks 7 99 month for delivery complaints but lacks enough ratings to establish traction returntrack asks 6 99 month or 39 99 year but also lacks meaningful visible traction founder set prices prove that the same opportunity is visible not that buyers convert for a 7 99 utility real prepayment during an actual event is the required evidence reusable decision rules a visible equality check is not a product when the attack can control both visible values cardreceipt is the clearest example replacing unavailable authoritative state with screenshots works only when capture is already natural and the comparison becomes deterministic otherwise it is manual evidence filing with ocr risk the signed or platform owned handoff outranks a private packet an app may help the user complete that handoff but should not imply that its export has equivalent authority rare preventive utilities have a discovery timing problem search usually happens after the loss when the required baseline cannot be created expensive mistake camera reminder pdf is a commodity template in 2026 a durable wedge needs transaction timed distribution authoritative data or a capability competitors cannot copy as a template zero promotions is a valid research outcome the ledger compounds when it prevents attractive demos from becoming misleading products",
         "headings": [
           "idea mining loop round 9",
@@ -5956,5 +6638,5 @@
     }
   ],
   "normalizationVersion": 1,
-  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8"
+  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c"
 }

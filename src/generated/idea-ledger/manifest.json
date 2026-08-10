@@ -1,9 +1,9 @@
 {
   "counts": {
-    "dossiers": 16,
-    "ideas": 245,
-    "researchEdges": 257,
-    "searchDocuments": 261
+    "dossiers": 17,
+    "ideas": 273,
+    "researchEdges": 294,
+    "searchDocuments": 290
   },
   "generatorVersion": 2,
   "sourceFiles": [
@@ -63,6 +63,11 @@
       "sha256": "sha256:9a20f551f45aa86e1cb7ea9cb055df8a9802ec867d731de8b158e9994c86f50a"
     },
     {
+      "bytes": 23240,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+      "sha256": "sha256:433e0cb8d98e2f44e1636d31103d55f58fb8e78b3e13cd22ed4678627a26036b"
+    },
+    {
       "bytes": 18239,
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
       "sha256": "sha256:db013889f324ed48f8935f0889c8412c4199984564624bc0f3d1b5c36e37855a"
@@ -88,12 +93,12 @@
       "sha256": "sha256:79addb28c01759837d3817163e4541f68ceb6a96116701cef22a16cfef82bfa6"
     },
     {
-      "bytes": 219372,
+      "bytes": 244348,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:44507faf27ab426e48f658bf37c930c40b02e2378cbe7e2bbac66a7d9abcb3bf"
+      "sha256": "sha256:f1b1c7de6c70237f201b509086cd3028585739742a1dda95a36c6b389d117b11"
     }
   ],
-  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8",
+  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c",
   "sourceSchemaVersion": 1,
   "sourceUpdatedAt": "2026-08-10"
 }

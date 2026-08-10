@@ -1745,6 +1745,274 @@
     {
       "headings": [
         {
+          "anchor": "round-10-loop-4--unowned-transitions-household-handshakes-and-phone-received-artifacts",
+          "depth": 1,
+          "text": "Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "research-statistics",
+          "depth": 2,
+          "text": "Research statistics"
+        },
+        {
+          "anchor": "meta-analysis-after-loop-4",
+          "depth": 2,
+          "text": "Meta-analysis after Loop 4"
+        },
+        {
+          "anchor": "directions-to-stop-mining",
+          "depth": 3,
+          "text": "Directions to stop mining"
+        },
+        {
+          "anchor": "parktrace",
+          "depth": 2,
+          "text": "ParkTrace"
+        },
+        {
+          "anchor": "scantape",
+          "depth": 2,
+          "text": "ScanTape"
+        },
+        {
+          "anchor": "cliptape",
+          "depth": 2,
+          "text": "ClipTape"
+        },
+        {
+          "anchor": "passarchive",
+          "depth": 2,
+          "text": "PassArchive"
+        },
+        {
+          "anchor": "controllersession-tape",
+          "depth": 2,
+          "text": "ControllerSession Tape"
+        },
+        {
+          "anchor": "appwatch",
+          "depth": 2,
+          "text": "AppWatch"
+        },
+        {
+          "anchor": "captiongap",
+          "depth": 2,
+          "text": "CaptionGap"
+        },
+        {
+          "anchor": "accessmode-receipt",
+          "depth": 2,
+          "text": "AccessMode Receipt"
+        },
+        {
+          "anchor": "wakeack",
+          "depth": 2,
+          "text": "WakeAck"
+        },
+        {
+          "anchor": "arrivalack",
+          "depth": 2,
+          "text": "ArrivalAck"
+        },
+        {
+          "anchor": "dailyokay",
+          "depth": 2,
+          "text": "DailyOkay"
+        },
+        {
+          "anchor": "petchip-pulse",
+          "depth": 2,
+          "text": "PetChip Pulse"
+        },
+        {
+          "anchor": "pettag-taptest",
+          "depth": 2,
+          "text": "PetTag TapTest"
+        },
+        {
+          "anchor": "petrecall-match",
+          "depth": 2,
+          "text": "PetRecall Match"
+        },
+        {
+          "anchor": "feederack",
+          "depth": 2,
+          "text": "FeederAck"
+        },
+        {
+          "anchor": "applianceturn",
+          "depth": 2,
+          "text": "ApplianceTurn"
+        },
+        {
+          "anchor": "sharedlistclaim",
+          "depth": 2,
+          "text": "SharedListClaim"
+        },
+        {
+          "anchor": "aidlatch",
+          "depth": 2,
+          "text": "AidLatch"
+        },
+        {
+          "anchor": "guestkey-receipt",
+          "depth": 2,
+          "text": "GuestKey Receipt"
+        },
+        {
+          "anchor": "stempack-gate",
+          "depth": 2,
+          "text": "StemPack Gate"
+        },
+        {
+          "anchor": "pocket-epubcheck",
+          "depth": 2,
+          "text": "Pocket EPUBCheck"
+        },
+        {
+          "anchor": "subtitle-gate",
+          "depth": 2,
+          "text": "Subtitle Gate"
+        },
+        {
+          "anchor": "hoopgate",
+          "depth": 2,
+          "text": "HoopGate"
+        },
+        {
+          "anchor": "meshgate",
+          "depth": 2,
+          "text": "MeshGate"
+        },
+        {
+          "anchor": "lasersvg-gate",
+          "depth": 2,
+          "text": "LaserSVG Gate"
+        },
+        {
+          "anchor": "invoicemath-reopen",
+          "depth": 2,
+          "text": "InvoiceMath Reopen"
+        },
+        {
+          "anchor": "audiobookpack",
+          "depth": 2,
+          "text": "AudiobookPack"
+        },
+        {
+          "anchor": "affiliatetag-guard",
+          "depth": 2,
+          "text": "AffiliateTag Guard"
+        },
+        {
+          "anchor": "evidence-merges",
+          "depth": 2,
+          "text": "Evidence merges"
+        },
+        {
+          "anchor": "contactdelta--contact-sentinel",
+          "depth": 3,
+          "text": "ContactDelta → Contact Sentinel"
+        },
+        {
+          "anchor": "musiclibrary-filmstrip--spotify-playlist-time-machine",
+          "depth": 3,
+          "text": "MusicLibrary Filmstrip → Spotify Playlist Time Machine"
+        },
+        {
+          "anchor": "homeaction-tape--homekit-snapshot",
+          "depth": 3,
+          "text": "HomeAction Tape → HomeKit Snapshot"
+        },
+        {
+          "anchor": "routetape-and-routetone--hearing-route-guard",
+          "depth": 3,
+          "text": "RouteTape and RouteTone → Hearing Route Guard"
+        },
+        {
+          "anchor": "reminderundo-journal--calendar-lifeboat",
+          "depth": 3,
+          "text": "ReminderUndo Journal → Calendar Lifeboat"
+        },
+        {
+          "anchor": "petvisit-baton--barnbaton",
+          "depth": 3,
+          "text": "PetVisit Baton → BarnBaton"
+        },
+        {
+          "anchor": "qr-print-pair--tagrun",
+          "depth": 3,
+          "text": "QR Print Pair → TagRun"
+        },
+        {
+          "anchor": "mediaspec-gate--filekind-probe",
+          "depth": 3,
+          "text": "MediaSpec Gate → FileKind Probe"
+        },
+        {
+          "anchor": "csv-contract--vault-csv-audit",
+          "depth": 3,
+          "text": "CSV Contract → Vault CSV Audit"
+        },
+        {
+          "anchor": "loop-4-decision",
+          "depth": 2,
+          "text": "Loop 4 decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "accessibility-mode-receipt",
+        "affiliate-tag-guard",
+        "alarm-stop-ack",
+        "app-store-watch",
+        "appliance-cycle-claim",
+        "arrival-window-ack",
+        "assistive-aid-latch",
+        "audiobook-pack",
+        "barn-shift-baton",
+        "calendar-local-lifeboat",
+        "caption-pipeline-gap",
+        "clipboard-explicit-history",
+        "contacts-change-sentinel",
+        "controller-session-tape",
+        "daily-ok-checkin",
+        "embroidery-hoop-gate",
+        "file-kind-probe",
+        "guest-access-receipt",
+        "hearing-aid-route-guard",
+        "homekit-configuration-snapshot",
+        "invoice-math-reopen",
+        "laser-svg-gate",
+        "mesh-preflight-gate",
+        "nfc-batch-readback",
+        "park-trace",
+        "password-csv-audit",
+        "pet-chip-registry-pulse",
+        "pet-recall-match",
+        "pet-tag-tap-test",
+        "pocket-epub-check",
+        "scan-history-tape",
+        "shared-list-claim",
+        "smart-feeder-ack",
+        "spotify-playlist-time-machine",
+        "stem-pack-gate",
+        "subtitle-gate",
+        "wallet-pass-archive"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop4",
+      "sha256": "sha256:433e0cb8d98e2f44e1636d31103d55f58fb8e78b3e13cd22ed4678627a26036b",
+      "slug": "idea-mining-loop-2026-08-10-round10-loop4",
+      "title": "Round 10, Loop 4 — Unowned Transitions, Household Handshakes, and Phone-Received Artifacts"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--round-9",
           "depth": 1,
           "text": "Idea Mining Loop — Round 9"
@@ -2584,5 +2852,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8"
+  "sourceHash": "sha256:9e53fb882397c4ebf432a5d53141e32d20ea8a94c8870cde3cd3413b8c534f6c"
 }

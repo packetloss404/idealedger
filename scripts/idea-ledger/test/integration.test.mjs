@@ -9,21 +9,21 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   const counts = result.artifacts['manifest.json'].counts;
   const quality = result.artifacts['quality-report.json'];
   assert.deepEqual(counts, {
-    ideas: 245,
-    dossiers: 16,
-    researchEdges: 257,
-    searchDocuments: 261,
+    ideas: 273,
+    dossiers: 17,
+    researchEdges: 294,
+    searchDocuments: 290,
   });
-  assert.equal(quality.counts.headingMatchedIdeas, 131);
-  assert.equal(quality.counts.mentionOnlyIdeas, 96);
+  assert.equal(quality.counts.headingMatchedIdeas, 161);
+  assert.equal(quality.counts.mentionOnlyIdeas, 94);
   assert.equal(quality.counts.dossierRefsWithoutMention, 16);
   assert.equal(quality.counts.ideasWithoutResearch, 11);
-  assert.equal(quality.counts.headingReferences, 138);
+  assert.equal(quality.counts.headingReferences, 175);
   assert.equal(quality.counts.mentionReferences, 103);
   assert.equal(quality.counts.unmappedReferences, 16);
-  assert.equal(quality.tagStats.assignments, 1148);
-  assert.equal(quality.tagStats.unique, 611);
-  assert.equal(result.snapshot.sourceFiles.length, 17);
+  assert.equal(quality.tagStats.assignments, 1288);
+  assert.equal(quality.tagStats.unique, 671);
+  assert.equal(result.snapshot.sourceFiles.length, 18);
 
   const provenanceByIdea = new Map(
     quality.researchProvenance.map((provenance) => [provenance.ideaId, provenance])
