@@ -1521,6 +1521,230 @@
     {
       "headings": [
         {
+          "anchor": "round-10-loop-3--owned-event-streams-and-distribution",
+          "depth": 1,
+          "text": "Round 10, Loop 3 — Owned Event Streams and Distribution"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "research-statistics",
+          "depth": 2,
+          "text": "Research statistics"
+        },
+        {
+          "anchor": "meta-analysis-after-loop-3",
+          "depth": 2,
+          "text": "Meta-analysis after Loop 3"
+        },
+        {
+          "anchor": "new-failure-patterns",
+          "depth": 3,
+          "text": "New failure patterns"
+        },
+        {
+          "anchor": "directions-to-stop-mining",
+          "depth": 3,
+          "text": "Directions to stop mining"
+        },
+        {
+          "anchor": "directions-still-worth-exploring",
+          "depth": 3,
+          "text": "Directions still worth exploring"
+        },
+        {
+          "anchor": "health-sync-canary",
+          "depth": 2,
+          "text": "Health Sync Canary"
+        },
+        {
+          "anchor": "pdf-form-reopen",
+          "depth": 2,
+          "text": "PDF Form Reopen"
+        },
+        {
+          "anchor": "chronology-patch",
+          "depth": 2,
+          "text": "Chronology Patch"
+        },
+        {
+          "anchor": "ics-import-gate",
+          "depth": 2,
+          "text": "ICS Import Gate"
+        },
+        {
+          "anchor": "soundtrack-check",
+          "depth": 2,
+          "text": "Soundtrack Check"
+        },
+        {
+          "anchor": "calendar-loop-triage",
+          "depth": 2,
+          "text": "Calendar Loop Triage"
+        },
+        {
+          "anchor": "vault-csv-audit",
+          "depth": 2,
+          "text": "Vault CSV Audit"
+        },
+        {
+          "anchor": "filekind-probe",
+          "depth": 2,
+          "text": "FileKind Probe"
+        },
+        {
+          "anchor": "requestoutbox",
+          "depth": 2,
+          "text": "RequestOutbox"
+        },
+        {
+          "anchor": "cueledger",
+          "depth": 2,
+          "text": "CueLedger"
+        },
+        {
+          "anchor": "shellresume",
+          "depth": 2,
+          "text": "ShellResume"
+        },
+        {
+          "anchor": "printoutbox",
+          "depth": 2,
+          "text": "PrintOutbox"
+        },
+        {
+          "anchor": "renderresume",
+          "depth": 2,
+          "text": "RenderResume"
+        },
+        {
+          "anchor": "scrollanchor",
+          "depth": 2,
+          "text": "ScrollAnchor"
+        },
+        {
+          "anchor": "pushtape",
+          "depth": 2,
+          "text": "PushTape"
+        },
+        {
+          "anchor": "repairserial",
+          "depth": 2,
+          "text": "RepairSerial"
+        },
+        {
+          "anchor": "commuterload-pair",
+          "depth": 2,
+          "text": "CommuterLoad Pair"
+        },
+        {
+          "anchor": "storageclose-ack",
+          "depth": 2,
+          "text": "StorageClose Ack"
+        },
+        {
+          "anchor": "pickupmodel-gate",
+          "depth": 2,
+          "text": "PickupModel Gate"
+        },
+        {
+          "anchor": "ev-session-pair",
+          "depth": 2,
+          "text": "EV Session Pair"
+        },
+        {
+          "anchor": "atm-dispense-witness",
+          "depth": 2,
+          "text": "ATM Dispense Witness"
+        },
+        {
+          "anchor": "parcelpickup-pair",
+          "depth": 2,
+          "text": "ParcelPickup Pair"
+        },
+        {
+          "anchor": "evidence-merges",
+          "depth": 2,
+          "text": "Evidence merges"
+        },
+        {
+          "anchor": "uploadtxn-and-captureoutbox--shareshelf",
+          "depth": 3,
+          "text": "UploadTxn and CaptureOutbox → ShareShelf"
+        },
+        {
+          "anchor": "calendartxn--calendar-lifeboat",
+          "depth": 3,
+          "text": "CalendarTxn → Calendar Lifeboat"
+        },
+        {
+          "anchor": "metadatatxn--photocleanup-undo-map",
+          "depth": 3,
+          "text": "MetadataTxn → PhotoCleanup Undo Map"
+        },
+        {
+          "anchor": "refundtender-readback--warranty-and-return-tracker",
+          "depth": 3,
+          "text": "RefundTender Readback → Warranty and Return Tracker"
+        },
+        {
+          "anchor": "payday-deposit-bridge--paystubpair",
+          "depth": 3,
+          "text": "Payday Deposit Bridge → PaystubPair"
+        },
+        {
+          "anchor": "rental-odo-readback--fillitright",
+          "depth": 3,
+          "text": "Rental Odo Readback → FillItRight"
+        },
+        {
+          "anchor": "loop-3-decision",
+          "depth": 2,
+          "text": "Loop 3 decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "atm-dispense-witness",
+        "calendar-local-lifeboat",
+        "calendar-loop-triage",
+        "commuter-benefit-load-pair",
+        "ev-session-pair",
+        "file-kind-probe",
+        "git-push-journal",
+        "health-sync-canary",
+        "ics-import-gate",
+        "media-render-resume",
+        "midi-cue-ledger",
+        "parcel-pickup-pair",
+        "password-csv-audit",
+        "pdf-form-reopen",
+        "photo-chronology-patch",
+        "photo-cleanup-undo-map",
+        "pickup-model-gate",
+        "print-job-outbox",
+        "rental-fuel-plan-calculator",
+        "repair-serial-check",
+        "safari-scroll-anchor",
+        "share-handoff-shelf",
+        "shortcuts-http-outbox",
+        "silent-video-audio-check",
+        "ssh-interruption-journal",
+        "storage-close-ack",
+        "timecard-paystub-pair",
+        "warranty-return-tracker"
+      ],
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+      "route": "/research/idea-mining-loop-2026-08-10-round10-loop3",
+      "sha256": "sha256:9a20f551f45aa86e1cb7ea9cb055df8a9802ec867d731de8b158e9994c86f50a",
+      "slug": "idea-mining-loop-2026-08-10-round10-loop3",
+      "title": "Round 10, Loop 3 — Owned Event Streams and Distribution"
+    },
+    {
+      "headings": [
+        {
           "anchor": "idea-mining-loop--round-9",
           "depth": 1,
           "text": "Idea Mining Loop — Round 9"
@@ -2360,5 +2584,5 @@
       "title": "Untitled micro-help network"
     }
   ],
-  "sourceHash": "sha256:46523ca43f08cb7e10acc75f1776986d609eb5ad95b04ac5b660ffcdd781fc3a"
+  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8"
 }

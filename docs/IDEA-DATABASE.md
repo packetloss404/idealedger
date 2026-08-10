@@ -25,6 +25,8 @@ Round ten, autonomous Loop 1, promoted **zero** ideas after 27 serious screens a
 
 Round ten, autonomous Loop 2, promoted **zero** builds after 29 serious screens. **DeferralGap** is parked for one paid concierge test because no exact consumer matcher surfaced, but it must use conservative cumulative matching and can only say a contribution is `not yet locatable`, never late or missing. **FormShield** failed on permission trust, setup, and demand; an exact $4.99 Safari app had recently existed but was delisted before release review. EOBBill, TipSlip Pair, TipPost, jobsite ScopeTap, and recoverable video were merged into **Medical Bill and EOB Auditor**, **Shift Pay Checker**, **TipCheck**, **Scope Request Budget**, and **CrashTape** instead of creating duplicates. The loop established that a local journal helps only when the app naturally owns the event stream and that two authoritative records still need a stable timing and aggregation invariant.
 
+Round ten, autonomous Loop 3, promoted **zero builds** after 29 more serious screens. **Health Sync Canary** is parked for one paid four-week behavior test because native Health lacks a proactive source-identifier inbox, but the app must never label a sample duplicate or wrong. Durable HTTP requests, Git pushes, media export recovery, and PDF field reopening all had truthful observable state, but exact focused products or the activity's host already own the recovery surface. **RepairSerial** had a stable identifier without authority over legitimate replacement; **CommuterLoad Pair** had recurring pain without a stable invariant across payroll, benefits, and transit systems. Seven rediscoveries were merged rather than duplicated. The loop established that phone-owned state still needs an unowned transaction surface and that transport acknowledgment is not applied state.
+
 ## Catalog
 
 | Idea | Status | Hackathon fit | Core reason | Research |
@@ -55,7 +57,7 @@ Round ten, autonomous Loop 2, promoted **zero** builds after 29 serious screens.
 | Family Caregiving Coordinator | Passed — market | Medium | Strong pain, crowded products, difficult multi-user onboarding | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | IEP Advocate | Passed — market | Low | High stakes and a wave of focused competitors | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Shift Pay Checker | Passed — market | High | Official tools and tip/paycheck trackers already cover the niche, while pooled-tip semantics defeat a generic invariant | [Pain mining](PAIN-MINING-DOSSIER.md), [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
-| Warranty and Return Tracker | Passed — market | High | Crowded, low urgency, and invasive inbox access | [Pain mining](PAIN-MINING-DOSSIER.md) |
+| Warranty and Return Tracker | Passed — market | High | Crowded and low urgency; refund initiation/readback is already in merchant, bank, and ReturnTrack workflows | [Pain mining](PAIN-MINING-DOSSIER.md), [Round-nine mining](IDEA-MINING-LOOP-2026-08-10-ROUND9.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | Consumer Case Agent | Passed — market | Low | Funded competitors plus telephony and adversarial reliability | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Quote Comparison | Passed — market | Medium | Needs deep expertise in one trade to be trustworthy | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Pre-Loss Home Inventory | Passed — market | High | Crowded and chronically postponed by users | [Pain mining](PAIN-MINING-DOSSIER.md) |
@@ -126,7 +128,7 @@ Round ten, autonomous Loop 2, promoted **zero** builds after 29 serious screens.
 | RoundTable | Passed — market | High | Exact meeting timers and a visible shared timer beat awkward same-phone passing | [Round-six audit](IDEA-MINING-LOOP-2026-08-09-ROUND6.md) |
 | RateReplay | Passed — market | Medium | Duplicate of the prior TOU meter; authoritative tariff maintenance and free utility tools remain fatal | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
 | PayeeLatch | Passed — market | High | AP-fraud tools are crowded; the trusted first baseline is manual and unchanged details do not prove ownership | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
-| FillItRight | Passed — market | High | Exact free rental-fuel calculators exist; disputed charges become an episodic evidence workflow | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
+| FillItRight | Passed — market | High | Free fuel calculators and guided rental evidence apps exist; dashboard observations cannot make unattended returns authoritative | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | Seller NetLock | Passed — market | Medium | Dense fee-calculator market, constant tables, and no phone-native moat | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
 | GroomScope | Passed — market | Medium | Grooming CRMs already own matting/shave/price-change consent and authoritative pet/service state | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
 | RideOffer Net | Passed — market | Low | Mystro, Para and Maxymo are exact; platform screen/notification access is fragile | [Round-seven mining](IDEA-MINING-LOOP-2026-08-09-ROUND7.md) |
@@ -224,18 +226,40 @@ Round ten, autonomous Loop 2, promoted **zero** builds after 29 serious screens.
 | GuestLink | Passed — market | High | iOS now displays native network QR codes and an exact app costs only $1.99 | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | FormShield | Passed — market | High | Permission trust and setup are fatal; exact paid Safari prior art was delisted with negligible visible traction | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | DraftKey | Passed — scope | Low | A keyboard sees only its own keystrokes, not the host document or complete edit history | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
-| Calendar Lifeboat | Passed — market | Medium | No dependable passive journal; iCloud already offers authoritative archive restore | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| Calendar Lifeboat | Passed — market | Medium | No dependable passive journal; iCloud and exact batch/restore tools own the surface | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | FileTxn | Passed — market | High | BatchRename already offers transaction history and cloud-provider commits remain bounded | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
-| ShareShelf | Passed — market | High | Yoink and Shelve It own local handoff staging, which still cannot prove destination delivery | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| ShareShelf | Passed — market | High | Generic shelves and destination-specific queues own staging; a target ID still is not durable destination state | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | HomeKit Snapshot | Passed — market | Medium | Controller for HomeKit owns backup and deeper recovery context | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | ShortcutVault | Passed — market | Medium | Manual exports cannot prove completeness; native sync and free backup workflows dominate | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
-| PhotoCleanup Undo Map | Passed — market | High | Recently Deleted and full photo cleaners already own the recovery behavior | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| PhotoCleanup Undo Map | Passed — market | High | Recently Deleted, cleaners, and metadata editors own undo; PhotoKit cannot promise full EXIF or iCloud propagation | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | StitchLatch | Passed — market | High | The phone knows taps rather than physical rows, and exact Lock Screen and Watch tools exist | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | DeferralGap | Parked | Medium | No exact matcher surfaced, but contribution timing and a repeated two-artifact ritual remain unproven | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
-| PaystubPair | Passed — market | High | ShiftWorth and the free DOL Timesheet app already cover paycheck verification | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| PaystubPair | Passed — market | High | ShiftWorth and DOL cover verification; bank deposits add asynchronous splits and reversals rather than a new invariant | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | ShipAdjust | Passed — market | Medium | Carrier invoice audit is an integration and gainshare market, not a phone screenshot utility | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | GigDeposit | Passed — market | Medium | Gridwise and Solo own sanctioned account reconciliation; screenshot state is incomplete | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | HotelFolio | Passed — market | Medium | Holds, deposits, credits, FX, and descriptors defeat simple matching; expense stacks own context | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| Health Sync Canary | Parked | High | A proactive source-identifier inbox is unowned, but paid retention and actionable alerts remain unproven | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| PDF Form Reopen | Passed — market | High | Acrobat and PDF Expert own the workflow; same-stack reopening cannot guarantee recipient rendering | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| Chronology Patch | Passed — market | High | Native Photos and metadata utilities own adjustment; missing metadata provides no original date | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| ICS Import Gate | Passed — market | High | CalAction, ICSKit, and a $0.99 exact importer already cover preview and conflict handling | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| Soundtrack Check | Passed — scope | Low | No dependable native-Camera completion wake; manual detection comes after the lost moment | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| Calendar Loop Triage | Passed — market | Medium | Visual duplicates can be legitimate or provider bugs; a private cleaner cannot choose deletion | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| Vault CSV Audit | Passed — market | Medium | One-off plaintext migration cannot detect omitted source fields and native credential exchange is replacing CSV | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| FileKind Probe | Passed — market | High | UTType, Quick Look, and free file tools own a rare diagnostic without a general fix | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| RequestOutbox | Passed — market | High | PocketHook already offers free App Intent HTTPS queue and retry; generic retry has unknown effects | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| CueLedger | Passed — market | High | MIDI incumbents own cue/reconnect workflows and transport acknowledgment is not applied patch state | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| ShellResume | Passed — market | Medium | Blink and Termius own continuity; disconnect leaves non-idempotent remote outcome unknown | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| PrintOutbox | Passed — market | Medium | Native Print Center owns the queue and platform completion does not prove physical output | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| RenderResume | Passed — market | High | Squeeze provides the exact interrupted compression resume for $7.99 lifetime | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| ScrollAnchor | Passed — market | High | Glida already remembers Safari position at $2.99/week or $9.99/year, and dynamic pages limit semantic anchors | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| PushTape | Passed — market | High | Working Copy and GitSync own offline commit, background push, retry, and transfer logs | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| RepairSerial | Passed — market | High | Serial equality cannot interpret permitted replacement and provider repair records are authoritative | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| CommuterLoad Pair | Passed — market | Medium | Payroll, provider order, and transit load use incompatible timing and identifiers; host apps own fragments | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| StorageClose Ack | Passed — market | Medium | The facility account owns closure and current operator flows already send confirmation | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| PickupModel Gate | Passed — market | High | Exterior label equality can conceal swapped contents and creates false confidence | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| EV Session Pair | Passed — market | Medium | Charger energy and battery delta are physically unequal; network app owns session state | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| ATM Dispense Witness | Passed — scope | Low | ATM journals are authoritative, the app is discovered after failure, and recording risks sensitive context | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| ParcelPickup Pair | Passed — market | Medium | Carrier and locker handshake owns custody; a second scanner is useless when the parcel is absent | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 
 ## Current shortlist to preserve
 

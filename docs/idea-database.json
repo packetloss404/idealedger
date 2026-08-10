@@ -326,14 +326,14 @@
     {
       "id": "warranty-return-tracker",
       "name": "Warranty and Return Tracker",
-      "aliases": [],
+      "aliases": ["RefundTender Readback"],
       "status": "passed_market",
       "hackathon_fit": "high",
       "one_liner": "Capture receipts and purchases automatically, then surface return, price-adjustment, and warranty deadlines before they expire.",
-      "decision_reason": "The feature set is heavily copied, urgency is low between purchases, and inbox access creates a high trust burden.",
+      "decision_reason": "The feature set is heavily copied, urgency is low between purchases, and inbox access creates a high trust burden. Merchant receipts and bank apps already expose refund initiation and settlement, while ReturnTrack and exact tools own the delayed tracking workflow.",
       "resurrection_trigger": "Automatic measurable savings that consistently exceed the fee without requiring invasive inbox access.",
       "tags": ["shopping", "receipts", "warranty"],
-      "research": ["docs/PAIN-MINING-DOSSIER.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md"]
+      "research": ["docs/PAIN-MINING-DOSSIER.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
     },
     {
       "id": "consumer-case-agent",
@@ -1370,14 +1370,14 @@
     {
       "id": "rental-fuel-plan-calculator",
       "name": "FillItRight",
-      "aliases": ["Rental Fuel Decision"],
+      "aliases": ["Rental Fuel Decision", "Rental Odo Readback"],
       "status": "passed_market",
       "hackathon_fit": "high",
       "one_liner": "At rental pickup, compare prepaid fuel with self-refill from the tank level, quoted plan, and local gas price.",
-      "decision_reason": "GasCap and RentRight FillItRight already provide the exact calculator for free. The expensive remaining failure is a disputed post-return fuel charge, which becomes another episodic evidence and support workflow.",
+      "decision_reason": "GasCap and RentRight FillItRight already provide the exact calculator for free. Proofr, door.lease, and SnapProof already guide fuel, odometer, and condition evidence; dashboard observations still cannot make an unattended return authoritative.",
       "resurrection_trigger": "A rental partner supplies live contract/fuel state and a charge-dispute action unavailable in current free calculators.",
-      "tags": ["rental-cars", "fuel", "travel", "calculator"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md"]
+      "tags": ["rental-cars", "fuel", "odometer", "travel", "calculator", "evidence"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
     },
     {
       "id": "reseller-net-floor-calculator",
@@ -2546,14 +2546,14 @@
     {
       "id": "calendar-local-lifeboat",
       "name": "Calendar Lifeboat",
-      "aliases": ["EventKit Snapshot Recovery"],
+      "aliases": ["EventKit Snapshot Recovery", "CalendarTxn"],
       "status": "passed_market",
       "hackathon_fit": "medium",
       "one_liner": "Take local EventKit snapshots and later compare or recreate a limited supported subset of missing events.",
-      "decision_reason": "A consumer app lacks a dependable continuous background journal, recurrence and attendee restoration can duplicate or resend invitations, and Apple already offers free iCloud Calendar archive restoration.",
+      "decision_reason": "A consumer app lacks a dependable continuous background journal, recurrence and attendee restoration can duplicate or resend invitations, and Apple already offers free iCloud Calendar archive restoration. EventKit batch commit verifies only the local database, while Backup Calendar, Seamless Calendar, and DupliCal own batch and restore surfaces.",
       "resurrection_trigger": "A sanctioned continuous change journal supports lossless restore of recurrence, attendees, and provider identity without duplicates or invitations.",
       "tags": ["calendar", "backup", "recovery", "eventkit", "native-competition"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
     },
     {
       "id": "transactional-file-operations",
@@ -2570,14 +2570,14 @@
     {
       "id": "share-handoff-shelf",
       "name": "ShareShelf",
-      "aliases": ["Crash-Safe Share Staging"],
+      "aliases": ["Crash-Safe Share Staging", "UploadTxn", "CaptureOutbox"],
       "status": "passed_market",
       "hackathon_fit": "high",
       "one_liner": "Copy a shared item into local custody before handing it to an unreliable share-sheet destination.",
-      "decision_reason": "The app can preserve its staged copy but cannot infer destination delivery or acceptance. Yoink and Shelve It already sell the exact share-extension shelf and local backup behavior for $3.99 to $5.99.",
+      "decision_reason": "The app can preserve its staged copy and a target-returned ID but cannot infer destination delivery without a target query. Yoink, Shelve It, S3 Client, Buck-It, Instant Note, Funnel, and Drafts already own generic shelves or destination-specific durable queues.",
       "resurrection_trigger": "A high-value named destination exposes signed acknowledgment so the product can distinguish staged from destination-confirmed state.",
       "tags": ["share-sheet", "files", "handoff", "recovery", "local-first"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
     },
     {
       "id": "homekit-configuration-snapshot",
@@ -2606,14 +2606,14 @@
     {
       "id": "photo-cleanup-undo-map",
       "name": "PhotoCleanup Undo Map",
-      "aliases": ["Reversible Photo Cleanup"],
+      "aliases": ["Reversible Photo Cleanup", "MetadataTxn"],
       "status": "passed_market",
       "hackathon_fit": "high",
       "one_liner": "Journal PhotoKit asset identifiers, album membership, and keep or delete choices for cleanup operations the app owns.",
-      "decision_reason": "Photos already provides Recently Deleted, while Photo Cleaner, Reclean, Purgo, and other cleaners include undo and app-trash behavior. This is a feature of a full cleaner, not an independent utility.",
+      "decision_reason": "Photos already provides Recently Deleted, while Photo Cleaner, Reclean, Purgo, Metapho, and Batch Metadata Editor include undo or batch-edit behavior. PhotoKit can refetch supported fields the app changed, not promise full EXIF identity or iCloud propagation; this remains a host-editor feature.",
       "resurrection_trigger": "A paid cleanup product demonstrates exact identity and album restoration across 500 iCloud assets with a distribution wedge beyond existing cleaners.",
       "tags": ["photos", "cleanup", "undo", "albums", "recovery"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
     },
     {
       "id": "craft-row-checkpoint",
@@ -2642,14 +2642,14 @@
     {
       "id": "timecard-paystub-pair",
       "name": "PaystubPair",
-      "aliases": ["Timecard Paycheck Check"],
+      "aliases": ["Timecard Paycheck Check", "Payday Deposit Bridge"],
       "status": "passed_market",
       "hackathon_fit": "high",
       "one_liner": "Compare employer-approved timecard hours and rates with paystub lines and show arithmetic differences.",
-      "decision_reason": "ShiftWorth sells Verify and Compare Shifts for exactly $7.99, and the Department of Labor supplies a free Timesheet app. The basic timecard-to-paystub verification job is already served without a new invariant.",
+      "decision_reason": "ShiftWorth sells Verify and Compare Shifts for exactly $7.99, and the Department of Labor supplies a free Timesheet app. Extending from paystub to bank deposit adds asynchronous splits, reversals, early-pay policies, and fallback checks rather than a stable new invariant.",
       "resurrection_trigger": "A narrow wage structure achieves zero false discrepancy across 100 fixtures and users prepay after seeing the named apps.",
       "tags": ["payroll", "timecards", "workers", "paychecks", "reconciliation"],
-      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md", "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
     },
     {
       "id": "carrier-adjustment-diff",
@@ -2686,6 +2686,270 @@
       "resurrection_trigger": "One hundred real stays produce less than one percent false mismatch and leisure travelers prepay despite general receipt matchers.",
       "tags": ["travel", "hotels", "folios", "credit-cards", "reconciliation"],
       "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"]
+    },
+    {
+      "id": "health-sync-canary",
+      "name": "Health Sync Canary",
+      "aliases": ["Health Source Exception Inbox"],
+      "status": "parked",
+      "hackathon_fit": "high",
+      "one_liner": "Observe newly authorized HealthKit samples and show exact overlaps or newly contributing source identifiers without choosing the correct record.",
+      "decision_reason": "Apple Health exposes sources and priorities but lacks a proactive source-identifier inbox; Athalyze is an adjacent multi-device aggregator rather than an exact canary. The remaining wedge is narrow and unproven because overlap is not duplicate truth and observer delivery is opportunistic.",
+      "resurrection_trigger": "Fifteen multi-device users enter a four-week paid test, at least four prepay $7.99, at least ten retain alerts, and at least five alerts cause a concrete source or settings investigation with no duplicate or wrongness labels.",
+      "tags": ["healthkit", "fitness", "data-sources", "duplicates", "exceptions"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "pdf-form-reopen",
+      "name": "PDF Form Reopen",
+      "aliases": ["Saved PDF Field Reopen Check"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Reopen shared PDF bytes, enumerate populated fields and annotations, render locally, and optionally flatten a visual copy.",
+      "decision_reason": "Free Acrobat mobile and PDF Expert already fill, sign, and flatten forms. PDFKit cannot guarantee another recipient renderer or semantic completeness, and checking a file through the same rendering family is not independent verification.",
+      "resurrection_trigger": "An independent parser catches every planted lost-field case across 40 real forms with zero false passes and target users prepay after using Acrobat and PDF Expert.",
+      "tags": ["pdf", "forms", "verification", "documents", "sharing"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "photo-chronology-patch",
+      "name": "Chronology Patch",
+      "aliases": ["Photo Date Offset Repair"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Compare PhotoKit creation date with embedded EXIF or filename date and preview a deterministic batch offset.",
+      "decision_reason": "Photos already adjusts and reverts date, time, and location, while ExifSmith and a large metadata utility market cover batch repair. Missing source metadata leaves no authoritative date and migration demand is burst-like.",
+      "resurrection_trigger": "A migration partner distributes the tool and a 1,000-file corpus recovers at least 95 percent of dates deterministically from embedded source metadata.",
+      "tags": ["photos", "metadata", "dates", "migration", "repair"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "ics-import-gate",
+      "name": "ICS Import Gate",
+      "aliases": ["Calendar File Preview"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Share an ICS file, preview exact event count, UID, timezone, and conflicts, then selectively import to EventKit.",
+      "decision_reason": "CalAction already includes share import and conflict handling, ICSKit validates and imports, and ICS2Calendar costs $0.99. Recurrence and timezone ambiguity remain while the price ceiling is poor.",
+      "resurrection_trigger": "Current incumbents disappear or a provider embeds the workflow with every schedule download and pays for a specialized import contract.",
+      "tags": ["calendar", "ics", "import", "eventkit", "files"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "silent-video-audio-check",
+      "name": "Soundtrack Check",
+      "aliases": ["Silent Video Detector"],
+      "status": "passed_scope",
+      "hackathon_fit": "low",
+      "one_liner": "Inspect a newly selected video for an audio track and measurable samples and report only track presence or absence.",
+      "decision_reason": "PhotoKit change observation is not a dependable immediate background trigger after native Camera capture, so a manual check occurs after the irreplaceable moment. Prevention requires replacing Camera or a new platform hook, and free MediaInfo already inspects tracks.",
+      "resurrection_trigger": "iOS exposes a sanctioned native-camera completion trigger with dependable background delivery, or the product becomes a full camera with a separate wedge.",
+      "tags": ["video", "audio", "camera", "detection", "platform-blocked"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "calendar-loop-triage",
+      "name": "Calendar Loop Triage",
+      "aliases": ["Calendar Duplicate Inspector"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Cluster visually duplicated calendar or reminder records and show source and recurrence metadata before any deletion.",
+      "decision_reason": "Native account controls and duplicate cleaners already exist, while visual duplicates may be sync loops, Reminder presentation, legitimate recurrence, or multiple subscriptions. A private cleaner cannot authoritatively choose deletion.",
+      "resurrection_trigger": "A reproducible provider-specific duplication bug exposes a safe non-destructive repair API and affected users prepay for that exact fix.",
+      "tags": ["calendar", "duplicates", "sync", "eventkit", "diagnostics"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "password-csv-audit",
+      "name": "Vault CSV Audit",
+      "aliases": ["Password Migration CSV Check"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Inspect a user-selected password-manager CSV for expected columns, empty values, duplicate keys, and malformed target-schema rows.",
+      "decision_reason": "The tool cannot detect fields omitted by the exporter, handles extremely sensitive plaintext, and serves a one-off migration. Native direct credential exchange is replacing CSV and password managers own the trustworthy migration surface.",
+      "resurrection_trigger": "A credential manager embeds the audit in its sanctioned migration workflow and supplies exact source and target schemas without retaining plaintext.",
+      "tags": ["passwords", "csv", "migration", "privacy", "security"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "file-kind-probe",
+      "name": "FileKind Probe",
+      "aliases": ["File Type Reality Check"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Compare a shared file's extension, UTI, magic bytes, container parse, and Quick Look result.",
+      "decision_reason": "UTType and Quick Look own the platform surface, while free file-type identifiers, MediaInfo, archive tools, and viewers already exist. The rare diagnostic cannot repair system-wide Quick Look failures or proprietary formats.",
+      "resurrection_trigger": "One high-value format has a deterministic repair action that existing viewers and format tools do not provide.",
+      "tags": ["files", "formats", "diagnostics", "uti", "quick-look"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "shortcuts-http-outbox",
+      "name": "RequestOutbox",
+      "aliases": ["Shortcuts HTTP Outbox"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Let a Shortcut durably queue an HTTP request and later report transport outcome and response without claiming the business effect occurred.",
+      "decision_reason": "PocketHook already combines arbitrary HTTPS, App Intents, an offline queue, and automatic retry for free, while Pushcut covers adjacent actions. Generic retry is unsafe for non-idempotent requests and a timeout can leave remote outcome unknowable.",
+      "resurrection_trigger": "A high-frequency API vertical enforces idempotency, 1,000 interruption fixtures create zero duplicate effects or false applied labels, and users prepay after comparing PocketHook.",
+      "tags": ["shortcuts", "http", "outbox", "automation", "recovery"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "midi-cue-ledger",
+      "name": "CueLedger",
+      "aliases": ["MIDI Show Cue Recovery"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Journal selected MIDI show cues and dispatch state, then expose the last cue sent and an explicit resend after reconnect.",
+      "decision_reason": "MIDI send and BLE transport acknowledgment do not prove a rig applied the patch. MIDI Set Lister, Set List Maker, and Setlist MIDI already own song and section cue dispatch, reconnection, and program changes for $4.99 to $19.99.",
+      "resurrection_trigger": "A named hardware family exposes readable current-patch state, reconnect fixtures yield zero wrong green states, and working musicians prepay after incumbent comparison.",
+      "tags": ["midi", "music", "performance", "cues", "reconnect"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "ssh-interruption-journal",
+      "name": "ShellResume",
+      "aliases": ["SSH Command Outcome Journal"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Journal typed SSH commands and received output, then show response complete or remote outcome unknown after reconnect.",
+      "decision_reason": "A disconnect cannot reveal whether a non-idempotent remote command completed, so automatic replay is unsafe. Blink and Termius already own Mosh continuity, history, and session logs inside the actual SSH client.",
+      "resurrection_trigger": "A specific remote tool exposes idempotent job IDs and distributes an embedded mobile client with authoritative outcome queries.",
+      "tags": ["ssh", "terminal", "recovery", "developers", "network"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "print-job-outbox",
+      "name": "PrintOutbox",
+      "aliases": ["Recoverable Phone Print Job"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Stage a printable item through AirPrint errors and retain bounded prepared, submitted, platform-completed, error, or unknown states.",
+      "decision_reason": "UIKit completion does not prove correct paper emerged, and native Print Center already displays and cancels the system queue. The missing truth belongs to printer firmware and vendor status.",
+      "resurrection_trigger": "A printer vendor supplies terminal job, page, and consumable status with an integration and requests the recovery UI.",
+      "tags": ["printing", "airprint", "outbox", "recovery", "files"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "media-render-resume",
+      "name": "RenderResume",
+      "aliases": ["Interruption-Safe Media Export"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Persist a media transform recipe and segmented output so a compression or export queue can reconcile after interruption.",
+      "decision_reason": "Squeeze costs exactly $7.99 lifetime and already supports batch compression, app switches, calls, lock-screen progress, and interrupted-job resume, while iVideo also provides a background export queue.",
+      "resurrection_trigger": "A proprietary editor exposes a stable project interchange and users pay specifically for recovery outside the host editor.",
+      "tags": ["video", "compression", "export", "recovery", "background"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "safari-scroll-anchor",
+      "name": "ScrollAnchor",
+      "aliases": ["Safari Reading Position Recovery"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Store a per-site Safari scroll ratio, nearby text quote, and DOM path, then restore the best supported anchor after reload.",
+      "decision_reason": "Glida already offers per-site Remember Position at $2.99 per week or $9.99 per year, while dynamic pagination, ads, personalization, virtual lists, shadow DOM, and frames limit semantic restoration and add extension permissions.",
+      "resurrection_trigger": "A narrow site class defeats Glida and target users prepay after side-by-side testing on their actual reading workflow.",
+      "tags": ["safari", "reading", "scroll", "recovery", "extension"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "git-push-journal",
+      "name": "PushTape",
+      "aliases": ["Git Transaction Journal"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Persist a local Git commit and queued push, then verify whether the remote ref equals that commit.",
+      "decision_reason": "Git object IDs offer strong authority, but Working Copy already commits offline, pushes, runs through Shortcuts, continues background operations, and records transfer logs, while GitSync retries on network return.",
+      "resurrection_trigger": "A consumer Git-backed workflow needs an embedded one-button transaction surface that the established iOS Git clients cannot serve.",
+      "tags": ["git", "developers", "sync", "recovery", "transactions"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "repair-serial-check",
+      "name": "RepairSerial",
+      "aliases": ["Repair Intake Serial Pair"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "At repair intake and return, compare a visible device serial with the provider ticket and report same, different, or unreadable.",
+      "decision_reason": "A serial identifies a device or enclosure, not whether replacement was allowed or internal parts and data were preserved. Apple repair history and repair-shop systems own the authoritative service record, while consumer discovery occurs after rare failures.",
+      "resurrection_trigger": "A provider distributes the workflow with explicit old-to-replacement serial mapping, usable same-unit terms, and real prepayment before intake.",
+      "tags": ["repairs", "serial-number", "devices", "handoff", "consumer"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "commuter-benefit-load-pair",
+      "name": "CommuterLoad Pair",
+      "aliases": ["Commuter Benefit Load Timeline"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Compare visible payroll deduction, benefits-provider order or balance, and transit-card load stages on payday or load day.",
+      "decision_reason": "Payroll, benefit orders, and transit loads use different calendars, aggregation, reversals, migrations, and identifiers, so no stable invariant exists. WageWorks, HealthEquity, Edenred, Clipper, and OMNY already expose authoritative fragments; screenshots create only a private timeline.",
+      "resurrection_trigger": "One provider and transit pair expose sanctioned dated events and settlement semantics, automatic matching exceeds 90 percent for three cycles, and affected commuters prepay.",
+      "tags": ["commuting", "benefits", "payroll", "transit", "reconciliation"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "storage-close-ack",
+      "name": "StorageClose Ack",
+      "aliases": ["Storage Move-Out Acknowledgment"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Capture an empty unlocked storage unit and ask the facility to acknowledge that the rental account is closed.",
+      "decision_reason": "The facility account and closure receipt are authoritative, and operator platforms already put verification and confirmation in the host move-out flow. A third-party app cannot close the account or compel acknowledgment.",
+      "resurrection_trigger": "Facilities distribute the workflow and write acknowledgment directly into their property-management system, which becomes a B2B product.",
+      "tags": ["storage", "move-out", "acknowledgment", "rentals", "host-feature"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "pickup-model-gate",
+      "name": "PickupModel Gate",
+      "aliases": ["Electronics Pickup Model Check"],
+      "status": "passed_market",
+      "hackathon_fit": "high",
+      "one_liner": "Compare an electronics order's visible model or SKU with the exterior box label before leaving pickup.",
+      "decision_reason": "Retailer SKU, UPC, manufacturer model, serial, and contents are different namespaces, and a correct exterior label can conceal a swap or empty box. A green match creates false confidence; the retailer scan and opening with an associate are stronger.",
+      "resurrection_trigger": "A retailer supplies authoritative identifier mappings and a tamper-resistant contents check that cannot produce green on swapped-box fixtures.",
+      "tags": ["retail", "electronics", "pickup", "identifiers", "false-assurance"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "ev-session-pair",
+      "name": "EV Session Pair",
+      "aliases": ["EV Charge Receipt Check"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Compare charger session energy and cost with vehicle state-of-charge delta at unplug.",
+      "decision_reason": "The proposed equality is physically invalid because delivered energy includes losses, conditioning, and estimation. Charger meter and session records are authoritative for billing, and session-still-running alerts belong in the charging network app.",
+      "resurrection_trigger": "A sanctioned charger API exposes definitive session termination and billing anomalies independent of battery state and distributes the product.",
+      "tags": ["ev", "charging", "energy", "receipts", "false-invariant"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "atm-dispense-witness",
+      "name": "ATM Dispense Witness",
+      "aliases": ["Cash Not Dispensed Incident"],
+      "status": "passed_scope",
+      "hackathon_fit": "low",
+      "one_liner": "Record ATM terminal, time, screen outcome, cash received, and bank debit after a dispense failure.",
+      "decision_reason": "ATM journals, cash reconciliation, and operator evidence are authoritative. The product is discovered after failure, risks recording sensitive context, and adds little beyond the receipt, Notes, and the bank dispute process.",
+      "resurrection_trigger": "A bank or ATM operator distributes a sanctioned incident capture that links directly to the terminal journal and dispute record.",
+      "tags": ["atm", "banking", "cash", "disputes", "incident"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
+    },
+    {
+      "id": "parcel-pickup-pair",
+      "name": "ParcelPickup Pair",
+      "aliases": ["Access Point Parcel Match"],
+      "status": "passed_market",
+      "hackathon_fit": "medium",
+      "one_liner": "Compare an expected tracking ID with a parcel label during access-point or locker collection.",
+      "decision_reason": "Carrier scans and locker-release state establish custody. UPS, Amazon Locker, Parcel Pending, and ParcelPoint already own the code or barcode handshake; the app cannot help when the parcel is absent and is redundant when present.",
+      "resurrection_trigger": "Host workflows release wrong tracking IDs at meaningful frequency and a carrier or locker partner exposes a sanctioned acknowledgment gap.",
+      "tags": ["parcels", "pickup", "tracking", "lockers", "host-feature"],
+      "research": ["docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md"]
     }
   ]
 }

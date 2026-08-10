@@ -1,15 +1,15 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 15,
-    "headingMatchedIdeas": 107,
-    "headingReferences": 110,
-    "ideas": 223,
+    "dossiers": 16,
+    "headingMatchedIdeas": 131,
+    "headingReferences": 138,
+    "ideas": 245,
     "ideasWithoutResearch": 11,
-    "mentionOnlyIdeas": 97,
+    "mentionOnlyIdeas": 96,
     "mentionReferences": 103,
-    "multiRefIdeas": 16,
-    "researchEdges": 229,
+    "multiRefIdeas": 21,
+    "researchEdges": 257,
     "unmappedReferences": 16
   },
   "researchProvenance": [
@@ -118,6 +118,22 @@
             "text": "CancelBy"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "atm-dispense-witness",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "atm-dispense-witness",
+            "depth": 2,
+            "text": "ATM Dispense Witness"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -345,6 +361,32 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "calendartxn--calendar-lifeboat",
+            "depth": 3,
+            "text": "CalendarTxn → Calendar Lifeboat"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "calendar-loop-triage",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "calendar-loop-triage",
+            "depth": 2,
+            "text": "Calendar Loop Triage"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
         }
       ]
     },
@@ -520,6 +562,22 @@
             "text": "COI Pocket"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "commuter-benefit-load-pair",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "commuterload-pair",
+            "depth": 2,
+            "text": "CommuterLoad Pair"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -897,6 +955,22 @@
       ]
     },
     {
+      "ideaId": "ev-session-pair",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "ev-session-pair",
+            "depth": 2,
+            "text": "EV Session Pair"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "event-coverage-extension-ack",
       "quality": "heading",
       "references": [
@@ -1030,6 +1104,22 @@
             "text": "FieldShot Gate"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "file-kind-probe",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "filekind-probe",
+            "depth": 2,
+            "text": "FileKind Probe"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -1187,6 +1277,22 @@
       ]
     },
     {
+      "ideaId": "git-push-journal",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "pushtape",
+            "depth": 2,
+            "text": "PushTape"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "grooming-scope-approval",
       "quality": "mention",
       "references": [
@@ -1247,6 +1353,22 @@
             "text": "CuePulse"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "health-sync-canary",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "health-sync-canary",
+            "depth": 2,
+            "text": "Health Sync Canary"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -1320,6 +1442,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "ics-import-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "ics-import-gate",
+            "depth": 2,
+            "text": "ICS Import Gate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1580,6 +1718,22 @@
       ]
     },
     {
+      "ideaId": "media-render-resume",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "renderresume",
+            "depth": 2,
+            "text": "RenderResume"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "medical-bill-auditor",
       "quality": "heading",
       "references": [
@@ -1647,6 +1801,22 @@
             "text": "Untitled micro-help network"
           },
           "path": "docs/UNTITLED-MICRO-HELP-NETWORK.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "midi-cue-ledger",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "cueledger",
+            "depth": 2,
+            "text": "CueLedger"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -1804,6 +1974,22 @@
       ]
     },
     {
+      "ideaId": "parcel-pickup-pair",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "parcelpickup-pair",
+            "depth": 2,
+            "text": "ParcelPickup Pair"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "parental-control-safe-channel",
       "quality": "mention",
       "references": [
@@ -1848,6 +2034,38 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "password-csv-audit",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "vault-csv-audit",
+            "depth": 2,
+            "text": "Vault CSV Audit"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "pdf-form-reopen",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "pdf-form-reopen",
+            "depth": 2,
+            "text": "PDF Form Reopen"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1932,6 +2150,22 @@
       ]
     },
     {
+      "ideaId": "photo-chronology-patch",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "chronology-patch",
+            "depth": 2,
+            "text": "Chronology Patch"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "photo-cleanup-undo-map",
       "quality": "heading",
       "references": [
@@ -1943,6 +2177,32 @@
             "text": "PhotoCleanup Undo Map"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "metadatatxn--photocleanup-undo-map",
+            "depth": 3,
+            "text": "MetadataTxn → PhotoCleanup Undo Map"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "pickup-model-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "pickupmodel-gate",
+            "depth": 2,
+            "text": "PickupModel Gate"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -2033,6 +2293,22 @@
             "text": "Reserve concept: primary-source receipts for news"
           },
           "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "print-job-outbox",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "printoutbox",
+            "depth": 2,
+            "text": "PrintOutbox"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -2158,13 +2434,23 @@
     },
     {
       "ideaId": "rental-fuel-plan-calculator",
-      "quality": "mention",
+      "quality": "heading",
       "references": [
         {
           "dossierSlug": "idea-mining-loop-2026-08-09-round7",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "rental-odo-readback--fillitright",
+            "depth": 3,
+            "text": "Rental Odo Readback → FillItRight"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2221,6 +2507,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "repair-serial-check",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "repairserial",
+            "depth": 2,
+            "text": "RepairSerial"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2393,6 +2695,22 @@
             "text": "FormShield"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "safari-scroll-anchor",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "scrollanchor",
+            "depth": 2,
+            "text": "ScrollAnchor"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -2587,6 +2905,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "uploadtxn-and-captureoutbox--shareshelf",
+            "depth": 3,
+            "text": "UploadTxn and CaptureOutbox → ShareShelf"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2629,6 +2957,22 @@
       ]
     },
     {
+      "ideaId": "shortcuts-http-outbox",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "requestoutbox",
+            "depth": 2,
+            "text": "RequestOutbox"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "shortcuts-version-vault",
       "quality": "heading",
       "references": [
@@ -2640,6 +2984,22 @@
             "text": "ShortcutVault"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "silent-video-audio-check",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "soundtrack-check",
+            "depth": 2,
+            "text": "Soundtrack Check"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -2697,6 +3057,22 @@
       ]
     },
     {
+      "ideaId": "ssh-interruption-journal",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "shellresume",
+            "depth": 2,
+            "text": "ShellResume"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "status-led-color-reader",
       "quality": "heading",
       "references": [
@@ -2708,6 +3084,22 @@
             "text": "StatusColor"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "storage-close-ack",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "storageclose-ack",
+            "depth": 2,
+            "text": "StorageClose Ack"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -2776,6 +3168,16 @@
             "text": "PaystubPair"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "payday-deposit-bridge--paystubpair",
+            "depth": 3,
+            "text": "Payday Deposit Bridge → PaystubPair"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
         }
       ]
@@ -3070,8 +3472,18 @@
     },
     {
       "ideaId": "warranty-return-tracker",
-      "quality": "unmapped",
+      "quality": "heading",
       "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round10-loop3",
+          "heading": {
+            "anchor": "refundtender-readback--warranty-and-return-tracker",
+            "depth": 3,
+            "text": "RefundTender Readback → Warranty and Return Tracker"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
+          "quality": "heading"
+        },
         {
           "dossierSlug": "idea-mining-loop-2026-08-10-round9",
           "heading": null,
@@ -3160,9 +3572,9 @@
     "aac",
     "accelerometer",
     "accessories",
-    "acknowledgment",
     "adult",
     "agriculture",
+    "airprint",
     "alarmkit",
     "albums",
     "amazon",
@@ -3175,6 +3587,7 @@
     "apps",
     "artists",
     "assets",
+    "atm",
     "audible",
     "audio-analysis",
     "audio-route",
@@ -3185,10 +3598,10 @@
     "autism",
     "auto",
     "autofill",
-    "automation",
     "automations",
     "autoscroll",
     "av",
+    "background",
     "baggage",
     "bakeries",
     "bank-details",
@@ -3197,7 +3610,6 @@
     "barns",
     "beauty",
     "before-after",
-    "benefits",
     "bidding",
     "ble",
     "bluetooth-pedal",
@@ -3232,8 +3644,10 @@
     "coffee",
     "color-vision",
     "commerce",
+    "commuting",
     "comparison",
     "composites",
+    "compression",
     "connectivity",
     "consent",
     "consignment",
@@ -3254,11 +3668,12 @@
     "crochet",
     "cross-device",
     "crowdsourcing",
-    "csv",
     "custom-goods",
     "customer-service",
     "cycling",
     "data",
+    "data-sources",
+    "dates",
     "deadlines",
     "deaf",
     "deafblind",
@@ -3266,6 +3681,7 @@
     "decision-making",
     "delisting",
     "deployment",
+    "detection",
     "detention",
     "diabetes",
     "diagnosis",
@@ -3273,6 +3689,7 @@
     "dispatch",
     "display",
     "displays",
+    "disputes",
     "dj",
     "drafts",
     "drain-plug",
@@ -3286,6 +3703,7 @@
     "ecommerce",
     "electrical",
     "electricity",
+    "electronics",
     "embroidery",
     "emergency-preparedness",
     "engraving",
@@ -3294,13 +3712,15 @@
     "esim",
     "estimates",
     "etsy",
-    "eventkit",
+    "exceptions",
     "exif",
     "expiry",
-    "extension",
+    "export",
     "fabric",
     "facilitation",
     "fact-checking",
+    "false-assurance",
+    "false-invariant",
     "familycontrols",
     "fashion",
     "fasteners",
@@ -3319,7 +3739,7 @@
     "food",
     "food-allergies",
     "food-logging",
-    "forms",
+    "formats",
     "formula",
     "fragile-cargo",
     "fraud",
@@ -3330,6 +3750,7 @@
     "geofencing",
     "geometry",
     "gift-cards",
+    "git",
     "glp-1",
     "glyphs",
     "green-button",
@@ -3341,6 +3762,7 @@
     "hardware-keys",
     "hardware-state",
     "health",
+    "healthkit",
     "hearing",
     "hearing-aids",
     "high-stakes",
@@ -3350,13 +3772,17 @@
     "homekit",
     "horses",
     "hospitality",
-    "host-feature",
     "hotels",
     "households",
     "housing",
+    "http",
     "hvac",
+    "ics",
     "id3",
+    "identifiers",
+    "import",
     "inbox",
+    "incident",
     "inspections",
     "installation",
     "interference",
@@ -3384,6 +3810,7 @@
     "local-network",
     "localization",
     "lock-screen",
+    "lockers",
     "logistics",
     "luggage",
     "magnetometer",
@@ -3398,28 +3825,32 @@
     "measurements",
     "meetings",
     "meters",
+    "midi",
     "mixing",
     "mobile",
     "mobile-services",
+    "move-out",
     "musicians",
     "myfitnesspal",
     "navigation",
     "negotiation",
     "news",
     "nutrition",
+    "odometer",
     "offers",
     "on-device",
     "orders",
     "organization",
     "overtime",
     "painting",
+    "parcels",
     "parental-controls",
     "parents",
     "parsing",
     "parts",
+    "passwords",
     "paychecks",
     "pedals",
-    "performance",
     "permissions",
     "personal-crm",
     "pesticides",
@@ -3448,9 +3879,10 @@
     "public-speaking",
     "queue",
     "quick-entry",
+    "quick-look",
     "quotes",
     "re-entry",
-    "reading",
+    "reconnect",
     "redaction",
     "reference",
     "regulation",
@@ -3458,8 +3890,9 @@
     "rekordbox",
     "remote-work",
     "rename",
-    "rentals",
     "renters",
+    "repair",
+    "repairs",
     "replacement-parts",
     "replenishment",
     "reporting",
@@ -3474,7 +3907,6 @@
     "routing",
     "run-of-show",
     "saas",
-    "safari",
     "safety-truth",
     "saved-phrases",
     "savings",
@@ -3482,7 +3914,9 @@
     "schedules",
     "school",
     "scope-creep",
+    "scroll",
     "seller-tools",
+    "serial-number",
     "serial-numbers",
     "service",
     "setlists",
@@ -3497,14 +3931,17 @@
     "spam",
     "sponsorships",
     "spotify",
+    "ssh",
     "status",
     "stencil",
+    "storage",
     "streaming",
     "subscriptions",
     "takeout",
     "taxes",
     "teardown",
     "temperature",
+    "terminal",
     "text",
     "thread",
     "tickets",
@@ -3519,9 +3956,8 @@
     "totp",
     "tou",
     "towing",
-    "tracking",
     "trade-in",
-    "transactions",
+    "transit",
     "transitions",
     "translation",
     "trucking",
@@ -3529,6 +3965,7 @@
     "typography",
     "upholstery",
     "usb",
+    "uti",
     "vacation-rentals",
     "vehicles",
     "venues",
@@ -3550,11 +3987,11 @@
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:46523ca43f08cb7e10acc75f1776986d609eb5ad95b04ac5b660ffcdd781fc3a",
+  "sourceHash": "sha256:aa6392429dd3fa25c57b6ebe4fa9961e1ca1e493dac0a9dcfb9aa36ebeb19ed8",
   "tagStats": {
-    "assignments": 1036,
-    "doubletons": 81,
-    "singletons": 393,
-    "unique": 566
+    "assignments": 1148,
+    "doubletons": 86,
+    "singletons": 418,
+    "unique": 611
   }
 }

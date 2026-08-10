@@ -16,13 +16,13 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(223);
-    expect(researchMetadata).toHaveLength(15);
+    expect(ideas).toHaveLength(245);
+    expect(researchMetadata).toHaveLength(16);
     expect(ledgerCounts).toEqual({
-      dossiers: 15,
-      ideas: 223,
-      researchEdges: 229,
-      searchDocuments: 238,
+      dossiers: 16,
+      ideas: 245,
+      researchEdges: 257,
+      searchDocuments: 261,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -34,7 +34,7 @@ describe('generated ledger repository', () => {
   it('keeps evidence mapping honest', () => {
     expect(getResearchMapping('lot-match')).toBe('heading');
     expect(getResearchMapping('allergy-readback-handshake')).toBe('mention');
-    expect(getResearchMapping('warranty-return-tracker')).toBe('unmapped');
+    expect(getResearchMapping('american-tiktok-alternative')).toBe('unmapped');
     expect(getResearchMapping('afterglow')).toBe('none');
     expect(getResearchProvenance('afterglow')).toMatchObject({
       ideaId: 'afterglow',
@@ -49,7 +49,7 @@ describe('generated ledger repository', () => {
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(15);
+    expect(repository.documents).toHaveLength(16);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
@@ -83,6 +83,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(566);
+    expect(tagOptions).toHaveLength(611);
   });
 });

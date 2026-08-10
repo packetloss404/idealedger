@@ -29,7 +29,7 @@ test.describe('decision retrieval', () => {
     await page.goto('ideas');
 
     await expect(page.getByRole('heading', { level: 1, name: 'Idea ledger' })).toBeVisible();
-    await expect(page.locator('tbody tr')).toHaveCount(223);
+    await expect(page.locator('tbody tr')).toHaveCount(245);
     await expect(page.getByText('Every status included')).toBeVisible();
     await expect(ideaRow(page, 'amazon-label-handoff')).toBeVisible();
 
@@ -74,6 +74,18 @@ test.describe('decision retrieval', () => {
     await search(page, 'EOBBill');
     await expect(page.locator('tbody tr')).toHaveCount(1);
     await expect(ideaRow(page, 'medical-bill-auditor')).toContainText('Medical Bill and EOB Auditor');
+  });
+
+  test('retrieves a Loop 3 rejection and its merged outbox variant', async ({ page }) => {
+    await page.goto('ideas');
+    await search(page, 'RequestOutbox');
+
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'shortcuts-http-outbox')).toContainText('PocketHook');
+
+    await search(page, 'UploadTxn');
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'share-handoff-shelf')).toContainText('ShareShelf');
   });
 
   test('searches decision reasons instead of only names', async ({ page }) => {
@@ -125,13 +137,13 @@ test.describe('filters and URL state', () => {
     await expect(page.locator('tbody tr')).toHaveCount(6);
 
     await page.getByRole('button', { name: 'Clear filters' }).click();
-    await expect(page.locator('tbody tr')).toHaveCount(223);
+    await expect(page.locator('tbody tr')).toHaveCount(245);
   });
 
   test('ignores invalid filter values and still renders a stable ledger', async ({ page }) => {
     await page.goto('ideas?status=not-a-status&fit=impossible&tag=not-a-real-tag');
 
-    await expect(page.locator('tbody tr')).toHaveCount(223);
+    await expect(page.locator('tbody tr')).toHaveCount(245);
     await expect(page.getByText('Every status included')).toBeVisible();
   });
 });
