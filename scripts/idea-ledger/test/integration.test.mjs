@@ -9,21 +9,21 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   const counts = result.artifacts['manifest.json'].counts;
   const quality = result.artifacts['quality-report.json'];
   assert.deepEqual(counts, {
-    ideas: 273,
-    dossiers: 18,
-    researchEdges: 302,
-    searchDocuments: 291,
+    ideas: 307,
+    dossiers: 19,
+    researchEdges: 343,
+    searchDocuments: 326,
   });
-  assert.equal(quality.counts.headingMatchedIdeas, 161);
-  assert.equal(quality.counts.mentionOnlyIdeas, 94);
+  assert.equal(quality.counts.headingMatchedIdeas, 183);
+  assert.equal(quality.counts.mentionOnlyIdeas, 108);
   assert.equal(quality.counts.dossierRefsWithoutMention, 16);
-  assert.equal(quality.counts.ideasWithoutResearch, 11);
-  assert.equal(quality.counts.headingReferences, 183);
-  assert.equal(quality.counts.mentionReferences, 103);
+  assert.equal(quality.counts.ideasWithoutResearch, 10);
+  assert.equal(quality.counts.headingReferences, 209);
+  assert.equal(quality.counts.mentionReferences, 118);
   assert.equal(quality.counts.unmappedReferences, 16);
-  assert.equal(quality.tagStats.assignments, 1288);
-  assert.equal(quality.tagStats.unique, 671);
-  assert.equal(result.snapshot.sourceFiles.length, 19);
+  assert.equal(quality.tagStats.assignments, 1461);
+  assert.equal(quality.tagStats.unique, 711);
+  assert.equal(result.snapshot.sourceFiles.length, 20);
 
   const provenanceByIdea = new Map(
     quality.researchProvenance.map((provenance) => [provenance.ideaId, provenance])
@@ -33,6 +33,7 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
     ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 2],
     ['lot-match', '1-lotmatch--strongest-business-candidate', 2],
     ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
+    ['spin-loop', 'spinloop', 1],
   ]) {
     const provenance = provenanceByIdea.get(ideaId);
     assert.equal(provenance.quality, 'heading');

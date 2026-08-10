@@ -1,15 +1,15 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 18,
-    "headingMatchedIdeas": 161,
-    "headingReferences": 183,
-    "ideas": 273,
-    "ideasWithoutResearch": 11,
-    "mentionOnlyIdeas": 94,
-    "mentionReferences": 103,
-    "multiRefIdeas": 36,
-    "researchEdges": 302,
+    "dossiers": 19,
+    "headingMatchedIdeas": 183,
+    "headingReferences": 209,
+    "ideas": 307,
+    "ideasWithoutResearch": 10,
+    "mentionOnlyIdeas": 108,
+    "mentionReferences": 118,
+    "multiRefIdeas": 41,
+    "researchEdges": 343,
     "unmappedReferences": 16
   },
   "researchProvenance": [
@@ -26,6 +26,18 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "actor-scene-test",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -108,7 +120,7 @@
     },
     {
       "ideaId": "american-tiktok-alternative",
-      "quality": "unmapped",
+      "quality": "mention",
       "references": [
         {
           "dossierSlug": "social-app-opportunity-research",
@@ -121,6 +133,12 @@
           "heading": null,
           "path": "docs/UNTITLED-MICRO-HELP-NETWORK.md",
           "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -151,6 +169,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "app-preview-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "apppreview-gate",
+            "depth": 3,
+            "text": "AppPreview Gate"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -296,6 +330,22 @@
             "text": "AudiobookPack"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "authentic-one-take",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "authentic-onetake",
+            "depth": 3,
+            "text": "Authentic OneTake"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -469,6 +519,38 @@
       ]
     },
     {
+      "ideaId": "brief-cut-gate",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "briefcut-gate",
+            "depth": 3,
+            "text": "BriefCut Gate"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "bump-mark",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "bumpmark",
+            "depth": 3,
+            "text": "BumpMark"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "busy-status-stand",
       "quality": "heading",
       "references": [
@@ -480,6 +562,22 @@
             "text": "BusyStand"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "cable-wiggle",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "cablewiggle",
+            "depth": 3,
+            "text": "CableWiggle"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -679,6 +777,22 @@
       ]
     },
     {
+      "ideaId": "ceremony-safe-video",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "ceremonysafe",
+            "depth": 3,
+            "text": "CeremonySafe"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "charge-drop-alarm",
       "quality": "heading",
       "references": [
@@ -706,6 +820,22 @@
             "text": "ChargeWiggle"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "clap-cut",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "clapcut",
+            "depth": 3,
+            "text": "ClapCut"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -1064,6 +1194,38 @@
       ]
     },
     {
+      "ideaId": "cut-receipt",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "cutreceipt",
+            "depth": 3,
+            "text": "CutReceipt"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "cycle-match-video",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "cyclematch",
+            "depth": 3,
+            "text": "CycleMatch"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "daily-ok-checkin",
       "quality": "heading",
       "references": [
@@ -1140,6 +1302,22 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "dual-format-safety-capture",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "dualformat-safety-capture",
+            "depth": 3,
+            "text": "DualFormat Safety Capture"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1383,6 +1561,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "shotexit-video-gate--fieldshot-gate",
+            "depth": 3,
+            "text": "ShotExit Video Gate → FieldShot Gate"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1441,6 +1629,22 @@
       ]
     },
     {
+      "ideaId": "focus-receipt",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "focusreceipt",
+            "depth": 3,
+            "text": "FocusReceipt"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "font-glyph-install-proof",
       "quality": "mention",
       "references": [
@@ -1481,6 +1685,22 @@
       ]
     },
     {
+      "ideaId": "frame-fault",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "framefault",
+            "depth": 3,
+            "text": "FrameFault"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "freelancer-crm",
       "quality": "unmapped",
       "references": [
@@ -1489,6 +1709,18 @@
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "friend-video-elimination",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1704,6 +1936,18 @@
       ]
     },
     {
+      "ideaId": "hidden-group-video-drop",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "holdwatch",
       "quality": "mention",
       "references": [
@@ -1863,6 +2107,22 @@
       ]
     },
     {
+      "ideaId": "keeper-buffer",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "keeperbuffer",
+            "depth": 3,
+            "text": "KeeperBuffer"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "key-duplicate-visual-diff",
       "quality": "mention",
       "references": [
@@ -1925,8 +2185,15 @@
     },
     {
       "ideaId": "live-only-social-feed",
-      "quality": "none",
-      "references": []
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
     },
     {
       "ideaId": "live-roll",
@@ -1940,6 +2207,16 @@
             "text": "Live Roll concept dossier"
           },
           "path": "docs/LIVE-ROLL-CONCEPT-DOSSIER.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "live-roll--cut-room",
+            "depth": 3,
+            "text": "Live Roll / Cut Room"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -1993,6 +2270,22 @@
             "text": "6. Loop"
           },
           "path": "docs/SOCIAL-APP-OPPORTUNITY-RESEARCH.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "loop-seam-lab",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "loopseam-lab",
+            "depth": 3,
+            "text": "LoopSeam Lab"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -2068,6 +2361,18 @@
       ]
     },
     {
+      "ideaId": "match-relay",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "media-card-custody",
       "quality": "heading",
       "references": [
@@ -2079,6 +2384,16 @@
             "text": "1. Media Card Custody — conditional go"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "verified-video-offload",
+            "depth": 3,
+            "text": "Verified Video Offload"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -2253,6 +2568,18 @@
           "dossierSlug": "idea-mining-loop-2026-08-09-round7",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "multi-angle-moment",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "mention"
         }
       ]
@@ -2851,6 +3178,18 @@
       ]
     },
     {
+      "ideaId": "reaction-escrow",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "reading-line-focus",
       "quality": "heading",
       "references": [
@@ -2921,6 +3260,18 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "remix-response-contract",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -3316,6 +3667,22 @@
       ]
     },
     {
+      "ideaId": "screen-safe-recorder",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "screensafe-recorder",
+            "depth": 3,
+            "text": "ScreenSafe Recorder"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "screenshot-inbox",
       "quality": "none",
       "references": []
@@ -3437,6 +3804,18 @@
       ]
     },
     {
+      "ideaId": "shared-day-video-episode",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "shared-list-claim",
       "quality": "heading",
       "references": [
@@ -3523,6 +3902,22 @@
       ]
     },
     {
+      "ideaId": "shot-canary",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "shotcanary",
+            "depth": 3,
+            "text": "ShotCanary"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "silent-video-audio-check",
       "quality": "heading",
       "references": [
@@ -3535,6 +3930,12 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -3550,6 +3951,22 @@
             "text": "FeederAck"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "solo-match-voice",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "solomatch-voice",
+            "depth": 3,
+            "text": "SoloMatch Voice"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -3578,6 +3995,38 @@
             "text": "PaceMirror"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "spin-loop",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "spinloop",
+            "depth": 3,
+            "text": "SpinLoop"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "sponsor-logo-clock",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "logoclock",
+            "depth": 3,
+            "text": "LogoClock"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -3645,6 +4094,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "panelpulse",
+            "depth": 3,
+            "text": "PanelPulse"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -3692,6 +4151,38 @@
             "text": "Subtitle Gate"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "switch-blink",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "switchblink",
+            "depth": 3,
+            "text": "SwitchBlink"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "take-sweep",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "takesweep",
+            "depth": 3,
+            "text": "TakeSweep"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -4051,6 +4542,58 @@
       ]
     },
     {
+      "ideaId": "video-challenge-league",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "video-postcards",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "video-revision-receipt",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": {
+            "anchor": "revisionreceipt",
+            "depth": 3,
+            "text": "RevisionReceipt"
+          },
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "video-scavenger-story",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "visual-queue-watcher",
       "quality": "mention",
       "references": [
@@ -4161,6 +4704,18 @@
       ]
     },
     {
+      "ideaId": "what-happens-next-video",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "video-revisit-2026-08-10",
+          "heading": null,
+          "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "wildcard-call-block",
       "quality": "mention",
       "references": [
@@ -4190,16 +4745,15 @@
     "aac",
     "accelerometer",
     "accessories",
+    "actors",
     "adult",
     "affiliate",
     "agriculture",
     "airprint",
     "albums",
-    "analytics",
     "animal-care",
     "anxiety",
     "app-intents",
-    "app-store",
     "appeals",
     "approvals",
     "apps",
@@ -4215,6 +4769,7 @@
     "audio-route",
     "augmented-reality",
     "authentication",
+    "authenticity",
     "authorization-holds",
     "autism",
     "auto",
@@ -4241,7 +4796,7 @@
     "browser",
     "budgeting",
     "buffers",
-    "cables",
+    "c2pa",
     "cakes",
     "call-blocking",
     "call-sheets",
@@ -4255,6 +4810,7 @@
     "carriers",
     "cars",
     "cellular",
+    "challenges",
     "change-orders",
     "check-in",
     "checkout",
@@ -4268,11 +4824,10 @@
     "cloud-storage",
     "coaching",
     "coffee",
-    "cold-start",
+    "collaboration",
     "color-vision",
     "commerce",
     "commuting",
-    "comparison",
     "composites",
     "compression",
     "connectivity",
@@ -4348,6 +4903,7 @@
     "exif",
     "expiry",
     "export",
+    "exposure",
     "fabric",
     "facilitation",
     "fact-checking",
@@ -4357,6 +4913,7 @@
     "fashion",
     "fasteners",
     "fda",
+    "feature",
     "feeders",
     "file-sharing",
     "file-transfer",
@@ -4376,6 +4933,7 @@
     "formula",
     "fragile-cargo",
     "fraud",
+    "friends",
     "fulfillment",
     "furniture",
     "gaming",
@@ -4464,7 +5022,9 @@
     "markets",
     "measurements",
     "meetings",
+    "memories",
     "mesh",
+    "messaging",
     "meters",
     "microchip",
     "midi",
@@ -4473,17 +5033,19 @@
     "mobile-services",
     "monitoring",
     "move-out",
+    "multi-camera",
     "musicians",
     "myfitnesspal",
     "navigation",
     "negotiation",
+    "networking",
     "news",
     "nutrition",
     "odometer",
     "offers",
-    "on-device",
     "orders",
     "organization",
+    "orientation",
     "overtime",
     "painting",
     "parcels",
@@ -4512,13 +5074,16 @@
     "pocket-casts",
     "podcasts",
     "practice",
+    "prediction",
     "prescriptions",
     "presence",
     "prices",
     "pricing",
+    "products",
     "profit",
     "proofing",
     "property-management",
+    "provenance",
     "provider-network",
     "proximity",
     "public-speaking",
@@ -4527,18 +5092,22 @@
     "quick-look",
     "quotes",
     "re-entry",
+    "reactions",
     "recalls",
+    "recap",
     "reconnect",
     "redaction",
+    "redundancy",
     "reference",
     "registries",
     "regulation",
     "rehearsal",
     "rekordbox",
+    "relationships",
+    "remix",
     "remote-work",
     "rename",
     "renters",
-    "repair",
     "repairs",
     "replacement-parts",
     "replenishment",
@@ -4549,6 +5118,7 @@
     "revenuecat",
     "rideshare",
     "rights",
+    "rolling-buffer",
     "routes",
     "routines",
     "routing",
@@ -4558,11 +5128,14 @@
     "saved-phrases",
     "savings",
     "scanning",
+    "scavenger-hunt",
     "scenes",
     "schedules",
     "school",
     "scope-creep",
+    "screen-recording",
     "scroll",
+    "self-tape",
     "seller-tools",
     "seniors",
     "serial-number",
@@ -4579,9 +5152,11 @@
     "shortages",
     "silhouette",
     "solar",
+    "solo-creators",
     "sonos",
     "spam",
     "sponsorships",
+    "sports",
     "spotify",
     "ssh",
     "standards",
@@ -4617,9 +5192,11 @@
     "tou",
     "towing",
     "trade-in",
+    "training",
     "transit",
     "transitions",
     "translation",
+    "tripod",
     "trucking",
     "tuning",
     "typography",
@@ -4630,9 +5207,10 @@
     "vacation-rentals",
     "vehicles",
     "venues",
-    "versions",
     "vibration",
     "vinyl",
+    "voice",
+    "voting",
     "vouchers",
     "waitlists",
     "warranty",
@@ -4648,11 +5226,11 @@
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243",
+  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd",
   "tagStats": {
-    "assignments": 1288,
-    "doubletons": 88,
-    "singletons": 461,
-    "unique": 671
+    "assignments": 1461,
+    "doubletons": 95,
+    "singletons": 484,
+    "unique": 711
   }
 }

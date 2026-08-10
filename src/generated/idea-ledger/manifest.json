@@ -1,9 +1,9 @@
 {
   "counts": {
-    "dossiers": 18,
-    "ideas": 273,
-    "researchEdges": 302,
-    "searchDocuments": 291
+    "dossiers": 19,
+    "ideas": 307,
+    "researchEdges": 343,
+    "searchDocuments": 326
   },
   "generatorVersion": 2,
   "sourceFiles": [
@@ -98,12 +98,17 @@
       "sha256": "sha256:79addb28c01759837d3817163e4541f68ceb6a96116701cef22a16cfef82bfa6"
     },
     {
-      "bytes": 244923,
+      "bytes": 30988,
+      "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+      "sha256": "sha256:789f788db8c6200c2f0706e975a10595318191a4019b6fcef882d00149842104"
+    },
+    {
+      "bytes": 276644,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:24c02dce48eea45d68243449bfd97fdc73d72be3146dfe09481965572c657a81"
+      "sha256": "sha256:940ea98f2934b2569a2b5088e164a0e23f552763a23819b4b75ec6c983e39d06"
     }
   ],
-  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243",
+  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd",
   "sourceSchemaVersion": 1,
   "sourceUpdatedAt": "2026-08-10"
 }

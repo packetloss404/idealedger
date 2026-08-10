@@ -2939,7 +2939,234 @@
       "sha256": "sha256:79addb28c01759837d3817163e4541f68ceb6a96116701cef22a16cfef82bfa6",
       "slug": "untitled-micro-help-network",
       "title": "Untitled micro-help network"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "video-revisit--tiny-camera-utilities-and-playable-video-objects",
+          "depth": 1,
+          "text": "Video Revisit — Tiny Camera Utilities and Playable Video Objects"
+        },
+        {
+          "anchor": "executive-summary",
+          "depth": 2,
+          "text": "Executive summary"
+        },
+        {
+          "anchor": "what-changed-since-the-earlier-social-research",
+          "depth": 2,
+          "text": "What changed since the earlier social research"
+        },
+        {
+          "anchor": "validation-experiments",
+          "depth": 2,
+          "text": "Validation experiments"
+        },
+        {
+          "anchor": "spinloop",
+          "depth": 3,
+          "text": "SpinLoop"
+        },
+        {
+          "anchor": "takesweep",
+          "depth": 3,
+          "text": "TakeSweep"
+        },
+        {
+          "anchor": "shotcanary",
+          "depth": 3,
+          "text": "ShotCanary"
+        },
+        {
+          "anchor": "live-roll--cut-room",
+          "depth": 3,
+          "text": "Live Roll / Cut Room"
+        },
+        {
+          "anchor": "video-as-instrument-candidates",
+          "depth": 2,
+          "text": "Video-as-instrument candidates"
+        },
+        {
+          "anchor": "switchblink",
+          "depth": 3,
+          "text": "SwitchBlink"
+        },
+        {
+          "anchor": "panelpulse",
+          "depth": 3,
+          "text": "PanelPulse"
+        },
+        {
+          "anchor": "cablewiggle",
+          "depth": 3,
+          "text": "CableWiggle"
+        },
+        {
+          "anchor": "creator-utility-decisions",
+          "depth": 2,
+          "text": "Creator utility decisions"
+        },
+        {
+          "anchor": "solomatch-voice",
+          "depth": 3,
+          "text": "SoloMatch Voice"
+        },
+        {
+          "anchor": "keeperbuffer",
+          "depth": 3,
+          "text": "KeeperBuffer"
+        },
+        {
+          "anchor": "briefcut-gate",
+          "depth": 3,
+          "text": "BriefCut Gate"
+        },
+        {
+          "anchor": "clapcut",
+          "depth": 3,
+          "text": "ClapCut"
+        },
+        {
+          "anchor": "logoclock",
+          "depth": 3,
+          "text": "LogoClock"
+        },
+        {
+          "anchor": "focusreceipt",
+          "depth": 3,
+          "text": "FocusReceipt"
+        },
+        {
+          "anchor": "framefault",
+          "depth": 3,
+          "text": "FrameFault"
+        },
+        {
+          "anchor": "bumpmark",
+          "depth": 3,
+          "text": "BumpMark"
+        },
+        {
+          "anchor": "cutreceipt",
+          "depth": 3,
+          "text": "CutReceipt"
+        },
+        {
+          "anchor": "loopseam-lab",
+          "depth": 3,
+          "text": "LoopSeam Lab"
+        },
+        {
+          "anchor": "cyclematch",
+          "depth": 3,
+          "text": "CycleMatch"
+        },
+        {
+          "anchor": "capture-and-delivery-decisions",
+          "depth": 2,
+          "text": "Capture and delivery decisions"
+        },
+        {
+          "anchor": "dualformat-safety-capture",
+          "depth": 3,
+          "text": "DualFormat Safety Capture"
+        },
+        {
+          "anchor": "ceremonysafe",
+          "depth": 3,
+          "text": "CeremonySafe"
+        },
+        {
+          "anchor": "revisionreceipt",
+          "depth": 3,
+          "text": "RevisionReceipt"
+        },
+        {
+          "anchor": "screensafe-recorder",
+          "depth": 3,
+          "text": "ScreenSafe Recorder"
+        },
+        {
+          "anchor": "authentic-onetake",
+          "depth": 3,
+          "text": "Authentic OneTake"
+        },
+        {
+          "anchor": "apppreview-gate",
+          "depth": 3,
+          "text": "AppPreview Gate"
+        },
+        {
+          "anchor": "shotexit-video-gate--fieldshot-gate",
+          "depth": 3,
+          "text": "ShotExit Video Gate → FieldShot Gate"
+        },
+        {
+          "anchor": "verified-video-offload",
+          "depth": 3,
+          "text": "Verified Video Offload"
+        },
+        {
+          "anchor": "social-format-decisions",
+          "depth": 2,
+          "text": "Social-format decisions"
+        },
+        {
+          "anchor": "round-decision",
+          "depth": 2,
+          "text": "Round decision"
+        }
+      ],
+      "linkedIdeaIds": [
+        "actor-scene-test",
+        "american-tiktok-alternative",
+        "app-preview-gate",
+        "authentic-one-take",
+        "brief-cut-gate",
+        "bump-mark",
+        "cable-wiggle",
+        "ceremony-safe-video",
+        "clap-cut",
+        "cut-receipt",
+        "cycle-match-video",
+        "dual-format-safety-capture",
+        "field-shot-requirement-gate",
+        "focus-receipt",
+        "frame-fault",
+        "friend-video-elimination",
+        "hidden-group-video-drop",
+        "keeper-buffer",
+        "live-only-social-feed",
+        "live-roll",
+        "loop-seam-lab",
+        "match-relay",
+        "media-card-custody",
+        "multi-angle-moment",
+        "reaction-escrow",
+        "remix-response-contract",
+        "screen-safe-recorder",
+        "shared-day-video-episode",
+        "shot-canary",
+        "silent-video-audio-check",
+        "solo-match-voice",
+        "spin-loop",
+        "sponsor-logo-clock",
+        "status-led-color-reader",
+        "switch-blink",
+        "take-sweep",
+        "video-challenge-league",
+        "video-postcards",
+        "video-revision-receipt",
+        "video-scavenger-story",
+        "what-happens-next-video"
+      ],
+      "path": "docs/VIDEO-REVISIT-2026-08-10.md",
+      "route": "/research/video-revisit-2026-08-10",
+      "sha256": "sha256:789f788db8c6200c2f0706e975a10595318191a4019b6fcef882d00149842104",
+      "slug": "video-revisit-2026-08-10",
+      "title": "Video Revisit — Tiny Camera Utilities and Playable Video Objects"
     }
   ],
-  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243"
+  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd"
 }

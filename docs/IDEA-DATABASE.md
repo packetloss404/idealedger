@@ -37,14 +37,14 @@ The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) sto
 |---|---|---:|---|---|
 | Loop | Parked | Medium | Saved, but still needs a sharp first-use case and a reason to beat group chat | [Social opportunity study](SOCIAL-APP-OPPORTUNITY-RESEARCH.md) |
 | Untitled Micro-Help Network | Parked | Medium | Interesting primitive; no high-value beachhead yet | [Concept](UNTITLED-MICRO-HELP-NETWORK.md) |
-| Live Roll | Passed — market | Medium | Live galleries are mature; expert selection challenges remain unvalidated | [Dossier](LIVE-ROLL-CONCEPT-DOSSIER.md) |
+| Live Roll | Validating | High | Cut Room gives the selection/reveal idea a paid video-learning test, but rights and recurring expert packs are the business | [Dossier](LIVE-ROLL-CONCEPT-DOSSIER.md), [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | Post-Loss Recovery | Passed — scope | Low | Strong pain, but trustworthy evidence reconstruction and claim export exceed the remaining time | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Driving Rehearsal | Parked | Medium | Useful anxiety wedge; data quality, safety, and incumbent risk remain | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Primary-Source Receipts | Parked | Medium | Compelling mission, difficult trust standard, crowded adjacent market | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Instant Fact Check | Passed — market | Medium | Exact products exist and confident mistakes kill the promise | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Handoff | Passed — market | Medium | Direct competitors plus marketplace policy and off-platform-link distrust | — |
 | Creator Portability | Passed — market | Medium | Existing products, incomplete APIs, and severe second-app cold start | — |
-| Live-Only Social Feed | Raw | Low | Clean promise, but TikTok LIVE and Favorited occupy the obvious version; needs a new live format | — |
+| Live-Only Social Feed | Passed — market | Low | Incumbent live feeds remain stronger and the ordinary-broadcaster empty-room cold start is unsolved | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | Screenshot Inbox | Passed — market | High | Clear utility, weak paid differentiation | — |
 | Clothing Size Translator | Parked | Medium | Valuable only with trustworthy SKU-level fit data | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Legalese Translator | Passed — market | High | Crowded and high-stakes without a narrow document workflow | — |
@@ -65,11 +65,11 @@ The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) sto
 | Consumer Case Agent | Passed — market | Low | Funded competitors plus telephony and adversarial reliability | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Quote Comparison | Passed — market | Medium | Needs deep expertise in one trade to be trustworthy | [Pain mining](PAIN-MINING-DOSSIER.md) |
 | Pre-Loss Home Inventory | Passed — market | High | Crowded and chronically postponed by users | [Pain mining](PAIN-MINING-DOSSIER.md) |
-| American TikTok Alternative | Raw | Low | An umbrella question, not yet a buildable atomic format | [Social opportunity study](SOCIAL-APP-OPPORTUNITY-RESEARCH.md) |
+| American TikTok Alternative | Raw | Low | Current anger is real, but “human-only” and “no algorithm” are policies rather than a buildable atomic format | [Social opportunity study](SOCIAL-APP-OPPORTUNITY-RESEARCH.md), [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | Afterglow | Needs reconstruction | Unknown | Name retained; full pitch must be recovered | — |
 | PushBack | Needs reconstruction | Unknown | Existing app reference retained; thesis or repo link is missing here | — |
 | Instant Bank Transfer Layer | Passed — scope | Low | Infrastructure, licensing, fraud, and payment-rail access exceed hackathon scope | — |
-| Media Card Custody | Passed — scope | Medium | Phone QR state and ingest evidence cannot be machine-bound without a per-cycle nonce, desktop helper, or vendor integration | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
+| Media Card Custody | Passed — scope | Medium | Phone QR state and ingest evidence cannot be machine-bound; PhotoSync and USB Backup also own mature phone transfer and history | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md), [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | Confirmed Spoken Details | Validating | Medium | Novel two-person confirmation ritual; must be co-designed with DHH users and prove speech/token accuracy | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md), [Final synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) |
 | Two-Source Solar Check | Validating | Medium | A narrow second-source reconciliation gap exists, but only for one system/utility with real paired data | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
 | Todoist Task-Debt Reset | Parked | High | Real backlog-reset pain, but episodic value and native-feature copy risk | [Mining loop](IDEA-MINING-LOOP-2026-08-08.md) |
@@ -216,13 +216,13 @@ The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) sto
 | BatchTrace Lite | Passed — market | Medium | CottageBatch and Craftybase own the traceability workflow with more authority and context | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
 | KitManifest | Passed — market | High | Rental and inventory systems own the authoritative issue/return state; a renter checklist is private evidence | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
 | COI Pocket | Passed — market | Medium | TrustLayer covers the low-volume workflow free and a PDF cannot prove current coverage | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
-| FieldShot Gate | Passed — market | High | CompanyCam and field-form products already own required-photo templates and reports | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
+| FieldShot Gate | Passed — market | High | CompanyCam and field-form products own required photo/video slots, and a playable file does not prove intended evidence | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md), [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | ConsignDiff | Passed — market | Medium | Consigna and other two-sided systems already provide shared acceptance and locked reconciliation | [Round-ten Loop 1](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md) |
 | TransitionTile | Passed — market | High | Time Timer, Visual Countdown Timer, and mature routine tools already own visual transitions | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | PaceMirror | Passed — market | High | PaceCoach launched the exact live speaking-pace and Watch-haptic product at a one-time price | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | PhraseDeck | Passed — market | High | iOS Live Speech and established AAC apps already own saved fullscreen and spoken phrases | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | LineFocus | Passed — market | Medium | Accessibility Reader, Helperbird, and exact reading-lens tools cover the surface | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
-| StatusColor | Passed — market | Medium | ColorSight is an exact free incumbent and tiny LED camera truth remains fragile | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
+| StatusColor | Passed — market | Medium | ColorSight is exact; temporal LED recording still immobilizes the phone and cannot interpret device state | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md), [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | BusyStand | Passed — market | High | The phone is the wrong placed artifact and loses to a sign, light, or BUSY Bar hardware | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | LinkLoss | Passed — market | Medium | Find My and BLE finders own the job; app disconnect state cannot establish loss or location | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
 | StepClock | Passed — market | High | Routinery, Time Timer, and native timers already provide labeled guided sequences | [Round-ten Loop 2](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md) |
@@ -246,7 +246,7 @@ The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) sto
 | PDF Form Reopen | Passed — market | High | Acrobat and PDF Expert own the workflow; same-stack reopening cannot guarantee recipient rendering | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | Chronology Patch | Passed — market | High | Native Photos and metadata utilities own adjustment; missing metadata provides no original date | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | ICS Import Gate | Passed — market | High | CalAction, ICSKit, and a $0.99 exact importer already cover preview and conflict handling | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
-| Soundtrack Check | Passed — scope | Low | No dependable native-Camera completion wake; manual detection comes after the lost moment | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
+| Soundtrack Check | Passed — scope | Low | No dependable native-Camera completion wake; a manual audio-track check comes after the irreplaceable moment | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md), [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | Calendar Loop Triage | Passed — market | Medium | Visual duplicates can be legitimate or provider bugs; a private cleaner cannot choose deletion | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md) |
 | Vault CSV Audit | Passed — market | Medium | Generic validators own CSV structure; plaintext migration cannot detect omitted source fields | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md), [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
 | FileKind Probe | Passed — market | High | UTType, Quick Look, MediaInfo, and free file tools own a rare diagnostic without a general fix | [Round-ten Loop 3](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md), [Round-ten Loop 4](IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md) |
@@ -308,6 +308,40 @@ The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) sto
 | Embroidery Thread Gate | Passed — market | Medium | Palette mapping and inconsistent spool IDs add ceremony; machine displays and organized racks are faster | [Idea mining](IDEA-MINING-LOOP-2026-08-09.md) |
 | Personal Wheelchair Ride Trace | Passed — scope | Low | Mount variation, background capture, and implied safety require substantial technical and accessibility validation | [Idea mining](IDEA-MINING-LOOP-2026-08-09.md) |
 | Multi-Chair Process Clock | Passed — market | High | Salon suites already include timers and standalone paid pain remains unproven | [Idea mining](IDEA-MINING-LOOP-2026-08-09.md) |
+| SpinLoop | Validating | High | Strong seller recurrence and delightful visual-return demo; symmetry, wobble, lighting, and manual trimming remain fatal gates | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| TakeSweep | Validating | High | Native-camera-compatible take culling is fresh, but grouping precision, iCloud delay, and cleaner substitutes must pass a paid test | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| ShotCanary | Validating | High | A recorder-integrated rehearsal receipt is honest only as observed facts and cannot predict the real take | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| SwitchBlink | Passed — market | High | A changed LED region is not port identity or health; hardware testers and support providers own authority and distribution | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| ClapCut | Passed — market | High | Feasible clap-delimited capture is a thin recorder feature that contaminates performance and loses to stop/start or mature cleanup | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| LogoClock | Passed — market | High | SponsorIQ/Shikenso own exposure measurement and logo seconds do not establish campaign compliance or value | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| FocusReceipt | Passed — market | High | Mature camera locks prevent state drift and a post-take journal cannot establish visible damage | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| BumpMark | Passed — market | High | Device-motion timestamps are truthful but belong inside a recorder and do not prove a shot was ruined | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| CableWiggle | Passed — market | Medium | Adjacent cables move together and cheap toner hardware is safer and authoritative | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| CutReceipt | Passed — market | High | RevCue/Frame.io own review and approval, while most video clients need remote asynchronous feedback | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| LoopSeam Lab | Passed — market | High | Mature loop editors own the feature and endpoint similarity is not aesthetic continuity | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| CycleMatch | Passed — market | Medium | Generic synchronized comparison is mature and visible change cannot diagnose repair correctness | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| DualFormat Safety Capture | Passed — market | High | DualShot, TwoFace, and a fast clone swarm already validate and occupy the $6.99–$9.99 promise | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| CeremonySafe | Passed — market | High | Final Cut Camera and Blackmagic own multicam; obtaining and correctly mounting a second phone is the dominant ritual | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| RevisionReceipt | Passed — market | High | A local hash receipt is too thin and the useful version becomes another hosted video-review network | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| ScreenSafe Recorder | Passed — scope | Medium | Android has an exact incumbent and iOS lacks the window semantics needed for preventive masking | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Authentic OneTake | Passed — scope | High | C2PA provenance does not prove truth and needs hardware trust plus downstream acceptance | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| AppPreview Gate | Passed — market | High | StoreCut, Screeny, and a 2026 swarm already create and validate App Store previews | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| SoloMatch Voice | Passed — market | High | Ghost overlays, solo cameras, voice capture, and Watch remote tools already provide the component behaviors | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| KeeperBuffer | Passed — market | High | TapReplay provides the exact free rolling camera buffer and sports replay tools crowd the behavior | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| BriefCut Gate | Passed — market | Medium | Vibe Analytics already performs sponsored-video brief checks and semantic false negatives create compliance risk | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Match Relay | Passed — market | Medium | Reveal owns the baton, MatchFrames owns alignment, and one missing participant breaks the chain | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Hidden Group Video Drop | Passed — market | Medium | Reveal and Auree are exact hidden-until-reveal collaborative capture products | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Video Challenge League | Passed — market | Medium | Clippoll, Aura, Top That, Trendoline, and Youzem form an exact current challenge swarm | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Friend Video Elimination | Passed — market | Medium | Captains is the exact private video-dare elimination season | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Multi-Angle Moment | Passed — market | Medium | Relive and Recap own synchronized multi-POV event video | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Shared Day Episode | Passed — market | Medium | 1 Second Everyday, Leap Second, Dotty, and Sway own collaborative recap behavior | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Reaction Escrow | Passed — market | Low | Exact reaction apps exist and consent, privacy, and source-rights risk are structural | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Video Postcards | Passed — market | Low | Marco Polo already owns and strongly monetizes asynchronous relationship video | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| What Happens Next Video | Passed — market | Medium | An exact 2026 product exists and licensed/staged content supply remains the business | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Video Scavenger Story | Passed — market | Medium | Scavos, Eventzee, Goosechase, and others already sell photo/video missions and party packs | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Remix Response Contract | Passed — market | Low | TikTok and YouTube own remix formats, distribution, attribution, and music rights | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| Actor Scene Test | Passed — market | Medium | Dr Self Tape, Rehearsed, Cue Line, and Slatable own actor practice and scene challenges | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| FrameFault | Passed — market | High | Auto QC, UploadCheck, and QC Buddy own final-export anomaly checks with generous free tiers | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 
 ## Current experiment portfolio
 
@@ -322,6 +356,8 @@ The five funded validations are deliberately not production builds:
 **CrashTape** is the optional engineering reserve. **Confirmed Spoken Details** remains the mission-led accessibility track. **CancelBy** is an unfunded alternate whose only useful next step is a short blind test against a configured free Reminder. CutBolt, Two-Source Solar Check, Health Sync Canary, and the remaining parked ideas stay searchable with their resurrection gates, but they are not in the immediate funded queue.
 
 **Encore** is preserved as an event-CRM feature or technically safe demo fallback, not an active standalone product candidate.
+
+The video revisit adds four **unfunded validation lanes**—SpinLoop, TakeSweep, ShotCanary, and Live Roll / Cut Room. They are not production builds or additions to the funded five; each remains gated by an explicit payment, behavior, and truth experiment in the video dossier.
 
 ## Record format
 

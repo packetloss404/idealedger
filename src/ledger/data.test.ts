@@ -16,13 +16,13 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(273);
-    expect(researchMetadata).toHaveLength(18);
+    expect(ideas).toHaveLength(307);
+    expect(researchMetadata).toHaveLength(19);
     expect(ledgerCounts).toEqual({
-      dossiers: 18,
-      ideas: 273,
-      researchEdges: 302,
-      searchDocuments: 291,
+      dossiers: 19,
+      ideas: 307,
+      researchEdges: 343,
+      searchDocuments: 326,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -34,7 +34,7 @@ describe('generated ledger repository', () => {
   it('keeps evidence mapping honest', () => {
     expect(getResearchMapping('lot-match')).toBe('heading');
     expect(getResearchMapping('allergy-readback-handshake')).toBe('mention');
-    expect(getResearchMapping('american-tiktok-alternative')).toBe('unmapped');
+    expect(getResearchMapping('american-tiktok-alternative')).toBe('mention');
     expect(getResearchMapping('afterglow')).toBe('none');
     expect(getResearchProvenance('afterglow')).toMatchObject({
       ideaId: 'afterglow',
@@ -50,7 +50,7 @@ describe('generated ledger repository', () => {
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(18);
+    expect(repository.documents).toHaveLength(19);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
@@ -60,6 +60,7 @@ describe('generated ledger repository', () => {
     ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 2],
     ['lot-match', '1-lotmatch--strongest-business-candidate', 2],
     ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
+    ['spin-loop', 'spinloop', 1],
   ])('exposes a generator-owned heading anchor for %s', (ideaId, expectedAnchor, count) => {
     const provenance = getResearchProvenance(ideaId);
     expect(provenance?.quality).toBe('heading');
@@ -86,6 +87,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(671);
+    expect(tagOptions).toHaveLength(711);
   });
 });

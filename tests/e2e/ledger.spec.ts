@@ -29,7 +29,7 @@ test.describe('decision retrieval', () => {
     await page.goto('ideas');
 
     await expect(page.getByRole('heading', { level: 1, name: 'Idea ledger' })).toBeVisible();
-    await expect(page.locator('tbody tr')).toHaveCount(273);
+    await expect(page.locator('tbody tr')).toHaveCount(307);
     await expect(page.getByText('Every status included')).toBeVisible();
     await expect(ideaRow(page, 'amazon-label-handoff')).toBeVisible();
 
@@ -102,6 +102,19 @@ test.describe('decision retrieval', () => {
     );
   });
 
+  test('retrieves the video revisit lead and its exact paid gate', async ({ page }) => {
+    await page.goto('ideas');
+    await search(page, 'SpinLoop');
+
+    await expect(page.locator('tbody tr')).toHaveCount(1);
+    await expect(ideaRow(page, 'spin-loop')).toContainText('Validating');
+    await expect(ideaRow(page, 'spin-loop')).toContainText('visual demo is strong');
+
+    await search(page, 'Cut Room');
+    await expect(ideaRow(page, 'live-roll')).toContainText('Live Roll');
+    await expect(page.locator('tbody tr').first()).toHaveAttribute('data-idea-id', 'live-roll');
+  });
+
   test('searches decision reasons instead of only names', async ({ page }) => {
     await page.goto('ideas');
     await search(page, 'second app');
@@ -143,31 +156,31 @@ test.describe('decision retrieval', () => {
 });
 
 test.describe('filters and URL state', () => {
-  test('combines validating and high-fit into the canonical six', async ({ page }) => {
+  test('combines validating and high-fit into the canonical ten', async ({ page }) => {
     await page.goto('ideas');
 
     await page.getByRole('checkbox', { name: /^Validating\b/ }).click();
     await expect(page.getByRole('checkbox', { name: /^Validating\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(8);
+    await expect(page.locator('tbody tr')).toHaveCount(12);
     await page.getByRole('checkbox', { name: /^High\b/ }).click();
     await expect(page.getByRole('checkbox', { name: /^High\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(6);
+    await expect(page.locator('tbody tr')).toHaveCount(10);
     await expect(page).toHaveURL(/status=validating/);
     await expect(page).toHaveURL(/fit=high/);
 
     await page.reload();
     await expect(page.getByRole('checkbox', { name: /^Validating\b/ })).toBeChecked();
     await expect(page.getByRole('checkbox', { name: /^High\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(6);
+    await expect(page.locator('tbody tr')).toHaveCount(10);
 
     await page.getByRole('button', { name: 'Clear filters' }).click();
-    await expect(page.locator('tbody tr')).toHaveCount(273);
+    await expect(page.locator('tbody tr')).toHaveCount(307);
   });
 
   test('ignores invalid filter values and still renders a stable ledger', async ({ page }) => {
     await page.goto('ideas?status=not-a-status&fit=impossible&tag=not-a-real-tag');
 
-    await expect(page.locator('tbody tr')).toHaveCount(273);
+    await expect(page.locator('tbody tr')).toHaveCount(307);
     await expect(page.getByText('Every status included')).toBeVisible();
   });
 });

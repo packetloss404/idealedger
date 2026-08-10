@@ -25,6 +25,28 @@
     {
       "fields": {
         "aliases": [
+          "social self tape challenge"
+        ],
+        "decisionReason": "dr self tape rehearsed cue line and slatable already serve actor practice self tape recording readers comparison feedback and scene challenges script rights and appearance based peer judgment add risk",
+        "name": "actor scene test",
+        "oneLiner": "record a short provided scene compare takes with a professional reference and join recurring role challenges",
+        "resurrectionTrigger": "a training partner supplies licensed scenes and a paid interaction current actor utilities cannot add cheaply",
+        "tags": [
+          "video",
+          "actors",
+          "training",
+          "self tape",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:actor-scene-test",
+      "route": "/ideas/actor-scene-test",
+      "title": "Actor Scene Test",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "model release and 2257 vault"
         ],
         "decisionReason": "exact products exist while sensitive identity storage changing law security and app store constraints create outsized risk",
@@ -209,6 +231,28 @@
       "key": "idea:app-blocker-self-diagnostic",
       "route": "/ideas/app-blocker-self-diagnostic",
       "title": "BlockCanary",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "app store preview preflight"
+        ],
+        "decisionReason": "storecut screeny and a current tool swarm already create and validate previews against apple s public specifications only app store connect decides acceptance and the remaining creative rules are interpretive",
+        "name": "apppreview gate",
+        "oneLiner": "check an app store preview s length dimensions size codec frame rate and audio against published rules",
+        "resurrectionTrigger": "apple introduces a new video asset class current tools cannot create or validate and the product reaches it before the swarm",
+        "tags": [
+          "video",
+          "app store",
+          "developers",
+          "preflight",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:app-preview-gate",
+      "route": "/ideas/app-preview-gate",
+      "title": "AppPreview Gate",
       "type": "idea"
     },
     {
@@ -408,6 +452,28 @@
       "key": "idea:audiobook-pack",
       "route": "/ideas/audiobook-pack",
       "title": "AudiobookPack",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "c2pa one take capture"
+        ],
+        "decisionReason": "adobe sony and c2pa already own the provenance standard which explicitly cannot prove the depicted event is true a self signed consumer capture has weak value without hardware trust and downstream platform acceptance and social transcoding can discard credentials",
+        "name": "authentic onetake",
+        "oneLiner": "capture a no cut app owned video and attach signed c2pa content credentials for inspectable provenance",
+        "resurrectionTrigger": "a named publisher accepts the credential a hardware backed trust path exists and a paid creator cohort receives concrete downstream value",
+        "tags": [
+          "video",
+          "provenance",
+          "c2pa",
+          "authenticity",
+          "scope"
+        ]
+      },
+      "key": "idea:authentic-one-take",
+      "route": "/ideas/authentic-one-take",
+      "title": "Authentic OneTake",
       "type": "idea"
     },
     {
@@ -654,6 +720,50 @@
     {
       "fields": {
         "aliases": [
+          "sponsored video brief check"
+        ],
+        "decisionReason": "vibe analytics brief analyzer already performs brief parsing timecodes disclosure checks mention counts and rule reports while semantic false negatives create dangerous compliance confidence the natural payer is a brand or agency already served by b2b tools",
+        "name": "briefcut gate",
+        "oneLiner": "compare a sponsored content brief with a final clip and surface bounded timestamped phrase disclosure duration and visual rule findings",
+        "resurrectionTrigger": "a creator side objective rule current brief analyzers cannot serve with no compliant green state and paid creator demand",
+        "tags": [
+          "video",
+          "creators",
+          "sponsorship",
+          "compliance",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:brief-cut-gate",
+      "route": "/ideas/brief-cut-gate",
+      "title": "BriefCut Gate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "tripod movement marker"
+        ],
+        "decisionReason": "core motion can observe phone rotation but stabilization may hide the visual effect and the user must replace a mature camera app it discovers a possible issue after the fact and is more naturally a recorder feature than a standalone paid product",
+        "name": "bumpmark",
+        "oneLiner": "journal device attitude during a static app owned shot and mark timestamps where the phone rotates beyond a threshold",
+        "resurrectionTrigger": "four of 15 high frequency static shot creators prepay and real markers save at least ten minutes weekly without implying a ruined shot",
+        "tags": [
+          "video",
+          "tripod",
+          "motion",
+          "creators",
+          "feature"
+        ]
+      },
+      "key": "idea:bump-mark",
+      "route": "/ideas/bump-mark",
+      "title": "BumpMark",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "busy until display"
         ],
         "decisionReason": "the phone owns the countdown but is the wrong physical artifact it consumes the primary device is small and poorly placed retains the forgotten deployment ritual and loses to a door paper sign smart light or the exact placed busy bar hardware",
@@ -671,6 +781,28 @@
       "key": "idea:busy-status-stand",
       "route": "/ideas/busy-status-stand",
       "title": "BusyStand",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "visual cable motion finder"
+        ],
+        "decisionReason": "adjacent cables move together unknown or energized wiring can make the ritual inappropriate and a low cost toner probe is authoritative optical flow can only identify observed motion not continuity or identity",
+        "name": "cablewiggle",
+        "oneLiner": "film a known low voltage cable bundle while moving one cable from the far end and highlight the highest motion candidate",
+        "resurrectionTrigger": "achieve at least 90 top two accuracy across 100 bundled cable trials and collect three of 12 professional prepays despite hardware testers",
+        "tags": [
+          "video",
+          "cables",
+          "computer vision",
+          "technicians",
+          "diagnostics"
+        ]
+      },
+      "key": "idea:cable-wiggle",
+      "route": "/ideas/cable-wiggle",
+      "title": "CableWiggle",
       "type": "idea"
     },
     {
@@ -917,6 +1049,28 @@
     {
       "fields": {
         "aliases": [
+          "redundant two phone capture"
+        ],
+        "decisionReason": "final cut camera and blackmagic already coordinate multiple phones while obtaining mounting powering pairing and correctly aiming a second device is the dominant ritual software cannot ensure either view remains useful",
+        "name": "ceremonysafe",
+        "oneLiner": "pair two phones to record independent local files for an irreplaceable event while showing connectivity and post stop reopen state",
+        "resurrectionTrigger": "an event partner plus 30 real ceremonies show easier completed setup and actual recovery versus the free tools",
+        "tags": [
+          "video",
+          "events",
+          "redundancy",
+          "camera",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:ceremony-safe-video",
+      "route": "/ideas/ceremony-safe-video",
+      "title": "CeremonySafe",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "charging stopped alarm"
         ],
         "decisionReason": "battery charge alarm android unplug alarms and shortcuts already occupy the job while ios suspension prevents a consumer app from guaranteeing the promised sleeping state alarm the phone can observe unplugged not why charging stopped",
@@ -956,6 +1110,28 @@
       "key": "idea:charging-continuity-log",
       "route": "/ideas/charging-continuity-log",
       "title": "ChargeWiggle",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "clap delimited takes"
+        ],
+        "decisionReason": "the detector is feasible but the clap contaminates audio interrupts performance misfires on music and room noise requires replacing camera and remains a thin feature beside mature cleanup editors tapping stop and start is a strong free substitute",
+        "name": "clapcut",
+        "oneLiner": "use an explicit clap contract during app owned recording to turn one long talking head session into candidate take clips",
+        "resurrectionTrigger": "across 300 intended boundaries require 98 recall no more than one false split per hour sub 15 second median cleanup ten creators using it as primary recorder for ten sessions and five 7 99 prepays",
+        "tags": [
+          "video",
+          "creators",
+          "recording",
+          "audio",
+          "editing"
+        ]
+      },
+      "key": "idea:clap-cut",
+      "route": "/ideas/clap-cut",
+      "title": "ClapCut",
       "type": "idea"
     },
     {
@@ -1422,6 +1598,50 @@
     {
       "fields": {
         "aliases": [
+          "local video selection receipt"
+        ],
+        "decisionReason": "revcue frame io vimeo review and wipster already own video review and approval while most clients are remote and need asynchronous comments a signature cannot prove careful review or contract enforceability",
+        "name": "cutreceipt",
+        "oneLiner": "let a physically present client watch two exact video versions choose one and sign a byte bound selection receipt on the vendor s phone",
+        "resurrectionTrigger": "a counter service vertical where clients are naturally present must produce at least five of 15 vendor prepays despite current review tools",
+        "tags": [
+          "video",
+          "clients",
+          "approval",
+          "freelancers",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:cut-receipt",
+      "route": "/ideas/cut-receipt",
+      "title": "CutReceipt",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "before and after motion sync"
+        ],
+        "decisionReason": "generic synchronized comparison apps already provide side by side and overlay playback appearance sound and duration changes cannot diagnose repair correctness so vertical positioning adds liability without a new invariant",
+        "name": "cyclematch",
+        "oneLiner": "synchronize before and after equipment clips on a selected event and show observed motion duration differences",
+        "resurrectionTrigger": "one vertical supplies a standardized event with externally meaningful timing and repeat users prepay for the bounded comparison",
+        "tags": [
+          "video",
+          "comparison",
+          "repair",
+          "motion",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:cycle-match-video",
+      "route": "/ideas/cycle-match-video",
+      "title": "CycleMatch",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "senior daily check in"
         ],
         "decisionReason": "daily ok and taskconnect already provide one tap check ins tasks and escalation the event proves only a device or account action not that the person is okay",
@@ -1547,6 +1767,28 @@
       "key": "idea:dry-clean-garment-count",
       "route": "/ideas/dry-clean-garment-count",
       "title": "DryClean Count",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "dualcrop"
+        ],
+        "decisionReason": "dualshot recorder twoface and a fast growing 2026 clone swarm already sell the exact capture promise at 6 99 9 99 the price proves focused camera utility willingness to pay not remaining whitespace",
+        "name": "dualformat safety capture",
+        "oneLiner": "record one take into independently framed vertical and horizontal deliverable files",
+        "resurrectionTrigger": "a new hardware capability creates a genuinely different pair of outputs rather than another lens or orientation combination",
+        "tags": [
+          "video",
+          "camera",
+          "creators",
+          "orientation",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:dual-format-safety-capture",
+      "route": "/ideas/dual-format-safety-capture",
+      "title": "DualFormat Safety Capture",
       "type": "idea"
     },
     {
@@ -1899,15 +2141,17 @@
     {
       "fields": {
         "aliases": [
-          "required job photo closeout"
+          "required job photo closeout",
+          "shotexit video gate"
         ],
-        "decisionReason": "companycam already combines timestamped photos checklists templates reports and integrations with large paid traction and field form tools implement the same pattern filling a slot does not prove the image satisfies a payer or inspector",
+        "decisionReason": "companycam clipycam and field form tools already combine required media checklists annotations reports and integrations filling a slot or reopening a playable file does not prove the image or clip contains the payer s or inspector s intended evidence",
         "name": "fieldshot gate",
-        "oneLiner": "require one photo in each trade specific template slot before a solo contractor closes or leaves a job",
-        "resurrectionTrigger": "a payer franchise or trade association mandates a narrow template and accepts the resulting artifact",
+        "oneLiner": "require one playable app owned photo or video in each trade specific template slot before a solo contractor closes or leaves a job",
+        "resurrectionTrigger": "a payer franchise or trade association defines an objective media invariant beyond file presence mandates a narrow template and accepts the resulting artifact",
         "tags": [
           "contractors",
           "photos",
+          "video",
           "checklists",
           "field service",
           "closeout"
@@ -1988,6 +2232,28 @@
     {
       "fields": {
         "aliases": [
+          "camera state drift timeline"
+        ],
+        "decisionReason": "mature cameras already expose locks and monitors that prevent the failure and a third party cannot recover native camera state after the fact the observable journal is a recorder feature and cannot establish that a state change visibly ruined the take",
+        "name": "focusreceipt",
+        "oneLiner": "journal focus exposure white balance lens and dropped sample state changes during app owned recording and show their timestamps afterward",
+        "resurrectionTrigger": "ten of 20 phone filmmakers report monthly auto mode losses this would change four prepay and the log agrees with visible fixture changes at least 90 of the time",
+        "tags": [
+          "video",
+          "camera",
+          "focus",
+          "exposure",
+          "diagnostics"
+        ]
+      },
+      "key": "idea:focus-receipt",
+      "route": "/ideas/focus-receipt",
+      "title": "FocusReceipt",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "glyph reality check"
         ],
         "decisionReason": "the app can prove rendering only inside itself not that a configuration profile installed or that google docs notes or procreate accepts the font the loop belongs as a feature in ifont or another installer",
@@ -2054,6 +2320,28 @@
     {
       "fields": {
         "aliases": [
+          "final export visual anomaly review"
+        ],
+        "decisionReason": "auto qc uploadcheck and qc buddy now detect black or frozen frames silence integrity and delivery spec failures with generous free tiers intentional flashes cuts and black beats create false positives while full 4k and hdr decode is slow and hot on a phone",
+        "name": "framefault",
+        "oneLiner": "decode a selected final video locally and shortlist near black spans or one to five frame visual outliers for human review",
+        "resurrectionTrigger": "five of 20 editors explicitly refuse cloud upload and prepay scans run faster than half real time on target devices and false flags remain below one per minute",
+        "tags": [
+          "video",
+          "quality control",
+          "on device",
+          "editing",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:frame-fault",
+      "route": "/ideas/frame-fault",
+      "title": "FrameFault",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "honeybook competitor"
         ],
         "decisionReason": "the horizontal market is crowded and switching is painful a generic honeybook replacement is not a sharp enough wedge",
@@ -2069,6 +2357,28 @@
       "key": "idea:freelancer-crm",
       "route": "/ideas/freelancer-crm",
       "title": "Focused Freelancer CRM",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "video dare season"
+        ],
+        "decisionReason": "captains launched the exact format with private groups captain rotation deadlines eliminations final voting archive comments and chat",
+        "name": "friend video elimination",
+        "oneLiner": "run a private friend group video dare season where deadlines and votes eliminate players to a final winner",
+        "resurrectionTrigger": "the exact incumbent disappears or a funded community partner requires a rule captains cannot support",
+        "tags": [
+          "video",
+          "social",
+          "games",
+          "friends",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:friend-video-elimination",
+      "route": "/ideas/friend-video-elimination",
+      "title": "Friend Video Elimination",
       "type": "idea"
     },
     {
@@ -2385,6 +2695,28 @@
     {
       "fields": {
         "aliases": [
+          "deadline reveal chain"
+        ],
+        "decisionReason": "reveal and auree now own the exact hidden until reveal collaborative capture and host paid event flow including no install contribution paths",
+        "name": "hidden group video drop",
+        "oneLiner": "collect private friend clips that remain hidden until a deadline reveals the group montage",
+        "resurrectionTrigger": "a named audience demonstrates and prepays for a response contract neither exact product supports",
+        "tags": [
+          "video",
+          "social",
+          "groups",
+          "events",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:hidden-group-video-drop",
+      "route": "/ideas/hidden-group-video-drop",
+      "title": "Hidden Group Video Drop",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "authorization hold tracker"
         ],
         "decisionReason": "without bank access the app cannot observe release and becomes notes plus reminders obtaining bank data adds disproportionate trust backend and transaction lifecycle complexity",
@@ -2620,6 +2952,28 @@
     {
       "fields": {
         "aliases": [
+          "save the previous moment"
+        ],
+        "decisionReason": "tapreplay already provides the exact free 5 60 second local buffer with screen bluetooth and watch triggers while uptakes loopr sideline save and sports replay tools crowd the behavior the camera must already be open aimed powered and hot before the unpredictable event",
+        "name": "keeperbuffer",
+        "oneLiner": "keep a rolling app owned camera buffer and save only the preceding interval after an unexpected great moment",
+        "resurrectionTrigger": "a niche distribution partner demonstrates a workflow free tapreplay cannot serve and delivers a cohort willing to prepay",
+        "tags": [
+          "video",
+          "sports",
+          "rolling buffer",
+          "camera",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:keeper-buffer",
+      "route": "/ideas/keeper-buffer",
+      "title": "KeeperBuffer",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "key duplicate check"
         ],
         "decisionReason": "whatkey mykeyfinder and keyme already analyze keys while a side image cannot prove blank or keyway geometry or that the copy turns the lock the purchase price can also exceed the key copy itself",
@@ -2754,16 +3108,20 @@
       "fields": {
         "aliases": [
           "make the cut",
-          "contact sheet challenge"
+          "contact sheet challenge",
+          "cut room",
+          "editreveal"
         ],
-        "decisionReason": "live client galleries are already mature the selection challenge wedge was more original but content supply and habit were unproven and we chose to move on",
+        "decisionReason": "the video evolution has immediate solo value and a plausible paid learner but editmentor and editstock validate adjacent training while footage rights proxy delivery explanations and recurring expert packs dominate the economics a fixed choice becomes trivia and an open timeline becomes a serious editing product",
         "name": "live roll",
-        "oneLiner": "choose the frames you would keep from a photographer s contact sheet then reveal the photographer s edit and reasoning",
-        "resurrectionTrigger": "secure 20 licensed rolls from respected photographers and prove repeat play with a no code challenge",
+        "oneLiner": "make a finite creative selection or edit from licensed source media then reveal one professional decision the crowd distribution and the reasoning",
+        "resurrectionTrigger": "secure 12 rights cleared micro scenes and explanations from three editors then require 70 of 100 qualified learners to finish one in under 90 seconds 50 to finish three 30 day seven return eight 7 99 season prepays direct content costs at or below 40 of revenue a delivered second pack and at least five repeat buyers",
         "tags": [
           "photography",
+          "video",
           "education",
-          "creator"
+          "creator",
+          "content rights"
         ]
       },
       "key": "idea:live-roll",
@@ -2851,6 +3209,28 @@
       "key": "idea:loop",
       "route": "/ideas/loop",
       "title": "Loop",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "loopseam score"
+        ],
+        "decisionReason": "mature loop editors already offer seam related creation features pixel and audio similarity do not establish aesthetic continuity and social platforms can alter playback after the local preview",
+        "name": "loopseam lab",
+        "oneLiner": "find endpoint candidates preview repeated playback and quantify frame and audio discontinuity for a short loop",
+        "resurrectionTrigger": "a reproducible platform specific loop failure current editors miss plus eight of 12 repeat loop creators prepaying for that exact check",
+        "tags": [
+          "video",
+          "loops",
+          "editing",
+          "creators",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:loop-seam-lab",
+      "route": "/ideas/loop-seam-lab",
+      "title": "LoopSeam Lab",
       "type": "idea"
     },
     {
@@ -2946,13 +3326,36 @@
     {
       "fields": {
         "aliases": [
-          "cardsafe",
-          "safe to format protocol"
+          "match cut chain"
         ],
-        "decisionReason": "a phone qr identifies an app record or wallet slot while an ingest report sees filenames hashes and mutable volume names without the same per cycle nonce written onto the source card before ingest the two records are not machine bound that requires a card reader ceremony desktop helper or ingest vendor integration beyond the clean mobile mvp",
+        "decisionReason": "reveal owns the group baton and hidden montage matchframes owns visual alignment and one missing or inaccurate participant breaks the artifact the precision constraint adds friction without solving group video cold start",
+        "name": "match relay",
+        "oneLiner": "build a group film where each short clip must hand motion shape or sound to the next participant",
+        "resurrectionTrigger": "twenty manual relays achieve 70 invite to clip conversion 60 four link completion 50 second relay creation and five 7 99 host prepays",
+        "tags": [
+          "video",
+          "social",
+          "groups",
+          "collaboration",
+          "cold start"
+        ]
+      },
+      "key": "idea:match-relay",
+      "route": "/ideas/match-relay",
+      "title": "Match Relay",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "cardsafe",
+          "safe to format protocol",
+          "verified video offload"
+        ],
+        "decisionReason": "a card handoff and ingest report are not machine bound without a per cycle nonce carried through a desktop or vendor workflow for phone video photosync and usb backup already provide mature lower priced transfer and history paths while a successful hash cannot guarantee future drive health or an independent backup policy",
         "name": "media card custody",
-        "oneLiner": "connect physical photo video memory card handoffs to machine verifiable ingest evidence so a card is cleared under an explicit backup policy before formatting",
-        "resurrectionTrigger": "reopen when a desktop helper or vendor api can write and carry a per cycle nonce through current multi destination reports real fixtures prove the binding and pressured crews sustain at least 90 transition compliance",
+        "oneLiner": "bind removable media or phone to destination offloads to verifiable destination evidence and an explicit source deletion or format policy",
+        "resurrectionTrigger": "a desktop helper vendor api or creator specific dual destination policy must bind source identity through verified outputs in a way current transfer tools cannot and pressured crews must sustain at least 90 transition compliance",
         "tags": [
           "photography",
           "video",
@@ -3183,6 +3586,28 @@
       "key": "idea:moving-revised-scope-approval",
       "route": "/ideas/moving-revised-scope-approval",
       "title": "MoveScope",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "synchronized event pov"
+        ],
+        "decisionReason": "relive and recap already own synchronized multi pov event playback clock drift duplicate coverage mixed orientation music minors permissions and storage add operational cost without a fresh format",
+        "name": "multi angle moment",
+        "oneLiner": "collect attendee clips and switch among cameras at the same event timestamp during playback",
+        "resurrectionTrigger": "a venue or event partner supplies timing rights distribution and prepaid demand for a missing interaction",
+        "tags": [
+          "video",
+          "events",
+          "multi camera",
+          "social",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:multi-angle-moment",
+      "route": "/ideas/multi-angle-moment",
+      "title": "Multi-Angle Moment",
       "type": "idea"
     },
     {
@@ -4058,6 +4483,28 @@
     {
       "fields": {
         "aliases": [
+          "consent first reaction reveal"
+        ],
+        "decisionReason": "slice seen real reaction and reacts already occupy reaction recording and chains while coercion copyrighted source capture self consciousness and accidental recording of private surroundings create structural trust risk",
+        "name": "reaction escrow",
+        "oneLiner": "record a consenting recipient s face while viewing a clip and reveal the paired reaction afterward",
+        "resurrectionTrigger": "users request the mechanic inside a bounded rights cleared coaching vertical with explicit pre record consent and payment",
+        "tags": [
+          "video",
+          "reactions",
+          "social",
+          "privacy",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:reaction-escrow",
+      "route": "/ideas/reaction-escrow",
+      "title": "Reaction Escrow",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "reading ruler"
         ],
         "decisionReason": "apple accessibility reader already supplies a customizable reading surface helperbird is free dyslexia reading lens is exact and arbitrary third party text still requires an import or extension ceremony",
@@ -4163,6 +4610,28 @@
       "key": "idea:relative-vibration-compare",
       "route": "/ideas/relative-vibration-compare",
       "title": "SpinBalance",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "structured duet template"
+        ],
+        "decisionReason": "tiktok and youtube already own duet stitch collab cut add yours templates attribution distribution and music rights source deletion or revoked remix permissions can also mute or remove downstream work",
+        "name": "remix response contract",
+        "oneLiner": "let a creator declare a structured harmony motion shot or answer slot and collect attributed video responses",
+        "resurrectionTrigger": "a rights owning creator community commits distribution and payment for a response rule the major platforms cannot express",
+        "tags": [
+          "video",
+          "remix",
+          "creators",
+          "social",
+          "host feature"
+        ]
+      },
+      "key": "idea:remix-response-contract",
+      "route": "/ideas/remix-response-contract",
+      "title": "Remix Response Contract",
       "type": "idea"
     },
     {
@@ -4736,6 +5205,28 @@
     },
     {
       "fields": {
+        "aliases": [
+          "sensitive screen recording review"
+        ],
+        "decisionReason": "maskd already sells live android protection while ios lacks equivalent sanctioned arbitrary cross app window semantics post capture ocr repeats false negative risk over thousands of frames and cannot justify a safe claim",
+        "name": "screensafe recorder",
+        "oneLiner": "mask or review sensitive pixels before sharing a mobile screen tutorial or bug recording",
+        "resurrectionTrigger": "apple exposes sanctioned window and notification metadata or paid users accept a mandatory full review assistant that never claims the recording is safe",
+        "tags": [
+          "video",
+          "screen recording",
+          "privacy",
+          "ios",
+          "platform blocked"
+        ]
+      },
+      "key": "idea:screen-safe-recorder",
+      "route": "/ideas/screen-safe-recorder",
+      "title": "ScreenSafe Recorder",
+      "type": "idea"
+    },
+    {
+      "fields": {
         "aliases": [],
         "decisionReason": "the utility was understandable but the paid value and durable differentiation did not feel strong enough",
         "name": "screenshot inbox",
@@ -4909,6 +5400,28 @@
     {
       "fields": {
         "aliases": [
+          "collaborative trip recap"
+        ],
+        "decisionReason": "1 second everyday leap second dotty and sway already combine daily capture collaboration split screen trips and recap outputs with mature paid behavior",
+        "name": "shared day episode",
+        "oneLiner": "collect tiny clips from a group and turn a day trip or month into a finite shared episode",
+        "resurrectionTrigger": "a new output contract proves repeat creation and payment beyond the established collaborative recap tools",
+        "tags": [
+          "video",
+          "memories",
+          "groups",
+          "recap",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:shared-day-video-episode",
+      "route": "/ideas/shared-day-video-episode",
+      "title": "Shared Day Episode",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "household task claim"
         ],
         "decisionReason": "apple shared reminders already supports lists assignment completion and completion notifications the tap is not proof of physical work and the flow requires participant adoption",
@@ -5019,6 +5532,29 @@
     {
       "fields": {
         "aliases": [
+          "technical rehearsal receipt",
+          "flickermatch"
+        ],
+        "decisionReason": "a compact pre shoot receipt fits an existing sound check ritual but blackmagic camera already exposes professional facts for free and different failure classes need different test durations the rehearsal cannot predict the next take another app thermal state ssd cache exhaustion cable movement or future route stability",
+        "name": "shotcanary",
+        "oneLiner": "inside the production recorder reopen a short technical rehearsal and report exact observed route channels decoded timestamps capacity derived runway bitrate and bounded flicker facts",
+        "resurrectionTrigger": "run 30 paired rehearsal and real take sessions with exact route channel truth full rehearsal decode seeded timestamp fault detection without an aggregate green state and capacity derived minutes remaining within 15 on same settings follow ons across at least 100 labeled camera lighting and shutter combinations require 95 gross flicker precision and 90 recall with abstentions counted as misses and no flicker free claim then four of 15 7 99 prepays and eight users repeating before three later shoots",
+        "tags": [
+          "video",
+          "camera",
+          "preflight",
+          "audio",
+          "recording"
+        ]
+      },
+      "key": "idea:shot-canary",
+      "route": "/ideas/shot-canary",
+      "title": "ShotCanary",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "silent video detector"
         ],
         "decisionReason": "photokit change observation is not a dependable immediate background trigger after native camera capture so a manual check occurs after the irreplaceable moment prevention requires replacing camera or a new platform hook and free mediainfo already inspects tracks",
@@ -5063,6 +5599,28 @@
     {
       "fields": {
         "aliases": [
+          "spoken composition alignment"
+        ],
+        "decisionReason": "matchframe ghost overlay cameras solosnap shootsolo and apple watch camera remote already provide the component behaviors spoken corrections may be slower than a watch or overlay and the active 2026 swarm can copy the refinement quickly",
+        "name": "solomatch voice",
+        "oneLiner": "compare a solo creator s live framing with a saved reference and speak simple alignment cues before app owned capture",
+        "resurrectionTrigger": "fifteen repeat format creators use voice alignment for 80 of sessions over four weeks ten prefer it to overlays or watch and eight prepay",
+        "tags": [
+          "video",
+          "camera",
+          "solo creators",
+          "voice",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:solo-match-voice",
+      "route": "/ideas/solo-match-voice",
+      "title": "SoloMatch Voice",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "sonos room scene"
         ],
         "decisionReason": "soro and orto already provide widgets live activities grouping and presets while sonos is actively repairing and adding its own controls",
@@ -5102,6 +5660,50 @@
       "key": "idea:speaking-pace-mirror",
       "route": "/ideas/speaking-pace-mirror",
       "title": "PaceMirror",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "one revolution product loop"
+        ],
+        "decisionReason": "no hardware independent exact phone utility surfaced the seller trigger repeats per sku and the visual demo is strong manual trimming and ai product video tools are powerful substitutes while symmetry wobble lighting changes and exposure breathing can create a convincing but wrong return frame",
+        "name": "spinloop",
+        "oneLiner": "track a nominated patch on a rotating product propose a candidate return frame trim and preview the repeated seam before export",
+        "resurrectionTrigger": "test 50 real skus require at least 80 seller acceptance without a second retrim or visible seam sub two minute capture to export 10 of 20 sellers using it on at least five listings in two weeks and five 7 99 lifetime prepays",
+        "tags": [
+          "video",
+          "sellers",
+          "products",
+          "computer vision",
+          "loops"
+        ]
+      },
+      "key": "idea:spin-loop",
+      "route": "/ideas/spin-loop",
+      "title": "SpinLoop",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "sponsor logo exposure receipt"
+        ],
+        "decisionReason": "sponsoriq and shikenso already measure brand exposure while sponsors usually care about spoken integration prominence context performance and contractual meaning rather than template seconds alone robust partial rotated animated or occluded logo detection exceeds the simple phone wedge",
+        "name": "logoclock",
+        "oneLiner": "find candidate time ranges where a creator supplied sponsor logo appears and total the observed template exposure",
+        "resurrectionTrigger": "five real briefs must specify logo duration obligations four of 15 creators must prepay and a bounded nominated template detector must exceed 95 precision and recall",
+        "tags": [
+          "video",
+          "creators",
+          "sponsorship",
+          "computer vision",
+          "analytics"
+        ]
+      },
+      "key": "idea:sponsor-logo-clock",
+      "route": "/ideas/sponsor-logo-clock",
+      "title": "LogoClock",
       "type": "idea"
     },
     {
@@ -5173,12 +5775,13 @@
     {
       "fields": {
         "aliases": [
-          "status led reader"
+          "status led reader",
+          "panelpulse"
         ],
-        "decisionReason": "colorsight already offers the exact free live color zoom region color vision profile and cvd confusion warning workflow while glare pwm white balance and blooming make tiny leds fragile and device meaning remains non authoritative",
+        "decisionReason": "colorsight already offers the exact free live color workflow while temporal recording immobilizes the phone and adds heat power and storage cost glare pwm rolling shutter white balance autoexposure and occlusion make tiny leds fragile and neither color nor transition establishes device meaning",
         "name": "statuscolor",
-        "oneLiner": "sample a tiny device status led and report only the camera observed color with an uncertainty band",
-        "resurrectionTrigger": "a 100 led blind test materially beats colorsight under real lighting with safe abstention and target users prepay after comparison",
+        "oneLiner": "sample nominated device status regions and report only camera observed color or brightness transitions with uncertainty and event clips",
+        "resurrectionTrigger": "a 100 led blind test materially beats colorsight with safe abstention a multi device timeline stays below one false event per hour ten technicians provide recurring cases and four prepay",
         "tags": [
           "accessibility",
           "color vision",
@@ -5256,6 +5859,51 @@
       "key": "idea:subtitle-gate",
       "route": "/ideas/subtitle-gate",
       "title": "Subtitle Gate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "camera ethernet port finder"
+        ],
+        "decisionReason": "the phone can report only a changed pixel region not the correct port device identity link health or switch state traffic led modes pwm reflections reconnect delay framing and camera motion create false candidates while cheap hardware testers and remote support tools have the natural payer and distribution",
+        "name": "switchblink",
+        "oneLiner": "film an ethernet switch during a remote unplug and replug and highlight the image region with the strongest sustained off to on transition",
+        "resurrectionTrigger": "complete 100 staged and 30 live cases with zero semantic overclaims at least 30 faster resolution than a plain video call and one installer or support provider committing to embed and pay",
+        "tags": [
+          "video",
+          "networking",
+          "camera",
+          "diagnostics",
+          "technicians"
+        ]
+      },
+      "key": "idea:switch-blink",
+      "route": "/ideas/switch-blink",
+      "title": "SwitchBlink",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "sessioncull",
+          "creator take culler"
+        ],
+        "decisionReason": "the workflow works after native capture and no exact post session take culler surfaced but generic cleaners and capture time tools are strong substitutes one unrelated clip in a group breaks trust icloud downloads add delay and the app cannot choose the best performance or truthfully promise reclaimed physical storage",
+        "name": "takesweep",
+        "oneLiner": "conservatively group alternate clips from a creator selected session for side by side review and explicit keep or recently deleted decisions",
+        "resurrectionTrigger": "across at least 500 creator annotated clips require 98 grouping precision 80 recall zero automatic keeper deletion decisions at least 50 faster review than photos four of 15 7 99 prepays and eight users returning for their next three sessions",
+        "tags": [
+          "video",
+          "creators",
+          "photos",
+          "cleanup",
+          "comparison"
+        ]
+      },
+      "key": "idea:take-sweep",
+      "route": "/ideas/take-sweep",
+      "title": "TakeSweep",
       "type": "idea"
     },
     {
@@ -5787,6 +6435,94 @@
     {
       "fields": {
         "aliases": [
+          "public video battle"
+        ],
+        "decisionReason": "clippoll aura top that trendoline youzem and related 2026 products form an exact swarm around prompts duels voting prizes and leaderboards",
+        "name": "video challenge league",
+        "oneLiner": "run prompted one take video challenges with public voting rankings and winners",
+        "resurrectionTrigger": "a genuinely different atomic response rule and seed community produce paid repeat behavior before a network build",
+        "tags": [
+          "video",
+          "social",
+          "challenges",
+          "voting",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:video-challenge-league",
+      "route": "/ideas/video-challenge-league",
+      "title": "Video Challenge League",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "asynchronous face to face updates"
+        ],
+        "decisionReason": "marco polo owns the behavior with mature monthly annual and family subscriptions the market validates private video willingness to pay but leaves no new atomic loop",
+        "name": "video postcards",
+        "oneLiner": "send private face to face video updates that close relationships watch and answer asynchronously",
+        "resurrectionTrigger": "a narrow relationship or accessibility contract current asynchronous video messengers cannot serve and users prepay for it",
+        "tags": [
+          "video",
+          "messaging",
+          "relationships",
+          "social",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:video-postcards",
+      "route": "/ideas/video-postcards",
+      "title": "Video Postcards",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "video version acknowledgment"
+        ],
+        "decisionReason": "video compare app dropbox replay frame io and similar systems own synchronized comparison versions comments and approvals a local receipt is too thin while the complete useful version becomes another hosted review network",
+        "name": "revisionreceipt",
+        "oneLiner": "compare v1 and v2 bind objective change candidates and hashes to the exact v2 bytes and collect client acknowledgment",
+        "resurrectionTrigger": "ten freelancers lose money specifically because existing review links lack a required byte bound acknowledgment and prepay for that distinction",
+        "tags": [
+          "video",
+          "clients",
+          "versions",
+          "approval",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:video-revision-receipt",
+      "route": "/ideas/video-revision-receipt",
+      "title": "RevisionReceipt",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "video mission recap"
+        ],
+        "decisionReason": "scavos eventzee goosechase snapquest and related products already sell photo video missions and party packs the exact willingness to pay exists but the format is occupied",
+        "name": "video scavenger story",
+        "oneLiner": "issue video missions during a party trip or city outing and assemble completed clips into a recap story",
+        "resurrectionTrigger": "a new mission to output contract current scavenger products cannot reproduce and event hosts prepay for it",
+        "tags": [
+          "video",
+          "games",
+          "events",
+          "scavenger hunt",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:video-scavenger-story",
+      "route": "/ideas/video-scavenger-story",
+      "title": "Video Scavenger Story",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
           "queuewatch"
         ],
         "decisionReason": "the accessibility need is real but the phone must remain propped with its camera active display formats vary and the consumer willingness to pay ceiling is low venue side queue systems are the more reliable intervention",
@@ -5912,6 +6648,28 @@
       "key": "idea:welding-filler-gate",
       "route": "/ideas/welding-filler-gate",
       "title": "RodGate",
+      "type": "idea"
+    },
+    {
+      "fields": {
+        "aliases": [
+          "commit to the ending"
+        ],
+        "decisionReason": "an exact 2026 app store product and similar android products already own the format while licensed staged or scraped content supply remains the business and weak payment signal",
+        "name": "what happens next video",
+        "oneLiner": "watch a video setup commit to an ending and reveal the real clip as a daily puzzle",
+        "resurrectionTrigger": "a rights cleared content partner plus demonstrated paid daily retention unavailable to current products",
+        "tags": [
+          "video",
+          "games",
+          "prediction",
+          "content rights",
+          "exact incumbent"
+        ]
+      },
+      "key": "idea:what-happens-next-video",
+      "route": "/ideas/what-happens-next-video",
+      "title": "What Happens Next Video",
       "type": "idea"
     },
     {
@@ -6661,8 +7419,55 @@
       "route": "/research/untitled-micro-help-network",
       "title": "Untitled micro-help network",
       "type": "research"
+    },
+    {
+      "fields": {
+        "body": "video revisit tiny camera utilities and playable video objects research date 2026 08 10 method three independent research lanes searched the 273 idea ledger before mining one lane focused on creator prosumer irreversible moments one on new social video formats and one on phone native video as instrument utilities each lane checked current 2025 2026 competitors prices platform authority acquisition retention moderation and rights risk then attacked the other lanes strongest candidates starting archive 273 ideas and 18 research dossiers executive summary video remains a lively paid market but the opportunity is not another general editor or a cosmetically different tiktok feed dualshot recorder reportedly reached number one in paid photo video with a narrow 6 99 one time utility the durable lesson is that a phone camera can still sell one crisp interaction the warning is that successful capture tricks attract clones quickly the round screened forty serious shapes it recommends zero production builds and four bounded experiments spinloop strongest commercial test propose one candidate visual return interval for a seller s intended product revolution takesweep creator session culling test with conservative grouping and no automatic best take claim shotcanary recorder integrated technical rehearsal with observed facts only and no predictive green state live roll cut room a no code content and payment test for blind editing judgment not a new network everything else is either an exact current category a feature of a mature camera editor a second app ritual a rights content treadmill or a visual inference that cannot support the implied promise the social market conclusion is especially clear human only friends only no algorithm and live only are policies not new content formats what changed since the earlier social research the obvious private and participatory video formats have become denser in 2026 reveal owns hidden until deadline collaborative video chains relive owns synchronized multi angle event playback auree offers host paid no install shared event capture and reveal captains is a private friend group video elimination game slice combines reactions reaction chains challenges messaging and clips aura clippoll top that and youzem form a current challenge battle swarm tiktok itself now describes large scale ai labeling and fake account removal while current users complain about ai slop repetitive ads tiktok shop reposts and creators starting from zero those are real frustrations but they do not remove the cold start moderation rights and distribution advantages of incumbent feeds the american tiktok alternative remains an umbrella question rather than a product tiktok ai update current complaint example validation experiments spinloop concept a seller places an item on any manual turntable nominates a visible patch records a rotation and receives a candidate return frame trim plus a repeated seam preview why it survives it has a delightful 60 second demo repeats for every sku works with real products rather than ai generated motion and no hardware independent exact phone utility surfaced pivo studio 360 couples the behavior to pivo hardware while spin360 targets dealer walkarounds apple vision can support user nominated tracking in app owned video vision tracking truth boundary the app may propose return frames and show the seam it cannot call the loop seamless or infer that a symmetric glossy occluded exposure shifting object completed exactly one physical revolution fatal risk a seller can trim manually in capcut hand wobble light changes variable speed and ambiguous repeated views can erase the time saving ai product video tools such as photoroom also compete for the desired listing output even though they do not preserve the real rotation paid gate test 50 real skus on ordinary phones and inexpensive manual turntables at least 80 percent must be seller accepted without a second retrim or visible seam capture to export must remain under two minutes 10 of 20 active sellers must use it on at least five listings in two weeks and five must prepay 7 99 lifetime after seeing the alternatives takesweep concept after a creator selected shooting session conservatively group alternate takes using time and framing provide side by side scrub review and let the creator explicitly keep or send clips to recently deleted why it survives it works after creators use their existing camera uptakes charges 9 99 year while shootsolo switchtake and pausecam validate take decisions during capture dr self tape already supports camera roll upload and side by side take comparison and video compare app charges 9 99 for manual pair comparison generic cleaners validate storage pain no exact conservative post session take grouper surfaced truth boundary the app groups candidate alternates and reports logical sizes it never picks the best performance calls a clip disposable claims physical storage was reclaimed before photos purges recently deleted or auto deletes apple documents that deleted assets remain recoverable for 30 days and photokit deletion propagates through the user s photo library apple recently deleted photokit deletion transcript disagreement may prevent a merge it must not be positive proof that two clips are equivalent fatal risk the user is tired after shooting icloud only assets make grouping slow and one unrelated cutaway inside a group breaks trust a general cleaner or better capture discipline may be enough paid gate across at least 500 clips from 25 creator annotated sessions require at least 98 percent grouping precision at least 80 percent recall zero automatic keeper deletion decisions and a median cull time at least 50 percent faster than photos four of 15 creators must prepay 7 99 and at least eight must reuse it for their next three sessions shotcanary concept inside the same recorder used for the real take create and reopen a short technical rehearsal and report exact observed route channel encoded sample timestamp decode capacity bitrate and bounded flicker facts why it survives test recordings and sound checks are already natural before expensive captures a compact receipt might make the ritual repeatable apple exposes app owned capture pipelines timestamped audio route observations dropped output callbacks and asset readers a dropped output callback is a pipeline diagnostic not proof of a gap in a separately encoded asset reopened track layout decoded presentation timestamps and full decode own the file claims capture setup audio route avassetreader truth boundary it says only what happened in the exact rehearsal file it never says ready safe or predicts a later take another app a long ssd write after cache exhaustion future thermal state cable motion or uninterrupted bluetooth routing fatal risk blackmagic camera and final cut camera are free and already expose professional meters external microphones codecs storage and review keeping rehearsal and production pipelines identical forces shotcanary into the full recorder market while different checks require incompatible test durations paid gate thirty paired rehearsal real take sessions across built in usb c and bluetooth inputs must preserve exact route channel truth fully decode every rehearsal detect seeded timestamp faults without an aggregate green state and estimate capacity derived minutes remaining from observed encoded bitrate and current free space within 15 percent on a same settings ten minute follow on on at least 100 labeled camera lighting and shutter combinations the gross flicker candidate detector must reach at least 95 percent precision and 90 percent recall abstentions count as misses and the app never says flicker free four of 15 frequent creators must prepay 7 99 and at least eight must use it before three later shoots live roll cut room concept give a learner a tiny licensed raw scene let them choose cut points or take order then reveal one professional cut the crowd distribution and a short explanation why it survives it has immediate solo value and preserves live roll s strongest mechanism finite media suspense independent judgment and expert reveal editing education supports paid workshops and footage packs editmentor provides a real editing interface and 100 challenges editstock sells licensed practice footage and feedback proving both demand and the main obstacle truth boundary the professional version is one defensible editorial choice never the correct cut crowd agreement measures taste not quality fatal risk a fixed choice becomes multiple choice trivia an open timeline becomes a serious editor course rights proxy delivery storage annotations and a continuous supply of respected editors dominate the software economics paid gate before native code secure 12 rights cleared micro scenes and final cut explanations from three editors recruit 100 qualified learners 70 percent must finish one in under 90 seconds 50 percent must complete three 30 percent must return within seven days and eight must prepay a 7 99 season direct rights editor proxy and delivery costs must stay at or below 40 percent of collected season revenue all three suppliers must deliver a second pack and at least five of the eight buyers must pay for it again video as instrument candidates switchblink concept prop the phone facing an ethernet switch unplug replug a remote device and highlight the image region with the strongest sustained off to on transition the visual demo is excellent and no camera only exact utility surfaced hardware tools such as pockethernet and netally intentionally blink or discover ports more authoritatively the app can only report a changed region not the correct port device identity link health or switch semantics led mode traffic pwm reflections reconnect delay and camera motion create false candidates cisco s port led guide illustrates device specific meanings verdict passed market the payer and distribution belong to installers or remote support organizations and a cheap toner is stronger reopen only after 100 staged plus 30 live cases produce zero semantic overclaims at least 30 percent faster resolution than a plain video call and one support provider commits to distribution payment panelpulse concept draw regions around equipment leds leave the phone recording and receive a brightness color transition timeline with short clips around observed changes this is a temporal extension of statuscolor not a new product the phone is immobilized heat power storage matter and led pwm rolling shutter autoexposure occlusion and semantic ambiguity remain teamviewer assist ar already gives support providers live camera voice screenshots and annotations verdict merge into statuscolor reopen only if ten field technicians provide recurring cases four prepay and a multi device fixture stays below one false event per hour cablewiggle concept point at a known de energized low voltage bundle gently move one cable from the far end and highlight the highest motion candidate the physical workaround is real but adjacent cables move together and a 20 50 toner probe is authoritative installer discussion av movement workaround verdict passed market reopen only at 90 percent top two accuracy across 100 bundled cable trials plus three of 12 professional prepays creator utility decisions solomatch voice concept compare a solo creator s live framing with a saved reference and speak simple alignment cues before app owned capture current ghost overlay and solo creator tools already assemble the pieces matchframe solosnap shootsolo and apple s free watch camera remote the app can observe alignment but not lighting wardrobe prop continuity or creative quality and spoken correction may be slower than looking at a watch or overlay verdict passed market reopen only if 15 repeat format creators use voice alignment for at least 80 percent of sessions over four weeks ten prefer it to overlays or watch and eight prepay keeperbuffer concept keep a rolling app owned camera buffer and save only the preceding interval after an unexpected great moment tapreplay already saves the previous 5 60 seconds locally using screen bluetooth or watch triggers while uptakes loopr sideline save and sports replay tools occupy the same behavior the phone must already be open aimed powered and warm before the unpredictable event verdict passed market reopen only when a niche partner demonstrates a workflow the free generic tool cannot serve and brings prepaid distribution briefcut gate concept compare a sponsored content brief with a final clip and surface bounded timestamped phrase disclosure duration and visual rule findings vibe analytics brief analyzer is an exact current product with pdf word parsing per rule reports timecodes disclosure checks mention counts and competitor detection the natural payer is a brand or agency while multimodal false negatives make a creator side compliant result dangerous verdict passed market reopen only around an objective creator side rule the incumbent cannot serve with no compliant green state and demonstrated paid demand clapcut concept record a long talking head batch inside the app and use an explicit clap contract to create candidate take boundaries apple exposes app owned video and audio buffers so the detector is feasible video sample buffers audio capture but the clap contaminates audio interrupts performance misfires on music noise requires replacing camera and remains thinner than mature cleanup products such as gling and recut verdict passed market as a standalone product possible recorder feature reopen only if 300 intended boundaries achieve at least 98 percent recall and no more than one false split per hour median cleanup stays under 15 seconds ten creators use it as primary recorder for ten sessions and five prepay 7 99 logoclock concept import a sponsor s exact logo and a final clip then report candidate time ranges and accumulated seconds where that template appears sponsoriq and shikenso already measure brand asset exposure sponsors care about placement spoken integration prominence context and performance beyond template seconds verdict passed market reopen only if five real paid briefs specify logo duration obligations four of 15 creators prepay and bounded template precision recall both exceed 95 percent focusreceipt concept during app owned recording journal focus exposure white balance lens and dropped sample state changes and show their timestamps afterward mature cameras prevent the problem by exposing locks and monitors manual camera 4 and blackmagic occupy the capture surface and apple documents dropped sample callbacks dropped frame callback verdict passed market recorder feature reopen only if ten of 20 phone filmmakers report monthly losses this log would change four prepay and fixture logs agree with visible state changes at least 90 percent of the time framefault concept decode a final export locally and shortlist near black spans or one to five frame visual outliers for human review auto qc uploadcheck and qc buddy now detect black frozen frames silence integrity and delivery spec failures often with generous free tiers intentional flashes cuts and black beats create false positives full 4k hdr decode is slow and hot this is adjacent to soundtrack check but it is not the same idea soundtrack check tries to detect a newly captured missing audio track and is blocked by the lack of a dependable native camera completion trigger while framefault is a manual final export visual review verdict passed market as a separate final export visual review idea reopen only if five of 20 editors explicitly refuse cloud upload and prepay scans run faster than half real time and false flags stay below one per minute bumpmark concept during a static app owned shot journal core motion and mark timestamps where the phone rotates beyond a threshold the phone can measure its attitude but stabilization may hide the bump and the user must abandon a mature camera core motion verdict passed market recorder feature reopen only if four of 15 high frequency static shot creators prepay and the markers save at least ten minutes weekly cutreceipt concept a local client watches two exact versions on the vendor s phone chooses one and signs a selection receipt revcue already offers account free phone review timestamped feedback approvals revision limits change orders and payments while frame io vimeo review and wipster own the wider workflow verdict passed market reopen only for a counter service vertical where at least five of 15 vendors prepay and clients are naturally present loopseam lab concept find endpoint candidates preview repeated playback and quantify frame audio discontinuity for a loop seamless video loop maker is an exact free endpoint matching product while mature loop editors already provide manual creation effects pixel similarity is not aesthetic continuity and platform players can change playback behavior verdict passed market reopen only around a reproducible platform specific failure current loop editors miss with eight of 12 repeat loop creators prepaying cyclematch concept synchronize before after equipment motion clips on a selected event and show observed duration differences syncmovie coach video analysis and generic split screen tools own synchronized comparison appearance and sound do not diagnose repair correctness verdict passed market reopen only for a vertical with a standardized externally meaningful event capture and delivery decisions dualformat safety capture concept one take creates independently framed vertical and horizontal deliverables dualshot recorder twoface doubleframe dualrecorder and related 2026 products form a current clone swarm the 6 99 9 99 price range proves willingness to pay not whitespace verdict passed market reopen only when new hardware creates a genuinely different output pair rather than another lens orientation combination ceremonysafe concept pair two phones to record redundant local files for an irreplaceable ceremony while showing connectivity and reopen state apple final cut camera and blackmagic already coordinate multiple phones obtaining mounting powering pairing and correctly aiming a second phone is the dominant ceremony verdict passed market reopen only through an event partner and 30 ceremonies showing easier completed setup and real recovery versus the free tools revisionreceipt concept compare v1 and v2 generate hashes change candidates and bind client acknowledgment to the exact v2 bytes video compare app dropbox replay frame io and other review platforms own comparison versioning comments and approvals a local receipt is too thin the complete product becomes another review network verdict passed market reopen only if ten freelancers lose money because existing review links lack a required byte bound acknowledgment and prepay for that exact distinction screensafe recorder concept prevent or review sensitive pixels before sharing a mobile tutorial or screen recording maskd already sells live protection on android and explicitly calls it best effort ios does not expose equivalent arbitrary cross app window semantics post capture ocr repeats false negative risk across thousands of frames verdict passed scope on ios and exact incumbent on android reopen only with sanctioned ios window notification metadata or a paid mandatory full review workflow that never claims safe authentic onetake concept capture a no cut app owned video and attach signed c2pa content credentials adobe s content authenticity app sony s professional news work and the c2pa standard own the provenance layer c2pa explicitly does not prove the depicted event is true c2pa explainer verdict passed scope reopen only when a named publisher accepts the credential a hardware backed trust path exists and paid creators receive concrete downstream value apppreview gate concept check an app store preview s length dimensions size codec frame rate and audio against published rules apple publishes official preview specifications while storecut screeny and a 2026 tool swarm already create and validate previews verdict passed market reopen only when apple introduces a new asset class current tools cannot handle shotexit video gate fieldshot gate concept require one playable app owned video in each named job slot before a solo operator closes a field visit clipycam companycam and field form products already combine required media annotations reports and integrations a file reopening proves only that bytes exist not that the clip contains the payer s or inspector s intended evidence verdict merge into fieldshot gate reopen only when a payer or trade standard defines an objective video invariant beyond file presence and accepts the artifact verified video offload concept copy selected videos to usb nas hash reopen the destination and produce a manifest before manual source removal photosync and usb backup already provide mature lower priced transfer and history paths this reinforces media card custody rather than creating a new record verdict merge into media card custody reopen only around a creator specific dual destination policy current transfer tools cannot bind social format decisions formatdecisionmatch relay each 3 5 second clip must hand motion shape or sound to the next participantpassed market reveal owns the baton group montage and matchframes owns alignment one missing participant breaks the artifact reopen only after 20 manual relays achieve 70 invite to clip conversion 60 four link completion 50 second relay creation and five 7 99 host prepays hidden group video droppassed market reveal and auree are exact video challenge leaguepassed market clippoll aura top that trendoline and youzem form an exact swarm friend video eliminationpassed market captains is exact multi angle momentpassed market relive owns synchronized handoff and recap owns shared multi pov event stories shared day episodepassed market 1 second everyday and adjacent current apps already own collaborative daily trip recaps reaction escrowpassed market slice and adjacent current apps own reaction recording and chains with additional consent privacy risk video postcardspassed market marco polo validates the behavior and already charges substantial recurring prices what happens next videopassed market an exact 2026 app exists and content licensing remains the business video scavenger storypassed market scavos and established event scavenger products already sell photo video missions remix response contractpassed market tiktok and youtube own duet stitch collab cut add yours distribution attribution and music rights actor scene testpassed market dr self tape and mature self tape tools already own the payer and workflow live only social feedpassed market reopen only with a new interaction rule that makes an unknown ordinary broadcaster valuable immediately public video networks also inherit filtering reporting blocking support contact moderation and ongoing ugc enforcement requirements under apple guideline 1 2 and google play s ugc policy any future experiment should use curated licensed footage private or unlisted participation by default original licensed music explicit contributor rights bounded proxies and explicit deletion windows round decision build recommendations zero paid product test spinloop paid workflow prototypes takesweep and shotcanary no code content payment test live roll cut room preserve as passes or merges every other candidate above the reusable insight is optimistic video is not saturated general video creation is saturated the remaining 7 99 opportunities are tiny capture ceremonies post capture decisions or local measurements where the phone observes one bounded fact and gets out of the way",
+        "headings": [
+          "video revisit tiny camera utilities and playable video objects",
+          "executive summary",
+          "what changed since the earlier social research",
+          "validation experiments",
+          "spinloop",
+          "takesweep",
+          "shotcanary",
+          "live roll cut room",
+          "video as instrument candidates",
+          "switchblink",
+          "panelpulse",
+          "cablewiggle",
+          "creator utility decisions",
+          "solomatch voice",
+          "keeperbuffer",
+          "briefcut gate",
+          "clapcut",
+          "logoclock",
+          "focusreceipt",
+          "framefault",
+          "bumpmark",
+          "cutreceipt",
+          "loopseam lab",
+          "cyclematch",
+          "capture and delivery decisions",
+          "dualformat safety capture",
+          "ceremonysafe",
+          "revisionreceipt",
+          "screensafe recorder",
+          "authentic onetake",
+          "apppreview gate",
+          "shotexit video gate fieldshot gate",
+          "verified video offload",
+          "social format decisions",
+          "round decision"
+        ],
+        "title": "video revisit tiny camera utilities and playable video objects"
+      },
+      "key": "research:video-revisit-2026-08-10",
+      "route": "/research/video-revisit-2026-08-10",
+      "title": "Video Revisit — Tiny Camera Utilities and Playable Video Objects",
+      "type": "research"
     }
   ],
   "normalizationVersion": 1,
-  "sourceHash": "sha256:79bc78b964d6234625a67194d1b9c5ea0f514226fbc0d89e7b0207efc1f4f243"
+  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd"
 }
