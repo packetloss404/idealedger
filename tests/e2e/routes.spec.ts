@@ -52,7 +52,7 @@ test('presents the whole database as the durable home', async ({ page }) => {
   await expect(page.getByText('Conversation creates the work. The ledger keeps the memory.')).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'Every decision stays visible' })).toBeVisible();
   await expect(page.getByRole('link', { name: /348 All ideas/ })).toBeVisible();
-  await expect(page.getByRole('link', { name: /305 Passed decisions/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /306 Passed decisions/ })).toBeVisible();
   await expect(page.getByRole('heading', {
     level: 2,
     name: 'Round 11 ended with an experiment, not a build',
