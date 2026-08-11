@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-09",
+  "studies": [
+    {
+      "id": "fixture-panel",
+      "title": "Fixture synthetic panel",
+      "conducted_at": "2026-08-09",
+      "method": "simulated_persona",
+      "sample_label": "One deterministic persona",
+      "summary": "Exercise structured focus-group generation.",
+      "limitation": "This is a simulated fixture, not participant research.",
+      "dossier": "docs/RESEARCH.md",
+      "anchor": null,
+      "segments": [
+        {
+          "id": "fixture-segment",
+          "label": "Fixture segment",
+          "primary_job": "Verify a deterministic job.",
+          "signal": "The fixture produces a signal.",
+          "objection": "The fixture also preserves an objection."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Fixture outcome",
+          "disposition": "advanced",
+          "summary": "The fixture idea remains linked.",
+          "idea_ids": ["fixture-idea"]
+        }
+      ],
+      "next_step": "Run the deterministic generator."
+    }
+  ]
+}

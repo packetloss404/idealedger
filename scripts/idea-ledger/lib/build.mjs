@@ -4,13 +4,27 @@ import path from 'node:path';
 import { readSourceSnapshot } from './hash.mjs';
 import { parseMarkdownDocument, validateMarkdownDocuments } from './markdown.mjs';
 import { dossierSlug, normalizeSearch } from './normalize.mjs';
-import { collectSourcePaths, parseSourceJson, SOURCE_PATH, validateSourceSemantics } from './source.mjs';
+import {
+  collectSourcePaths,
+  FOCUS_GROUPS_PATH,
+  parseFocusGroupsJson,
+  parseSourceJson,
+  SOURCE_PATH,
+  validateFocusGroupSemantics,
+  validateSourceSemantics,
+} from './source.mjs';
 import { stableJson } from './stable-json.mjs';
-import { ValidationError, validateGeneratedArtifacts, validateSourceSchema } from './validate.mjs';
+import {
+  ValidationError,
+  validateFocusGroupsSchema,
+  validateGeneratedArtifacts,
+  validateSourceSchema,
+} from './validate.mjs';
 
 export const OUTPUT_DIRECTORY = 'src/generated/idea-ledger';
 export const OUTPUT_FILES = [
   'catalog.json',
+  'focus-groups.json',
   'manifest.json',
   'quality-report.json',
   'research-documents.json',
@@ -199,21 +213,75 @@ function buildResearchMetadata(researchDocuments, sourceHash) {
   };
 }
 
+function buildFocusGroups(focusGroups, researchDocuments, sourceHash) {
+  const documentsByPath = new Map(researchDocuments.map((document) => [document.path, document]));
+  const errors = [];
+  const studies = focusGroups.studies.map((study) => {
+    const document = documentsByPath.get(study.dossier);
+    if (!document) {
+      errors.push(`Focus-group study ${study.id} has no generated dossier for ${study.dossier}`);
+      return null;
+    }
+    if (study.anchor && !document.headings.some((heading) => heading.anchor === study.anchor)) {
+      errors.push(
+        `Focus-group study ${study.id} references missing heading #${study.anchor} in ${study.dossier}`
+      );
+    }
+    return {
+      ...study,
+      route: `/focus-groups#${study.id}`,
+      dossierSlug: document.slug,
+      dossierRoute: `${document.route}${study.anchor ? `#${study.anchor}` : ''}`,
+      linkedIdeaIds: sorted(new Set(study.outcomes.flatMap((outcome) => outcome.idea_ids))),
+    };
+  });
+  if (errors.length > 0) throw new ValidationError(errors);
+
+  const linkedIdeaIds = new Set(studies.flatMap((study) => study.linkedIdeaIds));
+  return {
+    sourceHash,
+    updatedAt: focusGroups.updated_at,
+    counts: {
+      studies: studies.length,
+      segments: studies.reduce((total, study) => total + study.segments.length, 0),
+      simulatedStudies: studies.filter((study) => study.method === 'simulated_persona').length,
+      recruitedStudies: studies.filter((study) => study.method === 'recruited_participants').length,
+      linkedIdeas: linkedIdeaIds.size,
+    },
+    studies,
+  };
+}
+
 export async function buildArtifacts(repoRoot) {
   const initialSourceBuffer = await fs.readFile(path.resolve(repoRoot, SOURCE_PATH));
+  const initialFocusGroupsBuffer = await fs.readFile(path.resolve(repoRoot, FOCUS_GROUPS_PATH));
   const initialSource = parseSourceJson(initialSourceBuffer);
+  const initialFocusGroups = parseFocusGroupsJson(initialFocusGroupsBuffer);
   const sourceSchemaErrors = validateSourceSchema(repoRoot, initialSource);
-  if (sourceSchemaErrors.length > 0) throw new ValidationError(sourceSchemaErrors);
+  const focusGroupSchemaErrors = validateFocusGroupsSchema(repoRoot, initialFocusGroups);
+  if (sourceSchemaErrors.length + focusGroupSchemaErrors.length > 0) {
+    throw new ValidationError([...sourceSchemaErrors, ...focusGroupSchemaErrors]);
+  }
 
   const semantic = validateSourceSemantics(repoRoot, initialSource);
-  if (semantic.errors.length > 0) throw new ValidationError(semantic.errors, semantic.warnings);
+  const focusGroupSemantic = validateFocusGroupSemantics(repoRoot, initialFocusGroups, initialSource);
+  if (semantic.errors.length + focusGroupSemantic.errors.length > 0) {
+    throw new ValidationError(
+      [...semantic.errors, ...focusGroupSemantic.errors],
+      [...semantic.warnings, ...focusGroupSemantic.warnings]
+    );
+  }
 
-  const sourcePaths = collectSourcePaths(initialSource);
+  const sourcePaths = collectSourcePaths(initialSource, initialFocusGroups);
   const snapshot = await readSourceSnapshot(repoRoot, sourcePaths);
   if (!initialSourceBuffer.equals(snapshot.buffers.get(SOURCE_PATH))) {
     throw new ValidationError([`${SOURCE_PATH} changed while the generator was reading inputs`]);
   }
+  if (!initialFocusGroupsBuffer.equals(snapshot.buffers.get(FOCUS_GROUPS_PATH))) {
+    throw new ValidationError([`${FOCUS_GROUPS_PATH} changed while the generator was reading inputs`]);
+  }
   const source = parseSourceJson(snapshot.buffers.get(SOURCE_PATH));
+  const focusGroups = parseFocusGroupsJson(snapshot.buffers.get(FOCUS_GROUPS_PATH));
 
   const linkedIdeasByPath = new Map();
   for (const idea of source.ideas) {
@@ -225,7 +293,9 @@ export async function buildArtifacts(repoRoot) {
 
   const parsedDocuments = [];
   const seenSlugs = new Map();
-  for (const relativePath of sourcePaths.filter((candidate) => candidate !== SOURCE_PATH)) {
+  for (const relativePath of sourcePaths.filter(
+    (candidate) => candidate !== SOURCE_PATH && candidate !== FOCUS_GROUPS_PATH
+  )) {
     const slug = dossierSlug(relativePath);
     if (seenSlugs.has(slug)) {
       throw new ValidationError([
@@ -245,7 +315,11 @@ export async function buildArtifacts(repoRoot) {
   }
 
   const markdownValidation = validateMarkdownDocuments(repoRoot, parsedDocuments);
-  const warnings = [...semantic.warnings, ...markdownValidation.warnings];
+  const warnings = [
+    ...semantic.warnings,
+    ...focusGroupSemantic.warnings,
+    ...markdownValidation.warnings,
+  ];
   if (markdownValidation.errors.length > 0) {
     throw new ValidationError(markdownValidation.errors, warnings);
   }
@@ -266,9 +340,11 @@ export async function buildArtifacts(repoRoot) {
   const searchDocuments = buildSearchDocuments(source, researchDocuments, snapshot.sourceHash);
   const researchMetadata = buildResearchMetadata(researchDocuments, snapshot.sourceHash);
   const routes = buildRoutes(source, researchDocuments, snapshot.sourceHash);
+  routes.focusGroupRoutes = ['/focus-groups'];
   const qualityReport = buildQualityReport(source, researchDocuments, snapshot.sourceHash);
+  const focusGroupArtifact = buildFocusGroups(focusGroups, researchDocuments, snapshot.sourceHash);
   const manifest = {
-    generatorVersion: 2,
+    generatorVersion: 3,
     sourceSchemaVersion: 1,
     sourceUpdatedAt: source.updated_at,
     sourceHash: snapshot.sourceHash,
@@ -278,10 +354,12 @@ export async function buildArtifacts(repoRoot) {
       dossiers: researchDocuments.length,
       researchEdges: source.ideas.reduce((total, idea) => total + idea.research.length, 0),
       searchDocuments: searchDocuments.documents.length,
+      focusGroupStudies: focusGroupArtifact.counts.studies,
     },
   };
   const artifacts = {
     'catalog.json': catalog,
+    'focus-groups.json': focusGroupArtifact,
     'manifest.json': manifest,
     'quality-report.json': qualityReport,
     'research-documents.json': { sourceHash: snapshot.sourceHash, documents: researchDocuments },

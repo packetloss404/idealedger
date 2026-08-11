@@ -1,6 +1,6 @@
 # Idea Ledger generator
 
-`docs/idea-database.json` and the Markdown files it references are canonical. Files under
+`docs/idea-database.json`, `docs/focus-groups.json`, and their referenced Markdown files are canonical. Files under
 `src/generated/idea-ledger/` are deterministic, disposable build artifacts and must never be
 edited by hand.
 

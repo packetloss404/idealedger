@@ -7,6 +7,8 @@ import {
   getResearchProvenance,
   getResearchReferenceProvenance,
   ideas,
+  focusGroupCounts,
+  focusGroupStudies,
   ledgerCounts,
   loadResearchRepository,
   researchMetadata,
@@ -17,18 +19,34 @@ import {
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
     expect(ideas).toHaveLength(307);
-    expect(researchMetadata).toHaveLength(19);
+    expect(researchMetadata).toHaveLength(20);
     expect(ledgerCounts).toEqual({
-      dossiers: 19,
+      dossiers: 20,
+      focusGroupStudies: 2,
       ideas: 307,
-      researchEdges: 343,
-      searchDocuments: 326,
+      researchEdges: 354,
+      searchDocuments: 327,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
     expect(
       researchProvenance.reduce((count, provenance) => count + provenance.references.length, 0),
     ).toBe(ledgerCounts.researchEdges);
+  });
+
+  it('exposes structured focus-group studies without presenting simulation as participants', () => {
+    expect(focusGroupStudies).toHaveLength(2);
+    expect(focusGroupCounts).toEqual({
+      linkedIdeas: 12,
+      recruitedStudies: 0,
+      segments: 13,
+      simulatedStudies: 2,
+      studies: 2,
+    });
+    const xprize = focusGroupStudies.find((study) => study.id === 'xprize-persona-synthesis');
+    expect(xprize?.method).toBe('simulated_persona');
+    expect(xprize?.linkedIdeaIds).toContain('lot-match');
+    expect(xprize?.dossierRoute).toBe('/research/xprize-focus-group-synthesis-2026-08-10');
   });
 
   it('keeps evidence mapping honest', () => {
@@ -45,20 +63,21 @@ describe('generated ledger repository', () => {
     expect(getResearchMetadataForIdea('lot-match').map((document) => document.slug)).toEqual([
       'idea-mining-loop-2026-08-09',
       'hackathon-research-synthesis-2026-08-10',
+      'xprize-focus-group-synthesis-2026-08-10',
     ]);
   });
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(19);
+    expect(repository.documents).toHaveLength(20);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
 
   it.each([
     ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 4],
-    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 2],
-    ['lot-match', '1-lotmatch--strongest-business-candidate', 2],
+    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 3],
+    ['lot-match', '1-lotmatch--strongest-business-candidate', 3],
     ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
     ['spin-loop', 'spinloop', 1],
   ])('exposes a generator-owned heading anchor for %s', (ideaId, expectedAnchor, count) => {

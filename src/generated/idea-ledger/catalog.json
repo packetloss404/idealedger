@@ -411,12 +411,16 @@
         "Application Autofill"
       ],
       "decision_reason": "Strong personal pain signal, but browser autofill and application-assistant products already occupy obvious implementations; no deep dive was completed.",
-      "dossierSlugs": [],
+      "dossierSlugs": [
+        "xprize-focus-group-synthesis-2026-08-10"
+      ],
       "hackathon_fit": "high",
       "id": "resume-reuse",
       "name": "Resume Reuse",
       "one_liner": "Stop re-entering information already present in a resume by maintaining one verified career profile that can answer repetitive job applications.",
-      "research": [],
+      "research": [
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
+      ],
       "resurrection_trigger": "Find a mobile-native or applicant-controlled standard that handles custom questions and proves every answer before submission.",
       "route": "/ideas/resume-reuse",
       "status": "raw",
@@ -432,14 +436,16 @@
       ],
       "decision_reason": "Exact products exist, while sensitive identity storage, changing law, security, and app-store constraints create outsized risk.",
       "dossierSlugs": [
-        "pain-mining-dossier"
+        "pain-mining-dossier",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "low",
       "id": "adult-compliance",
       "name": "Adult Creator Compliance",
       "one_liner": "Private identity, age-verification, consent, release, and recordkeeping workflows for independent adult creators.",
       "research": [
-        "docs/PAIN-MINING-DOSSIER.md"
+        "docs/PAIN-MINING-DOSSIER.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "A specific compliance gap validated by counsel and creators, with a storage-minimizing architecture and a viable distribution channel.",
       "route": "/ideas/adult-compliance",
@@ -458,7 +464,8 @@
       "decision_reason": "The savings pain is enormous, but OwedBack, BillHero, Billscope, FileBay, and well-funded competitors already provide free or low-priced bill and EOB review. An EOB is not a bill, and the workflow carries medical, financial, privacy, and data-access complexity without determining what is legally owed.",
       "dossierSlugs": [
         "pain-mining-dossier",
-        "idea-mining-loop-2026-08-10-round10-loop2"
+        "idea-mining-loop-2026-08-10-round10-loop2",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "low",
       "id": "medical-bill-auditor",
@@ -466,7 +473,8 @@
       "one_liner": "Compare medical bills, EOBs, codes, and benefits to flag likely errors and prepare an appeal or call script.",
       "research": [
         "docs/PAIN-MINING-DOSSIER.md",
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "A narrow bill type, partner data access, or an evidence-backed workflow that stops short of unsupported conclusions.",
       "route": "/ideas/medical-bill-auditor",
@@ -556,14 +564,16 @@
       "aliases": [],
       "decision_reason": "The pain is strong but exact products are numerous, multi-user onboarding is hard, and healthcare-adjacent trust requirements are high.",
       "dossierSlugs": [
-        "pain-mining-dossier"
+        "pain-mining-dossier",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "medium",
       "id": "family-caregiving",
       "name": "Family Caregiving Coordinator",
       "one_liner": "Coordinate tasks, appointments, updates, medications, and responsibility across a family caring for someone.",
       "research": [
-        "docs/PAIN-MINING-DOSSIER.md"
+        "docs/PAIN-MINING-DOSSIER.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "A single caregiver wedge that delivers immediate value from existing messages or documents before inviting the family.",
       "route": "/ideas/family-caregiving",
@@ -848,7 +858,8 @@
       "decision_reason": "Captioning is crowded, but no exact two-person confirmation ritual surfaced. The social-impact payoff is strong, yet native speech accuracy, interaction awkwardness, OS copy risk, and the need for DHH co-design prevent a build commitment.",
       "dossierSlugs": [
         "idea-mining-loop-2026-08-08",
-        "hackathon-research-synthesis-2026-08-10"
+        "hackathon-research-synthesis-2026-08-10",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "medium",
       "id": "confirmed-spoken-details",
@@ -856,7 +867,8 @@
       "one_liner": "Extract a fragile spoken date, amount, address, name, or code into a large card that the current speaker explicitly edits or confirms on the same phone.",
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-08.md",
-        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Co-design with 8–12 Deaf or hard-of-hearing users and prove at least 90% usable token capture, sub-1.2-second median card latency, and week-two reuse before building the full product.",
       "route": "/ideas/confirmed-spoken-details",
@@ -1185,7 +1197,8 @@
       "decision_reason": "No atomic installer-side carton comparator surfaced. The scan fits a natural repeated jobsite moment, exact token equality is auditable, and recent installers report costly tear-outs after mixed lots. It is the strongest fresh business candidate, but label variation and false-match risk must be beaten with real cartons.",
       "dossierSlugs": [
         "idea-mining-loop-2026-08-09",
-        "hackathon-research-synthesis-2026-08-10"
+        "hackathon-research-synthesis-2026-08-10",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "lot-match",
@@ -1193,7 +1206,8 @@
       "one_liner": "Scan each tile or flooring carton before it is opened and catch a different product, dye lot, shade, or caliber before installation makes the mistake expensive.",
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-09.md",
-        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only after at least 300 real labels across 10 brands demonstrate over 99% accepted-token accuracy, zero false matches, and crews scan over 90% of cartons on live jobs.",
       "route": "/ideas/lot-match",
@@ -1215,7 +1229,8 @@
       "decision_reason": "No exact consumer/mobile QA product surfaced, the failure is irreversible, and the fix-rescan loop is unusually visual for a two-minute demo. The launch must stay narrow because glossy carriers, glitter, holographic material, SVG acquisition, and camera registration can destroy reliability.",
       "dossierSlugs": [
         "idea-mining-loop-2026-08-09",
-        "hackathon-research-synthesis-2026-08-10"
+        "hackathon-research-synthesis-2026-08-10",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "weed-check",
@@ -1223,7 +1238,8 @@
       "one_liner": "Compare a weeded heat-transfer-vinyl sheet with its source design and highlight missed material before the heat press makes the error permanent.",
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-09.md",
-        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only after a blind 100-piece test reaches at least 95% recall for seeded errors over 3 mm, under 5% false holds, under 10 seconds median, and paid sellers voluntarily check most eligible orders.",
       "route": "/ideas/weed-check",
@@ -2125,7 +2141,8 @@
       "decision_reason": "Mobile groomers and cleaners publish 10–15-minute grace periods followed by substantial fees. Jobber and Housecall Pro own on-my-way messaging and timers, but no exact independent grace-period decision card surfaced. The reachable niche may be solo providers priced out of full field-service suites, though incident frequency and SMS/link friction are existential risks.",
       "dossierSlugs": [
         "idea-mining-loop-2026-08-09-round5",
-        "hackathon-research-synthesis-2026-08-10"
+        "hackathon-research-synthesis-2026-08-10",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "mobile-service-no-access-handshake",
@@ -2133,7 +2150,8 @@
       "one_liner": "When a solo mobile service provider cannot enter, start the agreed grace clock and give the absent client a no-app choice to provide access, authorize paid waiting, or accept the lockout outcome.",
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
-        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only if 20 solo providers report at least one no-access incident per 100 appointments, providers use the flow on at least 80% of staged incidents, at least 60% of clients respond within the grace window, median response is under five minutes, and four providers prepay about $24.99.",
       "route": "/ideas/mobile-service-no-access-handshake",
@@ -5754,14 +5772,16 @@
       ],
       "decision_reason": "Gridwise and Solo already link gig and bank accounts, while no public sanctioned DoorDash payout API exists. Screenshots cannot reliably model instant-pay fees, cash offsets, adjustments, reversals, or bank delay and are inferior to the incumbent integrations.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop2"
+        "idea-mining-loop-2026-08-10-round10-loop2",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "medium",
       "id": "gig-payout-deposit-match",
       "name": "GigDeposit",
       "one_liner": "Compare a finalized gig-platform payout record with a settled bank deposit and show unpaired records.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Sanctioned platform and bank feeds produce zero false alerts across 100 payouts and workers prepay after trying Gridwise and Solo.",
       "route": "/ideas/gig-payout-deposit-match",
@@ -6543,7 +6563,8 @@
       "decision_reason": "The app cannot inspect Apple Live Captions or know whether speech was semantically omitted, but no exact app-owned pipeline-health indicator surfaced and paid caption tools prove recurring willingness to pay. Silence or no transcript update still has several nonfailure explanations, so only a bounded paid co-design test is justified.",
       "dossierSlugs": [
         "idea-mining-loop-2026-08-10-round10-loop4",
-        "hackathon-research-synthesis-2026-08-10"
+        "hackathon-research-synthesis-2026-08-10",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "caption-pipeline-gap",
@@ -6551,7 +6572,8 @@
       "one_liner": "Expose audio-buffer, transcript-result, interruption, and recognizer-error state inside an app-owned caption session.",
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
-        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md"
+        "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "Twelve compensated DHH or hard-of-hearing co-designers complete at least ten real session-hours; warnings stay under one false alert per hour; 100 injected failures produce zero false-healthy states; and at least eight say the indicator changed their response. Then at least four of a separate 12-person target-buyer cohort receiving no study compensation place refundable $7.99 preorders after seeing the frozen demo and native/free alternatives.",
       "route": "/ideas/caption-pipeline-gap",
@@ -6648,14 +6670,16 @@
       ],
       "decision_reason": "Daily OK and TaskConnect already provide one-tap check-ins, tasks, and escalation. The event proves only a device or account action, not that the person is okay.",
       "dossierSlugs": [
-        "idea-mining-loop-2026-08-10-round10-loop4"
+        "idea-mining-loop-2026-08-10-round10-loop4",
+        "xprize-focus-group-synthesis-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "daily-ok-checkin",
       "name": "DailyOkay",
       "one_liner": "Let an older adult send a daily timestamped response with missed-response escalation to family.",
       "research": [
-        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md"
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
       ],
       "resurrection_trigger": "A distribution partner needs the bounded response event and current exact incumbents fail a demonstrated paid workflow.",
       "route": "/ideas/daily-ok-checkin",
@@ -7997,7 +8021,7 @@
       ]
     }
   ],
-  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd",
+  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

@@ -4,6 +4,9 @@ import {
   getResearchMetadataBySlug,
   getResearchProvenance,
   hackathonFitOptions,
+  focusGroupCounts,
+  focusGroupStudies,
+  focusGroupsUpdatedAt,
   ideas,
   ledgerManifest,
   loadResearchRepository,
@@ -31,6 +34,9 @@ import type {
 import type { ResearchReference } from './types';
 
 export {
+  focusGroupCounts,
+  focusGroupStudies,
+  focusGroupsUpdatedAt,
   ideas,
   loadResearchRepository,
   normalizeSearch,

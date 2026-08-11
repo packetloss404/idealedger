@@ -76,6 +76,7 @@ export interface IdeaResearchProvenance {
 export interface LedgerManifest {
   counts: {
     dossiers: number;
+    focusGroupStudies: number;
     ideas: number;
     researchEdges: number;
     searchDocuments: number;
@@ -84,6 +85,51 @@ export interface LedgerManifest {
   sourceHash: string;
   sourceSchemaVersion: number;
   sourceUpdatedAt: string;
+}
+
+export type FocusGroupMethod = 'simulated_persona' | 'recruited_participants';
+export type FocusGroupDisposition = 'advanced' | 'bounded' | 'struck';
+
+export interface FocusGroupSegment {
+  id: string;
+  label: string;
+  objection: string;
+  primary_job: string;
+  signal: string;
+}
+
+export interface FocusGroupOutcome {
+  disposition: FocusGroupDisposition;
+  idea_ids: string[];
+  label: string;
+  summary: string;
+}
+
+export interface FocusGroupStudy {
+  anchor: string | null;
+  conducted_at: string;
+  dossier: string;
+  dossierRoute: string;
+  dossierSlug: string;
+  id: string;
+  limitation: string;
+  linkedIdeaIds: string[];
+  method: FocusGroupMethod;
+  next_step: string;
+  outcomes: FocusGroupOutcome[];
+  route: string;
+  sample_label: string;
+  segments: FocusGroupSegment[];
+  summary: string;
+  title: string;
+}
+
+export interface FocusGroupCounts {
+  linkedIdeas: number;
+  recruitedStudies: number;
+  segments: number;
+  simulatedStudies: number;
+  studies: number;
 }
 
 export interface QualityReport {

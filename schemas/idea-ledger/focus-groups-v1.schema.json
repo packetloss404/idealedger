@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://idea-ledger.local/schemas/focus-groups-v1.schema.json",
+  "title": "Idea Ledger focus-group source schema v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated_at", "studies"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "updated_at": { "type": "string", "format": "date" },
+    "studies": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/study" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "ideaIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "primary_job", "signal", "objection"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "label": { "$ref": "#/$defs/nonEmptyString" },
+        "primary_job": { "$ref": "#/$defs/nonEmptyString" },
+        "signal": { "$ref": "#/$defs/nonEmptyString" },
+        "objection": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "disposition", "summary", "idea_ids"],
+      "properties": {
+        "label": { "$ref": "#/$defs/nonEmptyString" },
+        "disposition": { "enum": ["advanced", "bounded", "struck"] },
+        "summary": { "$ref": "#/$defs/nonEmptyString" },
+        "idea_ids": { "$ref": "#/$defs/ideaIds" }
+      }
+    },
+    "study": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "conducted_at",
+        "method",
+        "sample_label",
+        "summary",
+        "limitation",
+        "dossier",
+        "anchor",
+        "segments",
+        "outcomes",
+        "next_step"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "$ref": "#/$defs/nonEmptyString" },
+        "conducted_at": { "type": "string", "format": "date" },
+        "method": { "enum": ["simulated_persona", "recruited_participants"] },
+        "sample_label": { "$ref": "#/$defs/nonEmptyString" },
+        "summary": { "$ref": "#/$defs/nonEmptyString" },
+        "limitation": { "$ref": "#/$defs/nonEmptyString" },
+        "dossier": {
+          "type": "string",
+          "pattern": "^docs/[A-Za-z0-9][A-Za-z0-9._-]*\\.md$"
+        },
+        "anchor": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "null" }
+          ]
+        },
+        "segments": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/segment" }
+        },
+        "outcomes": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/outcome" }
+        },
+        "next_step": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    }
+  }
+}

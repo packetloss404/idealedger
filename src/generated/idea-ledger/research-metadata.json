@@ -240,9 +240,9 @@
           "text": "Autonomous Research Synthesis — 2026-08-10"
         },
         {
-          "anchor": "executive-verdict",
+          "anchor": "judging-criteria-and-candidate-ranking",
           "depth": 2,
-          "text": "Executive verdict"
+          "text": "Judging criteria and candidate ranking"
         },
         {
           "anchor": "where-the-three-teams-agreed-and-disagreed",
@@ -317,7 +317,7 @@
       ],
       "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
       "route": "/research/hackathon-research-synthesis-2026-08-10",
-      "sha256": "sha256:01a667218c77f7e82fdbdbd2fbab31cc56a85dd667fc69a3de721000e87fd6d0",
+      "sha256": "sha256:15b0fc5f187adc4ebf7d3b8f925d93755e51865c15a283bb4c5dea35b435a75f",
       "slug": "hackathon-research-synthesis-2026-08-10",
       "title": "Autonomous Research Synthesis — 2026-08-10"
     },
@@ -3166,7 +3166,89 @@
       "sha256": "sha256:789f788db8c6200c2f0706e975a10595318191a4019b6fcef882d00149842104",
       "slug": "video-revisit-2026-08-10",
       "title": "Video Revisit — Tiny Camera Utilities and Playable Video Objects"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "xprize-focus-group-synthesis--2026-08-10",
+          "depth": 1,
+          "text": "XPRIZE Focus-Group Synthesis — 2026-08-10"
+        },
+        {
+          "anchor": "brief",
+          "depth": 2,
+          "text": "Brief"
+        },
+        {
+          "anchor": "official-category-framing-and-fit",
+          "depth": 2,
+          "text": "Official category framing and fit"
+        },
+        {
+          "anchor": "official-judging-rubric-applied",
+          "depth": 2,
+          "text": "Official judging rubric applied"
+        },
+        {
+          "anchor": "re-ranking-under-the-official-criteria",
+          "depth": 3,
+          "text": "Re-ranking under the official criteria"
+        },
+        {
+          "anchor": "1-lotmatch--keep-as-commercial-lead",
+          "depth": 3,
+          "text": "1. LotMatch — keep as commercial lead"
+        },
+        {
+          "anchor": "2-weedcheck--keep-as-visualhackathon-lead",
+          "depth": 3,
+          "text": "2. WeedCheck — keep as visual/hackathon lead"
+        },
+        {
+          "anchor": "3-doorhold--keep-as-cheapest-service-business-test",
+          "depth": 3,
+          "text": "3. DoorHold — keep as cheapest service-business test"
+        },
+        {
+          "anchor": "4-captiongap--mission-led-validation-only",
+          "depth": 3,
+          "text": "4. CaptionGap — mission-led validation only"
+        },
+        {
+          "anchor": "struck-proposals-and-why",
+          "depth": 2,
+          "text": "Struck proposals and why"
+        },
+        {
+          "anchor": "segment-specific-signals",
+          "depth": 2,
+          "text": "Segment-specific signals"
+        },
+        {
+          "anchor": "decision-and-next-loop",
+          "depth": 2,
+          "text": "Decision and next loop"
+        }
+      ],
+      "linkedIdeaIds": [
+        "adult-compliance",
+        "caption-pipeline-gap",
+        "confirmed-spoken-details",
+        "daily-ok-checkin",
+        "family-caregiving",
+        "gig-payout-deposit-match",
+        "lot-match",
+        "medical-bill-auditor",
+        "mobile-service-no-access-handshake",
+        "resume-reuse",
+        "weed-check"
+      ],
+      "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+      "route": "/research/xprize-focus-group-synthesis-2026-08-10",
+      "sha256": "sha256:ceff3700e3e600fe49889ab55c0278245468a0a207439dd16db890aeca8f330f",
+      "slug": "xprize-focus-group-synthesis-2026-08-10",
+      "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd"
+  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1"
 }

@@ -1,15 +1,15 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 19,
+    "dossiers": 20,
     "headingMatchedIdeas": 183,
-    "headingReferences": 209,
+    "headingReferences": 213,
     "ideas": 307,
-    "ideasWithoutResearch": 10,
-    "mentionOnlyIdeas": 108,
-    "mentionReferences": 118,
-    "multiRefIdeas": 41,
-    "researchEdges": 343,
+    "ideasWithoutResearch": 9,
+    "mentionOnlyIdeas": 110,
+    "mentionReferences": 125,
+    "multiRefIdeas": 45,
+    "researchEdges": 354,
     "unmappedReferences": 16
   },
   "researchProvenance": [
@@ -54,6 +54,12 @@
           },
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": null,
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -713,6 +719,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "4-captiongap--mission-led-validation-only",
+            "depth": 3,
+            "text": "4. CaptionGap — mission-led validation only"
+          },
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -935,6 +951,12 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": null,
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1238,6 +1260,12 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": null,
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1526,13 +1554,19 @@
     },
     {
       "ideaId": "family-caregiving",
-      "quality": "unmapped",
+      "quality": "mention",
       "references": [
         {
           "dossierSlug": "pain-mining-dossier",
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": null,
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1793,6 +1827,12 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": null,
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -2313,6 +2353,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "1-lotmatch--keep-as-commercial-lead",
+            "depth": 3,
+            "text": "1. LotMatch — keep as commercial lead"
+          },
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2433,6 +2483,12 @@
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": null,
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "mention"
         }
       ]
     },
@@ -2556,6 +2612,16 @@
             "text": "DoorHold"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "3-doorhold--keep-as-cheapest-service-business-test",
+            "depth": 3,
+            "text": "3. DoorHold — keep as cheapest service-business test"
+          },
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -3467,8 +3533,15 @@
     },
     {
       "ideaId": "resume-reuse",
-      "quality": "none",
-      "references": []
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": null,
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
     },
     {
       "ideaId": "retirement-deferral-gap",
@@ -4684,6 +4757,16 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "heading"
+        },
+        {
+          "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
+          "heading": {
+            "anchor": "2-weedcheck--keep-as-visualhackathon-lead",
+            "depth": 3,
+            "text": "2. WeedCheck — keep as visual/hackathon lead"
+          },
+          "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -5226,7 +5309,7 @@
     "workflow",
     "ynab"
   ],
-  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd",
+  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1",
   "tagStats": {
     "assignments": 1461,
     "doubletons": 95,

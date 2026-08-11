@@ -1,4 +1,7 @@
 {
+  "focusGroupRoutes": [
+    "/focus-groups"
+  ],
   "ideaIds": [
     "accessibility-mode-receipt",
     "actor-scene-test",
@@ -636,7 +639,8 @@
     "/research/pain-mining-dossier",
     "/research/social-app-opportunity-research",
     "/research/untitled-micro-help-network",
-    "/research/video-revisit-2026-08-10"
+    "/research/video-revisit-2026-08-10",
+    "/research/xprize-focus-group-synthesis-2026-08-10"
   ],
   "researchSlugs": [
     "dinner-decision-deep-dive",
@@ -657,7 +661,8 @@
     "pain-mining-dossier",
     "social-app-opportunity-research",
     "untitled-micro-help-network",
-    "video-revisit-2026-08-10"
+    "video-revisit-2026-08-10",
+    "xprize-focus-group-synthesis-2026-08-10"
   ],
-  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd"
+  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1"
 }

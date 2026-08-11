@@ -59,3 +59,15 @@ test('research metadata stays lightweight while preserving deterministic routes 
     assert.equal('plainText' in metadata.documents[0], false);
   });
 });
+
+test('focus-group studies preserve method limits and canonical idea links', async () => {
+  await withFixture(async (root) => {
+    const result = await buildArtifacts(root);
+    const focusGroups = result.artifacts['focus-groups.json'];
+    assert.equal(focusGroups.counts.studies, 1);
+    assert.equal(focusGroups.counts.recruitedStudies, 0);
+    assert.equal(focusGroups.studies[0].method, 'simulated_persona');
+    assert.deepEqual(focusGroups.studies[0].linkedIdeaIds, ['fixture-idea']);
+    assert.equal(focusGroups.studies[0].dossierRoute, '/research/research');
+  });
+});

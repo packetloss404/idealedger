@@ -1,10 +1,17 @@
 # Autonomous Research Synthesis — 2026-08-10
 
-**Scope:** 273 canonical ideas and four autonomous Round-10 loops.
+**Scope:** 273 canonical ideas and four autonomous Round-10 loops, plus the 2026-08-10 simulated focus-group synthesis.
+
+**Official category framing:** The hackathon spans five categories—**Education & Human Potential**, **Entrepreneurship & Job Creation**, **Small Business Services**, **Money & Financial Access**, and **Professional Services Access**. Their stated themes are respectively learning and human growth; founder and economy-building tools; everyday business competitiveness; access to banking, capital, and financial freedom; and access to expert guidance.
 
 **Method:** Three independent teams screened consumer anger, irreversible moments, and willingness to pay, then attacked each other's leads. Across Loop 1 through Loop 4 they evaluated 27 + 29 + 29 + 38 = **123 serious candidates**. The final synthesis separately ranked commercial quality, technical authority, and cheapest decisive experiment.
 
-## Executive verdict
+## Judging criteria and candidate ranking
+
+The supplied judging criteria are the decisive screen: **Business Viability** requires a launched business with real users, real revenue, and a sustainable model; **AI-Native Operations** requires AI live in production executing key decisions; and **Category Impact** requires a fundamental workflow shift or credible widespread adoption. The current work funds validation experiments, not winners. LotMatch is the best overall finalist candidate, WeedCheck is the strongest AI-visible alternate, CaptionGap is conditional accessibility research, DoorHold is a useful business test but weak on AI-native operations, CrashTape is an engineering reserve, and DeferralGap is concierge-only.
+
+No candidate has yet met all three criteria. A submission must show unaffiliated paying customers, production decision logs, abstention and human-review paths, model and cost telemetry, repeat use, and measurable category outcomes—not merely a demo or simulated focus-group enthusiasm.
+
 
 Stop broad mining for now. The Ledger contains enough technically plausible ideas; the scarce evidence is paid behavior, live adherence, and zero-false-green performance.
 

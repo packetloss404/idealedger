@@ -4,17 +4,33 @@ import path from 'node:path';
 import { normalizeSearch, toPosixPath } from './normalize.mjs';
 
 export const SOURCE_PATH = 'docs/idea-database.json';
+export const FOCUS_GROUPS_PATH = 'docs/focus-groups.json';
 
-export function parseSourceJson(buffer) {
+function parseJson(buffer, relativePath) {
   try {
     return JSON.parse(buffer.toString('utf8'));
   } catch (error) {
-    throw new Error(`Cannot parse ${SOURCE_PATH}: ${error.message}`);
+    throw new Error(`Cannot parse ${relativePath}: ${error.message}`);
   }
 }
 
-export function collectSourcePaths(source) {
-  return [SOURCE_PATH, ...new Set(source.ideas.flatMap((idea) => idea.research))].sort();
+export function parseSourceJson(buffer) {
+  return parseJson(buffer, SOURCE_PATH);
+}
+
+export function parseFocusGroupsJson(buffer) {
+  return parseJson(buffer, FOCUS_GROUPS_PATH);
+}
+
+export function collectSourcePaths(source, focusGroups) {
+  return [
+    SOURCE_PATH,
+    FOCUS_GROUPS_PATH,
+    ...new Set([
+      ...source.ideas.flatMap((idea) => idea.research),
+      ...focusGroups.studies.map((study) => study.dossier),
+    ]),
+  ].sort();
 }
 
 function isWithin(parent, child) {
@@ -95,6 +111,60 @@ export function validateSourceSemantics(repoRoot, source) {
       if (!isWithin(realDocsRoot, realPath)) {
         errors.push(`${label}.research: symlink target escapes docs/: ${relativePath}`);
       }
+    }
+  }
+
+  return { errors, warnings };
+}
+
+export function validateFocusGroupSemantics(repoRoot, focusGroups, source) {
+  const errors = [];
+  const warnings = [];
+  const ideaIds = new Set(source.ideas.map((idea) => idea.id));
+  const studyIds = new Set();
+  const docsRoot = path.resolve(repoRoot, 'docs');
+  const realDocsRoot = fs.realpathSync.native(docsRoot);
+
+  for (const [studyIndex, study] of focusGroups.studies.entries()) {
+    const label = `focusGroups.studies[${studyIndex}] (${study.id})`;
+    if (studyIds.has(study.id)) errors.push(`${label}: duplicate id`);
+    studyIds.add(study.id);
+
+    const segmentIds = new Set();
+    for (const segment of study.segments) {
+      if (segmentIds.has(segment.id)) errors.push(`${label}.segments: duplicate id ${segment.id}`);
+      segmentIds.add(segment.id);
+    }
+
+    for (const outcome of study.outcomes) {
+      for (const ideaId of outcome.idea_ids) {
+        if (!ideaIds.has(ideaId)) {
+          errors.push(`${label}.outcomes: unknown idea id ${ideaId}`);
+        }
+      }
+    }
+
+    const resolved = path.resolve(repoRoot, toPosixPath(study.dossier));
+    if (!isWithin(docsRoot, resolved)) {
+      errors.push(`${label}.dossier: path escapes docs/: ${study.dossier}`);
+      continue;
+    }
+    const pathCase = classifyPathCase(repoRoot, study.dossier);
+    if (pathCase === 'mismatch') {
+      errors.push(`${label}.dossier: path case does not match disk: ${study.dossier}`);
+      continue;
+    }
+    if (pathCase === 'missing' || !fs.existsSync(resolved)) {
+      errors.push(`${label}.dossier: missing file: ${study.dossier}`);
+      continue;
+    }
+    const realPath = fs.realpathSync.native(resolved);
+    if (!isWithin(realDocsRoot, realPath)) {
+      errors.push(`${label}.dossier: symlink target escapes docs/: ${study.dossier}`);
+    }
+
+    if (study.method === 'simulated_persona' && !/simulat|synthetic|hypoth/i.test(study.limitation)) {
+      warnings.push(`${label}: simulated study limitation should explicitly describe its hypothetical status`);
     }
   }
 

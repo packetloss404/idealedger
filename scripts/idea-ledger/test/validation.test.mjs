@@ -41,6 +41,27 @@ test('invalid status fails source schema validation', async () => {
   });
 });
 
+test('focus-group references must resolve to canonical ideas and dossier headings', async (t) => {
+  await t.test('unknown idea', async () => {
+    await withFixture(async (root) => {
+      const focusPath = path.join(root, 'docs/focus-groups.json');
+      const focusGroups = JSON.parse(await fs.readFile(focusPath, 'utf8'));
+      focusGroups.studies[0].outcomes[0].idea_ids = ['not-a-canonical-idea'];
+      await fs.writeFile(focusPath, `${JSON.stringify(focusGroups, null, 2)}\n`);
+      await expectValidationError(() => buildArtifacts(root), /unknown idea id/i);
+    });
+  });
+  await t.test('missing heading anchor', async () => {
+    await withFixture(async (root) => {
+      const focusPath = path.join(root, 'docs/focus-groups.json');
+      const focusGroups = JSON.parse(await fs.readFile(focusPath, 'utf8'));
+      focusGroups.studies[0].anchor = 'not-a-real-heading';
+      await fs.writeFile(focusPath, `${JSON.stringify(focusGroups, null, 2)}\n`);
+      await expectValidationError(() => buildArtifacts(root), /missing heading/i);
+    });
+  });
+});
+
 test('missing and case-mismatched references fail', async (t) => {
   await t.test('missing', async () => {
     await withFixture(async (root) => {

@@ -89,6 +89,25 @@ test('exposes exactly one main landmark on detail and dossier routes', async ({ 
   await expect(page.getByRole('main')).toContainText('Idea Mining Loop — 2026-08-09');
 });
 
+test('keeps the focus-group room usable in the four-item mobile navigation', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('focus-groups');
+
+  await expect(page.getByRole('heading', { level: 1, name: 'Focus groups' })).toBeVisible();
+  const mobileNavigation = page.locator('.mobile-navigation').getByRole('navigation', {
+    name: 'Primary',
+  });
+  await expect(mobileNavigation.getByRole('link')).toHaveCount(4);
+  await expect(mobileNavigation.getByRole('link', { name: /Focus groups/ })).toHaveAttribute(
+    'aria-current',
+    'page',
+  );
+  await expect.poll(() =>
+    page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth),
+  ).toBe(true);
+  await expect(page.getByText('Eight research-derived persona composites')).toBeVisible();
+});
+
 test('enforces the two-item mobile comparison limit', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('ideas');

@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import { expect, test as base } from '@playwright/test';
 
 interface RouteManifest {
+  focusGroupRoutes: string[];
   ideaRoutes: string[];
   researchRoutes: string[];
 }
@@ -46,6 +47,29 @@ test('presents the whole database as the durable home', async ({ page }) => {
   await expect(page.getByRole('link', { name: /307 All ideas/ })).toBeVisible();
   await expect(page.getByRole('link', { name: /278 Passed decisions/ })).toBeVisible();
   await expect(page.getByText(/Round-8 recommendation/i)).toHaveCount(0);
+});
+
+test('turns focus-group synthesis into a method-labeled research room', async ({ page }) => {
+  await page.goto('focus-groups');
+
+  await expect(page.getByRole('heading', { level: 1, name: 'Focus groups' })).toBeVisible();
+  await expect(page.getByRole('heading', {
+    level: 2,
+    name: 'A hypothesis lab, not a wall of fake customer quotes.',
+  })).toBeVisible();
+  await expect(page.getByText('Recruited studies').locator('..').getByText('0')).toBeVisible();
+  await expect(page.getByText('Simulated personas', { exact: true })).toHaveCount(2);
+  await expect(page.getByRole('heading', {
+    level: 2,
+    name: 'XPRIZE market and persona synthesis',
+  })).toBeVisible();
+  await expect(page.getByRole('heading', {
+    level: 2,
+    name: 'Loop social-product synthetic panel',
+  })).toBeVisible();
+  await expect(page.getByRole('link', { name: /LotMatch Validating/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Loop Parked/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Read source dossier' })).toHaveCount(2);
 });
 
 test('loads and reloads an idea route directly', async ({ page }) => {
@@ -197,6 +221,7 @@ test('crawls every generated route shell and every entry asset', async ({ reques
     '',
     'ideas',
     'compare',
+    ...routeManifest.focusGroupRoutes.map((route) => route.replace(/^\//, '')),
     ...routeManifest.ideaRoutes.map((route) => route.replace(/^\//, '')),
     ...routeManifest.researchRoutes.map((route) => route.replace(/^\//, '')),
   ];

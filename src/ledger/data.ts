@@ -1,4 +1,5 @@
 import catalogJson from '../generated/idea-ledger/catalog.json';
+import focusGroupsJson from '../generated/idea-ledger/focus-groups.json';
 import manifestJson from '../generated/idea-ledger/manifest.json';
 import qualityJson from '../generated/idea-ledger/quality-report.json';
 import researchMetadataJson from '../generated/idea-ledger/research-metadata.json';
@@ -6,6 +7,8 @@ import researchMetadataJson from '../generated/idea-ledger/research-metadata.jso
 import { compareSearchText, humanize } from './normalize';
 import type {
   FacetOption,
+  FocusGroupCounts,
+  FocusGroupStudy,
   HackathonFit,
   Idea,
   IdeaResearchProvenance,
@@ -30,14 +33,23 @@ interface ResearchMetadataArtifact {
   sourceHash: string;
 }
 
+interface FocusGroupArtifact {
+  counts: FocusGroupCounts;
+  sourceHash: string;
+  studies: FocusGroupStudy[];
+  updatedAt: string;
+}
+
 const catalog = catalogJson as unknown as CatalogArtifact;
 const metadata = researchMetadataJson as unknown as ResearchMetadataArtifact;
+const focusGroups = focusGroupsJson as unknown as FocusGroupArtifact;
 
 export const ledgerManifest = manifestJson as unknown as LedgerManifest;
 export const qualityReport = qualityJson as unknown as QualityReport;
 
 const sourceHashes = new Set([
   catalog.sourceHash,
+  focusGroups.sourceHash,
   metadata.sourceHash,
   ledgerManifest.sourceHash,
   qualityReport.sourceHash,
@@ -48,6 +60,9 @@ if (sourceHashes.size !== 1) {
 
 export const ideas: readonly Idea[] = catalog.ideas;
 export const researchMetadata: readonly ResearchDocumentMetadata[] = metadata.documents;
+export const focusGroupStudies: readonly FocusGroupStudy[] = focusGroups.studies;
+export const focusGroupCounts: Readonly<FocusGroupCounts> = focusGroups.counts;
+export const focusGroupsUpdatedAt = focusGroups.updatedAt;
 export const researchProvenance: readonly IdeaResearchProvenance[] =
   qualityReport.researchProvenance;
 export const statusDefinitions: Readonly<Record<IdeaStatus, string>> = catalog.statusDefinitions;

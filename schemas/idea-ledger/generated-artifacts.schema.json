@@ -28,7 +28,7 @@
         "counts"
       ],
       "properties": {
-        "generatorVersion": { "const": 2 },
+        "generatorVersion": { "const": 3 },
         "sourceSchemaVersion": { "const": 1 },
         "sourceUpdatedAt": { "type": "string", "format": "date" },
         "sourceHash": { "$ref": "#/$defs/hash" },
@@ -40,12 +40,19 @@
         "counts": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["ideas", "dossiers", "researchEdges", "searchDocuments"],
+          "required": [
+            "ideas",
+            "dossiers",
+            "researchEdges",
+            "searchDocuments",
+            "focusGroupStudies"
+          ],
           "properties": {
             "ideas": { "type": "integer", "minimum": 1 },
             "dossiers": { "type": "integer", "minimum": 0 },
             "researchEdges": { "type": "integer", "minimum": 0 },
-            "searchDocuments": { "type": "integer", "minimum": 1 }
+            "searchDocuments": { "type": "integer", "minimum": 1 },
+            "focusGroupStudies": { "type": "integer", "minimum": 0 }
           }
         }
       }
@@ -219,16 +226,126 @@
         "documents": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/searchDocument" } }
       }
     },
+    "focusGroupSegment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "primary_job", "signal", "objection"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "primary_job": { "type": "string", "minLength": 1 },
+        "signal": { "type": "string", "minLength": 1 },
+        "objection": { "type": "string", "minLength": 1 }
+      }
+    },
+    "focusGroupOutcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "disposition", "summary", "idea_ids"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "disposition": { "enum": ["advanced", "bounded", "struck"] },
+        "summary": { "type": "string", "minLength": 1 },
+        "idea_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "focusGroupStudy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "conducted_at",
+        "method",
+        "sample_label",
+        "summary",
+        "limitation",
+        "dossier",
+        "anchor",
+        "segments",
+        "outcomes",
+        "next_step",
+        "route",
+        "dossierSlug",
+        "dossierRoute",
+        "linkedIdeaIds"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "conducted_at": { "type": "string", "format": "date" },
+        "method": { "enum": ["simulated_persona", "recruited_participants"] },
+        "sample_label": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "limitation": { "type": "string", "minLength": 1 },
+        "dossier": { "type": "string", "minLength": 1 },
+        "anchor": { "oneOf": [{ "type": "string" }, { "type": "null" }] },
+        "segments": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/focusGroupSegment" }
+        },
+        "outcomes": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/focusGroupOutcome" }
+        },
+        "next_step": { "type": "string", "minLength": 1 },
+        "route": { "type": "string", "pattern": "^/focus-groups#" },
+        "dossierSlug": { "type": "string", "minLength": 1 },
+        "dossierRoute": { "type": "string", "pattern": "^/research/" },
+        "linkedIdeaIds": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "focusGroups": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceHash", "updatedAt", "counts", "studies"],
+      "properties": {
+        "sourceHash": { "$ref": "#/$defs/hash" },
+        "updatedAt": { "type": "string", "format": "date" },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "studies",
+            "segments",
+            "simulatedStudies",
+            "recruitedStudies",
+            "linkedIdeas"
+          ],
+          "properties": {
+            "studies": { "type": "integer", "minimum": 0 },
+            "segments": { "type": "integer", "minimum": 0 },
+            "simulatedStudies": { "type": "integer", "minimum": 0 },
+            "recruitedStudies": { "type": "integer", "minimum": 0 },
+            "linkedIdeas": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "studies": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/focusGroupStudy" }
+        }
+      }
+    },
     "routes": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["sourceHash", "ideaIds", "researchSlugs", "ideaRoutes", "researchRoutes"],
+      "required": [
+        "sourceHash",
+        "ideaIds",
+        "researchSlugs",
+        "ideaRoutes",
+        "researchRoutes",
+        "focusGroupRoutes"
+      ],
       "properties": {
         "sourceHash": { "$ref": "#/$defs/hash" },
         "ideaIds": { "type": "array", "items": { "type": "string" } },
         "researchSlugs": { "type": "array", "items": { "type": "string" } },
         "ideaRoutes": { "type": "array", "items": { "type": "string" } },
-        "researchRoutes": { "type": "array", "items": { "type": "string" } }
+        "researchRoutes": { "type": "array", "items": { "type": "string" } },
+        "focusGroupRoutes": { "type": "array", "items": { "type": "string" } }
       }
     },
     "qualityReport": {

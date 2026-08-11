@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import {
   getStatusCounts,
+  focusGroupStudies,
   ideas,
   mappingOptions,
   researchMetadata,
@@ -99,6 +100,7 @@ export function DashboardPage() {
           <DatabaseLens count={linkedResearch} description="Records connected to at least one dossier" label="Ideas with research" to="/ideas?research=heading,mention,unmapped" />
           <DatabaseLens count={exactSections} description="Ideas mapped to a precise dossier heading" label="Exact section mappings" to="/ideas?research=heading" />
           <DatabaseLens count={researchMetadata.length} description={`${researchEdges} idea-to-dossier links across the archive`} label="Research dossiers" to="/ideas?research=heading,mention,unmapped" />
+          <DatabaseLens count={focusGroupStudies.length} description="Method-labeled segment signals, objections, and decision impact" label="Focus-group studies" to="/focus-groups" />
           <DatabaseLens count={noResearch} description="The clearest provenance cleanup queue" label="Coverage gaps" to="/ideas?research=none" />
         </div>
       </section>

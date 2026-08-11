@@ -1,11 +1,12 @@
 {
   "counts": {
-    "dossiers": 19,
+    "dossiers": 20,
+    "focusGroupStudies": 2,
     "ideas": 307,
-    "researchEdges": 343,
-    "searchDocuments": 326
+    "researchEdges": 354,
+    "searchDocuments": 327
   },
-  "generatorVersion": 2,
+  "generatorVersion": 3,
   "sourceFiles": [
     {
       "bytes": 27209,
@@ -13,9 +14,9 @@
       "sha256": "sha256:f8e44d1adda9e813d8ff2725cf4a4af607fc72f26b45b4a8022a2c82e6a06eb6"
     },
     {
-      "bytes": 15081,
+      "bytes": 16588,
       "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
-      "sha256": "sha256:01a667218c77f7e82fdbdbd2fbab31cc56a85dd667fc69a3de721000e87fd6d0"
+      "sha256": "sha256:15b0fc5f187adc4ebf7d3b8f925d93755e51865c15a283bb4c5dea35b435a75f"
     },
     {
       "bytes": 12315,
@@ -103,12 +104,22 @@
       "sha256": "sha256:789f788db8c6200c2f0706e975a10595318191a4019b6fcef882d00149842104"
     },
     {
-      "bytes": 276644,
+      "bytes": 10514,
+      "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+      "sha256": "sha256:ceff3700e3e600fe49889ab55c0278245468a0a207439dd16db890aeca8f330f"
+    },
+    {
+      "bytes": 9150,
+      "path": "docs/focus-groups.json",
+      "sha256": "sha256:08adc02487820a86bd6aeb273162d0d9c5244d522572dcb4e42f39879d345b20"
+    },
+    {
+      "bytes": 277203,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:940ea98f2934b2569a2b5088e164a0e23f552763a23819b4b75ec6c983e39d06"
+      "sha256": "sha256:e2daaeb23c48601c692d85f999279eebe3ce080a82496a12ebcdaffc02df18a8"
     }
   ],
-  "sourceHash": "sha256:95dc74e4fc2c471369eeb50bb1bce2fd15506e7117bcc0dd4a3117bc7d623cbd",
+  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1",
   "sourceSchemaVersion": 1,
   "sourceUpdatedAt": "2026-08-10"
 }

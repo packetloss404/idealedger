@@ -5,6 +5,7 @@ import { AppShell } from './web/AppShell';
 import {
   ComparePage,
   DashboardPage,
+  FocusGroupsPage,
   IdeaDetailPage,
   IdeasPage,
   NotFoundPage,
@@ -20,6 +21,7 @@ export const router = createBrowserRouter(
         { index: true, Component: DashboardPage },
         { path: 'ideas', Component: IdeasPage },
         { path: 'ideas/:id', Component: IdeaDetailPage },
+        { path: 'focus-groups', Component: FocusGroupsPage },
         { path: 'compare', Component: ComparePage },
         { path: 'research/:slug', Component: ResearchPage },
         { path: '*', Component: NotFoundPage },

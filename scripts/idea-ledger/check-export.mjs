@@ -283,7 +283,11 @@ async function main() {
   }
 
   const routes = await readJson(routesPath);
-  const expectedRoutes = [...(routes.ideaRoutes ?? []), ...(routes.researchRoutes ?? [])];
+  const expectedRoutes = [
+    ...(routes.ideaRoutes ?? []),
+    ...(routes.researchRoutes ?? []),
+    ...(routes.focusGroupRoutes ?? []),
+  ];
   const missingStaticRoutes = expectedRoutes.filter(
     (route) => !routeCandidates(route).some((candidate) => fileSet.has(candidate))
   );

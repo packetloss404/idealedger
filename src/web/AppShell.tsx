@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom';
 
-import { ideas, sourceMeta } from './ledger-adapter';
+import { focusGroupStudies, ideas, sourceMeta } from './ledger-adapter';
 import { CompareProvider, useCompare } from './components/CompareContext';
 import { CompareTray } from './components/CompareTray';
 import { GlobalSearch } from './components/GlobalSearch';
@@ -20,6 +20,11 @@ function AppNavigation() {
         <Icon name="ideas" />
         <span>Ideas</span>
         <span className="nav-count">{ideas.length}</span>
+      </NavLink>
+      <NavLink to="/focus-groups">
+        <Icon name="groups" />
+        <span>Focus groups</span>
+        <span className="nav-count">{focusGroupStudies.length}</span>
       </NavLink>
       <NavLink className={({ isActive }) => `${isActive ? 'active' : ''} ${selected.length < 2 ? 'nav-link-muted' : ''}`} to={selected.length >= 2 ? `/compare?ids=${selected.map((idea) => idea.id).join(',')}` : '/compare'}>
         <Icon name="compare" />

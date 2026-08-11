@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-10",
+  "studies": [
+    {
+      "id": "xprize-persona-synthesis",
+      "title": "XPRIZE market and persona synthesis",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Five demographic signal clusters plus specialist reviews",
+      "summary": "A cross-market persona exercise tested whether urgent problems from parents, caregivers, accessibility users, adult entertainers, gig workers, and younger adults created a credible paid mobile product.",
+      "limitation": "No people were recruited and no statement is a participant quote. These are research-derived hypotheses that can prioritize outreach, not evidence of demand or demographic endorsement.",
+      "dossier": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+      "anchor": null,
+      "segments": [
+        {
+          "id": "single-parents",
+          "label": "Single parents",
+          "primary_job": "Recover time and make school, household, and co-parent handoffs predictable from one person's phone.",
+          "signal": "One-person utility and fewer coordination steps were more attractive than another shared network.",
+          "objection": "Fragmented school and custody systems, adversarial safety, and required second-party adoption make a general coordinator brittle."
+        },
+        {
+          "id": "seniors-caregivers",
+          "label": "Seniors and caregivers",
+          "primary_job": "Reach a trusted human, resist scams, and preserve dignity without continuous monitoring.",
+          "signal": "Human escalation and explicit control were stronger than passive safety automation.",
+          "objection": "A phone event can create false reassurance, while surveillance framed as care damages trust."
+        },
+        {
+          "id": "adult-entertainers",
+          "label": "Adult entertainers",
+          "primary_job": "Protect privacy, income continuity, and physical safety without creating a retaliatory data trail.",
+          "signal": "Worker control and sponsor-funded safety research were more credible than a shared blacklist.",
+          "objection": "Defamation, retaliation, sensitive identity storage, cold start, and venue power make a network dangerous."
+        },
+        {
+          "id": "ages-18-24",
+          "label": "Ages 18–24",
+          "primary_job": "Manage volatile cash flow, work scope, applications, and early-career administration.",
+          "signal": "Immediate relief mattered, but broad AI organizers did not feel worth another subscription.",
+          "objection": "Low subscription tolerance, incumbent platforms, and financial or legal risk weaken generic copilots."
+        },
+        {
+          "id": "ages-25-30",
+          "label": "Ages 25–30",
+          "primary_job": "Coordinate small-business work, childcare, benefits, and increasing responsibility for parents.",
+          "signal": "A business payer at an operational decision point was more credible than a consumer organizer.",
+          "objection": "Cross-system state, infrequent use, and feature-level value keep broad household assistants weak."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Paid experiments",
+          "disposition": "advanced",
+          "summary": "LotMatch, WeedCheck, and DoorHold retained a business payer, narrow trigger, bounded phone action, and explicit falsification gate.",
+          "idea_ids": [
+            "lot-match",
+            "weed-check",
+            "mobile-service-no-access-handshake"
+          ]
+        },
+        {
+          "label": "Compensated co-design only",
+          "disposition": "bounded",
+          "summary": "CaptionGap remained a mission-led accessibility hypothesis and cannot advance from simulated reactions.",
+          "idea_ids": [
+            "caption-pipeline-gap"
+          ]
+        },
+        {
+          "label": "Repeated failure patterns",
+          "disposition": "struck",
+          "summary": "Coordination, safety, compliance, gig-finance, application, and medical-bill concepts repeated known platform, trust, incumbent, and two-party adoption failures.",
+          "idea_ids": [
+            "coparenting-coordinator",
+            "family-caregiving",
+            "daily-ok-checkin",
+            "adult-compliance",
+            "gig-payout-deposit-match",
+            "resume-reuse",
+            "medical-bill-auditor"
+          ]
+        }
+      ],
+      "next_step": "Stop simulated ideation. Report compensated outreach, real payments, repeat use, false-positive and false-negative results, and attributable customer quotes."
+    },
+    {
+      "id": "loop-social-synthetic-panel",
+      "title": "Loop social-product synthetic panel",
+      "conducted_at": "2026-08-08",
+      "method": "simulated_persona",
+      "sample_label": "Eight research-derived persona composites",
+      "summary": "A synthetic panel attacked the finite social-object concept from eight relationship, coordination, privacy, and attention contexts before real recruitment.",
+      "limitation": "The panel predicts reactions from secondary research. It contains no recruited participants, observed behavior, willingness-to-pay evidence, or real quotations.",
+      "dossier": "docs/SOCIAL-APP-OPPORTUNITY-RESEARCH.md",
+      "anchor": "evidence-grounded-synthetic-focus-group",
+      "segments": [
+        {
+          "id": "teen-social-user",
+          "label": "Teen social user, 16",
+          "primary_job": "Feel connected and creative without drama or exclusion.",
+          "signal": "Moderate interest around tests, trips, sports, and group plans if the interaction feels playful.",
+          "objection": "Will not recruit a whole group or pay, and Snapchat already owns communication."
+        },
+        {
+          "id": "college-organizer",
+          "label": "College organizer, 21",
+          "primary_job": "Coordinate people without creating another chaotic chat.",
+          "signal": "Strong interest if guests can follow and update without installing.",
+          "objection": "Formal events invite a direct Partiful comparison and cannot be the hero use case."
+        },
+        {
+          "id": "young-professional",
+          "label": "Time-poor professional, 29",
+          "primary_job": "Stay close to dispersed friends and remember important outcomes.",
+          "signal": "Strongest broad-consumer fit because one update can reach everyone who cares.",
+          "objection": "Friendship must not feel like task management."
+        },
+        {
+          "id": "notification-overwhelmed",
+          "label": "Notification-overwhelmed user, 31",
+          "primary_job": "Communicate care without accumulating reply debt.",
+          "signal": "High interest when states such as no response needed reduce pressure.",
+          "objection": "Read receipts, streaks, overdue badges, and guilt mechanics are disqualifying."
+        },
+        {
+          "id": "privacy-conscious-parent",
+          "label": "Privacy-conscious parent, 38",
+          "primary_job": "Update family without public child photographs or several parallel chats.",
+          "signal": "High interest for travel, school, health, and family logistics.",
+          "objection": "Requires precise audience control, encryption, and no contact-book harvesting."
+        },
+        {
+          "id": "creator-photographer",
+          "label": "Creator or photographer, 35",
+          "primary_job": "Update supporters and collaborators without serving an algorithm.",
+          "signal": "Moderate interest for finite projects, shoots, launches, and delivery milestones.",
+          "objection": "The product does not create discovery or income directly."
+        },
+        {
+          "id": "social-circle-rebuilder",
+          "label": "Adult rebuilding a social circle, 26",
+          "primary_job": "Meet people and convert weak ties into real friendship.",
+          "signal": "Low initial utility before relationships already exist.",
+          "objection": "A relationship tool cannot manufacture local network density."
+        },
+        {
+          "id": "digital-minimalist",
+          "label": "Digital minimalist, 44",
+          "primary_job": "Keep essential connection while spending less time in feeds.",
+          "signal": "Strong interest in finite updates delivered by digest or web.",
+          "objection": "Will reject an app that recreates a feed or sends frequent pushes."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Advanced to real-user validation",
+          "disposition": "advanced",
+          "summary": "The panel narrowed Loop toward adults who already have relationships but struggle with fragmented communication and follow-through. Its current canonical decision is still shown separately.",
+          "idea_ids": [
+            "loop"
+          ]
+        }
+      ],
+      "next_step": "Recruit 12 real participants. Require at least seven to create a Loop, six to send it, 40% recipient follow-through, 60% closure with an outcome, and three independent second-use requests."
+    }
+  ]
+}

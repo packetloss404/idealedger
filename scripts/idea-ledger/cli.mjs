@@ -18,7 +18,8 @@ function printSummary(result, action) {
   const quality = result.artifacts['quality-report.json'].counts;
   console.log(
     `Idea Ledger ${action}: ${counts.ideas} ideas, ${counts.dossiers} dossiers, ` +
-      `${counts.researchEdges} research edges, ${counts.searchDocuments} search documents`
+      `${counts.researchEdges} research edges, ${counts.searchDocuments} search documents, ` +
+      `${counts.focusGroupStudies} focus-group studies`
   );
   console.log(`Source hash: ${result.snapshot.sourceHash}`);
   console.log(
