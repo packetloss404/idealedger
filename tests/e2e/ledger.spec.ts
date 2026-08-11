@@ -29,7 +29,7 @@ test.describe('decision retrieval', () => {
     await page.goto('ideas');
 
     await expect(page.getByRole('heading', { level: 1, name: 'Idea ledger' })).toBeVisible();
-    await expect(page.locator('tbody tr')).toHaveCount(316);
+    await expect(page.locator('tbody tr')).toHaveCount(348);
     await expect(page.getByText('Every status included')).toBeVisible();
     await expect(ideaRow(page, 'amazon-label-handoff')).toBeVisible();
 
@@ -169,31 +169,31 @@ test.describe('decision retrieval', () => {
 });
 
 test.describe('filters and URL state', () => {
-  test('combines validating and high-fit into the canonical eleven', async ({ page }) => {
+  test('combines validating and high-fit into the canonical thirteen', async ({ page }) => {
     await page.goto('ideas');
 
     await page.getByRole('checkbox', { name: /^Validating\b/ }).click();
     await expect(page.getByRole('checkbox', { name: /^Validating\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(13);
+    await expect(page.locator('tbody tr')).toHaveCount(15);
     await page.getByRole('checkbox', { name: /^High\b/ }).click();
     await expect(page.getByRole('checkbox', { name: /^High\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(11);
+    await expect(page.locator('tbody tr')).toHaveCount(13);
     await expect(page).toHaveURL(/status=validating/);
     await expect(page).toHaveURL(/fit=high/);
 
     await page.reload();
     await expect(page.getByRole('checkbox', { name: /^Validating\b/ })).toBeChecked();
     await expect(page.getByRole('checkbox', { name: /^High\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(11);
+    await expect(page.locator('tbody tr')).toHaveCount(13);
 
     await page.getByRole('button', { name: 'Clear filters' }).click();
-    await expect(page.locator('tbody tr')).toHaveCount(316);
+    await expect(page.locator('tbody tr')).toHaveCount(348);
   });
 
   test('ignores invalid filter values and still renders a stable ledger', async ({ page }) => {
     await page.goto('ideas?status=not-a-status&fit=impossible&tag=not-a-real-tag');
 
-    await expect(page.locator('tbody tr')).toHaveCount(316);
+    await expect(page.locator('tbody tr')).toHaveCount(348);
     await expect(page.getByText('Every status included')).toBeVisible();
   });
 });

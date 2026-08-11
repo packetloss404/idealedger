@@ -1,16 +1,16 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 16,
-    "dossiers": 26,
-    "headingMatchedIdeas": 192,
-    "headingReferences": 229,
-    "ideas": 316,
+    "dossierRefsWithoutMention": 80,
+    "dossiers": 49,
+    "headingMatchedIdeas": 211,
+    "headingReferences": 253,
+    "ideas": 348,
     "ideasWithoutResearch": 9,
-    "mentionOnlyIdeas": 110,
-    "mentionReferences": 132,
-    "multiRefIdeas": 54,
-    "researchEdges": 377,
-    "unmappedReferences": 16
+    "mentionOnlyIdeas": 117,
+    "mentionReferences": 167,
+    "multiRefIdeas": 86,
+    "researchEdges": 500,
+    "unmappedReferences": 80
   },
   "researchProvenance": [
     {
@@ -26,6 +26,46 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "accessibility-report-card",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-13-18",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-13-18.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-lifeevent-hamm",
+          "heading": {
+            "anchor": "4-n4--accessibility-report-card-for-businesses",
+            "depth": 2,
+            "text": "4. N4 — Accessibility Report Card for Businesses"
+          },
+          "path": "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -369,6 +409,24 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "aviation-mel-deferred-repairs",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-cross-domain-transfers",
+          "heading": null,
+          "path": "docs/ROUND-12-CROSS-DOMAIN-TRANSFERS.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -911,6 +969,34 @@
       ]
     },
     {
+      "ideaId": "claim-ready-install-record",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12-build-out",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-round-12-starting-state",
+          "heading": null,
+          "path": "docs/RESEARCH-ROUND-12-STARTING-STATE.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-weirdness-round",
+          "heading": {
+            "anchor": "b4--claim-ready-install-record--partial-host-side-absorbs-it",
+            "depth": 3,
+            "text": "B4 — Claim-Ready Install Record → PARTIAL (host-side absorbs it)"
+          },
+          "path": "docs/ROUND-12-WEIRDNESS-ROUND.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "clap-cut",
       "quality": "heading",
       "references": [
@@ -1268,6 +1354,34 @@
       ]
     },
     {
+      "ideaId": "credential-wall-small-employers",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-25-30",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-25-30.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-lifeevent-hamm",
+          "heading": {
+            "anchor": "6-o3--credential-wall-for-small-employers",
+            "depth": 2,
+            "text": "6. O3 — Credential Wall for Small Employers"
+          },
+          "path": "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "cross-app-draft-keyboard",
       "quality": "heading",
       "references": [
@@ -1400,6 +1514,30 @@
       ]
     },
     {
+      "ideaId": "deposit-recovery-packet",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-fg-01-06",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-01-06.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-worker-money-travel",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "did-it-fix-it",
       "quality": "heading",
       "references": [
@@ -1434,6 +1572,66 @@
           },
           "path": "docs/DINNER-DECISION-DEEP-DIVE.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "dmv-passport-slot-alerter",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-worker-money-travel",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-tech-capabilities",
+          "heading": null,
+          "path": "docs/ROUND-12-TECH-CAPABILITIES.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "done-needs-confirmation",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12-build-out",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-round-12-starting-state",
+          "heading": null,
+          "path": "docs/RESEARCH-ROUND-12-STARTING-STATE.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-weirdness-round",
+          "heading": null,
+          "path": "docs/ROUND-12-WEIRDNESS-ROUND.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1657,6 +1855,34 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "executor-death-admin-ledger",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-disruption-16-30",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-16-30.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-lifeevent-hamm",
+          "heading": {
+            "anchor": "1-g1g2--executors-death-admin-ledger-us-tell-us-once",
+            "depth": 2,
+            "text": "1. G1+G2 — Executor's Death-Admin Ledger (US \"Tell-Us-Once\")"
+          },
+          "path": "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1887,6 +2113,34 @@
       ]
     },
     {
+      "ideaId": "freight-line-pro",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12-build-out",
+          "heading": {
+            "anchor": "new-third-candidate-freight-line-pro-freight-photo-class-for-weekly-pro-shippers",
+            "depth": 2,
+            "text": "New third candidate: Freight-Line Pro (freight photo-class for weekly pro-shippers)"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "research-round-12-starting-state",
+          "heading": null,
+          "path": "docs/RESEARCH-ROUND-12-STARTING-STATE.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-mechanism-map",
+          "heading": null,
+          "path": "docs/ROUND-12-MECHANISM-MAP.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "friend-video-elimination",
       "quality": "mention",
       "references": [
@@ -1951,6 +2205,52 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "gig-1099-deposit-reconciliation",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-07-12",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-07-12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-finalist-dossiers",
+          "heading": null,
+          "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-worker-money-travel",
+          "heading": {
+            "anchor": "b3--1099-vs-bank-reconciliation-for-gig-workers",
+            "depth": 2,
+            "text": "B3 — 1099-vs-bank reconciliation for gig workers"
+          },
+          "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -2058,6 +2358,34 @@
       "references": []
     },
     {
+      "ideaId": "handoff-evidence-camera",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-01-06",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-01-06.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-creator-repair",
+          "heading": {
+            "anchor": "8-c7--handoff-evidence-camera-geo-timestamped-condition-capture-at-every-transfer-point",
+            "depth": 2,
+            "text": "8. C7 — Handoff evidence camera (geo-timestamped condition capture at every transfer point)"
+          },
+          "path": "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "haptic-cue-sequence",
       "quality": "heading",
       "references": [
@@ -2136,6 +2464,34 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "home-warranty-claim-forensics",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-fg-01-06",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-01-06.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-lifeevent-hamm",
+          "heading": {
+            "anchor": "9-q2--home-warranty-claim-forensics",
+            "depth": 2,
+            "text": "9. Q2 — Home Warranty Claim Forensics"
+          },
+          "path": "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+          "quality": "heading"
         }
       ]
     },
@@ -2364,6 +2720,30 @@
       "references": []
     },
     {
+      "ideaId": "license-renewal-watch",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-25-30",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-25-30.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-lifeevent-hamm",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "live-only-social-feed",
       "quality": "mention",
       "references": [
@@ -2421,6 +2801,42 @@
       "ideaId": "local-coffee-discovery",
       "quality": "none",
       "references": []
+    },
+    {
+      "ideaId": "local-marketplace-reprice",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-cross-domain-transfers",
+          "heading": null,
+          "path": "docs/ROUND-12-CROSS-DOMAIN-TRANSFERS.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-19-24",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-19-24.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
+        }
+      ]
     },
     {
       "ideaId": "local-tou-rate-replay",
@@ -2525,6 +2941,46 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "mail-forwarding-forensics",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-01-06",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-01-06.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-worker-money-travel",
+          "heading": {
+            "anchor": "d6--mail-forwarding-forensics",
+            "depth": 2,
+            "text": "D6 — Mail-forwarding forensics"
+          },
+          "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -2833,6 +3289,30 @@
       ]
     },
     {
+      "ideaId": "move-in-condition-report",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-fg-01-06",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-01-06.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-worker-money-travel",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "moving-revised-scope-approval",
       "quality": "mention",
       "references": [
@@ -2923,6 +3403,64 @@
       ]
     },
     {
+      "ideaId": "no-account-client-galleries",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-25-30",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-25-30.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-creator-repair",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "notam-commute-digest",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-cross-domain-transfers",
+          "heading": {
+            "anchor": "4-notam-structured-route-hazard-notices--daily-commute-hazard-digest",
+            "depth": 3,
+            "text": "4. NOTAM-structured route hazard notices → daily commute hazard digest"
+          },
+          "path": "docs/ROUND-12-CROSS-DOMAIN-TRANSFERS.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "offline-stage-autoscroll",
       "quality": "mention",
       "references": [
@@ -2943,6 +3481,30 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "owner-owned-repair-record",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-01-06",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-01-06.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-creator-repair",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -3077,6 +3639,70 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "paystub-schedule-diff",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-fg-07-12",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-07-12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-worker-money-travel",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "paywall-hypothesis-engine",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-25-30",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-25-30.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-lifeevent-hamm",
+          "heading": {
+            "anchor": "2-m1--paywall-doctor-for-indie-devs",
+            "depth": 2,
+            "text": "2. M1 — \"Paywall Doctor\" for Indie Devs"
+          },
+          "path": "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -3267,6 +3893,100 @@
       ]
     },
     {
+      "ideaId": "photo-invoice-micro-trades",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": {
+            "anchor": "1-snapinvoice--validate-first-primaryfor-solo-tradespeople-and-micro-field-service-ops-13-techs-dumpstertonnage-landscaping-cleaning-pool-when-a-weeks-job-photos-and-paper-slips-pile-up-snapinvoice-turns-them-into-sendable-invoice-lines-and-flags-any-job-that-never-got-billed-so-they-stop-losing-money-to-forgotten-paperwork",
+            "depth": 3,
+            "text": "1. SnapInvoice — VALIDATE FIRST (primary)For solo tradespeople and micro field-service ops (1–3 techs, dumpster/tonnage, landscaping, cleaning, pool), when a week's job photos and paper slips pile up, SnapInvoice turns them into sendable invoice lines and flags any job that never got billed, so they stop losing money to forgotten paperwork."
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-13-18",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-13-18.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-finalist-dossiers",
+          "heading": {
+            "anchor": "finalist-1--snapinvoice",
+            "depth": 2,
+            "text": "Finalist 1 — SnapInvoice"
+          },
+          "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-novelty-trade-returns",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-snapinvoice-build-spec",
+          "heading": {
+            "anchor": "snapinvoice--build-ready-spec--shipaton-2026-six-week-plan",
+            "depth": 1,
+            "text": "SnapInvoice — Build-Ready Spec — Shipaton 2026 (Six-Week Plan)"
+          },
+          "path": "docs/ROUND-12-SNAPINVOICE-BUILD-SPEC.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-snapinvoice-falsification",
+          "heading": {
+            "anchor": "snapinvoice--round-12-harder-competitor-sweep--falsification-experiment-design",
+            "depth": 1,
+            "text": "SnapInvoice — Round 12 Harder Competitor Sweep + Falsification Experiment Design"
+          },
+          "path": "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "photo-voice-instant-quote",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-13-18",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-13-18.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-trade-returns",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "pickup-model-gate",
       "quality": "heading",
       "references": [
@@ -3421,6 +4141,62 @@
       ]
     },
     {
+      "ideaId": "process-tracker-falsified",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12-build-out",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-round-12-starting-state",
+          "heading": null,
+          "path": "docs/RESEARCH-ROUND-12-STARTING-STATE.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-process-tracker",
+          "heading": {
+            "anchor": "user-instrumentable-process-tracker--round-12-deep-dive",
+            "depth": 1,
+            "text": "USER-INSTRUMENTABLE PROCESS TRACKER — Round 12 Deep Dive"
+          },
+          "path": "docs/ROUND-12-PROCESS-TRACKER.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "proofing-catalog-seam",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-fg-25-30",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-25-30.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-creator-repair",
+          "heading": {
+            "anchor": "1-e1e6--creator-proofing-catalog-seam-lightroom-classic--capture-one",
+            "depth": 2,
+            "text": "1. E1+E6 — \"Creator proofing catalog seam\" (Lightroom Classic / Capture One)"
+          },
+          "path": "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "provider-network-double-check",
       "quality": "mention",
       "references": [
@@ -3446,6 +4222,24 @@
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
           "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "quote-follow-up-nudger",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-01-06",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-01-06.md",
+          "quality": "mention"
         }
       ]
     },
@@ -3664,6 +4458,34 @@
       ]
     },
     {
+      "ideaId": "repair-shop-status-timeline",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-fg-13-18",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-13-18.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-creator-repair",
+          "heading": {
+            "anchor": "7-c6--repair-shop-status-timeline-greetestimate-approvedparts-inbounddone-photo-proof-per-step",
+            "depth": 2,
+            "text": "7. C6 — Repair-shop status timeline (greet→estimate-approved→parts-inbound→done, photo proof per step)"
+          },
+          "path": "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
       "ideaId": "replacement-part-pair",
       "quality": "mention",
       "references": [
@@ -3798,6 +4620,60 @@
       ]
     },
     {
+      "ideaId": "return-intake-evidence-sellers",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": {
+            "anchor": "2-returnshield--validate-first-secondary",
+            "depth": 3,
+            "text": "2. ReturnShield — VALIDATE FIRST (secondary)"
+          },
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-19-24",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-19-24.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-finalist-dossiers",
+          "heading": {
+            "anchor": "finalist-2--returnshield",
+            "depth": 2,
+            "text": "Finalist 2 — ReturnShield"
+          },
+          "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-novelty-trade-returns",
+          "heading": {
+            "anchor": "candidate-4--i1-return-intake-evidence-for-small-sellers--online-resellers-photo-condition--cause-code--disposition-restockrefurbrefusecharity-dispute-ready",
+            "depth": 2,
+            "text": "CANDIDATE 4 — I1 \"Return intake evidence for small sellers / online resellers\" (photo condition + cause code + disposition: restock/refurb/refuse/charity, dispute-ready)"
+          },
+          "path": "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "rideshare-return-mile-offer",
       "quality": "mention",
       "references": [
@@ -3834,6 +4710,46 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rv-in-shop-status-watchdog",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-19-24",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-19-24.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-creator-repair",
+          "heading": {
+            "anchor": "6-c5--rv-in-shop-status-tracker-dropoff-photos-days-in-shop-vs-averages-escalation",
+            "depth": 2,
+            "text": "6. C5 — RV-in-shop status tracker (dropoff photos, days-in-shop vs averages, escalation)"
+          },
+          "path": "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -4035,6 +4951,52 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "sell-to-ship-large-items",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-19-24",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-19-24.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-finalist-dossiers",
+          "heading": null,
+          "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-trade-returns",
+          "heading": {
+            "anchor": "candidate-5--i4-sell-to-ship-kit-for-large-items-camera-measure--freight-class--live-quotes--mandatory-damage-photos-for-resellers-shipping-furniturelarge-items",
+            "depth": 2,
+            "text": "CANDIDATE 5 — I4 \"Sell-to-ship kit for large items\" (camera measure → freight class → live quotes → mandatory damage photos, for resellers shipping furniture/large items)"
+          },
+          "path": "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -4441,6 +5403,42 @@
       ]
     },
     {
+      "ideaId": "subscription-easy-cancel-intake",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-disruption-1-15",
+          "heading": null,
+          "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-fg-19-24",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-19-24.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-novelty-trade-returns",
+          "heading": null,
+          "path": "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "round-12-pain-map",
+          "heading": null,
+          "path": "docs/ROUND-12-PAIN-MAP.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "subtitle-gate",
       "quality": "heading",
       "references": [
@@ -4719,6 +5717,34 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "traveler-incident-workspace",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-fg-13-18",
+          "heading": null,
+          "path": "docs/ROUND-12-FG-13-18.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-novelty-worker-money-travel",
+          "heading": {
+            "anchor": "s1--traveler-incident-workspace",
+            "depth": 2,
+            "text": "S1 — Traveler incident workspace"
+          },
+          "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+          "quality": "heading"
         }
       ]
     },
@@ -5080,6 +6106,7 @@
     }
   ],
   "singletonTags": [
+    "1099",
     "311",
     "401k",
     "aac",
@@ -5087,6 +6114,7 @@
     "accessories",
     "active-build",
     "actors",
+    "admin",
     "adult",
     "affiliate",
     "agriculture",
@@ -5109,6 +6137,7 @@
     "audible",
     "audio-analysis",
     "audio-route",
+    "audit",
     "augmented-reality",
     "authentication",
     "authenticity",
@@ -5129,6 +6158,7 @@
     "barns",
     "beauty",
     "before-after",
+    "bereavement",
     "bidding",
     "ble",
     "bluetooth-pedal",
@@ -5143,6 +6173,7 @@
     "call-blocking",
     "call-sheets",
     "calls",
+    "cancellation",
     "cancellation-fees",
     "captions",
     "car-buying",
@@ -5153,8 +6184,10 @@
     "cars",
     "cellular",
     "challenges",
+    "change-of-address",
     "change-orders",
     "change-propagation",
+    "chargebacks",
     "check-in",
     "checklist",
     "checkout",
@@ -5171,6 +6204,8 @@
     "collaboration",
     "color-vision",
     "commerce",
+    "commodity",
+    "commute",
     "commuting",
     "composites",
     "compression",
@@ -5178,6 +6213,7 @@
     "consent",
     "consignment",
     "consumer-protection",
+    "content",
     "contracts",
     "controllers",
     "controls",
@@ -5195,6 +6231,7 @@
     "crm",
     "crochet",
     "cross-device",
+    "cross-domain",
     "crowdsourcing",
     "custom-goods",
     "customer-service",
@@ -5206,6 +6243,7 @@
     "deafblind",
     "dealers",
     "decision-making",
+    "deferred",
     "delisting",
     "deployment",
     "detection",
@@ -5217,8 +6255,9 @@
     "dispatch",
     "display",
     "displays",
-    "disputes",
+    "disruption",
     "dj",
+    "dmv",
     "drafts",
     "drain-plug",
     "drapery",
@@ -5234,6 +6273,7 @@
     "electricity",
     "electronics",
     "emergency-preparedness",
+    "employers",
     "engraving",
     "eob",
     "epoxy",
@@ -5253,6 +6293,7 @@
     "fact-checking",
     "false-assurance",
     "false-invariant",
+    "falsified",
     "familycontrols",
     "fashion",
     "fasteners",
@@ -5269,7 +6310,6 @@
     "florists",
     "fluids",
     "folios",
-    "follow-up",
     "fonts",
     "food-allergies",
     "food-logging",
@@ -5280,6 +6320,7 @@
     "friends",
     "fulfillment",
     "furniture",
+    "galleries",
     "gaming",
     "garments",
     "gcode",
@@ -5296,7 +6337,6 @@
     "guest-access",
     "guests",
     "guitar",
-    "hamm",
     "hard-of-hearing",
     "hardware-keys",
     "hardware-state",
@@ -5322,12 +6362,13 @@
     "import",
     "inbox",
     "incident",
+    "indie-dev",
     "inspections",
-    "installation",
     "interference",
     "interruption",
     "invitations",
     "invoice-fraud",
+    "invoicing",
     "iot",
     "itinerary",
     "jobber",
@@ -5343,7 +6384,9 @@
     "led",
     "left-behind",
     "lending",
-    "licensing",
+    "liability",
+    "life-event",
+    "lightroom",
     "live-streaming",
     "load-in",
     "local",
@@ -5358,7 +6401,6 @@
     "low-frequency",
     "luggage",
     "magnetometer",
-    "mail",
     "makers",
     "manual-claim",
     "manual-ritual",
@@ -5374,12 +6416,12 @@
     "mesh",
     "messaging",
     "meters",
+    "micro-business",
     "microchip",
     "midi",
     "mixing",
     "mobile",
     "mobile-services",
-    "monetization",
     "move-out",
     "multi-camera",
     "musicians",
@@ -5407,6 +6449,7 @@
     "passkit",
     "passwords",
     "paychecks",
+    "paystub",
     "peace-prize",
     "pedals",
     "permissions",
@@ -5419,20 +6462,19 @@
     "plants",
     "platform-control",
     "platform-entitlement",
-    "platform-risk",
     "platform-state",
     "playback",
     "pocket-casts",
     "podcasts",
+    "portability",
     "practice",
     "prediction",
     "prescriptions",
     "presence",
     "prices",
-    "pricing",
+    "process",
     "products",
     "profit",
-    "proofing",
     "property-management",
     "provenance",
     "provider-network",
@@ -5442,12 +6484,13 @@
     "queue",
     "quick-entry",
     "quick-look",
-    "quotes",
+    "quote",
     "re-entry",
     "reactions",
     "recalls",
     "recap",
     "reconnect",
+    "records",
     "redaction",
     "redundancy",
     "reference",
@@ -5459,6 +6502,7 @@
     "remix",
     "remote-work",
     "rename",
+    "renewals",
     "renters",
     "repairs",
     "replacement-parts",
@@ -5485,9 +6529,11 @@
     "schedules",
     "school",
     "scope-creep",
+    "score",
     "screen-recording",
     "scroll",
-    "secondhand",
+    "seam",
+    "seasonal",
     "self-tape",
     "seller-tools",
     "seniors",
@@ -5505,6 +6551,7 @@
     "shopping",
     "shortages",
     "silhouette",
+    "slots",
     "solar",
     "solo-creators",
     "sonos",
@@ -5514,19 +6561,16 @@
     "spotify",
     "ssh",
     "standards",
-    "status",
     "stems",
     "stencil",
     "stl",
     "storage",
     "streaming",
     "strong-substitute",
-    "subscriptions",
     "subtitles",
     "svg",
     "tags",
     "takeout",
-    "taxes",
     "teardown",
     "temperature",
     "terminal",
@@ -5550,6 +6594,7 @@
     "transit",
     "transitions",
     "translation",
+    "transparency",
     "tripod",
     "trucking",
     "tuning",
@@ -5557,6 +6602,7 @@
     "upholstery",
     "urls",
     "usb",
+    "usps",
     "uti",
     "vacation-rentals",
     "vehicles",
@@ -5567,7 +6613,6 @@
     "voting",
     "vouchers",
     "waitlists",
-    "warranty",
     "water",
     "water-softener",
     "webauthn",
@@ -5581,11 +6626,11 @@
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:6301c875efb26f039b58ce52b8238f3fcd94268a714de7e620ce1f0744c91deb",
+  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492",
   "tagStats": {
-    "assignments": 1507,
-    "doubletons": 97,
-    "singletons": 500,
-    "unique": 733
+    "assignments": 1655,
+    "doubletons": 109,
+    "singletons": 519,
+    "unique": 775
   }
 }

@@ -9,28 +9,28 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   const counts = result.artifacts['manifest.json'].counts;
   const quality = result.artifacts['quality-report.json'];
   assert.deepEqual(counts, {
-    ideas: 316,
-    dossiers: 26,
-    focusGroupStudies: 32,
-    researchEdges: 377,
-    searchDocuments: 342,
+    ideas: 348,
+    dossiers: 49,
+    focusGroupStudies: 33,
+    researchEdges: 500,
+    searchDocuments: 397,
   });
-  assert.equal(quality.counts.headingMatchedIdeas, 192);
-  assert.equal(quality.counts.mentionOnlyIdeas, 110);
-  assert.equal(quality.counts.dossierRefsWithoutMention, 16);
+  assert.equal(quality.counts.headingMatchedIdeas, 211);
+  assert.equal(quality.counts.mentionOnlyIdeas, 117);
+  assert.equal(quality.counts.dossierRefsWithoutMention, 80);
   assert.equal(quality.counts.ideasWithoutResearch, 9);
-  assert.equal(quality.counts.headingReferences, 229);
-  assert.equal(quality.counts.mentionReferences, 132);
-  assert.equal(quality.counts.unmappedReferences, 16);
-  assert.equal(quality.tagStats.assignments, 1507);
-  assert.equal(quality.tagStats.unique, 733);
-  assert.equal(result.snapshot.sourceFiles.length, 28);
+  assert.equal(quality.counts.headingReferences, 253);
+  assert.equal(quality.counts.mentionReferences, 167);
+  assert.equal(quality.counts.unmappedReferences, 80);
+  assert.equal(quality.tagStats.assignments, 1655);
+  assert.equal(quality.tagStats.unique, 775);
+  assert.equal(result.snapshot.sourceFiles.length, 51);
 
   const focusGroups = result.artifacts['focus-groups.json'];
-  assert.equal(focusGroups.counts.studies, 32);
-  assert.equal(focusGroups.counts.segments, 163);
+  assert.equal(focusGroups.counts.studies, 33);
+  assert.equal(focusGroups.counts.segments, 169);
   assert.equal(focusGroups.counts.recruitedStudies, 0);
-  assert.equal(focusGroups.counts.simulatedStudies, 32);
+  assert.equal(focusGroups.counts.simulatedStudies, 33);
   assert.deepEqual(result.artifacts['routes.json'].focusGroupRoutes, [
     '/focus-groups',
     '/focus-groups/loop-social-synthetic-panel',
@@ -64,6 +64,7 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
     '/focus-groups/round-11-focus-group-28',
     '/focus-groups/round-11-focus-group-29',
     '/focus-groups/round-11-focus-group-30',
+    '/focus-groups/round12-mclovin-sweep',
     '/focus-groups/xprize-persona-synthesis',
   ]);
   assert.ok(

@@ -19,14 +19,14 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(316);
-    expect(researchMetadata).toHaveLength(26);
+    expect(ideas).toHaveLength(348);
+    expect(researchMetadata).toHaveLength(49);
     expect(ledgerCounts).toEqual({
-      dossiers: 26,
-      focusGroupStudies: 32,
-      ideas: 316,
-      researchEdges: 377,
-      searchDocuments: 342,
+      dossiers: 49,
+      focusGroupStudies: 33,
+      ideas: 348,
+      researchEdges: 500,
+      searchDocuments: 397,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -36,13 +36,13 @@ describe('generated ledger repository', () => {
   });
 
   it('exposes structured focus-group studies without presenting simulation as participants', () => {
-    expect(focusGroupStudies).toHaveLength(32);
+    expect(focusGroupStudies).toHaveLength(33);
     expect(focusGroupCounts).toEqual({
-      linkedIdeas: 31,
+      linkedIdeas: 55,
       recruitedStudies: 0,
-      segments: 163,
-      simulatedStudies: 32,
-      studies: 32,
+      segments: 169,
+      simulatedStudies: 33,
+      studies: 33,
     });
     const xprize = focusGroupStudies.find((study) => study.id === 'xprize-persona-synthesis');
     expect(xprize?.method).toBe('simulated_persona');
@@ -77,7 +77,7 @@ describe('generated ledger repository', () => {
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(26);
+    expect(repository.documents).toHaveLength(49);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
@@ -114,6 +114,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(733);
+    expect(tagOptions).toHaveLength(775);
   });
 });

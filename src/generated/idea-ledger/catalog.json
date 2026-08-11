@@ -8282,9 +8282,1019 @@
         "hamm",
         "round-11"
       ]
+    },
+    {
+      "aliases": [
+        "Photo Invoice Micro-Trades",
+        "Unbilled Work Detector"
+      ],
+      "decision_reason": "Survived full MCLOVIN round 11 as the strongest Shipaton candidate. Evidence: first-person r/sweatystartup accounts of un-invoiced tonnage fees and paper lost in truck cabs; Jobber pricing/complexity pushes micro-ops (1-3 techs) to texts, whiteboards, and paper; the phone is already the tech's camera and photos already flow by text/share-sheet. No product auto-builds invoice lines from job photos or detects un-invoiced work as a standalone (novelty ~55). Business payer, weekly retention, subscription monetization. Not BUILD: line-extraction accuracy and willingness-to-pay are unproven.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-13-18",
+        "round-12-finalist-dossiers",
+        "round-12-novelty-trade-returns",
+        "round-12-pain-map",
+        "round-12-disruption-1-15",
+        "round-12-snapinvoice-build-spec",
+        "round-12-snapinvoice-falsification"
+      ],
+      "hackathon_fit": "high",
+      "id": "photo-invoice-micro-trades",
+      "name": "SnapInvoice",
+      "one_liner": "Turn a solo tradesperson's week of job photos and paper slips into sendable invoice lines and flag any job that never got billed.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-13-18.md",
+        "docs/ROUND-12-FINALIST-DOSSIERS.md",
+        "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md",
+        "docs/ROUND-12-SNAPINVOICE-BUILD-SPEC.md",
+        "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md"
+      ],
+      "resurrection_trigger": "Ten micro field-service ops prepay after a fixture proves >=90% extractable line-item accuracy, >=7 of 10 use it on >=80% of real jobs, and no false green on unreadable slips.",
+      "route": "/ideas/photo-invoice-micro-trades",
+      "status": "validating",
+      "tags": [
+        "field-service",
+        "invoicing",
+        "b2b",
+        "revenuecat",
+        "photo",
+        "ocr",
+        "micro-business",
+        "share-sheet"
+      ]
+    },
+    {
+      "aliases": [
+        "Return Intake Evidence",
+        "Reseller Return Proof"
+      ],
+      "decision_reason": "Second strongest Shipaton candidate. Return fraud is $103B/yr with 15.14% of returns fraudulent (NRF/LP Media); resellers already photograph returns as self-protection; the micro-reseller evidence workflow has no dedicated tool (Loop Returns serves mid-market; novelty ~55). Business/prosumer payer, retention per return. Not BUILD: reseller willingness-to-pay and marketplace-adjudication limits are unproven.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-19-24",
+        "round-12-finalist-dossiers",
+        "round-12-novelty-trade-returns",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "high",
+      "id": "return-intake-evidence-sellers",
+      "name": "ReturnShield",
+      "one_liner": "Photograph and document returned items at intake and package dispute-ready evidence so online resellers stop losing refunds they could have defended.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-19-24.md",
+        "docs/ROUND-12-FINALIST-DOSSIERS.md",
+        "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "20 active resellers prepay after evidence packs measurably improve dispute outcomes; retention above two returns per week.",
+      "route": "/ideas/return-intake-evidence-sellers",
+      "status": "validating",
+      "tags": [
+        "returns",
+        "resale",
+        "evidence",
+        "b2b",
+        "revenuecat",
+        "photography",
+        "secondhand"
+      ]
+    },
+    {
+      "aliases": [
+        "1099-Vs-Bank Reconciliation",
+        "Gig Gross-Net Match"
+      ],
+      "decision_reason": "Highest-novelty survivor of round 11 (no direct product found, novelty ~70) but wrong timing for Shipaton (tax season is not inside the 6-week window), weak phone advantage (document-heavy), seasonal retention, and the Ledger's recurring two-record-invariant risk. Related to the existing gig-payout-deposit-match and etsy-payout-reconciliation records.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-07-12",
+        "round-12-finalist-dossiers",
+        "round-12-novelty-worker-money-travel",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "gig-1099-deposit-reconciliation",
+      "name": "NetCheck",
+      "one_liner": "Compare a gig worker's 1099-K gross, platform statements, and bank deposits to show actual taxable income by platform and flag gross-vs-deposits mismatches.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-07-12.md",
+        "docs/ROUND-12-FINALIST-DOSSIERS.md",
+        "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "Tax-season demand window (Jan-Apr), evidence gig workers pay year-round for deduction prep, or a stable invariant demonstrated on real platform statements.",
+      "route": "/ideas/gig-1099-deposit-reconciliation",
+      "status": "parked",
+      "tags": [
+        "gig-work",
+        "reconciliation",
+        "taxes",
+        "1099",
+        "payments",
+        "seasonal"
+      ]
+    },
+    {
+      "aliases": [
+        "Sell-to-Ship Kit",
+        "Large Item Shipping Kit"
+      ],
+      "decision_reason": "Real reseller pain (large-item shipping costs kill deals; armchair $385-515 vs $95-210 via uShip) but the product composes existing parts (uShip rails, FreightSizer camera-to-freight-class); the bundle plus a mandatory damage-photo workflow needs proof of retention (novelty ~50).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-19-24",
+        "round-12-finalist-dossiers",
+        "round-12-novelty-trade-returns",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "sell-to-ship-large-items",
+      "name": "ShipKit",
+      "one_liner": "Camera-based measurement, freight-class lookup, live large-item shipping quotes, and a claim-proof packaging workflow for resellers.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-19-24.md",
+        "docs/ROUND-12-FINALIST-DOSSIERS.md",
+        "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "Resellers demonstrate weekly retention and prepay; evidence the bundle beats the uShip/FreightSizer components separately.",
+      "route": "/ideas/sell-to-ship-large-items",
+      "status": "parked",
+      "tags": [
+        "resale",
+        "shipping",
+        "freight",
+        "camera",
+        "measurement"
+      ]
+    },
+    {
+      "aliases": [
+        "Paywall Doctor",
+        "Monetization Hypothesis Engine"
+      ],
+      "decision_reason": "HAMM-dogfood angle is real (Shipaton's own audience of 15,202 devs; sanctioned RevenueCat data gives the product owned state) but novelty is thin (Superwall AI, app-paywall-pilot GitHub; novelty ~30), the phone surface is weak (a web/desktop job), and RevenueCat could ship the digest as a feature.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-25-30",
+        "round-12-novelty-lifeevent-hamm",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "medium",
+      "id": "paywall-hypothesis-engine",
+      "name": "PaywallDoc",
+      "one_liner": "Reads an indie developer's RevenueCat paywall, store listing, and review themes and emits one ranked monetization hypothesis with a concrete change per week.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-25-30.md",
+        "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "Evidence indie devs pay for weekly monetization guidance that RevenueCat does not ship; a mobile-first surface proves retention.",
+      "route": "/ideas/paywall-hypothesis-engine",
+      "status": "parked",
+      "tags": [
+        "revenuecat",
+        "indie-dev",
+        "monetization",
+        "hamm",
+        "app-store",
+        "developers"
+      ]
+    },
+    {
+      "aliases": [
+        "RV In-Shop Status Tracker"
+      ],
+      "decision_reason": "The only shop-agnostic owner-side watchdog found (novelty ~55), but RV repairs are low-frequency (34-day average cycle; no retention), the 'industry average days-in-shop' benchmark data does not exist (false-certainty trap), and shops are hostile to owner-side tooling (host-owns-correction).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-19-24",
+        "round-12-novelty-creator-repair",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "rv-in-shop-status-watchdog",
+      "name": "RVWatchdog",
+      "one_liner": "An RV owner photographs mileage and location at shop dropoff; the app tracks days-in-shop and generates escalation nudges to the dealer and manufacturer warranty lines.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-19-24.md",
+        "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "Evidence RV owners act on escalation within a week of a stalled repair, or a sanctioned shop API; frequency above quarterly.",
+      "route": "/ideas/rv-in-shop-status-watchdog",
+      "status": "passed_market",
+      "tags": [
+        "rv",
+        "repair",
+        "status",
+        "warranty",
+        "false-certainty"
+      ]
+    },
+    {
+      "aliases": [
+        "Mail Forwarding Forensics"
+      ],
+      "decision_reason": "Novel (no direct product found, novelty ~75), phone-native, and attaches to the sanctioned USPS forwarding signal as the trigger - but low frequency and consumers won't pay for a checklist, and the update step has no sanctioned API (aggregator-without-API trap).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-01-06",
+        "round-12-novelty-worker-money-travel",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "mail-forwarding-forensics",
+      "name": "MailForward Forensics",
+      "one_liner": "Photograph forwarded USPS mail during a move to OCR the sender and generate the 'you forgot to update X' list with direct update links.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-01-06.md",
+        "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "Evidence movers pay; a sanctioned way to trigger the updates; bundling with a higher-frequency moving product.",
+      "route": "/ideas/mail-forwarding-forensics",
+      "status": "parked",
+      "tags": [
+        "moving",
+        "usps",
+        "mail",
+        "ocr",
+        "change-of-address"
+      ]
+    },
+    {
+      "aliases": [
+        "Instant Estimate From Photo"
+      ],
+      "decision_reason": "DIRECT to SimplyWise Cost Estimator (4.8 stars, ~31k ratings, 10k+ contractors) plus FieldQuote and Billio; the photo-to-branded-estimate-to-PDF job is occupied at scale (novelty ~15). Only inbound-text and dictate-only slivers are open, and the suites can ship them.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-13-18",
+        "round-12-novelty-trade-returns"
+      ],
+      "hackathon_fit": "low",
+      "id": "photo-voice-instant-quote",
+      "name": "Photo-to-Quote Instant Estimator",
+      "one_liner": "A customer sends a photo of a repair problem and a tradesperson dictates; a branded estimate exits in under a minute.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-13-18.md",
+        "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md"
+      ],
+      "resurrection_trigger": "SimplyWise/FieldQuote exit, or an inbound channel they do not serve (WhatsApp/WeChat) shows real adoption.",
+      "route": "/ideas/photo-voice-instant-quote",
+      "status": "passed_market",
+      "tags": [
+        "quote",
+        "field-service",
+        "photo",
+        "ocr",
+        "commodity"
+      ]
+    },
+    {
+      "aliases": [
+        "Gallery Selections to Lightroom"
+      ],
+      "decision_reason": "Gallerina occupies the Lightroom return-path; Pic-Time sync and Proofr overlap; Adobe has a native feature request pending (platform risk). The Capture One wedge is open but small and is a feature, not a moat (novelty ~20).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-25-30",
+        "round-12-novelty-creator-repair"
+      ],
+      "hackathon_fit": "low",
+      "id": "proofing-catalog-seam",
+      "name": "Proofing Catalog Seam",
+      "one_liner": "Sync client gallery selections, comments, and retouch scribbles back into Lightroom Classic or Capture One.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-25-30.md",
+        "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md"
+      ],
+      "resurrection_trigger": "Adobe ships no native return-path and photographers demonstrate they pay for a third-party seam; Capture One share grows.",
+      "route": "/ideas/proofing-catalog-seam",
+      "status": "passed_market",
+      "tags": [
+        "creators",
+        "photography",
+        "lightroom",
+        "proofing",
+        "seam",
+        "platform-risk"
+      ]
+    },
+    {
+      "aliases": [
+        "Link-Only Photo Galleries"
+      ],
+      "decision_reason": "Picflow owns the no-account link-only gallery; Framekeep and SendPhoto overlap; native substitutes (Apple/Google Photos) and consumer-won't-pay churn (novelty ~10).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-25-30",
+        "round-12-novelty-creator-repair"
+      ],
+      "hackathon_fit": "low",
+      "id": "no-account-client-galleries",
+      "name": "No-Account Client Galleries",
+      "one_liner": "Mobile-first, link-only photo galleries with graceful full-res download and per-recipient audit, without print-shop bloat.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-25-30.md",
+        "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md"
+      ],
+      "resurrection_trigger": "A proofing niche Picflow ignores shows willingness to pay.",
+      "route": "/ideas/no-account-client-galleries",
+      "status": "passed_market",
+      "tags": [
+        "creators",
+        "photography",
+        "galleries",
+        "delivery"
+      ]
+    },
+    {
+      "aliases": [
+        "Portable Car Service History"
+      ],
+      "decision_reason": "Odobook literally markets 'portable copy of service history, free CSV export'; CARFAX Car Care is the free incumbent (4.84 stars, 125k ratings); consumer-won't-pay; connected-car native substitute (novelty ~5).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-01-06",
+        "round-12-novelty-creator-repair"
+      ],
+      "hackathon_fit": "low",
+      "id": "owner-owned-repair-record",
+      "name": "Owner-Owned Repair Record",
+      "one_liner": "An owner-owned, portable, exportable service record for a car with part before/after photos and receipts.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-01-06.md",
+        "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md"
+      ],
+      "resurrection_trigger": "Resale/dealership demand makes portability a paid event; a dealer-pays integration.",
+      "route": "/ideas/owner-owned-repair-record",
+      "status": "passed_market",
+      "tags": [
+        "automotive",
+        "repair",
+        "records",
+        "portability"
+      ]
+    },
+    {
+      "aliases": [
+        "Shop Status Feed"
+      ],
+      "decision_reason": "TrueStatus does exactly this (tracking code at dropoff plus real-time photo updates per step); Tekmetric/Shop-Ware/Fullbay/Jobber bundle customer portals; host-owns-correction - the shop controls the channel (novelty ~10).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-13-18",
+        "round-12-novelty-creator-repair"
+      ],
+      "hackathon_fit": "low",
+      "id": "repair-shop-status-timeline",
+      "name": "Repair Shop Status Timeline",
+      "one_liner": "A repair shop publishes greet-to-estimate-approved-to-parts-inbound-to-done status with photo proof per step.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-13-18.md",
+        "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md"
+      ],
+      "resurrection_trigger": "Shops prove they adopt an owner-side neutral channel; shop-owned-state changes.",
+      "route": "/ideas/repair-shop-status-timeline",
+      "status": "passed_market",
+      "tags": [
+        "repair",
+        "status",
+        "automotive",
+        "host-feature"
+      ]
+    },
+    {
+      "aliases": [
+        "Transfer Condition Timeline"
+      ],
+      "decision_reason": "Commodity timestamp/geostamp cameras plus vertical incumbents (SnapProof, MeInspect, StayProof, InspectYour); a horizontal 'every transfer point' is a wrapper; the phone camera already geotags (novelty ~20).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-01-06",
+        "round-12-novelty-creator-repair"
+      ],
+      "hackathon_fit": "low",
+      "id": "handoff-evidence-camera",
+      "name": "Handoff Evidence Camera",
+      "one_liner": "Geo-timestamped condition capture at every transfer point (owner-to-shop, buyer-to-seller, tenant-to-landlord) for dispute-ready timelines.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-01-06.md",
+        "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md"
+      ],
+      "resurrection_trigger": "A vertical with a sanctioned API and a payer (a business that mandates the record) emerges.",
+      "route": "/ideas/handoff-evidence-camera",
+      "status": "passed_market",
+      "tags": [
+        "evidence",
+        "handoff",
+        "camera",
+        "documentation"
+      ]
+    },
+    {
+      "aliases": [
+        "Hours Worked vs Paid"
+      ],
+      "decision_reason": "WageWatch App (2025, labor-lawyer-built) does exactly this; duplicates the existing timecard-paystub-pair record's job; hourly workers won't pay; employer-hosted correction (novelty ~25).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-07-12",
+        "round-12-novelty-worker-money-travel"
+      ],
+      "hackathon_fit": "low",
+      "id": "paystub-schedule-diff",
+      "name": "Paystub-Schedule Diff",
+      "one_liner": "Photo the posted schedule and the paystub; compute hours worked versus hours paid and flag mismatches for hourly workers.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-07-12.md",
+        "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md"
+      ],
+      "resurrection_trigger": "Labor-org or union distribution channel pays; employer-side adoption.",
+      "route": "/ideas/paystub-schedule-diff",
+      "status": "passed_market",
+      "tags": [
+        "payroll",
+        "workers",
+        "paystub",
+        "ocr",
+        "host-feature"
+      ]
+    },
+    {
+      "aliases": [
+        "Walkthrough Evidence Vault"
+      ],
+      "decision_reason": "DepositProof, MoveProof, door.lease, and Walk Thru all launched within 18 months (crowding); links to the existing security-deposit-evidence record; tenant-side monetization unproven (novelty ~10).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-01-06",
+        "round-12-novelty-worker-money-travel"
+      ],
+      "hackathon_fit": "low",
+      "id": "move-in-condition-report",
+      "name": "Move-In Condition Report",
+      "one_liner": "A timed room-by-room move-in walkthrough video with damage tags, stored with lease metadata, exported as a condition report.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-01-06.md",
+        "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md"
+      ],
+      "resurrection_trigger": "Landlord/PM mandates the record (B2B), or a state statute creates a standardized deposit process.",
+      "route": "/ideas/move-in-condition-report",
+      "status": "passed_market",
+      "tags": [
+        "renting",
+        "deposits",
+        "evidence",
+        "video"
+      ]
+    },
+    {
+      "aliases": [
+        "Security Deposit Dispute Kit"
+      ],
+      "decision_reason": "DepositGenie and DepositsBack occupy the tenant-side dispute niche; links to the existing security-deposit-evidence record; one-shot cadence (novelty ~10).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-01-06",
+        "round-12-novelty-worker-money-travel"
+      ],
+      "hackathon_fit": "low",
+      "id": "deposit-recovery-packet",
+      "name": "Deposit-Recovery Packet",
+      "one_liner": "At move-out, generate an itemized deposit dispute packet with comparison clips and a state-law deadline cheat sheet.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-01-06.md",
+        "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md"
+      ],
+      "resurrection_trigger": "A state regulatory change standardizing deposits creates a compliance-payer.",
+      "route": "/ideas/deposit-recovery-packet",
+      "status": "passed_market",
+      "tags": [
+        "renting",
+        "deposits",
+        "disputes"
+      ]
+    },
+    {
+      "aliases": [
+        "US Tell Us Once",
+        "Bereavement Admin"
+      ],
+      "decision_reason": "Empathy.com and EstateExec occupy the executor workflow; Everplans was sold and Lantern shut down (graveyard); one-shot usage kills retention and subscription; morbid acquisition is expensive (novelty ~10).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-disruption-16-30",
+        "round-12-novelty-lifeevent-hamm"
+      ],
+      "hackathon_fit": "low",
+      "id": "executor-death-admin-ledger",
+      "name": "Executor Death-Admin Ledger",
+      "one_liner": "A US 'Tell Us Once': an executor's ledger to notify organizations, track document scans, deadlines, and probate to-dos after a death.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-DISRUPTION-16-30.md",
+        "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md"
+      ],
+      "resurrection_trigger": "Funeral-home or estate-attorney B2B distribution with a recurring channel; a state digital-death law.",
+      "route": "/ideas/executor-death-admin-ledger",
+      "status": "passed_market",
+      "tags": [
+        "bereavement",
+        "admin",
+        "life-event",
+        "documents"
+      ]
+    },
+    {
+      "aliases": [
+        "Staff License Tracker"
+      ],
+      "decision_reason": "Certemy provides the exact feature set; the spreadsheet crowd has low audit risk; boards and CE Broker own the data and already email renewals (native substitute; novelty ~12).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-25-30",
+        "round-12-novelty-lifeevent-hamm"
+      ],
+      "hackathon_fit": "low",
+      "id": "credential-wall-small-employers",
+      "name": "Credential Wall for Small Employers",
+      "one_liner": "A shared staff-license tracker with scheduled official-lookup re-checks and audit-ready exports for small employers.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-25-30.md",
+        "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md"
+      ],
+      "resurrection_trigger": "A regulated-industry shift forces small employers to audit; licensing boards open sanctioned APIs.",
+      "route": "/ideas/credential-wall-small-employers",
+      "status": "passed_market",
+      "tags": [
+        "licensing",
+        "compliance",
+        "b2b",
+        "employers"
+      ]
+    },
+    {
+      "aliases": [
+        "License Status Re-Check"
+      ],
+      "decision_reason": "Nursys e-Notify is free and official for nurses; board lookups are fragmented and captcha'd (no sanctioned API); a 2026 wave of 0-rating tracker apps shows no individual willingness to pay (novelty ~5-35).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-25-30",
+        "round-12-novelty-lifeevent-hamm"
+      ],
+      "hackathon_fit": "low",
+      "id": "license-renewal-watch",
+      "name": "License Renewal Watch",
+      "one_liner": "Photo a professional license; the app re-checks the board's public lookup and alerts on status drops or renewal windows.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-25-30.md",
+        "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md"
+      ],
+      "resurrection_trigger": "Multi-state contractors with no board email coverage prove willingness to pay; a sanctioned board API.",
+      "route": "/ideas/license-renewal-watch",
+      "status": "passed_market",
+      "tags": [
+        "licensing",
+        "renewals",
+        "compliance"
+      ]
+    },
+    {
+      "aliases": [
+        "Appointment Slot Watcher"
+      ],
+      "decision_reason": "DMV NC Appointment (2021), Visa Appointment Alerts (2026), and ~15 OSS bots; no dominant multi-agency product but the job is trivial to clone; low frequency, one-shot value (novelty ~20).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-novelty-worker-money-travel",
+        "round-12-tech-capabilities",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "dmv-passport-slot-alerter",
+      "name": "DMV-Passport Slot Alerter",
+      "one_liner": "Watch a DMV or passport-portal appointment calendar and push when a slot opens.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+        "docs/ROUND-12-TECH-CAPABILITIES.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "A high-stakes portal (e.g., visa) with an official API and proof users will pay for priority slots.",
+      "route": "/ideas/dmv-passport-slot-alerter",
+      "status": "passed_market",
+      "tags": [
+        "appointments",
+        "notifications",
+        "dmv",
+        "slots"
+      ]
+    },
+    {
+      "aliases": [
+        "Disruption Evidence Pack"
+      ],
+      "decision_reason": "FlightRights (2026), RefundMe AI, and AirHelp occupy the entitlement/claims layer; airlines auto-rebook and own the truth (host-owns-correction); disruption is episodic (retention; novelty ~30).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-13-18",
+        "round-12-novelty-worker-money-travel"
+      ],
+      "hackathon_fit": "low",
+      "id": "traveler-incident-workspace",
+      "name": "Traveler Incident Workspace",
+      "one_liner": "A traveler's screenshot-append evidence pack with a receipt trail, family status page, and entitlement reference during a travel disruption.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-13-18.md",
+        "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md"
+      ],
+      "resurrection_trigger": "A regulation (e.g., a US EU-style passenger-rights rule) creates a claims window with a consumer payer; a sanctioned airline status API.",
+      "route": "/ideas/traveler-incident-workspace",
+      "status": "passed_market",
+      "tags": [
+        "travel",
+        "disruption",
+        "evidence",
+        "claims"
+      ]
+    },
+    {
+      "aliases": [
+        "Accessibility Score"
+      ],
+      "decision_reason": "Liability magnet - AccessiBe was fined $1M by the FTC and UserWay was sued; host-audits-own-score makes the rating defensible; monetization is specialist-side and not a 6-week consumer app (novelty ~40 but hostile).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-13-18",
+        "round-12-novelty-lifeevent-hamm",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "accessibility-report-card",
+      "name": "Accessibility Report Card",
+      "one_liner": "Turn a professional accessibility audit into a shareable consumer-facing score for a business.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-13-18.md",
+        "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "A standards body owns the score (e.g., W3C), removing liability; a specialist-pays distribution channel.",
+      "route": "/ideas/accessibility-report-card",
+      "status": "passed_scope",
+      "tags": [
+        "accessibility",
+        "audit",
+        "score",
+        "liability"
+      ]
+    },
+    {
+      "aliases": [
+        "Merchant Cancel UX"
+      ],
+      "decision_reason": "Stripe Billing Customer Portal, Recurly, and Chargebee already own the cancel UX; the FTC click-to-cancel rule was vacated (Jul 2025), removing the regulatory tailwind; selling to merchants in 6 weeks is slow (novelty ~30).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-19-24",
+        "round-12-novelty-trade-returns",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "subscription-easy-cancel-intake",
+      "name": "Easy-Cancel Subscription Intake",
+      "one_liner": "Compliant sign-up for small subscription businesses with pre-wired easy cancel to reduce chargebacks.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-19-24.md",
+        "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "The revived click-to-cancel rule creates a compliance-payer; merchants prove they buy standalone cancel UX.",
+      "route": "/ideas/subscription-easy-cancel-intake",
+      "status": "passed_market",
+      "tags": [
+        "subscriptions",
+        "cancellation",
+        "b2b",
+        "chargebacks"
+      ]
+    },
+    {
+      "aliases": [
+        "Silent Quote Recovery"
+      ],
+      "decision_reason": "Two-party cold start (pros must adopt); commodity CRM/reminder surface; no evidence pros will pay for follow-up automation (contractor no-show and silent quotes are a strong consumer pain, but the fixer is the pro, not the app).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-01-06"
+      ],
+      "hackathon_fit": "low",
+      "id": "quote-follow-up-nudger",
+      "name": "Quote Follow-Up Nudger",
+      "one_liner": "Tracks a pro's quotes that went silent and nudges the prospect or the pro before the job is lost.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-01-06.md"
+      ],
+      "resurrection_trigger": "A distribution channel where pros already aggregate (marketplace) and evidence they pay for follow-up.",
+      "route": "/ideas/quote-follow-up-nudger",
+      "status": "passed_market",
+      "tags": [
+        "quotes",
+        "field-service",
+        "follow-up"
+      ]
+    },
+    {
+      "aliases": [
+        "Yield-Management for Local Listings"
+      ],
+      "decision_reason": "Most novel mechanic found this round (novelty ~80) but structurally hostile: no sanctioned marketplace API, ToS bans automation, Meta's native seller tooling, and 7-day listing cycles.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-cross-domain-transfers",
+        "round-12-fg-19-24",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "local-marketplace-reprice",
+      "name": "Local Marketplace Auto-Reprice",
+      "one_liner": "Airline-yield-style auto-reprice-to-deadline for local marketplace listings (Facebook/Craigslist).",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-CROSS-DOMAIN-TRANSFERS.md",
+        "docs/ROUND-12-FG-19-24.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "A sanctioned marketplace API or a marketplace that permits repricing; evidence sellers pay.",
+      "route": "/ideas/local-marketplace-reprice",
+      "status": "passed_scope",
+      "tags": [
+        "resale",
+        "marketplaces",
+        "pricing",
+        "automation"
+      ]
+    },
+    {
+      "aliases": [
+        "Denial-Appeal Evidence Kit"
+      ],
+      "decision_reason": "No direct product found (novelty ~60) but demand is thin: denials are usually coverage exclusions; claims are low-stakes and one-time; the warranty company owns the decision (host-owns-correction).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-fg-01-06",
+        "round-12-novelty-lifeevent-hamm"
+      ],
+      "hackathon_fit": "low",
+      "id": "home-warranty-claim-forensics",
+      "name": "Home Warranty Claim Forensics",
+      "one_liner": "Guided photo and timebox capture during a home breakdown plus a checklist of what the denial letter will demand.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-FG-01-06.md",
+        "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md"
+      ],
+      "resurrection_trigger": "Evidence warranty holders repeatedly appeal and pay for evidence; a warranty company partners.",
+      "route": "/ideas/home-warranty-claim-forensics",
+      "status": "passed_scope",
+      "tags": [
+        "warranty",
+        "home",
+        "claims",
+        "evidence"
+      ]
+    },
+    {
+      "aliases": [
+        "Commute Hazard Digest"
+      ],
+      "decision_reason": "Navigation apps (Google Maps/Waze) own real-time routing; reformatted alerts are a content play with no payer and native substitution.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-cross-domain-transfers",
+        "round-12-pain-map",
+        "round-12-disruption-1-15"
+      ],
+      "hackathon_fit": "low",
+      "id": "notam-commute-digest",
+      "name": "NOTAM-Style Commute Digest",
+      "one_liner": "Reformat dated road-closure and hazard bulletins into a daily commute-relevant digest.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-CROSS-DOMAIN-TRANSFERS.md",
+        "docs/ROUND-12-PAIN-MAP.md",
+        "docs/ROUND-12-DISRUPTION-1-15.md"
+      ],
+      "resurrection_trigger": "A government feed that navigation apps do not consume (school closures, parade routes) with an engaged audience.",
+      "route": "/ideas/notam-commute-digest",
+      "status": "passed_market",
+      "tags": [
+        "commute",
+        "notifications",
+        "content"
+      ]
+    },
+    {
+      "aliases": [
+        "Deferred Repair Log"
+      ],
+      "decision_reason": "Interesting cross-domain mechanism (from aviation minimum-equipment-list practice) but low urgency for consumers and no clear payer; could pair with a repair product as a module.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12",
+        "round-12-cross-domain-transfers"
+      ],
+      "hackathon_fit": "low",
+      "id": "aviation-mel-deferred-repairs",
+      "name": "Aviation-MEL Deferred Repairs",
+      "one_liner": "Aviation-style 'broken but tolerated with a hard deadline' log for deferred home and car repairs.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+        "docs/ROUND-12-CROSS-DOMAIN-TRANSFERS.md"
+      ],
+      "resurrection_trigger": "A repair-verification product needs a deferred-items module.",
+      "route": "/ideas/aviation-mel-deferred-repairs",
+      "status": "parked",
+      "tags": [
+        "repair",
+        "deferred",
+        "home",
+        "automotive",
+        "cross-domain"
+      ]
+    },
+    {
+      "aliases": [
+        "Freight Photo-Class for Pro-Shippers"
+      ],
+      "decision_reason": "Round 12 mechanism-transplant candidate: freight misclassification and DIM-weight surprises eat margin for businesses that ship multiple items weekly (auction houses, estate liquidators, furniture dealers). Unlike the parked reseller-focused ShipKit, this targets a business payer with weekly volume who owns the shipping step. Kept raw: the competitor check is incomplete (search engines bot-walled mid-pass, so the cell is 'unverified-occupied' not 'verified-empty'), and the mechanic is composed of existing parts (uShip/LTL rails, camera measurement).",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12-build-out",
+        "round-12-mechanism-map",
+        "research-round-12-starting-state"
+      ],
+      "hackathon_fit": "medium",
+      "id": "freight-line-pro",
+      "name": "Freight-Line Pro",
+      "one_liner": "Camera measurement to freight class to live quote to claim-proof packaging, built as a weekly-volume margin tool for auction houses, estate liquidators, and furniture dealers.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+        "docs/ROUND-12-MECHANISM-MAP.md",
+        "docs/RESEARCH-ROUND-12-STARTING-STATE.md"
+      ],
+      "resurrection_trigger": "Five auction/estate-liquidation businesses prepay after a 20-shipment study shows measurable misclassification recoveries; a verified competitor sweep finds the phone-native photo-to-class-to-quote-to-claim cell open.",
+      "route": "/ideas/freight-line-pro",
+      "status": "raw",
+      "tags": [
+        "resale",
+        "shipping",
+        "freight",
+        "measurement",
+        "b2b",
+        "mechanism-transplant"
+      ]
+    },
+    {
+      "aliases": [
+        "What Happens Next Tracker",
+        "Personal Process State"
+      ],
+      "decision_reason": "FALSIFIED in Round 12 despite the strongest pain convergence of Round 11 (7 independent research paths on 'what happens next'). The literal cell (consumer-owned, multi-provider, user-instrumented) is empty for economic reasons, not oversight: consumers pay only for actual provider status (Lawfully, 6M+ cases, proves this), episodic processes kill retention, and the shareable status-page mechanism is already commoditized from the business side at the price floor (TrueStatus, BuildStatus $15/mo, SiteUpdate, Jobber/Buildertrend). The contractor-side variant is a 2025-26 growth wave, not an open wedge.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12-build-out",
+        "round-12-process-tracker",
+        "research-round-12-starting-state"
+      ],
+      "hackathon_fit": "low",
+      "id": "process-tracker-falsified",
+      "name": "User-Instrumentable Process Tracker",
+      "one_liner": "A user logs their own steps, documents, deadlines, and evidence across any multi-provider process; the app answers 'what happens next' from the user's own inputs plus calendar math, never the provider's state.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+        "docs/ROUND-12-PROCESS-TRACKER.md",
+        "docs/RESEARCH-ROUND-12-STARTING-STATE.md"
+      ],
+      "resurrection_trigger": "Evidence consumers pay for their OWN process record (not just actual status); a single-process vertical with a business payer that the TrueStatus/BuildStatus wave does not cover; or a state-change stream with a sanctioned API.",
+      "route": "/ideas/process-tracker-falsified",
+      "status": "passed_market",
+      "tags": [
+        "status",
+        "tracking",
+        "process",
+        "false-certainty",
+        "falsified"
+      ]
+    },
+    {
+      "aliases": [
+        "Verified-Done Shop Tool",
+        "Host-Buys-Transparency"
+      ],
+      "decision_reason": "Round 12 Weirdness-Round survivor and the round's most interesting mechanism (host-buys-transparency inversion). PARTIAL to CompanyCam (28,888 ratings) and Timemark 'Photo Proof for Work' (13,811 ratings); the standalone solo-shop customer-facing sign-off wedge is open but the buyer already pays for field-service suites, and the mechanism is cheap to copy.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12-build-out",
+        "round-12-weirdness-round",
+        "research-round-12-starting-state"
+      ],
+      "hackathon_fit": "low",
+      "id": "done-needs-confirmation",
+      "name": "Done-Needs-Confirmation",
+      "one_liner": "Sell the repair shop a verified-done transparency tool: tech photos plus customer sign-off that kills 'is it done?' calls and disputes — the host becomes the customer, escaping host-owns-correction.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+        "docs/ROUND-12-WEIRDNESS-ROUND.md",
+        "docs/RESEARCH-ROUND-12-STARTING-STATE.md"
+      ],
+      "resurrection_trigger": "Evidence solo shops without a suite pay specifically for the customer-facing sign-off and verified-done proof; a shop-side channel with weekly use.",
+      "route": "/ideas/done-needs-confirmation",
+      "status": "passed_market",
+      "tags": [
+        "repair",
+        "verification",
+        "transparency",
+        "b2b",
+        "mechanism-transplant"
+      ]
+    },
+    {
+      "aliases": [
+        "Installer Claim File"
+      ],
+      "decision_reason": "Round 12 Weirdness-Round survivor: inverts the home-warranty evidence problem (FG01) by making the contractor the buyer of a portable claim file. Host-side absorption risk is real (Liberty Home Guard and AHS capture serial/model photos in their own apps); the vendor-neutral portable claim file is open but the buyer is fragmented and the incumbent warranty companies are the host.",
+      "dossierSlugs": [
+        "idea-mining-loop-2026-08-10-round12-build-out",
+        "round-12-weirdness-round",
+        "research-round-12-starting-state"
+      ],
+      "hackathon_fit": "low",
+      "id": "claim-ready-install-record",
+      "name": "Claim-Ready Install Record",
+      "one_liner": "Sell contractors a claim-ready install record (serial, date, photos, sign-off) built at origin so home-warranty 'no records' denials physically cannot be made.",
+      "research": [
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+        "docs/ROUND-12-WEIRDNESS-ROUND.md",
+        "docs/RESEARCH-ROUND-12-STARTING-STATE.md"
+      ],
+      "resurrection_trigger": "A home-warranty or manufacturer partner mandates the record (B2B channel); evidence contractors pay for a portable claim file that outlives their customer relationship.",
+      "route": "/ideas/claim-ready-install-record",
+      "status": "passed_scope",
+      "tags": [
+        "warranty",
+        "home",
+        "claims",
+        "b2b",
+        "installation"
+      ]
     }
   ],
-  "sourceHash": "sha256:6301c875efb26f039b58ce52b8238f3fcd94268a714de7e620ce1f0744c91deb",
+  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

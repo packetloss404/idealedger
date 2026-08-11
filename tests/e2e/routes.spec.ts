@@ -51,8 +51,8 @@ test('presents the whole database as the durable home', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1, name: 'The idea database' })).toBeVisible();
   await expect(page.getByText('Conversation creates the work. The ledger keeps the memory.')).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'Every decision stays visible' })).toBeVisible();
-  await expect(page.getByRole('link', { name: /316 All ideas/ })).toBeVisible();
-  await expect(page.getByRole('link', { name: /281 Passed decisions/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /348 All ideas/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /305 Passed decisions/ })).toBeVisible();
   await expect(page.getByRole('heading', {
     level: 2,
     name: 'Round 11 ended with an experiment, not a build',
@@ -93,11 +93,11 @@ test('turns focus-group synthesis into a method-labeled dashboard', async ({ pag
     name: 'Every group, broken out and addressable',
   })).toBeVisible();
   await expect(page.getByText('Recruited studies').locator('..').getByText('0')).toBeVisible();
-  await expect(page.getByText('Simulated personas', { exact: true })).toHaveCount(32);
+  await expect(page.getByText('Simulated personas', { exact: true })).toHaveCount(33);
   await expect(page.getByRole('link', { name: 'XPRIZE market and persona synthesis' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Loop social-product synthetic panel' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Open study room' })).toHaveCount(32);
-  await expect(page.getByRole('link', { name: 'Source dossier' })).toHaveCount(32);
+  await expect(page.getByRole('link', { name: 'Open study room' })).toHaveCount(33);
+  await expect(page.getByRole('link', { name: 'Source dossier' })).toHaveCount(33);
 });
 
 test('filters the generated focus-group dashboard and opens an addressable study room', async ({ page }) => {
@@ -105,12 +105,12 @@ test('filters the generated focus-group dashboard and opens an addressable study
   await page.getByRole('searchbox', { name: 'Search studies and segments' }).fill('single parents');
 
   await expect(page).toHaveURL(/q=single\+parents/);
-  await expect(page.getByRole('status')).toHaveText('Showing 1 of 32 studies');
+  await expect(page.getByRole('status')).toHaveText('Showing 1 of 33 studies');
   await expect(page.getByRole('link', { name: 'XPRIZE market and persona synthesis' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Loop social-product synthetic panel' })).toHaveCount(0);
 
   await page.reload();
-  await expect(page.getByRole('status')).toHaveText('Showing 1 of 32 studies');
+  await expect(page.getByRole('status')).toHaveText('Showing 1 of 33 studies');
   await page.getByRole('link', { name: 'Open study room' }).click();
   await expect(page).toHaveURL(/focus-groups\/xprize-persona-synthesis/);
   await expect(page.getByRole('heading', { level: 1, name: 'XPRIZE market and persona synthesis' })).toBeVisible();

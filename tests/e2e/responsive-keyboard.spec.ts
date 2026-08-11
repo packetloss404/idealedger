@@ -103,7 +103,7 @@ test('keeps the focus-group room usable in the four-item mobile navigation', asy
     'page',
   );
   await expect(page.getByRole('heading', { level: 2, name: 'Every group, broken out and addressable' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Open study room' })).toHaveCount(32);
+  await expect(page.getByRole('link', { name: 'Open study room' })).toHaveCount(33);
   await expect.poll(() =>
     page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth),
   ).toBe(true);

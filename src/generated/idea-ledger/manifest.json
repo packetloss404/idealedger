@@ -1,10 +1,10 @@
 {
   "counts": {
-    "dossiers": 26,
-    "focusGroupStudies": 32,
-    "ideas": 316,
-    "researchEdges": 377,
-    "searchDocuments": 342
+    "dossiers": 49,
+    "focusGroupStudies": 33,
+    "ideas": 348,
+    "researchEdges": 500,
+    "searchDocuments": 397
   },
   "generatorVersion": 4,
   "sourceFiles": [
@@ -89,6 +89,16 @@
       "sha256": "sha256:bb1a07ab18e73657d48fce722d0db497f20c4be4b1e09294b56d4c32162f2ae6"
     },
     {
+      "bytes": 8614,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+      "sha256": "sha256:48f6ac049c367578bc4b5d465a72e5829871258720384cd5eb3d406e152ca420"
+    },
+    {
+      "bytes": 23956,
+      "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+      "sha256": "sha256:e4ffe24927cc40f073872d59c096858e676e1ef3108d40b72cd5f2ebf61a1ffd"
+    },
+    {
       "bytes": 18239,
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
       "sha256": "sha256:db013889f324ed48f8935f0889c8412c4199984564624bc0f3d1b5c36e37855a"
@@ -107,6 +117,111 @@
       "bytes": 8569,
       "path": "docs/RESEARCH-ROUND-11-STARTING-STATE.md",
       "sha256": "sha256:05429e6d1288e9f65a5adfd0be1621143b16b494138fa7d3a9c40df2bf97a159"
+    },
+    {
+      "bytes": 3461,
+      "path": "docs/RESEARCH-ROUND-12-STARTING-STATE.md",
+      "sha256": "sha256:8dbc4642a8b016213e8022b6545addf67fdcaa086c9aad2f5e90a40366ebe9dc"
+    },
+    {
+      "bytes": 31995,
+      "path": "docs/ROUND-12-CROSS-DOMAIN-TRANSFERS.md",
+      "sha256": "sha256:dfb58d415ca39688522ff06d40fb129f11af12b8490620aaa89a443dfdcb49a6"
+    },
+    {
+      "bytes": 22789,
+      "path": "docs/ROUND-12-DISRUPTION-1-15.md",
+      "sha256": "sha256:f5ceda86c8cf90be37eddf37e4855722464a42ebd787a053c79892d63caad8c9"
+    },
+    {
+      "bytes": 21437,
+      "path": "docs/ROUND-12-DISRUPTION-16-30.md",
+      "sha256": "sha256:a943070bbb2dc52c0fbf18fd705ae8f25f38759ac34af8f405adbff5e89c5f97"
+    },
+    {
+      "bytes": 50331,
+      "path": "docs/ROUND-12-FG-01-06.md",
+      "sha256": "sha256:d1220cdb3dff6ae8dd2ea09cdab68b10838b64a9ba54af7f143aabe2315e0137"
+    },
+    {
+      "bytes": 48646,
+      "path": "docs/ROUND-12-FG-07-12.md",
+      "sha256": "sha256:1453d44686d93451655920513fceeb2406bf125be443f5c2a7dc2afe6ef09d1f"
+    },
+    {
+      "bytes": 56829,
+      "path": "docs/ROUND-12-FG-13-18.md",
+      "sha256": "sha256:55ea6364cf93097679c42001d7845815cc68d8cfd6911e859610a45b86be3200"
+    },
+    {
+      "bytes": 69178,
+      "path": "docs/ROUND-12-FG-19-24.md",
+      "sha256": "sha256:dcc2d386039ee8540484f0f8a667b45de251690d05f59077342c6df7979b3530"
+    },
+    {
+      "bytes": 51763,
+      "path": "docs/ROUND-12-FG-25-30.md",
+      "sha256": "sha256:9bb694d4130cef5ced456bc8fa04e3c73b676c138dd3b6dfa5063b6cad6fa2a6"
+    },
+    {
+      "bytes": 18329,
+      "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
+      "sha256": "sha256:1fd3bece3805b34aba442a1dd5e9b0822275aa6e58404d2e931442696816eee8"
+    },
+    {
+      "bytes": 28365,
+      "path": "docs/ROUND-12-MECHANISM-MAP.md",
+      "sha256": "sha256:9c6acef27a4e1b31019a70a7022f5ca7ffd74067b10e5e83b4f59b0331e9f343"
+    },
+    {
+      "bytes": 22000,
+      "path": "docs/ROUND-12-NOVELTY-CREATOR-REPAIR.md",
+      "sha256": "sha256:ebb3b01c2c069e0d394ebc863ad4fef39b5fd59d23f1ae7b8a299b76c682ba9e"
+    },
+    {
+      "bytes": 20250,
+      "path": "docs/ROUND-12-NOVELTY-LIFEEVENT-HAMM.md",
+      "sha256": "sha256:c25308de3a20ba3af48be7c79a5eb6b2fc326bc94440373fb2787dd3600debb0"
+    },
+    {
+      "bytes": 18938,
+      "path": "docs/ROUND-12-NOVELTY-TRADE-RETURNS.md",
+      "sha256": "sha256:ae84ffb23c66a5f97422f78ba2c28c2d3fff4f372ab6eac364b64887cf047d3c"
+    },
+    {
+      "bytes": 23721,
+      "path": "docs/ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md",
+      "sha256": "sha256:634f27384ca545b1db23e824cc8b37274f2825f5dc6312a2693923992118d85e"
+    },
+    {
+      "bytes": 43991,
+      "path": "docs/ROUND-12-PAIN-MAP.md",
+      "sha256": "sha256:c3a9f49d4d06bcf5d6770fc1db5e686075e189de1be46676568d4f324ec3573f"
+    },
+    {
+      "bytes": 26061,
+      "path": "docs/ROUND-12-PROCESS-TRACKER.md",
+      "sha256": "sha256:c699add9b882ab6e9f3dfc84e35cdbd84dc65b046f559eac8dfd40d8a66db175"
+    },
+    {
+      "bytes": 12255,
+      "path": "docs/ROUND-12-SNAPINVOICE-BUILD-SPEC.md",
+      "sha256": "sha256:88e216064bef2220a395f0175feb05a5c49cecbf4ea345beef3b67e344f6a68a"
+    },
+    {
+      "bytes": 30379,
+      "path": "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md",
+      "sha256": "sha256:db55d9a6b73c52931a943286e60163ff8faaf1eb567055d5446fb44e9955db80"
+    },
+    {
+      "bytes": 28944,
+      "path": "docs/ROUND-12-TECH-CAPABILITIES.md",
+      "sha256": "sha256:76d3eeda578b331eced202671edb05597da7100a21f106bd1d8d123f0405a7e3"
+    },
+    {
+      "bytes": 25429,
+      "path": "docs/ROUND-12-WEIRDNESS-ROUND.md",
+      "sha256": "sha256:9876d836b3347fe9966e1864239e13a57349e82d6147612a1907b1da330d546a"
     },
     {
       "bytes": 10803,
@@ -139,17 +254,17 @@
       "sha256": "sha256:ceff3700e3e600fe49889ab55c0278245468a0a207439dd16db890aeca8f330f"
     },
     {
-      "bytes": 162946,
+      "bytes": 170790,
       "path": "docs/focus-groups.json",
-      "sha256": "sha256:9e6d2fe724369b12bd348f2d7dfaf7ddd3f27401c24aecea60029c900e34f176"
+      "sha256": "sha256:f2afb683b55e9a8a98d26aacecb91f29c2a4992610fd0b1ec54dcdd6170d5abb"
     },
     {
-      "bytes": 286830,
+      "bytes": 320385,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:3baf9cb73458614cd5a711a289f2fef4f1dea9aaa69ccece92a6089f6d44fc3a"
+      "sha256": "sha256:ca4537204099aa29f260dcb0735f08bf82897c4bc0579244da71bb8a7e310de7"
     }
   ],
-  "sourceHash": "sha256:6301c875efb26f039b58ce52b8238f3fcd94268a714de7e620ce1f0744c91deb",
+  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492",
   "sourceSchemaVersion": 1,
-  "sourceUpdatedAt": "2026-08-10"
+  "sourceUpdatedAt": "2026-08-11"
 }

@@ -1,12 +1,12 @@
 {
   "counts": {
-    "linkedIdeas": 31,
+    "linkedIdeas": 55,
     "recruitedStudies": 0,
-    "segments": 163,
-    "simulatedStudies": 32,
-    "studies": 32
+    "segments": 169,
+    "simulatedStudies": 33,
+    "studies": 33
   },
-  "sourceHash": "sha256:6301c875efb26f039b58ce52b8238f3fcd94268a714de7e620ce1f0744c91deb",
+  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492",
   "studies": [
     {
       "anchor": null,
@@ -2114,6 +2114,138 @@
       ],
       "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for indie app developers (deep hamm lane).",
       "title": "Focus Group 30 — Indie app developers (deep HAMM lane)"
+    },
+    {
+      "anchor": null,
+      "conducted_at": "2026-08-10",
+      "dossier": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
+      "dossierRoute": "/research/idea-mining-loop-2026-08-10-round12",
+      "dossierSlug": "idea-mining-loop-2026-08-10-round12",
+      "id": "round12-mclovin-sweep",
+      "limitation": "Simulated personas only. No person was recruited, no statement is a participant quote, and no demand or endorsement was measured. The groups generated hypotheses and surfaced pain points; those were then validated against public evidence where retrievable, and the unverifiable items are explicitly flagged. App Store and Reddit URLs that could not be re-fetched are cited conservatively.",
+      "linkedIdeaIds": [
+        "accessibility-report-card",
+        "credential-wall-small-employers",
+        "deposit-recovery-packet",
+        "dmv-passport-slot-alerter",
+        "executor-death-admin-ledger",
+        "gig-1099-deposit-reconciliation",
+        "handoff-evidence-camera",
+        "home-warranty-claim-forensics",
+        "license-renewal-watch",
+        "local-marketplace-reprice",
+        "move-in-condition-report",
+        "no-account-client-galleries",
+        "notam-commute-digest",
+        "owner-owned-repair-record",
+        "paystub-schedule-diff",
+        "photo-invoice-micro-trades",
+        "photo-voice-instant-quote",
+        "proofing-catalog-seam",
+        "quote-follow-up-nudger",
+        "repair-shop-status-timeline",
+        "return-intake-evidence-sellers",
+        "sell-to-ship-large-items",
+        "subscription-easy-cancel-intake",
+        "traveler-incident-workspace"
+      ],
+      "method": "simulated_persona",
+      "next_step": "For SnapInvoice: collect ~100 real job photos/slips from 10 micro field-service ops, then 10 prepays. For ReturnShield: 20 resellers, evidence-pack outcomes over 30 days, 4 prepays. Re-check the Shipaton grand-prize treatment of RevenueCat Ads and web-purchase revenue before any revenue targeting.",
+      "outcomes": [
+        {
+          "disposition": "advanced",
+          "idea_ids": [
+            "photo-invoice-micro-trades",
+            "return-intake-evidence-sellers"
+          ],
+          "label": "Advance to paid validation",
+          "summary": "SnapInvoice (photo-to-invoice un-invoiced-work detector for micro trades) and ReturnShield (return-intake evidence for resellers) are the two VALIDATE-FIRST finalists: business/prosumer payers, weekly rituals, phone-native capture, no false-certainty claim, and a cheap prepay test before any build."
+        },
+        {
+          "disposition": "bounded",
+          "idea_ids": [
+            "gig-1099-deposit-reconciliation",
+            "sell-to-ship-large-items"
+          ],
+          "label": "Bounded holds",
+          "summary": "NetCheck (1099-K gross-vs-deposits reconciliation, highest novelty at ~70) is held for tax-season timing and weak phone advantage; ShipKit (sell-to-ship for large items) is held pending proof that the composed bundle retains."
+        },
+        {
+          "disposition": "struck",
+          "idea_ids": [
+            "photo-voice-instant-quote",
+            "proofing-catalog-seam",
+            "no-account-client-galleries",
+            "owner-owned-repair-record",
+            "repair-shop-status-timeline",
+            "handoff-evidence-camera",
+            "paystub-schedule-diff",
+            "move-in-condition-report",
+            "deposit-recovery-packet",
+            "executor-death-admin-ledger",
+            "credential-wall-small-employers",
+            "license-renewal-watch",
+            "dmv-passport-slot-alerter",
+            "traveler-incident-workspace",
+            "subscription-easy-cancel-intake",
+            "quote-follow-up-nudger",
+            "notam-commute-digest",
+            "accessibility-report-card",
+            "local-marketplace-reprice",
+            "home-warranty-claim-forensics"
+          ],
+          "label": "Struck as occupied or uneconomic",
+          "summary": "The novelty gauntlet found direct 2025-2026 competitors for photo-to-quote (SimplyWise/FieldQuote/Billio), proofing seams (Gallerina/Picflow), owner-owned car records (Odobook), repair status timelines (TrueStatus), paystub diffs (WageWatch), move-in reports (DepositProof/MoveProof), deposit packets (DepositGenie), executor ledgers (Empathy/EstateExec), credential walls (Certemy), license watch (Nursys), and home inventory (NAIC)."
+        }
+      ],
+      "route": "/focus-groups/round12-mclovin-sweep",
+      "sample_label": "Thirty simulated groups: home repair, automotive, insurance admin, renting/deposits, moving, household admin, parents/family logistics, school admin, college/early adulthood, shift workers, gig workers, freelancers, local services, IT on-call, caregiving, accessibility, pets, travel disruption, RV/outdoor, commuters, subscriptions, purchases/returns/warranties, secondhand, hobbyists/collectors, creators, gaming, civic, licensing, digital security, indie developers",
+      "segments": [
+        {
+          "id": "solo-trades-owner",
+          "label": "Solo tradesperson / micro field-service owner",
+          "objection": "Paid suites are too expensive and complex; many 2-3 tech ops say calls/texts/paper work fine at their size.",
+          "primary_job": "Stop losing money when paperwork or a whiteboard record disappears between the job site and the books.",
+          "signal": "Money-hook wins: an un-invoiced-work detector and week-end auto-invoice beat scheduling and dispatch features."
+        },
+        {
+          "id": "hourly-worker",
+          "label": "Hourly and gig worker",
+          "objection": "Employer/platform owns the fix; worker-side willingness to pay is weak; a direct competitor (WageWatch) launched 2025.",
+          "primary_job": "Protect pay and schedule truth when the employer or platform holds the only record.",
+          "signal": "Workers already photograph posted schedules, clock screens, and paystubs; a diff against hours worked is the natural tool."
+        },
+        {
+          "id": "creator-photographer",
+          "label": "Photographer and studio",
+          "objection": "Gallerina and Picflow already occupy the exact seams; Adobe could ship a native return-path.",
+          "primary_job": "Close the loop between client gallery selections and the editing catalog without re-keying.",
+          "signal": "Business payer with 8 distinct sub-pains; already pays for gallery software."
+        },
+        {
+          "id": "online-reseller",
+          "label": "Online reseller / small seller",
+          "objection": "Marketplaces own adjudication; evidence is a defensive Hail Mary; seller willingness to pay unproven.",
+          "primary_job": "Win return and not-as-described disputes without losing refunds to missing evidence.",
+          "signal": "Return fraud is $103B/yr; sellers already photograph returns defensively."
+        },
+        {
+          "id": "mechanic-distrusting-driver",
+          "label": "Driver who distrusts the repair estimate",
+          "objection": "CARFAX Car Care and Odobook already own the free/portable record; consumers will not pay for documentation.",
+          "primary_job": "Validate a diagnosis or quote and keep a portable, owner-owned repair record.",
+          "signal": "78% distrust mechanics; 83% already ask someone they know to check a recommendation."
+        },
+        {
+          "id": "indie-dev",
+          "label": "Indie app developer",
+          "objection": "Superwall/RevenueCat own the data and could ship the insight; phone surface is weak for a dev tool.",
+          "primary_job": "Acquire, convert, and retain users and monetize via RevenueCat.",
+          "signal": "Shipaton itself is a 15,202-person audience that pays for monetization tooling (HAMM dogfood)."
+        }
+      ],
+      "summary": "Thirty independent simulated focus groups mapped friction across consumer and business life, each with participants representing conflicting sides. Independently strong pains: mechanic distrust and the 83% second-opinion ritual; micro field-service revenue leaking through lost paper and whiteboards; hourly workers photo-proofing schedules and paystubs against silent changes and short-pay; creator proofing selections never returning to the catalog; deposit disputes without a neutral condition record; 63M US family caregivers policing medical logistics; and travel-disruption claims reconstructed from nothing. A parallel 30-question service-disruption hunt and a cross-domain-transfer and tech-capability scan converged on the same clusters. The round then novelty-tested 40 concepts and found the mobile-pain market saturated with 2025-2026 clones; the two surviving VALIDATE-FIRST candidates are a photo-to-invoice un-invoiced-work detector for micro trades and a return-intake evidence pack for resellers.",
+      "title": "Round 11 MCLOVIN 30 focus-group sweep"
     }
   ],
   "updatedAt": "2026-08-10"
