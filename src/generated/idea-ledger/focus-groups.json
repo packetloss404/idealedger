@@ -6,7 +6,7 @@
     "simulatedStudies": 33,
     "studies": 33
   },
-  "sourceHash": "sha256:2dc7e706d61d6b99c8ad1ab8778d8d53fab3f50866e2513e2006f48b77a1d8e8",
+  "sourceHash": "sha256:4508d25b7be02f5978d39b3f9eb6ea96fd84b09a5f5c49ee3c0c5cc03816f11b",
   "studies": [
     {
       "anchor": null,
@@ -2158,8 +2158,8 @@
             "photo-invoice-micro-trades",
             "return-intake-evidence-sellers"
           ],
-          "label": "Advance to paid validation",
-          "summary": "SnapInvoice (photo-to-invoice un-invoiced-work detector for micro trades) and ReturnShield (return-intake evidence for resellers) are the two VALIDATE-FIRST finalists: business/prosumer payers, weekly rituals, phone-native capture, no false-certainty claim, and a cheap prepay test before any build."
+          "label": "Initial advance; SnapInvoice later passed",
+          "summary": "SnapInvoice and ReturnShield initially advanced as VALIDATE-FIRST finalists. SnapInvoice later passed_market because outreach could not recruit even three eligible operators, failing acquisition before deposits or technical tests. ReturnShield remains validating but unfunded."
         },
         {
           "disposition": "bounded",
@@ -2244,7 +2244,7 @@
           "signal": "Shipaton itself is a 15,202-person audience that pays for monetization tooling (HAMM dogfood)."
         }
       ],
-      "summary": "Thirty independent simulated focus groups mapped friction across consumer and business life, each with participants representing conflicting sides. Independently strong pains: mechanic distrust and the 83% second-opinion ritual; micro field-service revenue leaking through lost paper and whiteboards; hourly workers photo-proofing schedules and paystubs against silent changes and short-pay; creator proofing selections never returning to the catalog; deposit disputes without a neutral condition record; 63M US family caregivers policing medical logistics; and travel-disruption claims reconstructed from nothing. A parallel 30-question service-disruption hunt and a cross-domain-transfer and tech-capability scan converged on the same clusters. The round then novelty-tested 40 concepts and found the mobile-pain market saturated with 2025-2026 clones; the two surviving VALIDATE-FIRST candidates are a photo-to-invoice un-invoiced-work detector for micro trades and a return-intake evidence pack for resellers.",
+      "summary": "Thirty independent simulated focus groups mapped friction across consumer and business life, each with participants representing conflicting sides. Independently strong pains: mechanic distrust and the 83% second-opinion ritual; micro field-service revenue leaking through lost paper and whiteboards; hourly workers photo-proofing schedules and paystubs against silent changes and short-pay; creator proofing selections never returning to the catalog; deposit disputes without a neutral condition record; 63M US family caregivers policing medical logistics; and travel-disruption claims reconstructed from nothing. A parallel 30-question service-disruption hunt and a cross-domain-transfer and tech-capability scan converged on the same clusters. The round initially advanced a photo-to-invoice detector and a reseller return-evidence pack; SnapInvoice later passed when outreach could not recruit even three eligible target operators, while ReturnShield remains an unfunded validation record.",
       "title": "Round 12 MCLOVIN 30 focus-group sweep"
     }
   ],

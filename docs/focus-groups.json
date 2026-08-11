@@ -1927,7 +1927,7 @@
       "conducted_at": "2026-08-10",
       "method": "simulated_persona",
       "sample_label": "Thirty simulated groups: home repair, automotive, insurance admin, renting/deposits, moving, household admin, parents/family logistics, school admin, college/early adulthood, shift workers, gig workers, freelancers, local services, IT on-call, caregiving, accessibility, pets, travel disruption, RV/outdoor, commuters, subscriptions, purchases/returns/warranties, secondhand, hobbyists/collectors, creators, gaming, civic, licensing, digital security, indie developers",
-      "summary": "Thirty independent simulated focus groups mapped friction across consumer and business life, each with participants representing conflicting sides. Independently strong pains: mechanic distrust and the 83% second-opinion ritual; micro field-service revenue leaking through lost paper and whiteboards; hourly workers photo-proofing schedules and paystubs against silent changes and short-pay; creator proofing selections never returning to the catalog; deposit disputes without a neutral condition record; 63M US family caregivers policing medical logistics; and travel-disruption claims reconstructed from nothing. A parallel 30-question service-disruption hunt and a cross-domain-transfer and tech-capability scan converged on the same clusters. The round then novelty-tested 40 concepts and found the mobile-pain market saturated with 2025-2026 clones; the two surviving VALIDATE-FIRST candidates are a photo-to-invoice un-invoiced-work detector for micro trades and a return-intake evidence pack for resellers.",
+      "summary": "Thirty independent simulated focus groups mapped friction across consumer and business life, each with participants representing conflicting sides. Independently strong pains: mechanic distrust and the 83% second-opinion ritual; micro field-service revenue leaking through lost paper and whiteboards; hourly workers photo-proofing schedules and paystubs against silent changes and short-pay; creator proofing selections never returning to the catalog; deposit disputes without a neutral condition record; 63M US family caregivers policing medical logistics; and travel-disruption claims reconstructed from nothing. A parallel 30-question service-disruption hunt and a cross-domain-transfer and tech-capability scan converged on the same clusters. The round initially advanced a photo-to-invoice detector and a reseller return-evidence pack; SnapInvoice later passed when outreach could not recruit even three eligible target operators, while ReturnShield remains an unfunded validation record.",
       "limitation": "Simulated personas only. No person was recruited, no statement is a participant quote, and no demand or endorsement was measured. The groups generated hypotheses and surfaced pain points; those were then validated against public evidence where retrievable, and the unverifiable items are explicitly flagged. App Store and Reddit URLs that could not be re-fetched are cited conservatively.",
       "dossier": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
       "anchor": null,
@@ -1977,9 +1977,9 @@
       ],
       "outcomes": [
         {
-          "label": "Advance to paid validation",
+          "label": "Initial advance; SnapInvoice later passed",
           "disposition": "advanced",
-          "summary": "SnapInvoice (photo-to-invoice un-invoiced-work detector for micro trades) and ReturnShield (return-intake evidence for resellers) are the two VALIDATE-FIRST finalists: business/prosumer payers, weekly rituals, phone-native capture, no false-certainty claim, and a cheap prepay test before any build.",
+          "summary": "SnapInvoice and ReturnShield initially advanced as VALIDATE-FIRST finalists. SnapInvoice later passed_market because outreach could not recruit even three eligible operators, failing acquisition before deposits or technical tests. ReturnShield remains validating but unfunded.",
           "idea_ids": [
             "photo-invoice-micro-trades",
             "return-intake-evidence-sellers"

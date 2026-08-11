@@ -2,6 +2,10 @@
 
 Research date: 2026-08-11. Author: Competitor Hunter + Experiment Designer for SnapInvoice (Round-12 top candidate, score 76, VALIDATE FIRST).
 
+## Final decision — PASS (market/acquisition), 2026-08-11
+
+The acquisition gate failed before the planned experiment: outreach could not recruit even three eligible micro field-service operators. Without target access, the team cannot measure suite rejection, collect deposits or real fixtures, test repeated forwarding, or establish a credible low-cost distribution channel. SnapInvoice is therefore **passed_market** and should not be built. Reopen only with a concrete channel or partner able to supply ten eligible operators and four refundable deposits before technical work.
+
 ## Post-commit live competitor correction — 2026-08-11
 
 The original sweep found no exact standalone product for “forward the job photos or slips already on the phone, draft invoice lines, then keep the job visibly unbilled until an invoice is sent.” A same-day primary-source review found a much denser outcome-level market than the dossier originally conveyed:

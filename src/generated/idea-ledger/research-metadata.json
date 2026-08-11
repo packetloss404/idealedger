@@ -4502,7 +4502,7 @@
       ],
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
       "route": "/research/idea-mining-loop-2026-08-10-round12-build-out",
-      "sha256": "sha256:833651a1dec2d1ed91a71adf0be4afaf01b98a99e0011848e78f7c71621d38b8",
+      "sha256": "sha256:87a48919ff416e633ce13b43723a5809ba2c0e469c86c408e413881660ce7909",
       "slug": "idea-mining-loop-2026-08-10-round12-build-out",
       "title": "Round 12 Build-Out — From Research to Revenue — Shipaton 2026"
     },
@@ -4666,7 +4666,7 @@
       ],
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
       "route": "/research/idea-mining-loop-2026-08-10-round12",
-      "sha256": "sha256:0f0908560f85daec6ee31a05881239f1bffe9c7b85003fc23fe19c6b5a2d102f",
+      "sha256": "sha256:3cd851c48e1e6027d706ba08e10b97962187ecfcafd5fa660060a868c6971a4d",
       "slug": "idea-mining-loop-2026-08-10-round12",
       "title": "Round 12 — MCLOVIN Protocol — RevenueCat Shipaton 2026 Research Marathon"
     },
@@ -8275,7 +8275,7 @@
       ],
       "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
       "route": "/research/round-12-finalist-dossiers",
-      "sha256": "sha256:6254f99b294dadc516c660e62e6a138194109d38a57617b878b7d2220a9a5bbe",
+      "sha256": "sha256:0a6d4d43afb5c2833e94700e4573d3095018febba57d2783cf0bbf8c34f3a726",
       "slug": "round-12-finalist-dossiers",
       "title": "Round 12 Finalist Dossiers — RevenueCat Shipaton 2026"
     },
@@ -9027,7 +9027,7 @@
       ],
       "path": "docs/ROUND-12-SNAPINVOICE-BUILD-SPEC.md",
       "route": "/research/round-12-snapinvoice-build-spec",
-      "sha256": "sha256:617d9e833363a3faffe7f72de7d0a9302a882fa60816ebced93ec571c9abe7e7",
+      "sha256": "sha256:7bc76ad436e3e47c393f3b62fffb7d02489bd79e2aec35cef45a4e16a2ded5eb",
       "slug": "round-12-snapinvoice-build-spec",
       "title": "SnapInvoice — Build-Ready Spec — Shipaton 2026 (Six-Week Plan)"
     },
@@ -9037,6 +9037,11 @@
           "anchor": "snapinvoice--round-12-harder-competitor-sweep--falsification-experiment-design",
           "depth": 1,
           "text": "SnapInvoice — Round 12 Harder Competitor Sweep + Falsification Experiment Design"
+        },
+        {
+          "anchor": "final-decision--pass-marketacquisition-2026-08-11",
+          "depth": 2,
+          "text": "Final decision — PASS (market/acquisition), 2026-08-11"
         },
         {
           "anchor": "post-commit-live-competitor-correction--2026-08-11",
@@ -9139,7 +9144,7 @@
       ],
       "path": "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md",
       "route": "/research/round-12-snapinvoice-falsification",
-      "sha256": "sha256:8107959235fcff8abcb803f4d9033b414f296f4f34c28066ecc180924ffdb91e",
+      "sha256": "sha256:e5a5b1930e6d71eaa0091d22e4155bbf3b99bc145ed28df4084d833167dd6813",
       "slug": "round-12-snapinvoice-falsification",
       "title": "SnapInvoice — Round 12 Harder Competitor Sweep + Falsification Experiment Design"
     },
@@ -10632,5 +10637,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:2dc7e706d61d6b99c8ad1ab8778d8d53fab3f50866e2513e2006f48b77a1d8e8"
+  "sourceHash": "sha256:4508d25b7be02f5978d39b3f9eb6ea96fd84b09a5f5c49ee3c0c5cc03816f11b"
 }

@@ -8290,7 +8290,7 @@
         "Photo Invoice Micro-Trades",
         "Unbilled Work Detector"
       ],
-      "decision_reason": "Survived full MCLOVIN round 12 as the strongest Shipaton candidate, but the post-commit live audit materially lowered novelty. SimplyWise combines photo-to-line-item estimates with invoicing, while BldrOS, PeakPro, PlanMyCrew, SodaDesk, and TidyShift market adjacent photo-backed billing or completed-but-unbilled detection. No exact standalone product was found for the remaining behavior wedge: forward existing job photos or slips without adopting a field-service suite, draft invoice lines, and flag the job until an invoice is sent. Business payer and weekly retention remain plausible. Not BUILD: first prove operators reject the suites but prepay for this narrower intake, then prove line-extraction accuracy and repeated forwarding behavior.",
+      "decision_reason": "Passed on 2026-08-11 before technical validation because the target-user acquisition gate failed: outreach could not produce even three eligible micro field-service operators. That blocks interviews, deposits, fixture collection, repeated-use testing, and any credible low-cost distribution path. The post-commit competitor audit had already lowered novelty to at most 40/100 because SimplyWise, BldrOS, PeakPro, PlanMyCrew, SodaDesk, and TidyShift serve adjacent photo-backed billing or completed-but-unbilled outcomes. Do not build without both target access and paid rejection of those suites.",
       "dossierSlugs": [
         "idea-mining-loop-2026-08-10-round12",
         "round-12-fg-13-18",
@@ -8315,9 +8315,9 @@
         "docs/ROUND-12-SNAPINVOICE-BUILD-SPEC.md",
         "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md"
       ],
-      "resurrection_trigger": "Advance only if >=7 of 10 eligible ops demonstrate why current suites fail their workflow, >=4 place a refundable deposit for the narrower service, a fixture proves >=90% extractable line-item accuracy with no false green on unreadable slips, >=7 of 10 use it on >=80% of real jobs, and >=4 convert to a paid founder offer.",
+      "resurrection_trigger": "Reopen only when a concrete channel or partner can supply at least ten eligible 1–3-person operators, at least seven demonstrate why current suites fail their workflow, and at least four place a refundable deposit for the narrower forwarding service before any fixture or implementation work.",
       "route": "/ideas/photo-invoice-micro-trades",
-      "status": "validating",
+      "status": "passed_market",
       "tags": [
         "field-service",
         "invoicing",
@@ -9296,7 +9296,7 @@
       ]
     }
   ],
-  "sourceHash": "sha256:2dc7e706d61d6b99c8ad1ab8778d8d53fab3f50866e2513e2006f48b77a1d8e8",
+  "sourceHash": "sha256:4508d25b7be02f5978d39b3f9eb6ea96fd84b09a5f5c49ee3c0c5cc03816f11b",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

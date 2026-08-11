@@ -4,6 +4,8 @@
 
 > **Post-commit correction (2026-08-11):** a primary-source live review found a dense adjacent swarm for SnapInvoice's outcome, including SimplyWise invoicing plus BldrOS, PeakPro, PlanMyCrew, SodaDesk, and TidyShift on photo-backed billing or unbilled-work detection. The exact no-suite forwarding interaction may remain open, but novelty is at most 40/100. Gate G0 in `docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md` now governs before any fixture or build; older novelty claims below are preserved as the original round result.
 
+> **Final validation decision (2026-08-11):** SnapInvoice is **passed_market**. Outreach could not recruit even three eligible operators, so the acquisition gate failed before deposits, fixtures, or implementation. LotMatch returns to the front of the experiment queue.
+
 **Research date:** 2026-08-10
 **Track:** RevenueCat Shipaton 2026 (deadline Sep 30, 2026, ~51 days from research date)
 **Starting archive:** 307 ideas, 20 research dossiers, 2 focus-group studies.

@@ -1,6 +1,6 @@
 # SnapInvoice — Build-Ready Spec — Shipaton 2026 (Six-Week Plan)
 
-Status: **VALIDATE FIRST, then build if gates clear.** Working name only. Research date 2026-08-11. This is the executable plan for the strongest idea to survive the Round 12 MCLOVIN work, with the post-commit review narrowing it to a behavior wedge: current suites own photo-backed invoicing and unbilled-work detection, while no direct standalone match was found for forwarding existing phone artifacts without adopting a field-service system.
+Status: **DO NOT BUILD — acquisition gate failed on 2026-08-11.** This specification is retained as historical decision evidence. Outreach could not recruit even three eligible target operators, so the team could not run deposits, fixture collection, or repeated-use validation. Reopen only through the explicit channel gate in the canonical record.
 
 > Per AGENTS.md, Expo SDK 57 and RevenueCat APIs must be re-verified against the versioned docs before any code is written. This spec is the plan, not the implementation.
 

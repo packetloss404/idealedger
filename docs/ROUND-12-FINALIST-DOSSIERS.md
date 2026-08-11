@@ -1,6 +1,6 @@
 # Round 12 Finalist Dossiers — RevenueCat Shipaton 2026
 
-> **Post-commit correction (2026-08-11):** the primary-source re-check found that photo-backed invoicing and completed-but-unbilled detection are crowded across SimplyWise and newer contractor suites. SnapInvoice remains a validation record only for the narrower no-suite forwarding behavior; its governing novelty estimate is now at most 40/100 and its first step is paid-demand Gate G0 in `ROUND-12-SNAPINVOICE-FALSIFICATION.md`.
+> **Final decision (2026-08-11):** SnapInvoice is **passed_market**. The primary-source re-check found crowded photo-backed invoicing and completed-but-unbilled outcomes, and outreach then failed to recruit even three eligible operators. The team cannot run deposits, fixtures, or repeated-use tests without a target-user channel. The original finalist dossier remains below as historical evidence.
 
 Research date 2026-08-10 (Round 12). Both finalists are `VALIDATE FIRST` — neither is approved for a build. Each dossier follows the full format: name, one sentence, user, trigger, existing pain, current solution, product mechanic, phone advantage, aha moment, why now, competitive landscape, novelty claim, monetization, retention, growth loop, build in public, Shipaton categories, MVP, demo, technical architecture, biggest risk, falsification test, score, verdict.
 

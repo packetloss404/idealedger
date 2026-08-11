@@ -169,22 +169,22 @@ test.describe('decision retrieval', () => {
 });
 
 test.describe('filters and URL state', () => {
-  test('combines validating and high-fit into the canonical thirteen', async ({ page }) => {
+  test('combines validating and high-fit into the canonical twelve', async ({ page }) => {
     await page.goto('ideas');
 
     await page.getByRole('checkbox', { name: /^Validating\b/ }).click();
     await expect(page.getByRole('checkbox', { name: /^Validating\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(15);
+    await expect(page.locator('tbody tr')).toHaveCount(14);
     await page.getByRole('checkbox', { name: /^High\b/ }).click();
     await expect(page.getByRole('checkbox', { name: /^High\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(13);
+    await expect(page.locator('tbody tr')).toHaveCount(12);
     await expect(page).toHaveURL(/status=validating/);
     await expect(page).toHaveURL(/fit=high/);
 
     await page.reload();
     await expect(page.getByRole('checkbox', { name: /^Validating\b/ })).toBeChecked();
     await expect(page.getByRole('checkbox', { name: /^High\b/ })).toBeChecked();
-    await expect(page.locator('tbody tr')).toHaveCount(13);
+    await expect(page.locator('tbody tr')).toHaveCount(12);
 
     await page.getByRole('button', { name: 'Clear filters' }).click();
     await expect(page.locator('tbody tr')).toHaveCount(348);
