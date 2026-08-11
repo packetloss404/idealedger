@@ -37,6 +37,10 @@ The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) sto
 
 Round 11 completed a 30-domain desk-research sweep spanning home repair through indie app developers. These are **synthetic research rooms, not recruited focus groups**: each now appears separately in `focus-groups.json` with five research-derived perspectives, a decision lane, source dossier, and canonical idea links. The initial sweep surfaced Did-It-Fix-It, Change Impact Relay, Client Decision Debt Clock, and Monetization Canary; the final adversarial pass killed the first three on current incumbents and host ownership and parked Monetization Canary behind RevenueCat host-capability and paid-demand gates. Repair Relay, Departure Baton, Used Gear Passport, and 311 Shadow Receipt remain partner or usability holds. The round approved no build and preserved all negative decisions.
 
+Round 12 added 32 durable decisions after an independent MCLOVIN sweep and a harder build-out pass. **SnapInvoice** and **ReturnShield** advanced to validation; NetCheck, ShipKit, PaywallDoc, MailForward Forensics, and Aviation-MEL Deferred Repairs were parked; one mechanism transplant remains raw; and 24 ideas were passed with explicit market or scope reasons. No production build was approved. See the [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) and [build-out](IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md).
+
+A separate adversarial **XPRIZE BackPocket opportunity audit** retained the 30-room MCLOVIN sweep as prior research instead of repeating it as fake independent evidence. BackPocket remains **HOLD / VALIDATE FIRST** until it acquires unaffiliated paid jobs, records production AI decisions and human overrides, proves safe fulfillment, and demonstrates positive contribution margin. See the [BackPocket audit](XPRIZE-BACKPOCKET-OPPORTUNITY-AUDIT-2026-08-11.md).
+
 ## Catalog
 
 | Idea | Status | Hackathon fit | Core reason | Research |
@@ -348,7 +352,7 @@ Round 11 completed a 30-domain desk-research sweep spanning home repair through 
 | Remix Response Contract | Passed — market | Low | TikTok and YouTube own remix formats, distribution, attribution, and music rights | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | Actor Scene Test | Passed — market | Medium | Dr Self Tape, Rehearsed, Cue Line, and Slatable own actor practice and scene challenges | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | FrameFault | Passed — market | High | Auto QC, UploadCheck, and QC Buddy own final-export anomaly checks with generous free tiers | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
-| BackPocket.help | Validating | High | The live synthetic demo makes the AI-to-human rescue loop concrete, but real payment, safe fulfillment, agent evidence, and unit economics remain unproven | [Active context](ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
+| BackPocket.help | Validating | High | The live synthetic demo makes the AI-to-human rescue loop concrete, but real payment, safe fulfillment, agent evidence, and unit economics remain unproven | [Active context](ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md), [audit](XPRIZE-BACKPOCKET-OPPORTUNITY-AUDIT-2026-08-11.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
 | Did-It-Fix-It | Passed — market | Medium | AutoVitals already follows unresolved symptoms, shop suites own retention, and consumer use is episodic | [Focus Groups 01–15](FOCUS-GROUPS-01-15-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
 | Change Impact Relay | Passed — market | High | Caldzy, Aviva, Ohai, PlanPing, and calendars occupy the workflow, while incomplete dependencies create false calm | [Focus Groups 01–15](FOCUS-GROUPS-01-15-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
 | Client Decision Debt Clock | Passed — market | High | ApproveEase already provides the no-login choice, reminders, and delivery-date movement | [Focus Groups 01–15](FOCUS-GROUPS-01-15-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
@@ -357,20 +361,53 @@ Round 11 completed a 30-domain desk-research sweep spanning home repair through 
 | Used Gear Passport | Parked | Low | Useful service history needs a trusted repair, dealer, or marketplace partner; consumer-entered records cannot create authority | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md) |
 | 311 Shadow Receipt | Parked | Medium | A one-city source history may expose status gaps, but the official system remains authoritative and payer/distribution are weak | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md) |
 | Monetization Canary | Parked | High | RevenueCat owns the telemetry and Sentry/PostHog can capture failures; another probe is a host-adjacent diagnostic preset until paid proof says otherwise | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md), [Round 11 start](RESEARCH-ROUND-11-STARTING-STATE.md), [Shipaton rules](SHIPATON-2026-OFFICIAL-RULES-VERIFIED-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
+| SnapInvoice | Validating | High | The remaining no-suite forwarding behavior may be open, but photo-backed invoicing and unbilled-work outcomes are crowded; paid rejection of the suites must clear before technical work | [Dossier](ROUND-12-FINALIST-DOSSIERS.md), [falsification](ROUND-12-SNAPINVOICE-FALSIFICATION.md), [build-if-gated spec](ROUND-12-SNAPINVOICE-BUILD-SPEC.md) |
+| ReturnShield | Validating | High | A plausible micro-reseller return-evidence wedge remains, but payment and improved marketplace outcomes are unproven | [Dossier](ROUND-12-FINALIST-DOSSIERS.md), [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| NetCheck | Parked | Low | Novel, but seasonal, document-heavy, poorly timed for Shipaton, and close to existing two-record reconciliation ideas | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| ShipKit | Parked | Low | Large-item shipping pain is real, but uShip and camera sizing own the parts and recurring use is unproven | [Dossier](ROUND-12-FINALIST-DOSSIERS.md) |
+| PaywallDoc | Parked | Medium | Shipaton-native data exists, but Superwall and open-source tools narrow novelty and RevenueCat can absorb the feature | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| RVWatchdog | Passed — market | Low | Repairs are infrequent, truthful benchmark data is absent, and the repair shop controls actual status | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| MailForward Forensics | Parked | Low | A novel USPS-triggered checklist lacks recurring frequency, a payer, and sanctioned update APIs | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| Photo-to-Quote Instant Estimator | Passed — market | Low | SimplyWise, FieldQuote, and Billio already occupy photo-to-estimate workflows | [Novelty review](ROUND-12-NOVELTY-TRADE-RETURNS.md) |
+| Proofing Catalog Seam | Passed — market | Low | Gallerina, Pic-Time, Proofr, and platform absorption leave only a small feature gap | [Novelty review](ROUND-12-NOVELTY-CREATOR-REPAIR.md) |
+| No-Account Client Galleries | Passed — market | Low | Picflow and adjacent gallery products already own link-only delivery | [Novelty review](ROUND-12-NOVELTY-CREATOR-REPAIR.md) |
+| Owner-Owned Repair Record | Passed — market | Low | Odobook and free CARFAX Car Care already own portable service history | [Novelty review](ROUND-12-NOVELTY-CREATOR-REPAIR.md) |
+| Repair Shop Status Timeline | Passed — market | Low | TrueStatus and shop-management portals own the exact host-controlled workflow | [Novelty review](ROUND-12-NOVELTY-CREATOR-REPAIR.md) |
+| Handoff Evidence Camera | Passed — market | Low | Timestamp cameras and vertical inspection products make the horizontal version a commodity wrapper | [Novelty review](ROUND-12-NOVELTY-CREATOR-REPAIR.md) |
+| Paystub-Schedule Diff | Passed — market | Low | WageWatch is direct and this duplicates the existing timecard/paystub decision | [Novelty review](ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md) |
+| Move-In Condition Report | Passed — market | Low | A recent exact-product wave already occupies tenant condition evidence | [Novelty review](ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md) |
+| Deposit-Recovery Packet | Passed — market | Low | DepositGenie and DepositsBack occupy a one-shot tenant dispute workflow | [Novelty review](ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md) |
+| Executor Death-Admin Ledger | Passed — market | Low | Empathy and EstateExec occupy a one-shot workflow whose subscription retention is structurally weak | [Novelty review](ROUND-12-NOVELTY-LIFEEVENT-HAMM.md) |
+| Credential Wall for Small Employers | Passed — market | Low | Certemy is exact while official boards own credential truth | [Novelty review](ROUND-12-NOVELTY-LIFEEVENT-HAMM.md) |
+| License Renewal Watch | Passed — market | Low | Free official alerts, fragmented captcha-protected boards, and weak app uptake defeat the wedge | [Novelty review](ROUND-12-NOVELTY-LIFEEVENT-HAMM.md) |
+| DMV-Passport Slot Alerter | Passed — market | Low | Existing apps and open-source bots make an episodic alert trivial to clone | [Novelty review](ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md) |
+| Traveler Incident Workspace | Passed — market | Low | FlightRights, RefundMe AI, AirHelp, and airline rebooking own the episodic workflow | [Novelty review](ROUND-12-NOVELTY-WORKER-MONEY-TRAVEL.md) |
+| Accessibility Report Card | Passed — scope | Low | Liability, host-scored conflicts, and specialist distribution make this unsafe for the contest window | [Novelty review](ROUND-12-NOVELTY-LIFEEVENT-HAMM.md) |
+| Easy-Cancel Subscription Intake | Passed — market | Low | Billing platforms own cancellation UX and the regulatory tailwind was vacated | [Novelty review](ROUND-12-NOVELTY-TRADE-RETURNS.md) |
+| Quote Follow-Up Nudger | Passed — market | Low | Commodity CRM automation still requires the professional to adopt and provides no proven payer | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| Local Marketplace Auto-Reprice | Passed — scope | Low | No sanctioned API, marketplace terms, native tooling, and short listing cycles make the novel mechanic hostile | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| Home Warranty Claim Forensics | Passed — scope | Low | Low-frequency claims, coverage exclusions, and host-controlled decisions leave thin demand | [Novelty review](ROUND-12-NOVELTY-LIFEEVENT-HAMM.md) |
+| NOTAM-Style Commute Digest | Passed — market | Low | Navigation incumbents already own routing and reformatted alerts have no clear payer | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| Aviation-MEL Deferred Repairs | Parked | Low | The mechanism is interesting, but urgency and payer are unclear outside a larger repair product | [Round 12 synthesis](IDEA-MINING-LOOP-2026-08-10-ROUND12.md) |
+| Freight-Line Pro | Raw | Medium | A weekly business payer improves ShipKit, but the competitor cell is still unverified and the mechanism composes existing parts | [Build-out](IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md) |
+| User-Instrumentable Process Tracker | Passed — market | Low | The cell is empty for economic reasons: users cannot observe provider truth and episodic self-logging does not retain | [Process-tracker falsification](ROUND-12-PROCESS-TRACKER.md) |
+| Done-Needs-Confirmation | Passed — market | Low | The host-buys-transparency mechanism is promising, but CompanyCam and Timemark own the surface and it is cheap to copy | [Weirdness round](ROUND-12-WEIRDNESS-ROUND.md) |
+| Claim-Ready Install Record | Passed — scope | Low | A portable contractor-paid claim file remains open, but fragmented buyers and warranty-host absorption make it too large for the window | [Weirdness round](ROUND-12-WEIRDNESS-ROUND.md) |
 
 ## Current experiment portfolio
 
-Round 11 supersedes the earlier five-way funding order. **No production build is approved.** The sole immediate funded falsification is:
+Round 12 supersedes the earlier funding order. **No production build is approved.** The immediate research sequence is:
 
-1. **LotMatch** — sell founder-years, collect 300 real carton labels across ten brands, require zero false `same` matches, and observe live crew adherence before implementation.
+1. **SnapInvoice** — run the one-day G0 paid-demand gate first: ten eligible micro field-service operators must compare the narrow forwarding workflow with current suites, at least seven must demonstrate why the suites fail their actual workflow, and four must place refundable deposits. Only then run the fixture and manual Telegram intake; require at least 90% extractable line accuracy, zero fabricated or false-healthy results, and repeated real-job forwarding before native implementation.
+2. **LotMatch** — retain as the ready alternate: sell founder-years, collect 300 real carton labels across ten brands, require zero false `same` matches, and observe live crew adherence before implementation.
 
-Four useful but currently unfunded research lanes remain: **WeedCheck** gets only a constrained technical/market spike; **DoorHold** only a no-code incidence and ordinary-SMS comparison; **CaptionGap** compensated DHH/HoH co-design followed by a separate buyer cohort; and **DeferralGap** paid concierge learning. They do not share LotMatch's finalist status.
+**ReturnShield** remains validating but unfunded until a small reseller cohort shows that its evidence packets improve actual marketplace outcomes and prepays. Four other useful research lanes remain: **WeedCheck** gets only a constrained technical/market spike; **DoorHold** only a no-code incidence and ordinary-SMS comparison; **CaptionGap** compensated DHH/HoH co-design followed by a separate buyer cohort; and **DeferralGap** paid concierge learning.
 
 **CrashTape** is the optional engineering reserve. **Confirmed Spoken Details** remains the mission-led accessibility track. **CancelBy** is an unfunded alternate whose only useful next step is a short blind test against a configured free Reminder. CutBolt, Two-Source Solar Check, Health Sync Canary, and the remaining parked ideas stay searchable with their resurrection gates, but they are not in the immediate funded queue.
 
 **Encore** is preserved as an event-CRM feature or technically safe demo fallback, not an active standalone product candidate.
 
-The video revisit adds four **unfunded validation lanes**—SpinLoop, TakeSweep, ShotCanary, and Live Roll / Cut Room. Round 11 added no validation lane after final adversarial review: Did-It-Fix-It, Change Impact Relay, and Client Decision Debt Clock passed on current market structure; Monetization Canary is parked for a host-capability and paid-demand check. None is a production build or an addition to the sole funded finalist.
+The video revisit adds four **unfunded validation lanes**—SpinLoop, TakeSweep, ShotCanary, and Live Roll / Cut Room. Round 11 added no validation lane after final adversarial review: Did-It-Fix-It, Change Impact Relay, and Client Decision Debt Clock passed on current market structure; Monetization Canary is parked for a host-capability and paid-demand check. Round 12 subsequently added SnapInvoice and ReturnShield as validation records, with only SnapInvoice first in the funded research sequence. None is a production build.
 
 ## Record format
 

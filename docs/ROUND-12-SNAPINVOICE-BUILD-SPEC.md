@@ -1,8 +1,10 @@
 # SnapInvoice — Build-Ready Spec — Shipaton 2026 (Six-Week Plan)
 
-Status: **VALIDATE FIRST, then build if gates clear.** Working name only. Research date 2026-08-11. This is the executable plan for the strongest idea to survive two independent MCLOVIN rounds (R11 score 76/100; second harder competitor sweep found no direct match on the exact wedge).
+Status: **VALIDATE FIRST, then build if gates clear.** Working name only. Research date 2026-08-11. This is the executable plan for the strongest idea to survive the Round 12 MCLOVIN work, with the post-commit review narrowing it to a behavior wedge: current suites own photo-backed invoicing and unbilled-work detection, while no direct standalone match was found for forwarding existing phone artifacts without adopting a field-service system.
 
 > Per AGENTS.md, Expo SDK 57 and RevenueCat APIs must be re-verified against the versioned docs before any code is written. This spec is the plan, not the implementation.
+
+Run **Gate G0** from `ROUND-12-SNAPINVOICE-FALSIFICATION.md` first. If ten eligible operators do not reject the relevant suites for demonstrated workflow reasons and four do not place refundable deposits for the narrower forwarding behavior, stop before the extraction fixture.
 
 ## 0. The one sentence
 
@@ -13,7 +15,7 @@ For solo tradespeople and micro field-service ops who already text job photos to
 - First-person un-invoiced-revenue accounts in r/sweatystartup (tonnage fees lost in the truck cab; whiteboard system-of-record wiped).
 - Micro-ops (1–3 techs) skip Jobber/ServiceTitan on price ($29–529/mo + $29/user) and complexity; they run on calls, texts, whiteboard, paper.
 - The phone is already the job camera and the photo already flows by text/WhatsApp — the product attaches to an existing ritual; it does not demand a new one.
-- Round-12 second sweep (40 iTunes terms + Google Play + web + trade-angle + graveyard): no app does batch job-photos → invoice lines + un-invoiced detector + share-sheet intake. The 2026 "AI invoice" wave (Invoo, Invoicely AI) is voice/text-prompt, not photo-batch; the photo→structured-doc movers (SimplyWise, WinPal) built photo→estimate, not photo→invoice. **The cell is un-dug, not abandoned.**
+- The Round-12 sweep found no app doing the exact batch job-photos → invoice lines + un-invoiced detector + inbound-share intake as a standalone. The post-commit check found SimplyWise, BldrOS, PeakPro, PlanMyCrew, SodaDesk, and TidyShift close on the outcome, including photo-backed invoicing and unbilled-work detection. **Only the no-suite forwarding behavior remains plausibly open; this is not a broad product-gap claim.**
 - The mechanism map's core finding: the dead concepts' mechanisms were fine; the payer assignment was the bug. SnapInvoice's payer (the owner of the money flow) and correction step (the invoice the owner controls) are both on the right side of that lesson.
 
 ## 2. The risk that must be killed first (falsification before build)
@@ -22,6 +24,7 @@ The whole build rests on three unproven claims. Kill or confirm each for under $
 
 | Gate | Claim | Test | Stop rule |
 |---|---|---|---|
+| G0 | Operators reject the suites but will buy the narrower behavior | Show SimplyWise and one relevant full-suite alternative to ten eligible ops; observe their real current workflow and offer a refundable $20 deposit | <7/10 demonstrate a concrete suite-fit failure OR <4/10 deposit |
 | G1 | Photo→line extraction is good enough | 100–150 real slips/receipts/job notes scored in week 1 (human labels = ground truth); measure per-line recall, total-amount agreement, fabricated-line rate | <90% line recall OR <90% amount agreement OR **any fabricated line on an unreadable slip** (false green = instant stop) |
 | G2 | Ops will route real photos through the tool | 10 ops, 3 weeks, a Telegram bot (human/cheap-LLM in the loop returns line items + a Sunday "un-invoiced list" the op must confirm/correct — the correction doubles as the detector-truth check) | <7/10 ops forward ≥80% of real job photos |
 | G3 | Ops will pay | At day 15–17, offer refundable $29 founder-year vs $12/mo (Stripe, A/B); require ≥4/10 prepay | <4 prepays |
@@ -30,8 +33,8 @@ Recruiting 10 ops is ~80% feasible via r/sweatystartup + Facebook trade groups +
 
 ## 3. Six-week calendar (Aug 11 → Sep 30)
 
-- **Days 1–2:** recruit 10–15 ops (r/sweatystartup post, 5 trade FB groups, 20 IG DMs). Stand up the Telegram bot with a Stripe checkout link.
-- **Days 3–9:** fixture scoring (G1) — ops forward past photos/slips; human + LLM transcribe; score against labels.
+- **Days 1–2:** recruit 10–15 ops (r/sweatystartup post, 5 trade FB groups, 20 IG DMs) and run G0 before standing up the Telegram bot.
+- **Days 3–9:** only if G0 clears, stand up the Telegram bot and run fixture scoring (G1) — ops forward past photos/slips; human + LLM transcribe; score against labels.
 - **Days 10–14:** forwarding study live (G2). Weekly check-ins; refine bot prompts on real slips.
 - **Days 15–17:** prepay offer (G3).
 - **Days 18–21:** continue; apply stop rules; interim report.

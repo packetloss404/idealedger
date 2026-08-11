@@ -1,5 +1,7 @@
 # Round 12 Finalist Dossiers — RevenueCat Shipaton 2026
 
+> **Post-commit correction (2026-08-11):** the primary-source re-check found that photo-backed invoicing and completed-but-unbilled detection are crowded across SimplyWise and newer contractor suites. SnapInvoice remains a validation record only for the narrower no-suite forwarding behavior; its governing novelty estimate is now at most 40/100 and its first step is paid-demand Gate G0 in `ROUND-12-SNAPINVOICE-FALSIFICATION.md`.
+
 Research date 2026-08-10 (Round 12). Both finalists are `VALIDATE FIRST` — neither is approved for a build. Each dossier follows the full format: name, one sentence, user, trigger, existing pain, current solution, product mechanic, phone advantage, aha moment, why now, competitive landscape, novelty claim, monetization, retention, growth loop, build in public, Shipaton categories, MVP, demo, technical architecture, biggest risk, falsification test, score, verdict.
 
 ---
@@ -241,4 +243,3 @@ That a fresh "documentation at dispute time" or "verification" product would be 
 ## Most interesting cross-domain transfer
 
 Aviation minimum-equipment-list (MEL) practice → a "broken but tolerated with a hard deadline" log for deferred home/car repairs: a mechanism completely normal in aviation that has no consumer equivalent, though it needs a host repair product to attach to (parked as `aviation-mel-deferred-repairs`).
-

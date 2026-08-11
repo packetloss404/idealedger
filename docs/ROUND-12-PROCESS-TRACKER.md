@@ -61,7 +61,7 @@ A consumer-owned, multi-provider, user-instrumented process tracker (user logs e
 | **admitlist / UniAppTrack / ApplyTracker / ApplyNudge / Admitto** | college application trackers | free/browser | **DIRECT in one vertical** — proves consumer process-tracker demand exists AND is commoditized |
 
 ### Status AGGREGATORS (excluded by hypothesis, but define the real willingness-to-pay)
-- **Lawfully** (lawfully.com) — USCIS/NVC/EOIR aggregator on the sanctioned public endpoint; 6M+ registered cases, premium sub (FACT, App Store). 
+- **Lawfully** (lawfully.com) — USCIS/NVC/EOIR aggregator on the sanctioned public endpoint; 6M+ registered cases, premium sub (FACT, App Store).
 - **IRS2Go / "Where's My Refundo? WMR+"** (https://apps.apple.com/us/app/wheres-my-refundo-wmr/id1075979933) — tax refund aggregators on the public IRS tool.
 - **Case Tracker for USCIS & NVC** (id921827126), uscistracker.app, mycaseshub — same.
 - **Trajector** (trajectordisability.com) — SSDI status + attorney funnel.

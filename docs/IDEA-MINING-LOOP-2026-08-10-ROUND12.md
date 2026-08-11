@@ -2,6 +2,8 @@
 
 > **Renumbering note (2026-08-11):** after the three research agents were converged, this dossier — originally the second full MCLOVIN round — was renamed from Round 11 to **Round 12** so the committed sibling dossier (`docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md`) owns the "Round 11" label and today's round is unambiguously **Round 13**. The starting-state doc for this round remains at `docs/RESEARCH-ROUND-11-STARTING-STATE.md` (committed under the old label, referenced by the sibling idea `monetization-canary`). The build-out continuation of this round is `docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md`.
 
+> **Post-commit correction (2026-08-11):** a primary-source live review found a dense adjacent swarm for SnapInvoice's outcome, including SimplyWise invoicing plus BldrOS, PeakPro, PlanMyCrew, SodaDesk, and TidyShift on photo-backed billing or unbilled-work detection. The exact no-suite forwarding interaction may remain open, but novelty is at most 40/100. Gate G0 in `docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md` now governs before any fixture or build; older novelty claims below are preserved as the original round result.
+
 **Research date:** 2026-08-10
 **Track:** RevenueCat Shipaton 2026 (deadline Sep 30, 2026, ~51 days from research date)
 **Starting archive:** 307 ideas, 20 research dossiers, 2 focus-group studies.
@@ -187,4 +189,3 @@ Rows 7–10 were killed in the novelty gauntlet or hard-gate screening; their sc
 - Reseller willingness-to-pay for return-intake evidence (needs 20 sellers).
 - Whether RevenueCat Ads revenue counts toward the Grand Prize revenue shortlist; whether web-purchase (Funnels/Stripe) revenue counts. (Shipaton-specific; affects revenue targeting.)
 - The two "novel but uneconomic" cells (1099 reconciliation, mail-forwarding) have no demand quantification.
-

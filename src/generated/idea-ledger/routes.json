@@ -784,6 +784,7 @@
     "/research/social-app-opportunity-research",
     "/research/untitled-micro-help-network",
     "/research/video-revisit-2026-08-10",
+    "/research/xprize-backpocket-opportunity-audit-2026-08-11",
     "/research/xprize-focus-group-synthesis-2026-08-10"
   ],
   "researchSlugs": [
@@ -835,7 +836,8 @@
     "social-app-opportunity-research",
     "untitled-micro-help-network",
     "video-revisit-2026-08-10",
+    "xprize-backpocket-opportunity-audit-2026-08-11",
     "xprize-focus-group-synthesis-2026-08-10"
   ],
-  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492"
+  "sourceHash": "sha256:2dc7e706d61d6b99c8ad1ab8778d8d53fab3f50866e2513e2006f48b77a1d8e8"
 }

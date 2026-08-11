@@ -6,7 +6,7 @@
     "simulatedStudies": 33,
     "studies": 33
   },
-  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492",
+  "sourceHash": "sha256:2dc7e706d61d6b99c8ad1ab8778d8d53fab3f50866e2513e2006f48b77a1d8e8",
   "studies": [
     {
       "anchor": null,
@@ -2245,7 +2245,7 @@
         }
       ],
       "summary": "Thirty independent simulated focus groups mapped friction across consumer and business life, each with participants representing conflicting sides. Independently strong pains: mechanic distrust and the 83% second-opinion ritual; micro field-service revenue leaking through lost paper and whiteboards; hourly workers photo-proofing schedules and paystubs against silent changes and short-pay; creator proofing selections never returning to the catalog; deposit disputes without a neutral condition record; 63M US family caregivers policing medical logistics; and travel-disruption claims reconstructed from nothing. A parallel 30-question service-disruption hunt and a cross-domain-transfer and tech-capability scan converged on the same clusters. The round then novelty-tested 40 concepts and found the mobile-pain market saturated with 2025-2026 clones; the two surviving VALIDATE-FIRST candidates are a photo-to-invoice un-invoiced-work detector for micro trades and a return-intake evidence pack for resellers.",
-      "title": "Round 11 MCLOVIN 30 focus-group sweep"
+      "title": "Round 12 MCLOVIN 30 focus-group sweep"
     }
   ],
   "updatedAt": "2026-08-10"

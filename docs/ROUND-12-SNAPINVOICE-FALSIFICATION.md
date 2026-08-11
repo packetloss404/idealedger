@@ -1,6 +1,23 @@
 # SnapInvoice — Round 12 Harder Competitor Sweep + Falsification Experiment Design
 
-Research date: 2026-08-11. Author: Competitor Hunter + Experiment Designer for SnapInvoice (Round-11 top candidate, score 76, VALIDATE FIRST).
+Research date: 2026-08-11. Author: Competitor Hunter + Experiment Designer for SnapInvoice (Round-12 top candidate, score 76, VALIDATE FIRST).
+
+## Post-commit live competitor correction — 2026-08-11
+
+The original sweep found no exact standalone product for “forward the job photos or slips already on the phone, draft invoice lines, then keep the job visibly unbilled until an invoice is sent.” A same-day primary-source review found a much denser outcome-level market than the dossier originally conveyed:
+
+- **SimplyWise** turns a job photo into line-item estimates and includes invoicing in a $29.99/month contractor suite: https://www.simplywise.com/blog/llm-info/ (retrieved 2026-08-11).
+- **BldrOS** turns photos, voice notes, and text into line-item estimates and explicitly sells against unbilled work: https://www.bldros.com/ (retrieved 2026-08-11).
+- **PeakPro** surfaces completed jobs without invoices, missing billing photos, and overdue invoices: https://www.peakproapp.com/ (retrieved 2026-08-11).
+- **PlanMyCrew** generates field invoices from labor, materials, photos, and signatures while promising zero unbilled jobs: https://planmycrew.com/contractor-invoicing-software (retrieved 2026-08-11).
+- **SodaDesk** pulls parts, labor, and job photos into invoices and markets against unbilled work: https://www.sodadesk.com/hvac-quotes-and-invoices-software (retrieved 2026-08-11).
+- **TidyShift** combines group-chat photos, invoicing, and unbilled-extra detection for cleaning operators: https://tidyshift.com/ (retrieved 2026-08-11).
+
+**Correction:** the exact no-suite, inbound-share behavior still appears unoccupied, but the desired outcome is crowded and inexpensive incumbents are close. Novelty confidence is therefore **at most 40/100**, not 58/100. SnapInvoice is now a behavior/distribution hypothesis, not a product-gap claim.
+
+### Gate G0 — reject the suite, buy the behavior
+
+Before the extraction fixture or native implementation, recruit ten eligible 1–3-person operators who currently lose billable work in photos, texts, or paper. Show them SimplyWise and one relevant full-suite alternative. Continue only if at least seven demonstrate why those products do not fit their actual workflow and at least four place a refundable $20 deposit for the narrower forward-to-invoice service. Otherwise kill SnapInvoice without building it.
 
 **Exact wedge under test:** (a) auto-build invoice lines from a batch of job photos and paper slips (weigh tickets, handwritten notes, receipts, job photos), (b) the un-invoiced work detector (jobs with photos but no sent invoice), (c) share-sheet/forwarding intake so the tech keeps the existing "text the photo to the owner" ritual. Payer: solo/1-3-tech field-service ops. Price: $12-19/mo.
 

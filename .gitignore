@@ -28,6 +28,8 @@ yarn-error.*
 playwright-report/
 release-evidence/
 test-results/
+/research-runs/
+/research/agent-runs/
 
 # macOS
 .DS_Store

@@ -20,13 +20,13 @@ import {
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
     expect(ideas).toHaveLength(348);
-    expect(researchMetadata).toHaveLength(49);
+    expect(researchMetadata).toHaveLength(50);
     expect(ledgerCounts).toEqual({
-      dossiers: 49,
+      dossiers: 50,
       focusGroupStudies: 33,
       ideas: 348,
-      researchEdges: 500,
-      searchDocuments: 397,
+      researchEdges: 501,
+      searchDocuments: 398,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -77,7 +77,7 @@ describe('generated ledger repository', () => {
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(49);
+    expect(repository.documents).toHaveLength(50);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });

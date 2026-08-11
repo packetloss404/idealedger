@@ -4502,7 +4502,7 @@
       ],
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
       "route": "/research/idea-mining-loop-2026-08-10-round12-build-out",
-      "sha256": "sha256:48f6ac049c367578bc4b5d465a72e5829871258720384cd5eb3d406e152ca420",
+      "sha256": "sha256:833651a1dec2d1ed91a71adf0be4afaf01b98a99e0011848e78f7c71621d38b8",
       "slug": "idea-mining-loop-2026-08-10-round12-build-out",
       "title": "Round 12 Build-Out — From Research to Revenue — Shipaton 2026"
     },
@@ -4666,7 +4666,7 @@
       ],
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
       "route": "/research/idea-mining-loop-2026-08-10-round12",
-      "sha256": "sha256:e4ffe24927cc40f073872d59c096858e676e1ef3108d40b72cd5f2ebf61a1ffd",
+      "sha256": "sha256:0f0908560f85daec6ee31a05881239f1bffe9c7b85003fc23fe19c6b5a2d102f",
       "slug": "idea-mining-loop-2026-08-10-round12",
       "title": "Round 12 — MCLOVIN Protocol — RevenueCat Shipaton 2026 Research Marathon"
     },
@@ -8275,7 +8275,7 @@
       ],
       "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
       "route": "/research/round-12-finalist-dossiers",
-      "sha256": "sha256:1fd3bece3805b34aba442a1dd5e9b0822275aa6e58404d2e931442696816eee8",
+      "sha256": "sha256:6254f99b294dadc516c660e62e6a138194109d38a57617b878b7d2220a9a5bbe",
       "slug": "round-12-finalist-dossiers",
       "title": "Round 12 Finalist Dossiers — RevenueCat Shipaton 2026"
     },
@@ -8945,7 +8945,7 @@
       ],
       "path": "docs/ROUND-12-PROCESS-TRACKER.md",
       "route": "/research/round-12-process-tracker",
-      "sha256": "sha256:c699add9b882ab6e9f3dfc84e35cdbd84dc65b046f559eac8dfd40d8a66db175",
+      "sha256": "sha256:ff4e8b9be7983b705e2fbf848ac4e7fc4fe27a582a490088cb3c9ef28ffdb5a2",
       "slug": "round-12-process-tracker",
       "title": "USER-INSTRUMENTABLE PROCESS TRACKER — Round 12 Deep Dive"
     },
@@ -9027,7 +9027,7 @@
       ],
       "path": "docs/ROUND-12-SNAPINVOICE-BUILD-SPEC.md",
       "route": "/research/round-12-snapinvoice-build-spec",
-      "sha256": "sha256:88e216064bef2220a395f0175feb05a5c49cecbf4ea345beef3b67e344f6a68a",
+      "sha256": "sha256:617d9e833363a3faffe7f72de7d0a9302a882fa60816ebced93ec571c9abe7e7",
       "slug": "round-12-snapinvoice-build-spec",
       "title": "SnapInvoice — Build-Ready Spec — Shipaton 2026 (Six-Week Plan)"
     },
@@ -9037,6 +9037,16 @@
           "anchor": "snapinvoice--round-12-harder-competitor-sweep--falsification-experiment-design",
           "depth": 1,
           "text": "SnapInvoice — Round 12 Harder Competitor Sweep + Falsification Experiment Design"
+        },
+        {
+          "anchor": "post-commit-live-competitor-correction--2026-08-11",
+          "depth": 2,
+          "text": "Post-commit live competitor correction — 2026-08-11"
+        },
+        {
+          "anchor": "gate-g0--reject-the-suite-buy-the-behavior",
+          "depth": 3,
+          "text": "Gate G0 — reject the suite, buy the behavior"
         },
         {
           "anchor": "part-a--second-harder-competitor-sweep",
@@ -9129,7 +9139,7 @@
       ],
       "path": "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md",
       "route": "/research/round-12-snapinvoice-falsification",
-      "sha256": "sha256:db55d9a6b73c52931a943286e60163ff8faaf1eb567055d5446fb44e9955db80",
+      "sha256": "sha256:8107959235fcff8abcb803f4d9033b414f296f4f34c28066ecc180924ffdb91e",
       "slug": "round-12-snapinvoice-falsification",
       "title": "SnapInvoice — Round 12 Harder Competitor Sweep + Falsification Experiment Design"
     },
@@ -10425,6 +10435,123 @@
     {
       "headings": [
         {
+          "anchor": "xprize-backpocket-opportunity-audit--2026-08-11",
+          "depth": 1,
+          "text": "XPRIZE BackPocket Opportunity Audit — 2026-08-11"
+        },
+        {
+          "anchor": "purpose-and-scope",
+          "depth": 2,
+          "text": "Purpose and scope"
+        },
+        {
+          "anchor": "starting-state",
+          "depth": 2,
+          "text": "Starting state"
+        },
+        {
+          "anchor": "shipatonxprize-separation",
+          "depth": 2,
+          "text": "Shipaton/XPRIZE separation"
+        },
+        {
+          "anchor": "official-criteria-captured",
+          "depth": 2,
+          "text": "Official criteria captured"
+        },
+        {
+          "anchor": "backpocket-decision-audit",
+          "depth": 2,
+          "text": "BackPocket decision audit"
+        },
+        {
+          "anchor": "honest-product-promise",
+          "depth": 3,
+          "text": "Honest product promise"
+        },
+        {
+          "anchor": "category-fit",
+          "depth": 3,
+          "text": "Category fit"
+        },
+        {
+          "anchor": "ai-native-test",
+          "depth": 3,
+          "text": "AI-native test"
+        },
+        {
+          "anchor": "business-viability-test",
+          "depth": 3,
+          "text": "Business viability test"
+        },
+        {
+          "anchor": "category-impact-test",
+          "depth": 3,
+          "text": "Category-impact test"
+        },
+        {
+          "anchor": "evidence-ledger",
+          "depth": 2,
+          "text": "Evidence ledger"
+        },
+        {
+          "anchor": "fact",
+          "depth": 3,
+          "text": "FACT"
+        },
+        {
+          "anchor": "inference",
+          "depth": 3,
+          "text": "INFERENCE"
+        },
+        {
+          "anchor": "hypothesis",
+          "depth": 3,
+          "text": "HYPOTHESIS"
+        },
+        {
+          "anchor": "synthetic-feedback",
+          "depth": 3,
+          "text": "SYNTHETIC FEEDBACK"
+        },
+        {
+          "anchor": "immediate-falsification-sprint",
+          "depth": 2,
+          "text": "Immediate falsification sprint"
+        },
+        {
+          "anchor": "hard-kill-conditions",
+          "depth": 3,
+          "text": "Hard kill conditions"
+        },
+        {
+          "anchor": "decision",
+          "depth": 2,
+          "text": "Decision"
+        },
+        {
+          "anchor": "research-debt",
+          "depth": 2,
+          "text": "Research debt"
+        },
+        {
+          "anchor": "sources",
+          "depth": 2,
+          "text": "Sources"
+        }
+      ],
+      "linkedIdeaIds": [
+        "backpocket-help"
+      ],
+      "path": "docs/XPRIZE-BACKPOCKET-OPPORTUNITY-AUDIT-2026-08-11.md",
+      "route": "/research/xprize-backpocket-opportunity-audit-2026-08-11",
+      "sha256": "sha256:8b089cb1e298539440b176dc0bb67c71c4d55037ee9d834db7c3cfba7b8e68c7",
+      "slug": "xprize-backpocket-opportunity-audit-2026-08-11",
+      "title": "XPRIZE BackPocket Opportunity Audit — 2026-08-11"
+    },
+    {
+      "headings": [
+        {
           "anchor": "xprize-focus-group-synthesis--2026-08-10",
           "depth": 1,
           "text": "XPRIZE Focus-Group Synthesis — 2026-08-10"
@@ -10505,5 +10632,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492"
+  "sourceHash": "sha256:2dc7e706d61d6b99c8ad1ab8778d8d53fab3f50866e2513e2006f48b77a1d8e8"
 }

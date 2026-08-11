@@ -45,9 +45,12 @@
     "ideas:generate": "node scripts/idea-ledger/cli.mjs generate",
     "ideas:check": "node scripts/idea-ledger/cli.mjs check",
     "ideas:test": "node --test scripts/idea-ledger/test/*.test.mjs",
+    "mclovin:plan": "node scripts/mclovin/plan.mjs",
+    "mclovin:run": "node scripts/mclovin/run.mjs",
+    "mclovin:check": "node --check scripts/mclovin/plan.mjs && node --check scripts/mclovin/run.mjs",
     "build:web": "npm run ideas:check && vite build",
     "check:export": "node scripts/idea-ledger/check-export.mjs dist",
-    "check": "npm run ideas:validate && npm run ideas:test && npm run ideas:check && npm run test && npm run typecheck && npm run lint"
+    "check": "npm run ideas:validate && npm run ideas:test && npm run ideas:check && npm run mclovin:check && npm run test && npm run typecheck && npm run lint"
   },
   "private": true
 }

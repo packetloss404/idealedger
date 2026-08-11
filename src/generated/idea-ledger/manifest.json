@@ -1,10 +1,10 @@
 {
   "counts": {
-    "dossiers": 49,
+    "dossiers": 50,
     "focusGroupStudies": 33,
     "ideas": 348,
-    "researchEdges": 500,
-    "searchDocuments": 397
+    "researchEdges": 501,
+    "searchDocuments": 398
   },
   "generatorVersion": 4,
   "sourceFiles": [
@@ -89,14 +89,14 @@
       "sha256": "sha256:bb1a07ab18e73657d48fce722d0db497f20c4be4b1e09294b56d4c32162f2ae6"
     },
     {
-      "bytes": 8614,
+      "bytes": 8698,
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
-      "sha256": "sha256:48f6ac049c367578bc4b5d465a72e5829871258720384cd5eb3d406e152ca420"
+      "sha256": "sha256:833651a1dec2d1ed91a71adf0be4afaf01b98a99e0011848e78f7c71621d38b8"
     },
     {
-      "bytes": 23956,
+      "bytes": 24483,
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12.md",
-      "sha256": "sha256:e4ffe24927cc40f073872d59c096858e676e1ef3108d40b72cd5f2ebf61a1ffd"
+      "sha256": "sha256:0f0908560f85daec6ee31a05881239f1bffe9c7b85003fc23fe19c6b5a2d102f"
     },
     {
       "bytes": 18239,
@@ -164,9 +164,9 @@
       "sha256": "sha256:9bb694d4130cef5ced456bc8fa04e3c73b676c138dd3b6dfa5063b6cad6fa2a6"
     },
     {
-      "bytes": 18329,
+      "bytes": 18761,
       "path": "docs/ROUND-12-FINALIST-DOSSIERS.md",
-      "sha256": "sha256:1fd3bece3805b34aba442a1dd5e9b0822275aa6e58404d2e931442696816eee8"
+      "sha256": "sha256:6254f99b294dadc516c660e62e6a138194109d38a57617b878b7d2220a9a5bbe"
     },
     {
       "bytes": 28365,
@@ -199,19 +199,19 @@
       "sha256": "sha256:c3a9f49d4d06bcf5d6770fc1db5e686075e189de1be46676568d4f324ec3573f"
     },
     {
-      "bytes": 26061,
+      "bytes": 26060,
       "path": "docs/ROUND-12-PROCESS-TRACKER.md",
-      "sha256": "sha256:c699add9b882ab6e9f3dfc84e35cdbd84dc65b046f559eac8dfd40d8a66db175"
+      "sha256": "sha256:ff4e8b9be7983b705e2fbf848ac4e7fc4fe27a582a490088cb3c9ef28ffdb5a2"
     },
     {
-      "bytes": 12255,
+      "bytes": 13049,
       "path": "docs/ROUND-12-SNAPINVOICE-BUILD-SPEC.md",
-      "sha256": "sha256:88e216064bef2220a395f0175feb05a5c49cecbf4ea345beef3b67e344f6a68a"
+      "sha256": "sha256:617d9e833363a3faffe7f72de7d0a9302a882fa60816ebced93ec571c9abe7e7"
     },
     {
-      "bytes": 30379,
+      "bytes": 32610,
       "path": "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md",
-      "sha256": "sha256:db55d9a6b73c52931a943286e60163ff8faaf1eb567055d5446fb44e9955db80"
+      "sha256": "sha256:8107959235fcff8abcb803f4d9033b414f296f4f34c28066ecc180924ffdb91e"
     },
     {
       "bytes": 28944,
@@ -249,6 +249,11 @@
       "sha256": "sha256:789f788db8c6200c2f0706e975a10595318191a4019b6fcef882d00149842104"
     },
     {
+      "bytes": 10437,
+      "path": "docs/XPRIZE-BACKPOCKET-OPPORTUNITY-AUDIT-2026-08-11.md",
+      "sha256": "sha256:8b089cb1e298539440b176dc0bb67c71c4d55037ee9d834db7c3cfba7b8e68c7"
+    },
+    {
       "bytes": 10514,
       "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
       "sha256": "sha256:ceff3700e3e600fe49889ab55c0278245468a0a207439dd16db890aeca8f330f"
@@ -256,15 +261,15 @@
     {
       "bytes": 170790,
       "path": "docs/focus-groups.json",
-      "sha256": "sha256:f2afb683b55e9a8a98d26aacecb91f29c2a4992610fd0b1ec54dcdd6170d5abb"
+      "sha256": "sha256:16e2d438114e9c7f4f350a7a995529800582539c232145303381856ef1395fad"
     },
     {
-      "bytes": 320385,
+      "bytes": 320748,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:ca4537204099aa29f260dcb0735f08bf82897c4bc0579244da71bb8a7e310de7"
+      "sha256": "sha256:24d520d72431a04b433801a27b7e021026c55daf5fa934ee2a4f7cd738cf386e"
     }
   ],
-  "sourceHash": "sha256:2cca5f8afc7a8cfcc6868cd5f28500af7555b1b69bd5a82c8a827c34d42ef492",
+  "sourceHash": "sha256:2dc7e706d61d6b99c8ad1ab8778d8d53fab3f50866e2513e2006f48b77a1d8e8",
   "sourceSchemaVersion": 1,
   "sourceUpdatedAt": "2026-08-11"
 }
