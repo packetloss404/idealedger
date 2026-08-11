@@ -69,6 +69,7 @@ export const statusDefinitions: Readonly<Record<IdeaStatus, string>> = catalog.s
 export const ledgerCounts = ledgerManifest.counts;
 
 const ideasById = new Map(ideas.map((idea) => [idea.id, idea]));
+const focusGroupStudiesById = new Map(focusGroupStudies.map((study) => [study.id, study]));
 const researchMetadataBySlug = new Map(
   researchMetadata.map((document) => [document.slug, document]),
 );
@@ -76,6 +77,10 @@ const provenanceByIdeaId = new Map(researchProvenance.map((entry) => [entry.idea
 
 export function getIdeaById(id: string | undefined): Idea | undefined {
   return id ? ideasById.get(id) : undefined;
+}
+
+export function getFocusGroupStudyById(id: string | undefined): FocusGroupStudy | undefined {
+  return id ? focusGroupStudiesById.get(id) : undefined;
 }
 
 export function getResearchMetadataBySlug(

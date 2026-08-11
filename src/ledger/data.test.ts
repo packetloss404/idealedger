@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import {
   getIdeaById,
+  getFocusGroupStudyById,
   getResearchMapping,
   getResearchMetadataForIdea,
   getResearchProvenance,
@@ -46,7 +47,9 @@ describe('generated ledger repository', () => {
     const xprize = focusGroupStudies.find((study) => study.id === 'xprize-persona-synthesis');
     expect(xprize?.method).toBe('simulated_persona');
     expect(xprize?.linkedIdeaIds).toContain('lot-match');
+    expect(getFocusGroupStudyById('xprize-persona-synthesis')).toBe(xprize);
     expect(xprize?.dossierRoute).toBe('/research/xprize-focus-group-synthesis-2026-08-10');
+    expect(xprize?.route).toBe('/focus-groups/xprize-persona-synthesis');
   });
 
   it('keeps evidence mapping honest', () => {

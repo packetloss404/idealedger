@@ -16,6 +16,10 @@ interface ResearchArtifact {
   documents: Array<{ route: string; slug: string; title: string }>;
 }
 
+interface FocusGroupArtifact {
+  studies: Array<{ id: string; route: string; title: string }>;
+}
+
 const routeManifest = JSON.parse(
   fs.readFileSync('src/generated/idea-ledger/routes.json', 'utf8'),
 ) as RouteManifest;
@@ -25,6 +29,9 @@ const catalog = JSON.parse(
 const research = JSON.parse(
   fs.readFileSync('src/generated/idea-ledger/research-documents.json', 'utf8'),
 ) as ResearchArtifact;
+const focusGroups = JSON.parse(
+  fs.readFileSync('src/generated/idea-ledger/focus-groups.json', 'utf8'),
+) as FocusGroupArtifact;
 
 const test = base.extend<{ runtimeErrors: string[] }>({
   runtimeErrors: [async ({ page }, use) => {
@@ -49,7 +56,7 @@ test('presents the whole database as the durable home', async ({ page }) => {
   await expect(page.getByText(/Round-8 recommendation/i)).toHaveCount(0);
 });
 
-test('turns focus-group synthesis into a method-labeled research room', async ({ page }) => {
+test('turns focus-group synthesis into a method-labeled dashboard', async ({ page }) => {
   await page.goto('focus-groups');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Focus groups' })).toBeVisible();
@@ -57,19 +64,35 @@ test('turns focus-group synthesis into a method-labeled research room', async ({
     level: 2,
     name: 'A hypothesis lab, not a wall of fake customer quotes.',
   })).toBeVisible();
+  await expect(page.getByRole('heading', {
+    level: 2,
+    name: 'Every group, broken out and addressable',
+  })).toBeVisible();
   await expect(page.getByText('Recruited studies').locator('..').getByText('0')).toBeVisible();
   await expect(page.getByText('Simulated personas', { exact: true })).toHaveCount(2);
-  await expect(page.getByRole('heading', {
-    level: 2,
-    name: 'XPRIZE market and persona synthesis',
-  })).toBeVisible();
-  await expect(page.getByRole('heading', {
-    level: 2,
-    name: 'Loop social-product synthetic panel',
-  })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'XPRIZE market and persona synthesis' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Loop social-product synthetic panel' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Open study room' })).toHaveCount(2);
+  await expect(page.getByRole('link', { name: 'Source dossier' })).toHaveCount(2);
+});
+
+test('filters the generated focus-group dashboard and opens an addressable study room', async ({ page }) => {
+  await page.goto('focus-groups');
+  await page.getByRole('searchbox', { name: 'Search studies and segments' }).fill('single parents');
+
+  await expect(page).toHaveURL(/q=single\+parents/);
+  await expect(page.getByRole('status')).toHaveText('Showing 1 of 2 studies');
+  await expect(page.getByRole('link', { name: 'XPRIZE market and persona synthesis' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Loop social-product synthetic panel' })).toHaveCount(0);
+
+  await page.reload();
+  await expect(page.getByRole('status')).toHaveText('Showing 1 of 2 studies');
+  await page.getByRole('link', { name: 'Open study room' }).click();
+  await expect(page).toHaveURL(/focus-groups\/xprize-persona-synthesis/);
+  await expect(page.getByRole('heading', { level: 1, name: 'XPRIZE market and persona synthesis' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: '5 perspectives, with objections intact' })).toBeVisible();
   await expect(page.getByRole('link', { name: /LotMatch Validating/ })).toBeVisible();
-  await expect(page.getByRole('link', { name: /Loop Parked/ })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Read source dossier' })).toHaveCount(2);
+  await expect(page.getByRole('link', { name: 'Read source dossier' })).toBeVisible();
 });
 
 test('loads and reloads an idea route directly', async ({ page }) => {
@@ -180,6 +203,11 @@ test('hydrates every generated entity route with its canonical heading', async (
       heading: document.title,
       id: document.slug,
       route: document.route,
+    })),
+    ...focusGroups.studies.map((study) => ({
+      heading: study.title,
+      id: study.id,
+      route: study.route,
     })),
   ];
   const failures: string[] = [];

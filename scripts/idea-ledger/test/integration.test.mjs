@@ -9,7 +9,6 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   const counts = result.artifacts['manifest.json'].counts;
   const quality = result.artifacts['quality-report.json'];
   assert.deepEqual(counts, {
-    focusGroupStudies: 2,
     ideas: 307,
     dossiers: 20,
     focusGroupStudies: 2,
@@ -32,6 +31,11 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   assert.equal(focusGroups.counts.segments, 13);
   assert.equal(focusGroups.counts.recruitedStudies, 0);
   assert.equal(focusGroups.counts.simulatedStudies, 2);
+  assert.deepEqual(result.artifacts['routes.json'].focusGroupRoutes, [
+    '/focus-groups',
+    '/focus-groups/loop-social-synthetic-panel',
+    '/focus-groups/xprize-persona-synthesis',
+  ]);
   assert.ok(
     focusGroups.studies
       .find((study) => study.id === 'xprize-persona-synthesis')

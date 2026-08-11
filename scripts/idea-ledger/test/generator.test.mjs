@@ -68,6 +68,11 @@ test('focus-group studies preserve method limits and canonical idea links', asyn
     assert.equal(focusGroups.counts.recruitedStudies, 0);
     assert.equal(focusGroups.studies[0].method, 'simulated_persona');
     assert.deepEqual(focusGroups.studies[0].linkedIdeaIds, ['fixture-idea']);
+    assert.equal(focusGroups.studies[0].route, '/focus-groups/fixture-panel');
     assert.equal(focusGroups.studies[0].dossierRoute, '/research/research');
+    assert.deepEqual(result.artifacts['routes.json'].focusGroupRoutes, [
+      '/focus-groups',
+      '/focus-groups/fixture-panel',
+    ]);
   });
 });

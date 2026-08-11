@@ -65,7 +65,7 @@
           "summary": "Coordination, safety, compliance, gig-finance, application, and medical-bill concepts repeated known platform, trust, incumbent, and two-party adoption failures."
         }
       ],
-      "route": "/focus-groups#xprize-persona-synthesis",
+      "route": "/focus-groups/xprize-persona-synthesis",
       "sample_label": "Five demographic signal clusters plus specialist reviews",
       "segments": [
         {
@@ -130,7 +130,7 @@
           "summary": "The panel narrowed Loop toward adults who already have relationships but struggle with fragmented communication and follow-through. Its current canonical decision is still shown separately."
         }
       ],
-      "route": "/focus-groups#loop-social-synthetic-panel",
+      "route": "/focus-groups/loop-social-synthetic-panel",
       "sample_label": "Eight research-derived persona composites",
       "segments": [
         {

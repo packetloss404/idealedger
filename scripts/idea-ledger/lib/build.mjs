@@ -229,7 +229,7 @@ function buildFocusGroups(focusGroups, researchDocuments, sourceHash) {
     }
     return {
       ...study,
-      route: `/focus-groups#${study.id}`,
+        route: `/focus-groups/${study.id}`,
       dossierSlug: document.slug,
       dossierRoute: `${document.route}${study.anchor ? `#${study.anchor}` : ''}`,
       linkedIdeaIds: sorted(new Set(study.outcomes.flatMap((outcome) => outcome.idea_ids))),
@@ -340,11 +340,14 @@ export async function buildArtifacts(repoRoot) {
   const searchDocuments = buildSearchDocuments(source, researchDocuments, snapshot.sourceHash);
   const researchMetadata = buildResearchMetadata(researchDocuments, snapshot.sourceHash);
   const routes = buildRoutes(source, researchDocuments, snapshot.sourceHash);
-  routes.focusGroupRoutes = ['/focus-groups'];
+  routes.focusGroupRoutes = [
+    '/focus-groups',
+    ...focusGroups.studies.map((study) => `/focus-groups/${study.id}`),
+  ].sort();
   const qualityReport = buildQualityReport(source, researchDocuments, snapshot.sourceHash);
   const focusGroupArtifact = buildFocusGroups(focusGroups, researchDocuments, snapshot.sourceHash);
   const manifest = {
-    generatorVersion: 3,
+      generatorVersion: 4,
     sourceSchemaVersion: 1,
     sourceUpdatedAt: source.updated_at,
     sourceHash: snapshot.sourceHash,

@@ -1,6 +1,8 @@
 {
   "focusGroupRoutes": [
-    "/focus-groups"
+    "/focus-groups",
+    "/focus-groups/loop-social-synthetic-panel",
+    "/focus-groups/xprize-persona-synthesis"
   ],
   "ideaIds": [
     "accessibility-mode-receipt",

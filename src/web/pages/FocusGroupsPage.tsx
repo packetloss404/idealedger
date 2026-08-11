@@ -1,138 +1,120 @@
-import { Link } from 'react-router-dom';
+import { useMemo } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
 
-import type { FocusGroupDisposition, FocusGroupStudy } from '../../ledger';
+import { normalizeSearch } from '../../ledger';
+import type { FocusGroupMethod, FocusGroupStudy } from '../../ledger';
+import { FocusGroupMethodLabel } from '../components/FocusGroupStudy';
 import { PageHeader } from '../components/PageHeader';
-import { StatusLabel } from '../components/StatusLabels';
+
 import {
   focusGroupCounts,
   focusGroupStudies,
   focusGroupsUpdatedAt,
-  getIdea,
 } from '../ledger-adapter';
 
-const dispositionLabels: Record<FocusGroupDisposition, string> = {
-  advanced: 'Advanced in study',
-  bounded: 'Bounded follow-up',
-  struck: 'Struck hypotheses',
-};
+type MethodFilter = 'all' | FocusGroupMethod;
 
-function MethodLabel({ study }: { study: FocusGroupStudy }) {
-  const label = study.method === 'recruited_participants'
-    ? 'Recruited participants'
-    : 'Simulated personas';
-  return <span className={`focus-method focus-method-${study.method}`}>{label}</span>;
+const methodFilters: { label: string; value: MethodFilter }[] = [
+  { label: 'All studies', value: 'all' },
+  { label: 'Recruited', value: 'recruited_participants' },
+  { label: 'Simulated', value: 'simulated_persona' },
+];
+
+function methodCount(method: MethodFilter): number {
+  if (method === 'all') return focusGroupCounts.studies;
+  return method === 'recruited_participants'
+    ? focusGroupCounts.recruitedStudies
+    : focusGroupCounts.simulatedStudies;
 }
 
-function StudyIndex({ study, number }: { number: number; study: FocusGroupStudy }) {
-  return (
-    <a className="focus-study-index" href={`#${study.id}`}>
-      <span className="focus-study-number">{String(number).padStart(2, '0')}</span>
-      <span>
-        <b>{study.title}</b>
-        <small>{study.sample_label}</small>
-      </span>
-      <span aria-hidden="true">↓</span>
-    </a>
-  );
+function studySearchText(study: FocusGroupStudy): string {
+  return normalizeSearch([
+    study.title,
+    study.sample_label,
+    study.summary,
+    study.segments.flatMap((segment) => [
+      segment.label,
+      segment.primary_job,
+      segment.signal,
+      segment.objection,
+    ]).join(' '),
+  ].join(' '));
 }
 
-function StudySection({ study, number }: { number: number; study: FocusGroupStudy }) {
+function StudyDashboardCard({ study, number }: { number: number; study: FocusGroupStudy }) {
+  const outcomeCounts = Object.fromEntries(
+    ['advanced', 'bounded', 'struck'].map((disposition) => [
+      disposition,
+      study.outcomes
+        .filter((outcome) => outcome.disposition === disposition)
+        .reduce((total, outcome) => total + outcome.idea_ids.length, 0),
+    ]),
+  ) as Record<'advanced' | 'bounded' | 'struck', number>;
+
   return (
-    <article className="focus-study" id={study.id}>
-      <header className="focus-study-header">
-        <div>
-          <div className="focus-study-meta">
-            <span className="focus-study-number">Study {String(number).padStart(2, '0')}</span>
-            <MethodLabel study={study} />
-            <time dateTime={study.conducted_at}>{study.conducted_at}</time>
-          </div>
-          <h2>{study.title}</h2>
-          <p>{study.summary}</p>
-        </div>
-        <Link className="button button-secondary" to={study.dossierRoute}>Read source dossier</Link>
+    <article className="focus-dashboard-card" id={study.id}>
+      <header>
+        <span className="focus-study-number">Study {String(number).padStart(2, '0')}</span>
+        <FocusGroupMethodLabel study={study} />
+        <time dateTime={study.conducted_at}>{study.conducted_at}</time>
       </header>
-
-      <aside className="focus-limitation" aria-label={`${study.title} evidence limitation`}>
-        <span>Evidence boundary</span>
-        <p>{study.limitation}</p>
-      </aside>
-
-      <section aria-labelledby={`${study.id}-segments`}>
-        <div className="section-heading-row focus-section-heading">
-          <div>
-            <div className="section-kicker">Segment signal board</div>
-            <h3 id={`${study.id}-segments`}>{study.segments.length} perspectives, with objections intact</h3>
-          </div>
-        </div>
-        <div className="focus-segment-grid">
-          {study.segments.map((segment) => (
-            <article className="focus-segment" key={segment.id}>
-              <h4>{segment.label}</h4>
-              <dl>
-                <div>
-                  <dt>Primary job</dt>
-                  <dd>{segment.primary_job}</dd>
-                </div>
-                <div>
-                  <dt>Signal</dt>
-                  <dd>{segment.signal}</dd>
-                </div>
-                <div>
-                  <dt>Main objection</dt>
-                  <dd>{segment.objection}</dd>
-                </div>
-              </dl>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="focus-outcomes" aria-labelledby={`${study.id}-outcomes`}>
-        <div className="section-heading-row focus-section-heading">
-          <div>
-            <div className="section-kicker">Decision impact</div>
-            <h3 id={`${study.id}-outcomes`}>What this study changed</h3>
-          </div>
-        </div>
-        <div className="focus-outcome-list">
-          {study.outcomes.map((outcome) => (
-            <article className={`focus-outcome focus-outcome-${outcome.disposition}`} key={outcome.label}>
-              <span className="focus-outcome-label">{dispositionLabels[outcome.disposition]}</span>
-              <h4>{outcome.label}</h4>
-              <p>{outcome.summary}</p>
-              {outcome.idea_ids.length ? (
-                <div className="focus-idea-list" aria-label={`${outcome.label} linked ideas`}>
-                  {outcome.idea_ids.map((ideaId) => {
-                    const idea = getIdea(ideaId);
-                    if (!idea) return null;
-                    return (
-                      <Link className="focus-idea" key={idea.id} to={idea.route}>
-                        <span>{idea.name}</span>
-                        <StatusLabel status={idea.status} />
-                      </Link>
-                    );
-                  })}
-                </div>
-              ) : null}
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <footer className="focus-next-step">
-        <span>Next real research</span>
-        <p>{study.next_step}</p>
+      <div className="focus-dashboard-card-copy">
+        <h3><Link to={study.route}>{study.title}</Link></h3>
+        <p>{study.sample_label}</p>
+      </div>
+      <dl className="focus-dashboard-card-stats">
+        <div><dt>{study.segments.length}</dt><dd>Perspectives</dd></div>
+        <div><dt>{study.linkedIdeaIds.length}</dt><dd>Ideas linked</dd></div>
+        <div><dt>{study.outcomes.length}</dt><dd>Decision lanes</dd></div>
+      </dl>
+      <div className="focus-dashboard-dispositions" aria-label="Linked idea outcomes in this study">
+        <span><b>{outcomeCounts.advanced}</b> advanced</span>
+        <span><b>{outcomeCounts.bounded}</b> bounded</span>
+        <span><b>{outcomeCounts.struck}</b> struck</span>
+      </div>
+      <div className="focus-dashboard-segments" aria-label="Study segments">
+        {study.segments.map((segment) => <span key={segment.id}>{segment.label}</span>)}
+      </div>
+      <footer>
+        <Link className="button button-primary" to={study.route}>Open study room</Link>
+        <Link className="button button-secondary" to={study.dossierRoute}>Source dossier</Link>
       </footer>
     </article>
   );
 }
 
 export function FocusGroupsPage() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = searchParams.get('q')?.trim() ?? '';
+  const requestedMethod = searchParams.get('method');
+  const method: MethodFilter = requestedMethod === 'recruited_participants'
+    || requestedMethod === 'simulated_persona'
+    ? requestedMethod
+    : 'all';
+  const normalizedQuery = normalizeSearch(query);
+
+  const studies = useMemo(() => [...focusGroupStudies].sort((left, right) => (
+    right.conducted_at.localeCompare(left.conducted_at) || left.title.localeCompare(right.title)
+  )), []);
+  const visibleStudies = studies.filter((study) => (
+    (method === 'all' || study.method === method)
+    && (!normalizedQuery || studySearchText(study).includes(normalizedQuery))
+  ));
+
+  function updateFilters(next: { method?: MethodFilter; query?: string }) {
+    const nextMethod = next.method ?? method;
+    const nextQuery = next.query ?? query;
+    const params = new URLSearchParams();
+    if (nextQuery.trim()) params.set('q', nextQuery.trim());
+    if (nextMethod !== 'all') params.set('method', nextMethod);
+    setSearchParams(params, { replace: true });
+  }
+
   return (
     <div className="page page-focus-groups">
       <PageHeader
         eyebrow={<><span className="eyebrow-dot" /> Research room · updated {focusGroupsUpdatedAt}</>}
-        intro={<p>Review who a concept is hypothesized to serve, what reaction the research predicts, what objection could kill it, and whether that signal came from simulated synthesis or recruited people.</p>}
+        intro={<p>Each study is its own durable room. Search the whole collection, inspect its method and segment perspectives, then follow the exact ideas and research gates it changed.</p>}
         title="Focus groups"
       />
 
@@ -150,17 +132,62 @@ export function FocusGroupsPage() {
         </dl>
       </section>
 
-      <nav className="focus-study-index-list" aria-label="Focus-group studies">
-        {focusGroupStudies.map((study, index) => (
-          <StudyIndex key={study.id} number={index + 1} study={study} />
-        ))}
-      </nav>
+      <section className="focus-dashboard" aria-labelledby="focus-dashboard-heading">
+        <div className="section-heading-row focus-dashboard-heading">
+          <div>
+            <div className="section-kicker">Study dashboard</div>
+            <h2 id="focus-dashboard-heading">Every group, broken out and addressable</h2>
+            <p>Cards and study rooms are generated directly from <code>focus-groups.json</code>. Add a valid study, regenerate, and it appears here automatically.</p>
+          </div>
+        </div>
 
-      <div className="focus-study-list">
-        {focusGroupStudies.map((study, index) => (
-          <StudySection key={study.id} number={index + 1} study={study} />
-        ))}
-      </div>
+        <div className="focus-dashboard-controls">
+          <form onSubmit={(event) => event.preventDefault()} role="search">
+            <label htmlFor="focus-group-search">Search studies and segments</label>
+            <input
+              autoComplete="off"
+              id="focus-group-search"
+              onChange={(event) => updateFilters({ query: event.currentTarget.value })}
+              placeholder="Search a group, job, signal, or objection…"
+              type="search"
+              value={query}
+            />
+          </form>
+          <div className="focus-method-filters" aria-label="Filter studies by method">
+            {methodFilters.map((filter) => (
+              <button
+                aria-pressed={method === filter.value}
+                key={filter.value}
+                onClick={() => updateFilters({ method: filter.value })}
+                type="button">
+                {filter.label} <span>{methodCount(filter.value)}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div aria-live="polite" className="focus-dashboard-results" role="status">
+          Showing {visibleStudies.length} of {focusGroupCounts.studies} studies
+        </div>
+
+        {visibleStudies.length ? (
+          <div className="focus-dashboard-grid">
+            {visibleStudies.map((study) => (
+              <StudyDashboardCard
+                key={study.id}
+                number={studies.findIndex((candidate) => candidate.id === study.id) + 1}
+                study={study}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="focus-dashboard-empty">
+            <h3>No studies match this lens</h3>
+            <p>Clear the search or include another research method. The canonical study data remains unchanged.</p>
+            <button className="button button-secondary" onClick={() => updateFilters({ method: 'all', query: '' })} type="button">Clear filters</button>
+          </div>
+        )}
+      </section>
     </div>
   );
 }

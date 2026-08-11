@@ -1,5 +1,6 @@
 export {
   getIdeaById,
+  getFocusGroupStudyById,
   getResearchMapping,
   getResearchMetadataBySlug,
   getResearchMetadataForIdea,

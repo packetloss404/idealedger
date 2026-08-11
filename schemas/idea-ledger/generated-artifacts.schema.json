@@ -28,7 +28,7 @@
         "counts"
       ],
       "properties": {
-        "generatorVersion": { "const": 3 },
+        "generatorVersion": { "const": 4 },
         "sourceSchemaVersion": { "const": 1 },
         "sourceUpdatedAt": { "type": "string", "format": "date" },
         "sourceHash": { "$ref": "#/$defs/hash" },
@@ -291,7 +291,7 @@
           "items": { "$ref": "#/$defs/focusGroupOutcome" }
         },
         "next_step": { "type": "string", "minLength": 1 },
-        "route": { "type": "string", "pattern": "^/focus-groups#" },
+        "route": { "type": "string", "pattern": "^/focus-groups/[a-z0-9]+(?:-[a-z0-9]+)*$" },
         "dossierSlug": { "type": "string", "minLength": 1 },
         "dossierRoute": { "type": "string", "pattern": "^/research/" },
         "linkedIdeaIds": { "type": "array", "items": { "type": "string" } }

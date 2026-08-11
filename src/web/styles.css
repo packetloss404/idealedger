@@ -1968,6 +1968,248 @@ a:hover {
   font-size: 11px;
 }
 
+.focus-dashboard {
+  margin-top: 64px;
+}
+
+.focus-dashboard-heading {
+  align-items: end;
+  margin-bottom: 18px;
+}
+
+.focus-dashboard-heading h2 {
+  margin: 6px 0 8px;
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -0.035em;
+}
+
+.focus-dashboard-heading p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--ink-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.focus-dashboard-controls {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) auto;
+  align-items: end;
+  gap: 20px;
+  border-top: 1px solid var(--border-strong);
+  border-bottom: 1px solid var(--border);
+  padding: 18px 0;
+}
+
+.focus-dashboard-controls form {
+  display: grid;
+  gap: 7px;
+}
+
+.focus-dashboard-controls label {
+  color: var(--ink-tertiary);
+  font-size: 9px;
+  font-weight: 760;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.focus-dashboard-controls input {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--border-strong);
+  border-radius: 7px;
+  background: var(--surface-elevated);
+  color: var(--ink);
+  padding: 0 14px;
+  font: inherit;
+}
+
+.focus-method-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.focus-method-filters button {
+  min-height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-elevated);
+  color: var(--ink-secondary);
+  padding: 7px 11px;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 680;
+  cursor: pointer;
+}
+
+.focus-method-filters button span {
+  margin-left: 4px;
+  color: var(--ink-tertiary);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.focus-method-filters button[aria-pressed='true'] {
+  border-color: var(--accent-strong);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.focus-dashboard-results {
+  min-height: 34px;
+  color: var(--ink-tertiary);
+  padding: 12px 0 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.focus-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--border-strong);
+  border-left: 1px solid var(--border);
+}
+
+.focus-dashboard-card {
+  display: grid;
+  min-width: 0;
+  align-content: start;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-elevated);
+  padding: 22px;
+  scroll-margin-top: calc(var(--topbar-height) + 24px);
+}
+
+.focus-dashboard-card > header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.focus-dashboard-card time,
+.page-focus-study .page-header time {
+  color: var(--ink-tertiary);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+}
+
+.focus-dashboard-card-copy h3 {
+  margin: 18px 0 8px;
+  font-size: 21px;
+  letter-spacing: -0.025em;
+}
+
+.focus-dashboard-card-copy h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.focus-dashboard-card-copy h3 a:hover { color: var(--accent-strong); }
+
+.focus-dashboard-card-copy p {
+  min-height: 38px;
+  margin: 0;
+  color: var(--ink-secondary);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.focus-dashboard-card-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 20px 0 0;
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+}
+
+.focus-dashboard-card-stats div {
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 10px;
+}
+
+.focus-dashboard-card-stats dt {
+  font-size: 19px;
+  font-weight: 760;
+}
+
+.focus-dashboard-card-stats dd {
+  margin: 3px 0 0;
+  color: var(--ink-tertiary);
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.focus-dashboard-dispositions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  padding: 12px 0;
+  color: var(--ink-secondary);
+  font-size: 10px;
+}
+
+.focus-dashboard-dispositions b { color: var(--ink); }
+
+.focus-dashboard-segments {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 5px;
+  min-height: 72px;
+  padding: 14px 0;
+}
+
+.focus-dashboard-segments span {
+  display: inline-flex;
+  min-height: 25px;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--ink-secondary);
+  padding: 4px 8px;
+  font-size: 9px;
+}
+
+.focus-dashboard-card > footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.focus-dashboard-empty {
+  border: 1px dashed var(--border-strong);
+  border-radius: 8px;
+  padding: 28px;
+  text-align: center;
+}
+
+.focus-dashboard-empty h3 { margin: 0 0 8px; }
+.focus-dashboard-empty p { margin: 0 0 18px; color: var(--ink-secondary); }
+
+.page-focus-study .page-header {
+  border-top: 2px solid var(--ink);
+  padding-top: 24px;
+}
+
+.page-focus-study .page-header .eyebrow {
+  gap: 8px;
+}
+
+.page-focus-study .page-intro small {
+  display: block;
+  margin-top: 8px;
+  color: var(--ink-tertiary);
+  font-size: 11px;
+}
+
 .focus-study-index-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2116,7 +2358,7 @@ a:hover {
   margin-top: 42px;
 }
 
-.focus-section-heading h3 {
+.focus-section-heading h2 {
   margin: 6px 0 0;
   font-size: 22px;
   letter-spacing: -0.025em;
@@ -2136,7 +2378,7 @@ a:hover {
   padding: 22px;
 }
 
-.focus-segment h4 {
+.focus-segment h3 {
   margin: 0 0 16px;
   font-size: 16px;
 }
@@ -2204,7 +2446,7 @@ a:hover {
   color: var(--danger-ink);
 }
 
-.focus-outcome h4 {
+.focus-outcome h3 {
   margin: 14px 0 7px;
   font-size: 16px;
 }
@@ -2264,6 +2506,7 @@ a:hover {
 
 @media (max-width: 1199px) {
   .focus-boundary { grid-template-columns: minmax(0, 1fr); }
+  .focus-dashboard-controls { grid-template-columns: minmax(0, 1fr); }
   .focus-outcome-list { grid-template-columns: minmax(0, 1fr); }
   :root { --sidebar-width: 168px; }
   .brand-copy small { display: none; }
@@ -2399,17 +2642,18 @@ a:hover {
 
   .focus-boundary { padding: 22px; }
 
-  .focus-study-index-list,
+  .focus-dashboard { margin-top: 46px; }
+
+  .focus-dashboard-grid,
+  .focus-dashboard-card-stats,
   .focus-segment-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .focus-study-header {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 18px;
-  }
+  .focus-dashboard-card-copy p,
+  .focus-dashboard-segments { min-height: 0; }
 
-  .focus-study-header .button { width: fit-content; }
+  .focus-dashboard-card > footer .button { flex: 1; }
 
   .focus-limitation,
   .focus-next-step {

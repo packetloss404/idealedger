@@ -1,5 +1,6 @@
 export { ComparePage } from './ComparePage';
 export { DashboardPage } from './DashboardPage';
+export { FocusGroupDetailPage } from './FocusGroupDetailPage';
 export { FocusGroupsPage } from './FocusGroupsPage';
 export { IdeaDetailPage } from './IdeaDetailPage';
 export { IdeasPage } from './IdeasPage';
