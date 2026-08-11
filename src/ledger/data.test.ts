@@ -19,14 +19,14 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(307);
-    expect(researchMetadata).toHaveLength(20);
+    expect(ideas).toHaveLength(316);
+    expect(researchMetadata).toHaveLength(26);
     expect(ledgerCounts).toEqual({
-      dossiers: 20,
-      focusGroupStudies: 2,
-      ideas: 307,
-      researchEdges: 354,
-      searchDocuments: 327,
+      dossiers: 26,
+      focusGroupStudies: 32,
+      ideas: 316,
+      researchEdges: 377,
+      searchDocuments: 342,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -36,13 +36,13 @@ describe('generated ledger repository', () => {
   });
 
   it('exposes structured focus-group studies without presenting simulation as participants', () => {
-    expect(focusGroupStudies).toHaveLength(2);
+    expect(focusGroupStudies).toHaveLength(32);
     expect(focusGroupCounts).toEqual({
-      linkedIdeas: 12,
+      linkedIdeas: 31,
       recruitedStudies: 0,
-      segments: 13,
-      simulatedStudies: 2,
-      studies: 2,
+      segments: 163,
+      simulatedStudies: 32,
+      studies: 32,
     });
     const xprize = focusGroupStudies.find((study) => study.id === 'xprize-persona-synthesis');
     expect(xprize?.method).toBe('simulated_persona');
@@ -50,6 +50,10 @@ describe('generated ledger repository', () => {
     expect(getFocusGroupStudyById('xprize-persona-synthesis')).toBe(xprize);
     expect(xprize?.dossierRoute).toBe('/research/xprize-focus-group-synthesis-2026-08-10');
     expect(xprize?.route).toBe('/focus-groups/xprize-persona-synthesis');
+    const monetization = getFocusGroupStudyById('round-11-focus-group-30');
+    expect(monetization?.segments).toHaveLength(5);
+    expect(monetization?.linkedIdeaIds).toContain('monetization-canary');
+    expect(monetization?.dossierRoute).toContain('#15-focus-group-30--indie-app-developers-deep-hamm-lane');
   });
 
   it('keeps evidence mapping honest', () => {
@@ -67,20 +71,21 @@ describe('generated ledger repository', () => {
       'idea-mining-loop-2026-08-09',
       'hackathon-research-synthesis-2026-08-10',
       'xprize-focus-group-synthesis-2026-08-10',
+      'shipaton-mclovin-round-11-2026-08-10',
     ]);
   });
 
   it('loads full Markdown research only through the async repository', async () => {
     const repository = await loadResearchRepository();
-    expect(repository.documents).toHaveLength(20);
+    expect(repository.documents).toHaveLength(26);
     expect(repository.getBySlug('idea-mining-loop-2026-08-09')?.markdown).toContain('LotMatch');
     expect(repository.getForIdea('afterglow')).toEqual([]);
   });
 
   it.each([
     ['crash-recoverable-field-recorder', 'conditional-survivor-crashtape', 4],
-    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 3],
-    ['lot-match', '1-lotmatch--strongest-business-candidate', 3],
+    ['weed-check', '2-weedcheck--strongest-shipaton-candidate', 4],
+    ['lot-match', '1-lotmatch--strongest-business-candidate', 4],
     ['fabric-bolt-job-gate', 'fresh-survivor-cutbolt', 1],
     ['spin-loop', 'spinloop', 1],
   ])('exposes a generator-owned heading anchor for %s', (ideaId, expectedAnchor, count) => {
@@ -109,6 +114,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(711);
+    expect(tagOptions).toHaveLength(733);
   });
 });

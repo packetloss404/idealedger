@@ -3,6 +3,53 @@
     {
       "headings": [
         {
+          "anchor": "active-hackathon-context--backpockethelp--2026-08-10",
+          "depth": 1,
+          "text": "Active Hackathon Context — BackPocket.help — 2026-08-10"
+        },
+        {
+          "anchor": "purpose",
+          "depth": 2,
+          "text": "Purpose"
+        },
+        {
+          "anchor": "current-active-build",
+          "depth": 2,
+          "text": "Current active build"
+        },
+        {
+          "anchor": "xprize-specific-constraints",
+          "depth": 2,
+          "text": "XPRIZE-specific constraints"
+        },
+        {
+          "anchor": "relationship-to-other-hackathons",
+          "depth": 2,
+          "text": "Relationship to other hackathons"
+        },
+        {
+          "anchor": "ledger-policy",
+          "depth": 2,
+          "text": "Ledger policy"
+        },
+        {
+          "anchor": "immediate-backpocket-research-questions",
+          "depth": 2,
+          "text": "Immediate BackPocket research questions"
+        }
+      ],
+      "linkedIdeaIds": [
+        "backpocket-help"
+      ],
+      "path": "docs/ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md",
+      "route": "/research/active-hackathon-context-backpocket-2026-08-10",
+      "sha256": "sha256:71da7cd201d167cd9dfb2feea0dcff39a817463dbbe549ebfc20e02b5e0efb55",
+      "slug": "active-hackathon-context-backpocket-2026-08-10",
+      "title": "Active Hackathon Context — BackPocket.help — 2026-08-10"
+    },
+    {
+      "headings": [
+        {
           "anchor": "dinner-decision-deep-dive-and-adversarial-review",
           "depth": 1,
           "text": "Dinner Decision: Deep-Dive and Adversarial Review"
@@ -235,6 +282,2306 @@
     {
       "headings": [
         {
+          "anchor": "mclovin-independent-research-lane-focus-groups-0115",
+          "depth": 1,
+          "text": "MCLOVIN independent research lane: Focus Groups 01–15"
+        },
+        {
+          "anchor": "epistemic-and-simulation-boundary",
+          "depth": 2,
+          "text": "Epistemic and simulation boundary"
+        },
+        {
+          "anchor": "starting-state-ledger-memory-loaded-before-ideation",
+          "depth": 2,
+          "text": "Starting state: Ledger memory loaded before ideation"
+        },
+        {
+          "anchor": "ten-prior-lessons-binding-this-lane",
+          "depth": 3,
+          "text": "Ten prior lessons binding this lane"
+        },
+        {
+          "anchor": "focus-group-01--home-repair",
+          "depth": 2,
+          "text": "Focus Group 01 — Home Repair"
+        },
+        {
+          "anchor": "a-participants",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-02--automotive-ownership--repair",
+          "depth": 2,
+          "text": "Focus Group 02 — Automotive Ownership & Repair"
+        },
+        {
+          "anchor": "a-participants-1",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-1",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-1",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-1",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-1",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-1",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-1",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-1",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-1",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-1",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-1",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-1",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-1",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-03--insurance-administration",
+          "depth": 2,
+          "text": "Focus Group 03 — Insurance Administration"
+        },
+        {
+          "anchor": "a-participants-2",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-2",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-2",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-2",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-2",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-2",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-2",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-2",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-2",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-2",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-2",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-2",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-2",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-04--renting--security-deposits",
+          "depth": 2,
+          "text": "Focus Group 04 — Renting & Security Deposits"
+        },
+        {
+          "anchor": "a-participants-3",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-3",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-3",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-3",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-3",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-3",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-3",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-3",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-3",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-3",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-3",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-3",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-3",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-05--moving",
+          "depth": 2,
+          "text": "Focus Group 05 — Moving"
+        },
+        {
+          "anchor": "a-participants-4",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-4",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-4",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-4",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-4",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-4",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-4",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-4",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-4",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-4",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-4",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-4",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-4",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-06--household-administration",
+          "depth": 2,
+          "text": "Focus Group 06 — Household Administration"
+        },
+        {
+          "anchor": "a-participants-5",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-5",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-5",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-5",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-5",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-5",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-5",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-5",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-5",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-5",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-5",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-5",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-5",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-07--parents--family-logistics",
+          "depth": 2,
+          "text": "Focus Group 07 — Parents & Family Logistics"
+        },
+        {
+          "anchor": "a-participants-6",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-6",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-6",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-6",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-6",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-6",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-6",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-6",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-6",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-6",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-6",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-6",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-6",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-08--school-administration",
+          "depth": 2,
+          "text": "Focus Group 08 — School Administration"
+        },
+        {
+          "anchor": "a-participants-7",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-7",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-7",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-7",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-7",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-7",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-7",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-7",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-7",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-7",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-7",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-7",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-7",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-09--college--early-adulthood",
+          "depth": 2,
+          "text": "Focus Group 09 — College & Early Adulthood"
+        },
+        {
+          "anchor": "a-participants-8",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-8",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-8",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-8",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-8",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-8",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-8",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-8",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-8",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-8",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-8",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-8",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-8",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-10--shift-workers",
+          "depth": 2,
+          "text": "Focus Group 10 — Shift Workers"
+        },
+        {
+          "anchor": "a-participants-9",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-9",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-9",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-9",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-9",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-9",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-9",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-9",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-9",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-9",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-9",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-9",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-9",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-11--gig-workers",
+          "depth": 2,
+          "text": "Focus Group 11 — Gig Workers"
+        },
+        {
+          "anchor": "a-participants-10",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-10",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-10",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-10",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-10",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-10",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-10",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-10",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-10",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-10",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-10",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-10",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-10",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-12--freelancers--solo-professionals",
+          "depth": 2,
+          "text": "Focus Group 12 — Freelancers & Solo Professionals"
+        },
+        {
+          "anchor": "a-participants-11",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-11",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-11",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-11",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-11",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-11",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-11",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-11",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-11",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-11",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-11",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-11",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-11",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-13--local-service-businesses",
+          "depth": 2,
+          "text": "Focus Group 13 — Local Service Businesses"
+        },
+        {
+          "anchor": "a-participants-12",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-12",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-12",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-12",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-12",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-12",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-12",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-12",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-12",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-12",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-12",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-12",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-12",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-14--it--on-call--technical-operations",
+          "depth": 2,
+          "text": "Focus Group 14 — IT / On-Call / Technical Operations"
+        },
+        {
+          "anchor": "a-participants-13",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-13",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-13",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-13",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-13",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-13",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-13",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-13",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-13",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-13",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-13",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-13",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-13",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "focus-group-15--caregiving-logistics",
+          "depth": 2,
+          "text": "Focus Group 15 — Caregiving Logistics"
+        },
+        {
+          "anchor": "a-participants-14",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-14",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-14",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-14",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-14",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-14",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-14",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-14",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-14",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-14",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation-14",
+          "depth": 3,
+          "text": "K. External Validation"
+        },
+        {
+          "anchor": "l-contradictory-evidence-14",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-14",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "cross-group-synthesis",
+          "depth": 2,
+          "text": "Cross-group synthesis"
+        },
+        {
+          "anchor": "group-level-verdicts",
+          "depth": 3,
+          "text": "Group-level verdicts"
+        },
+        {
+          "anchor": "six-convergent-system-conditions",
+          "depth": 3,
+          "text": "Six convergent system conditions"
+        },
+        {
+          "anchor": "disruption-map",
+          "depth": 3,
+          "text": "Disruption map"
+        },
+        {
+          "anchor": "duplicate-and-near-duplicate-disposition",
+          "depth": 3,
+          "text": "Duplicate and near-duplicate disposition"
+        },
+        {
+          "anchor": "strongest-candidates-and-fatal-flaws",
+          "depth": 2,
+          "text": "Strongest candidates and fatal flaws"
+        },
+        {
+          "anchor": "decision-audits-for-the-three-new-leaders",
+          "depth": 3,
+          "text": "Decision audits for the three new leaders"
+        },
+        {
+          "anchor": "h19-change-impact-relay",
+          "depth": 4,
+          "text": "H19 Change Impact Relay"
+        },
+        {
+          "anchor": "h34-client-decision-debt-clock",
+          "depth": 4,
+          "text": "H34 Client Decision Debt Clock"
+        },
+        {
+          "anchor": "h04-did-it-fix-it",
+          "depth": 4,
+          "text": "H04 Did-It-Fix-It"
+        },
+        {
+          "anchor": "no-forced-finalist",
+          "depth": 3,
+          "text": "No forced finalist"
+        },
+        {
+          "anchor": "corrections-and-durable-lessons-proposed",
+          "depth": 2,
+          "text": "Corrections and durable lessons proposed"
+        },
+        {
+          "anchor": "round-counts-for-this-lane",
+          "depth": 2,
+          "text": "Round counts for this lane"
+        },
+        {
+          "anchor": "provenance-register",
+          "depth": 2,
+          "text": "Provenance register"
+        },
+        {
+          "anchor": "research-debt",
+          "depth": 2,
+          "text": "Research debt"
+        }
+      ],
+      "linkedIdeaIds": [
+        "change-impact-relay",
+        "client-decision-debt-clock",
+        "did-it-fix-it"
+      ],
+      "path": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "route": "/research/focus-groups-01-15-2026-08-10",
+      "sha256": "sha256:b52cd846ae31a199fd56bcfe05d1ad82bf579d6da4a64777221a84971383d1aa",
+      "slug": "focus-groups-01-15-2026-08-10",
+      "title": "MCLOVIN independent research lane: Focus Groups 01–15"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "shipaton-2026--mclovin-independent-lane-focus-groups-1630",
+          "depth": 1,
+          "text": "SHIPATON 2026 — MCLOVIN independent lane: Focus Groups 16–30"
+        },
+        {
+          "anchor": "0-archive-audit-and-decision-constraints",
+          "depth": 2,
+          "text": "0. Archive audit and decision constraints"
+        },
+        {
+          "anchor": "1-focus-group-16--accessibility-and-disabled-users",
+          "depth": 2,
+          "text": "1. Focus Group 16 — Accessibility and disabled users"
+        },
+        {
+          "anchor": "a-participants",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "2-focus-group-17--pet-owners-and-caregivers",
+          "depth": 2,
+          "text": "2. Focus Group 17 — Pet owners and caregivers"
+        },
+        {
+          "anchor": "a-participants-1",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-1",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-1",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-1",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-1",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-1",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-1",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-1",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-1",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-1",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-1",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-1",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-1",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "3-focus-group-18--travelers-and-frequent-flyers",
+          "depth": 2,
+          "text": "3. Focus Group 18 — Travelers and frequent flyers"
+        },
+        {
+          "anchor": "a-participants-2",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-2",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-2",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-2",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-2",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-2",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-2",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-2",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-2",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-2",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-2",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-2",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-2",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "4-focus-group-19--rv-owners-and-campers",
+          "depth": 2,
+          "text": "4. Focus Group 19 — RV owners and campers"
+        },
+        {
+          "anchor": "a-participants-3",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-3",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-3",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-3",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-3",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-3",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-3",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-3",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-3",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-3",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-3",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-3",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-3",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "5-focus-group-20--commuters-drivers-and-ev-users",
+          "depth": 2,
+          "text": "5. Focus Group 20 — Commuters, drivers, and EV users"
+        },
+        {
+          "anchor": "a-participants-4",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-4",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-4",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-4",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-4",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-4",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-4",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-4",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-4",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-4",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-4",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-4",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-4",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "6-focus-group-21--subscription-and-membership-users",
+          "depth": 2,
+          "text": "6. Focus Group 21 — Subscription and membership users"
+        },
+        {
+          "anchor": "a-participants-5",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-5",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-5",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-5",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-5",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-5",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-5",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-5",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-5",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-5",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-5",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-5",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-5",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "7-focus-group-22--returns-refunds-warranties-and-recalls",
+          "depth": 2,
+          "text": "7. Focus Group 22 — Returns, refunds, warranties, and recalls"
+        },
+        {
+          "anchor": "a-participants-6",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-6",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-6",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-6",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-6",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-6",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-6",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-6",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-6",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-6",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-6",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-6",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-6",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "8-focus-group-23--secondhand-sellers-and-buyers",
+          "depth": 2,
+          "text": "8. Focus Group 23 — Secondhand sellers and buyers"
+        },
+        {
+          "anchor": "a-participants-7",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-7",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-7",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-7",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-7",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-7",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-7",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-7",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-7",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-7",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-7",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-7",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-7",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "9-focus-group-24--hobbyists-makers-and-collectors",
+          "depth": 2,
+          "text": "9. Focus Group 24 — Hobbyists, makers, and collectors"
+        },
+        {
+          "anchor": "a-participants-8",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-8",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-8",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-8",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-8",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-8",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-8",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-8",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-8",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-8",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-8",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-8",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-8",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "10-focus-group-25--creators-influencers-and-small-media-teams",
+          "depth": 2,
+          "text": "10. Focus Group 25 — Creators, influencers, and small media teams"
+        },
+        {
+          "anchor": "a-participants-9",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-9",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-9",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-9",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-9",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-9",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-9",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-9",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-9",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-9",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-9",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-9",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-9",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "11-focus-group-26--gamers-and-gaming-groups",
+          "depth": 2,
+          "text": "11. Focus Group 26 — Gamers and gaming groups"
+        },
+        {
+          "anchor": "a-participants-10",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-10",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-10",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-10",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-10",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-10",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-10",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-10",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-10",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-10",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-10",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-10",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-10",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "12-focus-group-27--civic-services-and-local-government-users",
+          "depth": 2,
+          "text": "12. Focus Group 27 — Civic services and local-government users"
+        },
+        {
+          "anchor": "a-participants-11",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-11",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-11",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-11",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-11",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-11",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-11",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-11",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-11",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-11",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-11",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-11",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-11",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "13-focus-group-28--licensed-and-credentialed-professionals",
+          "depth": 2,
+          "text": "13. Focus Group 28 — Licensed and credentialed professionals"
+        },
+        {
+          "anchor": "a-participants-12",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-12",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-12",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-12",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-12",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-12",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-12",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-12",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-12",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-12",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-12",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-12",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-12",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "14-focus-group-29--personal-security-and-scam-prevention",
+          "depth": 2,
+          "text": "14. Focus Group 29 — Personal security and scam prevention"
+        },
+        {
+          "anchor": "a-participants-13",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-13",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-13",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-13",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-13",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-13",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-13",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-13",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-13",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-13",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-13",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-13",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-13",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "15-focus-group-30--indie-app-developers-deep-hamm-lane",
+          "depth": 2,
+          "text": "15. Focus Group 30 — Indie app developers (deep HAMM lane)"
+        },
+        {
+          "anchor": "a-participants-14",
+          "depth": 3,
+          "text": "A. Participants"
+        },
+        {
+          "anchor": "b-current-workflow-14",
+          "depth": 3,
+          "text": "B. Current Workflow"
+        },
+        {
+          "anchor": "c-complaints-14",
+          "depth": 3,
+          "text": "C. Complaints"
+        },
+        {
+          "anchor": "d-contradictions-14",
+          "depth": 3,
+          "text": "D. Contradictions"
+        },
+        {
+          "anchor": "e-incentive-misalignment-14",
+          "depth": 3,
+          "text": "E. Incentive Misalignment"
+        },
+        {
+          "anchor": "f-expensive-friction-14",
+          "depth": 3,
+          "text": "F. Expensive Friction"
+        },
+        {
+          "anchor": "g-phone-opportunity-14",
+          "depth": 3,
+          "text": "G. Phone Opportunity"
+        },
+        {
+          "anchor": "h-existing-behavior-14",
+          "depth": 3,
+          "text": "H. Existing Behavior"
+        },
+        {
+          "anchor": "i-potential-value-moment-14",
+          "depth": 3,
+          "text": "I. Potential Value Moment"
+        },
+        {
+          "anchor": "j-idea-seeds-14",
+          "depth": 3,
+          "text": "J. Idea Seeds"
+        },
+        {
+          "anchor": "k-external-validation--strongest-two-pains-14",
+          "depth": 3,
+          "text": "K. External Validation — strongest two pains"
+        },
+        {
+          "anchor": "l-contradictory-evidence-14",
+          "depth": 3,
+          "text": "L. Contradictory Evidence"
+        },
+        {
+          "anchor": "m-research-verdict-14",
+          "depth": 3,
+          "text": "M. Research Verdict"
+        },
+        {
+          "anchor": "16-cross-group-convergence-prioritization-and-kill-ledger",
+          "depth": 2,
+          "text": "16. Cross-group convergence, prioritization, and kill ledger"
+        },
+        {
+          "anchor": "convergences",
+          "depth": 3,
+          "text": "Convergences"
+        },
+        {
+          "anchor": "group-level-verdict-table",
+          "depth": 3,
+          "text": "Group-level verdict table"
+        },
+        {
+          "anchor": "strongest-serious-candidates-in-order",
+          "depth": 3,
+          "text": "Strongest serious candidates, in order"
+        },
+        {
+          "anchor": "duplicates-and-ideas-killed",
+          "depth": 3,
+          "text": "Duplicates and ideas killed"
+        },
+        {
+          "anchor": "sourceprovenance-count-and-limits",
+          "depth": 3,
+          "text": "Source/provenance count and limits"
+        },
+        {
+          "anchor": "canonical-candidate-handoff",
+          "depth": 2,
+          "text": "Canonical candidate handoff"
+        },
+        {
+          "anchor": "repair-relay",
+          "depth": 3,
+          "text": "Repair Relay"
+        },
+        {
+          "anchor": "departure-baton",
+          "depth": 3,
+          "text": "Departure Baton"
+        },
+        {
+          "anchor": "used-gear-passport",
+          "depth": 3,
+          "text": "Used Gear Passport"
+        },
+        {
+          "anchor": "311-shadow-receipt",
+          "depth": 3,
+          "text": "311 Shadow Receipt"
+        },
+        {
+          "anchor": "monetization-canary",
+          "depth": 3,
+          "text": "Monetization Canary"
+        },
+        {
+          "anchor": "17-final-recommendation",
+          "depth": 2,
+          "text": "17. Final recommendation"
+        }
+      ],
+      "linkedIdeaIds": [
+        "civic-311-shadow-receipt",
+        "departure-baton",
+        "monetization-canary",
+        "repair-relay",
+        "used-gear-passport"
+      ],
+      "path": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "route": "/research/focus-groups-16-30-2026-08-10",
+      "sha256": "sha256:e82138d1f977e39f16c1fded9cb41927405ffdfb3b6e59aedd8d05f93f1cea69",
+      "slug": "focus-groups-16-30-2026-08-10",
+      "title": "SHIPATON 2026 — MCLOVIN independent lane: Focus Groups 16–30"
+    },
+    {
+      "headings": [
+        {
           "anchor": "autonomous-research-synthesis--2026-08-10",
           "depth": 1,
           "text": "Autonomous Research Synthesis — 2026-08-10"
@@ -300,6 +2647,11 @@
           "text": "Durable rules from 123 screens"
         },
         {
+          "anchor": "round-11-additions",
+          "depth": 3,
+          "text": "Round 11 additions"
+        },
+        {
           "anchor": "final-decision",
           "depth": 2,
           "text": "Final decision"
@@ -317,7 +2669,7 @@
       ],
       "path": "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
       "route": "/research/hackathon-research-synthesis-2026-08-10",
-      "sha256": "sha256:15b0fc5f187adc4ebf7d3b8f925d93755e51865c15a283bb4c5dea35b435a75f",
+      "sha256": "sha256:325703141fb09ca134440f0c0fb89bb5a60a94d3d86eab3181f32d63cb449279",
       "slug": "hackathon-research-synthesis-2026-08-10",
       "title": "Autonomous Research Synthesis — 2026-08-10"
     },
@@ -2666,6 +5018,598 @@
     {
       "headings": [
         {
+          "anchor": "round-11--starting-state--2026-08-10",
+          "depth": 1,
+          "text": "Round 11 — Starting State — 2026-08-10"
+        },
+        {
+          "anchor": "ledger-state-at-start-of-round-11",
+          "depth": 2,
+          "text": "Ledger state at start of Round 11"
+        },
+        {
+          "anchor": "strongest-surviving-ideas-validatingparked-entering-round-11",
+          "depth": 2,
+          "text": "Strongest surviving ideas (validating/parked) entering Round 11"
+        },
+        {
+          "anchor": "recurring-reasons-ideas-have-died-from-decision_reason--dossiers",
+          "depth": 2,
+          "text": "Recurring reasons ideas have died (from decision_reason / dossiers)"
+        },
+        {
+          "anchor": "current-research-heuristics-durable-from-round-10-synthesis",
+          "depth": 2,
+          "text": "Current research heuristics (durable, from Round 10 synthesis)"
+        },
+        {
+          "anchor": "blind-spots--under-researched-areas-entering-round-11",
+          "depth": 2,
+          "text": "Blind spots / under-researched areas entering Round 11"
+        },
+        {
+          "anchor": "over-researched-areas-entering-round-11-stop-re-mining",
+          "depth": 2,
+          "text": "Over-researched areas entering Round 11 (stop re-mining)"
+        },
+        {
+          "anchor": "the-10-most-important-lessons-round-11-must-inherit",
+          "depth": 2,
+          "text": "The 10 most important lessons Round 11 must inherit"
+        },
+        {
+          "anchor": "round-11-mission",
+          "depth": 2,
+          "text": "Round-11 mission"
+        },
+        {
+          "anchor": "round-11-materialization-note",
+          "depth": 2,
+          "text": "Round-11 materialization note"
+        },
+        {
+          "anchor": "monetization-canary",
+          "depth": 3,
+          "text": "Monetization Canary"
+        }
+      ],
+      "linkedIdeaIds": [
+        "monetization-canary"
+      ],
+      "path": "docs/RESEARCH-ROUND-11-STARTING-STATE.md",
+      "route": "/research/research-round-11-starting-state",
+      "sha256": "sha256:05429e6d1288e9f65a5adfd0be1621143b16b494138fa7d3a9c40df2bf97a159",
+      "slug": "research-round-11-starting-state",
+      "title": "Round 11 — Starting State — 2026-08-10"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "revenuecat-shipaton-2026--verified-official-rules--retrieved-2026-08-10",
+          "depth": 1,
+          "text": "RevenueCat Shipaton 2026 — Verified Official Rules — retrieved 2026-08-10"
+        },
+        {
+          "anchor": "source--retrieval",
+          "depth": 2,
+          "text": "Source & retrieval"
+        },
+        {
+          "anchor": "dates-pdt-unless-noted",
+          "depth": 2,
+          "text": "Dates (PDT unless noted)"
+        },
+        {
+          "anchor": "eligibility",
+          "depth": 2,
+          "text": "Eligibility"
+        },
+        {
+          "anchor": "platform--publishing-requirements",
+          "depth": 2,
+          "text": "Platform & publishing requirements"
+        },
+        {
+          "anchor": "submission-materials",
+          "depth": 2,
+          "text": "Submission materials"
+        },
+        {
+          "anchor": "prize-pool",
+          "depth": 2,
+          "text": "Prize pool"
+        },
+        {
+          "anchor": "categories-and-judging-criteria-what-the-competition-actually-rewards",
+          "depth": 2,
+          "text": "Categories and judging criteria (what the competition actually rewards)"
+        },
+        {
+          "anchor": "influencer-awards-15k10k5k-each--one-per-project",
+          "depth": 3,
+          "text": "Influencer Awards ($15K/$10K/$5K each) — one per project"
+        },
+        {
+          "anchor": "sponsor-categories",
+          "depth": 3,
+          "text": "Sponsor categories"
+        },
+        {
+          "anchor": "shipaton-opportunity-matrix-which-characteristics-can-win-multiple-awards-at-once",
+          "depth": 2,
+          "text": "Shipaton Opportunity Matrix (which characteristics can win multiple awards at once)"
+        },
+        {
+          "anchor": "strategic-implications-captured-for-round-11",
+          "depth": 2,
+          "text": "Strategic implications captured for Round 11"
+        },
+        {
+          "anchor": "monetization-canary-contest-relevance",
+          "depth": 2,
+          "text": "Monetization Canary contest relevance"
+        },
+        {
+          "anchor": "open-questions-to-verify-before-judging-research-debt",
+          "depth": 2,
+          "text": "Open questions to verify before judging (research debt)"
+        }
+      ],
+      "linkedIdeaIds": [
+        "monetization-canary"
+      ],
+      "path": "docs/SHIPATON-2026-OFFICIAL-RULES-VERIFIED-2026-08-10.md",
+      "route": "/research/shipaton-2026-official-rules-verified-2026-08-10",
+      "sha256": "sha256:94a77d6c324b440ca99bf3a696103f3ec6ba793376790c9c703bfeac5520c48a",
+      "slug": "shipaton-2026-official-rules-verified-2026-08-10",
+      "title": "RevenueCat Shipaton 2026 — Verified Official Rules — retrieved 2026-08-10"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "shipaton-mclovin-research-round-11--2026-08-10",
+          "depth": 1,
+          "text": "Shipaton MCLOVIN Research Round 11 — 2026-08-10"
+        },
+        {
+          "anchor": "decision",
+          "depth": 2,
+          "text": "Decision"
+        },
+        {
+          "anchor": "epistemic-boundary",
+          "depth": 2,
+          "text": "Epistemic boundary"
+        },
+        {
+          "anchor": "starting-ledger-state",
+          "depth": 2,
+          "text": "Starting Ledger state"
+        },
+        {
+          "anchor": "recurring-reasons-ideas-died",
+          "depth": 3,
+          "text": "Recurring reasons ideas died"
+        },
+        {
+          "anchor": "ten-prior-lessons-binding-this-round",
+          "depth": 3,
+          "text": "Ten prior lessons binding this round"
+        },
+        {
+          "anchor": "verified-shipaton-2026-rules",
+          "depth": 2,
+          "text": "Verified Shipaton 2026 rules"
+        },
+        {
+          "anchor": "shipaton-opportunity-matrix",
+          "depth": 3,
+          "text": "Shipaton Opportunity Matrix"
+        },
+        {
+          "anchor": "rule-debt-that-still-requires-organizer-confirmation",
+          "depth": 3,
+          "text": "Rule debt that still requires organizer confirmation"
+        },
+        {
+          "anchor": "research-program-and-independence",
+          "depth": 2,
+          "text": "Research program and independence"
+        },
+        {
+          "anchor": "round-counts",
+          "depth": 3,
+          "text": "Round counts"
+        },
+        {
+          "anchor": "30-focus-groups",
+          "depth": 2,
+          "text": "30 Focus Groups"
+        },
+        {
+          "anchor": "cross-group-pain-map",
+          "depth": 2,
+          "text": "Cross-group Pain Map"
+        },
+        {
+          "anchor": "evidence-map",
+          "depth": 2,
+          "text": "Evidence Map"
+        },
+        {
+          "anchor": "backpockethelp-correction",
+          "depth": 3,
+          "text": "BackPocket.help correction"
+        },
+        {
+          "anchor": "opportunity-map",
+          "depth": 2,
+          "text": "Opportunity Map"
+        },
+        {
+          "anchor": "service-disruption-hunt",
+          "depth": 2,
+          "text": "Service Disruption Hunt"
+        },
+        {
+          "anchor": "disruption-conclusion",
+          "depth": 3,
+          "text": "Disruption conclusion"
+        },
+        {
+          "anchor": "cross-domain-transfers",
+          "depth": 2,
+          "text": "Cross-domain transfers"
+        },
+        {
+          "anchor": "idea-funnel",
+          "depth": 2,
+          "text": "Idea Funnel"
+        },
+        {
+          "anchor": "round-a--153-raw-concepts",
+          "depth": 3,
+          "text": "Round A — 153 raw concepts"
+        },
+        {
+          "anchor": "round-b--40-survived-basic-problem-and-commodity-screening",
+          "depth": 3,
+          "text": "Round B — 40 survived basic problem and commodity screening"
+        },
+        {
+          "anchor": "round-c--25-survived-novelty-research",
+          "depth": 3,
+          "text": "Round C — 25 survived novelty research"
+        },
+        {
+          "anchor": "round-d--12-survived-evidence-and-feasibility",
+          "depth": 3,
+          "text": "Round D — 12 survived evidence and feasibility"
+        },
+        {
+          "anchor": "round-e--six-full-debates",
+          "depth": 3,
+          "text": "Round E — six full debates"
+        },
+        {
+          "anchor": "round-f--one-falsification-finalist-no-builds",
+          "depth": 3,
+          "text": "Round F — one falsification finalist, no builds"
+        },
+        {
+          "anchor": "candidate-leaderboard-and-top-10",
+          "depth": 2,
+          "text": "Candidate Leaderboard and Top 10"
+        },
+        {
+          "anchor": "score-breakdown",
+          "depth": 3,
+          "text": "Score breakdown"
+        },
+        {
+          "anchor": "competitor-matrix",
+          "depth": 2,
+          "text": "Competitor Matrix"
+        },
+        {
+          "anchor": "adversarial-debate",
+          "depth": 2,
+          "text": "Adversarial Debate"
+        },
+        {
+          "anchor": "candidate-level-outcome",
+          "depth": 3,
+          "text": "Candidate-level outcome"
+        },
+        {
+          "anchor": "role-revisions",
+          "depth": 3,
+          "text": "Role revisions"
+        },
+        {
+          "anchor": "graveyard-and-reopening-conditions",
+          "depth": 2,
+          "text": "Graveyard and reopening conditions"
+        },
+        {
+          "anchor": "finalist-dossier--lotmatch",
+          "depth": 2,
+          "text": "Finalist Dossier — LotMatch"
+        },
+        {
+          "anchor": "name",
+          "depth": 3,
+          "text": "Name"
+        },
+        {
+          "anchor": "one-sentence",
+          "depth": 3,
+          "text": "One sentence"
+        },
+        {
+          "anchor": "user-and-trigger",
+          "depth": 3,
+          "text": "User and trigger"
+        },
+        {
+          "anchor": "existing-pain",
+          "depth": 3,
+          "text": "Existing pain"
+        },
+        {
+          "anchor": "current-solution",
+          "depth": 3,
+          "text": "Current solution"
+        },
+        {
+          "anchor": "product-mechanic",
+          "depth": 3,
+          "text": "Product mechanic"
+        },
+        {
+          "anchor": "phone-advantage",
+          "depth": 3,
+          "text": "Phone advantage"
+        },
+        {
+          "anchor": "aha-moment",
+          "depth": 3,
+          "text": "Aha moment"
+        },
+        {
+          "anchor": "why-now",
+          "depth": 3,
+          "text": "Why now"
+        },
+        {
+          "anchor": "competitive-landscape-and-novelty-claim",
+          "depth": 3,
+          "text": "Competitive landscape and novelty claim"
+        },
+        {
+          "anchor": "monetization",
+          "depth": 3,
+          "text": "Monetization"
+        },
+        {
+          "anchor": "retention",
+          "depth": 3,
+          "text": "Retention"
+        },
+        {
+          "anchor": "growth-loop",
+          "depth": 3,
+          "text": "Growth loop"
+        },
+        {
+          "anchor": "build-in-public",
+          "depth": 3,
+          "text": "Build in Public"
+        },
+        {
+          "anchor": "shipaton-categories",
+          "depth": 3,
+          "text": "Shipaton categories"
+        },
+        {
+          "anchor": "smallest-lovable-mvp",
+          "depth": 3,
+          "text": "Smallest lovable MVP"
+        },
+        {
+          "anchor": "two-minute-demo",
+          "depth": 3,
+          "text": "Two-minute demo"
+        },
+        {
+          "anchor": "technical-architecture",
+          "depth": 3,
+          "text": "Technical architecture"
+        },
+        {
+          "anchor": "biggest-risk",
+          "depth": 3,
+          "text": "Biggest risk"
+        },
+        {
+          "anchor": "immediate-falsification-test",
+          "depth": 3,
+          "text": "Immediate falsification test"
+        },
+        {
+          "anchor": "score-and-verdict",
+          "depth": 3,
+          "text": "Score and verdict"
+        },
+        {
+          "anchor": "remove-ai-test",
+          "depth": 3,
+          "text": "Remove-AI test"
+        },
+        {
+          "anchor": "show-me-test",
+          "depth": 3,
+          "text": "Show-me test"
+        },
+        {
+          "anchor": "would-somebody-text-this",
+          "depth": 3,
+          "text": "Would somebody text this?"
+        },
+        {
+          "anchor": "lotmatch-decision-audit--60-explicit-answers",
+          "depth": 2,
+          "text": "LotMatch Decision Audit — 60 explicit answers"
+        },
+        {
+          "anchor": "reality",
+          "depth": 3,
+          "text": "Reality"
+        },
+        {
+          "anchor": "falsification",
+          "depth": 3,
+          "text": "Falsification"
+        },
+        {
+          "anchor": "behavior",
+          "depth": 3,
+          "text": "Behavior"
+        },
+        {
+          "anchor": "phone",
+          "depth": 3,
+          "text": "Phone"
+        },
+        {
+          "anchor": "competition",
+          "depth": 3,
+          "text": "Competition"
+        },
+        {
+          "anchor": "money",
+          "depth": 3,
+          "text": "Money"
+        },
+        {
+          "anchor": "growth",
+          "depth": 3,
+          "text": "Growth"
+        },
+        {
+          "anchor": "shipaton",
+          "depth": 3,
+          "text": "Shipaton"
+        },
+        {
+          "anchor": "trust",
+          "depth": 3,
+          "text": "Trust"
+        },
+        {
+          "anchor": "founder-test",
+          "depth": 3,
+          "text": "Founder test"
+        },
+        {
+          "anchor": "lotmatch-failure-pre-mortem",
+          "depth": 2,
+          "text": "LotMatch Failure Pre-mortem"
+        },
+        {
+          "anchor": "it-is-october-2027-lotmatch-failed-completely",
+          "depth": 3,
+          "text": "It is October 2027. LotMatch failed completely."
+        },
+        {
+          "anchor": "it-is-october-2027-lotmatch-unexpectedly-became-a-1myear-business",
+          "depth": 3,
+          "text": "It is October 2027. LotMatch unexpectedly became a $1M/year business."
+        },
+        {
+          "anchor": "evidence-comparison",
+          "depth": 3,
+          "text": "Evidence comparison"
+        },
+        {
+          "anchor": "weirdness-round--30-divergent-seeds",
+          "depth": 2,
+          "text": "Weirdness Round — 30 divergent seeds"
+        },
+        {
+          "anchor": "cross-pollinating-the-losers",
+          "depth": 2,
+          "text": "Cross-pollinating the losers"
+        },
+        {
+          "anchor": "lessons-learned",
+          "depth": 2,
+          "text": "Lessons learned"
+        },
+        {
+          "anchor": "accepted-heuristic-1--fragmentation-is-negative-evidence-by-default",
+          "depth": 3,
+          "text": "Accepted heuristic 1 — Fragmentation is negative evidence by default"
+        },
+        {
+          "anchor": "accepted-heuristic-2--no-install-links-are-an-interaction-primitive-not-proof",
+          "depth": 3,
+          "text": "Accepted heuristic 2 — No-install links are an interaction primitive, not proof"
+        },
+        {
+          "anchor": "accepted-heuristic-3--search-for-host-observability-before-building-a-monitor",
+          "depth": 3,
+          "text": "Accepted heuristic 3 — Search for host observability before building a monitor"
+        },
+        {
+          "anchor": "accepted-heuristic-4--mechanism-level-competitor-search-outranks-title-novelty",
+          "depth": 3,
+          "text": "Accepted heuristic 4 — Mechanism-level competitor search outranks title novelty"
+        },
+        {
+          "anchor": "proposed-heuristic-5--service-histories-under-record-outcomes",
+          "depth": 3,
+          "text": "Proposed heuristic 5 — Service histories under-record outcomes"
+        },
+        {
+          "anchor": "proposed-heuristic-6--change-propagation-is-a-real-pain-with-a-dangerous-data-requirement",
+          "depth": 3,
+          "text": "Proposed heuristic 6 — Change propagation is a real pain with a dangerous data requirement"
+        },
+        {
+          "anchor": "research-debt",
+          "depth": 2,
+          "text": "Research debt"
+        },
+        {
+          "anchor": "required-round-summary",
+          "depth": 2,
+          "text": "Required Round Summary"
+        }
+      ],
+      "linkedIdeaIds": [
+        "backpocket-help",
+        "change-impact-relay",
+        "civic-311-shadow-receipt",
+        "client-decision-debt-clock",
+        "departure-baton",
+        "did-it-fix-it",
+        "lot-match",
+        "mobile-service-no-access-handshake",
+        "monetization-canary",
+        "repair-relay",
+        "used-gear-passport",
+        "weed-check"
+      ],
+      "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+      "route": "/research/shipaton-mclovin-round-11-2026-08-10",
+      "sha256": "sha256:e82099cdba04c6c5272106434d138aad9e9b78fd2e526bb3dce4792921a40746",
+      "slug": "shipaton-mclovin-round-11-2026-08-10",
+      "title": "Shipaton MCLOVIN Research Round 11 — 2026-08-10"
+    },
+    {
+      "headings": [
+        {
           "anchor": "social-app-opportunity-research",
           "depth": 1,
           "text": "Social App Opportunity Research"
@@ -3250,5 +6194,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1"
+  "sourceHash": "sha256:6301c875efb26f039b58ce52b8238f3fcd94268a714de7e620ce1f0744c91deb"
 }

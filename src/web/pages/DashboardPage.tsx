@@ -105,6 +105,21 @@ export function DashboardPage() {
         </div>
       </section>
 
+      <section className="review-inboxes" aria-labelledby="latest-round-heading">
+        <div className="section-heading-row">
+          <div>
+            <div className="section-kicker">Latest completed research round</div>
+            <h2 id="latest-round-heading">Round 11 ended with an experiment, not a build</h2>
+          </div>
+          <Link className="text-link" to="/research/shipaton-mclovin-round-11-2026-08-10">Read the full dossier</Link>
+        </div>
+        <div className="inbox-list database-health-list">
+          <DatabaseLens count={30} description="Independent synthetic rooms spanning home, work, care, markets, and developers" label="Domain panels" to="/focus-groups" />
+          <DatabaseLens count={153} description="Raw concepts narrowed through duplicate, authority, competitor, and payment gates" label="Concepts screened" to="/research/shipaton-mclovin-round-11-2026-08-10" />
+          <DatabaseLens count={1} description="LotMatch remains validate-first; no production build was approved" label="Finalist" to="/ideas/lot-match" />
+        </div>
+      </section>
+
       <footer className="snapshot-footer">
         <span>{ideas.length} ideas</span>
         <span>{passed} preserved pass decisions</span>

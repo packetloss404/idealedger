@@ -1198,7 +1198,8 @@
       "dossierSlugs": [
         "idea-mining-loop-2026-08-09",
         "hackathon-research-synthesis-2026-08-10",
-        "xprize-focus-group-synthesis-2026-08-10"
+        "xprize-focus-group-synthesis-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "lot-match",
@@ -1207,7 +1208,8 @@
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-09.md",
         "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
-        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only after at least 300 real labels across 10 brands demonstrate over 99% accepted-token accuracy, zero false matches, and crews scan over 90% of cartons on live jobs.",
       "route": "/ideas/lot-match",
@@ -1230,7 +1232,8 @@
       "dossierSlugs": [
         "idea-mining-loop-2026-08-09",
         "hackathon-research-synthesis-2026-08-10",
-        "xprize-focus-group-synthesis-2026-08-10"
+        "xprize-focus-group-synthesis-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "weed-check",
@@ -1239,7 +1242,8 @@
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-09.md",
         "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
-        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only after a blind 100-piece test reaches at least 95% recall for seeded errors over 3 mm, under 5% false holds, under 10 seconds median, and paid sellers voluntarily check most eligible orders.",
       "route": "/ideas/weed-check",
@@ -2142,7 +2146,8 @@
       "dossierSlugs": [
         "idea-mining-loop-2026-08-09-round5",
         "hackathon-research-synthesis-2026-08-10",
-        "xprize-focus-group-synthesis-2026-08-10"
+        "xprize-focus-group-synthesis-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
       ],
       "hackathon_fit": "high",
       "id": "mobile-service-no-access-handshake",
@@ -2151,7 +2156,8 @@
       "research": [
         "docs/IDEA-MINING-LOOP-2026-08-09-ROUND5.md",
         "docs/HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md",
-        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md"
+        "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
       ],
       "resurrection_trigger": "Proceed only if 20 solo providers report at least one no-access incident per 100 appointments, providers use the flow on at least 80% of staged incidents, at least 60% of clients respond within the grace window, median response is under five minutes, and four providers prepay about $24.99.",
       "route": "/ideas/mobile-service-no-access-handshake",
@@ -8019,9 +8025,266 @@
         "editing",
         "exact-incumbent"
       ]
+    },
+    {
+      "aliases": [
+        "BackPocket Rescue"
+      ],
+      "decision_reason": "A live synthetic prototype demonstrates the AI-operated, human-finished service loop and a concrete $69 rescue offer, but it has not yet shown an unaffiliated paid customer, repeatable fulfillment, safe triage accuracy, or sustainable unit economics.",
+      "dossierSlugs": [
+        "active-hackathon-context-backpocket-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "high",
+      "id": "backpocket-help",
+      "name": "BackPocket.help",
+      "one_liner": "An AI front office scopes a small real-world problem, finds a safe next move, and hands a prepared bounded job to a local human finisher.",
+      "research": [
+        "docs/ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "Advance only after at least three unaffiliated customers pay for supported jobs, every job stays inside the published safety boundary, agent logs show the production decisions, and contribution margin remains positive after human labor, travel, support, refunds, and model cost.",
+      "route": "/ideas/backpocket-help",
+      "status": "validating",
+      "tags": [
+        "ai-agents",
+        "local-services",
+        "human-in-the-loop",
+        "xprize",
+        "active-build"
+      ]
+    },
+    {
+      "aliases": [
+        "Repair Outcome Story"
+      ],
+      "decision_reason": "Service records preserve transactions better than outcomes, but AutoVitals already branches follow-up on unresolved symptoms and CARFAX or shop suites can absorb the feature. Consumer use is episodic, outcomes are self-reported, and the paying shop owns retention.",
+      "dossierSlugs": [
+        "focus-groups-01-15-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "medium",
+      "id": "did-it-fix-it",
+      "name": "Did-It-Fix-It",
+      "one_liner": "Link a vehicle complaint, the repair invoice, and bounded later owner observations so the next shop can see whether the original symptom returned.",
+      "research": [
+        "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "Reopen only with shop or insurer distribution, repeated follow-up adherence, evidence the packet materially changes a later visit, and paying multi-vehicle users despite current shop-side follow-up.",
+      "route": "/ideas/did-it-fix-it",
+      "status": "passed_market",
+      "tags": [
+        "automotive",
+        "repair",
+        "outcomes",
+        "evidence",
+        "round-11"
+      ]
+    },
+    {
+      "aliases": [
+        "Family Change Relay"
+      ],
+      "decision_reason": "Caldzy, Aviva, Ohai, PlanPing, and family calendars already occupy schedule conflict and coordination. A maintained dependency graph is a new ritual, and an incomplete graph can create false calm about rides, care, work, or gear consequences.",
+      "dossierSlugs": [
+        "focus-groups-01-15-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "high",
+      "id": "change-impact-relay",
+      "name": "Change Impact Relay",
+      "one_liner": "When a child or family schedule changes, show which declared rides and commitments it breaks and send the right adult a no-install reassignment link.",
+      "research": [
+        "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "Reopen only if 100 real changes expose at least 30 missed consequences, setup stays under two minutes, at least 70% of no-app reassignment links receive an unprompted response, and five users prepay despite the incumbent swarm.",
+      "route": "/ideas/change-impact-relay",
+      "status": "passed_market",
+      "tags": [
+        "family",
+        "scheduling",
+        "change-propagation",
+        "handoff",
+        "round-11"
+      ]
+    },
+    {
+      "aliases": [
+        "BlockClock"
+      ],
+      "decision_reason": "ApproveEase already offers the same no-login magic link, reminders, and automatic delivery-date movement, while approval and project platforms own the surrounding workflow. Software also cannot create client leverage by itself.",
+      "dossierSlugs": [
+        "focus-groups-01-15-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "high",
+      "id": "client-decision-debt-clock",
+      "name": "Client Decision Debt Clock",
+      "one_liner": "Give a client one bounded choice with a deadline and show exactly how their delay moves the freelancer's delivery date.",
+      "research": [
+        "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "Reopen only if the exact incumbent leaves a material gap or a vertical distribution channel beats ordinary email and current approval tools with at least five prepays.",
+      "route": "/ideas/client-decision-debt-clock",
+      "status": "passed_market",
+      "tags": [
+        "freelancers",
+        "client-approval",
+        "deadlines",
+        "no-install-link",
+        "round-11"
+      ]
+    },
+    {
+      "aliases": [
+        "Mobility Repair Escalation Relay"
+      ],
+      "decision_reason": "The pain is severe, but the phone does not own provider status and a manual diary cannot become repair truth. The concept is unsafe and weak without a sanctioned escalation partner.",
+      "dossierSlugs": [
+        "focus-groups-16-30-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "low",
+      "id": "repair-relay",
+      "name": "Repair Relay",
+      "one_liner": "Preserve a wheelchair or assistive-device repair timeline and route a factual escalation packet through a sanctioned clinic, vendor, or advocacy path.",
+      "research": [
+        "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "A wheelchair clinic, repair vendor, payer, or advocacy organization agrees to a sanctioned status and escalation pilot with compensated disabled-user co-design.",
+      "route": "/ideas/repair-relay",
+      "status": "parked",
+      "tags": [
+        "accessibility",
+        "repair",
+        "escalation",
+        "partner-required",
+        "round-11"
+      ]
+    },
+    {
+      "aliases": [
+        "RV Departure Baton"
+      ],
+      "decision_reason": "The handoff is real and phone-friendly, but acknowledgment does not prove physical completion and a laminated checklist may be faster, safer, and more reliable.",
+      "dossierSlugs": [
+        "focus-groups-16-30-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "medium",
+      "id": "departure-baton",
+      "name": "Departure Baton",
+      "one_liner": "Assign the last safety-critical RV departure checks between partners and preserve who acknowledged each bounded step.",
+      "research": [
+        "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "Run a five-pair paper-versus-phone test; advance only if the phone is faster, produces fewer unowned steps, and never presents acknowledgment as physical verification.",
+      "route": "/ideas/departure-baton",
+      "status": "parked",
+      "tags": [
+        "rv",
+        "checklist",
+        "handoff",
+        "safety-boundary",
+        "round-11"
+      ]
+    },
+    {
+      "aliases": [
+        "Secondhand Gear Service Passport"
+      ],
+      "decision_reason": "The record could reduce secondhand uncertainty, but consumer-entered history is not authoritative and a two-sided trust network has fatal cold start without an industry distribution partner.",
+      "dossierSlugs": [
+        "focus-groups-16-30-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "low",
+      "id": "used-gear-passport",
+      "name": "Used Gear Passport",
+      "one_liner": "Carry source-linked service and ownership records with a high-value used item when a trusted repair shop, dealer, or marketplace seeds them.",
+      "research": [
+        "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "One repair shop, dealer, or enthusiast marketplace agrees to seed verifiable records and distribute the passport in a narrow high-value category.",
+      "route": "/ideas/used-gear-passport",
+      "status": "parked",
+      "tags": [
+        "secondhand",
+        "gear",
+        "service-history",
+        "partner-required",
+        "round-11"
+      ]
+    },
+    {
+      "aliases": [
+        "Civic Case Shadow History"
+      ],
+      "decision_reason": "A factual shadow history may reveal missing records or status/outcome mismatches, but the city remains authoritative, consumer willingness to pay is weak, and usefulness depends on one sanctioned live API and trusted distribution.",
+      "dossierSlugs": [
+        "focus-groups-16-30-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "medium",
+      "id": "civic-311-shadow-receipt",
+      "name": "311 Shadow Receipt",
+      "one_liner": "Preserve a resident-owned history of one city's 311 requests and compare official status changes with the source events the city API exposes.",
+      "research": [
+        "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "A neighborhood or accessibility organization sponsors a one-city pilot whose live API supports the history; success requires recovered missing source history or documented official status/outcome mismatches.",
+      "route": "/ideas/civic-311-shadow-receipt",
+      "status": "parked",
+      "tags": [
+        "civic",
+        "311",
+        "public-services",
+        "peace-prize",
+        "round-11"
+      ]
+    },
+    {
+      "aliases": [
+        "PurchasePulse"
+      ],
+      "decision_reason": "The runtime boundary is observable and recurring, but RevenueCat already owns diagnostic telemetry and paywall callbacks while Sentry or PostHog can capture custom failures. A separate probe is a vertical preset with integration burden and extreme host-feature absorption risk.",
+      "dossierSlugs": [
+        "focus-groups-16-30-2026-08-10",
+        "research-round-11-starting-state",
+        "shipaton-2026-official-rules-verified-2026-08-10",
+        "shipaton-mclovin-round-11-2026-08-10"
+      ],
+      "hackathon_fit": "high",
+      "id": "monetization-canary",
+      "name": "Monetization Canary",
+      "one_liner": "Record factual paywall and purchase-path health by build and storefront, then alert when an offering is empty, price data is absent, or a purchase terminates in an error.",
+      "research": [
+        "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+        "docs/RESEARCH-ROUND-11-STARTING-STATE.md",
+        "docs/SHIPATON-2026-OFFICIAL-RULES-VERIFIED-2026-08-10.md",
+        "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md"
+      ],
+      "resurrection_trigger": "First confirm RevenueCat has no equivalent imminent alert, then require at least five of 15 indie developers to install a test probe, three to make a credible paid commitment, and half to submit a second release trace within 30 days; kill if ordinary observability reproduces the diagnosis in under 15 minutes for most testers.",
+      "route": "/ideas/monetization-canary",
+      "status": "parked",
+      "tags": [
+        "developers",
+        "revenuecat",
+        "monetization",
+        "monitoring",
+        "hamm",
+        "round-11"
+      ]
     }
   ],
-  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1",
+  "sourceHash": "sha256:6301c875efb26f039b58ce52b8238f3fcd94268a714de7e620ce1f0744c91deb",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

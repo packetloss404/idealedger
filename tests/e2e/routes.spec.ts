@@ -51,9 +51,33 @@ test('presents the whole database as the durable home', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1, name: 'The idea database' })).toBeVisible();
   await expect(page.getByText('Conversation creates the work. The ledger keeps the memory.')).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'Every decision stays visible' })).toBeVisible();
-  await expect(page.getByRole('link', { name: /307 All ideas/ })).toBeVisible();
-  await expect(page.getByRole('link', { name: /278 Passed decisions/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /316 All ideas/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /281 Passed decisions/ })).toBeVisible();
+  await expect(page.getByRole('heading', {
+    level: 2,
+    name: 'Round 11 ended with an experiment, not a build',
+  })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Read the full dossier' })).toHaveAttribute(
+    'href',
+    /\/research\/shipaton-mclovin-round-11-2026-08-10$/,
+  );
+  await expect(page.getByRole('link', { name: /1 Finalist/ })).toHaveAttribute(
+    'href',
+    /\/ideas\/lot-match$/,
+  );
   await expect(page.getByText(/Round-8 recommendation/i)).toHaveCount(0);
+});
+
+test('opens the complete Round 11 dossier from the durable home', async ({ page }) => {
+  await page.goto('');
+  await page.getByRole('link', { name: 'Read the full dossier' }).click();
+
+  await expect(page).toHaveURL(/research\/shipaton-mclovin-round-11-2026-08-10$/);
+  await expect(page.getByRole('heading', {
+    level: 1,
+    name: 'Shipaton MCLOVIN Research Round 11 — 2026-08-10',
+  })).toBeVisible();
+  await expect(page.getByRole('heading', { exact: true, level: 2, name: 'Decision' })).toBeVisible();
 });
 
 test('turns focus-group synthesis into a method-labeled dashboard', async ({ page }) => {
@@ -69,11 +93,11 @@ test('turns focus-group synthesis into a method-labeled dashboard', async ({ pag
     name: 'Every group, broken out and addressable',
   })).toBeVisible();
   await expect(page.getByText('Recruited studies').locator('..').getByText('0')).toBeVisible();
-  await expect(page.getByText('Simulated personas', { exact: true })).toHaveCount(2);
+  await expect(page.getByText('Simulated personas', { exact: true })).toHaveCount(32);
   await expect(page.getByRole('link', { name: 'XPRIZE market and persona synthesis' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Loop social-product synthetic panel' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Open study room' })).toHaveCount(2);
-  await expect(page.getByRole('link', { name: 'Source dossier' })).toHaveCount(2);
+  await expect(page.getByRole('link', { name: 'Open study room' })).toHaveCount(32);
+  await expect(page.getByRole('link', { name: 'Source dossier' })).toHaveCount(32);
 });
 
 test('filters the generated focus-group dashboard and opens an addressable study room', async ({ page }) => {
@@ -81,18 +105,36 @@ test('filters the generated focus-group dashboard and opens an addressable study
   await page.getByRole('searchbox', { name: 'Search studies and segments' }).fill('single parents');
 
   await expect(page).toHaveURL(/q=single\+parents/);
-  await expect(page.getByRole('status')).toHaveText('Showing 1 of 2 studies');
+  await expect(page.getByRole('status')).toHaveText('Showing 1 of 32 studies');
   await expect(page.getByRole('link', { name: 'XPRIZE market and persona synthesis' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Loop social-product synthetic panel' })).toHaveCount(0);
 
   await page.reload();
-  await expect(page.getByRole('status')).toHaveText('Showing 1 of 2 studies');
+  await expect(page.getByRole('status')).toHaveText('Showing 1 of 32 studies');
   await page.getByRole('link', { name: 'Open study room' }).click();
   await expect(page).toHaveURL(/focus-groups\/xprize-persona-synthesis/);
   await expect(page.getByRole('heading', { level: 1, name: 'XPRIZE market and persona synthesis' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: '5 perspectives, with objections intact' })).toBeVisible();
   await expect(page.getByRole('link', { name: /LotMatch Validating/ })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Read source dossier' })).toBeVisible();
+});
+
+test('opens a Round 11 domain room with five synthetic perspectives and linked decisions', async ({ page }) => {
+  await page.goto('focus-groups/round-11-focus-group-30');
+
+  await expect(page.getByRole('heading', {
+    level: 1,
+    name: 'Focus Group 30 — Indie app developers (deep HAMM lane)',
+  })).toBeVisible();
+  await expect(page.getByRole('heading', {
+    level: 2,
+    name: '5 perspectives, with objections intact',
+  })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Monetization Canary Parked/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Read source dossier' })).toHaveAttribute(
+    'href',
+    /#15-focus-group-30--indie-app-developers-deep-hamm-lane$/,
+  );
 });
 
 test('loads and reloads an idea route directly', async ({ page }) => {
@@ -196,7 +238,10 @@ test('renders bare dossier source URLs as outbound links', async ({ page }) => {
 });
 
 test('hydrates every generated entity route with its canonical heading', async ({ page }) => {
-  test.setTimeout(180_000);
+  // The durable archive keeps growing. Leave enough headroom to verify every
+  // generated idea, dossier, and focus-group room without turning corpus growth
+  // into a false timeout failure on slower CI runners.
+  test.setTimeout(300_000);
   const entities = [
     ...catalog.ideas.map((idea) => ({ heading: idea.name, id: idea.id, route: idea.route })),
     ...research.documents.map((document) => ({

@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "artifact_type": "mclovin_independent_focus_group_lane",
+  "research_date": "2026-08-10",
+  "retrieved_at": "2026-08-10",
+  "scope": "Focus Groups 01-15",
+  "canonical": false,
+  "simulation_notice": "Participants and complaints are synthetic hypothesis generators, not recruited interviews or willingness-to-pay evidence.",
+  "labels": ["FACT", "INFERENCE", "HYPOTHESIS", "SYNTHETIC FEEDBACK"],
+  "starting_ledger": {
+    "ideas": 307,
+    "status_counts": {
+      "passed_market": 251,
+      "passed_scope": 27,
+      "parked": 12,
+      "validating": 12,
+      "raw": 3,
+      "needs_reconstruction": 2
+    },
+    "research_dossiers": 20
+  },
+  "counts": {
+    "focus_groups": 15,
+    "provenance_records": 54,
+    "source_urls": 69,
+    "complaint_statements": 75,
+    "normalized_pain_clusters": 43,
+    "raw_seeds": 45,
+    "ledger_duplicates_or_adjacencies": 27,
+    "incumbent_or_commodity_kills": 8,
+    "distinct_research_hypotheses": 10,
+    "new_behavioral_tests": 3,
+    "builds_recommended": 0
+  },
+  "groups": [
+    {
+      "id": "fg-01",
+      "title": "Home Repair",
+      "verdict": "uncertain",
+      "strongest_pains": ["scope and trust across estimates", "no complaint-to-repair-to-outcome continuity"],
+      "source_ids": ["S01", "S02", "S03", "S39", "S40"],
+      "seeds": [
+        {"id": "H01", "name": "Repair Outcome Packet", "disposition": "research", "duplicate_ids": ["quote-comparison", "replacement-part-vault"]},
+        {"id": "H02", "name": "On-Site Scope Delta", "disposition": "duplicate", "duplicate_ids": ["scope-request-budget", "quote-comparison"]},
+        {"id": "H03", "name": "Service Exit Record", "disposition": "duplicate", "duplicate_ids": ["service-exit-closeout", "field-shot-requirement-gate", "planar-control-reset-diff"]}
+      ]
+    },
+    {
+      "id": "fg-02",
+      "title": "Automotive Ownership & Repair",
+      "verdict": "promising_validate_first",
+      "strongest_pains": ["repair does not correct original complaint", "owner record omits unresolved outcomes"],
+      "source_ids": ["S04", "S05", "S06"],
+      "seeds": [
+        {"id": "H04", "name": "Did-It-Fix-It", "disposition": "behavioral_test", "score": 64, "duplicate_ids": []},
+        {"id": "H05", "name": "Measurement Card", "disposition": "duplicate", "duplicate_ids": ["quote-comparison", "replacement-part-pair"]},
+        {"id": "H06", "name": "Vehicle Identity Receipt", "disposition": "duplicate", "duplicate_ids": ["repair-serial-check"]}
+      ]
+    },
+    {
+      "id": "fg-03",
+      "title": "Insurance Administration",
+      "verdict": "uncertain",
+      "strongest_pains": ["status and next-owner ambiguity", "document requests split from acknowledgments"],
+      "source_ids": ["S07", "S08"],
+      "seeds": [
+        {"id": "H07", "name": "Claim Next-Step Receipt", "disposition": "linked_concierge_test", "score": 61, "duplicate_ids": ["consumer-case-agent"]},
+        {"id": "H08", "name": "Document Request Custody", "disposition": "adjacent", "duplicate_ids": ["post-loss-recovery", "consumer-case-agent"]},
+        {"id": "H09", "name": "Claim Call Readback Card", "disposition": "duplicate_mechanism", "duplicate_ids": ["confirmed-spoken-details"]}
+      ]
+    },
+    {
+      "id": "fg-04",
+      "title": "Renting & Security Deposits",
+      "verdict": "weak",
+      "strongest_pains": ["condition baseline and evidence asymmetry", "deposit and unexpected move-out charges"],
+      "source_ids": ["S09", "S10", "S11", "S12", "S13"],
+      "seeds": [
+        {"id": "H10", "name": "Matched Move Pair", "disposition": "exact_duplicate", "duplicate_ids": ["security-deposit-evidence"]},
+        {"id": "H11", "name": "Maintenance Access Handshake", "disposition": "adjacent", "duplicate_ids": ["mobile-service-no-access-handshake", "guest-access-receipt"]},
+        {"id": "H12", "name": "Deposit Deadline Pack", "disposition": "adjacent_legal_risk", "duplicate_ids": ["consumer-case-agent", "security-deposit-evidence"]}
+      ]
+    },
+    {
+      "id": "fg-05",
+      "title": "Moving",
+      "verdict": "weak",
+      "strongest_pains": ["one event creates many independent state changes", "arrival-day mover scope changes"],
+      "source_ids": ["S14", "S15", "S16", "S17"],
+      "seeds": [
+        {"id": "H13", "name": "Move State Ledger", "disposition": "incumbent_commodity", "competitors": ["Updater"], "duplicate_ids": []},
+        {"id": "H14", "name": "Revised Move Scope Approval", "disposition": "exact_duplicate", "duplicate_ids": ["moving-revised-scope-approval"]},
+        {"id": "H15", "name": "Address Change Receipt Map", "disposition": "research", "duplicate_ids": []}
+      ]
+    },
+    {
+      "id": "fg-06",
+      "title": "Household Administration",
+      "verdict": "uncertain",
+      "strongest_pains": ["invisible noticing and planning", "tools show tasks rather than stalled exceptions"],
+      "source_ids": ["S18", "S19", "S20", "S21"],
+      "seeds": [
+        {"id": "H16", "name": "Household Exception Inbox", "disposition": "paper_test", "score": 58, "duplicate_ids": []},
+        {"id": "H17", "name": "Full-Lifecycle Ownership", "disposition": "adjacent_commodity", "duplicate_ids": ["shared-list-claim"]},
+        {"id": "H18", "name": "Household Spec Memory", "disposition": "exact_duplicate", "duplicate_ids": ["replacement-part-vault"]}
+      ]
+    },
+    {
+      "id": "fg-07",
+      "title": "Parents & Family Logistics",
+      "verdict": "promising_validate_first",
+      "strongest_pains": ["calendar changes do not propagate to dependent obligations", "helpers receive incomplete handoff context"],
+      "source_ids": ["S20", "S22", "S23"],
+      "seeds": [
+        {"id": "H19", "name": "Change Impact Relay", "disposition": "behavioral_test", "score": 68, "duplicate_ids": []},
+        {"id": "H20", "name": "Kid Gear Custody Baton", "disposition": "adjacent", "duplicate_ids": ["coparenting-coordinator", "barn-shift-baton"]},
+        {"id": "H21", "name": "Event Readiness Gate", "disposition": "incumbent_commodity", "competitors": ["Cozi", "Ohai"], "duplicate_ids": []}
+      ]
+    },
+    {
+      "id": "fg-08",
+      "title": "School Administration",
+      "verdict": "weak",
+      "strongest_pains": ["action-required messages buried across channels", "submission differs from school acknowledgment"],
+      "source_ids": ["S23", "S24", "S25"],
+      "seeds": [
+        {"id": "H22", "name": "Source-Linked School Action Card", "disposition": "exact_duplicate", "duplicate_ids": ["school-message-organizer"]},
+        {"id": "H23", "name": "Newsletter Change Diff", "disposition": "adjacent", "duplicate_ids": ["school-message-organizer", "roster-screenshot-diff"]},
+        {"id": "H24", "name": "Permission Submission Receipt", "disposition": "host_feature", "competitors": ["ParentSquare"], "duplicate_ids": []}
+      ]
+    },
+    {
+      "id": "fg-09",
+      "title": "College & Early Adulthood",
+      "verdict": "weak_hold",
+      "strongest_pains": ["coursework and administrative deadlines span systems", "hold labels hide dependency chains"],
+      "source_ids": ["S26", "S27", "S28", "S29"],
+      "seeds": [
+        {"id": "H25", "name": "Adulting Transition Board", "disposition": "incumbent_commodity", "duplicate_ids": []},
+        {"id": "H26", "name": "Campus Hold Map", "disposition": "partner_required", "score": 48, "duplicate_ids": []},
+        {"id": "H27", "name": "Provenance Deadline Layer", "disposition": "adjacent_crowded", "duplicate_ids": ["school-message-organizer"]}
+      ]
+    },
+    {
+      "id": "fg-10",
+      "title": "Shift Workers",
+      "verdict": "uncertain_weak",
+      "strongest_pains": ["schedule changes collide with external obligations", "workers maintain shadow history"],
+      "source_ids": ["S30", "S31", "S32", "S33"],
+      "seeds": [
+        {"id": "H28", "name": "Roster Screenshot Diff", "disposition": "exact_duplicate", "duplicate_ids": ["roster-screenshot-diff"]},
+        {"id": "H29", "name": "Availability-vs-Assignment Receipt", "disposition": "hold", "score": 56, "duplicate_ids": []},
+        {"id": "H30", "name": "Swap Impact Proposal", "disposition": "incumbent_commodity", "competitors": ["ShiftHawk", "Homebase"], "duplicate_ids": []}
+      ]
+    },
+    {
+      "id": "fg-11",
+      "title": "Gig Workers",
+      "verdict": "uncertain",
+      "strongest_pains": ["earnings and penalty opacity", "records fragment across platforms and taxes"],
+      "source_ids": ["S34", "S35", "S36", "S37", "S38"],
+      "seeds": [
+        {"id": "H31", "name": "Gig Offer Net", "disposition": "duplicate_occupied", "duplicate_ids": ["rideshare-return-mile-offer"]},
+        {"id": "H32", "name": "Gig Payout Match", "disposition": "exact_duplicate", "duplicate_ids": ["gig-payout-deposit-match"]},
+        {"id": "H33", "name": "Platform Policy Impact Diff", "disposition": "advocate_test", "score": 59, "duplicate_ids": []}
+      ]
+    },
+    {
+      "id": "fg-12",
+      "title": "Freelancers & Solo Professionals",
+      "verdict": "promising_validate_first",
+      "strongest_pains": ["client decision delay silently moves delivery", "late payment and scope leakage"],
+      "source_ids": ["S39", "S40", "S41", "S42", "S43"],
+      "seeds": [
+        {"id": "H34", "name": "Client Decision Debt Clock", "disposition": "behavioral_test", "score": 66, "duplicate_ids": []},
+        {"id": "H35", "name": "Revision Budget Boundary", "disposition": "exact_duplicate", "duplicate_ids": ["scope-request-budget"]},
+        {"id": "H36", "name": "Pay-to-Unlock Delivery", "disposition": "incumbent_commodity", "competitors": ["HoneyBook", "Bonsai"], "duplicate_ids": []}
+      ]
+    },
+    {
+      "id": "fg-13",
+      "title": "Local Service Businesses",
+      "verdict": "existing_doorhold_convergence",
+      "strongest_pains": ["technician no-access and absent customer decision", "field context and closeout live in the FSM system"],
+      "source_ids": ["S44", "S45"],
+      "seeds": [
+        {"id": "H37", "name": "No-Access Decision Link", "disposition": "exact_duplicate_convergence", "duplicate_ids": ["mobile-service-no-access-handshake"]},
+        {"id": "H38", "name": "Service Closeout Proof", "disposition": "duplicate", "duplicate_ids": ["service-exit-closeout", "field-shot-requirement-gate"]},
+        {"id": "H39", "name": "Technician Exception Baton", "disposition": "adjacent_host_feature", "duplicate_ids": ["barn-shift-baton", "bakery-batch-handoff"]}
+      ]
+    },
+    {
+      "id": "fg-14",
+      "title": "IT / On-Call / Technical Operations",
+      "verdict": "weak_hold",
+      "strongest_pains": ["handoff context reconstruction", "access paths fail at incident time"],
+      "source_ids": ["S46", "S47", "S48", "S49"],
+      "seeds": [
+        {"id": "H40", "name": "On-Call Handoff Baton", "disposition": "incumbent_commodity", "competitors": ["Rootly", "incident.io"], "duplicate_ids": []},
+        {"id": "H41", "name": "On-Call Readiness Preflight", "disposition": "partner_required", "score": 52, "duplicate_ids": []},
+        {"id": "H42", "name": "Incident Timeline Pocket", "disposition": "incumbent_commodity", "competitors": ["Rootly", "incident.io"], "duplicate_ids": []}
+      ]
+    },
+    {
+      "id": "fg-15",
+      "title": "Caregiving Logistics",
+      "verdict": "weak_hold",
+      "strongest_pains": ["primary caregiver repeatedly reconstructs and assigns logistics", "substitute coverage lacks minimum current context"],
+      "source_ids": ["S50", "S51", "S52", "S53", "S54"],
+      "seeds": [
+        {"id": "H43", "name": "Care Gap Window", "disposition": "exact_duplicate_occupied", "duplicate_ids": ["family-caregiving"]},
+        {"id": "H44", "name": "Substitute Caregiver Runbook", "disposition": "linked_co_design", "score": 55, "duplicate_ids": ["family-caregiving"]},
+        {"id": "H45", "name": "Admin Call Baton", "disposition": "adjacent", "duplicate_ids": ["family-caregiving", "confirmed-spoken-details"]}
+      ]
+    }
+  ],
+  "top_new_candidates": [
+    {"seed_id": "H19", "name": "Change Impact Relay", "score": 68, "verdict": "VALIDATE_FIRST", "fatal_flaw": "Dependency setup and false calm; family organizer incumbents can copy."},
+    {"seed_id": "H34", "name": "Client Decision Debt Clock", "score": 66, "verdict": "VALIDATE_FIRST", "fatal_flaw": "Software cannot create client leverage; HoneyBook/Bonsai can absorb it."},
+    {"seed_id": "H04", "name": "Did-It-Fix-It", "score": 64, "verdict": "VALIDATE_FIRST", "fatal_flaw": "Episodic use, self-reported outcomes, and CARFAX/shop-suite copy risk."}
+  ],
+  "strongest_existing_convergence": {
+    "idea_id": "mobile-service-no-access-handshake",
+    "name": "DoorHold",
+    "score": 75,
+    "verdict": "CONTINUE_EXISTING_PAID_TEST",
+    "fatal_flaw": "A link selection proves neither identity, access, payment, nor legal enforceability; field-service suites can copy."
+  },
+  "canonical_changes": [],
+  "research_debt": [
+    "No recruited interviews or payment tests were conducted.",
+    "H19 needs a corpus of real schedule-change messages and downstream misses.",
+    "H34 needs measured client-decision block frequency and link response behavior.",
+    "H04 needs recent repeat-repair cases and evidence the packet changes the next visit.",
+    "Private host systems and app-store review distributions were not systematically accessed."
+  ]
+}

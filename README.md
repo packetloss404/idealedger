@@ -4,7 +4,9 @@ Idea Ledger is a read-only decision archive for searching product ideas, reviewi
 
 Live site: https://packetloss404.github.io/idealedger/
 
-The current corpus contains 307 ideas and 19 research dossiers. `docs/idea-database.json` and the linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
+The current corpus contains 316 ideas, 26 research dossiers, and 32 method-labeled focus-group studies. The Ledger is a durable, cross-hackathon think tank—not a strategy archive for one contest. `docs/idea-database.json`, `docs/focus-groups.json`, and their linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
+
+**Current active build:** [BackPocket.help](https://backpocket.help/) is an AI-operated, human-finished local rescue-service prototype for the [Build with Gemini XPRIZE](https://xprize.devpost.com/). At the August 10 verification point, the XPRIZE deadline was August 17, 2026 at 1:00pm PDT—about one week away, not 51 days. See [`ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md`](docs/ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md). RevenueCat Shipaton is the separate ~51-day research track.
 
 ## Stack
 
@@ -63,6 +65,7 @@ npm run build:web
 ## Architecture
 
 - `docs/idea-database.json` — canonical structured records
+- `docs/focus-groups.json` — canonical method-labeled focus-group studies and idea outcomes
 - `docs/*.md` — canonical research dossiers
 - `scripts/idea-ledger/` — schema validation, deterministic generation, and export checks
 - `src/generated/idea-ledger/` — committed generated catalog, routes, provenance, and search documents

@@ -1,15 +1,15 @@
 {
   "counts": {
     "dossierRefsWithoutMention": 16,
-    "dossiers": 20,
-    "headingMatchedIdeas": 183,
-    "headingReferences": 213,
-    "ideas": 307,
+    "dossiers": 26,
+    "headingMatchedIdeas": 192,
+    "headingReferences": 229,
+    "ideas": 316,
     "ideasWithoutResearch": 9,
     "mentionOnlyIdeas": 110,
-    "mentionReferences": 125,
-    "multiRefIdeas": 45,
-    "researchEdges": 354,
+    "mentionReferences": 132,
+    "multiRefIdeas": 54,
+    "researchEdges": 377,
     "unmappedReferences": 16
   },
   "researchProvenance": [
@@ -368,6 +368,32 @@
             "text": "LipSync Lens"
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP1.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "backpocket-help",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "active-hackathon-context-backpocket-2026-08-10",
+          "heading": {
+            "anchor": "active-hackathon-context--backpockethelp--2026-08-10",
+            "depth": 1,
+            "text": "Active Hackathon Context — BackPocket.help — 2026-08-10"
+          },
+          "path": "docs/ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": {
+            "anchor": "backpockethelp-correction",
+            "depth": 3,
+            "text": "BackPocket.help correction"
+          },
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -809,6 +835,28 @@
       ]
     },
     {
+      "ideaId": "change-impact-relay",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-01-15-2026-08-10",
+          "heading": {
+            "anchor": "h19-change-impact-relay",
+            "depth": 4,
+            "text": "H19 Change Impact Relay"
+          },
+          "path": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": null,
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "charge-drop-alarm",
       "quality": "heading",
       "references": [
@@ -841,6 +889,28 @@
       ]
     },
     {
+      "ideaId": "civic-311-shadow-receipt",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-16-30-2026-08-10",
+          "heading": {
+            "anchor": "311-shadow-receipt",
+            "depth": 3,
+            "text": "311 Shadow Receipt"
+          },
+          "path": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": null,
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "clap-cut",
       "quality": "heading",
       "references": [
@@ -865,6 +935,32 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-08.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "client-decision-debt-clock",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-01-15-2026-08-10",
+          "heading": {
+            "anchor": "h34-client-decision-debt-clock",
+            "depth": 4,
+            "text": "H34 Client Decision Debt Clock"
+          },
+          "path": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": {
+            "anchor": "decision",
+            "depth": 2,
+            "text": "Decision"
+          },
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "heading"
         }
       ]
     },
@@ -1277,6 +1373,50 @@
           "dossierSlug": "idea-mining-loop-2026-08-09-round7",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "departure-baton",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-16-30-2026-08-10",
+          "heading": {
+            "anchor": "departure-baton",
+            "depth": 3,
+            "text": "Departure Baton"
+          },
+          "path": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": null,
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "did-it-fix-it",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-01-15-2026-08-10",
+          "heading": {
+            "anchor": "h04-did-it-fix-it",
+            "depth": 4,
+            "text": "H04 Did-It-Fix-It"
+          },
+          "path": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": null,
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
           "quality": "mention"
         }
       ]
@@ -2355,6 +2495,16 @@
           "quality": "heading"
         },
         {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": {
+            "anchor": "finalist-dossier--lotmatch",
+            "depth": 2,
+            "text": "Finalist Dossier — LotMatch"
+          },
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
           "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
           "heading": {
             "anchor": "1-lotmatch--keep-as-commercial-lead",
@@ -2615,6 +2765,16 @@
           "quality": "heading"
         },
         {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": {
+            "anchor": "decision",
+            "depth": 2,
+            "text": "Decision"
+          },
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
           "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
           "heading": {
             "anchor": "3-doorhold--keep-as-cheapest-service-business-test",
@@ -2622,6 +2782,52 @@
             "text": "3. DoorHold — keep as cheapest service-business test"
           },
           "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
+          "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "monetization-canary",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-16-30-2026-08-10",
+          "heading": {
+            "anchor": "monetization-canary",
+            "depth": 3,
+            "text": "Monetization Canary"
+          },
+          "path": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "research-round-11-starting-state",
+          "heading": {
+            "anchor": "monetization-canary",
+            "depth": 3,
+            "text": "Monetization Canary"
+          },
+          "path": "docs/RESEARCH-ROUND-11-STARTING-STATE.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-2026-official-rules-verified-2026-08-10",
+          "heading": {
+            "anchor": "monetization-canary-contest-relevance",
+            "depth": 2,
+            "text": "Monetization Canary contest relevance"
+          },
+          "path": "docs/SHIPATON-2026-OFFICIAL-RULES-VERIFIED-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": {
+            "anchor": "monetization",
+            "depth": 3,
+            "text": "Monetization"
+          },
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
           "quality": "heading"
         }
       ]
@@ -3415,6 +3621,28 @@
           "dossierSlug": "idea-mining-loop-2026-08-09-round6",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "repair-relay",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-16-30-2026-08-10",
+          "heading": {
+            "anchor": "repair-relay",
+            "depth": 3,
+            "text": "Repair Relay"
+          },
+          "path": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": null,
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
           "quality": "mention"
         }
       ]
@@ -4527,6 +4755,28 @@
       ]
     },
     {
+      "ideaId": "used-gear-passport",
+      "quality": "heading",
+      "references": [
+        {
+          "dossierSlug": "focus-groups-16-30-2026-08-10",
+          "heading": {
+            "anchor": "used-gear-passport",
+            "depth": 3,
+            "text": "Used Gear Passport"
+          },
+          "path": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+          "quality": "heading"
+        },
+        {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": null,
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "vehicle-fluid-gate",
       "quality": "heading",
       "references": [
@@ -4759,6 +5009,12 @@
           "quality": "heading"
         },
         {
+          "dossierSlug": "shipaton-mclovin-round-11-2026-08-10",
+          "heading": null,
+          "path": "docs/SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md",
+          "quality": "mention"
+        },
+        {
           "dossierSlug": "xprize-focus-group-synthesis-2026-08-10",
           "heading": {
             "anchor": "2-weedcheck--keep-as-visualhackathon-lead",
@@ -4824,14 +5080,17 @@
     }
   ],
   "singletonTags": [
+    "311",
     "401k",
     "aac",
     "accelerometer",
     "accessories",
+    "active-build",
     "actors",
     "adult",
     "affiliate",
     "agriculture",
+    "ai-agents",
     "airprint",
     "albums",
     "animal-care",
@@ -4895,12 +5154,14 @@
     "cellular",
     "challenges",
     "change-orders",
+    "change-propagation",
     "check-in",
+    "checklist",
     "checkout",
     "checkpoint",
     "checksums",
     "cinema",
-    "client-approval",
+    "civic",
     "client-communication",
     "clipboard",
     "clothing",
@@ -4941,7 +5202,6 @@
     "data",
     "data-sources",
     "dates",
-    "deadlines",
     "deaf",
     "deafblind",
     "dealers",
@@ -4978,6 +5238,7 @@
     "eob",
     "epoxy",
     "epub",
+    "escalation",
     "esim",
     "estimates",
     "etsy",
@@ -5022,6 +5283,7 @@
     "gaming",
     "garments",
     "gcode",
+    "gear",
     "geofencing",
     "geometry",
     "gift-cards",
@@ -5034,6 +5296,7 @@
     "guest-access",
     "guests",
     "guitar",
+    "hamm",
     "hard-of-hearing",
     "hardware-keys",
     "hardware-state",
@@ -5051,6 +5314,7 @@
     "households",
     "housing",
     "http",
+    "human-in-the-loop",
     "hvac",
     "ics",
     "id3",
@@ -5085,6 +5349,7 @@
     "local",
     "local-commerce",
     "local-network",
+    "local-services",
     "localization",
     "lock-screen",
     "lockers",
@@ -5114,7 +5379,7 @@
     "mixing",
     "mobile",
     "mobile-services",
-    "monitoring",
+    "monetization",
     "move-out",
     "multi-camera",
     "musicians",
@@ -5123,12 +5388,14 @@
     "negotiation",
     "networking",
     "news",
+    "no-install-link",
     "nutrition",
     "odometer",
     "offers",
     "orders",
     "organization",
     "orientation",
+    "outcomes",
     "overtime",
     "painting",
     "parcels",
@@ -5140,6 +5407,7 @@
     "passkit",
     "passwords",
     "paychecks",
+    "peace-prize",
     "pedals",
     "permissions",
     "personal-crm",
@@ -5169,6 +5437,7 @@
     "provenance",
     "provider-network",
     "proximity",
+    "public-services",
     "public-speaking",
     "queue",
     "quick-entry",
@@ -5198,7 +5467,6 @@
     "resin",
     "resumable",
     "retirement",
-    "revenuecat",
     "rideshare",
     "rights",
     "rolling-buffer",
@@ -5207,6 +5475,7 @@
     "routing",
     "run-of-show",
     "saas",
+    "safety-boundary",
     "safety-truth",
     "saved-phrases",
     "savings",
@@ -5218,12 +5487,14 @@
     "scope-creep",
     "screen-recording",
     "scroll",
+    "secondhand",
     "self-tape",
     "seller-tools",
     "seniors",
     "serial-number",
     "serial-numbers",
     "service",
+    "service-history",
     "setlists",
     "settings",
     "settlements",
@@ -5307,13 +5578,14 @@
     "wifi",
     "wishlists",
     "workflow",
+    "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:9a061035eb5598921c71d512b499aaac2216beac636eb1674ed0b0cab881c1a1",
+  "sourceHash": "sha256:6301c875efb26f039b58ce52b8238f3fcd94268a714de7e620ce1f0744c91deb",
   "tagStats": {
-    "assignments": 1461,
-    "doubletons": 95,
-    "singletons": 484,
-    "unique": 711
+    "assignments": 1507,
+    "doubletons": 97,
+    "singletons": 500,
+    "unique": 733
   }
 }

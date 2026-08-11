@@ -2,6 +2,8 @@
 
 This is the human-readable index for product ideas explored through ongoing conversation, research, validation, hackathons, and later projects. The structured source of truth is [`idea-database.json`](idea-database.json).
 
+The Ledger is intentionally **larger than any one hackathon**. Current projects and contests get their own context dossiers; the canonical idea records remain reusable across opportunities. The active project context is [`ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md`](ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md), which records the AI-operated, human-finished BackPocket.help rescue-service prototype for Build with Gemini XPRIZE.
+
 **Rule:** passing on an idea archives the decision; it does not delete the idea. Every serious concept keeps its pitch, decision reason, resurrection trigger, tags, and links to deeper research.
 
 ## Status key
@@ -32,6 +34,8 @@ Round ten, autonomous Loop 4, promoted **zero builds** after 38 serious screens.
 The XPRIZE focus-group round (2026-08-10) was simulated persona research, not participant research. It tested specialist and demographic hypotheses, struck broad parent/caregiver/adult-entertainer/gig-worker/young-adult concepts, and reaffirmed **LotMatch**, **WeedCheck**, and **DoorHold** as the only immediate paid experiments, with **CaptionGap** limited to compensated co-design. See [`XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md`](XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md) for methods, limitations, survivors, and failure reasons. **StemPack Gate** had the cleanest creator demo, but a $3.99 adjacent batch reporter plus free MediaInfo are strong substitutes for much of its observable metadata.
 
 The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) stops broad mining after 123 serious Round-10 screens. It funds five experiments rather than five builds: **LotMatch**, **WeedCheck**, **DoorHold**, compensated **CaptionGap** co-design plus an independent preorder cohort, and concierge **DeferralGap**. **CrashTape** remains the engineering reserve and **Confirmed Spoken Details** the mission-led accessibility track. The next promotion must clear payment, repeated behavior, authority, and distribution gates simultaneously.
+
+Round 11 completed a 30-domain desk-research sweep spanning home repair through indie app developers. These are **synthetic research rooms, not recruited focus groups**: each now appears separately in `focus-groups.json` with five research-derived perspectives, a decision lane, source dossier, and canonical idea links. The initial sweep surfaced Did-It-Fix-It, Change Impact Relay, Client Decision Debt Clock, and Monetization Canary; the final adversarial pass killed the first three on current incumbents and host ownership and parked Monetization Canary behind RevenueCat host-capability and paid-demand gates. Repair Relay, Departure Baton, Used Gear Passport, and 311 Shadow Receipt remain partner or usability holds. The round approved no build and preserved all negative decisions.
 
 ## Catalog
 
@@ -344,22 +348,29 @@ The [final autonomous synthesis](HACKATHON-RESEARCH-SYNTHESIS-2026-08-10.md) sto
 | Remix Response Contract | Passed — market | Low | TikTok and YouTube own remix formats, distribution, attribution, and music rights | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | Actor Scene Test | Passed — market | Medium | Dr Self Tape, Rehearsed, Cue Line, and Slatable own actor practice and scene challenges | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
 | FrameFault | Passed — market | High | Auto QC, UploadCheck, and QC Buddy own final-export anomaly checks with generous free tiers | [Video revisit](VIDEO-REVISIT-2026-08-10.md) |
+| BackPocket.help | Validating | High | The live synthetic demo makes the AI-to-human rescue loop concrete, but real payment, safe fulfillment, agent evidence, and unit economics remain unproven | [Active context](ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
+| Did-It-Fix-It | Passed — market | Medium | AutoVitals already follows unresolved symptoms, shop suites own retention, and consumer use is episodic | [Focus Groups 01–15](FOCUS-GROUPS-01-15-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
+| Change Impact Relay | Passed — market | High | Caldzy, Aviva, Ohai, PlanPing, and calendars occupy the workflow, while incomplete dependencies create false calm | [Focus Groups 01–15](FOCUS-GROUPS-01-15-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
+| Client Decision Debt Clock | Passed — market | High | ApproveEase already provides the no-login choice, reminders, and delivery-date movement | [Focus Groups 01–15](FOCUS-GROUPS-01-15-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
+| Repair Relay | Parked | Low | Assistive-device repair pain is severe, but no phone diary can substitute for sanctioned provider status or escalation | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md) |
+| Departure Baton | Parked | Medium | RV handoff acknowledgment may help, but it must beat a laminated checklist and never imply physical completion | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md) |
+| Used Gear Passport | Parked | Low | Useful service history needs a trusted repair, dealer, or marketplace partner; consumer-entered records cannot create authority | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md) |
+| 311 Shadow Receipt | Parked | Medium | A one-city source history may expose status gaps, but the official system remains authoritative and payer/distribution are weak | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md) |
+| Monetization Canary | Parked | High | RevenueCat owns the telemetry and Sentry/PostHog can capture failures; another probe is a host-adjacent diagnostic preset until paid proof says otherwise | [Focus Groups 16–30](FOCUS-GROUPS-16-30-2026-08-10.md), [Round 11 start](RESEARCH-ROUND-11-STARTING-STATE.md), [Shipaton rules](SHIPATON-2026-OFFICIAL-RULES-VERIFIED-2026-08-10.md), [Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) |
 
 ## Current experiment portfolio
 
-The five funded validations are deliberately not production builds:
+Round 11 supersedes the earlier five-way funding order. **No production build is approved.** The sole immediate funded falsification is:
 
-1. **LotMatch** — strongest business probability; sell founder-years, collect 300 labels, and require zero false matches plus live crew adherence.
-2. **WeedCheck** — strongest visual experiment; pass the 100-piece blind fixture and collect seller prepayment before an app shell.
-3. **DoorHold** — cheapest business test; run signed web links and staged lockouts with no native code.
-4. **CaptionGap** — compensated DHH/HoH co-design plus a separate paid-demand test; prove bounded state changes action without false healthy results, then collect independent preorders.
-5. **DeferralGap** — paid concierge only; prove repeated artifact sharing and a low-false-hold cumulative model.
+1. **LotMatch** — sell founder-years, collect 300 real carton labels across ten brands, require zero false `same` matches, and observe live crew adherence before implementation.
+
+Four useful but currently unfunded research lanes remain: **WeedCheck** gets only a constrained technical/market spike; **DoorHold** only a no-code incidence and ordinary-SMS comparison; **CaptionGap** compensated DHH/HoH co-design followed by a separate buyer cohort; and **DeferralGap** paid concierge learning. They do not share LotMatch's finalist status.
 
 **CrashTape** is the optional engineering reserve. **Confirmed Spoken Details** remains the mission-led accessibility track. **CancelBy** is an unfunded alternate whose only useful next step is a short blind test against a configured free Reminder. CutBolt, Two-Source Solar Check, Health Sync Canary, and the remaining parked ideas stay searchable with their resurrection gates, but they are not in the immediate funded queue.
 
 **Encore** is preserved as an event-CRM feature or technically safe demo fallback, not an active standalone product candidate.
 
-The video revisit adds four **unfunded validation lanes**—SpinLoop, TakeSweep, ShotCanary, and Live Roll / Cut Room. They are not production builds or additions to the funded five; each remains gated by an explicit payment, behavior, and truth experiment in the video dossier.
+The video revisit adds four **unfunded validation lanes**—SpinLoop, TakeSweep, ShotCanary, and Live Roll / Cut Room. Round 11 added no validation lane after final adversarial review: Did-It-Fix-It, Change Impact Relay, and Client Decision Debt Clock passed on current market structure; Monetization Canary is parked for a host-capability and paid-demand check. None is a production build or an addition to the sole funded finalist.
 
 ## Record format
 

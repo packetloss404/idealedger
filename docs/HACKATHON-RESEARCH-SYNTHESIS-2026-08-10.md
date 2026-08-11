@@ -206,6 +206,15 @@ Maximum suggested direct spend if all five run is $6,700: $1,500 LotMatch, $1,60
 11. **Trust-critical recovery and accessibility fundamentals should not be paywalled.** Monetize organization, scale, collaboration, or services around them.
 12. **The Ledger has reached experiment saturation.** New broad mining now has lower expected value than these sharply priced tests.
 
+### Round 11 additions
+
+13. **Fragmentation is negative evidence until the invariant is named.** Many calendars, portals, messages, or marketplaces do not themselves create a product; the wedge still needs an observable invariant, sanctioned partner, or transaction-timed distribution channel.
+14. **No-install links are a primitive, not proof.** Removing installation friction does not prove identity, access, authority, completion, safety, payment, or reliable response.
+15. **Search the host's observability surface before proposing a monitor.** Callbacks, diagnostics, analytics, and error tools can absorb a narrowly packaged canary even when the failure boundary is real.
+16. **Competitor search must operate at the mechanism level.** Search the exact action, delivery model, reminder behavior, workflow owner, and substitute—not only the proposed product name.
+
+See [the Round 11 synthesis](SHIPATON-MCLOVIN-ROUND-11-2026-08-10.md) for the 30-domain evidence sweep, competitor kills, and reopening gates behind these additions.
+
 ## Final decision
 
-Fund LotMatch, WeedCheck, and DoorHold as the primary commercial-validation portfolio. Run CaptionGap as compensated co-design followed by an independent paid-demand test, and DeferralGap only as paid concierge learning. Keep CrashTape as an optional technical reserve and Confirmed Spoken Details as mission-led research. Do not begin a production build until one experiment clears payment, repeated behavior, authority, and distribution gates simultaneously.
+Round 11 narrows the portfolio further: **approve no production build and run LotMatch first as the sole falsification finalist**. WeedCheck receives only a constrained technical/market spike, and DoorHold only a no-code incidence test. CaptionGap co-design and DeferralGap concierge learning remain valid but unfunded unless parallel research capacity exists; CrashTape remains an engineering reserve and Confirmed Spoken Details a mission-led track. Do not begin a production build until one experiment clears payment, repeated behavior, authority, and distribution gates simultaneously.

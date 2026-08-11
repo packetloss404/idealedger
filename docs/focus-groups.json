@@ -164,6 +164,1762 @@
         }
       ],
       "next_step": "Recruit 12 real participants. Require at least seven to create a Loop, six to send it, 40% recipient follow-through, 60% closure with an outcome, and three independent second-use requests."
+    },
+    {
+      "id": "round-11-focus-group-01",
+      "title": "Focus Group 01 — Home Repair",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for home repair",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for home repair.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-01--home-repair",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Homeowner",
+          "primary_job": "a correct fix and predictable total",
+          "signal": "The user opens one repair card and sees: original symptom clip, exactly what the invoice says was replaced, warranty end date, and whether the symptom returned—ready to send to the next provider.",
+          "objection": "Uncertain. The pain is real, but two of three seeds are Ledger duplicates and the remaining outcome loop has low frequency and likely belongs in an incumbent repair platform. Test H01 only with 20 recent repeat-repair cases and require evidence that the packet changes the next visit; do not build diagnosis claims."
+        },
+        {
+          "id": "perspective-2",
+          "label": "renter",
+          "primary_job": "habitability without retaliation or personal cost",
+          "signal": "The user opens one repair card and sees: original symptom clip, exactly what the invoice says was replaced, warranty end date, and whether the symptom returned—ready to send to the next provider.",
+          "objection": "Uncertain. The pain is real, but two of three seeds are Ledger duplicates and the remaining outcome loop has low frequency and likely belongs in an incumbent repair platform. Test H01 only with 20 recent repeat-repair cases and require evidence that the packet changes the next visit; do not build diagnosis claims."
+        },
+        {
+          "id": "perspective-3",
+          "label": "handyman",
+          "primary_job": "fast diagnosis and payment",
+          "signal": "The user opens one repair card and sees: original symptom clip, exactly what the invoice says was replaced, warranty end date, and whether the symptom returned—ready to send to the next provider.",
+          "objection": "Uncertain. The pain is real, but two of three seeds are Ledger duplicates and the remaining outcome loop has low frequency and likely belongs in an incumbent repair platform. Test H01 only with 20 recent repeat-repair cases and require evidence that the packet changes the next visit; do not build diagnosis claims."
+        },
+        {
+          "id": "perspective-4",
+          "label": "licensed contractor",
+          "primary_job": "qualified leads and bounded liability",
+          "signal": "The user opens one repair card and sees: original symptom clip, exactly what the invoice says was replaced, warranty end date, and whether the symptom returned—ready to send to the next provider.",
+          "objection": "Uncertain. The pain is real, but two of three seeds are Ledger duplicates and the remaining outcome loop has low frequency and likely belongs in an incumbent repair platform. Test H01 only with 20 recent repeat-repair cases and require evidence that the packet changes the next visit; do not build diagnosis claims."
+        },
+        {
+          "id": "perspective-5",
+          "label": "landlord/property manager (wants low downtime and an audit trail) and home-warranty company",
+          "primary_job": "covered, low-cost resolution and fraud control",
+          "signal": "The user opens one repair card and sees: original symptom clip, exactly what the invoice says was replaced, warranty end date, and whether the symptom returned—ready to send to the next provider.",
+          "objection": "Uncertain. The pain is real, but two of three seeds are Ledger duplicates and the remaining outcome loop has low frequency and likely belongs in an incumbent repair platform. Test H01 only with 20 recent repeat-repair cases and require evidence that the packet changes the next visit; do not build diagnosis claims."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "Uncertain. The pain is real, but two of three seeds are Ledger duplicates and the remaining outcome loop has low frequency and likely belongs in an incumbent repair platform. Test H01 only with 20 recent repeat-repair cases and require evidence that the packet changes the next visit; do not build diagnosis claims.",
+          "idea_ids": [
+            "service-exit-closeout"
+          ]
+        }
+      ],
+      "next_step": "Uncertain. The pain is real, but two of three seeds are Ledger duplicates and the remaining outcome loop has low frequency and likely belongs in an incumbent repair platform. Test H01 only with 20 recent repeat-repair cases and require evidence that the packet changes the next visit; do not build diagnosis claims."
+    },
+    {
+      "id": "round-11-focus-group-02",
+      "title": "Focus Group 02 — Automotive Ownership & Repair",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for automotive ownership & repair",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for automotive ownership & repair.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-02--automotive-ownership--repair",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Vehicle owner",
+          "primary_job": "correct repair, fair price, mobility",
+          "signal": "At a second shop, the owner shares a single timeline: “noise below 30°F,” original clip, first shop’s stated repair, and “same symptom returned four days later.”",
+          "objection": "Promising only as a validation experiment. H04 is this group’s survivor because it makes a truthful claim (“what was reported, done, and later observed”) and fits invoice/photo behavior. Fatal flaws: episodic use, privacy, user-reported outcome, and easy CARFAX/shop-suite copying."
+        },
+        {
+          "id": "perspective-2",
+          "label": "mechanic",
+          "primary_job": "accurate symptom and billable diagnosis",
+          "signal": "At a second shop, the owner shares a single timeline: “noise below 30°F,” original clip, first shop’s stated repair, and “same symptom returned four days later.”",
+          "objection": "Promising only as a validation experiment. H04 is this group’s survivor because it makes a truthful claim (“what was reported, done, and later observed”) and fits invoice/photo behavior. Fatal flaws: episodic use, privacy, user-reported outcome, and easy CARFAX/shop-suite copying."
+        },
+        {
+          "id": "perspective-3",
+          "label": "service adviser",
+          "primary_job": "throughput and satisfaction",
+          "signal": "At a second shop, the owner shares a single timeline: “noise below 30°F,” original clip, first shop’s stated repair, and “same symptom returned four days later.”",
+          "objection": "Promising only as a validation experiment. H04 is this group’s survivor because it makes a truthful claim (“what was reported, done, and later observed”) and fits invoice/photo behavior. Fatal flaws: episodic use, privacy, user-reported outcome, and easy CARFAX/shop-suite copying."
+        },
+        {
+          "id": "perspective-4",
+          "label": "dealer",
+          "primary_job": "retention and warranty compliance",
+          "signal": "At a second shop, the owner shares a single timeline: “noise below 30°F,” original clip, first shop’s stated repair, and “same symptom returned four days later.”",
+          "objection": "Promising only as a validation experiment. H04 is this group’s survivor because it makes a truthful claim (“what was reported, done, and later observed”) and fits invoice/photo behavior. Fatal flaws: episodic use, privacy, user-reported outcome, and easy CARFAX/shop-suite copying."
+        },
+        {
+          "id": "perspective-5",
+          "label": "independent shop (trust without OEM data advantage) and parts supplier (correct fit and sale) and insurer",
+          "primary_job": "cost control and documented loss",
+          "signal": "At a second shop, the owner shares a single timeline: “noise below 30°F,” original clip, first shop’s stated repair, and “same symptom returned four days later.”",
+          "objection": "Promising only as a validation experiment. H04 is this group’s survivor because it makes a truthful claim (“what was reported, done, and later observed”) and fits invoice/photo behavior. Fatal flaws: episodic use, privacy, user-reported outcome, and easy CARFAX/shop-suite copying."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Final adversarial review passed the standalone idea: AutoVitals already branches on unresolved symptoms, CARFAX or shop suites can absorb it, and consumer use is episodic.",
+          "idea_ids": [
+            "did-it-fix-it"
+          ]
+        }
+      ],
+      "next_step": "Final adversarial review passed the standalone idea: AutoVitals already branches on unresolved symptoms, CARFAX or shop suites can absorb it, and consumer use is episodic."
+    },
+    {
+      "id": "round-11-focus-group-03",
+      "title": "Focus Group 03 — Insurance Administration",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for insurance administration",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for insurance administration.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-03--insurance-administration",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Policyholder",
+          "primary_job": "timely understandable progress",
+          "signal": "One screen shows “waiting on insurer acknowledgment of roof photos sent Aug 8” with the source email, adjuster contact, and no invented decision date.",
+          "objection": "Uncertain. Administrative pain is strong; access, episodic retention, and carrier authority are fatal business risks. H07 merits only a concierge falsification test with active claimants. Kill if users will not forward artifacts weekly or if carrier portals already make the blocker clear."
+        },
+        {
+          "id": "perspective-2",
+          "label": "agent",
+          "primary_job": "retention and fewer status calls",
+          "signal": "One screen shows “waiting on insurer acknowledgment of roof photos sent Aug 8” with the source email, adjuster contact, and no invented decision date.",
+          "objection": "Uncertain. Administrative pain is strong; access, episodic retention, and carrier authority are fatal business risks. H07 merits only a concierge falsification test with active claimants. Kill if users will not forward artifacts weekly or if carrier portals already make the blocker clear."
+        },
+        {
+          "id": "perspective-3",
+          "label": "adjuster",
+          "primary_job": "complete facts and manageable caseload",
+          "signal": "One screen shows “waiting on insurer acknowledgment of roof photos sent Aug 8” with the source email, adjuster contact, and no invented decision date.",
+          "objection": "Uncertain. Administrative pain is strong; access, episodic retention, and carrier authority are fatal business risks. H07 merits only a concierge falsification test with active claimants. Kill if users will not forward artifacts weekly or if carrier portals already make the blocker clear."
+        },
+        {
+          "id": "perspective-4",
+          "label": "contractor",
+          "primary_job": "authorization/payment clarity",
+          "signal": "One screen shows “waiting on insurer acknowledgment of roof photos sent Aug 8” with the source email, adjuster contact, and no invented decision date.",
+          "objection": "Uncertain. Administrative pain is strong; access, episodic retention, and carrier authority are fatal business risks. H07 merits only a concierge falsification test with active claimants. Kill if users will not forward artifacts weekly or if carrier portals already make the blocker clear."
+        },
+        {
+          "id": "perspective-5",
+          "label": "consumer advocate (fair documentation and escalation) and insurer",
+          "primary_job": "loss control, fraud resistance, channel containment",
+          "signal": "One screen shows “waiting on insurer acknowledgment of roof photos sent Aug 8” with the source email, adjuster contact, and no invented decision date.",
+          "objection": "Uncertain. Administrative pain is strong; access, episodic retention, and carrier authority are fatal business risks. H07 merits only a concierge falsification test with active claimants. Kill if users will not forward artifacts weekly or if carrier portals already make the blocker clear."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "Uncertain. Administrative pain is strong; access, episodic retention, and carrier authority are fatal business risks. H07 merits only a concierge falsification test with active claimants. Kill if users will not forward artifacts weekly or if carrier portals already make the blocker clear.",
+          "idea_ids": [
+            "consumer-case-agent"
+          ]
+        }
+      ],
+      "next_step": "Uncertain. Administrative pain is strong; access, episodic retention, and carrier authority are fatal business risks. H07 merits only a concierge falsification test with active claimants. Kill if users will not forward artifacts weekly or if carrier portals already make the blocker clear."
+    },
+    {
+      "id": "round-11-focus-group-04",
+      "title": "Focus Group 04 — Renting & Security Deposits",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for renting & security deposits",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for renting & security deposits.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-04--renting--security-deposits",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Tenant",
+          "primary_job": "safe home and deposit return",
+          "signal": "The tenant taps a charge and immediately sees the corresponding move-in image, move-out image, inspection text, and source timestamp—without an app-generated legal conclusion.",
+          "objection": "Weak for a new app. The pain is consequential but episodic, exact incumbents exist, and three seeds merge into prior records. Preserve the evidence as support for DoorHold’s no-access test, not as Ledger inflation."
+        },
+        {
+          "id": "perspective-2",
+          "label": "landlord",
+          "primary_job": "asset protection and payment",
+          "signal": "The tenant taps a charge and immediately sees the corresponding move-in image, move-out image, inspection text, and source timestamp—without an app-generated legal conclusion.",
+          "objection": "Weak for a new app. The pain is consequential but episodic, exact incumbents exist, and three seeds merge into prior records. Preserve the evidence as support for DoorHold’s no-access test, not as Ledger inflation."
+        },
+        {
+          "id": "perspective-3",
+          "label": "property manager",
+          "primary_job": "standardized operations",
+          "signal": "The tenant taps a charge and immediately sees the corresponding move-in image, move-out image, inspection text, and source timestamp—without an app-generated legal conclusion.",
+          "objection": "Weak for a new app. The pain is consequential but episodic, exact incumbents exist, and three seeds merge into prior records. Preserve the evidence as support for DoorHold’s no-access test, not as Ledger inflation."
+        },
+        {
+          "id": "perspective-4",
+          "label": "cleaner",
+          "primary_job": "clear scope",
+          "signal": "The tenant taps a charge and immediately sees the corresponding move-in image, move-out image, inspection text, and source timestamp—without an app-generated legal conclusion.",
+          "objection": "Weak for a new app. The pain is consequential but episodic, exact incumbents exist, and three seeds merge into prior records. Preserve the evidence as support for DoorHold’s no-access test, not as Ledger inflation."
+        },
+        {
+          "id": "perspective-5",
+          "label": "maintenance worker (access and job facts) and leasing agent",
+          "primary_job": "fast turnover and completed paperwork",
+          "signal": "The tenant taps a charge and immediately sees the corresponding move-in image, move-out image, inspection text, and source timestamp—without an app-generated legal conclusion.",
+          "objection": "Weak for a new app. The pain is consequential but episodic, exact incumbents exist, and three seeds merge into prior records. Preserve the evidence as support for DoorHold’s no-access test, not as Ledger inflation."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Weak for a new app. The pain is consequential but episodic, exact incumbents exist, and three seeds merge into prior records. Preserve the evidence as support for DoorHold’s no-access test, not as Ledger inflation.",
+          "idea_ids": [
+            "security-deposit-evidence"
+          ]
+        }
+      ],
+      "next_step": "Weak for a new app. The pain is consequential but episodic, exact incumbents exist, and three seeds merge into prior records. Preserve the evidence as support for DoorHold’s no-access test, not as Ledger inflation."
+    },
+    {
+      "id": "round-11-focus-group-05",
+      "title": "Focus Group 05 — Moving",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for moving",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for moving.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-05--moving",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Renter/homeowner",
+          "primary_job": "finish transition without missed obligations",
+          "signal": "The move dashboard shows only unresolved dependencies for the next 24 hours—elevator reservation unconfirmed, old electricity cutoff after final clean, new internet appointment owner accepted—with source receipts.",
+          "objection": "Weak. Real absurdity, weak standalone business. The useful cross-domain lesson is “life event → dependency/state map,” but moving itself is already the canonical implementation."
+        },
+        {
+          "id": "perspective-2",
+          "label": "moving company",
+          "primary_job": "accurate scope and access",
+          "signal": "The move dashboard shows only unresolved dependencies for the next 24 hours—elevator reservation unconfirmed, old electricity cutoff after final clean, new internet appointment owner accepted—with source receipts.",
+          "objection": "Weak. Real absurdity, weak standalone business. The useful cross-domain lesson is “life event → dependency/state map,” but moving itself is already the canonical implementation."
+        },
+        {
+          "id": "perspective-3",
+          "label": "utility/provider",
+          "primary_job": "identity and service dates",
+          "signal": "The move dashboard shows only unresolved dependencies for the next 24 hours—elevator reservation unconfirmed, old electricity cutoff after final clean, new internet appointment owner accepted—with source receipts.",
+          "objection": "Weak. Real absurdity, weak standalone business. The useful cross-domain lesson is “life event → dependency/state map,” but moving itself is already the canonical implementation."
+        },
+        {
+          "id": "perspective-4",
+          "label": "property manager",
+          "primary_job": "turnover",
+          "signal": "The move dashboard shows only unresolved dependencies for the next 24 hours—elevator reservation unconfirmed, old electricity cutoff after final clean, new internet appointment owner accepted—with source receipts.",
+          "objection": "Weak. Real absurdity, weak standalone business. The useful cross-domain lesson is “life event → dependency/state map,” but moving itself is already the canonical implementation."
+        },
+        {
+          "id": "perspective-5",
+          "label": "helper/family member (clear assignments) and government/mail service",
+          "primary_job": "verified address change",
+          "signal": "The move dashboard shows only unresolved dependencies for the next 24 hours—elevator reservation unconfirmed, old electricity cutoff after final clean, new internet appointment owner accepted—with source receipts.",
+          "objection": "Weak. Real absurdity, weak standalone business. The useful cross-domain lesson is “life event → dependency/state map,” but moving itself is already the canonical implementation."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Weak. Real absurdity, weak standalone business. The useful cross-domain lesson is “life event → dependency/state map,” but moving itself is already the canonical implementation.",
+          "idea_ids": [
+            "moving-revised-scope-approval"
+          ]
+        }
+      ],
+      "next_step": "Weak. Real absurdity, weak standalone business. The useful cross-domain lesson is “life event → dependency/state map,” but moving itself is already the canonical implementation."
+    },
+    {
+      "id": "round-11-focus-group-06",
+      "title": "Focus Group 06 — Household Administration",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for household administration",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for household administration.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-06--household-administration",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Busy parent",
+          "primary_job": "reduce mental load",
+          "signal": "Instead of 70 tasks, the app shows three unresolved household exceptions: refund not posted, plumber owes revised date, and school form lacks the second signature—with an owner and source for each.",
+          "objection": "Uncertain. H16 is worth a paper/concierge test; H17/H18 are occupied or duplicated. Kill H16 if setup exceeds forwarding a message or if users cannot identify at least three live exceptions per week."
+        },
+        {
+          "id": "perspective-2",
+          "label": "single adult",
+          "primary_job": "avoid dropped obligations",
+          "signal": "Instead of 70 tasks, the app shows three unresolved household exceptions: refund not posted, plumber owes revised date, and school form lacks the second signature—with an owner and source for each.",
+          "objection": "Uncertain. H16 is worth a paper/concierge test; H17/H18 are occupied or duplicated. Kill H16 if setup exceeds forwarding a message or if users cannot identify at least three live exceptions per week."
+        },
+        {
+          "id": "perspective-3",
+          "label": "couple/roommates",
+          "primary_job": "fair ownership without nagging",
+          "signal": "Instead of 70 tasks, the app shows three unresolved household exceptions: refund not posted, plumber owes revised date, and school form lacks the second signature—with an owner and source for each.",
+          "objection": "Uncertain. H16 is worth a paper/concierge test; H17/H18 are occupied or duplicated. Kill H16 if setup exceeds forwarding a message or if users cannot identify at least three live exceptions per week."
+        },
+        {
+          "id": "perspective-4",
+          "label": "household organizer",
+          "primary_job": "visibility and reliable follow-through",
+          "signal": "Instead of 70 tasks, the app shows three unresolved household exceptions: refund not posted, plumber owes revised date, and school form lacks the second signature—with an owner and source for each.",
+          "objection": "Uncertain. H16 is worth a paper/concierge test; H17/H18 are occupied or duplicated. Kill H16 if setup exceeds forwarding a message or if users cannot identify at least three live exceptions per week."
+        },
+        {
+          "id": "perspective-5",
+          "label": "service provider",
+          "primary_job": "accurate contact/access/specification",
+          "signal": "Instead of 70 tasks, the app shows three unresolved household exceptions: refund not posted, plumber owes revised date, and school form lacks the second signature—with an owner and source for each.",
+          "objection": "Uncertain. H16 is worth a paper/concierge test; H17/H18 are occupied or duplicated. Kill H16 if setup exceeds forwarding a message or if users cannot identify at least three live exceptions per week."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "Uncertain. H16 is worth a paper/concierge test; H17/H18 are occupied or duplicated. Kill H16 if setup exceeds forwarding a message or if users cannot identify at least three live exceptions per week.",
+          "idea_ids": [
+            "shared-list-claim"
+          ]
+        }
+      ],
+      "next_step": "Uncertain. H16 is worth a paper/concierge test; H17/H18 are occupied or duplicated. Kill H16 if setup exceeds forwarding a message or if users cannot identify at least three live exceptions per week."
+    },
+    {
+      "id": "round-11-focus-group-07",
+      "title": "Focus Group 07 — Parents & Family Logistics",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for parents & family logistics",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for parents & family logistics.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-07--parents--family-logistics",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Parents with different work schedules",
+          "primary_job": "reliable responsibility",
+          "signal": "Share “practice moved 30 minutes earlier”; the phone immediately marks aftercare pickup and sibling piano as conflicting, then produces two concrete reassignment links.",
+          "objection": "Promising / validate first. H19 is the lane’s strongest new consumer hypothesis. Fatal flaws: setup of dependencies, data access, false conflict/false calm, family-organizer crowding, and easy incumbent copying. Falsification test: 25 families forward 100 real change messages; at least 30 reveal a previously missed downstream obligation, and 70% of generated links receive a response without prompting."
+        },
+        {
+          "id": "perspective-2",
+          "label": "child",
+          "primary_job": "predictable pickup and equipment",
+          "signal": "Share “practice moved 30 minutes earlier”; the phone immediately marks aftercare pickup and sibling piano as conflicting, then produces two concrete reassignment links.",
+          "objection": "Promising / validate first. H19 is the lane’s strongest new consumer hypothesis. Fatal flaws: setup of dependencies, data access, false conflict/false calm, family-organizer crowding, and easy incumbent copying. Falsification test: 25 families forward 100 real change messages; at least 30 reveal a previously missed downstream obligation, and 70% of generated links receive a response without prompting."
+        },
+        {
+          "id": "perspective-3",
+          "label": "coach/teacher",
+          "primary_job": "attendance and readiness",
+          "signal": "Share “practice moved 30 minutes earlier”; the phone immediately marks aftercare pickup and sibling piano as conflicting, then produces two concrete reassignment links.",
+          "objection": "Promising / validate first. H19 is the lane’s strongest new consumer hypothesis. Fatal flaws: setup of dependencies, data access, false conflict/false calm, family-organizer crowding, and easy incumbent copying. Falsification test: 25 families forward 100 real change messages; at least 30 reveal a previously missed downstream obligation, and 70% of generated links receive a response without prompting."
+        },
+        {
+          "id": "perspective-4",
+          "label": "childcare provider",
+          "primary_job": "authorized changes and pickup",
+          "signal": "Share “practice moved 30 minutes earlier”; the phone immediately marks aftercare pickup and sibling piano as conflicting, then produces two concrete reassignment links.",
+          "objection": "Promising / validate first. H19 is the lane’s strongest new consumer hypothesis. Fatal flaws: setup of dependencies, data access, false conflict/false calm, family-organizer crowding, and easy incumbent copying. Falsification test: 25 families forward 100 real change messages; at least 30 reveal a previously missed downstream obligation, and 70% of generated links receive a response without prompting."
+        },
+        {
+          "id": "perspective-5",
+          "label": "relative/helper",
+          "primary_job": "just enough context to help",
+          "signal": "Share “practice moved 30 minutes earlier”; the phone immediately marks aftercare pickup and sibling piano as conflicting, then produces two concrete reassignment links.",
+          "objection": "Promising / validate first. H19 is the lane’s strongest new consumer hypothesis. Fatal flaws: setup of dependencies, data access, false conflict/false calm, family-organizer crowding, and easy incumbent copying. Falsification test: 25 families forward 100 real change messages; at least 30 reveal a previously missed downstream obligation, and 70% of generated links receive a response without prompting."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Final adversarial review passed the standalone idea after Caldzy, Aviva, Ohai, PlanPing, and family calendars established an incumbent swarm; a maintained graph also creates false-calm risk.",
+          "idea_ids": [
+            "change-impact-relay"
+          ]
+        }
+      ],
+      "next_step": "Final adversarial review passed the standalone idea after Caldzy, Aviva, Ohai, PlanPing, and family calendars established an incumbent swarm; a maintained graph also creates false-calm risk."
+    },
+    {
+      "id": "round-11-focus-group-08",
+      "title": "Focus Group 08 — School Administration",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for school administration",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for school administration.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-08--school-administration",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Parent",
+          "primary_job": "relevant actions per child",
+          "signal": "The parent sees three action cards across two children, each with the exact source sentence, due date, and authoritative submission link—no unsupported “complete.”",
+          "objection": "Weak. All three seeds are duplicates or host-platform features. Reopen only with a sanctioned district/SIS/LMS integration and a narrow exception the institutional platform cannot represent."
+        },
+        {
+          "id": "perspective-2",
+          "label": "student",
+          "primary_job": "deadlines and autonomy",
+          "signal": "The parent sees three action cards across two children, each with the exact source sentence, due date, and authoritative submission link—no unsupported “complete.”",
+          "objection": "Weak. All three seeds are duplicates or host-platform features. Reopen only with a sanctioned district/SIS/LMS integration and a narrow exception the institutional platform cannot represent."
+        },
+        {
+          "id": "perspective-3",
+          "label": "teacher/coach",
+          "primary_job": "reach and response",
+          "signal": "The parent sees three action cards across two children, each with the exact source sentence, due date, and authoritative submission link—no unsupported “complete.”",
+          "objection": "Weak. All three seeds are duplicates or host-platform features. Reopen only with a sanctioned district/SIS/LMS integration and a narrow exception the institutional platform cannot represent."
+        },
+        {
+          "id": "perspective-4",
+          "label": "administrator",
+          "primary_job": "compliance and mass communication",
+          "signal": "The parent sees three action cards across two children, each with the exact source sentence, due date, and authoritative submission link—no unsupported “complete.”",
+          "objection": "Weak. All three seeds are duplicates or host-platform features. Reopen only with a sanctioned district/SIS/LMS integration and a narrow exception the institutional platform cannot represent."
+        },
+        {
+          "id": "perspective-5",
+          "label": "volunteer (clear signup) and district IT/privacy owner",
+          "primary_job": "approved channels and records",
+          "signal": "The parent sees three action cards across two children, each with the exact source sentence, due date, and authoritative submission link—no unsupported “complete.”",
+          "objection": "Weak. All three seeds are duplicates or host-platform features. Reopen only with a sanctioned district/SIS/LMS integration and a narrow exception the institutional platform cannot represent."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Weak. All three seeds are duplicates or host-platform features. Reopen only with a sanctioned district/SIS/LMS integration and a narrow exception the institutional platform cannot represent.",
+          "idea_ids": [
+            "school-message-organizer"
+          ]
+        }
+      ],
+      "next_step": "Weak. All three seeds are duplicates or host-platform features. Reopen only with a sanctioned district/SIS/LMS integration and a narrow exception the institutional platform cannot represent."
+    },
+    {
+      "id": "round-11-focus-group-09",
+      "title": "Focus Group 09 — College & Early Adulthood",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for college & early adulthood",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for college & early adulthood.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-09--college--early-adulthood",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Student",
+          "primary_job": "deadlines, affordability, independence",
+          "signal": "From a hold screenshot, show a campus-specific, source-cited chain—“upload residency document → wait for registrar acknowledgment → registration access unknown”—with direct official links.",
+          "objection": "Weak / hold. H26 is the only non-duplicate but is better as an institution-sponsored mobile web module. Reopen with one campus partner exposing hold reason/status APIs and a measured completion lift."
+        },
+        {
+          "id": "perspective-2",
+          "label": "recent graduate",
+          "primary_job": "new administrative obligations",
+          "signal": "From a hold screenshot, show a campus-specific, source-cited chain—“upload residency document → wait for registrar acknowledgment → registration access unknown”—with direct official links.",
+          "objection": "Weak / hold. H26 is the only non-duplicate but is better as an institution-sponsored mobile web module. Reopen with one campus partner exposing hold reason/status APIs and a measured completion lift."
+        },
+        {
+          "id": "perspective-3",
+          "label": "adviser",
+          "primary_job": "retention/completion",
+          "signal": "From a hold screenshot, show a campus-specific, source-cited chain—“upload residency document → wait for registrar acknowledgment → registration access unknown”—with direct official links.",
+          "objection": "Weak / hold. H26 is the only non-duplicate but is better as an institution-sponsored mobile web module. Reopen with one campus partner exposing hold reason/status APIs and a measured completion lift."
+        },
+        {
+          "id": "perspective-4",
+          "label": "landlord",
+          "primary_job": "complete records/payment",
+          "signal": "From a hold screenshot, show a campus-specific, source-cited chain—“upload residency document → wait for registrar acknowledgment → registration access unknown”—with direct official links.",
+          "objection": "Weak / hold. H26 is the only non-duplicate but is better as an institution-sponsored mobile web module. Reopen with one campus partner exposing hold reason/status APIs and a measured completion lift."
+        },
+        {
+          "id": "perspective-5",
+          "label": "employer (onboarding/compliance) and parent",
+          "primary_job": "support without taking over",
+          "signal": "From a hold screenshot, show a campus-specific, source-cited chain—“upload residency document → wait for registrar acknowledgment → registration access unknown”—with direct official links.",
+          "objection": "Weak / hold. H26 is the only non-duplicate but is better as an institution-sponsored mobile web module. Reopen with one campus partner exposing hold reason/status APIs and a measured completion lift."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Weak / hold. H26 is the only non-duplicate but is better as an institution-sponsored mobile web module. Reopen with one campus partner exposing hold reason/status APIs and a measured completion lift.",
+          "idea_ids": []
+        }
+      ],
+      "next_step": "Weak / hold. H26 is the only non-duplicate but is better as an institution-sponsored mobile web module. Reopen with one campus partner exposing hold reason/status APIs and a measured completion lift."
+    },
+    {
+      "id": "round-11-focus-group-10",
+      "title": "Focus Group 10 — Shift Workers",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for shift workers",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for shift workers.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-10--shift-workers",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Hourly worker",
+          "primary_job": "predictable work/pay",
+          "signal": "Share the new roster and see: “Tuesday moved +4 hours; conflicts with declared unavailable period and childcare pickup,” with the old image and a neutral clarification message.",
+          "objection": "Uncertain to weak. Test H29 through labor/community organizations, never as legal determination. Kill if employer tools expose immutable schedule/availability audit history or if workers will not capture availability before disputes."
+        },
+        {
+          "id": "perspective-2",
+          "label": "supervisor",
+          "primary_job": "coverage and compliance",
+          "signal": "Share the new roster and see: “Tuesday moved +4 hours; conflicts with declared unavailable period and childcare pickup,” with the old image and a neutral clarification message.",
+          "objection": "Uncertain to weak. Test H29 through labor/community organizations, never as legal determination. Kill if employer tools expose immutable schedule/availability audit history or if workers will not capture availability before disputes."
+        },
+        {
+          "id": "perspective-3",
+          "label": "scheduler",
+          "primary_job": "fast fill",
+          "signal": "Share the new roster and see: “Tuesday moved +4 hours; conflicts with declared unavailable period and childcare pickup,” with the old image and a neutral clarification message.",
+          "objection": "Uncertain to weak. Test H29 through labor/community organizations, never as legal determination. Kill if employer tools expose immutable schedule/availability audit history or if workers will not capture availability before disputes."
+        },
+        {
+          "id": "perspective-4",
+          "label": "coworker",
+          "primary_job": "fair swaps",
+          "signal": "Share the new roster and see: “Tuesday moved +4 hours; conflicts with declared unavailable period and childcare pickup,” with the old image and a neutral clarification message.",
+          "objection": "Uncertain to weak. Test H29 through labor/community organizations, never as legal determination. Kill if employer tools expose immutable schedule/availability audit history or if workers will not capture availability before disputes."
+        },
+        {
+          "id": "perspective-5",
+          "label": "childcare provider (reliable times) and partner",
+          "primary_job": "household coordination",
+          "signal": "Share the new roster and see: “Tuesday moved +4 hours; conflicts with declared unavailable period and childcare pickup,” with the old image and a neutral clarification message.",
+          "objection": "Uncertain to weak. Test H29 through labor/community organizations, never as legal determination. Kill if employer tools expose immutable schedule/availability audit history or if workers will not capture availability before disputes."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Uncertain to weak. Test H29 through labor/community organizations, never as legal determination. Kill if employer tools expose immutable schedule/availability audit history or if workers will not capture availability before disputes.",
+          "idea_ids": [
+            "roster-screenshot-diff"
+          ]
+        }
+      ],
+      "next_step": "Uncertain to weak. Test H29 through labor/community organizations, never as legal determination. Kill if employer tools expose immutable schedule/availability audit history or if workers will not capture availability before disputes."
+    },
+    {
+      "id": "round-11-focus-group-11",
+      "title": "Focus Group 11 — Gig Workers",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for gig workers",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for gig workers.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-11--gig-workers",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Driver/delivery/marketplace worker",
+          "primary_job": "true net earnings and due process",
+          "signal": "A new pay-policy notice becomes a before/after card showing exactly which words changed and what the formula would have done to five user-selected historical jobs—clearly labeled hypothetical.",
+          "objection": "Uncertain. H33 warrants an advocate/driver-club prototype, not a store build. Fatal flaws: screenshots as primitive API, policy interpretation risk, platform retaliation/ToS, and uneven repeat frequency."
+        },
+        {
+          "id": "perspective-2",
+          "label": "platform",
+          "primary_job": "liquidity, completion, fraud control",
+          "signal": "A new pay-policy notice becomes a before/after card showing exactly which words changed and what the formula would have done to five user-selected historical jobs—clearly labeled hypothetical.",
+          "objection": "Uncertain. H33 warrants an advocate/driver-club prototype, not a store build. Fatal flaws: screenshots as primitive API, policy interpretation risk, platform retaliation/ToS, and uneven repeat frequency."
+        },
+        {
+          "id": "perspective-3",
+          "label": "customer",
+          "primary_job": "reliable service",
+          "signal": "A new pay-policy notice becomes a before/after card showing exactly which words changed and what the formula would have done to five user-selected historical jobs—clearly labeled hypothetical.",
+          "objection": "Uncertain. H33 warrants an advocate/driver-club prototype, not a store build. Fatal flaws: screenshots as primitive API, policy interpretation risk, platform retaliation/ToS, and uneven repeat frequency."
+        },
+        {
+          "id": "perspective-4",
+          "label": "accountant",
+          "primary_job": "complete contemporaneous records",
+          "signal": "A new pay-policy notice becomes a before/after card showing exactly which words changed and what the formula would have done to five user-selected historical jobs—clearly labeled hypothetical.",
+          "objection": "Uncertain. H33 warrants an advocate/driver-club prototype, not a store build. Fatal flaws: screenshots as primitive API, policy interpretation risk, platform retaliation/ToS, and uneven repeat frequency."
+        },
+        {
+          "id": "perspective-5",
+          "label": "worker advocate",
+          "primary_job": "transparent policies and appeals",
+          "signal": "A new pay-policy notice becomes a before/after card showing exactly which words changed and what the formula would have done to five user-selected historical jobs—clearly labeled hypothetical.",
+          "objection": "Uncertain. H33 warrants an advocate/driver-club prototype, not a store build. Fatal flaws: screenshots as primitive API, policy interpretation risk, platform retaliation/ToS, and uneven repeat frequency."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "Uncertain. H33 warrants an advocate/driver-club prototype, not a store build. Fatal flaws: screenshots as primitive API, policy interpretation risk, platform retaliation/ToS, and uneven repeat frequency.",
+          "idea_ids": [
+            "gig-payout-deposit-match"
+          ]
+        }
+      ],
+      "next_step": "Uncertain. H33 warrants an advocate/driver-club prototype, not a store build. Fatal flaws: screenshots as primitive API, policy interpretation risk, platform retaliation/ToS, and uneven repeat frequency."
+    },
+    {
+      "id": "round-11-focus-group-12",
+      "title": "Focus Group 12 — Freelancers & Solo Professionals",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for freelancers & solo professionals",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for freelancers & solo professionals.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-12--freelancers--solo-professionals",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Freelancer",
+          "primary_job": "protect time/cash",
+          "signal": "The client sees “Choose A/B by Thursday; after Thursday the delivery date moves one day per late day,” chooses, and both receive the same timestamped decision card.",
+          "objection": "Promising / validate first. H34 is the strongest B2B prosumer seed in this lane, but only if it works through a no-account link and produces a measurable reduction in blocked days. Kill if freelancers cannot name three blocked decisions/month or clients ignore the card."
+        },
+        {
+          "id": "perspective-2",
+          "label": "client",
+          "primary_job": "flexibility and proof",
+          "signal": "The client sees “Choose A/B by Thursday; after Thursday the delivery date moves one day per late day,” chooses, and both receive the same timestamped decision card.",
+          "objection": "Promising / validate first. H34 is the strongest B2B prosumer seed in this lane, but only if it works through a no-account link and produces a measurable reduction in blocked days. Kill if freelancers cannot name three blocked decisions/month or clients ignore the card."
+        },
+        {
+          "id": "perspective-3",
+          "label": "accountant",
+          "primary_job": "clean transactions",
+          "signal": "The client sees “Choose A/B by Thursday; after Thursday the delivery date moves one day per late day,” chooses, and both receive the same timestamped decision card.",
+          "objection": "Promising / validate first. H34 is the strongest B2B prosumer seed in this lane, but only if it works through a no-account link and produces a measurable reduction in blocked days. Kill if freelancers cannot name three blocked decisions/month or clients ignore the card."
+        },
+        {
+          "id": "perspective-4",
+          "label": "prospect",
+          "primary_job": "low-friction buying",
+          "signal": "The client sees “Choose A/B by Thursday; after Thursday the delivery date moves one day per late day,” chooses, and both receive the same timestamped decision card.",
+          "objection": "Promising / validate first. H34 is the strongest B2B prosumer seed in this lane, but only if it works through a no-account link and produces a measurable reduction in blocked days. Kill if freelancers cannot name three blocked decisions/month or clients ignore the card."
+        },
+        {
+          "id": "perspective-5",
+          "label": "collaborator (clear ownership) and payment provider",
+          "primary_job": "completed, low-dispute transactions",
+          "signal": "The client sees “Choose A/B by Thursday; after Thursday the delivery date moves one day per late day,” chooses, and both receive the same timestamped decision card.",
+          "objection": "Promising / validate first. H34 is the strongest B2B prosumer seed in this lane, but only if it works through a no-account link and produces a measurable reduction in blocked days. Kill if freelancers cannot name three blocked decisions/month or clients ignore the card."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Final adversarial review passed the standalone idea because ApproveEase already provides the no-login decision link, reminders, and automatic delivery-date movement.",
+          "idea_ids": [
+            "client-decision-debt-clock"
+          ]
+        }
+      ],
+      "next_step": "Final adversarial review passed the standalone idea because ApproveEase already provides the no-login decision link, reminders, and automatic delivery-date movement."
+    },
+    {
+      "id": "round-11-focus-group-13",
+      "title": "Focus Group 13 — Local Service Businesses",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for local service businesses",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for local service businesses.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-13--local-service-businesses",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Owner",
+          "primary_job": "profitable utilization",
+          "signal": "After no answer, the customer link offers three bounded options—provide access, authorize paid waiting, or accept lockout—while the technician sees the clock and recorded selection.",
+          "objection": "Promising only as convergence on existing DoorHold. No new Ledger record should be added. This group strengthens DoorHold’s experiment and kills broad local-service SaaS ideation."
+        },
+        {
+          "id": "perspective-2",
+          "label": "dispatcher",
+          "primary_job": "live schedule",
+          "signal": "After no answer, the customer link offers three bounded options—provide access, authorize paid waiting, or accept lockout—while the technician sees the clock and recorded selection.",
+          "objection": "Promising only as convergence on existing DoorHold. No new Ledger record should be added. This group strengthens DoorHold’s experiment and kills broad local-service SaaS ideation."
+        },
+        {
+          "id": "perspective-3",
+          "label": "technician",
+          "primary_job": "complete context and fast closeout",
+          "signal": "After no answer, the customer link offers three bounded options—provide access, authorize paid waiting, or accept lockout—while the technician sees the clock and recorded selection.",
+          "objection": "Promising only as convergence on existing DoorHold. No new Ledger record should be added. This group strengthens DoorHold’s experiment and kills broad local-service SaaS ideation."
+        },
+        {
+          "id": "perspective-4",
+          "label": "customer",
+          "primary_job": "ETA/scope/trust",
+          "signal": "After no answer, the customer link offers three bounded options—provide access, authorize paid waiting, or accept lockout—while the technician sees the clock and recorded selection.",
+          "objection": "Promising only as convergence on existing DoorHold. No new Ledger record should be added. This group strengthens DoorHold’s experiment and kills broad local-service SaaS ideation."
+        },
+        {
+          "id": "perspective-5",
+          "label": "bookkeeper (clean invoice/payment) and supplier",
+          "primary_job": "correct part/availability",
+          "signal": "After no answer, the customer link offers three bounded options—provide access, authorize paid waiting, or accept lockout—while the technician sees the clock and recorded selection.",
+          "objection": "Promising only as convergence on existing DoorHold. No new Ledger record should be added. This group strengthens DoorHold’s experiment and kills broad local-service SaaS ideation."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Existing validation reinforced",
+          "disposition": "advanced",
+          "summary": "Promising only as convergence on existing DoorHold. No new Ledger record should be added. This group strengthens DoorHold’s experiment and kills broad local-service SaaS ideation.",
+          "idea_ids": [
+            "mobile-service-no-access-handshake"
+          ]
+        }
+      ],
+      "next_step": "Promising only as convergence on existing DoorHold. No new Ledger record should be added. This group strengthens DoorHold’s experiment and kills broad local-service SaaS ideation."
+    },
+    {
+      "id": "round-11-focus-group-14",
+      "title": "Focus Group 14 — IT / On-Call / Technical Operations",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for it / on-call / technical operations",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for it / on-call / technical operations.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-14--it--on-call--technical-operations",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Sysadmin/support engineer",
+          "primary_job": "fast recovery",
+          "signal": "Before a rotation starts, one tap verifies the sanctioned paging route, VPN/MFA reachability, current escalation contact, and cached runbook availability—reporting each test separately and `unknown` where it lacks authority.",
+          "objection": "Weak / hold. H41 is technically honest but commercially enterprise-heavy and only partly phone-native. Reopen with a design partner whose incident system cannot perform pre-rotation access tests and who will fund integrations."
+        },
+        {
+          "id": "perspective-2",
+          "label": "on-call responder",
+          "primary_job": "bounded load and context",
+          "signal": "Before a rotation starts, one tap verifies the sanctioned paging route, VPN/MFA reachability, current escalation contact, and cached runbook availability—reporting each test separately and `unknown` where it lacks authority.",
+          "objection": "Weak / hold. H41 is technically honest but commercially enterprise-heavy and only partly phone-native. Reopen with a design partner whose incident system cannot perform pre-rotation access tests and who will fund integrations."
+        },
+        {
+          "id": "perspective-3",
+          "label": "incident commander/manager",
+          "primary_job": "coordination",
+          "signal": "Before a rotation starts, one tap verifies the sanctioned paging route, VPN/MFA reachability, current escalation contact, and cached runbook availability—reporting each test separately and `unknown` where it lacks authority.",
+          "objection": "Weak / hold. H41 is technically honest but commercially enterprise-heavy and only partly phone-native. Reopen with a design partner whose incident system cannot perform pre-rotation access tests and who will fund integrations."
+        },
+        {
+          "id": "perspective-4",
+          "label": "end user",
+          "primary_job": "status",
+          "signal": "Before a rotation starts, one tap verifies the sanctioned paging route, VPN/MFA reachability, current escalation contact, and cached runbook availability—reporting each test separately and `unknown` where it lacks authority.",
+          "objection": "Weak / hold. H41 is technically honest but commercially enterprise-heavy and only partly phone-native. Reopen with a design partner whose incident system cannot perform pre-rotation access tests and who will fund integrations."
+        },
+        {
+          "id": "perspective-5",
+          "label": "security engineer (least privilege/audit) and vendor",
+          "primary_job": "support boundary and telemetry",
+          "signal": "Before a rotation starts, one tap verifies the sanctioned paging route, VPN/MFA reachability, current escalation contact, and cached runbook availability—reporting each test separately and `unknown` where it lacks authority.",
+          "objection": "Weak / hold. H41 is technically honest but commercially enterprise-heavy and only partly phone-native. Reopen with a design partner whose incident system cannot perform pre-rotation access tests and who will fund integrations."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Weak / hold. H41 is technically honest but commercially enterprise-heavy and only partly phone-native. Reopen with a design partner whose incident system cannot perform pre-rotation access tests and who will fund integrations.",
+          "idea_ids": []
+        }
+      ],
+      "next_step": "Weak / hold. H41 is technically honest but commercially enterprise-heavy and only partly phone-native. Reopen with a design partner whose incident system cannot perform pre-rotation access tests and who will fund integrations."
+    },
+    {
+      "id": "round-11-focus-group-15",
+      "title": "Focus Group 15 — Caregiving Logistics",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for caregiving logistics",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for caregiving logistics.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-01-15-2026-08-10.md",
+      "anchor": "focus-group-15--caregiving-logistics",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "Older adult/care recipient",
+          "primary_job": "autonomy and reliable daily life",
+          "signal": "When the primary caregiver is unexpectedly unavailable, a substitute opens one expiring link containing only today’s logistics—access, ride, meal, contacts, unresolved exception—and explicitly accepts the handoff.",
+          "objection": "Weak / hold. No generic caregiver coordinator should advance. H44 is the only researchable wedge; test it with compensated caregiver co-design and an explicit data-minimization threat model. Never claim safety or adherence."
+        },
+        {
+          "id": "perspective-2",
+          "label": "adult child",
+          "primary_job": "visibility without constant coordination",
+          "signal": "When the primary caregiver is unexpectedly unavailable, a substitute opens one expiring link containing only today’s logistics—access, ride, meal, contacts, unresolved exception—and explicitly accepts the handoff.",
+          "objection": "Weak / hold. No generic caregiver coordinator should advance. H44 is the only researchable wedge; test it with compensated caregiver co-design and an explicit data-minimization threat model. Never claim safety or adherence."
+        },
+        {
+          "id": "perspective-3",
+          "label": "family caregiver",
+          "primary_job": "shared load",
+          "signal": "When the primary caregiver is unexpectedly unavailable, a substitute opens one expiring link containing only today’s logistics—access, ride, meal, contacts, unresolved exception—and explicitly accepts the handoff.",
+          "objection": "Weak / hold. No generic caregiver coordinator should advance. H44 is the only researchable wedge; test it with compensated caregiver co-design and an explicit data-minimization threat model. Never claim safety or adherence."
+        },
+        {
+          "id": "perspective-4",
+          "label": "professional caregiver",
+          "primary_job": "clear authorized plan",
+          "signal": "When the primary caregiver is unexpectedly unavailable, a substitute opens one expiring link containing only today’s logistics—access, ride, meal, contacts, unresolved exception—and explicitly accepts the handoff.",
+          "objection": "Weak / hold. No generic caregiver coordinator should advance. H44 is the only researchable wedge; test it with compensated caregiver co-design and an explicit data-minimization threat model. Never claim safety or adherence."
+        },
+        {
+          "id": "perspective-5",
+          "label": "transportation provider (precise pickup/handoff) and administrator",
+          "primary_job": "complete forms/eligibility/scheduling",
+          "signal": "When the primary caregiver is unexpectedly unavailable, a substitute opens one expiring link containing only today’s logistics—access, ride, meal, contacts, unresolved exception—and explicitly accepts the handoff.",
+          "objection": "Weak / hold. No generic caregiver coordinator should advance. H44 is the only researchable wedge; test it with compensated caregiver co-design and an explicit data-minimization threat model. Never claim safety or adherence."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "Weak / hold. No generic caregiver coordinator should advance. H44 is the only researchable wedge; test it with compensated caregiver co-design and an explicit data-minimization threat model. Never claim safety or adherence.",
+          "idea_ids": [
+            "family-caregiving"
+          ]
+        }
+      ],
+      "next_step": "Weak / hold. No generic caregiver coordinator should advance. H44 is the only researchable wedge; test it with compensated caregiver co-design and an explicit data-minimization threat model. Never claim safety or adherence."
+    },
+    {
+      "id": "round-11-focus-group-16",
+      "title": "Focus Group 16 — Accessibility and disabled users",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for accessibility and disabled users",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for accessibility and disabled users.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "1-focus-group-16--accessibility-and-disabled-users",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "wheelchair users and caregivers",
+          "primary_job": "people combine provider calls, portal screenshots, calendar alarms, case numbers, advocacy help, crowdsourced maps, and accessibility services such as AccessNow or Be My Eyes. Repair and transport workflows cross vendors, insurers, public agencies, and caregivers, so the user rarely controls the authoritative status.",
+          "signal": "immediately after a provider message or missed pickup, the app offers one-tap capture and shows the next promised date, elapsed time, and escalation route in the user’s preferred accessible format.",
+          "objection": "UNCERTAIN. The pain is severe and current. Repair Relay deserves problem interviews with one wheelchair clinic/vendor and an advocacy organization, but it fails if it requires manual diary keeping, implies status it cannot verify, or cannot enter the sanctioned escalation workflow."
+        },
+        {
+          "id": "perspective-2",
+          "label": "paratransit riders",
+          "primary_job": "people combine provider calls, portal screenshots, calendar alarms, case numbers, advocacy help, crowdsourced maps, and accessibility services such as AccessNow or Be My Eyes. Repair and transport workflows cross vendors, insurers, public agencies, and caregivers, so the user rarely controls the authoritative status.",
+          "signal": "immediately after a provider message or missed pickup, the app offers one-tap capture and shows the next promised date, elapsed time, and escalation route in the user’s preferred accessible format.",
+          "objection": "UNCERTAIN. The pain is severe and current. Repair Relay deserves problem interviews with one wheelchair clinic/vendor and an advocacy organization, but it fails if it requires manual diary keeping, implies status it cannot verify, or cannot enter the sanctioned escalation workflow."
+        },
+        {
+          "id": "perspective-3",
+          "label": "blind/low-vision users",
+          "primary_job": "people combine provider calls, portal screenshots, calendar alarms, case numbers, advocacy help, crowdsourced maps, and accessibility services such as AccessNow or Be My Eyes. Repair and transport workflows cross vendors, insurers, public agencies, and caregivers, so the user rarely controls the authoritative status.",
+          "signal": "immediately after a provider message or missed pickup, the app offers one-tap capture and shows the next promised date, elapsed time, and escalation route in the user’s preferred accessible format.",
+          "objection": "UNCERTAIN. The pain is severe and current. Repair Relay deserves problem interviews with one wheelchair clinic/vendor and an advocacy organization, but it fails if it requires manual diary keeping, implies status it cannot verify, or cannot enter the sanctioned escalation workflow."
+        },
+        {
+          "id": "perspective-4",
+          "label": "Deaf/hard-of-hearing users",
+          "primary_job": "people combine provider calls, portal screenshots, calendar alarms, case numbers, advocacy help, crowdsourced maps, and accessibility services such as AccessNow or Be My Eyes. Repair and transport workflows cross vendors, insurers, public agencies, and caregivers, so the user rarely controls the authoritative status.",
+          "signal": "immediately after a provider message or missed pickup, the app offers one-tap capture and shows the next promised date, elapsed time, and escalation route in the user’s preferred accessible format.",
+          "objection": "UNCERTAIN. The pain is severe and current. Repair Relay deserves problem interviews with one wheelchair clinic/vendor and an advocacy organization, but it fails if it requires manual diary keeping, implies status it cannot verify, or cannot enter the sanctioned escalation workflow."
+        },
+        {
+          "id": "perspective-5",
+          "label": "people managing cognitive/accessibility accommodations",
+          "primary_job": "people combine provider calls, portal screenshots, calendar alarms, case numbers, advocacy help, crowdsourced maps, and accessibility services such as AccessNow or Be My Eyes. Repair and transport workflows cross vendors, insurers, public agencies, and caregivers, so the user rarely controls the authoritative status.",
+          "signal": "immediately after a provider message or missed pickup, the app offers one-tap capture and shows the next promised date, elapsed time, and escalation route in the user’s preferred accessible format.",
+          "objection": "UNCERTAIN. The pain is severe and current. Repair Relay deserves problem interviews with one wheelchair clinic/vendor and an advocacy organization, but it fails if it requires manual diary keeping, implies status it cannot verify, or cannot enter the sanctioned escalation workflow."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "UNCERTAIN. The pain is severe and current. Repair Relay deserves problem interviews with one wheelchair clinic/vendor and an advocacy organization, but it fails if it requires manual diary keeping, implies status it cannot verify, or cannot enter the sanctioned escalation workflow.",
+          "idea_ids": [
+            "repair-relay"
+          ]
+        }
+      ],
+      "next_step": "UNCERTAIN. The pain is severe and current. Repair Relay deserves problem interviews with one wheelchair clinic/vendor and an advocacy organization, but it fails if it requires manual diary keeping, implies status it cannot verify, or cannot enter the sanctioned escalation workflow."
+    },
+    {
+      "id": "round-11-focus-group-17",
+      "title": "Focus Group 17 — Pet owners and caregivers",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for pet owners and caregivers",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for pet owners and caregivers.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "2-focus-group-17--pet-owners-and-caregivers",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "multi-pet households",
+          "primary_job": "owners use a veterinary PIMS/portal, paper discharge notes, phone alarms, group texts, sitter instructions, feeder apps, and a separate microchip registry. Handoffs are especially fragile during travel or emergencies.",
+          "signal": "at caregiver changeover, the outgoing person transfers a time-bounded care card; the incoming person acknowledges each high-risk instruction and sees the last logged dose.",
+          "objection": "WEAK. The incidents are real, but the broad app and handoff spaces are crowded, authoritative data remains with clinics/registries, and the highest-risk event cannot be verified by a tap. Do not advance without a sharply underserved clinical niche and a sanctioned partner."
+        },
+        {
+          "id": "perspective-2",
+          "label": "older-pet medication managers",
+          "primary_job": "owners use a veterinary PIMS/portal, paper discharge notes, phone alarms, group texts, sitter instructions, feeder apps, and a separate microchip registry. Handoffs are especially fragile during travel or emergencies.",
+          "signal": "at caregiver changeover, the outgoing person transfers a time-bounded care card; the incoming person acknowledges each high-risk instruction and sees the last logged dose.",
+          "objection": "WEAK. The incidents are real, but the broad app and handoff spaces are crowded, authoritative data remains with clinics/registries, and the highest-risk event cannot be verified by a tap. Do not advance without a sharply underserved clinical niche and a sanctioned partner."
+        },
+        {
+          "id": "perspective-3",
+          "label": "pet sitters",
+          "primary_job": "owners use a veterinary PIMS/portal, paper discharge notes, phone alarms, group texts, sitter instructions, feeder apps, and a separate microchip registry. Handoffs are especially fragile during travel or emergencies.",
+          "signal": "at caregiver changeover, the outgoing person transfers a time-bounded care card; the incoming person acknowledges each high-risk instruction and sees the last logged dose.",
+          "objection": "WEAK. The incidents are real, but the broad app and handoff spaces are crowded, authoritative data remains with clinics/registries, and the highest-risk event cannot be verified by a tap. Do not advance without a sharply underserved clinical niche and a sanctioned partner."
+        },
+        {
+          "id": "perspective-4",
+          "label": "groomers",
+          "primary_job": "owners use a veterinary PIMS/portal, paper discharge notes, phone alarms, group texts, sitter instructions, feeder apps, and a separate microchip registry. Handoffs are especially fragile during travel or emergencies.",
+          "signal": "at caregiver changeover, the outgoing person transfers a time-bounded care card; the incoming person acknowledges each high-risk instruction and sees the last logged dose.",
+          "objection": "WEAK. The incidents are real, but the broad app and handoff spaces are crowded, authoritative data remains with clinics/registries, and the highest-risk event cannot be verified by a tap. Do not advance without a sharply underserved clinical niche and a sanctioned partner."
+        },
+        {
+          "id": "perspective-5",
+          "label": "rescue adopters and microchip registrants",
+          "primary_job": "owners use a veterinary PIMS/portal, paper discharge notes, phone alarms, group texts, sitter instructions, feeder apps, and a separate microchip registry. Handoffs are especially fragile during travel or emergencies.",
+          "signal": "at caregiver changeover, the outgoing person transfers a time-bounded care card; the incoming person acknowledges each high-risk instruction and sees the last logged dose.",
+          "objection": "WEAK. The incidents are real, but the broad app and handoff spaces are crowded, authoritative data remains with clinics/registries, and the highest-risk event cannot be verified by a tap. Do not advance without a sharply underserved clinical niche and a sanctioned partner."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. The incidents are real, but the broad app and handoff spaces are crowded, authoritative data remains with clinics/registries, and the highest-risk event cannot be verified by a tap. Do not advance without a sharply underserved clinical niche and a sanctioned partner.",
+          "idea_ids": [
+            "pet-chip-registry-pulse"
+          ]
+        }
+      ],
+      "next_step": "WEAK. The incidents are real, but the broad app and handoff spaces are crowded, authoritative data remains with clinics/registries, and the highest-risk event cannot be verified by a tap. Do not advance without a sharply underserved clinical niche and a sanctioned partner."
+    },
+    {
+      "id": "round-11-focus-group-18",
+      "title": "Focus Group 18 — Travelers and frequent flyers",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for travelers and frequent flyers",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for travelers and frequent flyers.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "3-focus-group-18--travelers-and-frequent-flyers",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "frequent flyers",
+          "primary_job": "users combine airline apps, email, calendar, Flighty, TripIt-like itineraries, WhatsApp, credit-card benefits, carrier chat, and claim services. The organizer manually relays changes to people who do not have the booking app.",
+          "signal": "when a new carrier email/push arrives, the organizer shares a redacted delta card (“gate changed; boarding 18:10; source airline email at 16:42”) with offline artifacts.",
+          "objection": "WEAK. Pain is validated, but the archive and market have already mined the obvious variants. A new entrant needs exclusive carrier/airport data or a distribution partner; a prettier family card is not enough."
+        },
+        {
+          "id": "perspective-2",
+          "label": "family trip organizers",
+          "primary_job": "users combine airline apps, email, calendar, Flighty, TripIt-like itineraries, WhatsApp, credit-card benefits, carrier chat, and claim services. The organizer manually relays changes to people who do not have the booking app.",
+          "signal": "when a new carrier email/push arrives, the organizer shares a redacted delta card (“gate changed; boarding 18:10; source airline email at 16:42”) with offline artifacts.",
+          "objection": "WEAK. Pain is validated, but the archive and market have already mined the obvious variants. A new entrant needs exclusive carrier/airport data or a distribution partner; a prettier family card is not enough."
+        },
+        {
+          "id": "perspective-3",
+          "label": "travelers with accessibility needs",
+          "primary_job": "users combine airline apps, email, calendar, Flighty, TripIt-like itineraries, WhatsApp, credit-card benefits, carrier chat, and claim services. The organizer manually relays changes to people who do not have the booking app.",
+          "signal": "when a new carrier email/push arrives, the organizer shares a redacted delta card (“gate changed; boarding 18:10; source airline email at 16:42”) with offline artifacts.",
+          "objection": "WEAK. Pain is validated, but the archive and market have already mined the obvious variants. A new entrant needs exclusive carrier/airport data or a distribution partner; a prettier family card is not enough."
+        },
+        {
+          "id": "perspective-4",
+          "label": "points/credit users",
+          "primary_job": "users combine airline apps, email, calendar, Flighty, TripIt-like itineraries, WhatsApp, credit-card benefits, carrier chat, and claim services. The organizer manually relays changes to people who do not have the booking app.",
+          "signal": "when a new carrier email/push arrives, the organizer shares a redacted delta card (“gate changed; boarding 18:10; source airline email at 16:42”) with offline artifacts.",
+          "objection": "WEAK. Pain is validated, but the archive and market have already mined the obvious variants. A new entrant needs exclusive carrier/airport data or a distribution partner; a prettier family card is not enough."
+        },
+        {
+          "id": "perspective-5",
+          "label": "disruption-claim filers",
+          "primary_job": "users combine airline apps, email, calendar, Flighty, TripIt-like itineraries, WhatsApp, credit-card benefits, carrier chat, and claim services. The organizer manually relays changes to people who do not have the booking app.",
+          "signal": "when a new carrier email/push arrives, the organizer shares a redacted delta card (“gate changed; boarding 18:10; source airline email at 16:42”) with offline artifacts.",
+          "objection": "WEAK. Pain is validated, but the archive and market have already mined the obvious variants. A new entrant needs exclusive carrier/airport data or a distribution partner; a prettier family card is not enough."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. Pain is validated, but the archive and market have already mined the obvious variants. A new entrant needs exclusive carrier/airport data or a distribution partner; a prettier family card is not enough.",
+          "idea_ids": [
+            "flight-disruption-claim-packet"
+          ]
+        }
+      ],
+      "next_step": "WEAK. Pain is validated, but the archive and market have already mined the obvious variants. A new entrant needs exclusive carrier/airport data or a distribution partner; a prettier family card is not enough."
+    },
+    {
+      "id": "round-11-focus-group-19",
+      "title": "Focus Group 19 — RV owners and campers",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for rv owners and campers",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for rv owners and campers.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "4-focus-group-19--rv-owners-and-campers",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "first-time RV renters/owners",
+          "primary_job": "users rely on laminated checklists, walk-arounds, spouse/camp-partner call-and-response, Togo RV/RV LIFE, paper maintenance logs, surge protectors/EMS hardware, and community advice.",
+          "signal": "immediately before motion, the driver sees only unresolved high-consequence items and accepts a co-pilot handoff; no green status is shown for unobserved physical outcomes.",
+          "objection": "UNCERTAIN / LOW PRIORITY. Departure Baton is testable with five RV pairs, but it advances only if it reduces missed handoffs without making departure slower than a laminated sheet. Pedestal Baseline and Sale Packet should not advance."
+        },
+        {
+          "id": "perspective-2",
+          "label": "couples splitting departure duties",
+          "primary_job": "users rely on laminated checklists, walk-arounds, spouse/camp-partner call-and-response, Togo RV/RV LIFE, paper maintenance logs, surge protectors/EMS hardware, and community advice.",
+          "signal": "immediately before motion, the driver sees only unresolved high-consequence items and accepts a co-pilot handoff; no green status is shown for unobserved physical outcomes.",
+          "objection": "UNCERTAIN / LOW PRIORITY. Departure Baton is testable with five RV pairs, but it advances only if it reduces missed handoffs without making departure slower than a laminated sheet. Pedestal Baseline and Sale Packet should not advance."
+        },
+        {
+          "id": "perspective-3",
+          "label": "seasonal campers",
+          "primary_job": "users rely on laminated checklists, walk-arounds, spouse/camp-partner call-and-response, Togo RV/RV LIFE, paper maintenance logs, surge protectors/EMS hardware, and community advice.",
+          "signal": "immediately before motion, the driver sees only unresolved high-consequence items and accepts a co-pilot handoff; no green status is shown for unobserved physical outcomes.",
+          "objection": "UNCERTAIN / LOW PRIORITY. Departure Baton is testable with five RV pairs, but it advances only if it reduces missed handoffs without making departure slower than a laminated sheet. Pedestal Baseline and Sale Packet should not advance."
+        },
+        {
+          "id": "perspective-4",
+          "label": "trailer owners",
+          "primary_job": "users rely on laminated checklists, walk-arounds, spouse/camp-partner call-and-response, Togo RV/RV LIFE, paper maintenance logs, surge protectors/EMS hardware, and community advice.",
+          "signal": "immediately before motion, the driver sees only unresolved high-consequence items and accepts a co-pilot handoff; no green status is shown for unobserved physical outcomes.",
+          "objection": "UNCERTAIN / LOW PRIORITY. Departure Baton is testable with five RV pairs, but it advances only if it reduces missed handoffs without making departure slower than a laminated sheet. Pedestal Baseline and Sale Packet should not advance."
+        },
+        {
+          "id": "perspective-5",
+          "label": "remote boondockers",
+          "primary_job": "users rely on laminated checklists, walk-arounds, spouse/camp-partner call-and-response, Togo RV/RV LIFE, paper maintenance logs, surge protectors/EMS hardware, and community advice.",
+          "signal": "immediately before motion, the driver sees only unresolved high-consequence items and accepts a co-pilot handoff; no green status is shown for unobserved physical outcomes.",
+          "objection": "UNCERTAIN / LOW PRIORITY. Departure Baton is testable with five RV pairs, but it advances only if it reduces missed handoffs without making departure slower than a laminated sheet. Pedestal Baseline and Sale Packet should not advance."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "UNCERTAIN / LOW PRIORITY. Departure Baton is testable with five RV pairs, but it advances only if it reduces missed handoffs without making departure slower than a laminated sheet. Pedestal Baseline and Sale Packet should not advance.",
+          "idea_ids": [
+            "departure-baton"
+          ]
+        }
+      ],
+      "next_step": "UNCERTAIN / LOW PRIORITY. Departure Baton is testable with five RV pairs, but it advances only if it reduces missed handoffs without making departure slower than a laminated sheet. Pedestal Baseline and Sale Packet should not advance."
+    },
+    {
+      "id": "round-11-focus-group-20",
+      "title": "Focus Group 20 — Commuters, drivers, and EV users",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for commuters, drivers, and ev users",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for commuters, drivers, and ev users.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "5-focus-group-20--commuters-drivers-and-ev-users",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "urban parking-app users",
+          "primary_job": "users juggle local parking apps, signs, QR codes, transit cards, employer benefit portals, vehicle apps, charger apps, PlugShare, screenshots, and expense records.",
+          "signal": "just before the irreversible tap, the app reads/share-receives zone and vehicle identifiers and forces a mismatch check; after a benefit load, it pairs the source debit with destination balance.",
+          "objection": "WEAK. Current pain does not create new whitespace. Platform/network access is the gating asset, and the archive already contains the best pairing concepts."
+        },
+        {
+          "id": "perspective-2",
+          "label": "transit-benefit commuters",
+          "primary_job": "users juggle local parking apps, signs, QR codes, transit cards, employer benefit portals, vehicle apps, charger apps, PlugShare, screenshots, and expense records.",
+          "signal": "just before the irreversible tap, the app reads/share-receives zone and vehicle identifiers and forces a mismatch check; after a benefit load, it pairs the source debit with destination balance.",
+          "objection": "WEAK. Current pain does not create new whitespace. Platform/network access is the gating asset, and the archive already contains the best pairing concepts."
+        },
+        {
+          "id": "perspective-3",
+          "label": "hybrid commuters",
+          "primary_job": "users juggle local parking apps, signs, QR codes, transit cards, employer benefit portals, vehicle apps, charger apps, PlugShare, screenshots, and expense records.",
+          "signal": "just before the irreversible tap, the app reads/share-receives zone and vehicle identifiers and forces a mismatch check; after a benefit load, it pairs the source debit with destination balance.",
+          "objection": "WEAK. Current pain does not create new whitespace. Platform/network access is the gating asset, and the archive already contains the best pairing concepts."
+        },
+        {
+          "id": "perspective-4",
+          "label": "public-EV-charging drivers",
+          "primary_job": "users juggle local parking apps, signs, QR codes, transit cards, employer benefit portals, vehicle apps, charger apps, PlugShare, screenshots, and expense records.",
+          "signal": "just before the irreversible tap, the app reads/share-receives zone and vehicle identifiers and forces a mismatch check; after a benefit load, it pairs the source debit with destination balance.",
+          "objection": "WEAK. Current pain does not create new whitespace. Platform/network access is the gating asset, and the archive already contains the best pairing concepts."
+        },
+        {
+          "id": "perspective-5",
+          "label": "shared-household drivers",
+          "primary_job": "users juggle local parking apps, signs, QR codes, transit cards, employer benefit portals, vehicle apps, charger apps, PlugShare, screenshots, and expense records.",
+          "signal": "just before the irreversible tap, the app reads/share-receives zone and vehicle identifiers and forces a mismatch check; after a benefit load, it pairs the source debit with destination balance.",
+          "objection": "WEAK. Current pain does not create new whitespace. Platform/network access is the gating asset, and the archive already contains the best pairing concepts."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. Current pain does not create new whitespace. Platform/network access is the gating asset, and the archive already contains the best pairing concepts.",
+          "idea_ids": [
+            "commuter-benefit-load-pair"
+          ]
+        }
+      ],
+      "next_step": "WEAK. Current pain does not create new whitespace. Platform/network access is the gating asset, and the archive already contains the best pairing concepts."
+    },
+    {
+      "id": "round-11-focus-group-21",
+      "title": "Focus Group 21 — Subscription and membership users",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for subscription and membership users",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for subscription and membership users.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "6-focus-group-21--subscription-and-membership-users",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "households with many subscriptions",
+          "primary_job": "users inspect bank statements, Apple/Google subscription settings, email receipts, provider portals, spreadsheets, and aggregators such as Rocket Money or Bobby; cancellation often exits the app into a vendor-controlled channel.",
+          "signal": "immediately after a cancellation confirmation is shown or emailed, share it into a receipt that watches only the promised next-billing boundary.",
+          "objection": "WEAK. Serious pain, crowded aggregation category, privileged financial access, provider-controlled completion, and direct archive duplicates. Do not advance."
+        },
+        {
+          "id": "perspective-2",
+          "label": "ClassPass/credit users",
+          "primary_job": "users inspect bank statements, Apple/Google subscription settings, email receipts, provider portals, spreadsheets, and aggregators such as Rocket Money or Bobby; cancellation often exits the app into a vendor-controlled channel.",
+          "signal": "immediately after a cancellation confirmation is shown or emailed, share it into a receipt that watches only the promised next-billing boundary.",
+          "objection": "WEAK. Serious pain, crowded aggregation category, privileged financial access, provider-controlled completion, and direct archive duplicates. Do not advance."
+        },
+        {
+          "id": "perspective-3",
+          "label": "free-trial starters",
+          "primary_job": "users inspect bank statements, Apple/Google subscription settings, email receipts, provider portals, spreadsheets, and aggregators such as Rocket Money or Bobby; cancellation often exits the app into a vendor-controlled channel.",
+          "signal": "immediately after a cancellation confirmation is shown or emailed, share it into a receipt that watches only the promised next-billing boundary.",
+          "objection": "WEAK. Serious pain, crowded aggregation category, privileged financial access, provider-controlled completion, and direct archive duplicates. Do not advance."
+        },
+        {
+          "id": "perspective-4",
+          "label": "older adults",
+          "primary_job": "users inspect bank statements, Apple/Google subscription settings, email receipts, provider portals, spreadsheets, and aggregators such as Rocket Money or Bobby; cancellation often exits the app into a vendor-controlled channel.",
+          "signal": "immediately after a cancellation confirmation is shown or emailed, share it into a receipt that watches only the promised next-billing boundary.",
+          "objection": "WEAK. Serious pain, crowded aggregation category, privileged financial access, provider-controlled completion, and direct archive duplicates. Do not advance."
+        },
+        {
+          "id": "perspective-5",
+          "label": "people who have attempted difficult cancellations",
+          "primary_job": "users inspect bank statements, Apple/Google subscription settings, email receipts, provider portals, spreadsheets, and aggregators such as Rocket Money or Bobby; cancellation often exits the app into a vendor-controlled channel.",
+          "signal": "immediately after a cancellation confirmation is shown or emailed, share it into a receipt that watches only the promised next-billing boundary.",
+          "objection": "WEAK. Serious pain, crowded aggregation category, privileged financial access, provider-controlled completion, and direct archive duplicates. Do not advance."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. Serious pain, crowded aggregation category, privileged financial access, provider-controlled completion, and direct archive duplicates. Do not advance.",
+          "idea_ids": []
+        }
+      ],
+      "next_step": "WEAK. Serious pain, crowded aggregation category, privileged financial access, provider-controlled completion, and direct archive duplicates. Do not advance."
+    },
+    {
+      "id": "round-11-focus-group-22",
+      "title": "Focus Group 22 — Returns, refunds, warranties, and recalls",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for returns, refunds, warranties, and recalls",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for returns, refunds, warranties, and recalls.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "7-focus-group-22--returns-refunds-warranties-and-recalls",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "frequent online shoppers",
+          "primary_job": "users search email and merchant apps, photograph receipts/serials, track return deadlines, retain carrier drop-off receipts, monitor card statements, and check government/manufacturer recall pages.",
+          "signal": "at the carrier counter, share/capture the receipt into the existing return authorization; if no matching refund arrives by the merchant promise, produce the evidence chain.",
+          "objection": "WEAK. The chain is valuable but already mined; a generic recall inventory carries semantic/liability risk. Advance only with a sanctioned merchant/carrier integration that creates a previously unavailable event."
+        },
+        {
+          "id": "perspective-2",
+          "label": "parents managing household recalls",
+          "primary_job": "users search email and merchant apps, photograph receipts/serials, track return deadlines, retain carrier drop-off receipts, monitor card statements, and check government/manufacturer recall pages.",
+          "signal": "at the carrier counter, share/capture the receipt into the existing return authorization; if no matching refund arrives by the merchant promise, produce the evidence chain.",
+          "objection": "WEAK. The chain is valuable but already mined; a generic recall inventory carries semantic/liability risk. Advance only with a sanctioned merchant/carrier integration that creates a previously unavailable event."
+        },
+        {
+          "id": "perspective-3",
+          "label": "high-value-electronics buyers",
+          "primary_job": "users search email and merchant apps, photograph receipts/serials, track return deadlines, retain carrier drop-off receipts, monitor card statements, and check government/manufacturer recall pages.",
+          "signal": "at the carrier counter, share/capture the receipt into the existing return authorization; if no matching refund arrives by the merchant promise, produce the evidence chain.",
+          "objection": "WEAK. The chain is valuable but already mined; a generic recall inventory carries semantic/liability risk. Advance only with a sanctioned merchant/carrier integration that creates a previously unavailable event."
+        },
+        {
+          "id": "perspective-4",
+          "label": "marketplace returners",
+          "primary_job": "users search email and merchant apps, photograph receipts/serials, track return deadlines, retain carrier drop-off receipts, monitor card statements, and check government/manufacturer recall pages.",
+          "signal": "at the carrier counter, share/capture the receipt into the existing return authorization; if no matching refund arrives by the merchant promise, produce the evidence chain.",
+          "objection": "WEAK. The chain is valuable but already mined; a generic recall inventory carries semantic/liability risk. Advance only with a sanctioned merchant/carrier integration that creates a previously unavailable event."
+        },
+        {
+          "id": "perspective-5",
+          "label": "people waiting on refunds",
+          "primary_job": "users search email and merchant apps, photograph receipts/serials, track return deadlines, retain carrier drop-off receipts, monitor card statements, and check government/manufacturer recall pages.",
+          "signal": "at the carrier counter, share/capture the receipt into the existing return authorization; if no matching refund arrives by the merchant promise, produce the evidence chain.",
+          "objection": "WEAK. The chain is valuable but already mined; a generic recall inventory carries semantic/liability risk. Advance only with a sanctioned merchant/carrier integration that creates a previously unavailable event."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. The chain is valuable but already mined; a generic recall inventory carries semantic/liability risk. Advance only with a sanctioned merchant/carrier integration that creates a previously unavailable event.",
+          "idea_ids": []
+        }
+      ],
+      "next_step": "WEAK. The chain is valuable but already mined; a generic recall inventory carries semantic/liability risk. Advance only with a sanctioned merchant/carrier integration that creates a previously unavailable event."
+    },
+    {
+      "id": "round-11-focus-group-23",
+      "title": "Focus Group 23 — Secondhand sellers and buyers",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for secondhand sellers and buyers",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for secondhand sellers and buyers.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "8-focus-group-23--secondhand-sellers-and-buyers",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "casual Marketplace sellers",
+          "primary_job": "sellers photograph/list on multiple marketplaces, use spreadsheets or Vendoo-like cross-listing, manually delist sold stock, retain shipping/condition evidence, and communicate in platform messaging. Buyers rely on platform guarantees, photos, seller reputation, and serial checks.",
+          "signal": "at in-person or shipped handoff, both sides see exactly which source artifacts transfer and acknowledge condition without implying authenticity.",
+          "objection": "UNCERTAIN. Do not build a general reseller utility. Validate Used Gear Passport only if a repair shop, dealer, or enthusiast marketplace will seed authoritative records and distribution; otherwise the two-sided trust problem is fatal."
+        },
+        {
+          "id": "perspective-2",
+          "label": "multi-platform clothing resellers",
+          "primary_job": "sellers photograph/list on multiple marketplaces, use spreadsheets or Vendoo-like cross-listing, manually delist sold stock, retain shipping/condition evidence, and communicate in platform messaging. Buyers rely on platform guarantees, photos, seller reputation, and serial checks.",
+          "signal": "at in-person or shipped handoff, both sides see exactly which source artifacts transfer and acknowledge condition without implying authenticity.",
+          "objection": "UNCERTAIN. Do not build a general reseller utility. Validate Used Gear Passport only if a repair shop, dealer, or enthusiast marketplace will seed authoritative records and distribution; otherwise the two-sided trust problem is fatal."
+        },
+        {
+          "id": "perspective-3",
+          "label": "used-electronics buyers",
+          "primary_job": "sellers photograph/list on multiple marketplaces, use spreadsheets or Vendoo-like cross-listing, manually delist sold stock, retain shipping/condition evidence, and communicate in platform messaging. Buyers rely on platform guarantees, photos, seller reputation, and serial checks.",
+          "signal": "at in-person or shipped handoff, both sides see exactly which source artifacts transfer and acknowledge condition without implying authenticity.",
+          "objection": "UNCERTAIN. Do not build a general reseller utility. Validate Used Gear Passport only if a repair shop, dealer, or enthusiast marketplace will seed authoritative records and distribution; otherwise the two-sided trust problem is fatal."
+        },
+        {
+          "id": "perspective-4",
+          "label": "consignment users",
+          "primary_job": "sellers photograph/list on multiple marketplaces, use spreadsheets or Vendoo-like cross-listing, manually delist sold stock, retain shipping/condition evidence, and communicate in platform messaging. Buyers rely on platform guarantees, photos, seller reputation, and serial checks.",
+          "signal": "at in-person or shipped handoff, both sides see exactly which source artifacts transfer and acknowledge condition without implying authenticity.",
+          "objection": "UNCERTAIN. Do not build a general reseller utility. Validate Used Gear Passport only if a repair shop, dealer, or enthusiast marketplace will seed authoritative records and distribution; otherwise the two-sided trust problem is fatal."
+        },
+        {
+          "id": "perspective-5",
+          "label": "collectors",
+          "primary_job": "sellers photograph/list on multiple marketplaces, use spreadsheets or Vendoo-like cross-listing, manually delist sold stock, retain shipping/condition evidence, and communicate in platform messaging. Buyers rely on platform guarantees, photos, seller reputation, and serial checks.",
+          "signal": "at in-person or shipped handoff, both sides see exactly which source artifacts transfer and acknowledge condition without implying authenticity.",
+          "objection": "UNCERTAIN. Do not build a general reseller utility. Validate Used Gear Passport only if a repair shop, dealer, or enthusiast marketplace will seed authoritative records and distribution; otherwise the two-sided trust problem is fatal."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "UNCERTAIN. Do not build a general reseller utility. Validate Used Gear Passport only if a repair shop, dealer, or enthusiast marketplace will seed authoritative records and distribution; otherwise the two-sided trust problem is fatal.",
+          "idea_ids": [
+            "used-gear-passport"
+          ]
+        }
+      ],
+      "next_step": "UNCERTAIN. Do not build a general reseller utility. Validate Used Gear Passport only if a repair shop, dealer, or enthusiast marketplace will seed authoritative records and distribution; otherwise the two-sided trust problem is fatal."
+    },
+    {
+      "id": "round-11-focus-group-24",
+      "title": "Focus Group 24 — Hobbyists, makers, and collectors",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for hobbyists, makers, and collectors",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for hobbyists, makers, and collectors.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "9-focus-group-24--hobbyists-makers-and-collectors",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "miniature painters",
+          "primary_job": "hobbyists use photos, notebooks, spreadsheets, Discord/Reddit, project-specific apps, physical labels, and machine profiles. The desired memory varies by hobby: inventory, recipe, checkpoint, component completeness, or machine compatibility.",
+          "signal": "at pause, a single photo plus three structured fields (“next step,” material/profile, blocker) creates a resume card; the next session opens to that card.",
+          "objection": "WEAK. Strong behavior but fragmented markets, exact competitors, and heavy archive saturation. Do not add a generic seed. The existing `weed-check` remains a better version of this opportunity class."
+        },
+        {
+          "id": "perspective-2",
+          "label": "board-game owners",
+          "primary_job": "hobbyists use photos, notebooks, spreadsheets, Discord/Reddit, project-specific apps, physical labels, and machine profiles. The desired memory varies by hobby: inventory, recipe, checkpoint, component completeness, or machine compatibility.",
+          "signal": "at pause, a single photo plus three structured fields (“next step,” material/profile, blocker) creates a resume card; the next session opens to that card.",
+          "objection": "WEAK. Strong behavior but fragmented markets, exact competitors, and heavy archive saturation. Do not add a generic seed. The existing `weed-check` remains a better version of this opportunity class."
+        },
+        {
+          "id": "perspective-3",
+          "label": "blind-box/collectible buyers",
+          "primary_job": "hobbyists use photos, notebooks, spreadsheets, Discord/Reddit, project-specific apps, physical labels, and machine profiles. The desired memory varies by hobby: inventory, recipe, checkpoint, component completeness, or machine compatibility.",
+          "signal": "at pause, a single photo plus three structured fields (“next step,” material/profile, blocker) creates a resume card; the next session opens to that card.",
+          "objection": "WEAK. Strong behavior but fragmented markets, exact competitors, and heavy archive saturation. Do not add a generic seed. The existing `weed-check` remains a better version of this opportunity class."
+        },
+        {
+          "id": "perspective-4",
+          "label": "LEGO builders",
+          "primary_job": "hobbyists use photos, notebooks, spreadsheets, Discord/Reddit, project-specific apps, physical labels, and machine profiles. The desired memory varies by hobby: inventory, recipe, checkpoint, component completeness, or machine compatibility.",
+          "signal": "at pause, a single photo plus three structured fields (“next step,” material/profile, blocker) creates a resume card; the next session opens to that card.",
+          "objection": "WEAK. Strong behavior but fragmented markets, exact competitors, and heavy archive saturation. Do not add a generic seed. The existing `weed-check` remains a better version of this opportunity class."
+        },
+        {
+          "id": "perspective-5",
+          "label": "sewing/embroidery users and 3D-printer/laser users and small-batch makers",
+          "primary_job": "hobbyists use photos, notebooks, spreadsheets, Discord/Reddit, project-specific apps, physical labels, and machine profiles. The desired memory varies by hobby: inventory, recipe, checkpoint, component completeness, or machine compatibility.",
+          "signal": "at pause, a single photo plus three structured fields (“next step,” material/profile, blocker) creates a resume card; the next session opens to that card.",
+          "objection": "WEAK. Strong behavior but fragmented markets, exact competitors, and heavy archive saturation. Do not add a generic seed. The existing `weed-check` remains a better version of this opportunity class."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. Strong behavior but fragmented markets, exact competitors, and heavy archive saturation. Do not add a generic seed. The existing `weed-check` remains a better version of this opportunity class.",
+          "idea_ids": [
+            "weed-check"
+          ]
+        }
+      ],
+      "next_step": "WEAK. Strong behavior but fragmented markets, exact competitors, and heavy archive saturation. Do not add a generic seed. The existing `weed-check` remains a better version of this opportunity class."
+    },
+    {
+      "id": "round-11-focus-group-25",
+      "title": "Focus Group 25 — Creators, influencers, and small media teams",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for creators, influencers, and small media teams",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for creators, influencers, and small media teams.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "10-focus-group-25--creators-influencers-and-small-media-teams",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "UGC creators",
+          "primary_job": "creators manage briefs, contracts, usage rights, drafts, approvals, sponsor reads, invoices, posting, and analytics across email, DMs, cloud folders, calendars, spreadsheets, and platform dashboards.",
+          "signal": "on receiving “approved” in email/DM, the creator shares the message into a campaign record that starts the payment and usage clocks, preserving the source artifact.",
+          "objection": "WEAK. Do not mine another creator utility without privileged brand/agency distribution and a source event unavailable to current CRMs. Archive saturation itself is decisive negative evidence."
+        },
+        {
+          "id": "perspective-2",
+          "label": "podcasters",
+          "primary_job": "creators manage briefs, contracts, usage rights, drafts, approvals, sponsor reads, invoices, posting, and analytics across email, DMs, cloud folders, calendars, spreadsheets, and platform dashboards.",
+          "signal": "on receiving “approved” in email/DM, the creator shares the message into a campaign record that starts the payment and usage clocks, preserving the source artifact.",
+          "objection": "WEAK. Do not mine another creator utility without privileged brand/agency distribution and a source event unavailable to current CRMs. Archive saturation itself is decisive negative evidence."
+        },
+        {
+          "id": "perspective-3",
+          "label": "short-form video creators",
+          "primary_job": "creators manage briefs, contracts, usage rights, drafts, approvals, sponsor reads, invoices, posting, and analytics across email, DMs, cloud folders, calendars, spreadsheets, and platform dashboards.",
+          "signal": "on receiving “approved” in email/DM, the creator shares the message into a campaign record that starts the payment and usage clocks, preserving the source artifact.",
+          "objection": "WEAK. Do not mine another creator utility without privileged brand/agency distribution and a source event unavailable to current CRMs. Archive saturation itself is decisive negative evidence."
+        },
+        {
+          "id": "perspective-4",
+          "label": "newsletter writers",
+          "primary_job": "creators manage briefs, contracts, usage rights, drafts, approvals, sponsor reads, invoices, posting, and analytics across email, DMs, cloud folders, calendars, spreadsheets, and platform dashboards.",
+          "signal": "on receiving “approved” in email/DM, the creator shares the message into a campaign record that starts the payment and usage clocks, preserving the source artifact.",
+          "objection": "WEAK. Do not mine another creator utility without privileged brand/agency distribution and a source event unavailable to current CRMs. Archive saturation itself is decisive negative evidence."
+        },
+        {
+          "id": "perspective-5",
+          "label": "small production teams and creators managing sponsorships",
+          "primary_job": "creators manage briefs, contracts, usage rights, drafts, approvals, sponsor reads, invoices, posting, and analytics across email, DMs, cloud folders, calendars, spreadsheets, and platform dashboards.",
+          "signal": "on receiving “approved” in email/DM, the creator shares the message into a campaign record that starts the payment and usage clocks, preserving the source artifact.",
+          "objection": "WEAK. Do not mine another creator utility without privileged brand/agency distribution and a source event unavailable to current CRMs. Archive saturation itself is decisive negative evidence."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. Do not mine another creator utility without privileged brand/agency distribution and a source event unavailable to current CRMs. Archive saturation itself is decisive negative evidence.",
+          "idea_ids": [
+            "brief-cut-gate"
+          ]
+        }
+      ],
+      "next_step": "WEAK. Do not mine another creator utility without privileged brand/agency distribution and a source event unavailable to current CRMs. Archive saturation itself is decisive negative evidence."
+    },
+    {
+      "id": "round-11-focus-group-26",
+      "title": "Focus Group 26 — Gamers and gaming groups",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for gamers and gaming groups",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for gamers and gaming groups.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "11-focus-group-26--gamers-and-gaming-groups",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "friend groups scheduling sessions",
+          "primary_job": "groups coordinate in Discord, console chat, WhatsApp, or polls; games/platforms own invites and presence. Players manually reproduce accessibility/control settings per title or device. Community sites preserve knowledge after games disappear.",
+          "signal": "a chat link resolves a single session’s intersection and writes the selected time back to the same chat, with no new account required.",
+          "objection": "WEAK. Scheduling is a feature inside incumbent chat/platforms, settings portability lacks APIs, and shutdown preservation is rare and publisher-controlled. No seed advances."
+        },
+        {
+          "id": "perspective-2",
+          "label": "cross-platform players",
+          "primary_job": "groups coordinate in Discord, console chat, WhatsApp, or polls; games/platforms own invites and presence. Players manually reproduce accessibility/control settings per title or device. Community sites preserve knowledge after games disappear.",
+          "signal": "a chat link resolves a single session’s intersection and writes the selected time back to the same chat, with no new account required.",
+          "objection": "WEAK. Scheduling is a feature inside incumbent chat/platforms, settings portability lacks APIs, and shutdown preservation is rare and publisher-controlled. No seed advances."
+        },
+        {
+          "id": "perspective-3",
+          "label": "accessibility-settings users",
+          "primary_job": "groups coordinate in Discord, console chat, WhatsApp, or polls; games/platforms own invites and presence. Players manually reproduce accessibility/control settings per title or device. Community sites preserve knowledge after games disappear.",
+          "signal": "a chat link resolves a single session’s intersection and writes the selected time back to the same chat, with no new account required.",
+          "objection": "WEAK. Scheduling is a feature inside incumbent chat/platforms, settings portability lacks APIs, and shutdown preservation is rare and publisher-controlled. No seed advances."
+        },
+        {
+          "id": "perspective-4",
+          "label": "tabletop/online campaign groups",
+          "primary_job": "groups coordinate in Discord, console chat, WhatsApp, or polls; games/platforms own invites and presence. Players manually reproduce accessibility/control settings per title or device. Community sites preserve knowledge after games disappear.",
+          "signal": "a chat link resolves a single session’s intersection and writes the selected time back to the same chat, with no new account required.",
+          "objection": "WEAK. Scheduling is a feature inside incumbent chat/platforms, settings portability lacks APIs, and shutdown preservation is rare and publisher-controlled. No seed advances."
+        },
+        {
+          "id": "perspective-5",
+          "label": "players affected by server shutdown",
+          "primary_job": "groups coordinate in Discord, console chat, WhatsApp, or polls; games/platforms own invites and presence. Players manually reproduce accessibility/control settings per title or device. Community sites preserve knowledge after games disappear.",
+          "signal": "a chat link resolves a single session’s intersection and writes the selected time back to the same chat, with no new account required.",
+          "objection": "WEAK. Scheduling is a feature inside incumbent chat/platforms, settings portability lacks APIs, and shutdown preservation is rare and publisher-controlled. No seed advances."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. Scheduling is a feature inside incumbent chat/platforms, settings portability lacks APIs, and shutdown preservation is rare and publisher-controlled. No seed advances.",
+          "idea_ids": []
+        }
+      ],
+      "next_step": "WEAK. Scheduling is a feature inside incumbent chat/platforms, settings portability lacks APIs, and shutdown preservation is rare and publisher-controlled. No seed advances."
+    },
+    {
+      "id": "round-11-focus-group-27",
+      "title": "Focus Group 27 — Civic services and local-government users",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for civic services and local-government users",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for civic services and local-government users.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "12-focus-group-27--civic-services-and-local-government-users",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "residents reporting 311 issues",
+          "primary_job": "residents use 311 apps/phone lines, email alerts, city portals, Legistar agendas, screenshots, neighborhood groups, public-record requests, and journalist/community spreadsheets.",
+          "signal": "when an official request changes to “closed,” the resident receives the source event and separately records “fixed / not fixed / cannot observe,” preserving the distinction.",
+          "objection": "UNCERTAIN / VALIDATE FOR PEACE, NOT GRAND PRIZE. Prototype only against one city’s live API and only if a neighborhood/accessibility organization will distribute it. Success means residents recover a missing source history or prove systematic status/outcome mismatch—not download volume."
+        },
+        {
+          "id": "perspective-2",
+          "label": "neighborhood organizers",
+          "primary_job": "residents use 311 apps/phone lines, email alerts, city portals, Legistar agendas, screenshots, neighborhood groups, public-record requests, and journalist/community spreadsheets.",
+          "signal": "when an official request changes to “closed,” the resident receives the source event and separately records “fixed / not fixed / cannot observe,” preserving the distinction.",
+          "objection": "UNCERTAIN / VALIDATE FOR PEACE, NOT GRAND PRIZE. Prototype only against one city’s live API and only if a neighborhood/accessibility organization will distribute it. Success means residents recover a missing source history or prove systematic status/outcome mismatch—not download volume."
+        },
+        {
+          "id": "perspective-3",
+          "label": "accessibility advocates",
+          "primary_job": "residents use 311 apps/phone lines, email alerts, city portals, Legistar agendas, screenshots, neighborhood groups, public-record requests, and journalist/community spreadsheets.",
+          "signal": "when an official request changes to “closed,” the resident receives the source event and separately records “fixed / not fixed / cannot observe,” preserving the distinction.",
+          "objection": "UNCERTAIN / VALIDATE FOR PEACE, NOT GRAND PRIZE. Prototype only against one city’s live API and only if a neighborhood/accessibility organization will distribute it. Success means residents recover a missing source history or prove systematic status/outcome mismatch—not download volume."
+        },
+        {
+          "id": "perspective-4",
+          "label": "local journalists",
+          "primary_job": "residents use 311 apps/phone lines, email alerts, city portals, Legistar agendas, screenshots, neighborhood groups, public-record requests, and journalist/community spreadsheets.",
+          "signal": "when an official request changes to “closed,” the resident receives the source event and separately records “fixed / not fixed / cannot observe,” preserving the distinction.",
+          "objection": "UNCERTAIN / VALIDATE FOR PEACE, NOT GRAND PRIZE. Prototype only against one city’s live API and only if a neighborhood/accessibility organization will distribute it. Success means residents recover a missing source history or prove systematic status/outcome mismatch—not download volume."
+        },
+        {
+          "id": "perspective-5",
+          "label": "people tracking council/board agendas",
+          "primary_job": "residents use 311 apps/phone lines, email alerts, city portals, Legistar agendas, screenshots, neighborhood groups, public-record requests, and journalist/community spreadsheets.",
+          "signal": "when an official request changes to “closed,” the resident receives the source event and separately records “fixed / not fixed / cannot observe,” preserving the distinction.",
+          "objection": "UNCERTAIN / VALIDATE FOR PEACE, NOT GRAND PRIZE. Prototype only against one city’s live API and only if a neighborhood/accessibility organization will distribute it. Success means residents recover a missing source history or prove systematic status/outcome mismatch—not download volume."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "UNCERTAIN / VALIDATE FOR PEACE, NOT GRAND PRIZE. Prototype only against one city’s live API and only if a neighborhood/accessibility organization will distribute it. Success means residents recover a missing source history or prove systematic status/outcome mismatch—not download volume.",
+          "idea_ids": [
+            "civic-311-shadow-receipt"
+          ]
+        }
+      ],
+      "next_step": "UNCERTAIN / VALIDATE FOR PEACE, NOT GRAND PRIZE. Prototype only against one city’s live API and only if a neighborhood/accessibility organization will distribute it. Success means residents recover a missing source history or prove systematic status/outcome mismatch—not download volume."
+    },
+    {
+      "id": "round-11-focus-group-28",
+      "title": "Focus Group 28 — Licensed and credentialed professionals",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for licensed and credentialed professionals",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for licensed and credentialed professionals.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "13-focus-group-28--licensed-and-credentialed-professionals",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "nurses/allied health workers",
+          "primary_job": "professionals use state-board portals, CE Broker/EverCheck, employer credentialing systems, email/calendar reminders, course certificates, and spreadsheets. Each board defines acceptable CE/reporting and final license status.",
+          "signal": "after course completion, the app shows whether the provider/board pairing supports direct reporting and preserves the confirmation; it never labels a license compliant until the board source does.",
+          "objection": "WEAK. The pain and payer are real, but the defensible asset is board/employer integration, not mobile UX. Do not enter without a regulator, association, or employer distribution contract."
+        },
+        {
+          "id": "perspective-2",
+          "label": "insurance agents with multi-state licenses",
+          "primary_job": "professionals use state-board portals, CE Broker/EverCheck, employer credentialing systems, email/calendar reminders, course certificates, and spreadsheets. Each board defines acceptable CE/reporting and final license status.",
+          "signal": "after course completion, the app shows whether the provider/board pairing supports direct reporting and preserves the confirmation; it never labels a license compliant until the board source does.",
+          "objection": "WEAK. The pain and payer are real, but the defensible asset is board/employer integration, not mobile UX. Do not enter without a regulator, association, or employer distribution contract."
+        },
+        {
+          "id": "perspective-3",
+          "label": "tradespeople",
+          "primary_job": "professionals use state-board portals, CE Broker/EverCheck, employer credentialing systems, email/calendar reminders, course certificates, and spreadsheets. Each board defines acceptable CE/reporting and final license status.",
+          "signal": "after course completion, the app shows whether the provider/board pairing supports direct reporting and preserves the confirmation; it never labels a license compliant until the board source does.",
+          "objection": "WEAK. The pain and payer are real, but the defensible asset is board/employer integration, not mobile UX. Do not enter without a regulator, association, or employer distribution contract."
+        },
+        {
+          "id": "perspective-4",
+          "label": "continuing-education completers",
+          "primary_job": "professionals use state-board portals, CE Broker/EverCheck, employer credentialing systems, email/calendar reminders, course certificates, and spreadsheets. Each board defines acceptable CE/reporting and final license status.",
+          "signal": "after course completion, the app shows whether the provider/board pairing supports direct reporting and preserves the confirmation; it never labels a license compliant until the board source does.",
+          "objection": "WEAK. The pain and payer are real, but the defensible asset is board/employer integration, not mobile UX. Do not enter without a regulator, association, or employer distribution contract."
+        },
+        {
+          "id": "perspective-5",
+          "label": "employers verifying credentials",
+          "primary_job": "professionals use state-board portals, CE Broker/EverCheck, employer credentialing systems, email/calendar reminders, course certificates, and spreadsheets. Each board defines acceptable CE/reporting and final license status.",
+          "signal": "after course completion, the app shows whether the provider/board pairing supports direct reporting and preserves the confirmation; it never labels a license compliant until the board source does.",
+          "objection": "WEAK. The pain and payer are real, but the defensible asset is board/employer integration, not mobile UX. Do not enter without a regulator, association, or employer distribution contract."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. The pain and payer are real, but the defensible asset is board/employer integration, not mobile UX. Do not enter without a regulator, association, or employer distribution contract.",
+          "idea_ids": []
+        }
+      ],
+      "next_step": "WEAK. The pain and payer are real, but the defensible asset is board/employer integration, not mobile UX. Do not enter without a regulator, association, or employer distribution contract."
+    },
+    {
+      "id": "round-11-focus-group-29",
+      "title": "Focus Group 29 — Personal security and scam prevention",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for personal security and scam prevention",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for personal security and scam prevention.",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "14-focus-group-29--personal-security-and-scam-prevention",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "older adults",
+          "primary_job": "people use OS call screening, carrier spam filters, family verification phrases, password managers, security keys, credit freezes, data-removal services, and ad hoc “call me back” rules.",
+          "signal": "when a user feels urgency, a home-screen “verify request” opens the pre-agreed family route and shows only “verified by named person” or “not verified”—never “caller safe.”",
+          "objection": "WEAK. Severe harm is not enough. OS privilege, pre-loss acquisition, high false-safety cost, exact incumbents, and family ritual adoption are fatal for a hackathon consumer app. A bank/carrier partnership would change the decision."
+        },
+        {
+          "id": "perspective-2",
+          "label": "adult children helping parents",
+          "primary_job": "people use OS call screening, carrier spam filters, family verification phrases, password managers, security keys, credit freezes, data-removal services, and ad hoc “call me back” rules.",
+          "signal": "when a user feels urgency, a home-screen “verify request” opens the pre-agreed family route and shows only “verified by named person” or “not verified”—never “caller safe.”",
+          "objection": "WEAK. Severe harm is not enough. OS privilege, pre-loss acquisition, high false-safety cost, exact incumbents, and family ritual adoption are fatal for a hackathon consumer app. A bank/carrier partnership would change the decision."
+        },
+        {
+          "id": "perspective-3",
+          "label": "people receiving impersonation calls",
+          "primary_job": "people use OS call screening, carrier spam filters, family verification phrases, password managers, security keys, credit freezes, data-removal services, and ad hoc “call me back” rules.",
+          "signal": "when a user feels urgency, a home-screen “verify request” opens the pre-agreed family route and shows only “verified by named person” or “not verified”—never “caller safe.”",
+          "objection": "WEAK. Severe harm is not enough. OS privilege, pre-loss acquisition, high false-safety cost, exact incumbents, and family ritual adoption are fatal for a hackathon consumer app. A bank/carrier partnership would change the decision."
+        },
+        {
+          "id": "perspective-4",
+          "label": "privacy-conscious users",
+          "primary_job": "people use OS call screening, carrier spam filters, family verification phrases, password managers, security keys, credit freezes, data-removal services, and ad hoc “call me back” rules.",
+          "signal": "when a user feels urgency, a home-screen “verify request” opens the pre-agreed family route and shows only “verified by named person” or “not verified”—never “caller safe.”",
+          "objection": "WEAK. Severe harm is not enough. OS privilege, pre-loss acquisition, high false-safety cost, exact incumbents, and family ritual adoption are fatal for a hackathon consumer app. A bank/carrier partnership would change the decision."
+        },
+        {
+          "id": "perspective-5",
+          "label": "data-broker opt-out users and households practicing account recovery",
+          "primary_job": "people use OS call screening, carrier spam filters, family verification phrases, password managers, security keys, credit freezes, data-removal services, and ad hoc “call me back” rules.",
+          "signal": "when a user feels urgency, a home-screen “verify request” opens the pre-agreed family route and shows only “verified by named person” or “not verified”—never “caller safe.”",
+          "objection": "WEAK. Severe harm is not enough. OS privilege, pre-loss acquisition, high false-safety cost, exact incumbents, and family ritual adoption are fatal for a hackathon consumer app. A bank/carrier partnership would change the decision."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Research strike",
+          "disposition": "struck",
+          "summary": "WEAK. Severe harm is not enough. OS privilege, pre-loss acquisition, high false-safety cost, exact incumbents, and family ritual adoption are fatal for a hackathon consumer app. A bank/carrier partnership would change the decision.",
+          "idea_ids": []
+        }
+      ],
+      "next_step": "WEAK. Severe harm is not enough. OS privilege, pre-loss acquisition, high false-safety cost, exact incumbents, and family ritual adoption are fatal for a hackathon consumer app. A bank/carrier partnership would change the decision."
+    },
+    {
+      "id": "round-11-focus-group-30",
+      "title": "Focus Group 30 — Indie app developers (deep HAMM lane)",
+      "conducted_at": "2026-08-10",
+      "method": "simulated_persona",
+      "sample_label": "Synthetic domain panel for indie app developers (deep hamm lane)",
+      "summary": "Round 11 desk research reconstructed the current workflow, expensive friction, phone boundary, live alternatives, and candidate ideas for indie app developers (deep hamm lane).",
+      "limitation": "No people were recruited. The constituencies, complaints, and reactions are synthetic research hypotheses grounded in cited public evidence, not participant quotes or willingness-to-pay proof.",
+      "dossier": "docs/FOCUS-GROUPS-16-30-2026-08-10.md",
+      "anchor": "15-focus-group-30--indie-app-developers-deep-hamm-lane",
+      "segments": [
+        {
+          "id": "perspective-1",
+          "label": "solo iOS/Android/Expo developers",
+          "primary_job": "a developer configures store products, RevenueCat products/entitlements/offerings, SDK initialization, paywall display, purchase/restore, TestFlight/internal testing, analytics, and release monitoring. They then inspect RevenueCat, App Store/Play, product analytics, crash reporting, and ad dashboards. Low traffic makes formal A/B tests slow, so founders substitute screenshots, peer feedback, and intuition.",
+          "signal": "five minutes after a new build reaches TestFlight or production, the founder’s phone receives: “Build 42, US storefront: paywall attempted 7 times; offering empty 7 times; first seen 14:03; last known healthy Build 41.” Tapping shows the minimal factual trace and RevenueCat/store configuration checks. The demo can deliberately switch to an empty offering, trigger a red alert, fix it, and show recovery.",
+          "objection": "PROMISING, CONDITIONAL — Monetization Canary only. It has a crisp factual event, repeated value after every release, natural HAMM alignment, and a theatrical failure→alert→fix demo. The wedge disappears if it becomes another dashboard, generic logger, or conversion-advice wrapper."
+        },
+        {
+          "id": "perspective-2",
+          "label": "small subscription-app teams",
+          "primary_job": "a developer configures store products, RevenueCat products/entitlements/offerings, SDK initialization, paywall display, purchase/restore, TestFlight/internal testing, analytics, and release monitoring. They then inspect RevenueCat, App Store/Play, product analytics, crash reporting, and ad dashboards. Low traffic makes formal A/B tests slow, so founders substitute screenshots, peer feedback, and intuition.",
+          "signal": "five minutes after a new build reaches TestFlight or production, the founder’s phone receives: “Build 42, US storefront: paywall attempted 7 times; offering empty 7 times; first seen 14:03; last known healthy Build 41.” Tapping shows the minimal factual trace and RevenueCat/store configuration checks. The demo can deliberately switch to an empty offering, trigger a red alert, fix it, and show recovery.",
+          "objection": "PROMISING, CONDITIONAL — Monetization Canary only. It has a crisp factual event, repeated value after every release, natural HAMM alignment, and a theatrical failure→alert→fix demo. The wedge disappears if it becomes another dashboard, generic logger, or conversion-advice wrapper."
+        },
+        {
+          "id": "perspective-3",
+          "label": "first-time RevenueCat integrators",
+          "primary_job": "a developer configures store products, RevenueCat products/entitlements/offerings, SDK initialization, paywall display, purchase/restore, TestFlight/internal testing, analytics, and release monitoring. They then inspect RevenueCat, App Store/Play, product analytics, crash reporting, and ad dashboards. Low traffic makes formal A/B tests slow, so founders substitute screenshots, peer feedback, and intuition.",
+          "signal": "five minutes after a new build reaches TestFlight or production, the founder’s phone receives: “Build 42, US storefront: paywall attempted 7 times; offering empty 7 times; first seen 14:03; last known healthy Build 41.” Tapping shows the minimal factual trace and RevenueCat/store configuration checks. The demo can deliberately switch to an empty offering, trigger a red alert, fix it, and show recovery.",
+          "objection": "PROMISING, CONDITIONAL — Monetization Canary only. It has a crisp factual event, repeated value after every release, natural HAMM alignment, and a theatrical failure→alert→fix demo. The wedge disappears if it becomes another dashboard, generic logger, or conversion-advice wrapper."
+        },
+        {
+          "id": "perspective-4",
+          "label": "low-traffic founders",
+          "primary_job": "a developer configures store products, RevenueCat products/entitlements/offerings, SDK initialization, paywall display, purchase/restore, TestFlight/internal testing, analytics, and release monitoring. They then inspect RevenueCat, App Store/Play, product analytics, crash reporting, and ad dashboards. Low traffic makes formal A/B tests slow, so founders substitute screenshots, peer feedback, and intuition.",
+          "signal": "five minutes after a new build reaches TestFlight or production, the founder’s phone receives: “Build 42, US storefront: paywall attempted 7 times; offering empty 7 times; first seen 14:03; last known healthy Build 41.” Tapping shows the minimal factual trace and RevenueCat/store configuration checks. The demo can deliberately switch to an empty offering, trigger a red alert, fix it, and show recovery.",
+          "objection": "PROMISING, CONDITIONAL — Monetization Canary only. It has a crisp factual event, repeated value after every release, natural HAMM alignment, and a theatrical failure→alert→fix demo. The wedge disappears if it becomes another dashboard, generic logger, or conversion-advice wrapper."
+        },
+        {
+          "id": "perspective-5",
+          "label": "developers using paywall/analytics competitors",
+          "primary_job": "a developer configures store products, RevenueCat products/entitlements/offerings, SDK initialization, paywall display, purchase/restore, TestFlight/internal testing, analytics, and release monitoring. They then inspect RevenueCat, App Store/Play, product analytics, crash reporting, and ad dashboards. Low traffic makes formal A/B tests slow, so founders substitute screenshots, peer feedback, and intuition.",
+          "signal": "five minutes after a new build reaches TestFlight or production, the founder’s phone receives: “Build 42, US storefront: paywall attempted 7 times; offering empty 7 times; first seen 14:03; last known healthy Build 41.” Tapping shows the minimal factual trace and RevenueCat/store configuration checks. The demo can deliberately switch to an empty offering, trigger a red alert, fix it, and show recovery.",
+          "objection": "PROMISING, CONDITIONAL — Monetization Canary only. It has a crisp factual event, repeated value after every release, natural HAMM alignment, and a theatrical failure→alert→fix demo. The wedge disappears if it becomes another dashboard, generic logger, or conversion-advice wrapper."
+        }
+      ],
+      "outcomes": [
+        {
+          "label": "Bounded follow-up",
+          "disposition": "bounded",
+          "summary": "Monetization Canary is parked behind a RevenueCat host-capability check and paid-demand test; it is a vertical diagnostic preset unless independent value survives ordinary Sentry or PostHog instrumentation.",
+          "idea_ids": [
+            "monetization-canary"
+          ]
+        }
+      ],
+      "next_step": "Monetization Canary is parked behind a RevenueCat host-capability check and paid-demand test; it is a vertical diagnostic preset unless independent value survives ordinary Sentry or PostHog instrumentation."
     }
   ]
 }
