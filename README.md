@@ -4,7 +4,7 @@ Idea Ledger is a read-only decision archive for searching product ideas, reviewi
 
 Live site: https://packetloss404.github.io/idealedger/
 
-The current corpus contains 348 ideas, 50 research dossiers, and 33 method-labeled focus-group studies. The Ledger is a durable, cross-hackathon think tank—not a strategy archive for one contest. `docs/idea-database.json`, `docs/focus-groups.json`, and their linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
+The current corpus contains 398 ideas, 52 research dossiers, and 33 method-labeled focus-group studies. The Ledger is a durable, cross-hackathon think tank—not a strategy archive for one contest. `docs/idea-database.json`, `docs/focus-groups.json`, and their linked Markdown dossiers are canonical; deterministic build artifacts under `src/generated/idea-ledger/` are disposable and must never be edited by hand.
 
 **Current active build:** [BackPocket.help](https://backpocket.help/) is an AI-operated, human-finished local rescue-service prototype for the [Build with Gemini XPRIZE](https://xprize.devpost.com/). At the August 10 verification point, the XPRIZE deadline was August 17, 2026 at 1:00pm PDT—about one week away, not 51 days. See [`ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md`](docs/ACTIVE-HACKATHON-CONTEXT-BACKPOCKET-2026-08-10.md). RevenueCat Shipaton is the separate ~51-day research track.
 
@@ -67,11 +67,28 @@ npm run build:web
 - `docs/idea-database.json` — canonical structured records
 - `docs/focus-groups.json` — canonical method-labeled focus-group studies and idea outcomes
 - `docs/*.md` — canonical research dossiers
+- `docs/RESEARCH-LOOP-RUNBOOK.md` — protocol for the autonomous research loop (queue-driven, self-falsifying, self-persisting)
+- `research/loop-queue.json` — live hypothesis queue with falsifiable gates and kill conditions
+- `research/loop-state.json` — per-tick runtime state for resumption across sessions
+- `research/loop-log.jsonl` — append-only tick log for retrospective analysis
 - `scripts/idea-ledger/` — schema validation, deterministic generation, and export checks
 - `src/generated/idea-ledger/` — committed generated catalog, routes, provenance, and search documents
 - `src/ledger/` — typed search, facets, URL state, comparison, and provenance domain
 - `src/web/` — responsive application UI
 - `tests/e2e/` — browser retrieval, routing, comparison, accessibility, and responsive acceptance tests
+
+## Autonomous research loop
+
+The corpus runs an overnight-style research loop per `docs/RESEARCH-LOOP-RUNBOOK.md`. The loop:
+
+- Reads the queue (`research/loop-queue.json`) and picks the lowest-priority `pending` entry.
+- Runs a six-step tick protocol with a per-tick budget (20 web searches, 12 page fetches, 1 output write).
+- Self-falsifies against the entry's gate and kill conditions.
+- Persists findings to the canonical corpus on success, tombstones on kill.
+- Self-terminates when the queue empties, three consecutive low-information-gain ticks fire, or a kill file is created at `research/loop-kill`.
+- Re-schedules itself every 30 minutes via `mavis cron self` for unattended all-night runs.
+
+The agent cannot make outreach calls to real operators; entries that require human contact are marked `needs_human` and skipped.
 
 Phase 1 is intentionally read-only. It does not infer confidence, evidence quality, active queues, or historical decisions that the v1 schema cannot support.
 

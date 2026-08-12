@@ -104,7 +104,9 @@
         "insurance",
         "computer-vision",
         "photos",
-        "recovery"
+        "recovery",
+        "m22-exception-to-recovery",
+        "m23-field-level-provenance"
       ]
     },
     {
@@ -154,7 +156,8 @@
         "news",
         "citations",
         "verification",
-        "ai"
+        "ai",
+        "m23-field-level-provenance"
       ]
     },
     {
@@ -660,7 +663,8 @@
       "tags": [
         "shopping",
         "receipts",
-        "warranty"
+        "warranty",
+        "m22-exception-to-recovery"
       ]
     },
     {
@@ -4275,7 +4279,9 @@
         "returns",
         "serial-numbers",
         "receipts",
-        "utilities"
+        "utilities",
+        "m22-exception-to-recovery",
+        "m24-accepted-handoff-state"
       ]
     },
     {
@@ -8365,7 +8371,9 @@
         "b2b",
         "revenuecat",
         "photography",
-        "secondhand"
+        "secondhand",
+        "m22-exception-to-recovery",
+        "m24-accepted-handoff-state"
       ]
     },
     {
@@ -9294,9 +9302,1786 @@
         "b2b",
         "installation"
       ]
+    },
+    {
+      "aliases": [
+        "Death-Certificate Chase Layer",
+        "EDRS Certifier Expediter"
+      ],
+      "decision_reason": "Round 13 research surfaced this cell as a real, under-served B2B wedge in the 15,401-US-funeral-home market. Every death triggers a multi-step certifier chase (attending physician, hospice medical director, or medical examiner) under state-by-state rules; the funeral home absorbs the fax-and-phone labor. The empty cell is blocked by (1) state vital records having no public APIs (Passare took 3+ years to integrate PA EDRS), (2) the cell being emotionally charged so investors avoid it (only .5M total funding for 10 funeral startups per Seedtable), and (3) the host-owns-correction pattern. Mechanism M-ESCALATE applied to per-state certifier routing is the new contribution. The competitor graveyard (Gather, Halcyon, FuneralHQ) handles case intake and form auto-pop but treats the chase as a phone-and-fax problem. Buildable today with off-the-shelf document understanding plus per-state rules files (50+ state/county rulebooks); PMC1560770 voice-signature academic paper (2005) shows the underlying chase problem has been documented for 20+ years and is still unsolved.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11-tracker",
+        "research-marathon-2026-08-11",
+        "pain-mining-dossier"
+      ],
+      "hackathon_fit": "medium",
+      "id": "certchase-funeral-signature-expediter",
+      "name": "CertChase Funeral Signature Expediter",
+      "one_liner": "Track every pending death certificate as a pipeline from pronouncement through physician sign-off to state filing, then send the right nudge to the right certifier in the right jurisdiction before the statutory clock runs out.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/PAIN-MINING-DOSSIER.md"
+      ],
+      "resurrection_trigger": "30 funeral director calls in FL/NY produce at least 5 priced-yes reactions at -249/mo; a 20-case concierge pilot shows median days-to-signature drop of 3+ days; the per-state rules database reaches 25+ states with cited public sources.",
+      "route": "/ideas/certchase-funeral-signature-expediter",
+      "status": "raw",
+      "tags": [
+        "funeral",
+        "death-certificate",
+        "b2b",
+        "routing",
+        "compliance",
+        "ai-agents"
+      ]
+    },
+    {
+      "aliases": [
+        "Funeral Cross-State Form Synthesizer",
+        "EDRS Form Bridge"
+      ],
+      "decision_reason": "Round 13 research identified the multi-form-reuse mechanism (M17 family, new label M19: multi-form synthesization) as the most interesting cell after the chase layer. The pain is real and recurring (Reddit r/askfuneraldirectors 2026: 'Re-entering the same vital information into the state portal, insurance forms, and the crematory/burial transit permit'), and the empty cell is explained by state vital records having no public APIs (Passare blog 2026: 'Vital records departments nationwide do not have any APIs for case management platforms to integrate with') and the federal NVSS Modernization being in early FHIR-draft phase only. Bypasses the API problem by working with public state form templates + state-aware fillable PDFs, not sanctioned integrations. Cross-vertical transplant: same mechanism applies to certified payroll (WH-347, mandatory Sept 30 2026), MoCRA product listing, USDA pesticide records, freight BOL, and any other state-fragmented paperwork cell. Most of those cells are occupied by Foundation, Brahmin, Croptracker, Shipwell; the funeral cell is the wedge that is genuinely under-served. Low hackathon fit because it requires a 50-state template library + per-state legal review; medium-term viable as a vertical SaaS with FuneralHQ or Passare as the distribution.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11-tracker",
+        "research-marathon-2026-08-11",
+        "pain-mining-dossier"
+      ],
+      "hackathon_fit": "low",
+      "id": "multistate-form-synthesizer-funeral",
+      "name": "Multistate Form Synthesizer for Funeral",
+      "one_liner": "Take one case file (decedent, family, disposition, payment) and auto-generate correctly-formatted paper or fillable-PDF artifacts for every downstream destination: state death certificate, disposition permit, transit permit, insurance assignment, FTC-compliant GPL, SSA notification, and the like.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/PAIN-MINING-DOSSIER.md"
+      ],
+      "resurrection_trigger": "Build and maintain the per-state funeral forms database for 25+ states from public statutes; partner with one existing funeral SaaS (Halcyon, FuneralHQ, Osiris) for distribution; at least three independent funeral homes pay -149/mo to avoid the re-entry pain.",
+      "route": "/ideas/multistate-form-synthesizer-funeral",
+      "status": "raw",
+      "tags": [
+        "funeral",
+        "multi-form",
+        "state-fragmentation",
+        "ai-templates",
+        "b2b",
+        "compliance"
+      ]
+    },
+    {
+      "aliases": [
+        "Cottage Compliance Passport",
+        "State Cottage-Food/Cosmetic/Candle Compliance"
+      ],
+      "decision_reason": "Round 13 research surfaced a real, durable wedge in the cottage-industry compliance cell. Cottage-food laws in 50 states define 5 different questions (revenue cap, allowed products, sales channels, labeling, permits/training), with constant rule changes (TX SB 541 2025, OR DOA 95-2026 eff 2026-03-13, ND SB 2386 eff 2025-08). The MoCRA small-business exemption ( revenue over 3 years) is a parallel cell. The existing tools (CottageCMS, Ovenkin, DishTrack) are content/reference sites, not active trackers; Brahmin/MRPeasy/QT9 are batch-record MRPs that target -50M brands, not the -150K cottage ceiling. Mechanism M-DEADLINES + M-ENTITLEMENT-REF transplanted from the M9 and M6 families. TAM is the active cottage-food + cottage-cosmetic maker population, estimated 100K+ in the US, with strong -29/mo willingness-to-pay (cottage makers are prolific Reddit and Facebook group members seeking free/low-cost tooling). Buildable as a thin web app with the 50-state rules database as the moat. Low hackathon fit because the value is in the per-state rule library, not the app shell.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11-tracker",
+        "research-marathon-2026-08-11",
+        "round-12-mechanism-map"
+      ],
+      "hackathon_fit": "low",
+      "id": "cottage-exemption-tracker",
+      "name": "Cottage Exemption Tracker",
+      "one_liner": "A state-by-state compliance passport for home-based food, cosmetic, and candle makers that tracks each maker's exemption ceiling, label disclosure, registration deadlines, and required certifications, with alerts before the cap is breached.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/ROUND-12-MECHANISM-MAP.md"
+      ],
+      "resurrection_trigger": "Compile the 50-state cottage-food + 50-state cottage-cosmetic rule database from public statutes; recruit 100 cottage makers in Facebook groups and measure paid conversion at -29/mo; one state-level food regulator or cottage-food association partnership validates the distribution channel.",
+      "route": "/ideas/cottage-exemption-tracker",
+      "status": "raw",
+      "tags": [
+        "cottage-food",
+        "cottage-cosmetics",
+        "state-fragmentation",
+        "makers",
+        "deadline-tracker",
+        "compliance"
+      ]
+    },
+    {
+      "aliases": [
+        "LotMatch revival",
+        "Tile Lot/Caliber Gate"
+      ],
+      "decision_reason": "Reaffirms LotMatch (the 2026-08-10 build-out frontier) as the highest-confidence experiment target following SnapInvoice's passed_market verdict. The cell evidence remains strong (tile/lot/caliber mismatches at install are an unfixable cost), the phone-camera + OCR mechanism is mature, and the industry is fragmented enough that LotMatch is plausibly un-dug. The Falsification design and execution plan are inherited from the prior record. This is a slot-allocation record, not a new idea.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "idea-mining-loop-2026-08-10-round12-build-out",
+        "round-12-snapinvoice-falsification"
+      ],
+      "hackathon_fit": "high",
+      "id": "lotmatch-r12d-2026-08-11",
+      "name": "LotMatch post-Round-12 status refresh",
+      "one_liner": "Same as LotMatch (scan each tile or flooring carton before opening, catch a different product/dye lot/shade/caliber before installation makes the mistake expensive). This record exists to carry the Round-12 build-out verdict forward and is the new top-of-funding-experiment-queue item now that SnapInvoice is passed_market.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+        "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md"
+      ],
+      "resurrection_trigger": "Existing LotMatch falsification gates pass; three tile/flooring professionals prepay for the carton-scan gate before the 6-week window closes.",
+      "route": "/ideas/lotmatch-r12d-2026-08-11",
+      "status": "validating",
+      "tags": [
+        "lotmatch",
+        "revival",
+        "experiment-queue"
+      ]
+    },
+    {
+      "aliases": [
+        "Service Field Note Structurer",
+        "Voice-to-Field-Note"
+      ],
+      "decision_reason": "Synthesis-loop tick 2026-08-11 surfaced this from a 3-persona focus group + 6-week mock-hackathon lens. The corpus has voice recording and readback primitives (CrashTape, ReadBack, DoorHold) but no field-tested AI structurer that converts service-business dictation into named work-performed, parts, agreement, and follow-up fields. Adjacent verticals (medical, legal) already have paid AI dictation; the solo trades wedge is unproven and prone to commoditization by Jobber, ServiceTitan, or Housecall Pro voice features. Saturated alternatives: AI receptionist and AI missed-call text-back (Smith.ai, Skipio, Jobber AI add-ons).",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "job-note-structurer",
+      "name": "JobNote",
+      "one_liner": "Turn a solo tradesperson's on-site voice dictation and photos into structured job notes, parts used, follow-ups, and a customer-ready summary.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 15 solo tradespeople dictate 5+ jobs each into the prototype and at least 7 rate the structured summary equal to or better than their current handwritten note; close if ServiceTitan, Jobber, or Housecall Pro ships a free in-app AI dictation feature covering the same fields inside their existing work order within 6 months.",
+      "route": "/ideas/job-note-structurer",
+      "status": "raw",
+      "tags": [
+        "ai-agents",
+        "field-service",
+        "voice-extraction",
+        "structured-notes",
+        "trades",
+        "small-business",
+        "micro-business"
+      ]
+    },
+    {
+      "aliases": [
+        "Service Job Recap Engine",
+        "Job-to-GBP Poster"
+      ],
+      "decision_reason": "Synthesis-loop tick 2026-08-11 surfaced this from the same focus group (Dale — 5-person plumbing crew stuck at 87 Google reviews while the competitor sits at 312) + 6-week mock-hackathon lens. Local SEO content for service businesses is a real but undifferentiated market (Birdeye, LocaliQ, Planable, Lately). The agent angle (autonomous draft plus bounded owner approval targeted at GBP specifically) is more autonomous than a posting tool and more local than a generic copywriter, but Google Business Profile API access and a defensible differentiator against incumbent marketing suites remain open questions.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "service-business-recap-engine",
+      "name": "LocalReach",
+      "one_liner": "After a completed service job, the agent turns before/after photos and a short note into a drafted Google Business Profile post for owner approval.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 20 service businesses publish the agent's draft within 24 hours and 10 confirm a measurable lift in GBP views or calls within 60 days; close if a major SMB marketing suite ships a free AI post-from-photo feature for GBP, or if the Google Business Profile API remains too restricted to ship a defensible product.",
+      "route": "/ideas/service-business-recap-engine",
+      "status": "raw",
+      "tags": [
+        "ai-agents",
+        "content-engine",
+        "local-seo",
+        "google-business-profile",
+        "small-business",
+        "marketing-automation",
+        "approval-gated"
+      ]
+    },
+    {
+      "aliases": [
+        "Davis-Bacon Picket",
+        "Prevailing Wage Picket",
+        "WH-347 Assistant"
+      ],
+      "decision_reason": "Synthesis-loop tick 2 (2026-08-11) surfaced this from a 3-persona focus group (Maya, bookkeeper for an 8-person framing sub) + 6-week mock-hackathon lens. The Davis-Bacon WH-347 cell has a hard Sept 30, 2026 deadline (old form accepted only through that date; new form mandatory Oct 1, 2026) and a ,508/violation penalty. The corpus had no entry covering this cell. Existing incumbents (Foundation Software, eBacon, Payroll4Construction, Miter, LCPtracker, Jonas) all target mid-market and enterprise (-1,200/mo); the small sub segment (5-50 employees, 1-4 prevailing-wage projects) is underserved and switching cost during a 6-week pilot is real (one correctly-filed WH-347 hooks the contractor). Strongest wedge: not the WD data (public via DOL WDOL), but the project-vs-subcontract-actual reconciliation flag that incumbents are bad at.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "payroll-picket",
+      "name": "Payroll Picket",
+      "one_liner": "Davis-Bacon prevailing-wage payroll that just knows the right Wage Determination for your project ZIP and flags fringe math before the prime contractor can withhold your invoice.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5 small subcontractors in CA Davis-Bacon run the tool for 4 weeks each, file at least 3 weekly WH-347s correctly through the system, and at least 2 report the subcontract-vs-actual flag saved them a withheld invoice; close if a major incumbent (Foundation/eBacon/Miter/LCPtracker) ships a comparable -99/mo self-serve tier that small subs can adopt without a sales call.",
+      "route": "/ideas/payroll-picket",
+      "status": "raw",
+      "tags": [
+        "construction",
+        "payroll",
+        "Davis-Bacon",
+        "WH-347",
+        "certified-payroll",
+        "prevailing-wage",
+        "b2b",
+        "compliance",
+        "small-business",
+        "subcontractor"
+      ]
+    },
+    {
+      "aliases": [
+        "Plain-English Regulatory Digest",
+        "Small-Biz Reg Brief"
+      ],
+      "decision_reason": "Synthesis-loop tick 2 (2026-08-11) surfaced this from a 3-persona focus group (Bea, Dale, Maya) + 6-week mock-hackathon lens. The mechanism (reformat regulatory prose into a plain-English digest) is the same as the corpus's notam-commute-digest (passed_market, reformat road-closure bulletins into a commute digest), so the core mechanism is known and the corpus's verdict on it is that the consumer payer is weak. The differentiator for this resurrection is the B2B form-actionability layer: 'here is the form you already file, here is the line that changed, here is your deadline.' 6 weeks is enough to build the digest for 2 verticals (indie cosmetics + construction); broader industries need post-hackathon work. Honest hackathon_fit is medium, not high, because the per-user 'forms I actually file' graph is hard to build in 6 weeks and the consumer-payer kill risk is real (free legal newsletters from law firms are legion).",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "compass-rosetta",
+      "name": "Compass Rosetta",
+      "one_liner": "A 5-minute weekly regulatory digest in plain English, personalized to your industry, state, and the forms you actually file.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 30 small business owners across 2 verticals (indie cosmetics + construction) install the digest, at least 15 read the weekly push within 48 hours, and at least 5 complete an in-app 'what to do this week' action; close if a B2B2C accountant/bookkeeper/industry-association distribution channel does not materialize within 90 days (the consumer direct-to-SMB model is unlikely to clear the payer bar on its own).",
+      "route": "/ideas/compass-rosetta",
+      "status": "raw",
+      "tags": [
+        "regulatory",
+        "digest",
+        "plain-english",
+        "b2b",
+        "b2c",
+        "weekly-ritual",
+        "small-business",
+        "shareable",
+        "actionability",
+        "mechanism-lineage-m6-m18"
+      ]
+    },
+    {
+      "aliases": [
+        "Weekly Reflection Card",
+        "On-Device Journal Insight"
+      ],
+      "decision_reason": "Synthesis-loop tick 3 (2026-08-11) surfaced this from a 3-persona focus group (Owen, Mara, Devon) + 6-week mock-hackathon lens. The 2025-26 tech-primitive shift (Apple Foundation Models free for App Store Small Business Program developers with under 2M lifetime first-time downloads, Chrome Built-in AI Gemini Nano) collapses AI-feature unit economics to zero for indie mobile devs. The closest existing ideas (the *Tape family — CrashTape, ShellResume, etc.) are journaling primitives at the file/command level, not AI-driven weekly reflection; the existing passed_market ones (focus-receipt, safari-form-draft-recovery) cover different angles. No existing record combines on-device AI + weekly reflection ritual + shareable output. The wedge is real but Apple Journal cannibalization is the dominant kill risk.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "sunday-reflection",
+      "name": "Sunday",
+      "one_liner": "On-device AI weekly reflection — Apple Foundation Models reads your journal locally, every Sunday you get a private insight card you can share.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 50 iOS users install Sunday within 4 weeks and at least 25 of them return for a second Sunday reflection; close if Apple Journal adds a weekly insight card within 6 months, or if Apple Foundation Models' free Small Business Program ceiling is lowered below 1M downloads in a way that would force a paid inference tier.",
+      "route": "/ideas/sunday-reflection",
+      "status": "raw",
+      "tags": [
+        "on-device-ai",
+        "apple-foundation-models",
+        "weekly-ritual",
+        "shareable",
+        "journaling",
+        "reflection",
+        "passkey",
+        "mobile-app",
+        "revenuecat",
+        "consumer",
+        "m19-multi-form-synthesized"
+      ]
+    },
+    {
+      "aliases": [
+        "ADHD Voice Companion",
+        "On-Device ADHD Co-Pilot"
+      ],
+      "decision_reason": "Synthesis-loop tick 3 (2026-08-11) surfaced this from the same focus group as sunday-reflection. The ADHD wedge is higher-pain (medication management, executive function deficits, healthcare costs ~/yr above non-ADHD peers per CHADD/CDC) and the privacy angle is the real moat: 'AI that does not send your voice to OpenAI' is a durable positioning vs. Replika / Otter / every cloud-based ADHD app. Apple Foundation Models STT + LLM + on-device TTS gives a fully private voice agent. The closest existing ideas (focus-receipt passed_market, transition-tile passed_market, reading-line-focus passed_market) cover focus-preservation primitives but not a weekly ritual with a shareable score. Kill risk: Siri + Apple Intelligence ship a 'personal assistant' tier; on-device 3B-param model may be too small for sustained planning dialogue.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "dottie-adhd-companion",
+      "name": "Dottie",
+      "one_liner": "On-device AI voice companion for ADHD adults — Sunday planning, weekday 2-min check-ins, weekly shareable focus score.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 30 ADHD adults (self-identified) install Dottie within 4 weeks and at least 15 complete a full Sunday-planning + 3 weekday check-ins + share the focus score with one person; close if Apple Intelligence or Siri ships a comparable on-device ADHD-specific voice tier, or if the App Store Small Business Program ceiling is lowered below 1M downloads in a way that would force paid inference.",
+      "route": "/ideas/dottie-adhd-companion",
+      "status": "raw",
+      "tags": [
+        "adhd",
+        "on-device-ai",
+        "voice-companion",
+        "executive-function",
+        "weekly-ritual",
+        "shareable",
+        "privacy",
+        "mobile-app",
+        "revenuecat",
+        "consumer",
+        "m20-external-party-routing"
+      ]
+    },
+    {
+      "aliases": [
+        "NFC Habit Ritual",
+        "Tap-to-Log"
+      ],
+      "decision_reason": "Synthesis-loop tick 3 (2026-08-11) surfaced this from the same focus group. NFC + Apple Foundation Models is a 2025-26 combo that has not been combined: existing NFC ideas (BorrowTag, PlugLatch, TagRun, PetTag TapTest) are all readback/checkout primitives in the passed_market graveyard; none does habit logging or weekly synthesis. The differentiator is the Sunday synthesis (on-device AI + shareable card) layered on top of NFC input. Hardware friction is real (NFC tags as consumables, distribution), which is why hackathon_fit is medium not high. Apple Shortcuts + iOS 18 journaling already cover some of this; the survival path is selling tags as IAP consumables rather than gating hardware.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "pulse-nfc-ritual",
+      "name": "Pulse",
+      "one_liner": "NFC tap rituals — tap a tag to log a habit, unlock a journal, or drop a voice memo; Sunday review synthesizes your taps into a shareable weekly recap.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 40 users install Pulse, scan at least one NFC tag per day for 5+ days, and at least 20 of them return for a second Sunday review; close if iOS 18 journaling or Apple Shortcuts adds a free NFC-tap-to-log habit primitive that covers the same workflow, or if NFC tag supply/distribution becomes a real barrier (> per tag wholesale with no path to ).",
+      "route": "/ideas/pulse-nfc-ritual",
+      "status": "raw",
+      "tags": [
+        "nfc",
+        "habit-tracking",
+        "weekly-ritual",
+        "shareable",
+        "on-device-ai",
+        "physical-input",
+        "mobile-app",
+        "revenuecat",
+        "consumer",
+        "m5-share-sheet-photo-intake"
+      ]
+    },
+    {
+      "aliases": [
+        "Home Service Operator Score",
+        "Reliability + Price-Lock Score"
+      ],
+      "decision_reason": "Synthesis-loop tick 4 (2026-08-11) surfaced this from a 3-persona focus group (Lila suburban homeowner, Marcus single dad, Devon Gen Z) + 6-week mock-hackathon lens. The convergent pain: operator unaccountability at the moment of highest leverage — when the consumer is standing in the driveway with the wallet out, the operator is the only one with information. Quote range vs. bill 2-4x, no-call-back after the work, cash-only friction, opaque lead-times. The closest existing record is quote-comparison (passed_market, post-quote comparison) which is narrower. The homepulse angle (community-priced score + price-lock pre-arrival + weekly digest) is genuinely new in the corpus. Dominant kill risk: cold-start data problem — scores are useless until enough users contribute, and operators may refuse jobs booked through the app to avoid being scored. Mitigations: seed with public review imports (Google, Yelp, BBB) and a 'log your job' opt-in flow.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "homepulse-operator-score",
+      "name": "HomePulse",
+      "one_liner": "Reliability + price-lock scores for home service operators — see the real track record before they show up.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 200 consumers in 2 metros install HomePulse within 6 weeks and at least 50 submit a job log; close if Google/Yelp/Angi ship a comparable per-zip reliability + price-lock surface, or if the cold-start data problem proves intractable (fewer than 100 scored operators per metro after 6 months).",
+      "route": "/ideas/homepulse-operator-score",
+      "status": "raw",
+      "tags": [
+        "home-services",
+        "operator-scoring",
+        "reliability",
+        "price-lock",
+        "quote-accuracy",
+        "weekly-ritual",
+        "shareable",
+        "consumer",
+        "mobile-app",
+        "revenuecat",
+        "m14-quote-price-registrar",
+        "m18-status-page"
+      ]
+    },
+    {
+      "aliases": [
+        "Card-Only Mobile Service Directory",
+        "No-Cash Operator Filter"
+      ],
+      "decision_reason": "Synthesis-loop tick 4 (2026-08-11) surfaced this from the same focus group (Marcus's  cash-only tow truck with no receipt; Devon's  cash-only mobile tire change). Cash-only / Venmo-only friction strips the consumer of their primary dispute tool and concentrates leverage on the operator. No existing corpus record covers a consumer-facing directory filtered by payment method. Adjacent: Stripe Tap-to-Pay, Square, SumUp are operator-side payment tools but no consumer-side directory exists. The differentiator is the 'no-cash filter' as the consumer wedge. Dominant kill risk: operator supply cold-start — many mobile pros run on Instagram DMs and won't migrate to a directory.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "taponly-card-directory",
+      "name": "TapOnly",
+      "one_liner": "The directory of card-accepting, no-cash mobile service pros — book, pay, tip in one tap.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 50 mobile pros (detail/groom/mechanic/tire/junk) self-onboard with Tap-to-Pay check in 2 zips within 6 weeks and at least 200 consumers complete a booking; close if no operator supply emerges (fewer than 20 onboarded pros per zip after 3 months), or if Google Maps/Apple Business Connect adds a 'card-accepting' filter to their local search results.",
+      "route": "/ideas/taponly-card-directory",
+      "status": "raw",
+      "tags": [
+        "home-services",
+        "mobile-services",
+        "directory",
+        "card-payment",
+        "tap-to-pay",
+        "consumer",
+        "small-business",
+        "weekly-ritual",
+        "shareable",
+        "m5-share-sheet-photo-intake",
+        "m4-paired-handoff"
+      ]
+    },
+    {
+      "aliases": [
+        "Operator On-Time Credit",
+        "Promise-Time Tracker"
+      ],
+      "decision_reason": "Synthesis-loop tick 4 (2026-08-11) surfaced this from the same focus group (Devon's 9-day silent apartment maintenance portal). The opposite-side-of-the-trade wedge from cancelby (validating, consumer no-show → operator loss). ShowUp is operator no-show → consumer loss, which is the under-served side. Existing operator-side solutions (ServiceTitan reminders, Housecall Pro ETA) help operators remember but don't compensate the consumer when the operator still ghosts. Dominant kill risk: operator backlash — small operators may refuse to join a network that 'fines them for being late' and may cancel jobs booked via ShowUp. Mitigations: reframe as 'we reward on-time operators with higher ratings and lead priority,' not as a fine; start with operator-friendly verticals (mobile detail, mobile groomer) where reliability is a competitive differentiator.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "showup-no-show-credit",
+      "name": "ShowUp",
+      "one_liner": "Operator-promise-time tracker with no-show compensation — if they ghost, you get  back.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 100 consumers install ShowUp and 30+ mobile pros opt-in within 2 metros in 6 weeks, with at least 1 documented no-show compensation claim that the consumer successfully redeems; close if operators refuse to participate (fewer than 10 opt-ins per metro after 3 months) or if Google Maps/Apple Maps adds a 'on-time guarantee' to local business profiles.",
+      "route": "/ideas/showup-no-show-credit",
+      "status": "raw",
+      "tags": [
+        "home-services",
+        "no-show",
+        "reliability",
+        "on-time",
+        "consumer",
+        "operator-accountability",
+        "weekly-ritual",
+        "shareable",
+        "m8-escalation-nudger",
+        "m18-status-page"
+      ]
+    },
+    {
+      "aliases": [
+        "60-Second Pre-Meeting Brief",
+        "Solo Practitioner Brief"
+      ],
+      "decision_reason": "Synthesis-loop tick 5 (2026-08-11) surfaced this from a 3-persona focus group (Maeve attorney, Dee bookkeeper, Connor consultant) + 6-week mock-hackathon lens. The convergent pain is 'almost-good-enough is worse than bad' — solo practitioners spend 5-10 hours/week re-deriving prior client context because 2026 AI tools surface too much and curate too little. The closest existing record is homepulse-operator-score (raw, just added) which is a different vertical (operator scoring vs. client brief). The corpus has no pre-meeting client brief record. Saturated adjacent cell (Pilot, Cranston, Norm, Lawhive all raised big in 2025-26) but practice-pulse is the narrow pre-meeting wedge, not the full LLM-firm play. Dominant kill risk: Gmail/Outlook OAuth friction and the cold-start brief problem for users with messy prior notes.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "practice-pulse",
+      "name": "PracticePulse",
+      "one_liner": "Open the app 5 min before any client call. Get a tight brief: who they are, last touch, open action items, risk flags, one suggested opener.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 50 solo practitioners install PracticePulse, connect at least 1 email + 1 calendar, and at least 25 report a pre-meeting brief that surfaced a non-obvious 'last touch' or 'open risk' in the first 30 days; close if Google Workspace or Microsoft 365 ships a comparable AI pre-meeting brief as a built-in feature within 6 months.",
+      "route": "/ideas/practice-pulse",
+      "status": "raw",
+      "tags": [
+        "professional-services",
+        "solo-practitioner",
+        "pre-meeting",
+        "client-brief",
+        "context-recovery",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "consumer",
+        "m17-one-time-entry-reuse",
+        "m1-un-invoiced-detector"
+      ]
+    },
+    {
+      "aliases": [
+        "Phone-Native Client Onboarding",
+        "Practitioner Onboarding Packet"
+      ],
+      "decision_reason": "Synthesis-loop tick 5 (2026-08-11) surfaced this from the same focus group (Dee bookkeeper). The mobile-client-portal gap is real: every practice-management portal (QBO, Xero, FreshBooks) is desktop-first; the lowest-margin work (receipt capture, e-sign, onboarding) leaks out of the system for mobile-only SMB clients (restaurants, salons, trades). The closest existing record is subscription-easy-cancel-intake (passed_market) which is subscription-focused, not professional-services onboarding. The cell is heavily saturated (Pilot AI Accountant Feb 2026, Cranston AI, Jupid embedded in Halper Jun 2026, HateLedger Aug 2026) but brief-case is the narrow mobile-onboarding wedge, not the full bookkeeping replacement. Dominant kill risk: OCR accuracy on the worst real-world receipts (thermal-faded, crumpled, handwritten); if the morning packet needs more than 15 minutes of cleanup, the value-prop collapses against QBO's mobile app.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "brief-case-onboarding",
+      "name": "BriefCase",
+      "one_liner": "Text a new client a single link. They snap a phone photo of last 3 months of receipts + a selfie with their ID. You get a coded, organised, ready-to-reconcile packet in your inbox by morning.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 30 solo bookkeepers / accountants install BriefCase, send at least 50 onboarding links to clients within 6 weeks, and at least 20 report a 'first-week ready' packet that saved them 2+ hours per client; close if QuickBooks Online's mobile app or a major bookkeeping platform ships a comparable one-link client onboarding flow within 6 months.",
+      "route": "/ideas/brief-case-onboarding",
+      "status": "raw",
+      "tags": [
+        "professional-services",
+        "bookkeeping",
+        "client-onboarding",
+        "mobile-first",
+        "ocr-receipt",
+        "share-sheet",
+        "m5-share-sheet-photo-intake",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "small-business",
+        "consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "Solo Attorney Deadline Radar",
+        "Statute-of-Limitations Watch"
+      ],
+      "decision_reason": "Synthesis-loop tick 5 (2026-08-11) surfaced this from the same focus group (Maeve solo estate-planning attorney with malpractice anxiety). The corpus has NO existing deadline-tracker / docket / statute idea — this is a genuine gap. Clio, MyCase, and PracticePanther are full case-management incumbents (expensive, -100+/user/mo, complex onboarding) that solo and 2-attorney firms often avoid; the niche is the solo/2-attorney plaintiff/litigation/estate firm that tracks dates in a paper calendar. Dominant kill risk: court-feed integration is jurisdiction-by-jurisdiction and a long tail of scraping pain; liability profile is existential (a missed push notification could mean a missed statute, and even one publicised incident destroys the product). Hackathon fit is medium (not high) because the cell is real but the build is jurisdiction-dependent and the liability is sharp.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "docket-guard",
+      "name": "DocketGuard",
+      "one_liner": "Pull today's court dockets in. Get a red-amber-green countdown for every active matter, with a 14-day-before danger push for any statute or filing date.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 25 solo / 2-attorney firms install DocketGuard in 1-2 US jurisdictions within 6 weeks and at least 10 report that the 14-day pre-warning push prevented a missed filing or statute; close if Clio or MyCase ships a comparable solo-tier deadline-radar product under /mo, or if a single publicised missed-statute incident caused by DocketGuard destroys trust in the cell.",
+      "route": "/ideas/docket-guard",
+      "status": "raw",
+      "tags": [
+        "legal",
+        "attorney",
+        "deadline",
+        "docket",
+        "statute-of-limitations",
+        "malpractice",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "small-business",
+        "consumer",
+        "m9-approval-deadline-clock",
+        "m20-external-party-routing"
+      ]
+    },
+    {
+      "aliases": [
+        "Subscription Price Hike Watchdog",
+        "Auto-Advocate"
+      ],
+      "decision_reason": "Synthesis-loop tick 6 (2026-08-11) surfaced this from a 3-persona focus group (Reggie Gen X 14 subs, Maya 28yo designer, Devon 22yo rotator) + 6-week mock-hackathon lens. The convergent pain is timing asymmetry — merchants know when the price will change, when the trial converts, when the annual is up; consumers only find out after the money has moved. The corpus has subscription-easy-cancel-intake (passed_market, B2B-side) and warranty-return-tracker (passed_market, returns), but no consumer-side price-hike watchdog. The price-hike asymmetry is documented across Hulu, Disney+, Peacock, Max, Apple TV+ in 2025 and reiterated in the 2025 FTC subscription-sweep findings. Saturated adjacent cell (Rocket Money, Trim, Truebill) but the WEDGE is the price-hike-timing watch, not the tracker. Dominant kill risk: database maintenance is the moat and the trap — sub T&Cs change weekly and a stale database loses trust fast. Rocket Money shipping a comparable 'hike radar' feature in 2026 would compress the wedge overnight.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "subwatchdog",
+      "name": "SubWatchdog",
+      "one_liner": "A watchdog that alerts you 30 days BEFORE a known subscription price hike, with a one-tap action: accept, downgrade, cancel, or auto-advocate.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 200 households install SubWatchdog within 6 weeks, track 5+ subs each, and at least 100 of them receive a 30-day-before hike alert that they say saved them money; close if Rocket Money or Trim ships a comparable price-hike-watchdog feature within 6 months, or if the sub-terms database proves intractable to maintain (more than 20% stale T&C entries per quarter).",
+      "route": "/ideas/subwatchdog",
+      "status": "raw",
+      "tags": [
+        "subscription",
+        "price-hike",
+        "consumer",
+        "watchdog",
+        "auto-advocate",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m6-entitlement-reference",
+        "m17-one-time-entry-reuse"
+      ]
+    },
+    {
+      "aliases": [
+        "Subscription Refund Concierge",
+        "Pay-on-Success Refund"
+      ],
+      "decision_reason": "Synthesis-loop tick 6 (2026-08-11) surfaced this from the same focus group. The refund friction tax is documented: average support hold >30 min, AI chat loops that replaced live agents in 2024-25 are the new dark pattern, consumers abandon - legitimate claims because the friction is too high. The closest existing record is return-intake-evidence-sellers (validating, for resellers not consumers). The corpus has no consumer-side refund concierge. The 'AI cancels your subscriptions' cell (Pine AI, 19pine, Fini) is adjacent but only 6 of the 10+ competitors cover disputes, not refunds specifically. Saturated adjacent cell but the consumer-pay concierge is genuinely new. Dominant kill risk: AI cost per dispute must stay under ~.50 to be viable at 15% take; merchants may block scripted disputes.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "subrefund",
+      "name": "SubRefund",
+      "one_liner": "Pay-on-success refund concierge for subscription disputes. .99/mo gives up to 5 disputes/month; we file, follow up, and deliver the result.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 100 consumers install SubRefund, file at least 50 disputes within 6 weeks, and at least 30 of those recover money (avg recovery >); close if Pine AI or 19pine ships a comparable consumer-side refund concierge within 6 months, or if the AI cost per dispute exceeds .50 and breaks the 15%-take unit economics.",
+      "route": "/ideas/subrefund",
+      "status": "raw",
+      "tags": [
+        "subscription",
+        "refund",
+        "consumer",
+        "dispute",
+        "ai-agent",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m7-evidence-pack-builder",
+        "m20-external-party-routing",
+        "m22-exception-to-recovery",
+        "m23-field-level-provenance"
+      ]
+    },
+    {
+      "aliases": [
+        "Subscription Pause Directory",
+        "Pause Coach"
+      ],
+      "decision_reason": "Synthesis-loop tick 6 (2026-08-11) surfaced this from the same focus group (Devon's cancel-and-rejoin pattern losing watch history and intro pricing). The corpus has ZERO pause-related ideas — this is a genuine gap. The pause primitive is structurally distinct from the cancel/track primitives the existing cells cover. Hackathon fit is medium (not high) because the viral wedge is thin — once users have the directory, they don't need to re-open the app often. Most pauses happen 2-4x/year, so DAU/retention will be low without a clever second hook. B2B2C referral fee from merchants who promote 'we are pause-friendly' status is the post-hackathon growth path.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "pausemarket",
+      "name": "PauseMarket",
+      "one_liner": "A directory of which subscriptions support pause, plus a personal pause scheduler that finds services willing to let you suspend without losing your state.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 100 Gen Z / Millennial consumers install PauseMarket, save at least 200 pause-eligible subscriptions to their list, and at least 50 report a successfully paused subscription that they would otherwise have cancelled; close if major streaming / fitness / subscription apps ship a built-in pause button as a native feature within 12 months (Netflix pause, Spotify pause, gym pause, etc.).",
+      "route": "/ideas/pausemarket",
+      "status": "raw",
+      "tags": [
+        "subscription",
+        "pause",
+        "consumer",
+        "directory",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m5-share-sheet-photo-intake",
+        "m17-one-time-entry-reuse"
+      ]
+    },
+    {
+      "aliases": [
+        "Personal Attention OS",
+        "Cross-Wearable Weekly Digest"
+      ],
+      "decision_reason": "Synthesis-loop tick 7 (2026-08-11) surfaced this from a 3-persona focus group (Iris Gen X multi-device, Marcus engineer /mo in subs, Priya 22 fashion-first) + 6-week mock-hackathon lens. The convergent pain: 3+ wearables means 5-7 siloed apps, -60/mo in overlapping subs, no weekly ritual or shareable artifact. The closest existing records are health-sync-canary (parked, narrow overlap detection), sunday-reflection (raw, journal-focused), and dottie-adhd-companion (raw, voice-focused). Lattice is the wearable-data shareable-digest wedge, none of which the corpus covers. Saturated hardware cell (4+ smart rings 2026, 5+ AI pendants, 5+ smart glasses) but the SOFTWARE LAYER for data consolidation is genuinely new. Dominant kill risk: Oura Cloud and Whoop OAuth are restrictive; without Whoop, the social-share hook weakens.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "lattice-attention-os",
+      "name": "Lattice",
+      "one_liner": "One subscription, one weekly digest, every device. Pulls sleep, activity, recovery, and attention from HealthKit, Oura, Whoop, Garmin, Fitbit into a shareable Sunday night card.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 100 device-dense consumers (3+ wearables) install Lattice, connect at least 2 wearable accounts, and at least 50 of them post a generated weekly card to a group chat or story within 30 days; close if Apple Health or Google Health Connect ships a comparable cross-device weekly-digest feature, or if Oura/Whoop/Garmin ship a built-in social-share card within 6 months.",
+      "route": "/ideas/lattice-attention-os",
+      "status": "raw",
+      "tags": [
+        "wearable",
+        "quantified-self",
+        "health-data",
+        "oura",
+        "whoop",
+        "garmin",
+        "apple-watch",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m17-one-time-entry-reuse",
+        "m18-status-page",
+        "m19-multi-form-synthesized"
+      ]
+    },
+    {
+      "aliases": [
+        "Morning Readiness Ritual",
+        "Household Battery OS"
+      ],
+      "decision_reason": "Synthesis-loop tick 7 (2026-08-11) surfaced this from the same focus group (Iris 6 devices, Marcus 9 devices, Priya's boyfriend with 5+). The 'charge salad' pain is structural: 6+ daily-charge devices in a household means nightly battery anxiety and a 9pm ritual that someone owns by default (usually the household manager, skews female). The closest existing records are ChargeDrop, ChargeTurn, ChargeWiggle — all single-device phone battery. Cordless is cross-device household battery management for wearables, which is a different wedge. Dominant kill risk: manual device entry is the cold-start tax; iOS Bluetooth battery APIs are limited to ~7-day cache and only work while the app is foregrounded unless you use a Live Activity hack. Hackathon fit is medium (not high) because the shareable moment is weaker than Lattice.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "cordless-morning-readiness",
+      "name": "Cordless",
+      "one_liner": "Knows your 6+ daily-charge devices, predicts if they'll all survive tomorrow, and turns 'plug it in' into a 9pm household ritual that someone actually owns.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 50 device-dense households install Cordless, catalog at least 5 daily-charge devices each, and at least 25 of them report a 'caught-a-bottleneck' moment in the first 30 days; close if Apple or Google ships a built-in cross-device battery readiness widget, or if the cold-start device-catalog step proves intractable (fewer than 4 devices per household on average after 6 weeks).",
+      "route": "/ideas/cordless-morning-readiness",
+      "status": "raw",
+      "tags": [
+        "battery",
+        "charging",
+        "device-management",
+        "household",
+        "wearables",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m17-one-time-entry-reuse",
+        "m9-approval-deadline-clock"
+      ]
+    },
+    {
+      "aliases": [
+        "Ambient AI Trust Layer",
+        "On-Device Memory Vault"
+      ],
+      "decision_reason": "Synthesis-loop tick 7 (2026-08-11) surfaced this from the same focus group (Priya's boyfriend's Friend pendant). The privacy-perimeter-bleed pain is structural: AI pendants and always-listening smart glasses create a trust gap (mic on chest, glasses on face), and the on-device boundary is unclear. The closest existing records are about metadata scrubbing (CleanShare), contact changes (Contact Sentinel), and form recovery (FormShield); none of them addresses ambient AI trust. TAM is small (Friend + Limitless + Tab ~200K shipped units total) but the user is willing to pay .99/mo to feel safe wearing a mic on their chest at dinner. Dominant kill risk: on-device LLM in 6 weeks is tight; the 'no raw audio leaves device' claim is technically verifiable but socially hard to prove (one bad YouTube teardown kills trust).",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "pendant-trust-layer",
+      "name": "Pendant",
+      "one_liner": "Privacy-first on-device summary for Friend, Limitless, and AI glasses; raw audio never leaves the device; weekly 'what mattered' digest that proves what was and wasn't captured.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 50 Friend/Limitless/AI-glasses owners install Pendant within 4 weeks and at least 20 of them report using the capture-audit or per-day pause features; close if Friend.com or Limitless ship a built-in on-device trust layer with cryptographic capture-audit, or if on-device LLM in 2026 is provably too small for the summarization quality needed.",
+      "route": "/ideas/pendant-trust-layer",
+      "status": "raw",
+      "tags": [
+        "privacy",
+        "on-device",
+        "ambient-ai",
+        "ai-companion",
+        "wearable",
+        "trust-layer",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m20-external-party-routing",
+        "m17-one-time-entry-reuse"
+      ]
+    },
+    {
+      "aliases": [
+        "Long-Form to Shorts Repurpose",
+        "Voice-Clone Short Clip Engine"
+      ],
+      "decision_reason": "Synthesis-loop tick 8 (2026-08-12) surfaced this from a 3-persona focus group (Kai Substack writer 8K subs /mo, Maya Etsy handmade side-hustle /mo, Jordan podcaster 12K downloads) + 6-week mock-hackathon lens. The convergent pain is the repurpose tax: 8-15 hrs/wk per creator on cross-platform rework with zero unified money view. The closest existing corpus records are take-sweep (validating, single-session clip management), clap-cut (passed_market, explicit-clap contract), brief-cut-gate (passed_market, sponsored-content brief compare) and american-tiktok-alternative (raw, different angle). None of these is the long-form-to-shorts voice-clone repurpose wedge. Saturated adjacent cell (Descript, OpusClip, Captions.ai) but the corpus has no equivalent. Dominant kill risk: voice-clone quality that survives editorial review; must nail direct Substack/RSS ingestion that competitors haven't shipped.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "castcut-repurpose",
+      "name": "CastCut",
+      "one_liner": "Drop a Substack URL or YouTube link to 5 platform-native short clips in your voice, captioned, with hook + CTA, in under 10 minutes.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 50 Substack writers and podcasters (5K-100K audience) install CastCut within 4 weeks, paste at least 20 long-form URLs, and at least 30 of them report a 'voice clone that survived editorial review' moment in the first month; close if Descript, OpusClip, or Captions.ai ship a comparable Substack/RSS-ingestion + voice-clone repurpose flow under /mo within 6 months.",
+      "route": "/ideas/castcut-repurpose",
+      "status": "raw",
+      "tags": [
+        "creator",
+        "newsletter",
+        "podcast",
+        "substack",
+        "short-form",
+        "repurpose",
+        "voice-clone",
+        "ai-creator",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m19-multi-form-synthesized",
+        "m5-share-sheet-photo-intake"
+      ]
+    },
+    {
+      "aliases": [
+        "Mobile Podcast Community",
+        "Day-Of Episode Analytics"
+      ],
+      "decision_reason": "Synthesis-loop tick 8 (2026-08-12) surfaced this from the same focus group (Jordan podcaster, 12K downloads, leaving ~.2K/mo of membership revenue on the table; Kai Substack writer wanting to leave Substack's 10% cut). The convergent pain: creators want a paid tier but refuse Substack's 10% cut (Kai's biggest complaint was Substack's product direction, not fees) and Memberful/Patreon's web-only UX. Day-of analytics is the under-served surface: 24-48hr delay on Apple and Spotify means creators cannot iterate week-to-week. The closest existing corpus records are subscription-easy-cancel-intake (passed_market, B2B), live-roll (validating, creative selection), and creator-portability (passed_market, cross-platform following). None is the consumer-facing mobile-first podcaster community with day-of analytics. Saturated adjacent cell (Substack paid subs, Memberful, Patreon, Discord) but the combination (RevenueCat IAP-first + day-of analytics + segment-anchored thread) is distinct. Dominant kill risk: Apple/Google IAP takes 15-30% which floors the .99+ price.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "taproom-podcast-community",
+      "name": "Taproom",
+      "one_liner": "Mobile-first private community + paid membership layer for podcasters and newsletter writers, with same-day episode analytics.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 25 podcasters (5K-100K downloads) install Taproom, publish at least 3 episodes via the app within 4 weeks, and at least 15 of them acquire at least 1 paid member via the IAP; close if Substack ships a comparable mobile-first community for podcasters, or if Apple/Google IAP fee changes break the unit economics below .99.",
+      "route": "/ideas/taproom-podcast-community",
+      "status": "raw",
+      "tags": [
+        "creator",
+        "podcast",
+        "newsletter",
+        "membership",
+        "community",
+        "analytics",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "m19-multi-form-synthesized",
+        "m18-status-page"
+      ]
+    },
+    {
+      "aliases": [
+        "AI Knockoff Detector for Etsy",
+        "Handmade AI Competitor Scan"
+      ],
+      "decision_reason": "Synthesis-loop tick 8 (2026-08-12) surfaced this from the same focus group (Maya handmade jewelry side-hustle, undercut 50-70% by AI-generated Etsy listings; Etsy's handmade policy is unenforced). The convergent pain: 15-30% of revenue lost to indistinguishable AI competitors, some sellers delist categories entirely. The closest existing corpus records are eBay-replacement (passed_scope, marketplace), resale-sold-sweep (passed_market, multi-marketplace confirmation), seller-net-floor-calculator (passed_market, fee reverse-calc), and etsy-payout-reconciliation (passed_market, statement-to-deposit bridge). None is the AI-knockoff detection wedge. Saturated adjacent cell (Helium 10, Jungle Scout) but those serve larger sellers with deeper pockets; the handmade-specific signal library is a distinct wedge. Dominant kill risk: Etsy/Amazon can change OAuth scope or block scraping; AI-detector models are a cat-and-mouse game.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "medium",
+      "id": "knockoff-radar",
+      "name": "Knockoff Radar",
+      "one_liner": "Weekly AI-knockoff scan for Etsy and Amazon Handmade sellers, with delist/reprice suggestions and copy-alerts.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 50 Etsy and Amazon Handmade sellers (1K-10K/mo revenue) install Knockoff Radar, scan at least 5 competitor listings each per week, and at least 20 of them report an 'I caught an AI knockoff' incident in the first month; close if Helium 10 or Jungle Scout ship a comparable handmade-specific AI-knockoff scan at the same price point, or if Etsy/Amazon change OAuth scope in a way that breaks the scanning flow.",
+      "route": "/ideas/knockoff-radar",
+      "status": "raw",
+      "tags": [
+        "creator",
+        "etsy",
+        "handmade",
+        "resale",
+        "ai-knockoff",
+        "ai-detector",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "small-business",
+        "m20-external-party-routing",
+        "m5-share-sheet-photo-intake"
+      ]
+    },
+    {
+      "aliases": [
+        "Per-Repo AI Spend Ledger",
+        "AI Coding Cost Governor"
+      ],
+      "decision_reason": "Synthesis-loop tick 9 (2026-08-12) surfaced this from the dev-tooling focus group (Marcus the Austin indie hacker burning $130/mo across Cursor Pro + Claude Max + Copilot; Priya the Brooklyn pre-launch founder burning $50/mo across Lovable + Cursor + v0). The convergent pain: AI-coding tools are billed in five incompatible ways (Cursor credits, Claude tokens/flat, Copilot seats, OpenAI tokens, Lovable/Bolt flat) and none export a per-repo rollup, so the indie dev cannot answer 'which repo is this month's $130 actually paying for?' Cursor's June 16 2025 Pro plan cut (capacity 500 -> 225 requests at same $20) plus the documented '$7K burned in a single day' incident plus a public Cursor churn grade of 42/100 (D) is hard evidence the category is desperate for cost discipline. The closest existing corpus record is paywall-hypothesis-engine (PaywallDoc, parked, indie-dev paywall testing) which is the same buyer but a different wedge (monetization, not spend). Saturated adjacent cells (Cursor's own usage page, Vercel cost dashboard) exist but stop at the platform boundary; the cross-tool rollup is the greenfield. Dominant kill risk: Cursor, Claude, and OpenAI can change or remove their usage APIs in a way that breaks the connectors; the model is to bill the user before that happens and pivot to 'model-per-task auto-tuner' as a fallback.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "slotscope",
+      "name": "SlotScope",
+      "one_liner": "Per-repo AI spend ledger that pulls Cursor, Claude, Copilot, OpenAI, Lovable into one burn-rate view + Friday dead-repo digest.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 100 indie devs install SlotScope, connect at least 2 of the 5 supported tools, and at least 30 of them report 'I caught a runaway session because of SlotScope' or 'I killed a repo I would have kept spinning' in the first 60 days; close if Cursor or Claude ship a comparable cross-tool rollup at the same price point, or if 3+ of the 5 connectors break within 90 days because vendors removed their usage/billing APIs.",
+      "route": "/ideas/slotscope",
+      "status": "raw",
+      "tags": [
+        "b2d",
+        "dev-tools",
+        "ai-coding",
+        "cursor",
+        "claude-code",
+        "fintech-adjacent",
+        "weekly-ritual",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "vibe-coding-infrastructure",
+        "solo-indie",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization"
+      ]
+    },
+    {
+      "aliases": [
+        "AI Repo Undertaker",
+        "Zombie Side-Project Sweeper"
+      ],
+      "decision_reason": "Synthesis-loop tick 9 (2026-08-12) surfaced this from the same dev-tooling focus group (Marcus's 11 dead repos in 6 months; one published solo-dev survey counts 24 private repos abandoned Jan 2025 - Jun 2026). The convergent pain: AI coding tools collapsed the cost of starting a repo to ~$0, which collapsed the cost of abandoning one to ~$0 too, so the average indie hacker's GitHub is now a graveyard with no headstones. The Reddit r/vibecoding community is 252K members growing 14.6%/month, and at least three 2026 launches (DevGraveyard, Lazarus, project-graveyard) are already shipping on the same pain. The closest existing corpus records are all evidence/safety adjacent (return-intake-evidence-sellers, handoff-evidence-camera, etc.) but none is in the developer-tooling / repo-management wedge. The Lazarus framing of 'revive or archive + revival plan with copy-paste Copilot prompts' is the sharpest product angle and pairs naturally with RevenueCat-billed mobile for a 'reap now' action. Dominant kill risk: GitHub could change the events API or block the LLM read of public repos; also, 'grave-robbing' as a category may be too small for solo-build economics unless the viral postmortem page drives organic growth.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "deadrepo",
+      "name": "DeadRepo",
+      "one_liner": "AI repo undertaker that finds zombie side projects, writes a 1-page 'why it stalled' memo, and gives a 48-hour ship-or-archive fork.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 200 solo devs install DeadRepo, scan at least 1 repo each, and at least 60 of them either archive a repo (kill event) or generate a revival plan (revive event) in the first 30 days, with at least 20 of those revival plans producing a commit within 48 hours; close if GitHub ships a comparable 'stall detector' in the profile or notifications surface, or if 3+ of the 3 launch-stage competitors (DevGraveyard, Lazarus, project-graveyard) reach 10K+ MAU within 90 days in a way that forecloses the wedge.",
+      "route": "/ideas/deadrepo",
+      "status": "raw",
+      "tags": [
+        "b2d",
+        "dev-tools",
+        "github",
+        "side-project",
+        "ritual",
+        "viral-loop",
+        "mobile-app",
+        "revenuecat",
+        "vibe-coding-infrastructure",
+        "solo-indie",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m20-external-party-routing",
+        "m22-exception-to-recovery"
+      ]
+    },
+    {
+      "aliases": [
+        "Cross-Tool Vibe Config Sync",
+        "Shared Project Memory for AI Coding"
+      ],
+      "decision_reason": "Synthesis-loop tick 9 (2026-08-12) surfaced this from the same dev-tooling focus group (Priya's hand-curated CLAUDE.md + Cursor rules + pinned Notion context that Lovable ignores entirely; she and her partner call the daily context re-typing the 'Lovable tax'). The convergent pain: vibe-context fragmentation. Cursor rules, Claude memory, Lovable instructions, v0 system prompts, and Windsurf memories are five separate walled gardens introduced in 2024-25, and no one owns the cross-tool sync layer. The indie dev has become the human integration bus between them. The closest existing corpus record is paywall-hypothesis-engine (PaywallDoc, parked, indie-dev paywall testing) which is the same B2D buyer but solves a different problem (monetization). Saturated adjacent cells exist at the per-tool level (Cursor rules, Claude memory, .cursorrules, CLAUDE.md) but the cross-tool sync layer is greenfield and the demand is documented — the 7 cost-discipline strategies solo devs are already writing about in public all assume a 'project context file' that the AI reads first. Dominant kill risk: if any of Cursor, Claude, Lovable, v0, or Windsurf ships a 'shared project context' feature natively, the wedge collapses; also the open-source .vibe/ template gallery needs real adoption to sustain the B2D wedge.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "vibepm",
+      "name": "VibePM",
+      "one_liner": "One .vibe/ config that syncs stack, patterns, naming, and design tokens into Cursor, Claude, Lovable, v0, and Windsurf live.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 200 solo devs install the VibePM CLI, sync at least 2 of the 5 supported tools, and at least 50 of them publish a public .vibe/ template to the gallery in the first 60 days; close if Cursor, Claude, or Lovable ship a comparable cross-tool shared-context feature natively, or if 3+ of the 5 supported tools break the file-watching integration within 90 days in a way that defeats the sync guarantee.",
+      "route": "/ideas/vibepm",
+      "status": "raw",
+      "tags": [
+        "b2d",
+        "dev-tools",
+        "ai-coding",
+        "cursor",
+        "claude-code",
+        "lovable",
+        "v0",
+        "windsurf",
+        "cross-tool",
+        "infrastructure",
+        "vibe-coding",
+        "shareable",
+        "mobile-app",
+        "revenuecat",
+        "solo-indie",
+        "m19-multi-form-synthesization"
+      ]
+    },
+    {
+      "aliases": [
+        "Insurance Denial Appeal Copilot",
+        "Photo-the-Letter Appeal Drafter"
+      ],
+      "decision_reason": "Synthesis-loop tick 10 (2026-08-12) surfaced this from the insurance focus group (Priya, the Brooklyn 1099 designer whose pet insurer AI-denied a $3,400 urinary blockage as 'pre-existing related' to a 14-month-old stress visit; her ACA plan denied an MRI as 'not medically necessary' with the same opaque letter format). The convergent pain: AI claim denials with no human escalation path. Hard data from this tick's ingest: Cigna's PxDx algorithm auto-denied 300,000+ claims in 2 months at 1.2 sec/denial; UnitedHealthcare's nH Predict has a 90% appeal-reversal rate; Colorado Amended Regulation 10-1-1 (effective Oct 15, 2025) and HB26-1139 (effective Jan 1, 2027) explicitly require human-in-the-loop review of AI auto and health claim decisions; CA SB 1120 bans health denials based solely on AI output; PA AG June 2026 settlement with GEICO on AI cancellation. The closest existing corpus records are medical-bill-auditor (EOB reconciliation, post-bill) and home-warranty-claim-forensics (home warranty denial prep) — both adjacent but neither covers the AI-denial appeal wedge directly, and neither pulls state DOI templates + per-insurer reversal-rate data. Saturated adjacent cells exist at the per-tool level (TurboAppeal, CitizenSide, Claimyr) but those focus on tax/regulatory appeals, not insurance AI denials. Dominant kill risk: Cigna-class plaintiffs' bar absorbs the wedge via contingency-fee class actions; carriers respond by adding clearer appeal pathways that collapse the consumer-side need.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "denialpilot",
+      "name": "DenialPilot",
+      "one_liner": "Photo an insurance denial letter, get a state-compliant appeal draft in 5 min, plus deadline timer and per-insurer reversal-rate data.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 500 US consumers install DenialPilot, photograph at least 1 denial letter each, and at least 100 of them generate and submit a state-compliant appeal in the first 60 days, with at least 25 of those appeals resulting in a partial or full reversal; close if the Cigna-class plaintiffs' bar pivots to per-consumer contingency appeals (free for users), or if 3 of the top 5 US health/pet carriers add a one-tap 'appeal this AI decision' in-app button in their native app within 90 days.",
+      "route": "/ideas/denialpilot",
+      "status": "raw",
+      "tags": [
+        "claim-appeal",
+        "ai-denial",
+        "mobile-paywall",
+        "b2c",
+        "consumer-advocate",
+        "health-insurance",
+        "pet-insurance",
+        "auto-insurance",
+        "state-doi-templates",
+        "revenuecat",
+        "weekly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m20-external-party-routing",
+        "m22-exception-to-recovery",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Home Insurance Renewal-Hike Forecaster",
+        "Premium Pressure Index"
+      ],
+      "decision_reason": "Synthesis-loop tick 10 (2026-08-12) surfaced this from the same insurance focus group (Marcus, the Mesa AZ HVAC service tech whose home renewal jumped $1,000 and who got 5 online quotes he cannot compare apples-to-apples). The convergent pain: climate-driven home/auto non-renewal + opaque renewal hikes, especially in AZ/FL/CA/TX/NC. Hard data from this tick's ingest: California FAIR Plan raising rates 29.1% effective Oct 15, 2026 (largest in its history) for 675,000+ customers; FAIR Plan residential policies grew 165% from 242,440 (Sept 2021) to 642,010 (Sept 2025); Mercury filed 6.9% increase approved Dec 2025, CSAA paired its 6.9% increase with up-to-12.5% home-hardening discount; FL non-renewal rate hit 3.35% of policies in force in 2024 (worst in US); CA hit 3.18% (up from 0.82% in 2018, 3.9x increase, the fastest acceleration in the country); Stanford Climate & Energy Policy Program reports CA premiums up 84% end-2020 to March 2026. The closest existing corpus records are pre-loss-home-inventory (passed_scope, household inventory) and post-loss-recovery (passed_market, disaster photo reconstruction) — both loss-side, neither is the pre-renewal forecasting + escape-routing wedge. Saturated adjacent cells exist at the rate-comparison level (The Zebra, Glovebox, CLEAR) but those only shop carriers; none pulls NAIC SERFF rate filings + FEMA climate risk + per-ZIP carrier pullback status. Dominant kill risk: a State Farm or Mercury acquires an insurtech shopping layer; carriers consolidate the comparison layer via embedded distribution.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "rateradar",
+      "name": "RateRadar",
+      "one_liner": "Paste your declarations page, get a 90-day renewal-hike forecast + 3 escape-route quotes from your actual coverage, by ZIP.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,000 US homeowners in climate-exposed ZIPs (FL, TX, CA, AZ, NC, LA) install RateRadar, paste at least 1 declarations page each, and at least 100 of them report an 'I escaped a non-renewal because of RateRadar' or 'I caught a hike before my renewal hit' outcome in the first 90 days; close if a top-5 US homeowners carrier (State Farm, Allstate, Farmers, Liberty Mutual, USAA) ships a comparable in-app 'your renewal in 90 days + 3 escape quotes' feature, or if 3+ of the existing comparative raters (The Zebra, Glovebox, CLEAR) add NAIC SERFF rate-filing diffs as a free feature within 90 days.",
+      "route": "/ideas/rateradar",
+      "status": "raw",
+      "tags": [
+        "home-insurance",
+        "climate-risk",
+        "rate-filing",
+        "mobile-paywall",
+        "b2c",
+        "non-renewal",
+        "fair-plan",
+        "deppopulation",
+        "revenuecat",
+        "weekly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization"
+      ]
+    },
+    {
+      "aliases": [
+        "Insurance Bill Junk-Fee Decoder",
+        "Line-Item Bill Translator"
+      ],
+      "decision_reason": "Synthesis-loop tick 10 (2026-08-12) surfaced this from the same insurance focus group (Marcus, who saw an 'administrative fee' line jump from $94 to $340 across two renewals and got the same script-read response on three calls; the line item has no public breakdown). The convergent pain: junk fees and unitemized surcharges on declarations pages. Hard data from this tick's ingest: FTC junk-fees rule (2024) targets hidden consumer fees across industries; CFPB has insurance fee-transparency rulemaking in pipeline for 2025-26; multiple state DOIs (CA, NY, WA) opened comment windows on declarations-page itemization in late 2024. The consumer-side product gap: a single mobile app that OCRs any P&C bill (home, auto, renters, umbrella) and classifies each line as junk / admin / regulatory / state-mandated / broker-fee / legitimate. The closest existing corpus records are home-warranty-claim-forensics (denial prep, not bill decoder) and bidcap (auction premium + tax + currency, vertical-specific). Saturated adjacent cells at the per-tool level (Truebill/Rocket Money for subscriptions) but no general insurance bill decoder exists. Dominant kill risk: carriers respond by simplifying the declarations page themselves, or by adopting a common schema that makes the OCR step unnecessary.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "surchargescope",
+      "name": "SurchargeScope",
+      "one_liner": "Snap a photo of any insurance bill. Get a line-by-line decoder: this is junk, this is regulatory, this is negotiable, this is legit.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US P&C policyholders install SurchargeScope, scan at least 1 bill each, and at least 300 of them report an 'I caught a junk line item' or 'I called my carrier and got a fee removed' outcome in the first 60 days, with at least 50 reports of carrier-fee-removal totaling $50K+ in consumer savings; close if a top-3 P&C carrier (State Farm, Allstate, Progressive) adopts a common schema or self-declared plain-English declarations page within 90 days, or if Rocket Money / Trim add a general P&C bill decoder as a free feature.",
+      "route": "/ideas/surchargescope",
+      "status": "raw",
+      "tags": [
+        "junk-fees",
+        "declarations-page",
+        "fee-transparency",
+        "mobile-paywall",
+        "b2c",
+        "ocr",
+        "consumer-advocate",
+        "revenuecat",
+        "monthly-ritual",
+        "shareable",
+        "m19-multi-form-synthesization",
+        "m22-exception-to-recovery"
+      ]
+    },
+    {
+      "aliases": [
+        "Real-Time Voice-Liveness Detector",
+        "AI-Clone Call Verifier"
+      ],
+      "decision_reason": "Synthesis-loop tick 11 (2026-08-12) surfaced this from the AI-scam focus group (Helen, the Stockport UK NHS admin who got a 14-second voice clone of her son's voice saying he was in a car crash; she sent £2,600 via Revolut faster-payments before the real son picked up 90 seconds later). The convergent pain: the 90-second 'scam-to-loss' window has collapsed below any human verification reflex. Hard data from this tick's ingest: FBI IC3 logged 22,364 AI-related complaints and $893M in adjusted losses in 2025 (the first year AI was broken out), with $5M in AI 'distress' (voice-clone family-emergency) scams; Lloyds reported a 2,000% YoY surge in 'Hi Mum / Hi Dad' cases with average victim loss £1,950; IC3 senior fraud analysis showed $7.75B in losses from Americans 60+ in 2025, with AI-tagged losses to this cohort at $352M (40% of all AI losses). Tech stack is finally free: May 2026 OpenAI-Google C2PA+SynthID alignment makes cross-vendor detection APIs available. The closest existing corpus records are wildcard-call-block (PatternBlock, spam call-blocking) and contact-call-promise (CallPromise, contact follow-up) — both adjacent to calls but neither runs on-device liveness detection. Saturated adjacent cells exist at the per-tool level (Aura, McAfee+, Norton, Bark) but no real-time voice-liveness consumer app currently exists; McAfee's 'Deepfake Detector' (2024-25) is the closest and it scans recorded content, not live calls. Dominant kill risk: phone OS sandboxing (iOS CallKit) limits real-time access to call audio; Apple/Google could ship a native on-device liveness API that collapses the consumer-side need.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "proofring",
+      "name": "ProofRing",
+      "one_liner": "Tap during a suspect call. In 2 sec, app proves whether the voice is a live human or an AI clone — no install on caller side.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5,000 consumers install ProofRing, run at least 1 liveness check each, and at least 500 of them report an 'I avoided sending money because of ProofRing' or 'I confirmed a real voice' outcome in the first 60 days, with at least 50 confirmed AI-clone detections; close if Apple or Google ship a native on-device voice-liveness API for CallKit/Telecom in iOS 19 / Android 17, or if a top-3 consumer security app (Aura, McAfee+, Norton) ships a comparable real-time voice-clone detector as a free feature within 90 days.",
+      "route": "/ideas/proofring",
+      "status": "raw",
+      "tags": [
+        "voice-clone",
+        "liveness-detection",
+        "on-device-ml",
+        "family-safety",
+        "deepfake-defense",
+        "mobile",
+        "b2c",
+        "revenuecat",
+        "weekly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Senior Romance-Scam Daily Check-In",
+        "Pig-Butchering Pattern Catcher"
+      ],
+      "decision_reason": "Synthesis-loop tick 11 (2026-08-12) surfaced this from the same AI-scam focus group (Del, the 73-year-old retired steelworker in Akron OH who lost $14,800 to a 'UN oilrig contractor' romance scam that escalated from Facebook Messenger to WhatsApp to a 6-week long-distance relationship ending in daily WhatsApp *video* calls using a real-time face-swap deepfake; bank reversed only $1,200 of it; family safety tools made him more secretive, not less). The convergent pain: slow-burn romance / pig-butchering scams have no daily friction point. Hard data from this tick's ingest: FBI IC3 logged $4.57B in romance/pig-butchering losses in 2024, up 33% YoY; Chainalysis estimates $12.4B+ in crypto pig-butchering globally in 2024 and a record $17B 2025 crypto-scam losses with 253% jump in per-victim payout ($782 → $2,764); DOJ/OFAC Oct 2025 Prince Group takedown seized $15B in bitcoin and exposed 'industrialized scam compound' operations using forced labor; CFA estimates true AI-fraud losses were ~$6.3B in 2025 with >85% unreported. The closest existing corpus records are daily-ok-checkin (DailyOkay, passed_market, family check-in) and family-caregiving (Family Caregiving Coordinator, passed_market, family coordination) — both adjacent to family check-ins but neither focuses on the *pattern detection* of a slow-burn scam, and neither uses a non-surveillance, non-family, dignity-preserving voice-only channel. Saturated adjacent cells exist (Aura, LifeLock, EverSafe, TrueLink) but those require monitoring consent and trigger the 'parole officer' resignation response. Dominant kill risk: AARP or a national senior-services nonprofit ships a comparable 'friendly-call check-in' volunteer program at scale, or a voice-AI startup (Sesame, Bland) ships a senior-specific persona that competes head-on.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "flamecheck",
+      "name": "FlameCheck",
+      "one_liner": "A daily 60-second phone check-in that catches romance scams weeks before the money moves — no app, no family surveillance, no shame.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 200 adults 65+ living alone (or 200 widowed specifically) install or are enrolled in FlameCheck, complete at least 30 of 60 daily check-ins each, and at least 10 of them report a 'I would have sent money' or 'you caught a new person I was talking to online' outcome in the first 60 days; close if AARP or a national senior-services nonprofit ships a comparable 'friendly-call daily check-in' volunteer program at scale (1,000+ enrolled seniors) within 90 days, or if a major voice-AI company (Sesame, Bland, GPT-4o voice mode) ships a senior-specific persona product with scam-pattern detection as a free feature.",
+      "route": "/ideas/flamecheck",
+      "status": "raw",
+      "tags": [
+        "romance-scam",
+        "pig-butchering",
+        "senior-safety",
+        "daily-ritual",
+        "twilio",
+        "voice-only",
+        "b2c",
+        "revenuecat",
+        "aarp-distribution",
+        "m1-ritual-digest",
+        "m20-external-party-routing",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Rotating Family Code Word",
+        "Daily Safe-Word Phone Listener"
+      ],
+      "decision_reason": "Synthesis-loop tick 11 (2026-08-12) surfaced this from the same AI-scam focus group (Helen's static family code word 'flamingo' leaked twice — once when her daughter-in-law posted it as a joke on her public Instagram story, and once when a cousin shared it in a WhatsApp group that included a stranger from a B&B booking). The convergent pain: static family code words leak through the very social surfaces the kids live on. The 'Hi Mum' / 'Hi Dad' smishing+voice-clone vector is the highest-growth sub-category in UK Action Fraud data (Lloyds: 2,000% YoY surge). The closest existing corpus records are contact-call-promise (CallPromise, contact follow-up reminder) and PatternBlock (wildcard-call-block, spam call-blocking) — both phone-adjacent but neither does daily-rotating code-word generation + on-device keyword spotting on inbound calls. Saturated adjacent cells exist at the static-secret level (the FTC's 'family safe word' guidance since 2023 has no answer to a secret that leaks via social media) but no consumer app productizes the rotating-secret + on-device keyword-spotter pattern. The 'canary' name is intentionally evocative of the existing canary diagnostic records in the corpus (BlockCanary, Automation Canary, Health Sync Canary, ShotCanary, Monetization Canary) — same family of 'is this thing working as expected' tools, but applied to voice-call authenticity. Dominant kill risk: phone OS sandboxing (iOS Live Caller ID, Android call screening) blocks the on-device keyword spotter from running during an active call, forcing the product into a 'post-call voicemail check' downgrade that loses the in-the-moment value.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "canarycall",
+      "name": "CanaryCall",
+      "one_liner": "A family code word that rotates daily, so scammers scraping your kid's Instagram can't guess it — your phone listens for it on every call.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,000 multigenerational families install CanaryCall, set up at least 2 family members on the rotating canary, and at least 200 of them report an 'I caught a scam call' or 'the missing canary word saved me from sending money' outcome in the first 60 days; close if Apple or Google ship a native 'family code word' Live Caller ID or Call Screening feature in iOS 19 / Android 17, or if the FTC updates its 'family safe word' guidance to recommend a daily-rotating secret and a top-3 phone carrier (Verizon, AT&T, T-Mobile) ships a network-level rotating-safe-word service as a free feature.",
+      "route": "/ideas/canarycall",
+      "status": "raw",
+      "tags": [
+        "family-code-word",
+        "rotating-secret",
+        "keyword-spotting",
+        "multi-generational",
+        "voice-clone",
+        "low-friction",
+        "b2c",
+        "mobile",
+        "revenuecat",
+        "viral-loop",
+        "shareable",
+        "m1-ritual-digest",
+        "m24-accepted-handoff-state"
+      ]
+    },
+    {
+      "aliases": [
+        "PA Tracker + Auto-Appeal",
+        "Prior Auth Copilot"
+      ],
+      "decision_reason": "Synthesis-loop tick 12 (2026-08-12) surfaced this from the healthcare focus group (Maya, the Westerville OH marketing coordinator + caregiver whose Wegovy PA needs to be re-submitted by January or she'll be moved to step therapy through Saxenda, and whose prescriber's office charged her $40 for a peer-to-peer review that didn't happen). The convergent pain: prior auth is a quarterly ritual the patient owns but no one helps with. Hard data from this tick's ingest: FDA declared semaglutide shortage resolved Feb 21, 2025 and tirzepatide shortage resolved Dec 19, 2024, closing the 503A/503B compounding window by May 22, 2025; Kisting-Leung v. Cigna E.D. Cal. March 31, 2025 denied Cigna's motion to dismiss on the PxDx class action (1.2 sec/denial, 300K claims in 2 months); California SB 1120 (effective Jan 2025) prohibits AI as the sole basis for UR denials and requires licensed physician review of all AI-recommended denials; CMS 2026 interoperability rule finally exposes PA status data via FHIR APIs. The closest existing corpus records are denialpilot (insurance denial letter appeal, just added in tick 10) and medical-bill-auditor (EOB reconciliation, post-bill) — denialpilot is the insurance-claim-appeal analog and PriorAuthPilot is its pharmacy-precursor; medical-bill-auditor is post-visit reconciliation while PriorAuthPilot is pre-visit authorization. Saturated adjacent cells exist at the per-tool level (CoverMyMeds, Surescripts) but those are prescriber-side; the consumer-side wedge is open. Dominant kill risk: CMS PA interoperability API (PA status via FHIR) collapses the consumer-side need by letting any insurer portal show live PA status; UnitedHealth/CVS already ship end-to-end PA automation inside their apps for their own plans.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "priorauthpilot",
+      "name": "PriorAuthPilot",
+      "one_liner": "We file, track, and appeal your prior authorizations so your refill doesn't die on a fax machine. $9.99/mo.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,000 US patients on chronic meds (GLP-1s, biologics, ADHD, migraine preventives) install PriorAuthPilot, file at least 1 PA each, and at least 200 of them report an 'I avoided a step-therapy switch' or 'I got my refill without losing 2 weeks' outcome in the first 60 days, with at least 50 successful PA approvals documented end-to-end in the app; close if CMS PA interoperability API is fully adopted by all 50 state Medicaid plans and 5+ major commercial insurers (UnitedHealth, Anthem, Cigna, Aetna, Humana) within 90 days, or if a top-3 PBM (ESI, Caremark, OptumRx) ships a consumer-facing PA status tracker as a free feature in their native app.",
+      "route": "/ideas/priorauthpilot",
+      "status": "raw",
+      "tags": [
+        "prior-auth",
+        "glp-1",
+        "chronic-illness",
+        "paywall",
+        "fhir",
+        "consumer-advocacy",
+        "mobile-app",
+        "revenuecat",
+        "weekly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m20-external-party-routing",
+        "m22-exception-to-recovery",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Hospital Bill Dispute Copilot",
+        "Medical Bill Decoder + Drafter"
+      ],
+      "decision_reason": "Synthesis-loop tick 12 (2026-08-12) surfaced this from the same healthcare focus group (Devon, the Waco TX self-employed HVAC contractor with a $4,800 hospital bill, a $4,200 EOB, and a $1,200 separate out-of-network ER doc bill — three different 'patient advocate' phone numbers, none of which advocate for the patient). The convergent pain: surprise medical bills are a solo fight against a system with no patient's side. Hard data from this tick's ingest: the No Surprises Act dispute process is widely disliked; the 2025 Texas Medical Association v. HHS ruling narrowed federal protections; CMS hospital price transparency v3 (2025) requires machine-readable rates but the data is fragmented across thousands of MRFs. The closest existing corpus records are medical-bill-auditor (EOB reconciliation, post-bill, passed_market) and provider-network-double-check (pre-visit network check, passed_market). BillDr is the *post-visit, pre-payment* dispute wedge — medical-bill-auditor reconciles EOBs after the fact, BillDr drafts the dispute letter to the hospital before payment and tracks the response. Saturated adjacent cells exist at the per-tool level (Candid Health, CoPatient, Resolve Medical Bills, Turquoise Health) but most are B2B hospital-side or require human negotiation services at $50-300/hr; a $4.99/mo consumer self-service tool with a viral content loop (every saved bill is a Reddit/TikTok story) is a distinct wedge. Dominant kill risk: hospitals respond by simplifying their bills and adopting standardized MRF outputs that make the overcharge-flagger unnecessary; or a Candid/Goodbill pivot consumer.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "billdr",
+      "name": "BillDr",
+      "one_liner": "Snap your hospital bill. We flag overcharges, draft a dispute letter, and coach you through the call. $4.99/mo + 10% success fee.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US consumers install BillDr, snap at least 1 bill each, and at least 300 of them report an 'I got a charge removed' or 'I negotiated a bill down by 20%+' outcome in the first 60 days, with at least 50 reported consumer savings over $500; close if a top-3 US hospital system (HCA, Tenet, UHS) adopts a plain-English itemized bill format with no DRG/chargemaster opacity, or if Goodbill / CoPatient ship a comparable consumer self-service OCR + dispute-letter tool at the same price point within 90 days.",
+      "route": "/ideas/billdr",
+      "status": "raw",
+      "tags": [
+        "bill-dispute",
+        "surprise-billing",
+        "no-surprises-act",
+        "hospital-billing",
+        "consumer-advocacy",
+        "freemium",
+        "mobile-app",
+        "revenuecat",
+        "viral-loop",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m22-exception-to-recovery",
+        "m23-field-level-provenance"
+      ]
+    },
+    {
+      "aliases": [
+        "Drug Price + Formulary Comparator",
+        "Pharmacy Cash-Price Scout"
+      ],
+      "decision_reason": "Synthesis-loop tick 12 (2026-08-12) surfaced this from the same healthcare focus group (Maya who can't get Wegovy PA approved for January; Devon whose Orencia infusion wants $400 up front while her deductible is 'still being processed'). The convergent pain: hospital 'list prices' are posted but the real out-of-pocket number is unfindable, and the GLP-1 cash-pay spread is now ~$178 (Mochi compounded) to $299 (LillyDirect starter) to $449 (LillyDirect high dose) to $1,086 (list) — a 5x range. Hard data from this tick's ingest: FTC secured settlements with Express Scripts Feb 4, 2026 (~$7B consumer savings over 10 years) and Caremark Jul 14, 2026 (~$8.5B consumer savings + $4.5B in POS rebates); Consolidated Appropriations Act 2026 mandates 100% rebate pass-through and bans DIR fees; LillyDirect $299/mo for Zepbound starter (Dec 1, 2025 price cut), Amazon Pharmacy matched Mar 9, 2026; Mark Cuban Cost Plus Drug Company has 2,500+ SKUs, 2M+ members, Humana CenterWell partnership (Apr 2026), TrumpRx collaboration; JAMA Health Forum analysis of 955 Rite Aid closures showed 96.4% of prescriptions transferred to major chains (68.7% to PBM-affiliated); NCPA/USC pharmacy-desert interactive map (Jul 31, 2026) shows ~48M Americans in pharmacy deserts. The closest existing corpus records are partial-rx-remainder (passed_market, pharmacy shortages) and medication-room-temperature-clock (raw, GLP-1 temperature tracking) — both adjacent but neither does the cash-price + formulary + alternative search the consumer needs. Saturated adjacent cells exist at the price level (GoodRx, RxSaver, Amazon Pharmacy, Cost Plus, SingleCare) but none knows the user's formulary + the open-enrollment plan-switch math. Dominant kill risk: GoodRx acquires a formulary PDF parser + plan-switch simulator; or a top-3 insurer (UnitedHealth, CVS/Aetna, Cigna) ships a 'real price at the pharmacy counter' tool inside their native app.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "pharmacompass",
+      "name": "PharmaCompass",
+      "one_liner": "Type your drug, see cash price at every pharmacy, your formulary tier, and the cheapest alternative. Free; $39/yr for open-enrollment sim.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5,000 US consumers install PharmaCompass, run at least 1 drug price lookup each, and at least 500 of them report an 'I saved $50+/mo' or 'I switched to a cheaper alternative' or 'I picked a different plan at open-enrollment because of PharmaCompass' outcome in the first 90 days, with at least 50 reported open-enrollment plan switches; close if GoodRx acquires a formulary PDF parser + plan-switch simulator, or a top-3 insurer (UnitedHealth, CVS/Aetna, Cigna) ships a 'real price at the pharmacy counter' tool inside their native app within 90 days.",
+      "route": "/ideas/pharmacompass",
+      "status": "raw",
+      "tags": [
+        "prescription-pricing",
+        "formulary",
+        "open-enrollment",
+        "glp-1",
+        "goodrx-alternative",
+        "paywall",
+        "b2c",
+        "mobile-app",
+        "revenuecat",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization"
+      ]
+    },
+    {
+      "aliases": [
+        "Therapist Waitlist Concierge",
+        "AI Voice Waitlist Agent"
+      ],
+      "decision_reason": "Synthesis-loop tick 13 (2026-08-12) surfaced this from the mental-health focus group (Sarah, the Austin TX marketing coord on sertraline 14 months, 9 hours on the phone this year calling therapist front desks, 3 active waitlists for 7 weeks, knows she's 'the project manager for my own mental health'). The convergent pain: therapy-shopping has become an unpaid second job. Hard data from this tick's ingest: HRSA 2026 reports 137M Americans in Mental Health HPSAs (only 26.53% of need met); Sun et al. peer-reviewed study shows only 18.5% of US psychiatrists accepting new patients, median 67-day in-person wait, 43-day telepsychiatry wait; r/adhdwomen reports 12-14 month adult ADHD assessment waits in major cities. The closest existing corpus records are sequential-slot-waitlist (sequential waitlist fill, scheduling, passed_market) — adjacent concept, different wedge. Saturated adjacent cells at the directory level (Alma, Grow Therapy, Lyra, Psychology Today) but no consumer app currently operates an AI-voice agent that books 10 waitlists at once and polls them weekly. AI voice agents (Vapi, Retell, Bland) just matured enough that a 1-person team can build 'dial 50 front desks' in a weekend. Dominant kill risk: Alma, Grow Therapy, or Zocdoc ship a native 'one-tap waitlist booking across 10 practices' feature within 90 days; or an insurance carrier (BCBS, United, Aetna) ships a 'we'll book your waitlists' care-management tool.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "waitlistrelay",
+      "name": "WaitlistRelay",
+      "one_liner": "Book your spot at 10 therapists' waitlists in one tap — we text you the second any of them has a real opening.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,000 US adults on commercial insurance install WaitlistRelay, book waitlists at 3+ practices each, and at least 200 of them report an 'I got an opening I would have missed' or 'I started therapy in under 4 weeks' outcome in the first 60 days, with at least 50 therapist-actually-saw-me first appointments documented end-to-end; close if a top-3 insurance carrier (UnitedHealth, Anthem, Cigna) or a top-3 mental-health platform (Alma, Grow Therapy, Lyra) ships a comparable 'one-tap waitlist across 10 practices' feature as a free in-app tool within 90 days.",
+      "route": "/ideas/waitlistrelay",
+      "status": "raw",
+      "tags": [
+        "waitlist-arbitrage",
+        "therapy-access",
+        "voice-ai",
+        "revenuecat",
+        "b2c",
+        "mental-health",
+        "weekly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization"
+      ]
+    },
+    {
+      "aliases": [
+        "Stimulant Stock-Finder",
+        "ADHD Med Inventory Alert"
+      ],
+      "decision_reason": "Synthesis-loop tick 13 (2026-08-12) surfaced this from the same mental-health focus group (Marcus, the Raleigh NC IT operations manager whose 15-year-old son Aiden is on Concerta 36mg with intermittent 9-of-12-weeks shortage; his wife drove to 11 pharmacies across two counties last Tuesday and came home with nothing; he half-doses his son on weekends and keeps a Notion list of 'pharmacies that have ever said yes'). The convergent pain: the stimulant shortage is now a recurring monthly crisis for ADHD families with no consumer app owning 'is MY dose in stock, today, near me?' Hard data from this tick's ingest: DEA raised d-amphetamine (Adderall) quota ~25%, methylphenidate ~9%, lisdexamfetamine ~22% on Oct 2, 2025 — but explicitly said the increase was for new manufacturing processes, not to fill prescriptions; shortage will continue through 2027+. DEA Fourth Temporary Extension Dec 31, 2025 keeps the telehealth-stimulant market alive through Dec 31, 2026 (Done, Klarity, Cerebral, Brightside). r/ADHD has 1.7M members who would instantly adopt any tool that actually works. The closest existing corpus records are partial-rx-remainder (pharmacy shortages, passed_market) and pharmacompass (cash-price + formulary, just added tick 12) — both adjacent but neither does real-time per-pharmacy stock tracking for a specific dose. Saturated adjacent cells at the inventory-aggregator level exist (GoodRx, SingleCare) but those are price-finder, not stock-finder. Dominant kill risk: chain pharmacy stock APIs (CVS, Walgreens, Walmart, Kroger) get sealed off in 2026-27 due to competitive sensitivity; or GoodRx ships a 'your med is in stock near you' feature using its existing pharmacy data.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "pharmacysentry",
+      "name": "PharmacySentry",
+      "one_liner": "We text you the second your kid's Concerta 36mg is back in stock at any pharmacy in your zip — no more 11-pharmacy drives.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US parents of kids on ADHD stimulants (or adults on Adderall/Vyvanse/Concerta) install PharmacySentry, register at least 1 prescription each, and at least 300 of them report an 'I got my kid's dose in <2 hours' or 'I avoided 3+ pharmacy drives' outcome in the first 60 days, with at least 50 reports of 'I switched pharmacies because the app showed stock' outcomes; close if GoodRx ships a comparable 'your med is in stock near you' feature for top-10 ADHD meds, or CVS/Walgreens/Walmart seal off stock APIs in a way that prevents consumer-side polling within 90 days.",
+      "route": "/ideas/pharmacysentry",
+      "status": "raw",
+      "tags": [
+        "adhd",
+        "stimulant-shortage",
+        "pharmacy-inventory",
+        "parenting",
+        "b2c",
+        "revenuecat",
+        "weekly-ritual",
+        "shareable",
+        "m1-ritual-digest"
+      ]
+    },
+    {
+      "aliases": [
+        "Therapy-First-Session Prep Coach",
+        "Therapist Fit-Match Debrief"
+      ],
+      "decision_reason": "Synthesis-loop tick 13 (2026-08-12) surfaced this from the same mental-health focus group (Sarah, who has been on 3 active waitlists for 7 weeks, called 8 in-network therapists, and had two ghosted / one pitched yoga / one took her insurance then ghosted; her wishlist includes the inverse — 'tell me which therapist actually fits after the first session'). The convergent pain: the 6-week 'I'm spiraling but I'm not in crisis' desert is the biggest unfilled wedge; the first 2-3 therapist matches often fail and waste the 6-12 week wait. Hard data from this tick's ingest: OOP therapy $100-300/session (avg $143), BetterHelp $65-100/wk, Talkspace $99-109/wk, Cerebral $295/mo — subscription pricing now in the same band as a copay-only insurance plan, so the 'cheaper than therapy' pitch is gone; 988 received 23.3M contacts since July 2022 (8M+ in 2025 alone) but is for actively suicidal patients, not the in-between 6-week wait. Woebot shut down July 2025 ($123M burned on FDA path); Character.AI + Google settled teen-suicide suits Jan 2026; Illinois (Aug 1 2025) was first to comprehensively prohibit AI therapy; Nevada/Utah/Tennessee/Colorado/Maine/Vermont/Rhode Island followed — the 'AI replaces therapy' marketing is now legally and reputationally toxic, but 'AI helps you between therapy appointments' is unclaimed whitespace. The closest existing corpus records are dottie-adhd-companion (raw, on-device AI voice companion for executive function) and FlameCheck (tick 11, daily 60-sec phone check-in for seniors). Neither does the *fit-de-risking* of the therapist-choosing process. Saturated adjacent cells at the therapy-coaching level (BetterHelp, Talkspace) but those are *selling therapy* — FirstSession is meta-coaching, not therapy provision, which sidesteps the state-by-state AI-therapy bans. Dominant kill risk: Alma, Grow Therapy, or Zocdoc ship a native 'first-session prep' or 'fit-score' feature inside their marketplace; or BetterHelp pivots to a $9.99/mo first-session-prep add-on.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "firstsession",
+      "name": "FirstSession",
+      "one_liner": "AI coach that preps you for your first 3 therapy sessions — and tells you which therapist actually fits after.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,500 US adults starting therapy after a long wait, bad prior match, or 6-month gap install FirstSession, run the intake + prep on at least 1 of 3 trial therapists each, and at least 200 of them report an 'I picked the right therapist in <3 sessions' or 'I switched confidently because the debrief told me to' outcome in the first 60 days, with at least 50 reports of 'I avoided 3+ weeks of bad-fit therapy' outcomes; close if a top-3 mental-health marketplace (Alma, Grow Therapy, Zocdoc) ships a native first-session-prep or fit-score feature, or BetterHelp pivots to a comparable $9.99/mo first-session-prep add-on within 90 days.",
+      "route": "/ideas/firstsession",
+      "status": "raw",
+      "tags": [
+        "therapy-coaching",
+        "ai-coach",
+        "fit-matching",
+        "b2c",
+        "revenuecat",
+        "mental-health",
+        "shareable",
+        "m19-multi-form-synthesization",
+        "m17-one-time-entry-reuse"
+      ]
+    },
+    {
+      "aliases": [
+        "Closing Disclosure Line Auditor",
+        "Wire-Fraud Verify + CD Decoder"
+      ],
+      "decision_reason": "Synthesis-loop tick 14 (2026-08-12) surfaced this from the real-estate focus group (Maya, the Austin TX first-time homebuyer who 3 days before close saw $14,800 in fees she couldn't decode, and 2 days before close got wiring instructions from a different domain and spent 90 minutes on hold verifying via the known-good number to avoid a BEC scam). The convergent pain: closing disclosures are still unreadable AND wire-fraud BEC is the #1 closing-day risk. Hard data from this tick's ingest: FBI IC3 logged $275M in real estate fraud losses in 2025 (up 58% YoY, 32% YoY in complaints); 86% of BEC losses move by wire/ACH; FBI Recovery Asset Team / Financial Fraud Kill Chain 2025 froze $679M (58% recovery rate) but only when victim/bank/IC3 move within hours; FundingShield Q1 2026 found 46.8% of ~$80B in mortgage files had potential wire or title fraud issues (8.4% of transactions, 6th straight quarter). The closest existing corpus records are denialpilot (insurance denial appeal, tick 10) and surchargescope (insurance bill line decoder, tick 10) — both are document-decoder + dispute-letter products, but neither covers the real-estate closing specifically. Saturated adjacent cells at the wire-fraud-detection level (FundingShield, CertifID, Closinglock, Paymyti) are B2B title/escrow-side — no consumer-facing wire-verify mobile product exists at scale. The post-NAR-settlement angle: NAR settlement effective Aug 17 2024 made written buyer-agreement pre-tour mandatory; Redfin Q1 2025 average buyer-agent commission = 2.40% (up from 2.36% in Q3 2024); Clever 806-agent survey combined commissions 5.32% (2024) → 5.44% (2025) — commissions didn't compress, they just moved. Dominant kill risk: a top-3 title company (First American, Fidelity National, Stewart) ships a consumer-facing wire-verify mobile app as a free feature; CFPB junk-fee rule finalization in 2026 forces a ClosingLens-equivalent disclosure directly.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "closinglens",
+      "name": "ClosingLens",
+      "one_liner": "Photo your Closing Disclosure — get a 'junk / negotiable / standard' line audit and a one-tap wire-fraud verify, in 60 seconds.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US first-time homebuyers (or refinance borrowers at the Loan Estimate stage) install ClosingLens, scan at least 1 CD or LE each, and at least 300 of them report an 'I avoided a wire-fraud attempt' or 'I negotiated a closing line down' or 'I caught a fee I didn't recognize' outcome in the first 60 days, with at least 50 reports of avoided wire-fraud attempts; close if a top-3 title company (First American, Fidelity National, Stewart) ships a consumer-facing wire-verify + CD-decoder mobile app as a free feature within 90 days, or CFPB junk-fee rule finalization in 2026 forces an equivalent disclosure natively.",
+      "route": "/ideas/closinglens",
+      "status": "raw",
+      "tags": [
+        "closing-costs",
+        "wire-fraud",
+        "post-nar",
+        "mobile-first",
+        "b2c-finance",
+        "first-time-buyer",
+        "real-estate",
+        "monthly-ritual",
+        "shareable",
+        "revenuecat",
+        "m22-exception-to-recovery",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Tenant Rights Oracle + Lockout Help",
+        "State-Aware Rent Cap + Eviction Coach"
+      ],
+      "decision_reason": "Synthesis-loop tick 14 (2026-08-12) surfaced this from the same real-estate focus group (Darnell, the Atlanta GA single dad of a 9-year-old on month-to-month lease, 15% rent increase on 30 days then landlord changed the locks while he was at his second shift; every lawyer wanted $350/hr and Atlanta Legal Aid wouldn't return calls for non-eviction lockout recovery). The convergent pain: rent increases and self-help evictions are spiking in Sun Belt states with weak tenant protection, and there is no consumer-grade tenant-rights oracle. Hard data from this tick's ingest: AB 12 (2024) extended AB 1482 through Jan 1 2035 with cap = lesser of 5% + local CPI or 10% (2026-27 LA/OC cap = 8.7%; SF Bay Area = ~6.3-6.8%; San Diego = 8.2%); just cause eviction after 12 months; single-family owner-occupancy exemption requires written notice. Atlanta, Houston, Phoenix, Tampa saw 18-25% rent increases 2022-24 (Apartment List). Eviction Lab tracking shows self-help evictions (lockouts, utility shutoffs) are up in GA, FL, TX where state notice laws are weak. The closest existing corpus records are security-deposit-evidence (renter's evidence, passed_scope) and move-in-condition-report (move-in walkthrough, passed_market) — both evidence-side, neither covers the live tenant-rights oracle + lockout-recovery one-tap. Saturated adjacent cells at the legal-aid-matching level (LawHelp, LawHelp Interactive, JustFix, LegalServer) are nonprofit-built and B2B-case-management oriented; no consumer-grade B2C tenant-rights mobile app occupies the same wedge. Dominant kill risk: ABA Free Legal Answers + LawHelp.org + state bar pro-bono panels form a coalition and ship a comparable consumer-facing tenant-rights mobile app, or Avvo / LegalZoom pivot to a tenant-rights subscription tier.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "rentshield",
+      "name": "RentShield",
+      "one_liner": "State-and-city-aware tenant rights oracle + verified-rentals feed, with an 'I just got locked out' one-tap to free legal aid.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5,000 US renters earning <$75K household in Sun-Belt metros (Atlanta, Houston, Phoenix, Tampa, Dallas) install RentShield, run at least 1 rights lookup each, and at least 500 of them report an 'I avoided an illegal rent increase' or 'I recovered from a lockout' or 'I got free legal aid' outcome in the first 60 days, with at least 50 reported lockout-recovery outcomes; close if a top-3 legal-aid platform (LawHelp, JustFix, ABA Free Legal Answers) ships a comparable consumer-facing tenant-rights mobile app as a free feature within 90 days, or a top-3 tenant-screening platform (TransUnion SmartMove, Checkr, RentPrep) adds a tenant-rights layer to their existing renter app.",
+      "route": "/ideas/rentshield",
+      "status": "raw",
+      "tags": [
+        "tenant-rights",
+        "rent-increase",
+        "self-help-eviction",
+        "b2c",
+        "state-aware",
+        "mobile-first",
+        "real-estate",
+        "weekly-ritual",
+        "shareable",
+        "revenuecat",
+        "m22-exception-to-recovery",
+        "m25-authority-boundary",
+        "m20-external-party-routing"
+      ]
+    },
+    {
+      "aliases": [
+        "Homeowner Insurance Non-Renewal Forecaster",
+        "Climate-ZIP Insurance Watchdog"
+      ],
+      "decision_reason": "Synthesis-loop tick 14 (2026-08-12) surfaced this from the same real-estate focus group (Maya, the Austin first-time homebuyer whose $1,480/yr homeowner's insurance renewal is about to hit in January and her zip had been re-rated). The convergent pain: homeowner insurance non-renewals and premium shocks are the new 'mortgage payment surprise' for climate-exposed zip codes. Hard data from this tick's ingest: California FAIR Plan 29.1% rate hike Oct 15 2026 (CDI approved, down from 35.8% filed) for ~675,000 policyholders; FAIR Plan policy count up 152% since Sept 2022, total exposure $768B (up 250%); Jan 2025 LA wildfires caused $4B in FAIR Plan losses, triggering $1B member insurer assessment (Order 2025-1) — first in 30+ years; about half of FAIR Plan policyholders face 40-55% increases; FAIR Plan's wildfire-hardening discount (launched Nov 15 2025) offers up to 16.4% off but requires broker verification, not automatic. Citizens FL now carries ~1.4M policies (5x its 2020 size). State Farm, Allstate, Farmers have non-renewed or paused new business in 2023-25 in FL/CA/LA. The closest existing corpus records are rateradar (home insurance renewal-hike forecaster, tick 10) — but rateradar is the *renewal-hike forecast* wedge, not the *non-renewal-prep + DIC-shopping* wedge. RenewalReady is the consumer-facing layer for 'my insurer is about to non-renew me, what now?' Saturated adjacent cells at the insurance-shopping level (Policygenius, Lemonade, Hippo, Kin, Openly, Trellis) are direct carriers/marketplaces; no consumer-facing *non-renewal-prep* tool exists. Dominant kill risk: a state-backed FAIR Plan depopulation tool ships a consumer-facing app, or top-3 homeowners carrier (State Farm, Allstate, Liberty Mutual) ships a 'non-renewal-happening-in-your-zip' early-warning feature inside their native app within 90 days.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "renewalready",
+      "name": "RenewalReady",
+      "one_liner": "Know your insurance is about to non-renew you before the letter arrives — and what to do about it, in one app.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US homeowners in climate-exposed zip codes (FL, LA, TX, CA, Carolinas, AZ) install RenewalReady, register at least 1 address each, and at least 300 of them report an 'I avoided a non-renewal' or 'I shopped a DIC wrap before the letter arrived' or 'I caught a hardening-discount I qualified for' outcome in the first 90 days, with at least 50 reported non-renewal-averted outcomes; close if a top-3 homeowners carrier (State Farm, Allstate, Liberty Mutual) ships a comparable 'non-renewal-happening-in-your-zip' early-warning feature inside their native app, or a state-backed FAIR Plan depopulation tool ships a consumer-facing app within 90 days.",
+      "route": "/ideas/renewalready",
+      "status": "raw",
+      "tags": [
+        "climate-insurance",
+        "non-renewal",
+        "homeowners",
+        "b2c",
+        "data-driven",
+        "mobile-first",
+        "real-estate",
+        "monthly-ritual",
+        "shareable",
+        "revenuecat",
+        "m22-exception-to-recovery",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization"
+      ]
+    },
+    {
+      "aliases": [
+        "Financial Aid Award Letter Decoder",
+        "FAFSA PJ-Appeal Coach"
+      ],
+      "decision_reason": "Synthesis-loop tick 15 (2026-08-12) surfaced this from the education focus group (Tracy, the West Chester OH K-12 parent of an 11th grader who just submitted the new FAFSA-Simplification form and got SAI of $3,200 vs. $0 EFC last year; financial aid office told her to file a 'professional judgment' appeal — 14 pages, no winnability indicator). The convergent pain: FAFSA award letter is indecipherable; SAI/PJ appeals are a black box. Hard data from this tick's ingest: NCAN citing GAO reports ~570,000 more students (6%) Pell-eligible in AY 2024-25 vs AY 2023-24, ~1.9M more (31%) qualified for the maximum Pell award ($7,395), share of FAFSA completers who were Pell-eligible rose from 65% to 71%; 2024-25 was the FIRST year of the new FAFSA-Simplification form and ~40% of award letters went out wrong, corrected, or late; ED's SAI formula update for dependent students (removed -$1,500 income floor) decreased SAI up to $4,065 per impacted student; 200,000 ISIRs were sent to colleges before the March 22 SAI fix and had to be reprocessed. The closest existing corpus records are iep-advocate (special-ed record, passed_market) and denialpilot (insurance denial appeal, tick 10). Saturated adjacent cells at the appeal-coach level exist (Frank, Nitro, College Ave, Sallie Mae) but those are *refinance/loan* products, not award-letter decoders; the consumer-facing *award-letter* decoder is greenfield. Dominant kill risk: the Department of Education ships a native award-letter decoder inside StudentAid.gov within 90 days, or a top-3 college-admissions consulting brand (College Confidential, Cappex, Niche) ships a free award-letter scanner as a lead-gen for paid services.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "fafsadecoder",
+      "name": "FAFSADecoder",
+      "one_liner": "Snap your financial aid award letter and get a plain-English breakdown + a 'is it worth appealing' score.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,000 US parents or HS seniors install FAFSADecoder, snap at least 1 award letter each, and at least 200 of them report an 'I avoided an unexpected bill' or 'I won a PJ appeal I would not have filed' outcome in the first 60 days, with at least 50 reported PJ-appeal wins; close if the Department of Education ships a native award-letter decoder inside StudentAid.gov as a free feature, or a top-3 college-admissions consulting brand (College Confidential, Cappex, Niche) ships a free award-letter scanner within 90 days.",
+      "route": "/ideas/fafsadecoder",
+      "status": "raw",
+      "tags": [
+        "fafsa",
+        "financial-aid",
+        "college",
+        "consumer",
+        "ocr-llm",
+        "paywall-mobile",
+        "revenuecat",
+        "weekly-ritual",
+        "shareable",
+        "m19-multi-form-synthesization",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Federal Student Loan Servicer Tracker",
+        "IDR + Servicer Status Mirror"
+      ],
+      "decision_reason": "Synthesis-loop tick 15 (2026-08-12) surfaced this from the same education focus group (Devon, the 23-year-old Aurora IL pharmacy tech with $42,560 federal loans, transferred Nelnet → Mohela → Aidvantage and back, IDR recertification submitted March 2025 with no answer, got a collections notice from 'Navient Solutions LLC' nobody at FSA/Nelnet/Mohela/Aidvantage will confirm is real, scared to take a $58K hospital-tech job because of unknown IDR spike). The convergent pain: federal loan servicer transfers are opaque and IDR status is unknowable. Hard data from this tick's ingest: 8th Circuit Feb 18, 2025 affirmed the district court's preliminary injunction blocking the entire SAVE plan AND enjoined loan-forgiveness provisions of REPAYE, ICR, and PAYE; ED removed the IDR application from StudentAid.gov; Mar 26, 2025 ED restored access to IBR/PAYE/ICR applications; SAVE and retired REPAYE remain unavailable; >7M borrowers remain enrolled in SAVE as of Q4; Trump 'big beautiful bill' phases out SAVE as of July 1, 2028. The closest existing corpus records are denialpilot (insurance denial appeal, tick 10) and pharmacysentry (pharmacy stock-finder, tick 13) — adjacent (recurring-ritual consumer-status tool) but neither covers the FSA / NSLDS / servicer-transfer space. Saturated adjacent cells at the refinance/marketplace level (SoFi, Credible, Splash Financial) exist but those SELL loans — ServicerLock is pure navigation, not a loan sale. Dominant kill risk: a top-3 servicer (Nelnet, Aidvantage, Mohela) ships a 'which servicer holds my loans' status-mirror as a free feature inside their native app, or ED ships a single-loan-truth-source consumer app within 90 days.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "servicerlock",
+      "name": "ServicerLock",
+      "one_liner": "One login with your FSA ID and we tell you — and keep telling you — which servicer actually holds each of your federal loans.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5,000 US federal student loan borrowers install ServicerLock, log in with their FSA ID, and at least 500 of them report an 'I confirmed my real servicer' or 'I caught a servicer-transfer alert' or 'I avoided a scam collections notice' outcome in the first 60 days, with at least 50 reported scam-letter catches; close if ED ships a single-loan-truth-source consumer app within 90 days, or a top-3 servicer (Nelnet, Aidvantage, Mohela) ships a 'which servicer holds my loans' status-mirror as a free feature inside their native app.",
+      "route": "/ideas/servicerlock",
+      "status": "raw",
+      "tags": [
+        "student-loans",
+        "fsa",
+        "servicer",
+        "repayment",
+        "mobile-first",
+        "paywall",
+        "revenuecat",
+        "b2c",
+        "shareable",
+        "m1-ritual-digest",
+        "m22-exception-to-recovery"
+      ]
+    },
+    {
+      "aliases": [
+        "IEP Meeting Prep Copilot",
+        "SpEd Evaluation-to-Meeting Decoder"
+      ],
+      "decision_reason": "Synthesis-loop tick 15 (2026-08-12) surfaced this from the same education focus group (Tracy, who has 47 pages of evaluation for her 5th-grade son with ADHD + dyslexia, the advocate quoted $1,800 to attend the triennial re-eval meeting in Nov 2025, and she still doesn't know what specific language to use in the meeting). The convergent pain: IEP meeting prep is a 40-60hr reading project parents do alone. Hard data from this tick's ingest: NCES School Pulse Panel: 3% of all public school teaching positions vacant Oct 2024, 35% of public schools reported ≥1 vacancy, ~34% of school leaders feel understaffed in special ed; LPI: 45 states + DC employ ~365,967 teachers not fully certified, 45 states report shortages in special education; USCCR: 43% of public schools reported vacant SpEd positions in 2021-22, rose to 52% by March 2024, 72% by August 2024; advocates charge $80-250/hr (CA/NY/NJ top at $150-250), IEP overhaul 9-12 hours = $1,350-2,400 market rate, full due-process case $10,000-30,000 in attorney fees; NYC spent $1.3B on due-process reimbursements in 2025 alone, average pre-hearing settlement per district $23,827. ~7.5M US students have IEPs. The closest existing corpus record is iep-advocate (raw, special-ed advocate marketplace) — adjacent but IEPPilot is the *self-serve parent prep* wedge (replaces the $1,800 prep step of an advocate, not the meeting attendance); iep-advocate is the *human-advocate marketplace* wedge. Saturated adjacent cells at the advocate-marketplace level (FindParentAdvocates, Wrightslaw) are directory-listing, not AI prep. Dominant kill risk: a top-3 SpEd-tech vendor (Birdhouse, SpEd Pad, Frontline) ships a consumer-facing IEP-prep mobile app as a free feature within 90 days, or IDEA's enforcement improves so much that the prep step is no longer needed.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "ieppilot",
+      "name": "IEPPilot",
+      "one_liner": "Upload your kid's IEP evaluation and walk into the meeting knowing exactly what to ask for, in what words.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,500 US parents of K-12 children with an upcoming or active IEP install IEPPilot, upload at least 1 evaluation each, and at least 200 of them report an 'I got an accommodation I would not have asked for' or 'I walked into the meeting prepared' or 'I avoided hiring a $1,800 prep' outcome in the first 60 days, with at least 50 reported successful accommodation gains; close if a top-3 SpEd-tech vendor (Birdhouse, SpEd Pad, Frontline) ships a consumer-facing IEP-prep mobile app as a free feature within 90 days, or IDEA's enforcement improves so much that the prep step is no longer needed.",
+      "route": "/ideas/ieppilot",
+      "status": "raw",
+      "tags": [
+        "special-ed",
+        "iep",
+        "k12",
+        "parent",
+        "advocate-replacement",
+        "paywall-mobile",
+        "revenuecat",
+        "b2c",
+        "monthly-ritual",
+        "shareable",
+        "m17-one-time-entry-reuse",
+        "m19-multi-form-synthesization",
+        "m20-external-party-routing"
+      ]
+    },
+    {
+      "aliases": [
+        "Auto Insurance Non-Renewal Shopper",
+        "Auto Insurance 6-Month Comparator"
+      ],
+      "decision_reason": "Synthesis-loop tick 16 (2026-08-12) surfaced this from the auto/vehicle focus group (Marisol 'Mari' Vega-Cole, the 38-year-old pediatric ICU nurse in Katy TX with a 2021 Kia Telluride + 2018 Honda Civic who got the State Farm non-renewal letter on a Wednesday in March and has until May 1 to bind new coverage on both cars; the only way to compare what Progressive/GEICO/USAA/Lemonade/Tesla Insurance will actually charge is to type the same VIN into five different browser tabs that ask slightly different questions and show different numbers). The convergent pain: non-renewed US car owners have a 30-60 day 'bind or lapse' window and no working tool to compare true 6-month cost across carriers from a single declarations-page input. Hard data from this tick's ingest: Bankrate 2025 True Cost of Auto Insurance: national avg full-coverage premium hit $2,638/yr (+12% from $2,349 in 2024); drivers now spend 3.39% of median household income on car insurance; LA 6.83%, FL 5.69%, NY 4.77%; ValuePenguin 2025: 12% (2023) → 16.5% (2024) → 7.5% (2025) deceleration but CA/NJ/WA still facing 15-17% increases in 2025; Zebra 2025: 19% YoY increase (10-year high), 33 states + DC over $2,000/yr avg, DC single-year 81% jump 2023-2024, FL/LA/MO over $3,000/yr, 10-year cumulative increase 78%. The closest existing corpus records are denialpilot (insurance denial appeal, tick 10) and surchargescope (insurance bill decoder, tick 10) — both are document-decoder + dispute-letter products for insurance claims, not rate-comparison products. Saturated adjacent cells exist at the carrier-shopping level (The Zebra, Gabi, Compare.com, Jerry) but those are happy-path shopping; no consumer app owns the *non-renewal bind-window* wedge. Dominant kill risk: a top-3 insurance carrier (Progressive, GEICO, State Farm) ships a 'switch in 60 days before you lapse' in-app tool, or Lemonade Insurance ships the cross-carrier 8-quote-comparison view as a free feature within 90 days.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "insurancereaper",
+      "name": "InsuranceReaper",
+      "one_liner": "Upload your non-renewal letter + declarations page, get ranked 6-month quotes from 8 carriers and a 'shop again on this date' calendar.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US car owners who received a non-renewal or shopping-out letter install InsuranceReaper, upload at least 1 declarations page each, and at least 300 of them report an 'I avoided a coverage gap' or 'I switched carriers with no coverage gap' or 'I caught a coverage difference I would have missed' outcome in the first 60 days, with at least 50 reports of 'I bound coverage in <7 days from a 30-day letter' outcomes; close if a top-3 insurance carrier (Progressive, GEICO, State Farm) ships a 'switch in 60 days before you lapse' in-app tool, or Lemonade Insurance ships the cross-carrier 8-quote-comparison view as a free feature within 90 days.",
+      "route": "/ideas/insurancereaper",
+      "status": "raw",
+      "tags": [
+        "insurance",
+        "non-renewal",
+        "comparison",
+        "mobile",
+        "b2c",
+        "revenuecat",
+        "monthly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m22-exception-to-recovery"
+      ]
+    },
+    {
+      "aliases": [
+        "Dealer OTD Price Sticker Decoder",
+        "Addendum Sticker Line-Item Benchmarker"
+      ],
+      "decision_reason": "Synthesis-loop tick 16 (2026-08-12) surfaced this from the same auto/vehicle focus group (Mari, who when she went to look at a used Civic last month, the OTD sticker said $28,400 and she had no way to tell if the $3,800 'market adjustment + paint sealant + nitrogen tires' addendum was a normal dealer markup or a flat-out robbery). The convergent pain: dealer 'Out-The-Door' price addenda are still being printed as a single bottom-line number with no line-item transparency, leaving buyers unable to identify junk fees vs. legitimate add-ons. Hard data from this tick's ingest: FTC issued warning letters to 97 dealership groups in March 2026 for deceptive pricing; FTC + Maryland AG won March 2026 settlement against Lindsay Automotive for years of 'junk fees and unwanted add-on products'; Asbury Automotive also under FTC action; FTC CARS Rule (effective 2024-25) bans bait-and-switch and hidden markups; ADM/market adjustment 'Typical charge $1,000-$15,000+ ... pure profit 100%' per KBB; California Vehicle Code §11713.1 requires specific 'added mark-up' supplemental sticker language; the OTD number is the single biggest financial decision a non-luxury buyer makes; used-car prices in the $20-35k segment still ~28% above pre-pandemic. The closest existing corpus records are car-out-the-door-lock (raw, OTD price lock with deposit at dealer) and quote-comparison (passed_market, home-services quote comparison) — both adjacent, neither is the OTD addendum decoder wedge. Saturated adjacent cells at the car-info level (Kelley Blue Book, Edmunds, CarGurus, iSeeCars, Cars.com) provide pricing and incentive data but no one productizes the photo-of-sticker addendum-line decode moment. Dominant kill risk: a top-3 car-shopping platform (CarGurus, Cars.com, AutoTrader) ships an in-app OTD addendum photo decoder as a free feature, or the FTC's CARS Rule enforcement prioritizes addendum-sticker transparency in 2026-27 forcing a free disclosure on the dealer side that collapses the consumer-side need.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "otddecoder",
+      "name": "OTDDecoder",
+      "one_liner": "Photo the dealer's OTD price sticker — get every addendum line decoded, flagged, and benchmarked against your ZIP.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5,000 US car buyers within 14 days of signing install OTDDecoder, scan at least 1 OTD sticker or PDF each, and at least 500 of them report an 'I avoided a junk fee' or 'I negotiated a line item down' or 'I caught a fee I didn't recognize' outcome in the first 60 days, with at least 100 reported dealer-agreed-to-remove outcomes; close if a top-3 car-shopping platform (CarGurus, Cars.com, AutoTrader) ships an in-app OTD addendum photo decoder as a free feature, or the FTC's CARS Rule enforcement prioritizes addendum-sticker transparency in 2026-27 forcing free dealer-side disclosure that collapses the consumer-side need.",
+      "route": "/ideas/otddecoder",
+      "status": "raw",
+      "tags": [
+        "dealer",
+        "otd",
+        "photo-ai",
+        "llm",
+        "mobile",
+        "b2c",
+        "revenuecat",
+        "viral-loop",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m22-exception-to-recovery"
+      ]
+    },
+    {
+      "aliases": [
+        "Lemon Law Symptom Tracker + Demand Letter",
+        "State-Specific Lemon Threshold Co-Pilot"
+      ],
+      "decision_reason": "Synthesis-loop tick 16 (2026-08-12) surfaced this from the broader consumer pain that emerged alongside the personas. The convergent pain: US consumers whose car has been in the shop 3+ times for the same issue or out of service 30+ cumulative days within the first 18 months of ownership don't know whether their state considers that a lemon — and the lemon law + Magnuson-Moss federal warranty + arbitration-program thresholds are state-specific. Hard data from this tick's ingest: NY Fed Q4 2025 Household Debt Report: Q4 2025 90+ day auto delinquency hit 5.21% (highest since Q2 2020), subprime share of new originations dropped to 15% (from 16.9% YoY); Q3 2025 NY Fed: auto loan delinquency rate picked up 5 basis points — the largest quarterly increase since Q4 2024, Fed itself flagging 'renewed stress may be building'; $1.66T auto debt outstanding; NHTSA ODI Resume PE25012 opened 2025-10-07 covering 2.88M Tesla FSD vehicles with 14 crashes, 23 injuries; upgraded to EA26002 March 2026 covering 3.2M vehicles one step from recall; REPAIR Act H.R. 1566 has 30+ bipartisan cosponsors, 83% public support, MA 2020 + ME 2023 already on the books. The closest existing corpus records are denialpilot (insurance denial appeal, tick 10) and priorauthpilot (PA filing, tick 12) — both are 'consumer-side claim/denial co-pilot' products. Saturated adjacent cells at the lemon-law level (Nolo, Lemon Law America, KBB lemon-law guides, 50state lemon-law directories) are 2014-era UX with no symptom tracking, no LLM, no automatic letter generation, no Magnuson-Moss federal layer. Dominant kill risk: a top-3 lemon-law firm network (Kimmel & Silverman, Callagy Law, Bickel & Bremer) ships a consumer-facing AI symptom-tracker as a free lead-gen tool, or a state AG office (CA, NY, MA) ships a 'lemon tracker + state complaint' mobile app within 90 days.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "lemonlawai",
+      "name": "LemonLawAI",
+      "one_liner": "Track your car's repair symptoms in a 30-sec daily tap, get a state-specific lemon-law grade + court-ready demand letter.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US consumers with a car in the shop 3+ times for the same issue install LemonLawAI, log at least 7 days of symptoms each, and at least 200 of them report an 'I filed a state complaint I would not have known to file' or 'I generated a demand letter my dealer responded to' or 'I avoided a $400 lemon-law attorney consult' outcome in the first 60 days, with at least 50 reported state-attorney-filed outcomes; close if a top-3 lemon-law firm network (Kimmel & Silverman, Callagy Law, Bickel & Bremer) ships a consumer-facing AI symptom-tracker as a free lead-gen tool, or a state AG office (CA, NY, MA) ships a 'lemon tracker + state complaint' mobile app within 90 days.",
+      "route": "/ideas/lemonlawai",
+      "status": "raw",
+      "tags": [
+        "lemon-law",
+        "llm",
+        "mobile",
+        "legal",
+        "b2c",
+        "demand-letter",
+        "revenuecat",
+        "viral-loop",
+        "shareable",
+        "m17-one-time-entry-reuse",
+        "m19-multi-form-synthesization",
+        "m20-external-party-routing",
+        "m25-authority-boundary"
+      ]
     }
   ],
-  "sourceHash": "sha256:4508d25b7be02f5978d39b3f9eb6ea96fd84b09a5f5c49ee3c0c5cc03816f11b",
+  "sourceHash": "sha256:e75303fe0be54388043fbe8fd37716743244237aaef2a75c5d34276780412da6",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",

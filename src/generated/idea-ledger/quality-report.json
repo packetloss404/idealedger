@@ -1,16 +1,16 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 80,
-    "dossiers": 50,
+    "dossierRefsWithoutMention": 148,
+    "dossiers": 52,
     "headingMatchedIdeas": 211,
     "headingReferences": 253,
-    "ideas": 348,
+    "ideas": 398,
     "ideasWithoutResearch": 9,
-    "mentionOnlyIdeas": 117,
-    "mentionReferences": 168,
-    "multiRefIdeas": 86,
-    "researchEdges": 501,
-    "unmappedReferences": 80
+    "mentionOnlyIdeas": 152,
+    "mentionReferences": 204,
+    "multiRefIdeas": 136,
+    "researchEdges": 605,
+    "unmappedReferences": 148
   },
   "researchProvenance": [
     {
@@ -531,6 +531,24 @@
       ]
     },
     {
+      "ideaId": "billdr",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "ble-link-loss-alert",
       "quality": "heading",
       "references": [
@@ -611,6 +629,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "brief-case-onboarding",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -787,6 +823,24 @@
       ]
     },
     {
+      "ideaId": "canarycall",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "caption-pipeline-gap",
       "quality": "heading",
       "references": [
@@ -883,6 +937,24 @@
       ]
     },
     {
+      "ideaId": "castcut-repurpose",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "ceremony-safe-video",
       "quality": "heading",
       "references": [
@@ -895,6 +967,30 @@
           },
           "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "certchase-funeral-signature-expediter",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "mention"
         }
       ]
     },
@@ -1073,6 +1169,24 @@
       ]
     },
     {
+      "ideaId": "closinglens",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "clothing-size-translator",
       "quality": "unmapped",
       "references": [
@@ -1113,6 +1227,24 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP3.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "compass-rosetta",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -1244,6 +1376,48 @@
           "dossierSlug": "pain-mining-dossier",
           "heading": null,
           "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "cordless-morning-readiness",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "cottage-exemption-tracker",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-mechanism-map",
+          "heading": null,
+          "path": "docs/ROUND-12-MECHANISM-MAP.md",
           "quality": "unmapped"
         }
       ]
@@ -1486,6 +1660,24 @@
       ]
     },
     {
+      "ideaId": "deadrepo",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "deafblind-tactile-phrase",
       "quality": "mention",
       "references": [
@@ -1494,6 +1686,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "denialpilot",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -1618,6 +1828,24 @@
       ]
     },
     {
+      "ideaId": "docket-guard",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "done-needs-confirmation",
       "quality": "mention",
       "references": [
@@ -1638,6 +1866,24 @@
           "heading": null,
           "path": "docs/ROUND-12-WEIRDNESS-ROUND.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "dottie-adhd-companion",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -1925,6 +2171,24 @@
       ]
     },
     {
+      "ideaId": "fafsadecoder",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "family-caregiving",
       "quality": "mention",
       "references": [
@@ -2019,6 +2283,42 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "firstsession",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "flamecheck",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -2528,6 +2828,24 @@
       ]
     },
     {
+      "ideaId": "homepulse-operator-score",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "hotel-folio-settlement-match",
       "quality": "heading",
       "references": [
@@ -2584,6 +2902,24 @@
       ]
     },
     {
+      "ideaId": "ieppilot",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "independent-jobber-shift-clock",
       "quality": "mention",
       "references": [
@@ -2633,6 +2969,24 @@
       ]
     },
     {
+      "ideaId": "insurancereaper",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "invoice-math-reopen",
       "quality": "heading",
       "references": [
@@ -2645,6 +2999,24 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "job-note-structurer",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -2673,6 +3045,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "knockoff-radar",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -2709,6 +3099,24 @@
       ]
     },
     {
+      "ideaId": "lattice-attention-os",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "laundry-symbol-gate",
       "quality": "mention",
       "references": [
@@ -2724,6 +3132,24 @@
       "ideaId": "legalese-translator",
       "quality": "none",
       "references": []
+    },
+    {
+      "ideaId": "lemonlawai",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
     },
     {
       "ideaId": "license-renewal-watch",
@@ -2935,6 +3361,30 @@
           },
           "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "lotmatch-r12d-2026-08-11",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "idea-mining-loop-2026-08-10-round12-build-out",
+          "heading": null,
+          "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "round-12-snapinvoice-falsification",
+          "heading": null,
+          "path": "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -3355,6 +3805,30 @@
       ]
     },
     {
+      "ideaId": "multistate-form-synthesizer-funeral",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "pain-mining-dossier",
+          "heading": null,
+          "path": "docs/PAIN-MINING-DOSSIER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "mention"
+        }
+      ]
+    },
+    {
       "ideaId": "mystery-alarm-chirp-localizer",
       "quality": "heading",
       "references": [
@@ -3487,6 +3961,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "otddecoder",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -3649,6 +4141,42 @@
       ]
     },
     {
+      "ideaId": "pausemarket",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "payroll-picket",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "paystub-schedule-diff",
       "quality": "mention",
       "references": [
@@ -3741,6 +4269,24 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "pendant-trust-layer",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -3841,6 +4387,42 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "pharmacompass",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "pharmacysentry",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -4087,6 +4669,24 @@
       ]
     },
     {
+      "ideaId": "practice-pulse",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "pre-loss-home-inventory",
       "quality": "mention",
       "references": [
@@ -4147,6 +4747,24 @@
       ]
     },
     {
+      "ideaId": "priorauthpilot",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "process-tracker-falsified",
       "quality": "heading",
       "references": [
@@ -4203,6 +4821,24 @@
       ]
     },
     {
+      "ideaId": "proofring",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "provider-network-double-check",
       "quality": "mention",
       "references": [
@@ -4211,6 +4847,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "pulse-nfc-ritual",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -4246,6 +4900,24 @@
           "heading": null,
           "path": "docs/ROUND-12-FG-01-06.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rateradar",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -4348,6 +5020,24 @@
       ]
     },
     {
+      "ideaId": "renewalready",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "rental-fuel-plan-calculator",
       "quality": "heading",
       "references": [
@@ -4422,6 +5112,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "rentshield",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -5035,6 +5743,24 @@
       ]
     },
     {
+      "ideaId": "service-business-recap-engine",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "service-exit-closeout",
       "quality": "mention",
       "references": [
@@ -5043,6 +5769,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND6.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "servicerlock",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -5187,6 +5931,24 @@
       ]
     },
     {
+      "ideaId": "showup-no-show-credit",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "silent-video-audio-check",
       "quality": "heading",
       "references": [
@@ -5205,6 +5967,24 @@
           "heading": null,
           "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "slotscope",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -5409,6 +6189,24 @@
       ]
     },
     {
+      "ideaId": "subrefund",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "subscription-easy-cancel-intake",
       "quality": "unmapped",
       "references": [
@@ -5461,6 +6259,60 @@
       ]
     },
     {
+      "ideaId": "subwatchdog",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "sunday-reflection",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "surchargescope",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "switch-blink",
       "quality": "heading",
       "references": [
@@ -5501,6 +6353,42 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "taponly-card-directory",
+      "quality": "unmapped",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "unmapped"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "taproom-podcast-community",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -5897,6 +6785,24 @@
       ]
     },
     {
+      "ideaId": "vibepm",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "video-challenge-league",
       "quality": "mention",
       "references": [
@@ -5957,6 +6863,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "waitlistrelay",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -6115,22 +7039,38 @@
     "1099",
     "311",
     "401k",
+    "Davis-Bacon",
+    "WH-347",
     "aac",
+    "aarp-distribution",
     "accelerometer",
     "accessories",
+    "actionability",
     "active-build",
     "actors",
     "admin",
     "adult",
+    "advocate-replacement",
     "affiliate",
     "agriculture",
-    "ai-agents",
+    "ai-agent",
+    "ai-coach",
+    "ai-companion",
+    "ai-creator",
+    "ai-denial",
+    "ai-detector",
+    "ai-knockoff",
+    "ai-templates",
     "airprint",
     "albums",
+    "ambient-ai",
     "animal-care",
     "anxiety",
     "app-intents",
     "appeals",
+    "apple-foundation-models",
+    "apple-watch",
+    "approval-gated",
     "approvals",
     "apps",
     "archive",
@@ -6140,6 +7080,7 @@
     "assets",
     "assistive-devices",
     "atm",
+    "attorney",
     "audible",
     "audio-analysis",
     "audio-route",
@@ -6150,10 +7091,13 @@
     "authorization-holds",
     "autism",
     "auto",
+    "auto-advocate",
+    "auto-insurance",
     "autofill",
     "automations",
     "autoscroll",
     "av",
+    "b2c-finance",
     "backend",
     "background",
     "baggage",
@@ -6166,9 +7110,11 @@
     "before-after",
     "bereavement",
     "bidding",
+    "bill-dispute",
     "ble",
     "bluetooth-pedal",
     "boating",
+    "bookkeeping",
     "breakage",
     "breaks",
     "browser",
@@ -6183,12 +7129,14 @@
     "cancellation-fees",
     "captions",
     "car-buying",
+    "card-payment",
     "care",
     "care-labels",
     "carplay",
     "carriers",
     "cars",
     "cellular",
+    "certified-payroll",
     "challenges",
     "change-of-address",
     "change-orders",
@@ -6199,18 +7147,27 @@
     "checkout",
     "checkpoint",
     "checksums",
+    "chronic-illness",
     "cinema",
     "civic",
+    "claim-appeal",
+    "client-brief",
     "client-communication",
+    "client-onboarding",
+    "climate-insurance",
+    "climate-risk",
     "clipboard",
+    "closing-costs",
     "clothing",
     "cloud-storage",
     "coaching",
     "coffee",
     "collaboration",
+    "college",
     "color-vision",
     "commerce",
     "commodity",
+    "community",
     "commute",
     "commuting",
     "composites",
@@ -6218,17 +7175,21 @@
     "connectivity",
     "consent",
     "consignment",
+    "construction",
     "consumer-protection",
     "content",
+    "content-engine",
+    "context-recovery",
     "contracts",
     "controllers",
     "controls",
+    "cottage-cosmetics",
+    "cottage-food",
     "counter",
     "counting",
     "coupons",
     "crafts",
     "creative-tools",
-    "creator",
     "creator-business",
     "credit-cards",
     "credits",
@@ -6238,32 +7199,47 @@
     "crochet",
     "cross-device",
     "cross-domain",
+    "cross-tool",
     "crowdsourcing",
     "custom-goods",
     "customer-service",
     "cycling",
+    "daily-ritual",
     "data",
+    "data-driven",
     "data-sources",
     "dates",
+    "deadline",
+    "deadline-tracker",
     "deaf",
     "deafblind",
+    "dealer",
     "dealers",
+    "death-certificate",
     "decision-making",
+    "declarations-page",
+    "deepfake-defense",
     "deferred",
     "delisting",
+    "demand-letter",
     "deployment",
+    "deppopulation",
     "detection",
     "detention",
+    "device-management",
     "device-state",
     "diabetes",
     "diagnosis",
+    "digest",
     "discovery",
     "dispatch",
     "display",
     "displays",
+    "dispute",
     "disruption",
     "dj",
     "dmv",
+    "docket",
     "drafts",
     "drain-plug",
     "drapery",
@@ -6287,30 +7263,41 @@
     "escalation",
     "esim",
     "estimates",
-    "etsy",
     "event-log",
     "exceptions",
+    "executive-function",
     "exif",
+    "experiment-queue",
     "expiry",
     "export",
     "exposure",
     "fabric",
     "facilitation",
     "fact-checking",
+    "fafsa",
+    "fair-plan",
     "false-assurance",
     "false-invariant",
     "falsified",
+    "family-code-word",
+    "family-safety",
     "familycontrols",
     "fashion",
     "fasteners",
     "fda",
     "feature",
+    "fee-transparency",
     "feeders",
+    "fhir",
     "file-sharing",
     "file-transfer",
     "filters",
+    "financial-aid",
     "fintech",
+    "fintech-adjacent",
+    "first-time-buyer",
     "fit",
+    "fit-matching",
     "flights",
     "flooring",
     "florists",
@@ -6321,40 +7308,52 @@
     "food-logging",
     "formats",
     "formula",
+    "formulary",
     "fragile-cargo",
     "fraud",
+    "freemium",
     "friends",
+    "fsa",
     "fulfillment",
     "furniture",
     "galleries",
     "gaming",
     "garments",
+    "garmin",
     "gcode",
     "gear",
     "geofencing",
     "geometry",
     "gift-cards",
     "git",
-    "glp-1",
+    "github",
     "glyphs",
+    "goodrx-alternative",
+    "google-business-profile",
     "green-button",
     "groceries",
     "grooming",
     "guest-access",
     "guests",
     "guitar",
+    "habit-tracking",
+    "handmade",
     "hard-of-hearing",
     "hardware-keys",
     "hardware-state",
     "health",
+    "health-data",
+    "health-insurance",
     "healthkit",
     "hearing",
     "hearing-aids",
     "high-stakes",
     "hobbies",
-    "home-services",
+    "home-insurance",
     "home-theater",
+    "homeowners",
     "horses",
+    "hospital-billing",
     "hospitality",
     "hotels",
     "households",
@@ -6365,10 +7364,12 @@
     "ics",
     "id3",
     "identifiers",
+    "iep",
     "import",
     "inbox",
     "incident",
     "indie-dev",
+    "infrastructure",
     "inspections",
     "interference",
     "interruption",
@@ -6379,35 +7380,51 @@
     "itinerary",
     "jobber",
     "jobs",
+    "journaling",
     "journalism",
     "judgment",
+    "junk-fees",
+    "k12",
     "keyboard",
     "keys",
+    "keyword-spotting",
     "knitting",
     "laser-cutting",
     "laundry",
     "leaks",
     "led",
     "left-behind",
+    "lemon-law",
     "lending",
     "liability",
     "life-event",
     "lightroom",
     "live-streaming",
+    "liveness-detection",
     "load-in",
     "local",
     "local-commerce",
     "local-network",
+    "local-seo",
     "local-services",
     "localization",
     "lock-screen",
     "lockers",
     "locks",
     "logistics",
+    "lotmatch",
+    "lovable",
     "low-frequency",
+    "low-friction",
     "luggage",
+    "m1-un-invoiced-detector",
+    "m14-quote-price-registrar",
+    "m4-paired-handoff",
+    "m6-entitlement-reference",
+    "m7-evidence-pack-builder",
+    "m8-escalation-nudger",
     "magnetometer",
-    "makers",
+    "malpractice",
     "manual-claim",
     "manual-ritual",
     "manufacturing",
@@ -6415,21 +7432,23 @@
     "maps",
     "marine",
     "markers",
+    "marketing-automation",
     "markets",
     "measurements",
+    "mechanism-lineage-m6-m18",
     "meetings",
+    "membership",
     "memories",
     "mesh",
     "messaging",
     "meters",
-    "micro-business",
     "microchip",
     "midi",
     "mixing",
-    "mobile",
-    "mobile-services",
     "move-out",
     "multi-camera",
+    "multi-form",
+    "multi-generational",
     "musicians",
     "myfitnesspal",
     "navigation",
@@ -6437,23 +7456,38 @@
     "networking",
     "news",
     "no-install-link",
+    "no-show",
+    "no-surprises-act",
     "nutrition",
+    "ocr-llm",
+    "ocr-receipt",
     "odometer",
     "offers",
+    "on-device-ml",
+    "on-time",
+    "open-enrollment",
+    "operator-accountability",
+    "operator-scoring",
     "orders",
     "organization",
     "orientation",
+    "otd",
+    "oura",
     "outcomes",
     "overtime",
     "painting",
     "parcels",
+    "parent",
     "parental-controls",
+    "parenting",
     "parents",
     "parsing",
     "parts",
     "passes",
+    "passkey",
     "passkit",
     "passwords",
+    "pause",
     "paychecks",
     "paystub",
     "peace-prize",
@@ -6462,9 +7496,15 @@
     "personal-crm",
     "pesticides",
     "pet-grooming",
+    "pet-insurance",
     "pharmacy",
+    "pharmacy-inventory",
     "phone",
+    "photo-ai",
+    "physical-input",
     "physical-state",
+    "pig-butchering",
+    "plain-english",
     "plants",
     "platform-control",
     "platform-entitlement",
@@ -6473,11 +7513,18 @@
     "pocket-casts",
     "podcasts",
     "portability",
+    "post-nar",
     "practice",
+    "pre-meeting",
     "prediction",
+    "prescription-pricing",
     "prescriptions",
     "presence",
+    "prevailing-wage",
+    "price-hike",
+    "price-lock",
     "prices",
+    "prior-auth",
     "process",
     "products",
     "profit",
@@ -6487,10 +7534,13 @@
     "proximity",
     "public-services",
     "public-speaking",
+    "quantified-self",
     "queue",
     "quick-entry",
     "quick-look",
     "quote",
+    "quote-accuracy",
+    "rate-filing",
     "re-entry",
     "reactions",
     "recalls",
@@ -6500,8 +7550,11 @@
     "redaction",
     "redundancy",
     "reference",
+    "reflection",
+    "refund",
     "registries",
     "regulation",
+    "regulatory",
     "rehearsal",
     "rekordbox",
     "relationships",
@@ -6509,20 +7562,26 @@
     "remote-work",
     "rename",
     "renewals",
+    "rent-increase",
     "renters",
     "repairs",
+    "repayment",
     "replacement-parts",
     "replenishment",
     "reporting",
+    "repurpose",
     "resin",
     "resumable",
     "retirement",
+    "revival",
     "rideshare",
     "rights",
+    "ritual",
     "rolling-buffer",
+    "romance-scam",
+    "rotating-secret",
     "routes",
     "routines",
-    "routing",
     "run-of-show",
     "saas",
     "safety-boundary",
@@ -6540,13 +7599,16 @@
     "scroll",
     "seam",
     "seasonal",
+    "self-help-eviction",
     "self-tape",
     "seller-tools",
+    "senior-safety",
     "seniors",
     "serial-number",
     "serial-numbers",
     "service",
     "service-history",
+    "servicer",
     "setlists",
     "settings",
     "settlements",
@@ -6555,32 +7617,49 @@
     "shift-workers",
     "shifts",
     "shopping",
+    "short-form",
     "shortages",
+    "side-project",
     "silhouette",
     "slots",
     "solar",
     "solo-creators",
+    "solo-practitioner",
     "sonos",
     "spam",
+    "special-ed",
     "sponsorships",
     "sports",
     "spotify",
     "ssh",
     "standards",
+    "state-aware",
+    "state-doi-templates",
+    "statute-of-limitations",
     "stems",
     "stencil",
+    "stimulant-shortage",
     "stl",
     "storage",
     "streaming",
     "strong-substitute",
+    "structured-notes",
+    "student-loans",
+    "subcontractor",
+    "substack",
     "subtitles",
+    "surprise-billing",
     "svg",
     "tags",
     "takeout",
+    "tap-to-pay",
     "teardown",
     "temperature",
+    "tenant-rights",
     "terminal",
     "text",
+    "therapy-access",
+    "therapy-coaching",
     "thread",
     "tickets",
     "tile",
@@ -6603,40 +7682,54 @@
     "transparency",
     "tripod",
     "trucking",
+    "trust-layer",
     "tuning",
+    "twilio",
     "typography",
     "upholstery",
     "urls",
     "usb",
     "usps",
     "uti",
+    "v0",
     "vacation-rentals",
     "vehicles",
     "venues",
+    "vibe-coding",
     "vibration",
     "vinyl",
     "voice",
+    "voice-ai",
+    "voice-companion",
+    "voice-extraction",
+    "voice-only",
     "voting",
     "vouchers",
+    "waitlist-arbitrage",
     "waitlists",
+    "watchdog",
     "water",
     "water-softener",
+    "wearables",
     "webauthn",
     "weights",
     "welding",
     "wheelchair",
+    "whoop",
     "wide-format",
     "wifi",
+    "windsurf",
+    "wire-fraud",
     "wishlists",
     "workflow",
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:4508d25b7be02f5978d39b3f9eb6ea96fd84b09a5f5c49ee3c0c5cc03816f11b",
+  "sourceHash": "sha256:e75303fe0be54388043fbe8fd37716743244237aaef2a75c5d34276780412da6",
   "tagStats": {
-    "assignments": 1655,
-    "doubletons": 109,
-    "singletons": 519,
-    "unique": 775
+    "assignments": 2231,
+    "doubletons": 120,
+    "singletons": 688,
+    "unique": 997
   }
 }

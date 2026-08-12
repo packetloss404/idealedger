@@ -4498,6 +4498,7 @@
         "claim-ready-install-record",
         "done-needs-confirmation",
         "freight-line-pro",
+        "lotmatch-r12d-2026-08-11",
         "process-tracker-falsified"
       ],
       "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND12-BUILD-OUT.md",
@@ -5210,6 +5211,7 @@
       ],
       "linkedIdeaIds": [
         "adult-compliance",
+        "certchase-funeral-signature-expediter",
         "clothing-size-translator",
         "consumer-case-agent",
         "coparenting-coordinator",
@@ -5219,6 +5221,7 @@
         "iep-advocate",
         "instant-fact-check",
         "medical-bill-auditor",
+        "multistate-form-synthesizer-funeral",
         "post-loss-recovery",
         "pre-loss-home-inventory",
         "primary-source-receipts",
@@ -5233,6 +5236,392 @@
       "sha256": "sha256:2b9a69e8b9fd038b861ff34ee89caa67c8c1ab279c1414af43cefaeb9a87f9b3",
       "slug": "pain-mining-dossier",
       "title": "Shipaton 2026 Pain-Mining Dossier"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "research-marathon-tracker--2026-08-11-continuation",
+          "depth": 1,
+          "text": "Research Marathon Tracker — 2026-08-11 (continuation)"
+        },
+        {
+          "anchor": "wave-10--independent-audit-and-dissent-current",
+          "depth": 2,
+          "text": "Wave 10 — independent audit and dissent (current)"
+        },
+        {
+          "anchor": "corpus-director-readout",
+          "depth": 3,
+          "text": "Corpus director readout"
+        },
+        {
+          "anchor": "independent-lanes-completed",
+          "depth": 3,
+          "text": "Independent lanes completed"
+        },
+        {
+          "anchor": "sourceslead-classes-examined-this-continuation",
+          "depth": 2,
+          "text": "Sources/lead classes examined this continuation"
+        },
+        {
+          "anchor": "discoveries-and-challenges",
+          "depth": 2,
+          "text": "Discoveries and challenges"
+        },
+        {
+          "anchor": "contradictions",
+          "depth": 2,
+          "text": "Contradictions"
+        },
+        {
+          "anchor": "ideas-generated--killed--not-promoted",
+          "depth": 2,
+          "text": "Ideas generated / killed / not promoted"
+        },
+        {
+          "anchor": "open-queue-and-next-wave",
+          "depth": 2,
+          "text": "Open queue and next wave"
+        },
+        {
+          "anchor": "information-gain-assessment",
+          "depth": 2,
+          "text": "Information gain assessment"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-8-2026-08-12-0045",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 8 (2026-08-12 ~00:45)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-9-2026-08-12-0115",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 9 (2026-08-12 ~01:15)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-10-2026-08-12-0150",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 10 (2026-08-12 ~01:50)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-11-2026-08-12-0205",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 11 (2026-08-12 ~02:05)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-12-2026-08-12-0250",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 12 (2026-08-12 ~02:50)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-13-2026-08-12-0305",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 13 (2026-08-12 ~03:05)"
+        },
+        {
+          "anchor": "round-13-reconciliation-2026-08-12-0845--merge-of-other-agents-work",
+          "depth": 2,
+          "text": "Round 13 Reconciliation (2026-08-12 ~08:45) — Merge of Other Agent's Work"
+        },
+        {
+          "anchor": "how-the-reconciliation-landed-in-the-corpus",
+          "depth": 3,
+          "text": "How the reconciliation landed in the corpus"
+        },
+        {
+          "anchor": "what-the-reconciliation-does-not-change",
+          "depth": 3,
+          "text": "What the reconciliation does NOT change"
+        },
+        {
+          "anchor": "corpus-state-after-merge",
+          "depth": 3,
+          "text": "Corpus state after merge"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-14-2026-08-12-0905",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 14 (2026-08-12 ~09:05)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-15-2026-08-12-0950",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 15 (2026-08-12 ~09:50)"
+        },
+        {
+          "anchor": "round-13-matrix-tick-2-2026-08-12-1000",
+          "depth": 2,
+          "text": "Round 13 Matrix Tick 2 (2026-08-12 ~10:00)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-16-2026-08-12-1050",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 16 (2026-08-12 ~10:50)"
+        }
+      ],
+      "linkedIdeaIds": [
+        "billdr",
+        "brief-case-onboarding",
+        "canarycall",
+        "castcut-repurpose",
+        "certchase-funeral-signature-expediter",
+        "closinglens",
+        "compass-rosetta",
+        "cordless-morning-readiness",
+        "cottage-exemption-tracker",
+        "deadrepo",
+        "denialpilot",
+        "docket-guard",
+        "dottie-adhd-companion",
+        "fafsadecoder",
+        "firstsession",
+        "flamecheck",
+        "homepulse-operator-score",
+        "ieppilot",
+        "insurancereaper",
+        "job-note-structurer",
+        "knockoff-radar",
+        "lattice-attention-os",
+        "lemonlawai",
+        "multistate-form-synthesizer-funeral",
+        "otddecoder",
+        "pausemarket",
+        "payroll-picket",
+        "pendant-trust-layer",
+        "pharmacompass",
+        "pharmacysentry",
+        "practice-pulse",
+        "priorauthpilot",
+        "proofring",
+        "pulse-nfc-ritual",
+        "rateradar",
+        "renewalready",
+        "rentshield",
+        "service-business-recap-engine",
+        "servicerlock",
+        "showup-no-show-credit",
+        "slotscope",
+        "subrefund",
+        "subwatchdog",
+        "sunday-reflection",
+        "surchargescope",
+        "taponly-card-directory",
+        "taproom-podcast-community",
+        "vibepm",
+        "waitlistrelay"
+      ],
+      "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+      "route": "/research/research-marathon-2026-08-11-tracker",
+      "sha256": "sha256:a3dc7cbc7260ffcea07ae1fbc144aab4357529b6dac8816f44a458e224cb68b2",
+      "slug": "research-marathon-2026-08-11-tracker",
+      "title": "Research Marathon Tracker — 2026-08-11 (continuation)"
+    },
+    {
+      "headings": [
+        {
+          "anchor": "research-marathon--2026-08-11",
+          "depth": 1,
+          "text": "Research Marathon — 2026-08-11"
+        },
+        {
+          "anchor": "1-starting-state-audit-wave-0",
+          "depth": 2,
+          "text": "1. Starting-state audit (Wave 0)"
+        },
+        {
+          "anchor": "2-research-waves-completed",
+          "depth": 2,
+          "text": "2. Research waves completed"
+        },
+        {
+          "anchor": "wave-1--ledger-meta-audit",
+          "depth": 3,
+          "text": "Wave 1 — Ledger meta-audit"
+        },
+        {
+          "anchor": "wave-2--boring-industry-deep-dive-10-industries-examined",
+          "depth": 3,
+          "text": "Wave 2 — Boring-industry deep-dive (10 industries examined)"
+        },
+        {
+          "anchor": "funeral-services--strong-validated-cell",
+          "depth": 4,
+          "text": "Funeral services — strong-validated cell"
+        },
+        {
+          "anchor": "freight-broker-invoice-audit-cell--fully-occupied-in-2025-26",
+          "depth": 4,
+          "text": "Freight broker invoice audit cell — fully occupied in 2025-26"
+        },
+        {
+          "anchor": "wave-3--libraryacademic-scout",
+          "depth": 3,
+          "text": "Wave 3 — Library/academic scout"
+        },
+        {
+          "anchor": "wave-4--service-disruption-hunt--competitor-landscape",
+          "depth": 3,
+          "text": "Wave 4 — Service disruption hunt + competitor landscape"
+        },
+        {
+          "anchor": "wave-5--technology-frontier",
+          "depth": 3,
+          "text": "Wave 5 — Technology frontier"
+        },
+        {
+          "anchor": "wave-6--graveyard-archaeology",
+          "depth": 3,
+          "text": "Wave 6 — Graveyard archaeology"
+        },
+        {
+          "anchor": "wave-7--cross-domain-transfer",
+          "depth": 3,
+          "text": "Wave 7 — Cross-domain transfer"
+        },
+        {
+          "anchor": "wave-8--competitor-gauntlet",
+          "depth": 3,
+          "text": "Wave 8 — Competitor gauntlet"
+        },
+        {
+          "anchor": "wave-9--weirdness-round",
+          "depth": 3,
+          "text": "Wave 9 — Weirdness round"
+        },
+        {
+          "anchor": "wave-10--falsification-tournament",
+          "depth": 3,
+          "text": "Wave 10 — Falsification tournament"
+        },
+        {
+          "anchor": "3-new-idea-hypotheses-added-to-canonical-corpus",
+          "depth": 2,
+          "text": "3. New idea hypotheses added to canonical corpus"
+        },
+        {
+          "anchor": "4-what-the-ledger-knows-now-that-it-did-not-know-at-session-start",
+          "depth": 2,
+          "text": "4. What the Ledger knows now that it did not know at session start"
+        },
+        {
+          "anchor": "5-changes-to-canonical-corpus",
+          "depth": 2,
+          "text": "5. Changes to canonical corpus"
+        },
+        {
+          "anchor": "6-recommended-next-research-wave",
+          "depth": 2,
+          "text": "6. Recommended next research wave"
+        },
+        {
+          "anchor": "what-the-agent-can-do-next-no-human-outreach-required",
+          "depth": 3,
+          "text": "What the agent can do next (no human outreach required)"
+        },
+        {
+          "anchor": "what-requires-human-action-explicitly-not-in-the-agents-plan",
+          "depth": 3,
+          "text": "What requires human action (explicitly NOT in the agent's plan)"
+        },
+        {
+          "anchor": "7-falsification-experiments-designed-per-the-rounds-cheap-is-better-rule",
+          "depth": 2,
+          "text": "7. Falsification experiments designed (per the round's \"cheap is better\" rule)"
+        },
+        {
+          "anchor": "agent-runnable-no-human-contact-required",
+          "depth": 3,
+          "text": "Agent-runnable (no human contact required)"
+        },
+        {
+          "anchor": "requires-human-the-user-an-agency-or-a-paid-recruiter",
+          "depth": 3,
+          "text": "Requires human (the user, an agency, or a paid recruiter)"
+        },
+        {
+          "anchor": "8-meta-lessons-durable-for-the-institution",
+          "depth": 2,
+          "text": "8. Meta-lessons (durable for the institution)"
+        },
+        {
+          "anchor": "9-decisions-taken",
+          "depth": 2,
+          "text": "9. Decisions taken"
+        },
+        {
+          "anchor": "10-research-queue-remaining",
+          "depth": 2,
+          "text": "10. Research queue remaining"
+        },
+        {
+          "anchor": "11-continuation-audit-correction",
+          "depth": 2,
+          "text": "11. Continuation audit correction"
+        },
+        {
+          "anchor": "12-recommended-next-research-wave",
+          "depth": 2,
+          "text": "12. Recommended next research wave"
+        }
+      ],
+      "linkedIdeaIds": [
+        "billdr",
+        "brief-case-onboarding",
+        "canarycall",
+        "castcut-repurpose",
+        "certchase-funeral-signature-expediter",
+        "closinglens",
+        "compass-rosetta",
+        "cordless-morning-readiness",
+        "cottage-exemption-tracker",
+        "deadrepo",
+        "denialpilot",
+        "docket-guard",
+        "dottie-adhd-companion",
+        "fafsadecoder",
+        "firstsession",
+        "flamecheck",
+        "homepulse-operator-score",
+        "ieppilot",
+        "insurancereaper",
+        "job-note-structurer",
+        "knockoff-radar",
+        "lattice-attention-os",
+        "lemonlawai",
+        "lotmatch-r12d-2026-08-11",
+        "multistate-form-synthesizer-funeral",
+        "otddecoder",
+        "pausemarket",
+        "payroll-picket",
+        "pendant-trust-layer",
+        "pharmacompass",
+        "pharmacysentry",
+        "practice-pulse",
+        "priorauthpilot",
+        "proofring",
+        "pulse-nfc-ritual",
+        "rateradar",
+        "renewalready",
+        "rentshield",
+        "service-business-recap-engine",
+        "servicerlock",
+        "showup-no-show-credit",
+        "slotscope",
+        "subrefund",
+        "subwatchdog",
+        "sunday-reflection",
+        "surchargescope",
+        "taponly-card-directory",
+        "taproom-podcast-community",
+        "vibepm",
+        "waitlistrelay"
+      ],
+      "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+      "route": "/research/research-marathon-2026-08-11",
+      "sha256": "sha256:5012d3025ab6c4316da2bf861916dee5c49f343832d2112c4c7064fde98bb721",
+      "slug": "research-marathon-2026-08-11",
+      "title": "Research Marathon — 2026-08-11"
     },
     {
       "headings": [
@@ -8423,6 +8812,7 @@
         }
       ],
       "linkedIdeaIds": [
+        "cottage-exemption-tracker",
         "freight-line-pro"
       ],
       "path": "docs/ROUND-12-MECHANISM-MAP.md",
@@ -9140,6 +9530,7 @@
         }
       ],
       "linkedIdeaIds": [
+        "lotmatch-r12d-2026-08-11",
         "photo-invoice-micro-trades"
       ],
       "path": "docs/ROUND-12-SNAPINVOICE-FALSIFICATION.md",
@@ -10637,5 +11028,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:4508d25b7be02f5978d39b3f9eb6ea96fd84b09a5f5c49ee3c0c5cc03816f11b"
+  "sourceHash": "sha256:e75303fe0be54388043fbe8fd37716743244237aaef2a75c5d34276780412da6"
 }

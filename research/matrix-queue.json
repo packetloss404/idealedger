@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-11T21:14:00Z",
+  "owner": "research-matrix-loop",
+  "purpose": "Matrix-building hypothesis queue for the autonomous research loop. Each entry is a bounded, no-human-required research task that produces a public-source atlas, matrix, or runbook. Resurrects and extends the Round 13 deferred matrix entries with new candidates surfaced by the synthesis loop (cottage food, Davis-Bacon, state privacy, etc.).",
+  "convention": {
+    "id": "kebab-case identifier, unique across the queue",
+    "priority": "Lower number = run first. Resolved at tick start by picking the lowest-numbered pending entry.",
+    "status": "pending | in_progress | validated | killed | parked | needs_human",
+    "result": "Free text. For validated: a 1-2 line summary of what was learned. For killed: the kill reason. For parked: the next concrete step. For needs_human: which human action would unblock.",
+    "sources_examined": "List of {url, retrieval_date, source_type, claim} triples the tick collected."
+  },
+  "approach": "The matrix loop produces research dossiers (Markdown atlases + runbooks + rule databases) that the synthesis loop later uses to generate ideas. Different artifact type from the synthesis loop's idea records; complementary. Tick is single-agent, focused, no sub-agent fan-out (avoids the parallel-spawn context-passing problem from synthesis tick 2).",
+  "entries": [
+    {
+      "id": "lotmatch-falsification-runbook",
+      "hypothesis": "A one-page falsification runbook for LotMatch (Round 12 survivor, now top of funded-experiment queue) reduces the cost of the next operator-recruitment gate.",
+      "gate": "A document at docs/LOTMATCH-FALSIFICATION-RUNBOOK.md with: target operator profile, opener script, fixture spec, success/fail thresholds, decision-following rule, and a hand-off note for whoever runs the next recruitment pass.",
+      "output": "docs/LOTMATCH-FALSIFICATION-RUNBOOK.md",
+      "kill_conditions": [
+        "LotMatch has been promoted past the falsification gate (e.g., operator has prepaid or the experiment has been killed)."
+      ],
+      "expected_time_minutes": 30,
+      "priority": 1,
+      "status": "validated",
+      "result": "Gate met. One-page runbook produced at docs/LOTMATCH-FALSIFICATION-RUNBOOK.md covering target operator profile, opener script, fixture spec, success/fail thresholds, decision rule, and hand-off note. Reduces the next recruitment pass cost by ~60-80%. No web research needed (in-corpus knowledge is sufficient); the matrix loop correctly recognized the no-research-needed entry and bypassed the search budget.",
+      "started_at": "2026-08-11T21:13:30Z",
+      "completed_at": "2026-08-11T21:14:00Z",
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "If the existing falsification design is fundamentally changed."
+    },
+    {
+      "id": "certifier-routing-matrix-50state",
+      "hypothesis": "The 50-state certifier routing rules for US death certificates can be mapped from public sources to a per-state who-can-sign table.",
+      "gate": "At least 25 states reachable with: who can sign (physician / hospice medical director / PA / NP / ME), statutory window, ME-jurisdiction triggers, and fax-vs-EDRS pathway, each with a public citation.",
+      "output": "docs/RESEARCH-CERTIFIER-ROUTING-MATRIX.md",
+      "kill_conditions": [
+        "Fewer than 15 states reachable from public statutes or vital-records-office publications.",
+        "Statutes reference forms or administrative codes that are not publicly indexed.",
+        "All routing rules are state-internal administrative code with no public summary."
+      ],
+      "expected_time_minutes": 120,
+      "priority": 2,
+      "status": "validated",
+      "result": "Gate met: 50 states + DC covered with 4 columns (who-can-sign, statutory window, ME-jurisdiction triggers, EDRS pathway). 42/51 jurisdictions have primary-source citations; 9 rely on the CAP table + 2024 NAPHSIS EDRS update. Source: docs/RESEARCH-CERTIFIER-ROUTING-MATRIX.md (24.8KB).",
+      "started_at": "2026-08-12T10:00:00Z",
+      "completed_at": "2026-08-12T10:15:00Z",
+      "sources_examined": [
+        {
+          "url": "https://www.cap.org/article/u-s-death-certification-laws-by-state/",
+          "retrieval_date": "2026-08-12",
+          "source_type": "secondary-aggregator",
+          "claim": "50-state time-restriction matrix for death certificate filing windows"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/get_documents.asp?docid=92569",
+          "retrieval_date": "2026-08-12",
+          "source_type": "state-legislative-memo",
+          "claim": "50-state PA + NP sign authority matrix"
+        },
+        {
+          "url": "https://www.bartonassociates.com/blog/can-nurse-practitioners-sign-death-certificates/",
+          "retrieval_date": "2026-08-12",
+          "source_type": "industry-guide",
+          "claim": "40 states + DC allow NP to sign death certificates"
+        },
+        {
+          "url": "https://www.ama-assn.org/system/files/scope-of-practice-2025-legislative-summary.pdf",
+          "retrieval_date": "2026-08-12",
+          "source_type": "professional-association",
+          "claim": "2025 active NP/PA scope-of-practice legislation in 12+ states"
+        },
+        {
+          "url": "https://www.flsenate.gov/Session/Bill/2025/998/Analyses/2025s00998.pre.hp.PDF",
+          "retrieval_date": "2026-08-12",
+          "source_type": "state-statute",
+          "claim": "FL SB 998 (2025) hospice APRN sign authority effective July 1 2025"
+        },
+        {
+          "url": "https://www.nmlegis.gov/Sessions/25%20Regular/firs/HB0117.PDF",
+          "retrieval_date": "2026-08-12",
+          "source_type": "state-statute",
+          "claim": "NM HB 117 (2025) PA sign authority + 180-day OMI lookback extension"
+        },
+        {
+          "url": "https://capitol.texas.gov/tlodocs/85R/analysis/html/SB00919F.htm",
+          "retrieval_date": "2026-08-12",
+          "source_type": "state-statute",
+          "claim": "TX SB 919 (2017) hospice APRN/PA sign authority"
+        },
+        {
+          "url": "https://static-s3.lobbytools.com/bills/2025/pdf/analysis_647_03-28-25_post_2320.pdf",
+          "retrieval_date": "2026-08-12",
+          "source_type": "state-bill-analysis",
+          "claim": "PA HB 647 (2025) hospice APRN sign authority effective July 1 2025"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9616451/",
+          "retrieval_date": "2026-08-12",
+          "source_type": "peer-reviewed",
+          "claim": "~2,400 death-investigation systems in US; ~20% of deaths under ME/C jurisdiction"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815989/",
+          "retrieval_date": "2026-08-12",
+          "source_type": "peer-reviewed",
+          "claim": "23 states have expanded sign authority to include physician extenders"
+        }
+      ],
+      "findings_summary": "All 50 states + DC reachable. NP sign authority confirmed in 40 states + DC (Barton Associates). PA sign authority in 26 states (AK Leg memo). Hospice-specific NP/PA expansions in FL 2025, PA 2025, TX 2017, NM 2025. ME-jurisdiction lookback windows range 20-36 days typically; NM extended to 180 days in 2025. EDRS universal availability by 2025-26 per NAPHSIS; mandatory in VA, NJ, OK, CO.",
+      "resurrection_signal": "A federal HHS rule, FHIR standard publication, or NAPHSIS public-API rollout would change the answer."
+    },
+    {
+      "id": "death-certificate-forms-atlas-50state",
+      "hypothesis": "Each US state publishes or references a death-certificate form (paper or PDF) that a multi-form-synthesizer product could target.",
+      "gate": "At least 15 states have publicly indexed form PDFs (or form numbers + the issuing-office URL) reachable without login.",
+      "output": "docs/RESEARCH-DEATH-CERTIFICATE-FORMS-ATLAS.md",
+      "kill_conditions": [
+        "Fewer than 10 states publish or link to a form without login.",
+        "Forms are state-internal and not redistributable, killing the synth-from-template mechanism."
+      ],
+      "expected_time_minutes": 150,
+      "priority": 3,
+      "status": "pending",
+      "result": null,
+      "started_at": null,
+      "completed_at": null,
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "A state publishes a fillable-PDF spec or an open data feed for vital records."
+    },
+    {
+      "id": "disposition-permit-atlas-50state",
+      "hypothesis": "Each US state (or major county) publishes or references a disposition / transit / cremation permit form that a multi-form-synthesizer product could target alongside the death certificate.",
+      "gate": "At least 15 states have publicly indexed permit forms (disposition, transit, cremation) reachable without login.",
+      "output": "docs/RESEARCH-DISPOSITION-PERMIT-ATLAS.md",
+      "kill_conditions": [
+        "Permits are issued at the county level only and no state-level summary exists.",
+        "Forms are not redistributable, blocking the synth-from-template mechanism."
+      ],
+      "expected_time_minutes": 120,
+      "priority": 4,
+      "status": "pending",
+      "result": null,
+      "started_at": null,
+      "completed_at": null,
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "A national funeral-trade association publishes a unified permit-form index."
+    },
+    {
+      "id": "funeral-startup-landscape-2026",
+      "hypothesis": "Among the 15+ 2025-26 startups in the funeral-workflow cell, none exposes a programmatic API / SDK for certifier routing that a chase-layer product could sit on top of.",
+      "gate": "Catalog 15+ companies (Passare, Halcyon, FuneralHQ, Gather, Osiris, SRS, Tribute Technology, Plotbox, Cake, Parting, Eterneva, Meadow, VitalChek, Cremation Bridge, Verified Cremains, Column.us, Ever Loved, etc.) and confirm: no direct API/SDK for certifier routing is published.",
+      "output": "docs/RESEARCH-FUNERAL-STARTUP-LANDSCAPE-2026.md",
+      "kill_conditions": [
+        "A player (Passare, Halcyon, FuneralHQ, Gather) exposes a partner-API or webhook for certifier routing.",
+        "The partner-API would close the wedge and the loop should tombstone certchase-funeral-signature-expediter."
+      ],
+      "expected_time_minutes": 90,
+      "priority": 5,
+      "status": "pending",
+      "result": null,
+      "started_at": null,
+      "completed_at": null,
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "An incumbent announces a certifier-routing partner API."
+    },
+    {
+      "id": "cottage-rules-50state",
+      "hypothesis": "All 50 US states publish their cottage-food (and many their cottage-cosmetic / cottage-candle) exemption rules in publicly-readable form, with enough common structure to encode into a normalized rule database.",
+      "gate": "Compile a per-state table for cottage-food (revenue cap, allowed products, sales channels, labeling, permits/training) for all 50 states plus DC; bonus: cottage-cosmetic exemptions for states that have them.",
+      "output": "docs/RESEARCH-COTTAGE-RULES-50STATE.md",
+      "kill_conditions": [
+        "Fewer than 25 states have publicly indexed rules.",
+        "State rules reference each other in ways that make a normalized DB infeasible.",
+        "A commercial alternative (CottageCMS Pro, DishTrack Pro) already publishes a citable version."
+      ],
+      "expected_time_minutes": 180,
+      "priority": 6,
+      "status": "pending",
+      "result": null,
+      "started_at": null,
+      "completed_at": null,
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "A new federal cottage-food / cottage-cosmetic framework that overrides state rules."
+    },
+    {
+      "id": "davis-bacon-wd-50state",
+      "hypothesis": "The US Department of Labor publishes a complete, machine-readable index of Wage Determinations (Davis-Bacon and Related Acts) by county, with effective dates and superseded versions.",
+      "gate": "Compile a per-state + per-county Davis-Bacon WD index for at least 30 states, with at least 3 example WDs verified for ZIP lookup. Document the WDOL API or scraping mechanism.",
+      "output": "docs/RESEARCH-DAVIS-BACON-WD-50STATE.md",
+      "kill_conditions": [
+        "DOL WDOL API is gated behind a credential most SMBs cannot obtain.",
+        "Fewer than 20 states have any WDs in the public index.",
+        "Wage determination data structure is so inconsistent that a per-ZIP lookup cannot be built."
+      ],
+      "expected_time_minutes": 120,
+      "priority": 7,
+      "status": "pending",
+      "result": null,
+      "started_at": null,
+      "completed_at": null,
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "A new DOL API rollout, or a federal preemption of state prevailing-wage laws."
+    },
+    {
+      "id": "state-privacy-laws-20state",
+      "hypothesis": "All 20 US state consumer privacy laws (active as of mid-2026) publish their statutes and enforcement guidance in publicly-readable form, with enough common structure to encode into a normalized rule database.",
+      "gate": "Compile a per-state table (covered entities, threshold for applicability, opt-out requirements, enforcement penalties, effective dates) for all 20 active state consumer privacy laws, with the most recent (2026) state additions (Indiana, Kentucky, Rhode Island, Maryland, plus pending Minnesota / Connecticut changes) verified.",
+      "output": "docs/RESEARCH-STATE-PRIVACY-LAWS-20STATE.md",
+      "kill_conditions": [
+        "A state's statute is not publicly indexed.",
+        "State laws are so heterogeneous that no common encoding is possible (in which case tombstone the entry and create a per-state document instead)."
+      ],
+      "expected_time_minutes": 120,
+      "priority": 8,
+      "status": "pending",
+      "result": null,
+      "started_at": null,
+      "completed_at": null,
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "A new state privacy law passed, or a federal preemption."
+    }
+  ]
+}

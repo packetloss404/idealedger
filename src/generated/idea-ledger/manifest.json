@@ -1,10 +1,10 @@
 {
   "counts": {
-    "dossiers": 50,
+    "dossiers": 52,
     "focusGroupStudies": 33,
-    "ideas": 348,
-    "researchEdges": 501,
-    "searchDocuments": 398
+    "ideas": 398,
+    "researchEdges": 605,
+    "searchDocuments": 450
   },
   "generatorVersion": 4,
   "sourceFiles": [
@@ -112,6 +112,16 @@
       "bytes": 30936,
       "path": "docs/PAIN-MINING-DOSSIER.md",
       "sha256": "sha256:2b9a69e8b9fd038b861ff34ee89caa67c8c1ab279c1414af43cefaeb9a87f9b3"
+    },
+    {
+      "bytes": 78917,
+      "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+      "sha256": "sha256:a3dc7cbc7260ffcea07ae1fbc144aab4357529b6dac8816f44a458e224cb68b2"
+    },
+    {
+      "bytes": 34123,
+      "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+      "sha256": "sha256:5012d3025ab6c4316da2bf861916dee5c49f343832d2112c4c7064fde98bb721"
     },
     {
       "bytes": 8569,
@@ -264,12 +274,12 @@
       "sha256": "sha256:155b8932b0705717554398316202447c37902ef4d56f6265205ca7d5280abb34"
     },
     {
-      "bytes": 320569,
+      "bytes": 489432,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:08b5435843146ee3b00b6ef45f2d525f7dd9be68f9ca30bec6ff38e697656402"
+      "sha256": "sha256:97d9f6d7e7f69cb37c2835ce063f7bfb4d11011e49f5d43c48cac19c6537c162"
     }
   ],
-  "sourceHash": "sha256:4508d25b7be02f5978d39b3f9eb6ea96fd84b09a5f5c49ee3c0c5cc03816f11b",
+  "sourceHash": "sha256:e75303fe0be54388043fbe8fd37716743244237aaef2a75c5d34276780412da6",
   "sourceSchemaVersion": 1,
-  "sourceUpdatedAt": "2026-08-11"
+  "sourceUpdatedAt": "2026-08-12"
 }

@@ -1,0 +1,62 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-08-11T20:39:00Z",
+  "owner": "research-loop",
+  "purpose": "Hypothesis queue for the autonomous research loop. Each entry has a falsifiable gate, a kill condition set, an expected output path, and a status the loop maintains.",
+  "approach_change": "Round 13 update: user redirected the loop from matrix-building (certifier routing, form atlases) to ingestion+synthesis. The new approach pulls fresh data (web search, articles, news, Reddit, HN) every tick, runs a brain trust of sub-agents (research ingestor, focus-group synthesizer, database updater) to extract pain signals and idea hypotheses, and updates docs/idea-database.json. Matrix-building entries from the prior approach are kept here as reference but not actively pursued unless the synthesis loop surfaces them.",
+  "convention": {
+    "id": "kebab-case identifier, unique across the queue",
+    "priority": "Lower number = run first. Resolved at tick start by picking the lowest-numbered pending entry.",
+    "status": "pending | in_progress | validated | killed | parked | needs_human",
+    "result": "Free text. For validated: a 1-2 line summary of what was learned. For killed: the kill reason. For parked: the next concrete step. For needs_human: which human action would unblock.",
+    "sources_examined": "List of {url, retrieval_date, source_type, claim} triples the tick collected."
+  },
+  "entries": [
+    {
+      "id": "synthesis-tick-template",
+      "hypothesis": "Each tick of the synthesis loop should: (1) ingest 5-10 fresh sources, (2) extract 2-5 new pain/workaround signals via focus-group simulation, (3) generate 1-3 idea hypotheses via mock-hackathon lens, (4) dedupe against the corpus, (5) persist surviving ideas to docs/idea-database.json as raw or validating records, (6) regenerate the catalog, (7) re-schedule.",
+      "gate": "Per-tick: at least 5 fresh sources, at least 1 new idea hypothesis that survives dedupe (no exact match in the existing 352-idea corpus), and at least 1 record added to the corpus OR a documented kill reason.",
+      "output": "Append to research/loop-log.jsonl; update docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md; may add 1-3 new records to docs/idea-database.json.",
+      "kill_conditions": [
+        "Three consecutive ticks produce no surviving new ideas (information-gain floor).",
+        "Corpus warnings exceed 5% (data quality bar).",
+        "Token budget exhausted before the gate is reachable."
+      ],
+      "expected_time_minutes": 45,
+      "priority": 1,
+      "status": "pending",
+      "result": null,
+      "started_at": null,
+      "completed_at": null,
+      "sources_examined": [],
+      "findings_summary": null,
+      "resurrection_signal": "User intervention or a new high-signal source category that the current search formula misses."
+    }
+  ],
+  "deferred_matrix_entries": [
+    {
+      "id": "certifier-routing-matrix-50state",
+      "note": "Deferred per user redirection. Survives in the runbook as a future build target if the funeral cell remains unoccupied after the synthesis loop's pass. Revival requires user approval."
+    },
+    {
+      "id": "death-certificate-forms-atlas-50state",
+      "note": "Deferred per user redirection. Same revival conditions."
+    },
+    {
+      "id": "disposition-permit-atlas-50state",
+      "note": "Deferred per user redirection. Same revival conditions."
+    },
+    {
+      "id": "funeral-startup-landscape-2026",
+      "note": "Deferred per user redirection. Same revival conditions."
+    },
+    {
+      "id": "adjacent-chase-cells-scan",
+      "note": "Deferred per user redirection. The synthesis loop's mock focus-group / mock hackathon phases will surface adjacent cells as a side-effect, so this explicit scan is not needed."
+    },
+    {
+      "id": "lotmatch-falsification-runbook",
+      "note": "Deferred per user redirection. Can be produced as a side-effect of the synthesis loop if LotMatch-relevant signals surface."
+    }
+  ]
+}
