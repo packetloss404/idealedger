@@ -1,16 +1,16 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 161,
+    "dossierRefsWithoutMention": 164,
     "dossiers": 52,
     "headingMatchedIdeas": 211,
     "headingReferences": 253,
-    "ideas": 413,
+    "ideas": 416,
     "ideasWithoutResearch": 9,
-    "mentionOnlyIdeas": 169,
-    "mentionReferences": 221,
-    "multiRefIdeas": 151,
-    "researchEdges": 635,
-    "unmappedReferences": 161
+    "mentionOnlyIdeas": 172,
+    "mentionReferences": 224,
+    "multiRefIdeas": 154,
+    "researchEdges": 641,
+    "unmappedReferences": 164
   },
   "researchProvenance": [
     {
@@ -2707,6 +2707,24 @@
       ]
     },
     {
+      "ideaId": "govform-50state",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "grooming-scope-approval",
       "quality": "mention",
       "references": [
@@ -3107,6 +3125,24 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "irsnotice-decoder",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -5038,6 +5074,24 @@
     },
     {
       "ideaId": "proofring",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "proptax-appeal",
       "quality": "mention",
       "references": [
         {
@@ -7312,6 +7366,7 @@
     "30c",
     "311",
     "401k",
+    "50-state",
     "Davis-Bacon",
     "WH-347",
     "aaa-routing",
@@ -7340,16 +7395,16 @@
     "albums",
     "ambient-ai",
     "animal-care",
-    "annual-ritual",
     "anxiety",
     "app-intents",
-    "appeal",
     "appeals",
     "apple-foundation-models",
     "apple-watch",
+    "appraisal",
     "approval-gated",
     "approvals",
     "apps",
+    "arb",
     "archive",
     "arithmetic",
     "arrival",
@@ -7393,6 +7448,7 @@
     "ble",
     "bluetooth-pedal",
     "bnpl",
+    "board-of-equalization",
     "boating",
     "bookkeeping",
     "breakage",
@@ -7418,6 +7474,7 @@
     "carplay",
     "carriers",
     "cars",
+    "cdp",
     "cellular",
     "certified-payroll",
     "cfpb-1071",
@@ -7452,6 +7509,7 @@
     "coffee",
     "cogs",
     "collaboration",
+    "collection",
     "college",
     "color-vision",
     "commerce",
@@ -7459,6 +7517,7 @@
     "community",
     "commute",
     "commuting",
+    "comparable-sales",
     "composites",
     "compression",
     "connectivity",
@@ -7480,6 +7539,9 @@
     "counter",
     "counting",
     "coupons",
+    "cp2000",
+    "cp504",
+    "cp90",
     "crafts",
     "creative-tools",
     "creator-business",
@@ -7532,7 +7594,6 @@
     "disruption",
     "distribution",
     "dj",
-    "dmv",
     "docket",
     "doordash",
     "drafts",
@@ -7616,12 +7677,14 @@
     "flooring",
     "florists",
     "fluids",
+    "foia",
     "folios",
     "fonts",
     "food-allergies",
     "food-inflation",
     "food-logging",
     "food-stamps",
+    "form-decoder",
     "formats",
     "formula",
     "formulary",
@@ -7647,6 +7710,7 @@
     "glyphs",
     "goodrx-alternative",
     "google-business-profile",
+    "government",
     "green-button",
     "groceries",
     "grocery",
@@ -7674,6 +7738,7 @@
     "home-insurance",
     "home-mods",
     "home-theater",
+    "homeowner",
     "homeowners",
     "homes",
     "horses",
@@ -7705,6 +7770,7 @@
     "invoicing",
     "iot",
     "irmaa",
+    "irs",
     "itinerary",
     "jobber",
     "jobs",
@@ -7797,6 +7863,7 @@
     "no-show",
     "no-surprises-act",
     "no-wearable",
+    "notice",
     "nutrition",
     "obbb",
     "ocr-llm",
@@ -7878,6 +7945,7 @@
     "products",
     "profit",
     "property-management",
+    "property-tax",
     "provenance",
     "provider-network",
     "proximity",
@@ -8023,6 +8091,8 @@
     "tags",
     "takeout",
     "tap-to-pay",
+    "tax-court",
+    "taxpayer",
     "teardown",
     "temperature",
     "tenant-rights",
@@ -8049,6 +8119,7 @@
     "tou",
     "towing",
     "trade-in",
+    "traffic",
     "training",
     "transit",
     "transitions",
@@ -8084,6 +8155,7 @@
     "voice-companion",
     "voice-extraction",
     "voice-only",
+    "voter-registration",
     "voting",
     "vouchers",
     "waitlist-arbitrage",
@@ -8106,11 +8178,11 @@
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:38a7ccd499b1af5a620eaa5ca8aae076beb4812f3866c105f9fdb9b395040ecd",
+  "sourceHash": "sha256:31998c19380769bf3b2dc00170d0f7ab488e1d4f460139c186754dcb84f97ebe",
   "tagStats": {
-    "assignments": 2512,
-    "doubletons": 126,
-    "singletons": 799,
-    "unique": 1120
+    "assignments": 2571,
+    "doubletons": 128,
+    "singletons": 817,
+    "unique": 1141
   }
 }

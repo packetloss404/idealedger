@@ -2,9 +2,9 @@
   "counts": {
     "dossiers": 52,
     "focusGroupStudies": 33,
-    "ideas": 413,
-    "researchEdges": 635,
-    "searchDocuments": 465
+    "ideas": 416,
+    "researchEdges": 641,
+    "searchDocuments": 468
   },
   "generatorVersion": 4,
   "sourceFiles": [
@@ -114,9 +114,9 @@
       "sha256": "sha256:2b9a69e8b9fd038b861ff34ee89caa67c8c1ab279c1414af43cefaeb9a87f9b3"
     },
     {
-      "bytes": 140628,
+      "bytes": 152727,
       "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
-      "sha256": "sha256:54f288283ad425d135d09a7a24cb6cd9b189f7a70dd2086aab26cab1340328e2"
+      "sha256": "sha256:78dc6455aa6995832752ab014bc2e962ad16ed5aa64d421b422bf62dc78fb189"
     },
     {
       "bytes": 34123,
@@ -274,12 +274,12 @@
       "sha256": "sha256:155b8932b0705717554398316202447c37902ef4d56f6265205ca7d5280abb34"
     },
     {
-      "bytes": 536326,
+      "bytes": 547707,
       "path": "docs/idea-database.json",
-      "sha256": "sha256:103db1d068d6c238870991e44ec6798a652af0b2a0db9005d1d73224328fafae"
+      "sha256": "sha256:c9e6ee0ed9caa42b08af1ab88ef4646f71166b18aea71be2c6b748c72ea77115"
     }
   ],
-  "sourceHash": "sha256:38a7ccd499b1af5a620eaa5ca8aae076beb4812f3866c105f9fdb9b395040ecd",
+  "sourceHash": "sha256:31998c19380769bf3b2dc00170d0f7ab488e1d4f460139c186754dcb84f97ebe",
   "sourceSchemaVersion": 1,
   "sourceUpdatedAt": "2026-08-12"
 }

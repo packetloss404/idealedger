@@ -189,6 +189,7 @@
     "gig-1099-deposit-reconciliation",
     "gig-payout-deposit-match",
     "git-push-journal",
+    "govform-50state",
     "grooming-scope-approval",
     "guest-access-receipt",
     "guest-wifi-qr",
@@ -214,6 +215,7 @@
     "instruction-readback-handshake",
     "insurancereaper",
     "invoice-math-reopen",
+    "irsnotice-decoder",
     "job-note-structurer",
     "keeper-buffer",
     "key-duplicate-visual-diff",
@@ -316,6 +318,7 @@
     "process-tracker-falsified",
     "proofing-catalog-seam",
     "proofring",
+    "proptax-appeal",
     "provider-network-double-check",
     "pulse-nfc-ritual",
     "pushback",
@@ -604,6 +607,7 @@
     "/ideas/gig-1099-deposit-reconciliation",
     "/ideas/gig-payout-deposit-match",
     "/ideas/git-push-journal",
+    "/ideas/govform-50state",
     "/ideas/grooming-scope-approval",
     "/ideas/guest-access-receipt",
     "/ideas/guest-wifi-qr",
@@ -629,6 +633,7 @@
     "/ideas/instruction-readback-handshake",
     "/ideas/insurancereaper",
     "/ideas/invoice-math-reopen",
+    "/ideas/irsnotice-decoder",
     "/ideas/job-note-structurer",
     "/ideas/keeper-buffer",
     "/ideas/key-duplicate-visual-diff",
@@ -731,6 +736,7 @@
     "/ideas/process-tracker-falsified",
     "/ideas/proofing-catalog-seam",
     "/ideas/proofring",
+    "/ideas/proptax-appeal",
     "/ideas/provider-network-double-check",
     "/ideas/pulse-nfc-ritual",
     "/ideas/pushback",
@@ -973,5 +979,5 @@
     "xprize-backpocket-opportunity-audit-2026-08-11",
     "xprize-focus-group-synthesis-2026-08-10"
   ],
-  "sourceHash": "sha256:38a7ccd499b1af5a620eaa5ca8aae076beb4812f3866c105f9fdb9b395040ecd"
+  "sourceHash": "sha256:31998c19380769bf3b2dc00170d0f7ab488e1d4f460139c186754dcb84f97ebe"
 }
