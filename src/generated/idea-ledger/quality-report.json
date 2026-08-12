@@ -1,16 +1,16 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 158,
+    "dossierRefsWithoutMention": 161,
     "dossiers": 52,
     "headingMatchedIdeas": 211,
     "headingReferences": 253,
-    "ideas": 410,
+    "ideas": 413,
     "ideasWithoutResearch": 9,
-    "mentionOnlyIdeas": 166,
-    "mentionReferences": 218,
-    "multiRefIdeas": 148,
-    "researchEdges": 629,
-    "unmappedReferences": 158
+    "mentionOnlyIdeas": 169,
+    "mentionReferences": 221,
+    "multiRefIdeas": 151,
+    "researchEdges": 635,
+    "unmappedReferences": 161
   },
   "researchProvenance": [
     {
@@ -1997,6 +1997,24 @@
       "references": []
     },
     {
+      "ideaId": "ebtshield",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "embroidery-hoop-gate",
       "quality": "heading",
       "references": [
@@ -2269,6 +2287,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND8.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "feebust",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -4861,6 +4897,24 @@
       ]
     },
     {
+      "ideaId": "pricebench",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "primary-source-receipts",
       "quality": "heading",
       "references": [
@@ -7377,6 +7431,7 @@
     "checkout",
     "checkpoint",
     "checksums",
+    "chip-card",
     "chronic-illness",
     "cinema",
     "civic",
@@ -7479,6 +7534,7 @@
     "dj",
     "dmv",
     "docket",
+    "doordash",
     "drafts",
     "drain-plug",
     "drapery",
@@ -7489,6 +7545,7 @@
     "dyslexia",
     "earbuds",
     "ebooks",
+    "ebt",
     "ecommerce",
     "economic-euthanasia",
     "effective-apr",
@@ -7536,6 +7593,7 @@
     "fasteners",
     "fda",
     "feature",
+    "fee",
     "fee-transparency",
     "feeders",
     "fema",
@@ -7561,7 +7619,9 @@
     "folios",
     "fonts",
     "food-allergies",
+    "food-inflation",
     "food-logging",
+    "food-stamps",
     "formats",
     "formula",
     "formulary",
@@ -7589,6 +7649,7 @@
     "google-business-profile",
     "green-button",
     "groceries",
+    "grocery",
     "grooming",
     "guest-access",
     "guests",
@@ -7636,6 +7697,7 @@
     "indie-dev",
     "infrastructure",
     "inspections",
+    "instacart",
     "interference",
     "interruption",
     "invitations",
@@ -7686,6 +7748,7 @@
     "low-friction",
     "luggage",
     "m1-un-invoiced-detector",
+    "m16-change-digest",
     "m4-paired-handoff",
     "m7-evidence-pack-builder",
     "m8-escalation-nudger",
@@ -7702,6 +7765,7 @@
     "marketman",
     "markets",
     "mca",
+    "meal-cost",
     "measurements",
     "mechanism-lineage-m6-m18",
     "medicare",
@@ -7856,12 +7920,14 @@
     "renters",
     "repairs",
     "repayment",
+    "replacement",
     "replacement-parts",
     "replenishment",
     "reporting",
     "repurpose",
     "resin",
     "restaurant",
+    "restaurant-direct",
     "resumable",
     "retirement",
     "revival",
@@ -7915,6 +7981,8 @@
     "shortages",
     "side-project",
     "silhouette",
+    "skimming",
+    "sku-tracker",
     "slots",
     "smb",
     "sole-prop",
@@ -7937,7 +8005,9 @@
     "stimulant-shortage",
     "stl",
     "stockout",
+    "stolen-benefits",
     "storage",
+    "store-brand",
     "streaming",
     "stripe",
     "strong-substitute",
@@ -7945,6 +8015,7 @@
     "student-loans",
     "subcontractor",
     "substack",
+    "substitute",
     "subtitles",
     "supplier",
     "surprise-billing",
@@ -7968,6 +8039,7 @@
     "timezones",
     "timing",
     "tin-mismatch",
+    "tip-bait",
     "tips",
     "toast",
     "todoist",
@@ -7989,9 +8061,11 @@
     "tuning",
     "twilio",
     "typography",
+    "uber-eats",
     "upholstery",
     "urls",
     "usb",
+    "usda",
     "usps",
     "uti",
     "utility-bill",
@@ -8032,11 +8106,11 @@
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:47852b5d422140109c793b83196e110be34db15ceb0687ffd5f332b38ea56d48",
+  "sourceHash": "sha256:38a7ccd499b1af5a620eaa5ca8aae076beb4812f3866c105f9fdb9b395040ecd",
   "tagStats": {
-    "assignments": 2452,
-    "doubletons": 125,
-    "singletons": 779,
-    "unique": 1098
+    "assignments": 2512,
+    "doubletons": 126,
+    "singletons": 799,
+    "unique": 1120
   }
 }

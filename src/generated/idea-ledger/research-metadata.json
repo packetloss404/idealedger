@@ -5378,6 +5378,11 @@
           "anchor": "round-13-synthesis-tick-20-2026-08-12-1245",
           "depth": 2,
           "text": "Round 13 Synthesis Tick 20 (2026-08-12 ~12:45)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-21-2026-08-12-1300",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 21 (2026-08-12 ~13:00)"
         }
       ],
       "linkedIdeaIds": [
@@ -5396,8 +5401,10 @@
         "denialpilot",
         "docket-guard",
         "dottie-adhd-companion",
+        "ebtshield",
         "energysheet",
         "fafsadecoder",
+        "feebust",
         "firstsession",
         "flamecheck",
         "floodratereview",
@@ -5421,6 +5428,7 @@
         "pharmacompass",
         "pharmacysentry",
         "practice-pulse",
+        "pricebench",
         "priorauthpilot",
         "proofring",
         "pulse-nfc-ritual",
@@ -5445,7 +5453,7 @@
       ],
       "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
       "route": "/research/research-marathon-2026-08-11-tracker",
-      "sha256": "sha256:d211723e8cb4bf8c32c93fe869b43c0ce9bff6ea2c70e141f39b2b94d8922e1c",
+      "sha256": "sha256:54f288283ad425d135d09a7a24cb6cd9b189f7a70dd2086aab26cab1340328e2",
       "slug": "research-marathon-2026-08-11-tracker",
       "title": "Research Marathon Tracker — 2026-08-11 (continuation)"
     },
@@ -5613,8 +5621,10 @@
         "denialpilot",
         "docket-guard",
         "dottie-adhd-companion",
+        "ebtshield",
         "energysheet",
         "fafsadecoder",
+        "feebust",
         "firstsession",
         "flamecheck",
         "floodratereview",
@@ -5639,6 +5649,7 @@
         "pharmacompass",
         "pharmacysentry",
         "practice-pulse",
+        "pricebench",
         "priorauthpilot",
         "proofring",
         "pulse-nfc-ritual",
@@ -11072,5 +11083,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:47852b5d422140109c793b83196e110be34db15ceb0687ffd5f332b38ea56d48"
+  "sourceHash": "sha256:38a7ccd499b1af5a620eaa5ca8aae076beb4812f3866c105f9fdb9b395040ecd"
 }

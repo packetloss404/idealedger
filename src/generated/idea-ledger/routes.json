@@ -148,6 +148,7 @@
     "dual-format-safety-capture",
     "earbud-asymmetry-isolation",
     "ebay-replacement",
+    "ebtshield",
     "embroidery-hoop-gate",
     "embroidery-thread-gate",
     "emergency-shutoff-card",
@@ -165,6 +166,7 @@
     "fafsadecoder",
     "family-caregiving",
     "favorite-meal-quick-log",
+    "feebust",
     "field-shot-requirement-gate",
     "file-kind-probe",
     "film-stock-load-gate",
@@ -306,6 +308,7 @@
     "post-loss-recovery",
     "practice-pulse",
     "pre-loss-home-inventory",
+    "pricebench",
     "primary-source-receipts",
     "print-job-outbox",
     "print-media-roll-gate",
@@ -560,6 +563,7 @@
     "/ideas/dual-format-safety-capture",
     "/ideas/earbud-asymmetry-isolation",
     "/ideas/ebay-replacement",
+    "/ideas/ebtshield",
     "/ideas/embroidery-hoop-gate",
     "/ideas/embroidery-thread-gate",
     "/ideas/emergency-shutoff-card",
@@ -577,6 +581,7 @@
     "/ideas/fafsadecoder",
     "/ideas/family-caregiving",
     "/ideas/favorite-meal-quick-log",
+    "/ideas/feebust",
     "/ideas/field-shot-requirement-gate",
     "/ideas/file-kind-probe",
     "/ideas/film-stock-load-gate",
@@ -718,6 +723,7 @@
     "/ideas/post-loss-recovery",
     "/ideas/practice-pulse",
     "/ideas/pre-loss-home-inventory",
+    "/ideas/pricebench",
     "/ideas/primary-source-receipts",
     "/ideas/print-job-outbox",
     "/ideas/print-media-roll-gate",
@@ -967,5 +973,5 @@
     "xprize-backpocket-opportunity-audit-2026-08-11",
     "xprize-focus-group-synthesis-2026-08-10"
   ],
-  "sourceHash": "sha256:47852b5d422140109c793b83196e110be34db15ceb0687ffd5f332b38ea56d48"
+  "sourceHash": "sha256:38a7ccd499b1af5a620eaa5ca8aae076beb4812f3866c105f9fdb9b395040ecd"
 }
