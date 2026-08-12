@@ -44,6 +44,7 @@
     "ideas:validate": "node scripts/idea-ledger/cli.mjs validate",
     "ideas:generate": "node scripts/idea-ledger/cli.mjs generate",
     "ideas:check": "node scripts/idea-ledger/cli.mjs check",
+    "ideas:import-trove": "node scripts/idea-ledger/import-trove.mjs",
     "ideas:test": "node --test scripts/idea-ledger/test/*.test.mjs",
     "mclovin:plan": "node scripts/mclovin/plan.mjs",
     "mclovin:run": "node scripts/mclovin/run.mjs",

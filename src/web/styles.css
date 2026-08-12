@@ -2831,13 +2831,14 @@ a:hover {
 
   .ledger-table tbody tr {
     display: grid;
-    grid-template-columns: 54px 1fr;
+    grid-template-columns: 54px minmax(0, 1fr);
     column-gap: 13px;
     padding: 17px 1px 19px;
   }
 
   .ledger-table td {
     display: block;
+    min-width: 0;
     padding: 0;
   }
 
