@@ -22,8 +22,8 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   assert.equal(quality.counts.headingReferences, 253);
   assert.equal(quality.counts.mentionReferences, 213);
   assert.equal(quality.counts.unmappedReferences, 157);
-  assert.equal(quality.tagStats.assignments, 2382);
-  assert.equal(quality.tagStats.unique, 1069);
+  assert.equal(quality.tagStats.assignments, 2388);
+  assert.equal(quality.tagStats.unique, 1071);
   assert.equal(result.snapshot.sourceFiles.length, 54);
 
   const focusGroups = result.artifacts['focus-groups.json'];

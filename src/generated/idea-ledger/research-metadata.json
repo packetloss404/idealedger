@@ -5409,7 +5409,8 @@
         "pausemarket",
         "payroll-picket",
         "pendant-trust-layer",
-        "petinsure-pulse",
+        "pet-fairquote",
+        "pet-farewell-kit",
         "pharmacompass",
         "pharmacysentry",
         "practice-pulse",
@@ -5431,13 +5432,12 @@
         "taponly-card-directory",
         "taproom-podcast-community",
         "vetbill-decoder",
-        "vethelp24",
         "vibepm",
         "waitlistrelay"
       ],
       "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
       "route": "/research/research-marathon-2026-08-11-tracker",
-      "sha256": "sha256:abd42c35349be551429175372380c6b4205141e9197214b644fe72b776be6bf9",
+      "sha256": "sha256:8d3d14f4def81f08458efe9cc9f75e619dad75a6749f69a4b259901503f5057a",
       "slug": "research-marathon-2026-08-11-tracker",
       "title": "Research Marathon Tracker — 2026-08-11 (continuation)"
     },
@@ -5624,7 +5624,8 @@
         "pausemarket",
         "payroll-picket",
         "pendant-trust-layer",
-        "petinsure-pulse",
+        "pet-fairquote",
+        "pet-farewell-kit",
         "pharmacompass",
         "pharmacysentry",
         "practice-pulse",
@@ -5646,7 +5647,6 @@
         "taponly-card-directory",
         "taproom-podcast-community",
         "vetbill-decoder",
-        "vethelp24",
         "vibepm",
         "waitlistrelay"
       ],
@@ -11061,5 +11061,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:f5f803d24dbb60f6d642c1e242e88cd496e7737514d3da7bad5e7d28ef9659f3"
+  "sourceHash": "sha256:8b8ad876296c00fff04f251e9ebc454853e7ec2e9080d30130ec5824776eb8fc"
 }

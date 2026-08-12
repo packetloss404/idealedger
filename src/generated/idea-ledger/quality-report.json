@@ -4437,6 +4437,42 @@
       ]
     },
     {
+      "ideaId": "pet-fairquote",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "pet-farewell-kit",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "pet-food-runway",
       "quality": "mention",
       "references": [
@@ -4477,24 +4513,6 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP4.md",
           "quality": "heading"
-        }
-      ]
-    },
-    {
-      "ideaId": "petinsure-pulse",
-      "quality": "mention",
-      "references": [
-        {
-          "dossierSlug": "research-marathon-2026-08-11-tracker",
-          "heading": null,
-          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
-          "quality": "mention"
-        },
-        {
-          "dossierSlug": "research-marathon-2026-08-11",
-          "heading": null,
-          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
-          "quality": "unmapped"
         }
       ]
     },
@@ -6929,24 +6947,6 @@
       ]
     },
     {
-      "ideaId": "vethelp24",
-      "quality": "mention",
-      "references": [
-        {
-          "dossierSlug": "research-marathon-2026-08-11-tracker",
-          "heading": null,
-          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
-          "quality": "mention"
-        },
-        {
-          "dossierSlug": "research-marathon-2026-08-11",
-          "heading": null,
-          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
-          "quality": "unmapped"
-        }
-      ]
-    },
-    {
       "ideaId": "vibepm",
       "quality": "mention",
       "references": [
@@ -7235,6 +7235,7 @@
     "annual-ritual",
     "anxiety",
     "app-intents",
+    "appeal",
     "appeals",
     "apple-foundation-models",
     "apple-watch",
@@ -7245,6 +7246,7 @@
     "arithmetic",
     "arrival",
     "artists",
+    "aspca",
     "assets",
     "assistive-devices",
     "atm",
@@ -7281,6 +7283,7 @@
     "bill-dispute",
     "ble",
     "bluetooth-pedal",
+    "bnpl",
     "boating",
     "bookkeeping",
     "breakage",
@@ -7302,7 +7305,6 @@
     "card-payment",
     "care",
     "care-labels",
-    "carecredit",
     "caregiver-dashboard",
     "carplay",
     "carriers",
@@ -7323,7 +7325,6 @@
     "cinema",
     "civic",
     "claim-appeal",
-    "claim-denial",
     "client-brief",
     "client-communication",
     "client-onboarding",
@@ -7335,6 +7336,7 @@
     "cloud-storage",
     "coaching",
     "coastal",
+    "codapet",
     "coffee",
     "collaboration",
     "college",
@@ -7359,7 +7361,6 @@
     "controllers",
     "controls",
     "cost-compare",
-    "cost-pre-estimate",
     "cottage-cosmetics",
     "cottage-food",
     "counter",
@@ -7436,17 +7437,17 @@
     "electrification",
     "electronics",
     "elevation-certificate",
-    "emergency",
     "emergency-preparedness",
     "employers",
+    "end-of-life",
     "engraving",
     "eob",
     "epoxy",
     "epub",
-    "er-locator",
     "escalation",
     "esim",
     "estimates",
+    "euthanasia",
     "ev-charger",
     "event-log",
     "exceptions",
@@ -7468,6 +7469,7 @@
     "family-caregiver",
     "family-code-word",
     "family-safety",
+    "family-shared",
     "familycontrols",
     "fashion",
     "fasteners",
@@ -7543,6 +7545,7 @@
     "hearing",
     "hearing-aids",
     "heat-pump",
+    "hhhhhmm",
     "high-stakes",
     "hobbies",
     "home-insurance",
@@ -7558,6 +7561,7 @@
     "housing",
     "http",
     "human-in-the-loop",
+    "humane-society",
     "hurricane",
     "hvac",
     "ics",
@@ -7589,6 +7593,7 @@
     "keys",
     "keyword-spotting",
     "knitting",
+    "lap-of-love",
     "laser-cutting",
     "laundry",
     "leaks",
@@ -7604,6 +7609,7 @@
     "load-in",
     "local",
     "local-commerce",
+    "local-median",
     "local-network",
     "local-seo",
     "local-services",
@@ -7618,12 +7624,9 @@
     "low-friction",
     "luggage",
     "m1-un-invoiced-detector",
-    "m14-quote-price-registrar",
     "m4-paired-handoff",
-    "m6-entitlement-reference",
     "m7-evidence-pack-builder",
     "m8-escalation-nudger",
-    "m9-counterparty-routing",
     "magnetometer",
     "malpractice",
     "manual-claim",
@@ -7656,7 +7659,6 @@
     "multi-generational",
     "musicians",
     "myfitnesspal",
-    "naic-model-act",
     "navigation",
     "negotiation",
     "networking",
@@ -7709,6 +7711,7 @@
     "pesticides",
     "pet-emergency",
     "pet-grooming",
+    "pet-insurance",
     "pharmacy",
     "pharmacy-inventory",
     "phone",
@@ -7729,14 +7732,13 @@
     "portability",
     "post-nar",
     "practice",
-    "pre-auth",
-    "pre-existing",
     "pre-meeting",
     "prediction",
     "prescription-pricing",
     "prescriptions",
     "presence",
     "prevailing-wage",
+    "price-compare",
     "price-hike",
     "price-lock",
     "prices",
@@ -7750,6 +7752,7 @@
     "proximity",
     "public-services",
     "public-speaking",
+    "qol-diary",
     "quantified-self",
     "queue",
     "quick-entry",
@@ -7855,7 +7858,6 @@
     "standards",
     "state-aware",
     "state-doi-templates",
-    "state-statute",
     "statute-of-limitations",
     "stems",
     "stencil",
@@ -7875,7 +7877,6 @@
     "takeout",
     "tap-to-pay",
     "teardown",
-    "telehealth",
     "temperature",
     "tenant-rights",
     "terminal",
@@ -7904,7 +7905,6 @@
     "translation",
     "transmission",
     "transparency",
-    "triage",
     "tripod",
     "trucking",
     "trust-layer",
@@ -7921,8 +7921,9 @@
     "vacation-rentals",
     "vehicles",
     "venues",
+    "vet",
     "vet-bill",
-    "vet-supply",
+    "vet-estimate",
     "vibe-coding",
     "vibration",
     "vinyl",
@@ -7953,11 +7954,11 @@
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:f5f803d24dbb60f6d642c1e242e88cd496e7737514d3da7bad5e7d28ef9659f3",
+  "sourceHash": "sha256:8b8ad876296c00fff04f251e9ebc454853e7ec2e9080d30130ec5824776eb8fc",
   "tagStats": {
-    "assignments": 2382,
+    "assignments": 2388,
     "doubletons": 124,
-    "singletons": 754,
-    "unique": 1069
+    "singletons": 755,
+    "unique": 1071
   }
 }
