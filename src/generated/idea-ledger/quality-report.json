@@ -1,16 +1,16 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 154,
+    "dossierRefsWithoutMention": 157,
     "dossiers": 52,
     "headingMatchedIdeas": 211,
     "headingReferences": 253,
-    "ideas": 404,
+    "ideas": 407,
     "ideasWithoutResearch": 9,
-    "mentionOnlyIdeas": 158,
-    "mentionReferences": 210,
-    "multiRefIdeas": 142,
-    "researchEdges": 617,
-    "unmappedReferences": 154
+    "mentionOnlyIdeas": 161,
+    "mentionReferences": 213,
+    "multiRefIdeas": 145,
+    "researchEdges": 623,
+    "unmappedReferences": 157
   },
   "researchProvenance": [
     {
@@ -4481,6 +4481,24 @@
       ]
     },
     {
+      "ideaId": "petinsure-pulse",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "pharmacompass",
       "quality": "mention",
       "references": [
@@ -6893,6 +6911,42 @@
       ]
     },
     {
+      "ideaId": "vetbill-decoder",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "vethelp24",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "vibepm",
       "quality": "mention",
       "references": [
@@ -7181,7 +7235,6 @@
     "annual-ritual",
     "anxiety",
     "app-intents",
-    "appeal",
     "appeals",
     "apple-foundation-models",
     "apple-watch",
@@ -7249,6 +7302,7 @@
     "card-payment",
     "care",
     "care-labels",
+    "carecredit",
     "caregiver-dashboard",
     "carplay",
     "carriers",
@@ -7269,6 +7323,7 @@
     "cinema",
     "civic",
     "claim-appeal",
+    "claim-denial",
     "client-brief",
     "client-communication",
     "client-onboarding",
@@ -7303,6 +7358,8 @@
     "contracts",
     "controllers",
     "controls",
+    "cost-compare",
+    "cost-pre-estimate",
     "cottage-cosmetics",
     "cottage-food",
     "counter",
@@ -7373,17 +7430,20 @@
     "earbuds",
     "ebooks",
     "ecommerce",
+    "economic-euthanasia",
     "electrical",
     "electricity",
     "electrification",
     "electronics",
     "elevation-certificate",
+    "emergency",
     "emergency-preparedness",
     "employers",
     "engraving",
     "eob",
     "epoxy",
     "epub",
+    "er-locator",
     "escalation",
     "esim",
     "estimates",
@@ -7422,6 +7482,7 @@
     "file-transfer",
     "filters",
     "financial-aid",
+    "financing",
     "fintech",
     "fintech-adjacent",
     "first-time-buyer",
@@ -7562,6 +7623,7 @@
     "m6-entitlement-reference",
     "m7-evidence-pack-builder",
     "m8-escalation-nudger",
+    "m9-counterparty-routing",
     "magnetometer",
     "malpractice",
     "manual-claim",
@@ -7594,6 +7656,7 @@
     "multi-generational",
     "musicians",
     "myfitnesspal",
+    "naic-model-act",
     "navigation",
     "negotiation",
     "networking",
@@ -7644,8 +7707,8 @@
     "permissions",
     "personal-crm",
     "pesticides",
+    "pet-emergency",
     "pet-grooming",
-    "pet-insurance",
     "pharmacy",
     "pharmacy-inventory",
     "phone",
@@ -7666,6 +7729,8 @@
     "portability",
     "post-nar",
     "practice",
+    "pre-auth",
+    "pre-existing",
     "pre-meeting",
     "prediction",
     "prescription-pricing",
@@ -7790,6 +7855,7 @@
     "standards",
     "state-aware",
     "state-doi-templates",
+    "state-statute",
     "statute-of-limitations",
     "stems",
     "stencil",
@@ -7809,6 +7875,7 @@
     "takeout",
     "tap-to-pay",
     "teardown",
+    "telehealth",
     "temperature",
     "tenant-rights",
     "terminal",
@@ -7837,6 +7904,7 @@
     "translation",
     "transmission",
     "transparency",
+    "triage",
     "tripod",
     "trucking",
     "trust-layer",
@@ -7853,6 +7921,8 @@
     "vacation-rentals",
     "vehicles",
     "venues",
+    "vet-bill",
+    "vet-supply",
     "vibe-coding",
     "vibration",
     "vinyl",
@@ -7883,11 +7953,11 @@
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:133380cf3dbe8d2ef1f54bd19a5ef9c56189145cf443e5ad91477a96acb9f56b",
+  "sourceHash": "sha256:f5f803d24dbb60f6d642c1e242e88cd496e7737514d3da7bad5e7d28ef9659f3",
   "tagStats": {
-    "assignments": 2330,
-    "doubletons": 120,
-    "singletons": 738,
-    "unique": 1048
+    "assignments": 2382,
+    "doubletons": 124,
+    "singletons": 754,
+    "unique": 1069
   }
 }

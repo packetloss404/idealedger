@@ -5368,6 +5368,11 @@
           "anchor": "round-13-synthesis-tick-18-2026-08-12-1120",
           "depth": 2,
           "text": "Round 13 Synthesis Tick 18 (2026-08-12 ~11:20)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-19-2026-08-12-1145",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 19 (2026-08-12 ~11:45)"
         }
       ],
       "linkedIdeaIds": [
@@ -5404,6 +5409,7 @@
         "pausemarket",
         "payroll-picket",
         "pendant-trust-layer",
+        "petinsure-pulse",
         "pharmacompass",
         "pharmacysentry",
         "practice-pulse",
@@ -5424,12 +5430,14 @@
         "surchargescope",
         "taponly-card-directory",
         "taproom-podcast-community",
+        "vetbill-decoder",
+        "vethelp24",
         "vibepm",
         "waitlistrelay"
       ],
       "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
       "route": "/research/research-marathon-2026-08-11-tracker",
-      "sha256": "sha256:e6fda0d78a4954e4a272e85ae915601d5e6e4b2567e42af689d55cb2dd57efc3",
+      "sha256": "sha256:abd42c35349be551429175372380c6b4205141e9197214b644fe72b776be6bf9",
       "slug": "research-marathon-2026-08-11-tracker",
       "title": "Research Marathon Tracker — 2026-08-11 (continuation)"
     },
@@ -5616,6 +5624,7 @@
         "pausemarket",
         "payroll-picket",
         "pendant-trust-layer",
+        "petinsure-pulse",
         "pharmacompass",
         "pharmacysentry",
         "practice-pulse",
@@ -5636,6 +5645,8 @@
         "surchargescope",
         "taponly-card-directory",
         "taproom-podcast-community",
+        "vetbill-decoder",
+        "vethelp24",
         "vibepm",
         "waitlistrelay"
       ],
@@ -11050,5 +11061,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:133380cf3dbe8d2ef1f54bd19a5ef9c56189145cf443e5ad91477a96acb9f56b"
+  "sourceHash": "sha256:f5f803d24dbb60f6d642c1e242e88cd496e7737514d3da7bad5e7d28ef9659f3"
 }

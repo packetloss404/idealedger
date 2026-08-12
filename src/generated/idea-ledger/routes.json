@@ -287,6 +287,7 @@
     "pet-food-runway",
     "pet-recall-match",
     "pet-tag-tap-test",
+    "petinsure-pulse",
     "pharmacompass",
     "pharmacysentry",
     "phone-torque-angle",
@@ -425,6 +426,8 @@
     "verified-audio-tag-edit",
     "verified-lossless-metadata-scrub",
     "verified-phone-ssd-offload",
+    "vetbill-decoder",
+    "vethelp24",
     "vibepm",
     "video-challenge-league",
     "video-postcards",
@@ -693,6 +696,7 @@
     "/ideas/pet-food-runway",
     "/ideas/pet-recall-match",
     "/ideas/pet-tag-tap-test",
+    "/ideas/petinsure-pulse",
     "/ideas/pharmacompass",
     "/ideas/pharmacysentry",
     "/ideas/phone-torque-angle",
@@ -831,6 +835,8 @@
     "/ideas/verified-audio-tag-edit",
     "/ideas/verified-lossless-metadata-scrub",
     "/ideas/verified-phone-ssd-offload",
+    "/ideas/vetbill-decoder",
+    "/ideas/vethelp24",
     "/ideas/vibepm",
     "/ideas/video-challenge-league",
     "/ideas/video-postcards",
@@ -955,5 +961,5 @@
     "xprize-backpocket-opportunity-audit-2026-08-11",
     "xprize-focus-group-synthesis-2026-08-10"
   ],
-  "sourceHash": "sha256:133380cf3dbe8d2ef1f54bd19a5ef9c56189145cf443e5ad91477a96acb9f56b"
+  "sourceHash": "sha256:f5f803d24dbb60f6d642c1e242e88cd496e7737514d3da7bad5e7d28ef9659f3"
 }

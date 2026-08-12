@@ -19,14 +19,14 @@ import {
 
 describe('generated ledger repository', () => {
   it('exposes the committed corpus without losing records', () => {
-    expect(ideas).toHaveLength(404);
+    expect(ideas).toHaveLength(407);
     expect(researchMetadata).toHaveLength(52);
     expect(ledgerCounts).toEqual({
       dossiers: 52,
       focusGroupStudies: 33,
-      ideas: 404,
-      researchEdges: 617,
-      searchDocuments: 456,
+      ideas: 407,
+      researchEdges: 623,
+      searchDocuments: 459,
     });
     expect(new Set(ideas.map((idea) => idea.id)).size).toBe(ideas.length);
     expect(researchProvenance).toHaveLength(ideas.length);
@@ -114,6 +114,6 @@ describe('generated ledger repository', () => {
     expect(getIdeaById('crash-recoverable-field-recorder')?.name).toBe('CrashTape');
     expect(getIdeaById('not-an-idea')).toBeUndefined();
     expect(tagOptions[0]?.count).toBeGreaterThanOrEqual(tagOptions.at(-1)?.count ?? 0);
-    expect(tagOptions).toHaveLength(1048);
+    expect(tagOptions).toHaveLength(1069);
   });
 });

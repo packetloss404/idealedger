@@ -1,0 +1,153 @@
+{
+  "topic": "Pet care consumer pain 2025-26 (vet cost opacity, pet insurance denial, EOL price dispersion, vet-CSR missed calls, rural vet scarcity)",
+  "synthesis_method": "simulated_persona focus group + mock-hackathon lens (RevenueCat-eligible, 6-week build, weekly ritual, shareable output, crafted subscription, $100K prize)",
+  "synthesis_date": "2026-08-12",
+  "ingest_notes": "No upstream ingestor source array was found in research/agent-runs when this synthesizer started; an ad-hoc ingest pass was run against the public web (NAPHIA 2025/2026 SOI, AVMA 2025 SotP, USDA Rural Vet Action Plan, BBC/CMA 2025-2026 reports, peer-reviewed vet tech moral-distress study, Lap of Love + CodaPet pricing pages, Canine Journal + ValuePenguin + Healthy Paws pet-debt surveys, petclaim.org denial database, UK Financial Ombudsman pet-denial decision DRN-5771242, AAHA / Digitail / VoiceFleet / Today's Veterinary Business CSR-burnout sources). All sources cited below.",
+  "personas": [
+    {
+      "name": "Rachel Okonkwo",
+      "location": "Suwanee, GA (Gwinnett County, suburban Atlanta, 35 min to nearest 24-hr emergency vet)",
+      "age": 38,
+      "household_income": "$112,000 (her) + $0 co-parent; sole earner, 2 kids ages 9 and 12, 12-year-old beagle 'Moose' (4-year Trupanion policy, $74/mo)",
+      "day_in_life_pain": "Tuesday 4:47 pm: her regular vet calls. Moose has a 2-cm oral mass; cytology comes back melanoma. Two estimates in hand: $5,200 surgery + radiation at the local GP, $4,800 at the regional specialty center, both with 6-month median survival and ~30% metastasis risk. She is 6 days from her son's first day of 6th grade. Humane society euthanasia is $120; Lap of Love at-home euthanasia + private cremation with ashes returned is $1,100. CareCredit pre-approval gives her a $7,000 line at 26.99% APR. She has 4 options and 6 days. She texts her sister, googles 'average cost dog oral melanoma treatment,' opens 3 browser tabs comparing clinic prices, downloads the CareCredit app, calls IMOM (no grants for oncology), calls RedRover (3-week wait, palliative-only), reads the AVMA HHHHHMM Quality of Life scale at 1 am, and cries in the bathroom at 2 am. She is the convergence of the ValuePenguin '76% would take on debt' cohort and the Canine Journal '48% would consider euthanasia at $2,500' cohort. The $5,200 is a real number; $2,818 is the average she says she can absorb before borrowing; she is $2,400 over her own line. She is the moment of economic euthanasia compressed into one phone screen.",
+      "current_workaround": "3 browser tabs + group text to sister + CareCredit + NAPHIA averages + 4 separate phone calls (GP, specialist, IMOM, RedRover). Average time-to-comparison: 3-4 hours over 2 evenings. She has no side-by-side view, no local median, no lower-cost path bundler, no shareable 'here are the 4 options' card for her sister or the kids' father.",
+      "wishlist": "A single app that (1) snaps the estimate photo and surfaces the local median for this procedure in her zip, (2) bundles the 3 lower-cost paths (humane society, Lap of Love, CareCredit) with the actual phone number and a one-tap call, (3) makes a printable side-by-side compare she can text her sister without re-explaining, (4) sends a Sunday 'this is the typical lifetime cost for a senior beagle in 30024' digest so the next time something happens she doesn't start from zero."
+    },
+    {
+      "name": "Diane Castellanos",
+      "location": "Cleveland, OH (West Park neighborhood, AAHA-accredited 4-doctor companion-animal practice, 9,200 active clients, 4-vet FTE + 5 techs + 2 CSRs)",
+      "age": 41,
+      "household_income": "$46,000 (her, CSR II, 6 years at this practice) + $54,000 husband (CNC machinist) = $100,000 HHI, two kids, $1,850/mo take-home, $385/mo childcare",
+      "day_in_life_pain": "Monday 8:14 am: phone line 1 is ringing before she's logged into Cornerstone. The morning queue is already 14 deep by 8:30 (sick pets, vaccine schedulers, prescription refills, an owner asking for 'the cost of putting a 16-year-old cat down' before she's poured coffee). She will field 60-90 calls today. Of those, 18-25 will be 'cost-objection' calls where the owner is shopping or declining an estimate; 4-6 will be euthanasia calls where she reads the aftercare script cold; 2-3 will be live emergencies that need a vet on the line. She absorbs 78%-of-her-cohort moderate-to-severe burnout (British Veterinary Receptionist Association 2024), 67% verbal abuse at least weekly (Veterinary Ireland 2025), and a 32.5% annual turnover in her role (AAHA 2025). Her practice misses 25-35% of incoming calls industry-wide; at $800-$1,200 first-year revenue per new client, that's $50K+ in lost annual revenue per practice, which her practice leadership acknowledges but cannot staff around. She has no live triage script, no 'is this emergency / urgent / routine / refill / cost-objection / euthanasia' card before she picks up. She is the 'shock absorber for the whole hospital' (Digitail 2026) and shock absorbers wear out.",
+      "current_workaround": "Sticky note on the monitor with the cost-objection script. Voicemail inbox she triages at lunch. Eating at the desk. The other CSR went on maternity leave in March and hasn't been replaced. The practice owner has said 'we'll hire someone' for 11 weeks. Diane is the wedge between the $5,200 estimate and the economic-euthanasia decision Rachel makes at 11 pm — Diane takes the call, walks the cost objector through CareCredit, takes the abuse when the owner can't pay, and is gone in 18 months."
+    }
+  ],
+  "pain_signals": [
+    {
+      "signal": "Pre-bill vet estimate is opaque and the 2-7 day decision window has no consumer-side comparator; 48% of US pet owners would consider euthanasia at $2,500 and 76% would go into debt to save their pet (ValuePenguin 2025; Canine Journal 1,000-respondent survey)",
+      "evidence_urls": [
+        "https://nypost.com/lifestyle/pet-owners-vet-bill-debt/",
+        "https://www.healthypawspetinsurance.com/blog/pet-insurance-101/forced-choose-euthanasia-due-to-high-vet-bills.html",
+        "https://www.caninejournal.com/economic-euthanasia/",
+        "https://covetrus.com/insights/cost-care-and-client-loyalty-the-new-rules-of-veterinary-practice/",
+        "https://www.bbc.co.uk/news/articles/ce9xjmz70m5o",
+        "https://www.gov.uk/government/publications/veterinary-services-for-household-pets-final-decision-report/summary-of-the-final-report-html"
+      ],
+      "personas_affected": ["Rachel Okonkwo (6-day decision moment)", "Diane Castellanos (takes the cost-objection call)"],
+      "current_workaround": "Owner opens 3-5 browser tabs (clinic A, clinic B, NAPHIA averages, CareCredit, IMOM/RedRover); spends 3-4 hours over 2 evenings; has no side-by-side compare, no local median, no lower-cost path bundler; the spouse / co-decider can't see what the owner saw.",
+      "why_now_2026": "Vet costs +38.5% since 2019 (Covetrus); UK CMA March 2026 final report mandates itemized bills + written estimates for >£500 with 9-12 month compliance window — but the rule is UK-only. The US has no equivalent federal mandate, only AVMA ethics + a small number of AAHA clinics publishing. Consumer-side US estimate transparency is the wedge the UK rule just proved is needed and US hasn't shipped."
+    },
+    {
+      "signal": "Pet insurance claim denial / pre-existing-condition exclusion is the #1 denial reason and has a 35% appeal win rate that owners never see; NAPHIA 2026 industry is $5.7B GWP, 7.6M pets, US penetration 4.27% with 95.73% of US pets still uninsured (NAPHIA 2026 SOI)",
+      "evidence_urls": [
+        "https://naphia.org/news/naphia-news/soi-report-2025/",
+        "https://naphia.org/industry-data/",
+        "https://rateschaser.com/pet-insurance/news/naphia-2026-state-of-industry-report-protection-gap-2026-07-04/",
+        "https://globalpetindustry.com/news/us-pet-insurance-hits-record-levels-in-2025/",
+        "https://petclaim.org/denial-database",
+        "https://www.financial-ombudsman.org.uk/decision/DRN-5771242.pdf",
+        "https://content.naic.org/sites/default/files/call_materials/NAPHIA%20Comments%20on%20Draft%20Pet%20Insurance%20Model%20Act_Waiting%20Periods_Renewals_Verifiable%20Source%20Drafting%20Note.docx-c2.pdf",
+        "https://www.petinsurance.com/companion/issues/summer-2025/understanding-pre-existing-conditions-in-pet-insurance/"
+      ],
+      "personas_affected": ["Rachel Okonkwo (4-year Trupanion policy on Moose; doesn't know if Moose's prior dental cleaning counts as pre-existing)", "Diane Castellanos (her practice gets the call when a claim is denied)"],
+      "current_workaround": "Owner calls insurer, gets a denial letter, has no per-insurer appeal scaffolding, no win-rate data, no model-act citation. Financial Ombudsman UK has reversed pre-existing denials (DRN-5771242) but US has no equivalent route. NOTE: this pain is partly covered by the existing `denialpilot` record (which explicitly cites Priya's $3,400 pet urinary blockage denial as a primary persona), so any new pet-insurance-denial-appeal idea fails the >70% name/one_liner overlap test against the existing record.",
+      "why_now_2026": "Pet insurance is the fastest-growing US insurance line — premium growth 20.8% YoY outpaces enrollment growth 9% YoY (NAPHIA 2026), which means the average policy is getting more expensive faster than new policies are being written. The pre-existing exclusion is the #1 denial reason at the lowest win rate (35%) per the petclaim.org denial database, and carriers raise rates 10-30% annually as pets age — so the protection gap is widening at the high-cost end where claims are most needed. NAIC Pet Insurance (C) Working Group is finalizing the Pet Insurance Model Act in 2026 with a 'verifiable sources' definition for pre-existing that the consumer-side will need to operationalize."
+    },
+    {
+      "signal": "In-home pet euthanasia is a $300-$1,100 expense dispersed across Lap of Love (37 states, 350+ vets), CodaPet (450+ vets, 50 states), humane societies ($35-$120), and ASPCA Pet Loss Hotline, with no cross-provider price compare and no consumer-side bundler",
+      "evidence_urls": [
+        "https://petaftercareguide.com/articles/lap-of-love-cost",
+        "https://www.codapet.com/pricing",
+        "https://www.lapoflove.com/blog/end-of-life-care-and-euthanasia/how-much-does-in-home-pet-euthanasia-cost",
+        "https://www.bestiepaws.com/nearby/free-or-low-cost-in-home-pet-euthanasia-near-me/",
+        "https://www.codapet.com/cities/atlanta-ga"
+      ],
+      "personas_affected": ["Rachel Okonkwo (in 6 days she may be choosing between $1,100 in-home vs $120 humane society)", "Diane Castellanos (her practice handles 4-6 euthanasia calls/wk; no standardized aftercare price script)"],
+      "current_workaround": "Owner searches 3 different provider sites, calls Lap of Love 1-855-933-5683 + CodaPet + local humane society separately; weight/distance/after-hours surcharge hidden until the booking page; no ASPCA Pet Loss Hotline surfaced in the flow.",
+      "why_now_2026": "Lap of Love + CodaPet both reached national scale in 2025-2026 (CodaPet 450+ vets, Lap of Love 37 states / 350+ vets), but neither cross-references the other, neither shows humane-society hardship fees side-by-side, and neither surfaces ASPCA Pet Loss Hotline. The cost range is wide ($35 to $1,100) and the dispersion is invisible to the consumer in the moment."
+    },
+    {
+      "signal": "Vet CSR burnout + missed-call revenue loss is the biggest unsung pain on the supply side: 78% of vet receptionists report moderate-severe burnout (BVRA 2024), 32.5% annual CSR turnover (AAHA 2025), 67% verbal abuse weekly (Veterinary Ireland 2025), 25-35% of incoming calls missed costing $50K+/yr/yr per practice",
+      "evidence_urls": [
+        "https://digitail.com/blog/veterinary-csr-burnout/",
+        "https://voicefleet.ai/blog/2026-03-14-veterinary-receptionist-burnout",
+        "https://csvets.com/new-blog/8-ways-to-reduce-csr-burnout/",
+        "https://todaysveterinarybusiness.com/rethinking-veterinary-front-desk-management/",
+        "https://www.vetbridgeusa.com/reports/state-of-the-veterinary-workforce-2026",
+        "https://petdesk.com/resources/csr-survival-guide",
+        "https://ebusiness.avma.org/files/productdownloads/002_AVMA_SotPReport25_NoPasswordPRO.pdf",
+        "https://avmajournals.avma.org/view/journals/javma/aop/javma.24.10.0659/javma.24.10.0659.xml"
+      ],
+      "personas_affected": ["Diane Castellanos (CSR; primary persona)", "Rachel Okonkwo (the missed-call owner; 1 in 4 of her calls is sent to voicemail)"],
+      "current_workaround": "1-receptionist + sticky notes + 'phone tree' menus + scripts that don't exist for cost-objection or euthanasia calls; CSR eats lunch at the desk; 86% of US vet practices are short-staffed (VetBridge 2026), 51% have annual turnover above 20%, 82% say licensed vet techs are the hardest role to fill, 42% are turning away 10%+ of appointment requests because they lack staff.",
+      "why_now_2026": "86% of US vet practices short-staffed, CSR turnover 32.5%, 25-35% of calls missed = $50K+/yr/yr revenue loss per practice. Vet CSRs are the unsung operational wedge. Vet tech moral-distress study (JAVMA 2025) found 97.8% of vet techs encounter futile treatment; 83.7% asked to act against conscience; 76.9% report moderate-severe stress. The CSR + tech shortage is the supply-side equivalent of the consumer economic-euthanasia decision — both stem from the same root: the US vet market is not staffed to handle the demand."
+    },
+    {
+      "signal": "Rural pet owner has 60-120 minute drive to nearest vet; USDA declared 243 rural vet shortage areas in 46 states in 2025 (highest ever) and added $15M to VMLRP + $40K/yr Malak Scholarship starting 2026, but the companion-animal shortage is rising as food-animal share declines",
+      "evidence_urls": [
+        "https://www.usda.gov/sites/default/files/documents/usda-rural-veterinary-action-plan.pdf",
+        "https://www.nifa.usda.gov/vmlrp-map",
+        "https://www.avma.org/sites/default/files/2025-03/Rural-Veterinary-Workforce-Act-issue-brief-Digital-updated-3.27.25.pdf",
+        "https://www.avma.org/news/usda-announces-plan-address-rural-federal-veterinary-shortages",
+        "https://www.vet.cornell.edu/about-us/news/20251203/usda-expands-loan-repayment-and-rural-veterinary-support"
+      ],
+      "personas_affected": ["a rural companion-animal owner in NV/UT/WY/SD/NE/CO/GA/MS/OR/ID (the 10 highest-nominated states in 2025) who drives 60-120 min for routine and 2+ hours for ER"],
+      "current_workaround": "call ahead, drive 1-2 hours each way, no rural telehealth option for triage, no 'is this an emergency or can it wait' pre-screen; vet school debt avg $202K keeps new grads in metro areas.",
+      "why_now_2026": "USDA declared 243 shortage areas in 2025 — the highest ever. The companion-animal share is rising as food-animal practice declines; vet debt $202K + $40K/yr Malak Scholarship + $15M VMLRP expansion are 2026 inflections. But none of these address the *companion-animal* rural owner who is the actual pet-care consumer — only food-animal vets."
+    }
+  ],
+  "idea_hypotheses": [
+    {
+      "name": "PetFairQuote",
+      "id_suggestion": "pet-fairquote",
+      "one_liner": "Snap a vet estimate; get the local median + 3 lower-cost paths (humane society, hospice, BNPL) in 60s. Sunday pet-cost digest in your zip.",
+      "target_user": "US pet owner who just received a $1,000-$10,000 vet estimate and has a 2-7 day decision window (76% of US pet owners; 53% can't cover a $1K emergency without borrowing per ValuePenguin 2025).",
+      "mechanism": "M14 (price registrar narrowed to the *pet* vertical with a stable unit: procedure + species + size + zip) + M6 (entitlement/rule reference: humane society hardship rules, IMOM/RedRover grants, CareCredit BNPL terms, ASPCA Pet Loss Hotline) + M16 (change digest: Sunday 'cost-of-care in your zip' digest with the 5 most common procedures for the user's pet profile) + M25 (authority boundary: explicitly labels 'local median from [N] public price lists' not 'what you should pay').",
+      "payer": "$4.99/mo or $34/yr 'PetFairQuote Pro' consumer subscription; sponsored CareCredit placement at the comparison step; humane-society referral fee; vet-clinic SaaS tier ($79/mo) for clinics that publish prices and want a 'fair price' badge.",
+      "hackathon_fit": "high",
+      "mechanism_lineage": "Vertical narrow of `quote-comparison` (passed_market — 'Commit to one trade or repair category and validate the comparison schema'); M14 + M6 + M16 + M25 bundle pattern echoed in `energysheet` (PJM/V2H rebate stack, tick 18) and `rebate-stacker` (post-OBBBA rebate stacking, tick 18) — both are vertical-narrow + price-stack + authority-boundary products. The M14 failure condition ('cold start and heterogeneous cases make normal unsafe') is mitigated by the vertical narrowness (pet is one of the most procedure-stabilized verticals — vaccines, dentals, spay/neuter, euthanasia all have stable unit definitions), the Authority Boundary M25 label, and the per-zip crowd-sourced estimate submissions that grow the denominator organically.",
+      "primary_risk": "Vets stop publishing any prices (reverts M14 to authority-boundary M25-only with low signal); partner AAHA clinic(s) won't pre-publish a public price list to back the local median; the 'above/below median' badge is too noisy in a $5,200 oncology estimate where the right comparator is specialist pricing, not GP pricing. Kill trigger: <50 partner-clinic price-list commitments OR <1,000 crowd-sourced estimate submissions within 60 days of launch.",
+      "source_overlap_check": "No name/one_liner collision with `denialpilot`, `rateradar`, `surchargescope`, `insurancereaper`, `billdr`, `modmatch`, `pet-food-runway`, `pet-chip-registry-pulse`, `pet-tag-tap-test`, `pet-recall-match`. The pet insurance denial wedge is explicitly NOT addressed (covered by `denialpilot` persona Priya). Pre-bill (not post-bill) domain separation from `billdr`, `surchargescope`. Veterinary (not human-medical) domain separation from `billdr`. Pet (not auto/home) domain separation from `quote-comparison` (passed_market). Vertical-narrowing a passed_market cell is the explicit resurrection trigger cited in the existing record."
+    },
+    {
+      "name": "PetFarewell Kit",
+      "id_suggestion": "pet-farewell-kit",
+      "one_liner": "A shared last-days care log for your pet — HHHHHMM diary, family-shared, Lap of Love vs CodaPet vs humane-society compare. $2.99/mo.",
+      "target_user": "US pet owner with a senior or terminally-ill pet in hospice (3-5% of US pet households = ~5M pets/yr at end of life, weighted to dogs >10 yrs and cats >14 yrs).",
+      "mechanism": "M5 (share/photo intake: daily QoL log + family-shared access for spouse, adult children, in-home sitter) + M9 (deadline state machine: 'days since last good day' counter and 'more good than bad' trend with HHHHHMM) + M20 (external-party routing: Lap of Love / CodaPet / humane-society / ASPCA Pet Loss Hotline direct handoff with the user's zip and a price range) + M24 (accepted-handoff state: named family member acknowledges last dose or last QoL log, distinguishing 'logged' from 'administered').",
+      "payer": "$2.99/mo or $24/yr consumer subscription; memorial-cremation referral fees; vet-hospice SaaS tier; optional ASPCA Pet Loss Hotline referral partnership.",
+      "hackathon_fit": "high",
+      "mechanism_lineage": "M5 from JobNote / SnapInvoice (passed_market) extended to EOL care with explicit 'logged vs administered' boundary language; M9 from process-tracker cell; M20 from funeral-certifier and customs-sender cell — pet EOL is the same external-party-routing problem at smaller stakes; M24 from rental/lab accepted-handoff cell. The 'shared caregiver acknowledgment' is the explicit differentiator vs Ralph QoL (free, single-user, diary only).",
+      "primary_risk": "Ralph QoL is free with the same HHHHHMM diary; Lap of Love already shows local pricing; ASPCA Pet Loss Hotline already exists. The unique wedge is the *family-shared* + *cross-provider price compare* + *vet-facing printable report* — but the TAM is small (3-5% of pet households in EOL window at any time = ~3-5M US households, and most never subscribe to a free app let alone a paid one). Kill trigger: <500 paying subscribers in 90 days, or Ralph ships a family-shared tier at the same price within 90 days.",
+      "source_overlap_check": "No name/one_liner collision with the off-limits list. Companion (not alternative) to PetFairQuote — different lifecycle moment (EOL vs active treatment). The EOL diary wedge is partly saturated by Ralph QoL, so the *family-shared* + *service directory* are the differentiators."
+    }
+  ],
+  "saturated_cells_observed": [
+    "pet-food-runway (corpus, passed_market) — PawLife, FurNote, Pawtion, retailer subscriptions, connected-scale products",
+    "pet-chip-registry-pulse (corpus, passed_scope) — sanctioned API gap blocks any new entrant",
+    "pet-tag-tap-test (corpus, passed_market) — NFC Tools, ByteTag, PetHub, browser readback own the surface",
+    "pet-recall-match (corpus, passed_market) — free Snacco recall alerts + FDA API",
+    "smart-feeder-ack (corpus, passed_scope) — vendor-API gap; Petlibro and host apps own the device state",
+    "pet-sitter handoff (DoseHandoff, FurPass, PetRelay, SitStayNotes, PetTimely) — 5 direct competitors; round 11 focus group 17 already killed as WEAK",
+    "pet QoL diary (Ralph QoL free; Lap of Love QoL assessment free) — diary wedge saturated with free",
+    "pet EOL service network (Lap of Love 37 states/350+ vets, CodaPet 450+ vets) — owns the network; consumer-side can only partner, not displace",
+    "pet insurance denial appeal (denialpilot persona Priya explicitly covers the $3,400 pet urinary blockage denial) — covered by existing corpus record",
+    "pet insurance pre-claim medical-record sanitizer (denialpilot adjacent) — would fail >70% one_liner overlap",
+    "general vet estimate decoder (quote-comparison, passed_market) — vertical-narrow is the cited resurrection trigger; the pet vertical is the narrow I am advancing",
+    "vet telehealth (Vetster, Dutch, whiskerDocs) — established B2C players 2024-2025; not a hackathon wedge",
+    "vet pharmacy redirect (1-800-PetMeds, Chewy Pharmacy, Costco Pet Rx, Mark Cuban Cost Plus) — saturated",
+    "pet CBD, pet supplements, pet insurance aggregator — small TAM, saturated",
+    "vet CSR / vet office manager phone triage (B2B SaaS, e.g., voicefleet.ai, PetDesk Phones) — B2B SaaS billing, not RevenueCat-eligible for B2C; out of lens"
+  ],
+  "open_wedges": [
+    "Pet micro-capitation insurance comparison (NAPHIA matrix, 4.27% US penetration is the largest in any P&C line) — small TAM per session, but the comparison-decision moment is annual; parked for a future tick",
+    "Pet daycare vaccine-stamp + incident log — B2B/B2C hybrid; small TAM; parked",
+    "Vet-visit voice memo + side-by-side estimate (audio + OCR) — too close to billdr; dropped",
+    "Pet insurance pre-claim medical record sanitizer — covered by denialpilot persona overlap; dropped",
+    "Pet-loss budget + cremation cross-provider compare (Lap of Love vs CodaPet vs humane society) — partial overlap with PetFarewell Kit; can be incorporated as a feature, not a standalone",
+    "Rural companion-animal telehealth + USDA shortage-area navigation — vet telehealth wedge already saturated; rural-only TAM is too small for a 6-week hackathon; parked",
+    "Vet bill installment-plan BNPL pre-screen (CareCredit, Scratchpay, vet-specific) — adjacent to PetFairQuote's lower-cost path feature; can be incorporated as a feature, not a standalone",
+    "Pet medication handoff confirmation (last-dose log + sitter handoff) — already killed in round 11 focus group 17 as WEAK with 5 direct competitors"
+  ],
+  "synthesis_verdict": "Two ideas advance: `pet-fairquote` (primary) + `pet-farewell-kit` (companion EOL). Both pass the mock-hackathon lens (RevenueCat-eligible, 6-week buildable, weekly-ritual + shareable, crafted subscription). Both are B2C and domain-separated from the off-limits list and the existing pet-corpus records. `pet-fairquote` is the strongest single wedge — ValuePenguin 2025 + Canine Journal + Covetrus + UK CMA March 2026 prove the consumer-side estimate opacity is real and growing; the pet vertical is a procedure-stabilized narrow that mitigates M14's cold-start failure condition. Primary risk for both: Ralph QoL (free) and Lap of Love / CodaPet (own the network) plus the UK's already-mandated transparency rule that US hasn't shipped. Recommend advancing `pet-fairquote` to the corpus and parking `pet-farewell-kit` for a follow-up EOL tick if user signals interest."
+}
