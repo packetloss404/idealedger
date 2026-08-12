@@ -1,16 +1,16 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 148,
+    "dossierRefsWithoutMention": 154,
     "dossiers": 52,
     "headingMatchedIdeas": 211,
     "headingReferences": 253,
-    "ideas": 398,
+    "ideas": 404,
     "ideasWithoutResearch": 9,
-    "mentionOnlyIdeas": 152,
-    "mentionReferences": 204,
-    "multiRefIdeas": 136,
-    "researchEdges": 605,
-    "unmappedReferences": 148
+    "mentionOnlyIdeas": 158,
+    "mentionReferences": 210,
+    "multiRefIdeas": 142,
+    "researchEdges": 617,
+    "unmappedReferences": 154
   },
   "researchProvenance": [
     {
@@ -885,6 +885,24 @@
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-09-ROUND7.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "carecedar",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -2001,6 +2019,24 @@
       ]
     },
     {
+      "ideaId": "energysheet",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "equipment-return-receipt-pair",
       "quality": "mention",
       "references": [
@@ -2330,6 +2366,24 @@
           "dossierSlug": "idea-mining-loop-2026-08-10-round9",
           "heading": null,
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND9.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
+      "ideaId": "floodratereview",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
           "quality": "unmapped"
         }
       ]
@@ -3555,6 +3609,24 @@
       ]
     },
     {
+      "ideaId": "medicaremaestro",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "medication-label-reminder",
       "quality": "mention",
       "references": [
@@ -3695,6 +3767,24 @@
           },
           "path": "docs/XPRIZE-FOCUS-GROUP-SYNTHESIS-2026-08-10.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "modmatch",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -4946,6 +5036,24 @@
           },
           "path": "docs/IDEA-MINING-LOOP-2026-08-10-ROUND10-LOOP2.md",
           "quality": "heading"
+        }
+      ]
+    },
+    {
+      "ideaId": "rebatestacker",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -7037,10 +7145,14 @@
   ],
   "singletonTags": [
     "1099",
+    "25c",
+    "25d",
+    "30c",
     "311",
     "401k",
     "Davis-Bacon",
     "WH-347",
+    "aaa-routing",
     "aac",
     "aarp-distribution",
     "accelerometer",
@@ -7060,13 +7172,16 @@
     "ai-denial",
     "ai-detector",
     "ai-knockoff",
+    "ai-load",
     "ai-templates",
     "airprint",
     "albums",
     "ambient-ai",
     "animal-care",
+    "annual-ritual",
     "anxiety",
     "app-intents",
+    "appeal",
     "appeals",
     "apple-foundation-models",
     "apple-watch",
@@ -7127,11 +7242,14 @@
     "calls",
     "cancellation",
     "cancellation-fees",
+    "capacity-charge",
+    "caps",
     "captions",
     "car-buying",
     "card-payment",
     "care",
     "care-labels",
+    "caregiver-dashboard",
     "carplay",
     "carriers",
     "cars",
@@ -7161,6 +7279,7 @@
     "clothing",
     "cloud-storage",
     "coaching",
+    "coastal",
     "coffee",
     "collaboration",
     "college",
@@ -7180,6 +7299,7 @@
     "content",
     "content-engine",
     "context-recovery",
+    "contractor-lookup",
     "contracts",
     "controllers",
     "controls",
@@ -7206,6 +7326,7 @@
     "cycling",
     "daily-ritual",
     "data",
+    "data-center",
     "data-driven",
     "data-sources",
     "dates",
@@ -7237,6 +7358,7 @@
     "displays",
     "dispute",
     "disruption",
+    "distribution",
     "dj",
     "dmv",
     "docket",
@@ -7253,7 +7375,9 @@
     "ecommerce",
     "electrical",
     "electricity",
+    "electrification",
     "electronics",
+    "elevation-certificate",
     "emergency-preparedness",
     "employers",
     "engraving",
@@ -7263,6 +7387,7 @@
     "escalation",
     "esim",
     "estimates",
+    "ev-charger",
     "event-log",
     "exceptions",
     "executive-function",
@@ -7276,9 +7401,11 @@
     "fact-checking",
     "fafsa",
     "fair-plan",
+    "fall-detection",
     "false-assurance",
     "false-invariant",
     "falsified",
+    "family-caregiver",
     "family-code-word",
     "family-safety",
     "familycontrols",
@@ -7288,7 +7415,9 @@
     "feature",
     "fee-transparency",
     "feeders",
+    "fema",
     "fhir",
+    "fiduciary",
     "file-sharing",
     "file-transfer",
     "filters",
@@ -7298,7 +7427,10 @@
     "first-time-buyer",
     "fit",
     "fit-matching",
+    "fixed-bid",
     "flights",
+    "flood-insurance",
+    "flood-zone",
     "flooring",
     "florists",
     "fluids",
@@ -7341,17 +7473,22 @@
     "hard-of-hearing",
     "hardware-keys",
     "hardware-state",
+    "hcbs-waiver",
     "health",
     "health-data",
     "health-insurance",
     "healthkit",
+    "hear",
     "hearing",
     "hearing-aids",
+    "heat-pump",
     "high-stakes",
     "hobbies",
     "home-insurance",
+    "home-mods",
     "home-theater",
     "homeowners",
+    "homes",
     "horses",
     "hospital-billing",
     "hospitality",
@@ -7360,6 +7497,7 @@
     "housing",
     "http",
     "human-in-the-loop",
+    "hurricane",
     "hvac",
     "ics",
     "id3",
@@ -7377,6 +7515,7 @@
     "invoice-fraud",
     "invoicing",
     "iot",
+    "irmaa",
     "itinerary",
     "jobber",
     "jobs",
@@ -7436,6 +7575,8 @@
     "markets",
     "measurements",
     "mechanism-lineage-m6-m18",
+    "medicare",
+    "medicare-advantage",
     "meetings",
     "membership",
     "memories",
@@ -7444,7 +7585,9 @@
     "meters",
     "microchip",
     "midi",
+    "mitigation",
     "mixing",
+    "mmwave",
     "move-out",
     "multi-camera",
     "multi-form",
@@ -7455,13 +7598,17 @@
     "negotiation",
     "networking",
     "news",
+    "nfip",
     "no-install-link",
     "no-show",
     "no-surprises-act",
+    "no-wearable",
     "nutrition",
+    "obbb",
     "ocr-llm",
     "ocr-receipt",
     "odometer",
+    "oep",
     "offers",
     "on-device-ml",
     "on-time",
@@ -7471,11 +7618,13 @@
     "orders",
     "organization",
     "orientation",
+    "ot-audit",
     "otd",
     "oura",
     "outcomes",
     "overtime",
     "painting",
+    "panel-upgrade",
     "parcels",
     "parent",
     "parental-controls",
@@ -7504,7 +7653,9 @@
     "physical-input",
     "physical-state",
     "pig-butchering",
+    "pjm",
     "plain-english",
+    "plan-comparison",
     "plants",
     "platform-control",
     "platform-entitlement",
@@ -7540,9 +7691,12 @@
     "quick-look",
     "quote",
     "quote-accuracy",
+    "rate-case",
     "rate-filing",
+    "ratepayer",
     "re-entry",
     "reactions",
+    "rebate",
     "recalls",
     "recap",
     "reconnect",
@@ -7576,12 +7730,14 @@
     "revival",
     "rideshare",
     "rights",
+    "risk-rating-2",
     "ritual",
     "rolling-buffer",
     "romance-scam",
     "rotating-secret",
     "routes",
     "routines",
+    "rr20",
     "run-of-show",
     "saas",
     "safety-boundary",
@@ -7622,7 +7778,6 @@
     "side-project",
     "silhouette",
     "slots",
-    "solar",
     "solo-creators",
     "solo-practitioner",
     "sonos",
@@ -7663,6 +7818,7 @@
     "thread",
     "tickets",
     "tile",
+    "time-of-use",
     "timecards",
     "timelines",
     "timezones",
@@ -7679,6 +7835,7 @@
     "transit",
     "transitions",
     "translation",
+    "transmission",
     "transparency",
     "tripod",
     "trucking",
@@ -7691,6 +7848,7 @@
     "usb",
     "usps",
     "uti",
+    "utility-bill",
     "v0",
     "vacation-rentals",
     "vehicles",
@@ -7725,11 +7883,11 @@
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:e75303fe0be54388043fbe8fd37716743244237aaef2a75c5d34276780412da6",
+  "sourceHash": "sha256:133380cf3dbe8d2ef1f54bd19a5ef9c56189145cf443e5ad91477a96acb9f56b",
   "tagStats": {
-    "assignments": 2231,
+    "assignments": 2330,
     "doubletons": 120,
-    "singletons": 688,
-    "unique": 997
+    "singletons": 738,
+    "unique": 1048
   }
 }

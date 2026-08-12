@@ -5358,12 +5358,23 @@
           "anchor": "round-13-synthesis-tick-16-2026-08-12-1050",
           "depth": 2,
           "text": "Round 13 Synthesis Tick 16 (2026-08-12 ~10:50)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-17-2026-08-12-1100",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 17 (2026-08-12 ~11:00)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-18-2026-08-12-1120",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 18 (2026-08-12 ~11:20)"
         }
       ],
       "linkedIdeaIds": [
         "billdr",
         "brief-case-onboarding",
         "canarycall",
+        "carecedar",
         "castcut-repurpose",
         "certchase-funeral-signature-expediter",
         "closinglens",
@@ -5374,9 +5385,11 @@
         "denialpilot",
         "docket-guard",
         "dottie-adhd-companion",
+        "energysheet",
         "fafsadecoder",
         "firstsession",
         "flamecheck",
+        "floodratereview",
         "homepulse-operator-score",
         "ieppilot",
         "insurancereaper",
@@ -5384,6 +5397,8 @@
         "knockoff-radar",
         "lattice-attention-os",
         "lemonlawai",
+        "medicaremaestro",
+        "modmatch",
         "multistate-form-synthesizer-funeral",
         "otddecoder",
         "pausemarket",
@@ -5396,6 +5411,7 @@
         "proofring",
         "pulse-nfc-ritual",
         "rateradar",
+        "rebatestacker",
         "renewalready",
         "rentshield",
         "service-business-recap-engine",
@@ -5413,7 +5429,7 @@
       ],
       "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
       "route": "/research/research-marathon-2026-08-11-tracker",
-      "sha256": "sha256:a3dc7cbc7260ffcea07ae1fbc144aab4357529b6dac8816f44a458e224cb68b2",
+      "sha256": "sha256:e6fda0d78a4954e4a272e85ae915601d5e6e4b2567e42af689d55cb2dd57efc3",
       "slug": "research-marathon-2026-08-11-tracker",
       "title": "Research Marathon Tracker — 2026-08-11 (continuation)"
     },
@@ -5569,6 +5585,7 @@
         "billdr",
         "brief-case-onboarding",
         "canarycall",
+        "carecedar",
         "castcut-repurpose",
         "certchase-funeral-signature-expediter",
         "closinglens",
@@ -5579,9 +5596,11 @@
         "denialpilot",
         "docket-guard",
         "dottie-adhd-companion",
+        "energysheet",
         "fafsadecoder",
         "firstsession",
         "flamecheck",
+        "floodratereview",
         "homepulse-operator-score",
         "ieppilot",
         "insurancereaper",
@@ -5590,6 +5609,8 @@
         "lattice-attention-os",
         "lemonlawai",
         "lotmatch-r12d-2026-08-11",
+        "medicaremaestro",
+        "modmatch",
         "multistate-form-synthesizer-funeral",
         "otddecoder",
         "pausemarket",
@@ -5602,6 +5623,7 @@
         "proofring",
         "pulse-nfc-ritual",
         "rateradar",
+        "rebatestacker",
         "renewalready",
         "rentshield",
         "service-business-recap-engine",
@@ -11028,5 +11050,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:e75303fe0be54388043fbe8fd37716743244237aaef2a75c5d34276780412da6"
+  "sourceHash": "sha256:133380cf3dbe8d2ef1f54bd19a5ef9c56189145cf443e5ad91477a96acb9f56b"
 }

@@ -11079,9 +11079,252 @@
         "m20-external-party-routing",
         "m25-authority-boundary"
       ]
+    },
+    {
+      "aliases": [
+        "Medicare IRMAA + Plan Comparator",
+        "Senior Medicare OEP Decision Copilot"
+      ],
+      "decision_reason": "Synthesis-loop tick 17 (2026-08-12) surfaced this from the senior-care focus group (Linda, the 78-year-old retired teacher in Tucson AZ on $42,400/yr with Original Medicare + Medigap Plan G + SilverScript SmartRx Part D, whose Medicare Part B jumped to $185/mo in January and SSA just notified her 2026 IRMAA will add another $75/mo to Part D, who doesn't understand why and the SSA hold time is 47 minutes). The convergent pain: Medicare IRMAA + OEP decision paralysis. Hard data from this tick's ingest: CMS 2026 Parts A & B Premiums: 2026 Part B base premium = $202.90/mo (up $17.90 / +9.7% from $185.00 in 2025); Part B deductible = $283 (up $26); IRMAA first-cliff for single filers is $109,000 MAGI, crossing $1 over the threshold adds $1,148/yr in Medicare costs; the top tier ($500K+ single) pays $689.90/mo; CMS 2026 MA & Part D Rate Announcement: MA plans get a 5.06% / $25B+ payment bump in CY 2026, Part D deductible rises to $615 (+$25) and the OOP catastrophic threshold rises to $2,100 (+$100); CMS-0057-F Prior Auth Final Rule: MA payers must expose PA status via Patient Access API within 1 business day. ~7.2M Medicare beneficiaries projected on IRMAA in 2026 (up from 6.4M in 2024 per SSA). The closest existing corpus records are denialpilot (insurance denial appeal, tick 10), priorauthpilot (PA filing, tick 12), and flamecheck (senior romance-scam check-in, tick 11) — all adjacent consumer-side copilot products but none covers Medicare IRMAA + OEP decision support. Saturated adjacent cells at the Medicare-shopping level (Medicare PlanFinder, eHealth, GoHealth, SelectQuote) are commissioned brokers; no consumer-facing fiduciary-style IRMAA + plan-by-drug-cost app exists. Dominant kill risk: a top-3 Medicare broker (eHealth, GoHealth) ships an in-app IRMAA-optimizer + plan comparison as a free feature, or CMS ships a native IRMAA + plan-by-drug-cost tool in PlanFinder within 90 days.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "medicaremaestro",
+      "name": "MedicareMaestro",
+      "one_liner": "Type in your 2024 MAGI, ZIP, and meds — get your 2026 Part B+D IRMAA bill and 3 plan-by-drug-cost comparisons side-by-side.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 2,000 US Medicare beneficiaries (or their adult children) install MedicareMaestro, enter their 2024 MAGI + meds + ZIP, and at least 300 of them report an 'I avoided a $1,000+ IRMAA cliff' or 'I switched to a cheaper plan' or 'I caught a billing error' outcome in the first 90 days, with at least 50 reported IRMAA cliff savings or plan-switch savings; close if a top-3 Medicare broker (eHealth, GoHealth) ships an in-app IRMAA-optimizer + plan comparison as a free feature, or CMS ships a native IRMAA + plan-by-drug-cost tool in PlanFinder within 90 days.",
+      "route": "/ideas/medicaremaestro",
+      "status": "raw",
+      "tags": [
+        "medicare",
+        "oep",
+        "irmaa",
+        "plan-comparison",
+        "b2c",
+        "family-caregiver",
+        "fiduciary",
+        "revenuecat",
+        "monthly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Aging-in-Place Home-Mod Marketplace",
+        "CAPS-Certified Sealed-Bid Mod Installer"
+      ],
+      "decision_reason": "Synthesis-loop tick 17 (2026-08-12) surfaced this from the same senior-care focus group (Linda, who got quotes of $1,200, $2,800, and $4,500 for the same 2-bar + non-slip mat job and has no way to tell which contractor is legit; the three quotes have been sitting in a folder on her daughter Sara's kitchen counter for 3 weeks because no one wants to make the wrong $3,300 decision). The convergent pain: home-modification contractor price opacity (3 quotes, 3x spread). Hard data from this tick's ingest: Genworth + CareScout 2024 Cost of Care Survey: national median home health aide $77,792/yr (+3%), assisted living $70,800/yr (+10%), nursing-home semi-private $111,325/yr (+7%) — a $25K-$50K bathroom/entry modification is now the rational economic alternative to a $70,800/yr facility; Genworth 10% AL cost jump + occupancy rising 77%→84% in 2024; US 65+ population hit 61M in 2024 (Census), 73M by 2030; HUD reports only ~3-5% of US homes are 'aging-ready'; CAPS-certified contractor base is small (~6,000 nationally) and unevenly distributed. The closest existing corpus records are vendor-load-in-scout (LoadIn Scout, raw) and repairman-trade-trust (passed_scope) — both adjacent service-vetting products, neither is aging-in-place specific. Saturated adjacent cells at the contractor-marketplace level (Angi, Thumbtack, HomeAdvisor) are broad, not accessibility-vetted; no contractor marketplace uses sealed-bid + CAPS-certification + accessibility-specialist filter. Dominant kill risk: AARP partners with Angi or Thumbtack to ship a CAPS-vetted sealed-bid aging-in-place marketplace as a free feature within 90 days, or a NARI-led contractor cooperative launches their own platform.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "modmatch",
+      "name": "ModMatch",
+      "one_liner": "Three vetted grab-bar installers in your ZIP compete with a sealed fixed-bid — pick by price, not by who showed up first.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,500 US households planning aging-in-place home mods install ModMatch, post at least 1 job each, and at least 200 of them report an 'I picked a contractor with confidence' or 'I saved 30%+ on the job' or 'I avoided a shoddy installer' outcome in the first 90 days, with at least 50 reported completed jobs; close if AARP partners with Angi or Thumbtack to ship a CAPS-vetted sealed-bid aging-in-place marketplace as a free feature within 90 days, or a NARI-led contractor cooperative launches their own platform.",
+      "route": "/ideas/modmatch",
+      "status": "raw",
+      "tags": [
+        "home-mods",
+        "marketplace",
+        "caps",
+        "accessibility",
+        "fixed-bid",
+        "b2c",
+        "ot-audit",
+        "revenuecat",
+        "monthly-ritual",
+        "shareable",
+        "m19-multi-form-synthesization",
+        "m20-external-party-routing"
+      ]
+    },
+    {
+      "aliases": [
+        "Long-Distance Family Caregiver Dashboard",
+        "Medicare Claims + Falls + AAA Copilot"
+      ],
+      "decision_reason": "Synthesis-loop tick 17 (2026-08-12) surfaced this from the same senior-care focus group (Marcus, the 52-year-old Plano TX B2B marketing director who did ~12 hrs/week of unpaid caregiving for his 79-year-old father Hiroshi in Allen TX; last Tuesday Hiroshi fell in the kitchen at 11pm wearing no Apple Watch because it was on the charger, lay on the floor 40 minutes; this month Marcus has spent 6 hours on the phone with Humana fighting a retroactively denied PT claim; doesn't know if his father qualifies for the Texas HCBS STAR+PLUS waiver, doesn't know which Area Agency on Aging covers Collin County, and Google returns 211 Texas plus four SEO spam sites). The convergent pain: family caregiver time tax + invisible SHIP/AAA infrastructure + PERS/wearable fail in the moment of need. Hard data from this tick's ingest: AARP + National Alliance for Caregiving 2025: 63 million Americans are unpaid family caregivers (1 in 4 adults, +45% since 2015); 40%+ deliver high-intensity care but only 22% receive any training; 1 in 5 cannot afford basic needs like food and 1 in 4 are taking on debt; AARP Public Policy Institute Valuing the Invaluable 2026: 59M family caregivers provided 49.5B hours valued at $1T+ in 2024; Apple Watch fall detection misses ~1 in 3 actual falls in 65+ (Harvard Medical School 2023); Lecanemab (Leqembi) and Donanemab (Kisunla) approvals (2023/24) push earlier MCI diagnosis → longer window of 'forgets to charge or wear the device'; PERS pendant adoption stalled at ~3% of 65+ households (CTIA 2024). The closest existing corpus records are family-caregiving (Family Caregiving Coordinator, passed_market), medication-label-reminder (raw, OCR med reminder), and flamecheck (senior romance-scam check-in, tick 11) — adjacent caregiving-adjacent products but none covers the long-distance caregiver dashboard + wearable-free fall routing + AAA navigation combination. Saturated adjacent cells at the family-caregiving level (Lotsa Helping Hands, CaringBridge, Care Zone) are 2014-era UX with no Medicare-claims integration, no wearable-free fall routing, no AAA navigation. Dominant kill risk: a top-3 home-care platform (Care.com, Honor, Home Instead) ships a Medicare-claims + AAA-navigation family dashboard as a free feature, or Humana/UHC ship a family-facing Medicare-claims dashboard in their member app within 90 days.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "carecedar",
+      "name": "CareCedar",
+      "one_liner": "See your parent's 90 days of Medicare claims, route falls to family-not-911, and surface the AAA in their county to navigate HCBS waivers.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,500 US adult children of aging parents install CareCedar, link at least 1 parent's Medicare account, and at least 300 of them report an 'I caught a denied claim I would have missed' or 'I routed a fall to family instead of 911' or 'I found an AAA waiver I didn't know existed' outcome in the first 90 days, with at least 50 reported caught-denied-claim savings; close if a top-3 home-care platform (Care.com, Honor, Home Instead) ships a Medicare-claims + AAA-navigation family dashboard as a free feature, or Humana/UHC ship a family-facing Medicare-claims dashboard in their member app within 90 days.",
+      "route": "/ideas/carecedar",
+      "status": "raw",
+      "tags": [
+        "caregiver-dashboard",
+        "medicare-advantage",
+        "claims",
+        "fall-detection",
+        "mmwave",
+        "hcbs-waiver",
+        "aaa-routing",
+        "no-wearable",
+        "b2c",
+        "revenuecat",
+        "weekly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m20-external-party-routing",
+        "m22-exception-to-recovery"
+      ]
+    },
+    {
+      "aliases": [
+        "OBBBA Repeal Rebate Calculator",
+        "Residential Electrification Rebate Stacker"
+      ],
+      "decision_reason": "Synthesis-loop tick 18 (2026-08-12) surfaced this from the climate/energy/EV focus group. The OBBBA signed July 4 2025 terminated the 25C $2K/yr heat-pump credit and 25D 30% residential solar + battery ITC for property placed in service after Dec 31 2025; Section 30C EV-charger 30%/$1K ends June 30 2026; HOMES ($8K) and HEAR ($14K LMI) state-administered rebate money remains appropriated but slow to flow and is allocated state-by-state with no federal restoration bill through Aug 2026. The convergent pain: a homeowner doing a $10K-$30K heat-pump / panel-upgrade / solar / EV-charger project in 2026 cannot stack-claim the dead 25C + dying 30C + active HOMES/HEAR + state rebates + utility rebates + OEM rebates + ITC carryforward in one place, and contractors routinely mis-stack. Hard data from this tick's ingest: electrifyatlas.com (25C/25D terminated for placements after 12/31/25, 25D geothermal survives through 2032); watt-wallet.com (30C EV-charger ends 6/30/26, HOMES/HEAR still active but state-by-state); 4-8 week 'silent gap' heat-pump equipment lead times per r/hvacadvice; 200A panel upgrade $1,500-$4,000 nationally and 320/400A $3,500-$8,000 per estimationpro.ai. The closest existing corpus records are two-source-solar-check (raw, 2-source solar panel truthfulness) and breaker-panel-atlas (raw, breaker/panel identification) - both are point-lookups, neither is cross-domain rebate stacking with stack-rule logic. Saturated adjacent cells (EnergySage, Rewiring America, Google Project Sunroof, Angi solar calculators) are pre-OBBBA design; no consumer tool owns the post-OBBBA stack-rules + expiration-deadline + reservation-cutoff wedge. Dominant kill risk: Rewiring America or EnergySage ships a 2026 OBBBA-aware stack-rules + expiration-deadline calculator as a free feature within 90 days, or a state (CA, NY, MA) ships a unified consumer-facing rebate stacker.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "rebatestacker",
+      "name": "RebateStacker",
+      "one_liner": "Type your ZIP, project, and panel amperage - get every federal, state, utility, and OEM rebate you can still claim in 2026 with stack rules, expiration dates, and reservation deadlines.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5,000 US homeowners (or their contractors) install RebateStacker, enter their ZIP + project + panel amperage, and at least 500 of them report an 'I claimed a federal or state rebate I would have missed' or 'I caught a stack-rule violation' or 'I made a $1,000+ project decision based on the stack' outcome in the first 90 days, with at least 100 reported stacked-claim wins; close if Rewiring America or EnergySage ships a 2026 OBBBA-aware stack-rules + expiration-deadline calculator as a free feature, or a state (CA, NY, MA) ships a unified consumer-facing rebate stacker within 90 days.",
+      "route": "/ideas/rebatestacker",
+      "status": "raw",
+      "tags": [
+        "rebate",
+        "obbb",
+        "25c",
+        "25d",
+        "30c",
+        "homes",
+        "hear",
+        "electrification",
+        "heat-pump",
+        "solar",
+        "ev-charger",
+        "panel-upgrade",
+        "b2c",
+        "contractor-lookup",
+        "revenuecat",
+        "monthly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m22-exception-to-recovery",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "Utility Bill Decoder",
+        "PJM Capacity Bill Explainer"
+      ],
+      "decision_reason": "Synthesis-loop tick 18 (2026-08-12) surfaced this from the climate/energy/EV focus group. The convergent pain: 65M Americans in the PJM 13-state footprint (PA, NJ, MD, VA, OH, IL, IN, MI, WV, NC, DC, DE, KY) hit a $329.17/MW-day 2026/27 PJM capacity auction result (up 22% YoY from $269.92 and 9x from $28.92 in 2024/25), driving an estimated 1.5%-5% monthly residential-bill increase starting June 2026, with cumulative PJM families now paying ~$70/mo more than 3 years ago, and AI data-center load cited as the primary driver but invisible on the bill. Hard data from this tick's ingest: electricityrates.com (PJM 2026/27 $329.17, 22% YoY, 9x since 2024/25); vicinityenergy.us ($163B more total / $70/mo extra per household over 3 years; 3 back-to-back auctions $329.17 / $333.44 / pending Dec 2026 suggest high prices through 2030; 2025/26 auction already added ~9% to DC residential bills = $10/mo). The convergent pain: a residential utility bill is unreadable - the 'capacity charge' line, the 'transmission' line, the 'distribution' line, the 'generation' line, the 'supply' line, the 'rider' lines all blend into a single dollar figure, and no consumer-facing tool maps the AI-data-center share to a specific dollar amount on a specific line. The closest existing corpus records are billdr (hospital bill dispute, tick 12) and surchargescope (insurance bill decoder, tick 10) - both are *bill decoder* products but for hospital and insurance bills, not utility bills. Saturated adjacent cells (Genability, UtilityAPI, Arcadia Power) are B2B utility-data APIs; no consumer-facing PJM/utility-bill decoder exists. Dominant kill risk: a regional PJM utility (ComEd, PSEG, BGE, Pepco, Dominion, Duquesne, FirstEnergy) ships a bill-decode + AI-data-center-attribution feature in their app within 90 days, or Arcadia Power ships a consumer-facing bill-decode product.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "energysheet",
+      "name": "EnergySheet",
+      "one_liner": "Upload your monthly utility bill + ZIP - get a line-by-line decode of capacity, transmission, generation, and distribution charges, with the AI data-center share called out in dollars and a 6-month forecast.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 5,000 US utility customers install EnergySheet, upload their monthly bill + ZIP, and at least 1,000 of them report an 'I learned what the capacity charge is paying for' or 'I switched to a time-of-use rate' or 'I disputed a bill line' or 'I contacted my utility about a charge I now understand' outcome in the first 90 days, with at least 300 reported understanding-gain or bill-line-dispute outcomes; close if a regional PJM utility (ComEd, PSEG, BGE, Pepco, Dominion, Duquesne, FirstEnergy) ships a bill-decode + AI-data-center-attribution feature in their app within 90 days, or Arcadia Power ships a consumer-facing bill-decode product.",
+      "route": "/ideas/energysheet",
+      "status": "raw",
+      "tags": [
+        "utility-bill",
+        "pjm",
+        "capacity-charge",
+        "data-center",
+        "ai-load",
+        "transmission",
+        "distribution",
+        "time-of-use",
+        "b2c",
+        "rate-case",
+        "ratepayer",
+        "revenuecat",
+        "monthly-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m22-exception-to-recovery",
+        "m25-authority-boundary"
+      ]
+    },
+    {
+      "aliases": [
+        "FEMA NFIP Risk Rating 2.0 Appeal Copilot",
+        "Flood Insurance Decision Support"
+      ],
+      "decision_reason": "Synthesis-loop tick 18 (2026-08-12) surfaced this from the climate/energy/EV focus group. The convergent pain: FEMA Risk Rating 2.0 (RR2.0) caused an 11-39% decline in new NFIP policies and 5-13% decline in existing policies per a Dec 2025 peer-reviewed Journal of Catastrophe Risk and Resilience study; Louisiana 2023 premiums jumped 234% forcing 52,000 residents out of the program; ~77% of all US NFIP policies now pay more than pre-RR2.0; Texas had 26,300 NFIP policy lapses in 12 months with 86% of TX policyholders seeing monthly premium increases in 2025; premiums rise 18%/year (statutory cap) until reaching FEMA 'full-risk' rate. Hard data from this tick's ingest: hydesmith.senate.gov (Feb 3 2026 bipartisan Senate follow-up letter with peer-reviewed RR2.0 policy-collapse stats); cornyn.senate.gov (June 2025 Senate letter documenting TX 26,300 lapses, 86% increase, 18%/yr statutory cap). The convergent pain: a property owner with a 2026 NFIP renewal notice has no working 'should I appeal, mitigate, or drop?' decision support - the FEMA actuarial model is proprietary, the appeal process is opaque, the mitigation discount catalog varies by community, and the private flood-insurance market (Wright, Neptune, Aon) is fragmented. The closest existing corpus records are denialpilot (insurance denial appeal, tick 10), priorauthpilot (PA filing, tick 12), and billdr (hospital bill dispute, tick 12) - all are *appeal/dispute* products but for insurance, healthcare, and hospital bills, not for FEMA flood-insurance RR2.0. Saturated adjacent cells (FEMA NFIP appeals private sector, Wright Insurance, Neptune Flood) are pre-RR2.0 with no integrated appeal + mitigation + drop-out decision tree. Dominant kill risk: FEMA releases the RR2.0 actuarial model or ships a public appeal-status portal within 90 days, or Wright / Neptune Flood ships a consumer-facing RR2.0 appeal + mitigation + drop-out decision tree.",
+      "dossierSlugs": [
+        "research-marathon-2026-08-11",
+        "research-marathon-2026-08-11-tracker"
+      ],
+      "hackathon_fit": "high",
+      "id": "floodratereview",
+      "name": "FloodRateReview",
+      "one_liner": "Upload your FEMA NFIP renewal notice + property class - get a Risk Rating 2.0 appeal playbook for your flood zone, a mitigation-cost-vs-premium-discount calculator, and a stay-or-drop decision tree with state comparators.",
+      "research": [
+        "docs/RESEARCH-MARATHON-2026-08-11.md",
+        "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md"
+      ],
+      "resurrection_trigger": "Open if 1,000 US NFIP policyholders (or their agents) install FloodRateReview, upload their renewal notice + property class, and at least 200 of them report an 'I appealed and won a reduction' or 'I mitigated and locked in a discount' or 'I switched to private flood and saved $X' or 'I dropped the policy and made a risk-informed decision' outcome in the first 90 days, with at least 50 reported appeal-wins or mitigation-locks or private-switch savings; close if FEMA releases the RR2.0 actuarial model or ships a public appeal-status portal within 90 days, or Wright / Neptune Flood ships a consumer-facing RR2.0 appeal + mitigation + drop-out decision tree.",
+      "route": "/ideas/floodratereview",
+      "status": "raw",
+      "tags": [
+        "flood-insurance",
+        "nfip",
+        "fema",
+        "risk-rating-2",
+        "rr20",
+        "appeal",
+        "mitigation",
+        "elevation-certificate",
+        "b2c",
+        "coastal",
+        "hurricane",
+        "flood-zone",
+        "revenuecat",
+        "annual-ritual",
+        "shareable",
+        "m1-ritual-digest",
+        "m19-multi-form-synthesization",
+        "m22-exception-to-recovery",
+        "m25-authority-boundary"
+      ]
     }
   ],
-  "sourceHash": "sha256:e75303fe0be54388043fbe8fd37716743244237aaef2a75c5d34276780412da6",
+  "sourceHash": "sha256:133380cf3dbe8d2ef1f54bd19a5ef9c56189145cf443e5ad91477a96acb9f56b",
   "sourceSchemaVersion": 1,
   "statusDefinitions": {
     "needs_reconstruction": "Mentioned in ideation, but the complete concept is not present in the current local notes.",
