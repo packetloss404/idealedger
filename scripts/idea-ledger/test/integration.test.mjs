@@ -9,21 +9,21 @@ test('current canonical corpus produces the expected Phase 0 inventory', async (
   const counts = result.artifacts['manifest.json'].counts;
   const quality = result.artifacts['quality-report.json'];
   assert.deepEqual(counts, {
-    ideas: 407,
+    ideas: 410,
     dossiers: 52,
     focusGroupStudies: 33,
-    researchEdges: 623,
-    searchDocuments: 459,
+    researchEdges: 629,
+    searchDocuments: 462,
   });
   assert.equal(quality.counts.headingMatchedIdeas, 211);
-  assert.equal(quality.counts.mentionOnlyIdeas, 161);
-  assert.equal(quality.counts.dossierRefsWithoutMention, 157);
+  assert.equal(quality.counts.mentionOnlyIdeas, 166);
+  assert.equal(quality.counts.dossierRefsWithoutMention, 158);
   assert.equal(quality.counts.ideasWithoutResearch, 9);
   assert.equal(quality.counts.headingReferences, 253);
-  assert.equal(quality.counts.mentionReferences, 213);
-  assert.equal(quality.counts.unmappedReferences, 157);
-  assert.equal(quality.tagStats.assignments, 2388);
-  assert.equal(quality.tagStats.unique, 1071);
+  assert.equal(quality.counts.mentionReferences, 218);
+  assert.equal(quality.counts.unmappedReferences, 158);
+  assert.equal(quality.tagStats.assignments, 2452);
+  assert.equal(quality.tagStats.unique, 1098);
   assert.equal(result.snapshot.sourceFiles.length, 54);
 
   const focusGroups = result.artifacts['focus-groups.json'];

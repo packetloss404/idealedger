@@ -1,18 +1,36 @@
 {
   "counts": {
-    "dossierRefsWithoutMention": 157,
+    "dossierRefsWithoutMention": 158,
     "dossiers": 52,
     "headingMatchedIdeas": 211,
     "headingReferences": 253,
-    "ideas": 407,
+    "ideas": 410,
     "ideasWithoutResearch": 9,
-    "mentionOnlyIdeas": 161,
-    "mentionReferences": 213,
-    "multiRefIdeas": 145,
-    "researchEdges": 623,
-    "unmappedReferences": 157
+    "mentionOnlyIdeas": 166,
+    "mentionReferences": 218,
+    "multiRefIdeas": 148,
+    "researchEdges": 629,
+    "unmappedReferences": 158
   },
   "researchProvenance": [
+    {
+      "ideaId": "1099quarter",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
     {
       "ideaId": "accessibility-mode-receipt",
       "quality": "heading",
@@ -2883,13 +2901,13 @@
     },
     {
       "ideaId": "homepulse-operator-score",
-      "quality": "unmapped",
+      "quality": "mention",
       "references": [
         {
           "dossierSlug": "research-marathon-2026-08-11-tracker",
           "heading": null,
           "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
-          "quality": "unmapped"
+          "quality": "mention"
         },
         {
           "dossierSlug": "research-marathon-2026-08-11",
@@ -3535,6 +3553,24 @@
           "heading": null,
           "path": "docs/VIDEO-REVISIT-2026-08-10.md",
           "quality": "mention"
+        }
+      ]
+    },
+    {
+      "ideaId": "mcadecoder",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
         }
       ]
     },
@@ -6439,6 +6475,24 @@
       ]
     },
     {
+      "ideaId": "supplierswitch",
+      "quality": "mention",
+      "references": [
+        {
+          "dossierSlug": "research-marathon-2026-08-11-tracker",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
+          "quality": "mention"
+        },
+        {
+          "dossierSlug": "research-marathon-2026-08-11",
+          "heading": null,
+          "path": "docs/RESEARCH-MARATHON-2026-08-11.md",
+          "quality": "unmapped"
+        }
+      ]
+    },
+    {
       "ideaId": "surchargescope",
       "quality": "mention",
       "references": [
@@ -6502,13 +6556,13 @@
     },
     {
       "ideaId": "taponly-card-directory",
-      "quality": "unmapped",
+      "quality": "mention",
       "references": [
         {
           "dossierSlug": "research-marathon-2026-08-11-tracker",
           "heading": null,
           "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
-          "quality": "unmapped"
+          "quality": "mention"
         },
         {
           "dossierSlug": "research-marathon-2026-08-11",
@@ -7198,7 +7252,7 @@
     }
   ],
   "singletonTags": [
-    "1099",
+    "1040-es",
     "25c",
     "25d",
     "30c",
@@ -7267,6 +7321,7 @@
     "automations",
     "autoscroll",
     "av",
+    "b-notice",
     "b2c-finance",
     "backend",
     "background",
@@ -7311,6 +7366,7 @@
     "cars",
     "cellular",
     "certified-payroll",
+    "cfpb-1071",
     "challenges",
     "change-of-address",
     "change-orders",
@@ -7325,6 +7381,7 @@
     "cinema",
     "civic",
     "claim-appeal",
+    "class-action",
     "client-brief",
     "client-communication",
     "client-onboarding",
@@ -7338,6 +7395,7 @@
     "coastal",
     "codapet",
     "coffee",
+    "cogs",
     "collaboration",
     "college",
     "color-vision",
@@ -7351,6 +7409,7 @@
     "connectivity",
     "consent",
     "consignment",
+    "consolidation",
     "construction",
     "consumer-protection",
     "content",
@@ -7432,6 +7491,7 @@
     "ebooks",
     "ecommerce",
     "economic-euthanasia",
+    "effective-apr",
     "electrical",
     "electricity",
     "electrification",
@@ -7460,6 +7520,7 @@
     "fabric",
     "facilitation",
     "fact-checking",
+    "factor-rate",
     "fafsa",
     "fair-plan",
     "fall-detection",
@@ -7506,6 +7567,7 @@
     "formulary",
     "fragile-cargo",
     "fraud",
+    "freelancer",
     "freemium",
     "friends",
     "fsa",
@@ -7637,7 +7699,9 @@
     "marine",
     "markers",
     "marketing-automation",
+    "marketman",
     "markets",
+    "mca",
     "measurements",
     "mechanism-lineage-m6-m18",
     "medicare",
@@ -7645,6 +7709,7 @@
     "meetings",
     "membership",
     "memories",
+    "merchant-cash-advance",
     "mesh",
     "messaging",
     "meters",
@@ -7690,6 +7755,7 @@
     "overtime",
     "painting",
     "panel-upgrade",
+    "par-level",
     "parcels",
     "parent",
     "parental-controls",
@@ -7703,6 +7769,7 @@
     "passwords",
     "pause",
     "paychecks",
+    "paypal",
     "paystub",
     "peace-prize",
     "pedals",
@@ -7754,6 +7821,7 @@
     "public-speaking",
     "qol-diary",
     "quantified-self",
+    "quarterly-tax",
     "queue",
     "quick-entry",
     "quick-look",
@@ -7793,6 +7861,7 @@
     "reporting",
     "repurpose",
     "resin",
+    "restaurant",
     "resumable",
     "retirement",
     "revival",
@@ -7815,6 +7884,7 @@
     "scanning",
     "scavenger-hunt",
     "scenes",
+    "schedule-c",
     "schedules",
     "school",
     "scope-creep",
@@ -7846,6 +7916,8 @@
     "side-project",
     "silhouette",
     "slots",
+    "smb",
+    "sole-prop",
     "solo-creators",
     "solo-practitioner",
     "sonos",
@@ -7854,6 +7926,7 @@
     "sponsorships",
     "sports",
     "spotify",
+    "square",
     "ssh",
     "standards",
     "state-aware",
@@ -7863,14 +7936,17 @@
     "stencil",
     "stimulant-shortage",
     "stl",
+    "stockout",
     "storage",
     "streaming",
+    "stripe",
     "strong-substitute",
     "structured-notes",
     "student-loans",
     "subcontractor",
     "substack",
     "subtitles",
+    "supplier",
     "surprise-billing",
     "svg",
     "tags",
@@ -7891,7 +7967,9 @@
     "timelines",
     "timezones",
     "timing",
+    "tin-mismatch",
     "tips",
+    "toast",
     "todoist",
     "tolls",
     "torque-angle",
@@ -7954,11 +8032,11 @@
     "xprize",
     "ynab"
   ],
-  "sourceHash": "sha256:8b8ad876296c00fff04f251e9ebc454853e7ec2e9080d30130ec5824776eb8fc",
+  "sourceHash": "sha256:47852b5d422140109c793b83196e110be34db15ceb0687ffd5f332b38ea56d48",
   "tagStats": {
-    "assignments": 2388,
-    "doubletons": 124,
-    "singletons": 755,
-    "unique": 1071
+    "assignments": 2452,
+    "doubletons": 125,
+    "singletons": 779,
+    "unique": 1098
   }
 }

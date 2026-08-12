@@ -5373,9 +5373,15 @@
           "anchor": "round-13-synthesis-tick-19-2026-08-12-1145",
           "depth": 2,
           "text": "Round 13 Synthesis Tick 19 (2026-08-12 ~11:45)"
+        },
+        {
+          "anchor": "round-13-synthesis-tick-20-2026-08-12-1245",
+          "depth": 2,
+          "text": "Round 13 Synthesis Tick 20 (2026-08-12 ~12:45)"
         }
       ],
       "linkedIdeaIds": [
+        "1099quarter",
         "billdr",
         "brief-case-onboarding",
         "canarycall",
@@ -5402,6 +5408,7 @@
         "knockoff-radar",
         "lattice-attention-os",
         "lemonlawai",
+        "mcadecoder",
         "medicaremaestro",
         "modmatch",
         "multistate-form-synthesizer-funeral",
@@ -5428,6 +5435,7 @@
         "subrefund",
         "subwatchdog",
         "sunday-reflection",
+        "supplierswitch",
         "surchargescope",
         "taponly-card-directory",
         "taproom-podcast-community",
@@ -5437,7 +5445,7 @@
       ],
       "path": "docs/RESEARCH-MARATHON-2026-08-11-TRACKER.md",
       "route": "/research/research-marathon-2026-08-11-tracker",
-      "sha256": "sha256:8d3d14f4def81f08458efe9cc9f75e619dad75a6749f69a4b259901503f5057a",
+      "sha256": "sha256:d211723e8cb4bf8c32c93fe869b43c0ce9bff6ea2c70e141f39b2b94d8922e1c",
       "slug": "research-marathon-2026-08-11-tracker",
       "title": "Research Marathon Tracker — 2026-08-11 (continuation)"
     },
@@ -5590,6 +5598,7 @@
         }
       ],
       "linkedIdeaIds": [
+        "1099quarter",
         "billdr",
         "brief-case-onboarding",
         "canarycall",
@@ -5617,6 +5626,7 @@
         "lattice-attention-os",
         "lemonlawai",
         "lotmatch-r12d-2026-08-11",
+        "mcadecoder",
         "medicaremaestro",
         "modmatch",
         "multistate-form-synthesizer-funeral",
@@ -5643,6 +5653,7 @@
         "subrefund",
         "subwatchdog",
         "sunday-reflection",
+        "supplierswitch",
         "surchargescope",
         "taponly-card-directory",
         "taproom-podcast-community",
@@ -11061,5 +11072,5 @@
       "title": "XPRIZE Focus-Group Synthesis — 2026-08-10"
     }
   ],
-  "sourceHash": "sha256:8b8ad876296c00fff04f251e9ebc454853e7ec2e9080d30130ec5824776eb8fc"
+  "sourceHash": "sha256:47852b5d422140109c793b83196e110be34db15ceb0687ffd5f332b38ea56d48"
 }
