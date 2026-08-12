@@ -800,5 +800,28 @@ The parallel 2-sub-agent fan-out (ingestor + synthesizer) hit the context-passin
 
 **Corpus state:** 416 ideas (+3), 52 dossiers, 641 research edges (+6), 468 search documents (+3), 33 FGS, 1141 unique tags (+21), 2571 tag assignments.
 
+## Round 13 Matrix Tick 3 (2026-08-12 ~14:00)
+
+**Entry:** `death-certificate-forms-atlas-50state` (priority 3 from `research/matrix-queue.json`).
+
+**Gate result: MET.** 50 states + DC + 5 territories mapped across 6 document types (consumer cert-copy app, paper cert restricted distribution, medical cert worksheet, burial-transit permit, fetal death cert, amendment/correction). 35/51 jurisdictions have primary-source 2025-26 form PDFs; 16 rely on form numbers + CDC NCHS national directory anchor.
+
+**Dossier:** [`docs/RESEARCH-DEATH-CERTIFICATE-FORMS-ATLAS.md`](RESEARCH-DEATH-CERTIFICATE-FORMS-ATLAS.md) (33.5KB) — 52-state per-state table with form numbers + URLs + fees for 6 document types; EDRS status by state; common field pattern (U.S. Standard Certificate of Death rev 11/2003); 4 open wedges for a multi-form-synthesizer product; source provenance and resurrection signal.
+
+**Headline findings:**
+- **Federal standard:** U.S. Standard Certificate of Death (rev 11/2003) defines a common field set (decedent info, cause of death Part I/II, certifier, disposition, funeral home, informant, state file #) that all 50 states adopt with state-specific variations. CDC NCHS national directory at https://www.cdc.gov/nchs/w2w/index.htm is the single most-authoritative anchor.
+- **Document types per state:** Every state publishes at least 4 of 8 form types — (1) consumer cert-copy app, (2) paper cert restricted distribution, (3) medical cert worksheet, (4) burial-transit permit, (5) fetal death / stillbirth cert, (6) amendment/correction, (7) state death registration manual, (8) state EDRS login. Form numbers are publicly listed; the paper cert itself is gated.
+- **Notable 2026 revisions:** PA HD02080F rev 03/25; AZ rev 03/18/2026; MS Form 523 rev 02/2026; ND SFN 58646 rev 10-2025; MN DRAAI 01/26/2026; KY VS-33 effective Feb 1 2026; TX Death Registration Handbook Jan 2026 (51 pages); UT Dispositioner Packet 02/2026; Riverside CA 2026 stillbirth app.
+- **EDRS mandatory in 13 states** (MA, NC, NY, TX TxEVER, KY, IA HHS Portal, VT, UT, PA EDRS, FL EDRS, CA EDRS, CO EDRS, WI WRAPPER). **38 states use VitalChek** as third-party online ordering service.
+- **Fees range $5 (FL without CoD) to $30 (NY stillbirth)** per copy. Most states $15-$25.
+- **Identity / eligibility patchwork:** UT and FL have the most detailed ID checklists (15+ primary, 15+ secondary documents); AZ, IA have the lightest.
+
+**Sources used (30 distinct, 0 sub-agents - matrix protocol):** CDC NCHS national directory + U.S. Standard Certificate of Death + Physician's Handbook + ME/Coroner Handbook + EDRS Online Reference Manual; California CDPH VS 24 / VS 111/112/113A/B; Texas DSHS VS-100 / VS-111/112/113/115 / Death Registration Handbook Jan 2026 / Fetal Death Registration Handbook; Pennsylvania HD02080F / HD02036F / SRN 2025-01; Washington CHS-D9-2023 / DOH 422-034; Minnesota DRAAI 01/26/2026 / stillbirthapp 06/2024; Arizona rev 03/18/2026; Florida Broward rev July 2026 + Form 1355 rev March 2026; Utah 2026 cert + Dispositioner Packet 02/2026; Alaska VS-121; Vermont Death Registration Manual; Iowa Code §144.32; Georgia DPH 511-1-3-.23; South Carolina D-0670D; North Dakota SFN 58646; Mississippi Form 523; Wisconsin DHS vital records applications; Missouri 580-0645; California VS 24; New York DOH-5056; Kentucky KY-EDRS / VS-33; Texas VS-100; Oregon OHA death cert worksheet; Iowa HHS Death Registration Portal; Riverside County 2026 stillbirth app.
+
+**Complements matrix-tick 2 (certifier-routing-matrix-50state):** The certifier-routing matrix answers "who can sign, when, under what jurisdiction"; this atlas answers "which form, where to get it, how to fill it, what it costs." Together they form the two-part death-certificate knowledge base for any multi-form-synthesizer product.
+
+**Next matrix entry:** `disposition-permit-atlas-50state` (priority 4) - gate is "at least 15 states have publicly indexed disposition / transit / cremation permit forms reachable without login" - expected_time_minutes 120.
+
+
 
 
