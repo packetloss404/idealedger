@@ -24,7 +24,15 @@ function publicationPayload(envelope) {
 }
 
 export function publicationContentHash(envelope) {
-  return `sha256:${crypto.createHash('sha256').update(stableJson(publicationPayload(envelope))).digest('hex')}`;
+  return `sha256:${crypto.createHash('sha256').update(compactStableJson(publicationPayload(envelope))).digest('hex')}`;
+}
+
+function compactStableJson(value) {
+  if (Array.isArray(value)) return `[${value.map(compactStableJson).join(',')}]`;
+  if (value && typeof value === 'object') {
+    return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${compactStableJson(value[key])}`).join(',')}}`;
+  }
+  return JSON.stringify(value);
 }
 
 function formatAjvErrors(errors = []) {

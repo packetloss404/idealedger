@@ -15,7 +15,12 @@ function hash(envelope) {
     source: envelope.source,
     records: envelope.records,
   };
-  return `sha256:${crypto.createHash('sha256').update(stableJson(payload)).digest('hex')}`;
+  const compact = (value) => {
+    if (Array.isArray(value)) return `[${value.map(compact).join(',')}]`;
+    if (value && typeof value === 'object') return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${compact(value[key])}`).join(',')}}`;
+    return JSON.stringify(value);
+  };
+  return `sha256:${crypto.createHash('sha256').update(compact(payload)).digest('hex')}`;
 }
 
 function publication(idea) {
